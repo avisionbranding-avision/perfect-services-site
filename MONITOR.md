@@ -38,7 +38,7 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 
 - A post JSON that fails to parse because of an obvious syntax slip: fix the syntax only.
 - A broken internal link inside a post's `html`: point it to the closest existing page (the same service in the same city, else the city page, else the service page).
-After a fix, run the build and the link check again; push only if both pass. Never edit `scripts/`, `data/site.json`, `css/`, `index.html`, `netlify.toml`, `ROUTINE.md` or this file. Never delete posts.
+After a fix, run the build and the link check again; push only if both pass. Never edit `scripts/`, `functions/`, `_headers`, `data/site.json`, `css/`, `index.html`, `netlify.toml`, `ROUTINE.md` or this file. Never delete posts.
 
 ## Search visibility per city
 
