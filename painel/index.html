@@ -163,6 +163,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
         <p class="note">Erros disparam uma notificação imediata no seu celular (app do Claude). Avisos só notificam quando aparecem pela primeira vez.</p>
         <ul class="checks" id="checks"><li data-s="pending"><div><b>Aguardando a primeira verificação</b><span>O monitor roda a cada 3 horas e grava o resultado aqui.</span></div><span class="pill" data-s="pending">Aguardando</span></li></ul>
         <ul class="fixes" id="fixes" hidden></ul>
+        <ul class="checks" style="margin-top:8px"><li data-s="pending" id="liveCheck"><div><b>Teste ao vivo das páginas</b><span id="liveDetail">Testa páginas do site agora, a partir deste navegador.</span></div><button class="btn" id="liveAll" type="button">Testar todas</button></li></ul>
         <div class="hist" id="hist" aria-label="Últimas verificações"></div>
       </section>
 
@@ -344,6 +345,26 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     renderStatus(); renderHealth(); renderRankings(); renderFeed();
     $('refreshInfo').textContent = `Ao vivo · atualizado ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
   }
+  // Live test from the viewer's browser (same site, so no cloud network limits)
+  let liveRunning = false;
+  async function liveTest(all) {
+    if (liveRunning) return; liveRunning = true;
+    const li = $('liveCheck'); const out = $('liveDetail');
+    try {
+      const xml = await (await fetch(`/sitemap.xml?t=${Date.now()}`, { cache: 'no-store' })).text();
+      let urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+      if (!all) urls = urls.sort(() => Math.random() - 0.5).slice(0, 12);
+      const bad = []; let done = 0;
+      const worker = async () => { while (urls.length) { const u = urls.pop(); try { const r = await fetch(u, { method: 'HEAD', cache: 'no-store' }); if (!r.ok) bad.push(`${u} (${r.status})`); } catch { bad.push(`${u} (sem resposta)`); } done++; out.textContent = `Testando… ${done} páginas`; } };
+      await Promise.all(Array.from({ length: 6 }, worker));
+      li.dataset.s = bad.length ? 'error' : 'ok';
+      out.textContent = bad.length ? `${bad.length} com problema: ${bad.slice(0, 4).join(', ')}` : `${done} páginas testadas agora, todas respondendo (${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })})`;
+    } catch { li.dataset.s = 'error'; out.textContent = 'Não foi possível ler o sitemap do site.'; }
+    liveRunning = false;
+  }
+  $('liveAll').addEventListener('click', () => liveTest(true));
+  liveTest(false);
+  setInterval(() => liveTest(false), 10 * 60 * 1000);
   $('refreshBtn').addEventListener('click', () => load(true));
   load(true);
   setInterval(() => load(false), 2 * 60 * 1000);
