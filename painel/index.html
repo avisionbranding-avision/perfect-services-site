@@ -140,6 +140,14 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 .insp .btn.go{background:var(--brand);color:var(--panel);border-color:var(--brand)}
 .insp .btn.ok{background:var(--ok);color:var(--panel);border-color:var(--ok)}
 [hidden]{display:none!important}
+.ag{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+.ag li{display:grid;grid-template-columns:minmax(0,1fr);gap:2px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:.86rem}
+.ag li b{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--brand)}
+.ag-you li{grid-template-columns:minmax(0,1fr) auto;align-items:center}
+.ag-you li b{grid-column:1 / -1}
+.ag-you li .pill{grid-column:1 / -1;justify-self:start}
+.assist{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--brand-soft);border-color:transparent}
+.assist .btn.go{background:var(--brand);color:var(--panel);border-color:var(--brand)}
 .tasks{display:grid;gap:10px}
 .task{border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .task.done{background:var(--ok-soft);border-color:transparent}
@@ -225,12 +233,31 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
   </section>
 
   <nav class="tabs" role="tablist" aria-label="Áreas do painel">
+    <button type="button" role="tab" id="tab-agenda" data-tab="agenda" aria-selected="false">Agenda de SEO</button>
     <button type="button" role="tab" id="tab-site" data-tab="site" aria-selected="true">Site e SEO</button>
     <button type="button" role="tab" id="tab-gmn" data-tab="gmn" aria-selected="false">Google Meu Negócio <span class="badge" id="gmnBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-melhorias" data-tab="melhorias" aria-selected="false">Melhorias Google <span class="badge" id="melBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-avaliacoes" data-tab="avaliacoes" aria-selected="false">Avaliações <span class="badge" id="revBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-gscga" data-tab="gscga" aria-selected="false">Search Console & Analytics <span class="badge" id="ggBadge" hidden></span></button>
   </nav>
+
+  <div data-panel="agenda" hidden style="padding-bottom:40px">
+    <section class="card assist" style="margin-bottom:16px">
+      <div><h2>Assistente de IA</h2><p class="note" style="margin:4px 0 0">Ficou com dúvida em algum checklist? O assistente conhece toda a operação e responde passo a passo. Abre no Claude, logado na sua conta.</p></div>
+      <a class="btn go" id="agAssistant" href="#" target="_blank" rel="noopener">Abrir o assistente</a>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card"><h2>O Claude faz sozinho: site</h2><p class="note">Roda na nuvem, com o notebook desligado. Você recebe a notificação no celular.</p><ul class="ag" id="agAutoSite"></ul></section>
+        <section class="card"><h2>O Claude faz sozinho: Google Meu Negócio</h2><p class="note">O Google não deixa publicar automaticamente, então o Claude prepara e você publica.</p><ul class="ag" id="agAutoGmb"></ul></section>
+      </div>
+      <div class="col">
+        <section class="card"><h2>Pendências agora</h2><p class="note">Atualiza sozinho com o que está aberto nas outras abas.</p><ul class="ag ag-you" id="agPend"></ul></section>
+        <section class="card"><h2>Você faz: site</h2><ul class="ag ag-you" id="agYouSite"></ul></section>
+        <section class="card"><h2>Você faz: Google Meu Negócio</h2><ul class="ag ag-you" id="agYouGmb"></ul></section>
+      </div>
+    </div>
+  </div>
 
   <div data-panel="gscga" hidden style="padding-bottom:40px">
     <section class="card" style="margin-bottom:16px">
@@ -810,7 +837,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     document.querySelectorAll('.tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
   }
   document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', `#${b.dataset.tab}`); } catch { /* ignore */ } }));
-  const TABS = ['site', 'gmn', 'melhorias', 'avaliacoes', 'gscga'];
+  const TABS = ['agenda', 'site', 'gmn', 'melhorias', 'avaliacoes', 'gscga'];
   const fromHash = () => { const h = location.hash.slice(1); showTab(TABS.find((t) => h.startsWith(t)) || 'site'); if (h && !TABS.includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
   window.addEventListener('hashchange', fromHash);
   fromHash();
@@ -847,5 +874,6 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 </script>
 <script src="/painel/reviews.js"></script>
 <script src="/painel/gscga.js"></script>
+<script src="/painel/agenda.js"></script>
 </body>
 </html>
