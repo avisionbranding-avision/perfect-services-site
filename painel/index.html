@@ -140,6 +140,19 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 .insp .btn.go{background:var(--brand);color:var(--panel);border-color:var(--brand)}
 .insp .btn.ok{background:var(--ok);color:var(--panel);border-color:var(--ok)}
 [hidden]{display:none!important}
+.tasks{display:grid;gap:10px}
+.task{border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.task.done{background:var(--ok-soft);border-color:transparent}
+.task summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:12px 14px}
+.task summary::-webkit-details-marker{display:none}
+.task summary .n{font:800 .8rem var(--display);color:var(--muted)}
+.task summary b{font-size:.92rem}
+.task summary small{display:block;color:var(--muted);font-size:.78rem;font-weight:500}
+.task .body{padding:0 14px 14px;display:grid;gap:10px;font-size:.86rem}
+.task .body ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.task .why{color:var(--muted)}
+.task .kit{margin:0}
+.task .kit p{white-space:pre-wrap}
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 16px;border-bottom:1px solid var(--line)}
 .tabs button{appearance:none;border:0;background:none;color:var(--muted);font:700 .92rem var(--body);padding:10px 14px;border-bottom:3px solid transparent;margin-bottom:-1px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
 .tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--brand)}
@@ -202,7 +215,33 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
   <nav class="tabs" role="tablist" aria-label="Áreas do painel">
     <button type="button" role="tab" id="tab-site" data-tab="site" aria-selected="true">Site e SEO</button>
     <button type="button" role="tab" id="tab-gmn" data-tab="gmn" aria-selected="false">Google Meu Negócio <span class="badge" id="gmnBadge" hidden></span></button>
+    <button type="button" role="tab" id="tab-melhorias" data-tab="melhorias" aria-selected="false">Melhorias Google <span class="badge" id="melBadge" hidden></span></button>
   </nav>
+
+  <div data-panel="melhorias" hidden style="padding-bottom:40px">
+    <section class="card" style="margin-bottom:16px">
+      <div class="head"><h2>Melhorias do Google Meu Negócio</h2><span class="pill" id="melPill" data-s="pending">—</span></div>
+      <p class="note" id="melHow">Logada na conta que administra o perfil, pesquise no Google "Perfect Services Cleaning Greer" ou acesse business.google.com e clique em Editar perfil.</p>
+      <div class="bar" style="height:8px"><i id="melBar"></i></div>
+      <p class="muted" id="melProgress" style="font-size:.82rem;margin:6px 0 0">&nbsp;</p>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card">
+          <h2>Sugestões de agora</h2>
+          <p class="note">O monitor revisa o perfil, as buscas e a concorrência a cada 3 horas e coloca aqui o que mais pode fazer o perfil subir. <span id="sugAt"></span></p>
+          <div class="tasks" id="sugList"><div class="empty">Nenhuma sugestão nova no momento.</div></div>
+        </section>
+      </div>
+      <div class="col">
+        <section class="card">
+          <h2>Configuração do perfil (fazer uma vez)</h2>
+          <p class="note">Marque como feito conforme for salvando no Google. O Google pode levar alguns dias para aprovar cada mudança.</p>
+          <div class="tasks" id="setupList"></div>
+        </section>
+      </div>
+    </div>
+  </div>
 
   <div class="grid" data-panel="gmn" hidden>
     <div class="col">
@@ -226,8 +265,9 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
           <div class="kpi"><div class="lab">Dias seguidos</div><div class="val" id="gStreak">—</div><div class="sub">postando</div></div>
           <div class="kpi"><div class="lab">Nota no Google</div><div class="val" id="gRating">—</div><div class="sub" id="gRatingSub">&nbsp;</div></div>
         </div>
-        <h3 class="sub3">Checklist do perfil</h3>
+        <h3 class="sub3">Configuração do perfil</h3>
         <ul class="checklist" id="gmnChecklist"></ul>
+        <p style="margin:10px 0 0"><a class="btn" href="#melhorias" id="goMel">Abrir Melhorias Google</a></p>
       </section>
       <section class="card">
         <h2>Configuração única: serviços do perfil</h2>
@@ -456,6 +496,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       getJSON(`${RAW}data/health.json?t=${Date.now()}`).then((d) => { state.health = d; }).catch(() => {}),
       getJSON(`${RAW}data/rankings.json?t=${Date.now()}`).then((d) => { state.rankings = d; }).catch(() => {}),
       getJSON(`/data/gbp.json?t=${Date.now()}`).then((d) => { state.gbp = d; }).catch(() => {}),
+      getJSON(`${RAW}data/gbp-tasks.json?t=${Date.now()}`).catch(() => getJSON(`/data/gbp-tasks.json?t=${Date.now()}`)).then((d) => { state.gbpTasks = d; }).catch(() => {}),
       getJSON(`${RAW}data/gbp-health.json?t=${Date.now()}`).then((d) => { state.gbpHealth = d; }).catch(() => {}),
       getJSON(`${RAW}data/citations.json?t=${Date.now()}`).catch(() => getJSON(`/data/citations.json?t=${Date.now()}`)).then((d) => { state.citations = d; }).catch(() => {}),
     ];
@@ -463,7 +504,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       jobs.push(getJSON(`${API}/commits?per_page=30`).then((d) => { state.commits = d; state.commitsAt = Date.now(); }).catch(() => {}));
     }
     await Promise.all(jobs);
-    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect(); renderCitations(); renderGmn();
+    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect(); renderCitations(); renderGmn(); renderMelhorias();
     $('refreshInfo').textContent = `Ao vivo · atualizado ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
   }
   // ---------- daily Search Console inspection chain (progress kept in this browser) ----------
@@ -613,29 +654,67 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     const h = state.gbpHealth;
     if (h && h.rating != null) { $('gRating').textContent = `${String(h.rating).replace('.', ',')}★`; $('gRatingSub').textContent = `${h.reviews != null ? `${h.reviews} avaliações · ` : ''}${ago(h.checkedAt)}`; }
     else { $('gRating').textContent = '—'; $('gRatingSub').textContent = h && h.checkedAt ? 'não encontrada na web' : 'aguardando o monitor'; }
-    const chk = store.get(LS_GBPCHK, {});
-    const doneChk = GBP_CHECKLIST.filter(([k]) => chk[k]).length;
+    const taskDone = store.get('ps-gbp-tasks-v1', {});
+    const setup = state.gbpTasks ? (state.gbpTasks.setup || []).slice().sort((a, b) => a.priority - b.priority) : [];
+    const doneChk = setup.filter((x) => taskDone[x.id]).length;
     const hp = $('gmnHealthPill');
-    const healthy = in7 >= target * 0.7 && doneChk >= 8;
-    hp.dataset.s = healthy ? 'ok' : 'warning'; hp.textContent = healthy ? 'Saudável' : `Checklist ${doneChk}/${GBP_CHECKLIST.length}`;
-    $('gmnChecklist').replaceChildren(...GBP_CHECKLIST.map(([k, label]) => {
-      const box = el('input', { type: 'checkbox', id: `chk-${k}` }); box.checked = !!chk[k];
-      box.addEventListener('change', () => { const c = store.get(LS_GBPCHK, {}); c[k] = box.checked; store.set(LS_GBPCHK, c); renderGmn(); });
-      return el('li', {}, el('label', { for: `chk-${k}` }, box, document.createTextNode(label)));
-    }));
+    const healthy = setup.length && in7 >= target * 0.7 && doneChk >= setup.length - 1;
+    hp.dataset.s = healthy ? 'ok' : 'warning'; hp.textContent = healthy ? 'Saudável' : `Configuração ${doneChk}/${setup.length || '—'}`;
+    $('gmnChecklist').replaceChildren(...setup.map((x) => el('li', {}, el('span', { class: 'pill', 'data-s': taskDone[x.id] ? 'ok' : 'warning', text: taskDone[x.id] ? 'Feito' : 'Pendente' }), document.createTextNode(` ${x.title}`))));
     const sig = JSON.stringify(g.services || []);
     if ($('gmnServices').dataset.sig !== sig) {
       $('gmnServices').dataset.sig = sig;
       $('gmnServices').replaceChildren(...(g.services || []).map((s) => el('li', {}, el('b', { text: s.name }), el('p', { text: s.description }), copyBtn(s.description))));
     }
   }
+  // ---------- Melhorias Google (tasks + live suggestions) ----------
+  const LS_TASKS = 'ps-gbp-tasks-v1';
+  function taskEl(t, idx, done, onToggle) {
+    const isDone = !!done[t.id];
+    const copies = t.copyFrom === 'gbpServices' && state.gbp
+      ? (state.gbp.services || []).flatMap((s) => [{ label: `${s.name}: nome`, value: s.name }, { label: `${s.name}: descrição`, value: s.description }])
+      : (t.copy || []);
+    const btn = el('button', { class: `btn ${isDone ? '' : 'ok'}`, type: 'button', text: isDone ? 'Desfazer' : 'Marcar como feito' });
+    btn.addEventListener('click', (e) => { e.preventDefault(); onToggle(t.id); });
+    const det = el('details', { class: `task${isDone ? ' done' : ''}` },
+      el('summary', {}, el('span', { class: 'n', text: `#${idx}` }), el('span', {}, el('b', { text: t.title }), el('small', { text: t.where || '' })), el('span', { class: 'pill', 'data-s': isDone ? 'ok' : 'warning', text: isDone ? 'Feito' : 'Pendente' })),
+      el('div', { class: 'body' },
+        t.why ? el('p', { class: 'why', style: 'margin:0', text: t.why }) : null,
+        t.steps && t.steps.length ? el('ol', {}, ...t.steps.map((s) => el('li', { text: s }))) : null,
+        copies.length ? el('ul', { class: 'kit' }, ...copies.map((c) => el('li', {}, el('b', { text: c.label }), el('p', { text: c.value }), copyBtn(c.value)))) : null,
+        el('div', {}, btn)));
+    if (!isDone && idx === 1) det.open = true;
+    return det;
+  }
+  function renderMelhorias() {
+    const t = state.gbpTasks; if (!t) return;
+    const done = store.get(LS_TASKS, {});
+    const toggle = (id) => { const d = store.get(LS_TASKS, {}); if (d[id]) delete d[id]; else d[id] = localDay(); store.set(LS_TASKS, d); renderMelhorias(); renderGmn(); };
+    if (t.how) $('melHow').textContent = t.how;
+    const setup = (t.setup || []).slice().sort((a, b) => a.priority - b.priority);
+    const sugs = (t.suggestions || []).slice().sort((a, b) => a.priority - b.priority);
+    const openDetails = new Set([...document.querySelectorAll('#setupList details[open], #sugList details[open]')].map((d) => d.dataset.id));
+    const mk = (list) => list.map((x, i) => { const n = taskEl(x, i + 1, done, toggle); n.dataset.id = x.id; if (openDetails.has(x.id)) n.open = true; return n; });
+    $('setupList').replaceChildren(...mk(setup));
+    $('sugList').replaceChildren(...(sugs.length ? mk(sugs) : [el('div', { class: 'empty', text: 'Nenhuma sugestão nova no momento.' })]));
+    $('sugAt').textContent = t.updatedAt ? `Atualizado ${ago(t.updatedAt)}.` : '';
+    const all = [...setup, ...sugs];
+    const doneN = all.filter((x) => done[x.id]).length;
+    const pend = all.length - doneN;
+    $('melBar').style.width = `${all.length ? (100 * doneN / all.length).toFixed(1) : 0}%`;
+    $('melProgress').textContent = `${doneN} de ${all.length} feitas · configuração ${setup.filter((x) => done[x.id]).length}/${setup.length} · sugestões ${sugs.filter((x) => done[x.id]).length}/${sugs.length}`;
+    $('melPill').dataset.s = pend ? 'warning' : 'ok';
+    $('melPill').textContent = pend ? `${pend} pendente${pend === 1 ? '' : 's'}` : 'Tudo feito';
+    const b = $('melBadge'); b.hidden = !pend; b.textContent = pend;
+  }
+
   // tabs
   function showTab(name) {
     document.querySelectorAll('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== name; });
     document.querySelectorAll('.tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
   }
-  document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', b.dataset.tab === 'gmn' ? '#gmn' : '#site'); } catch { /* ignore */ } }));
-  const fromHash = () => { const h = location.hash.slice(1); showTab(h.startsWith('gmn') ? 'gmn' : 'site'); if (h && h !== 'gmn' && h !== 'site') { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
+  document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', `#${b.dataset.tab}`); } catch { /* ignore */ } }));
+  const fromHash = () => { const h = location.hash.slice(1); showTab(h.startsWith('gmn') ? 'gmn' : h.startsWith('melhorias') ? 'melhorias' : 'site'); if (h && !['gmn', 'site', 'melhorias'].includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
   window.addEventListener('hashchange', fromHash);
   fromHash();
 

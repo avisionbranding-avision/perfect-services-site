@@ -1,0 +1,131 @@
+{
+ "updatedAt": "2026-11-09T06:00:00Z",
+ "how": "Logada na conta que administra o perfil, pesquise no Google \"Perfect Services Cleaning Greer\" ou acesse business.google.com e clique em Editar perfil.",
+ "setup": [
+  {
+   "id": "setup-categories",
+   "priority": 1,
+   "title": "Categorias",
+   "where": "Editar perfil → Categoria da empresa",
+   "why": "A categoria principal é o fator que mais pesa para aparecer em \"house cleaning + cidade\".",
+   "steps": ["Categoria principal: House cleaning service", "Adicione as categorias extras abaixo", "Salvar"],
+   "copy": [
+    { "label": "Categoria principal", "value": "House cleaning service" },
+    { "label": "Categorias adicionais", "value": "Maid service, Janitorial service, Commercial cleaning service" }
+   ]
+  },
+  {
+   "id": "setup-areas",
+   "priority": 2,
+   "title": "Área de atendimento (20 cidades)",
+   "where": "Editar perfil → Local → Área de atendimento",
+   "why": "Define em quais cidades o perfil pode aparecer no mapa. 20 é o limite do Google.",
+   "steps": ["Adicione as 20 cidades abaixo, uma por vez", "Se o endereço da casa aparecer no perfil, escolha não mostrar o endereço", "Salvar"],
+   "copy": [
+    { "label": "20 cidades", "value": "Greer SC; Taylors SC; Greenville SC; Spartanburg SC; Simpsonville SC; Mauldin SC; Duncan SC; Lyman SC; Wellford SC; Inman SC; Travelers Rest SC; Five Forks SC; Boiling Springs SC; Fountain Inn SC; Easley SC; Powdersville SC; Moore SC; Berea SC; Wade Hampton SC; Piedmont SC" }
+   ]
+  },
+  {
+   "id": "setup-services",
+   "priority": 3,
+   "title": "Serviços (10, com descrição)",
+   "where": "Editar perfil → Serviços → Adicionar serviço personalizado",
+   "why": "Cada serviço vira palavra-chave do perfil e aparece para quem busca aquele serviço.",
+   "steps": ["Para cada serviço: cole o nome e depois a descrição", "Salvar ao final"],
+   "copyFrom": "gbpServices"
+  },
+  {
+   "id": "setup-description",
+   "priority": 4,
+   "title": "Descrição da empresa",
+   "where": "Editar perfil → Sobre → Descrição",
+   "why": "Texto que o Google lê para entender o que a empresa faz e onde atende.",
+   "steps": ["Cole a descrição abaixo", "Salvar"],
+   "copy": [
+    { "label": "Descrição (até 750 caracteres)", "value": "Perfect Services is a Brazilian-owned cleaning company based in Greer, South Carolina, run by Regiani and Tony. We clean homes, apartments, vacation rentals and offices with a hands-on, detail-first method, including the baseboards, edges and corners a rushed clean skips. Services: recurring house cleaning and maid service, deep cleaning, move-in and move-out cleaning, post-construction cleanup, Airbnb turnovers, apartment and condo cleaning, one-time and eco-friendly green cleaning, and office cleaning. We serve Greer, Taylors, Greenville, Spartanburg, Simpsonville, Mauldin and communities within 30 miles. Free estimates, usually the same day." }
+   ]
+  },
+  {
+   "id": "setup-contact",
+   "priority": 5,
+   "title": "Site e telefone",
+   "where": "Editar perfil → Contato",
+   "why": "O link do site leva quem vê o perfil para as páginas de cada cidade e serviço.",
+   "steps": ["Confira o telefone", "Cole o site", "Salvar"],
+   "copy": [
+    { "label": "Site", "value": "https://perfectservicespaintingcleaning.com/" },
+    { "label": "Telefone", "value": "(864) 399-5168" }
+   ]
+  },
+  {
+   "id": "setup-hours",
+   "priority": 6,
+   "title": "Horário de funcionamento",
+   "where": "Editar perfil → Horário",
+   "why": "Perfis sem horário perdem posição e aparecem menos em buscas feitas agora.",
+   "steps": ["Confirme o horário real com o cliente", "Preencha todos os dias (marque fechado nos dias sem atendimento)", "Salvar"],
+   "copy": []
+  },
+  {
+   "id": "setup-photos",
+   "priority": 7,
+   "title": "Fotos: logo, capa e 10 ou mais",
+   "where": "Painel do perfil → Adicionar foto",
+   "why": "Perfis com mais fotos recebem mais cliques e pedidos de rota.",
+   "steps": ["Logo: use o logo do site", "Capa: a foto da equipe", "Adicione pelo menos 10 fotos de ambientes limpos"],
+   "copy": [
+    { "label": "Logo", "value": "https://perfectservicespaintingcleaning.com/images/logo.png" },
+    { "label": "Capa (equipe)", "value": "https://perfectservicespaintingcleaning.com/images/perfect-services-team.jpg" },
+    { "label": "Fotos de ambientes", "value": "https://perfectservicespaintingcleaning.com/images/kitchen-island-marble.jpg\nhttps://perfectservicespaintingcleaning.com/images/double-vanity-bathroom.jpg\nhttps://perfectservicespaintingcleaning.com/images/living-room-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/master-bedroom-cleaning-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/open-floor-plan-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/oven-deep-cleaning.jpg\nhttps://perfectservicespaintingcleaning.com/images/dining-room-hardwood-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/laundry-room-cleaning.jpg\nhttps://perfectservicespaintingcleaning.com/images/bathroom-cleaning-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/family-room-cleaning-greer.jpg" }
+   ]
+  },
+  {
+   "id": "setup-reviews",
+   "priority": 8,
+   "title": "Pedido de avaliação depois de cada limpeza",
+   "where": "Painel do perfil → Pedir avaliações (copie o link curto do perfil)",
+   "why": "Avaliações são o fator que mais pesa no mapa do Google, junto com a categoria.",
+   "steps": ["Copie o link de avaliação do perfil", "Depois de cada limpeza, envie por SMS a mensagem abaixo com o link", "Responda todas as avaliações, inclusive as boas"],
+   "copy": [
+    { "label": "Mensagem por SMS", "value": "Hi! Thank you for choosing Perfect Services today. If you're happy with the cleaning, a quick Google review helps our small Brazilian team a lot: [review link]. Thank you! – Regiani & Tony" }
+   ]
+  }
+ ],
+ "suggestions": [
+  {
+   "id": "sug-2026-11-09-products",
+   "priority": 1,
+   "createdAt": "2026-11-09T06:00:00Z",
+   "title": "Cadastrar 4 serviços também em \"Produtos\", com link",
+   "where": "Editar perfil → Produtos → Adicionar produto",
+   "why": "A seção Produtos aparece em destaque no perfil, com foto e botão com link para a página do serviço.",
+   "steps": ["Crie um produto para cada serviço abaixo", "Foto: use a foto indicada", "Botão: Saiba mais, com o link de cada um"],
+   "copy": [
+    { "label": "Deep Cleaning (link)", "value": "https://perfectservicespaintingcleaning.com/services/deep-cleaning/?utm_source=google&utm_medium=gbp_product" },
+    { "label": "Move-In & Move-Out Cleaning (link)", "value": "https://perfectservicespaintingcleaning.com/services/move-in-move-out-cleaning/?utm_source=google&utm_medium=gbp_product" },
+    { "label": "House Cleaning & Maid Service (link)", "value": "https://perfectservicespaintingcleaning.com/services/house-cleaning/?utm_source=google&utm_medium=gbp_product" },
+    { "label": "Airbnb & Vacation Rental Cleaning (link)", "value": "https://perfectservicespaintingcleaning.com/services/airbnb-vacation-rental-cleaning/?utm_source=google&utm_medium=gbp_product" }
+   ]
+  },
+  {
+   "id": "sug-2026-11-09-reviews",
+   "priority": 2,
+   "createdAt": "2026-11-09T06:00:00Z",
+   "title": "Meta da semana: 3 avaliações novas",
+   "where": "Mensagem por SMS para clientes recentes",
+   "why": "No ranking de hoje, as empresas que aparecem no topo de Greer (como MaidPro e The Cleaning Authority) destacam avaliações. É o fator que mais move o mapa.",
+   "steps": ["Liste os clientes atendidos nos últimos 30 dias", "Envie a mensagem de avaliação (tarefa 8 da configuração) para cada um", "Responda cada avaliação em até 24 horas"],
+   "copy": []
+  },
+  {
+   "id": "sug-2026-11-09-photos",
+   "priority": 3,
+   "createdAt": "2026-11-09T06:00:00Z",
+   "title": "Subir 2 fotos novas por semana",
+   "where": "Painel do perfil → Adicionar foto",
+   "why": "Fotos recentes mostram ao Google que o perfil está ativo. Fotos tiradas no trabalho (cozinha, banheiro, antes e depois reais) valem mais que fotos de banco.",
+   "steps": ["Peça à equipe 2 fotos de cada limpeza da semana (sem rosto de cliente nem endereço)", "Envie no perfil"],
+   "copy": []
+  }
+ ]
+}

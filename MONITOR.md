@@ -9,7 +9,7 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 1. `git pull -q origin main`. Read `data/site.json`, `data/health.json` and `data/rankings.json`.
 2. Run the checks below. Each check gets a status: `ok`, `warning` or `error`, plus a short detail in Brazilian Portuguese that a non-technical owner understands.
 3. Undo the build output so you never commit it: `git checkout -- . && git clean -fdq -- areas services faq blog` (keep your own edits to `data/health.json`, `data/rankings.json` and any `content/posts` fix, by writing those files after this reset).
-4. Write `data/health.json`, `data/rankings.json`, `data/citations.json` and `data/gbp-health.json` (formats below and in "Directory listings").
+4. Write `data/health.json`, `data/rankings.json`, `data/citations.json`, `data/gbp-health.json` and `data/gbp-tasks.json` (formats below and in "Directory listings").
 5. Commit only those files (plus any `content/posts` fix) and push to main:
    - only health/rankings changed: message `Monitor: <YYYY-MM-DD HH:MM> UTC [skip netlify]` (this does not redeploy the site);
    - you fixed a post: message `Monitor fix: <what>` without `[skip netlify]`, so the fix goes live.
@@ -52,6 +52,18 @@ Also add one line of expert advice per city in `tip` (Brazilian Portuguese): wha
 - Check `gbp_posts` in the table below: after 13:30 UTC, `content/gbp/<today UTC>.json` must exist with `gbpDailyPosts` posts (warning if missing or short). Also warn if any post text contains a phone number, a URL or an email address (Google rejects those): fix it yourself by removing that part of the text (allowed safe fix), then rebuild and push without `[skip netlify]`.
 - Once a day (the first run after 12:00 UTC), WebSearch `"Perfect Services" Greer SC reviews` and `Perfect Services Cleaning Greer SC Google`. If a result clearly about this business shows its Google star rating and review count, record them. Never guess: if no result shows them, keep the previous values.
 - Write `data/gbp-health.json`: `{ "checkedAt": "...", "rating": 5.0 or null, "reviews": 12 or null, "source": "<url where you saw it>", "note": "<one line in Brazilian Portuguese>" }` and commit it with the other data files.
+
+## GBP improvement suggestions (`data/gbp-tasks.json` → `suggestions`)
+
+The owner's panel has a tab "Melhorias Google" that lists one-time setup tasks (`setup`, never change them) and live suggestions (`suggestions`). You are the head of local SEO: each run, review what you learned (rankings and competitors in `data/rankings.json`, rating and reviews in `data/gbp-health.json`, pending directories in `data/citations.json`, recent GBP posts in `content/gbp/`, the season and upcoming US holidays) and keep the best improvements for the Google Business Profile in `suggestions`.
+
+- Keep 3 to 6 suggestions, ordered by impact (`priority` 1 = highest). Add a new one only when you have a concrete, new reason (a competitor pattern you saw in search results, a city where we do not appear, reviews stagnant, a season or holiday coming, a directory still pending). Do not churn: keep a suggestion at least 14 days unless it no longer applies.
+- Each suggestion: `{ "id": "sug-<YYYY-MM-DD>-<short-slug>", "priority": n, "createdAt": "<ISO>", "title": "<imperative, Brazilian Portuguese>", "where": "<where in the profile>", "why": "<one sentence with the evidence>", "steps": ["..."], "copy": [{ "label": "...", "value": "<ready-to-paste text or link>"}] }`. Texts the owner will paste into Google are in American English; everything else in Brazilian Portuguese.
+- Ids never change once created (the panel stores done marks by id). Never reuse an id for a different suggestion.
+- Links in `copy` point to existing pages of the site, with `?utm_source=google&utm_medium=gbp_<where>`.
+- Never invent facts about the business (prices, awards, years, reviews) or about competitors: say only what the search results showed.
+- Set `updatedAt` at the top. When you add a suggestion, mention it in the push notification ("Perfect Services: nova melhoria para o Google Meu Negócio: <title>"), at most once a day.
+- Commit `data/gbp-tasks.json` together with the other data files.
 
 ## Directory listings (citations)
 
