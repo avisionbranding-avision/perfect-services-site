@@ -195,15 +195,15 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 
       <section class="card">
         <h2>Próximos temas</h2>
-        <p class="note">O que a rotina vai escrever nos próximos dias, em ordem.</p>
+        <p class="note">O que a rotina vai escrever na próxima execução.</p>
         <ul class="list" id="next"></ul>
       </section>
 
       <section class="card">
         <h2>O que o sistema faz sozinho</h2>
         <ul class="auto" style="margin-top:12px">
-          <li><i>1</i><div><b>Artigos diários às 7h de Greer</b><span>Escreve os artigos da fila com palavras-chave da cidade, FAQ e links internos, gera o site e publica.</span></div></li>
-          <li><i>2</i><div><b>Libera cidades novas</b><span>Cada publicação coloca no ar as cidades com data de hoje, com as 12 páginas de cada uma.</span></div></li>
+          <li><i>1</i><div><b>Artigos diários às 7h de Greer</b><span>Todo dia: 1 artigo de cada um dos 10 serviços para Greer e mais 4 artigos em rodízio pelas outras cidades, com palavras-chave locais, FAQ e links internos.</span></div></li>
+          <li><i>2</i><div><b>Todas as cidades no ar</b><span>As 43 cidades estão publicadas com as 12 páginas de cada uma: 10 serviços, a página da cidade e o blog.</span></div></li>
           <li><i>3</i><div><b>Liga tudo por links</b><span>Cada artigo novo aponta para a página do serviço na cidade, para cidades vizinhas e para o FAQ, e aparece no blog da cidade.</span></div></li>
           <li><i>4</i><div><b>Verifica o site a cada 3 horas</b><span>Geração do site, links quebrados, artigos do dia, cidades liberadas e páginas no ar.</span></div></li>
           <li><i>5</i><div><b>Corrige o que é seguro</b><span>Link quebrado ou arquivo de artigo com erro de digitação: corrige e republica sozinho. O resto vira alerta no seu celular.</span></div></li>
@@ -264,11 +264,12 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     const today = new Date().toISOString().slice(0, 10);
     const todayCount = s.recentPosts.filter((p) => p.date === today).length;
     $('kPosts').textContent = nf.format(t.posts);
-    $('kPostsSub').textContent = `${todayCount} hoje · ${s.settings.dailyPosts} por dia`;
+    const perDay = t.articlesPerDay || s.settings.dailyPosts;
+    $('kPostsSub').textContent = `${todayCount} hoje · ${perDay} por dia`;
     const nr = nextRun(s.settings.paused);
     $('kNext').textContent = nr.big; $('kNextSub').textContent = nr.sub;
     $('kQueue').textContent = nf.format(t.queueRemaining);
-    $('kQueueSub').textContent = `≈ ${Math.ceil(t.queueRemaining / Math.max(1, s.settings.dailyPosts))} dias de conteúdo`;
+    $('kQueueSub').textContent = `≈ ${Math.ceil(t.queueRemaining / Math.max(1, s.settings.dailyPosts))} dias nas cidades${t.greerDaysLeft != null ? ` · Greer: ${t.greerDaysLeft} dias` : ''}`;
 
     const live = s.cities.filter((c) => c.live).length;
     $('cityInfo').textContent = `${live} de ${s.cities.length} no ar`;
@@ -277,7 +278,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       el('span', { text: c.live ? `No ar · ${c.posts} artigo${c.posts === 1 ? '' : 's'}` : `Entra ${c.releaseDate.split('-').reverse().slice(0, 2).join('/')}` }))));
 
     $('posts').replaceChildren(...(s.recentPosts.length ? s.recentPosts.slice(0, 8).map((p) => el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener', text: p.title }), el('span', { text: `${p.city} · ${p.service} · ${p.date.split('-').reverse().join('/')}` }))) : [el('li', { class: 'muted', text: 'Nenhum artigo novo ainda.' })]));
-    $('next').replaceChildren(...s.nextTopics.slice(0, 8).map((t2) => el('li', {}, document.createTextNode(t2.title), el('span', { text: `${t2.city} · ${t2.service}` }))));
+    $('next').replaceChildren(...s.nextTopics.slice(0, 14).map((t2) => el('li', {}, document.createTextNode(t2.title), el('span', { text: `${t2.city} · ${t2.service}` }))));
   }
 
   function renderHealth() {

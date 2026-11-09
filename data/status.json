@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09T05:15:36.246Z",
+ "generatedAt": "2026-11-09T05:28:40.709Z",
  "domain": "https://perfectservicespaintingcleaning.com",
  "settings": {
   "dailyPosts": 4,
@@ -8,14 +8,16 @@
   "paused": false
  },
  "totals": {
-  "urls": 125,
-  "citiesLive": 8,
+  "urls": 545,
+  "citiesLive": 43,
   "citiesTotal": 43,
-  "fixedPagesLive": 111,
+  "fixedPagesLive": 531,
   "fixedPagesTotal": 531,
   "posts": 14,
   "legacyPosts": 10,
-  "queueRemaining": 625
+  "queueRemaining": 3356,
+  "articlesPerDay": 14,
+  "greerDaysLeft": 46
  },
  "cities": [
   {
@@ -104,8 +106,8 @@
    "slug": "five-forks-sc",
    "county": "Greenville County",
    "miles": 9,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -114,8 +116,8 @@
    "slug": "inman-sc",
    "county": "Spartanburg County",
    "miles": 11,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -124,8 +126,8 @@
    "slug": "greenville-sc",
    "county": "Greenville County",
    "miles": 11,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -134,8 +136,8 @@
    "slug": "mauldin-sc",
    "county": "Greenville County",
    "miles": 12,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -144,8 +146,8 @@
    "slug": "travelers-rest-sc",
    "county": "Greenville County",
    "miles": 12,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -154,8 +156,8 @@
    "slug": "campobello-sc",
    "county": "Spartanburg County",
    "miles": 13,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -164,8 +166,8 @@
    "slug": "moore-sc",
    "county": "Spartanburg County",
    "miles": 13,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -174,8 +176,8 @@
    "slug": "simpsonville-sc",
    "county": "Greenville County",
    "miles": 14,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -184,8 +186,8 @@
    "slug": "berea-sc",
    "county": "Greenville County",
    "miles": 14,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -194,8 +196,8 @@
    "slug": "parker-sc",
    "county": "Greenville County",
    "miles": 14,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -204,8 +206,8 @@
    "slug": "gantt-sc",
    "county": "Greenville County",
    "miles": 15,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -214,8 +216,8 @@
    "slug": "roebuck-sc",
    "county": "Spartanburg County",
    "miles": 15,
-   "releaseDate": "2026-11-10",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -224,8 +226,8 @@
    "slug": "boiling-springs-sc",
    "county": "Spartanburg County",
    "miles": 16,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -234,8 +236,8 @@
    "slug": "marietta-sc",
    "county": "Greenville County",
    "miles": 16,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -244,8 +246,8 @@
    "slug": "landrum-sc",
    "county": "Spartanburg County",
    "miles": 16,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -254,8 +256,8 @@
    "slug": "spartanburg-sc",
    "county": "Spartanburg County",
    "miles": 17,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -264,8 +266,8 @@
    "slug": "fountain-inn-sc",
    "county": "Greenville and Laurens counties",
    "miles": 17,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -274,8 +276,8 @@
    "slug": "woodruff-sc",
    "county": "Spartanburg County",
    "miles": 17,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -284,8 +286,8 @@
    "slug": "powdersville-sc",
    "county": "Anderson County",
    "miles": 18,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -294,8 +296,8 @@
    "slug": "tryon-nc",
    "county": "Polk County",
    "miles": 19,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -304,8 +306,8 @@
    "slug": "piedmont-sc",
    "county": "Greenville and Anderson counties",
    "miles": 21,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -314,8 +316,8 @@
    "slug": "pauline-sc",
    "county": "Spartanburg County",
    "miles": 21,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -324,8 +326,8 @@
    "slug": "saluda-nc",
    "county": "Polk County",
    "miles": 22,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -334,8 +336,8 @@
    "slug": "columbus-nc",
    "county": "Polk County",
    "miles": 22,
-   "releaseDate": "2026-11-11",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -344,8 +346,8 @@
    "slug": "easley-sc",
    "county": "Pickens County",
    "miles": 23,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -354,8 +356,8 @@
    "slug": "gray-court-sc",
    "county": "Laurens County",
    "miles": 24,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -364,8 +366,8 @@
    "slug": "pelzer-sc",
    "county": "Anderson County",
    "miles": 24,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -374,8 +376,8 @@
    "slug": "cowpens-sc",
    "county": "Spartanburg County",
    "miles": 25,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -384,8 +386,8 @@
    "slug": "chesnee-sc",
    "county": "Spartanburg County",
    "miles": 25,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -394,8 +396,8 @@
    "slug": "flat-rock-nc",
    "county": "Henderson County",
    "miles": 26,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -404,8 +406,8 @@
    "slug": "williamston-sc",
    "county": "Anderson County",
    "miles": 26,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -414,8 +416,8 @@
    "slug": "pacolet-sc",
    "county": "Spartanburg County",
    "miles": 27,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -424,8 +426,8 @@
    "slug": "pickens-sc",
    "county": "Pickens County",
    "miles": 27,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -434,8 +436,8 @@
    "slug": "liberty-sc",
    "county": "Pickens County",
    "miles": 28,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   },
   {
@@ -444,8 +446,8 @@
    "slug": "hendersonville-nc",
    "county": "Henderson County",
    "miles": 29,
-   "releaseDate": "2026-11-12",
-   "live": false,
+   "releaseDate": "2026-11-09",
+   "live": true,
    "posts": 0
   }
  ],
@@ -485,6 +487,56 @@
  ],
  "nextTopics": [
   {
+   "title": "What to expect from your first house cleaning in Greer",
+   "city": "Greer, SC",
+   "service": "House Cleaning & Maid Service"
+  },
+  {
+   "title": "How much does a deep cleaning cost in Greer, SC?",
+   "city": "Greer, SC",
+   "service": "Deep Cleaning"
+  },
+  {
+   "title": "How to get your security deposit back in Greer, SC",
+   "city": "Greer, SC",
+   "service": "Move-In & Move-Out Cleaning"
+  },
+  {
+   "title": "After the remodel: how to clean up construction dust in your Greer home",
+   "city": "Greer, SC",
+   "service": "Post-Construction Cleaning"
+  },
+  {
+   "title": "How to choose a commercial cleaning company in Greer",
+   "city": "Greer, SC",
+   "service": "Commercial & Office Cleaning"
+  },
+  {
+   "title": "Brazilian cleaners vs. a typical cleaning service in Greer",
+   "city": "Greer, SC",
+   "service": "Brazilian House Cleaning"
+  },
+  {
+   "title": "How cleaning affects your Airbnb reviews in Greer",
+   "city": "Greer, SC",
+   "service": "Airbnb & Vacation Rental Cleaning"
+  },
+  {
+   "title": "Small-space cleaning tips for Greer apartments and condos",
+   "city": "Greer, SC",
+   "service": "Apartment & Condo Cleaning"
+  },
+  {
+   "title": "After-party cleaning in Greer: what to do the next morning",
+   "city": "Greer, SC",
+   "service": "One-Time House Cleaning"
+  },
+  {
+   "title": "Pet-safe cleaning tips for Greer homes",
+   "city": "Greer, SC",
+   "service": "Eco-Friendly Green Cleaning"
+  },
+  {
    "title": "What is Brazilian house cleaning? A guide for Taylors homeowners",
    "city": "Taylors, SC",
    "service": "Brazilian House Cleaning"
@@ -503,46 +555,6 @@
    "title": "Holiday cleaning checklist for Taylors hosts",
    "city": "Taylors, SC",
    "service": "One-Time House Cleaning"
-  },
-  {
-   "title": "A guide to eco-friendly house cleaning in Taylors",
-   "city": "Taylors, SC",
-   "service": "Eco-Friendly Green Cleaning"
-  },
-  {
-   "title": "How much does house cleaning cost in Taylors, SC?",
-   "city": "Taylors, SC",
-   "service": "House Cleaning & Maid Service"
-  },
-  {
-   "title": "Move-out cleaning checklist for Duncan renters",
-   "city": "Duncan, SC",
-   "service": "Move-In & Move-Out Cleaning"
-  },
-  {
-   "title": "The three phases of post-construction cleaning in Duncan",
-   "city": "Duncan, SC",
-   "service": "Post-Construction Cleaning"
-  },
-  {
-   "title": "Office cleaning checklist for small businesses in Duncan",
-   "city": "Duncan, SC",
-   "service": "Commercial & Office Cleaning"
-  },
-  {
-   "title": "What is Brazilian house cleaning? A guide for Duncan homeowners",
-   "city": "Duncan, SC",
-   "service": "Brazilian House Cleaning"
-  },
-  {
-   "title": "Airbnb turnover cleaning checklist for Duncan hosts",
-   "city": "Duncan, SC",
-   "service": "Airbnb & Vacation Rental Cleaning"
-  },
-  {
-   "title": "Apartment cleaning checklist for Duncan renters",
-   "city": "Duncan, SC",
-   "service": "Apartment & Condo Cleaning"
   }
  ]
 }

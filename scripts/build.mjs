@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   ROOT, site, services, cities, cityBySlug, serviceBySlug, nearby, hash, pick, rotate, shuffle,
-  fill, loadPosts, IMAGE_LABELS, slugify, allEligibleCities, topicQueue,
+  fill, loadPosts, IMAGE_LABELS, slugify, allEligibleCities, topicQueue, baseQueue,
 } from './lib.mjs';
 
 const D = site.domain.replace(/\/$/, '');
@@ -524,6 +524,10 @@ function writeStatus(urlCount) {
   }));
   const published = new Set(posts.map((p) => p.slug));
   const queue = topicQueue().filter((t) => !published.has(t.slug));
+  const perService = Number(site.greerDailyPerService || 0);
+  const baseLists = Object.values(baseQueue()).map((l) => l.filter((t) => !published.has(t.slug)));
+  const baseNext = perService ? baseLists.flatMap((l) => l.slice(0, perService)) : [];
+  const greerDaysLeft = perService && baseLists.length ? Math.min(...baseLists.map((l) => Math.floor(l.length / perService))) : null;
   const status = {
     generatedAt: new Date().toISOString(),
     domain: D,
@@ -534,10 +538,12 @@ function writeStatus(urlCount) {
       fixedPagesLive: urlCount - posts.length, fixedPagesTotal: allEligibleCities.length * (services.length + 2) + services.length + 3 + 2,
       posts: posts.length, legacyPosts: posts.filter((p) => p.legacy).length,
       queueRemaining: queue.length,
+      articlesPerDay: (site.dailyPosts || 0) + baseNext.length,
+      greerDaysLeft,
     },
     cities: cityRows,
     recentPosts: posts.filter((p) => !p.legacy).slice(0, 40).map((p) => ({ title: p.title, slug: p.slug, url: `${D}${postUrl(p)}`, city: cityBySlug[p.city] ? cityBySlug[p.city].full : p.city, service: serviceBySlug[p.service] ? serviceBySlug[p.service].short : p.service, date: p.date })),
-    nextTopics: queue.slice(0, 12).map((t) => ({ title: t.title, city: t.cityName, service: t.serviceName })),
+    nextTopics: [...baseNext, ...queue.slice(0, site.dailyPosts || 4)].map((t) => ({ title: t.title, city: t.cityName, service: t.serviceName })),
   };
   fs.mkdirSync(path.join(ROOT, 'data'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, 'data', 'status.json'), `${JSON.stringify(status, null, 1)}\n`);

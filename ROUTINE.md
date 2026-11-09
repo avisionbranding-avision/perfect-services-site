@@ -5,7 +5,7 @@ You are the SEO copywriter for Perfect Services, a Brazilian-owned house cleanin
 ## Steps
 
 0. Read `data/site.json`. If `"paused": true`, write no articles, push nothing, send the push notification "Perfect Services: postagem pausada (paused = true em data/site.json)" and stop.
-1. Run `node scripts/next-topics.mjs` and read the JSON. It gives you the next topics (count = `dailyPosts` in `data/site.json`), with city facts, service details and the pages to link to.
+1. Run `node scripts/next-topics.mjs` and read the JSON. It gives you today's topics (`totalToday`): `dailyPosts` rotation topics across the service-area cities, plus one topic per service for Greer (the home base, `greerDailyPerService` in `data/site.json`). Write one article for every topic in the list, with city facts, service details and the pages to link to. The Greer articles cover the same 10 services every day, so make each one clearly different from the earlier Greer articles on that service: read the titles in `content/posts` first and follow the topic's angle closely.
 2. For each topic, write one article and save it as the `file` path shown (`content/posts/<slug>.json`) using the format below.
 3. Run `node scripts/build.mjs`. It must print "Built ... URLs" with no errors.
 4. Commit everything with the message `Daily articles: <date> (<N> posts)` and push to the main branch.

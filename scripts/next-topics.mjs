@@ -1,13 +1,19 @@
-// Prints the next N unpublished article topics with the context needed to write them.
+// Prints today's unpublished article topics with the context needed to write them.
 // Usage: node scripts/next-topics.mjs [N]
-import fs from 'node:fs';
-import path from 'node:path';
-import { ROOT, site, topicQueue, cityBySlug, serviceBySlug, nearby, loadPosts, ALL_IMAGES } from './lib.mjs';
+//   N = rotation topics across all cities (default: dailyPosts in data/site.json)
+//   plus, when greerDailyPerService is set, that many topics per service for the base city (Greer).
+import { site, topicQueue, baseQueue, cityBySlug, serviceBySlug, nearby, loadPosts, ALL_IMAGES } from './lib.mjs';
 
 const n = Number(process.argv[2] || site.dailyPosts || 4);
-const published = new Set(loadPosts().map((p) => p.slug));
-const queue = topicQueue();
-const next = queue.filter((t) => !published.has(t.slug)).slice(0, n).map((t) => {
+const posts = loadPosts();
+const published = new Set(posts.map((p) => p.slug));
+const queue = topicQueue().filter((t) => !published.has(t.slug));
+const base = baseQueue();
+const perService = Number(site.greerDailyPerService || 0);
+const baseRemaining = Object.values(base).map((list) => list.filter((t) => !published.has(t.slug)));
+const baseToday = perService ? baseRemaining.flatMap((list) => list.slice(0, perService)) : [];
+
+const expand = (t) => {
   const c = cityBySlug[t.city];
   const s = serviceBySlug[t.service];
   return {
@@ -20,9 +26,15 @@ const next = queue.filter((t) => !published.has(t.slug)).slice(0, n).map((t) => 
       cityPage: `/areas/${c.slug}/`,
       servicePage: `/services/${s.slug}/`,
       nearbyCityPages: nearby(c, 3).map((x) => `/areas/${x.slug}/${s.slug}/`),
-      existingPosts: loadPosts().filter((p) => p.service === s.slug).slice(0, 3).map((p) => `/blog/${p.slug}.html`),
+      existingPosts: posts.filter((p) => p.service === s.slug).slice(0, 3).map((p) => `/blog/${p.slug}.html`),
     },
     allowedImages: ALL_IMAGES,
   };
-});
-console.log(JSON.stringify({ remainingInQueue: queue.filter((t) => !published.has(t.slug)).length, topics: next }, null, 2));
+};
+
+console.log(JSON.stringify({
+  remainingInQueue: queue.length,
+  greerRemainingPerService: Object.fromEntries(Object.keys(base).map((k, i) => [k, baseRemaining[i].length])),
+  totalToday: Math.min(n, queue.length) + baseToday.length,
+  topics: [...queue.slice(0, n), ...baseToday].map(expand),
+}, null, 2));

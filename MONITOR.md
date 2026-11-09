@@ -26,7 +26,8 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 | `links` | `node scripts/check-links.mjs` after the build | error if `broken` > 0 (list up to 5 in detail) |
 | `posts_json` | every `content/posts/*.json` parses and has slug, title, description, date, city, service, html | error for a broken file |
 | `daily_run` | `git log --since="30 hours ago" --grep="Daily articles"` | after 13:30 UTC: error if there is no "Daily articles" commit dated today (UTC). Before 13:30 UTC: ok if yesterday's exists. Skip (status ok, detail "pausado") when `paused` is true |
-| `daily_count` | number of posts dated today in `content/posts` | warning if today's run committed fewer than `dailyPosts` |
+| `daily_count` | number of posts dated today in `content/posts` | after the daily run: warning if fewer than `totals.articlesPerDay` in `data/status.json` |
+| `greer_queue` | `totals.greerDaysLeft` in `data/status.json` | warning when below 7 days ("Temas de Greer acabando: pedir novos ângulos"); ok otherwise |
 | `cities` | `data/status.json` after the build: `totals.citiesLive` vs cities whose `releaseDate` is today or earlier | warning if fewer are live than expected (the next deploy fixes it) |
 | `live_site` | `curl -s -o /dev/null -w "%{http_code}"` on the home page, `/sitemap.xml`, `/faq/` and the newest post URL. The cloud network usually blocks this; then try the WebFetch tool on the home page and the newest post URL instead | error if any page returns 4xx/5xx. If both curl and WebFetch are blocked, status `ok` with detail "Teste ao vivo feito pelo painel no navegador" (the panel tests the live pages itself) |
 | `sitemap` | the built `sitemap.xml` URL count vs `totals.urls` in `data/status.json` | warning if different |

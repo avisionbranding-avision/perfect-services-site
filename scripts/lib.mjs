@@ -118,12 +118,86 @@ export const IMAGE_LABELS = {
 };
 export const ALL_IMAGES = Object.keys(IMAGE_LABELS);
 
+// Extra angles used only for the home base (Greer), which gets one article per service every day.
+// {S} = service short name (capitalized), {s} = lowercase, {kw} = main keyword, {zip0}/{zip1}, {road0}/{road1}
+const BASE_ANGLES = [
+  ['first-time', 'First-time {s} in Greer, SC: what to expect', '{kw} Greer SC'],
+  ['how-long', 'How long does {s} take in Greer, SC?', '{kw} Greer how long'],
+  ['how-often', 'How often should you book {s} in Greer?', '{kw} Greer how often'],
+  ['prepare', 'How to prepare your Greer home for {s}', 'prepare for {kw} Greer'],
+  ['after', 'After {s}: keeping your Greer home clean longer', '{kw} Greer tips'],
+  ['mistakes', '5 {s} mistakes Greer homeowners make', '{kw} mistakes Greer'],
+  ['questions', 'Questions to ask before hiring {s} in Greer', 'hire {kw} Greer SC'],
+  ['price-factors', 'What changes the price of {s} in Greer, SC', '{kw} cost Greer SC'],
+  ['diy-vs-pro', 'DIY vs. professional {s} in Greer', 'professional {kw} Greer'],
+  ['kitchen', '{S} in Greer: the kitchen, step by step', '{kw} kitchen Greer SC'],
+  ['bathroom', '{S} in Greer: bathrooms done right', '{kw} bathroom Greer SC'],
+  ['bedrooms', '{S} in Greer: bedrooms and closets', '{kw} bedroom Greer'],
+  ['living-areas', '{S} in Greer: living rooms and shared spaces', '{kw} living room Greer'],
+  ['floors', '{S} in Greer: floors, baseboards and edges', '{kw} floors Greer SC'],
+  ['pets', '{S} for pet owners in Greer, SC', '{kw} pet owners Greer'],
+  ['families', '{S} for busy families in Greer', '{kw} families Greer SC'],
+  ['seniors', '{S} for seniors and their families in Greer', '{kw} seniors Greer'],
+  ['professionals', '{S} for busy professionals in Greer', '{kw} Greer professionals'],
+  ['renters', '{S} for renters in Greer, SC', '{kw} renters Greer'],
+  ['landlords', '{S} for landlords and property managers in Greer', '{kw} landlords Greer SC'],
+  ['selling', '{S} before selling a home in Greer', '{kw} home sale Greer'],
+  ['spring', 'Spring {s} in Greer, SC', 'spring {kw} Greer'],
+  ['summer', 'Summer {s} in Greer: heat, humidity and dust', 'summer {kw} Greer SC'],
+  ['fall', 'Fall {s} in Greer, SC', 'fall {kw} Greer'],
+  ['winter', 'Winter {s} in Greer: indoor season tips', 'winter {kw} Greer SC'],
+  ['holidays', '{S} before the holidays in Greer', 'holiday {kw} Greer'],
+  ['pollen', '{S} during Upstate pollen season in Greer', '{kw} pollen Greer SC'],
+  ['zip-0', '{S} in Greer ZIP {zip0}', '{kw} {zip0}'],
+  ['zip-1', '{S} in Greer ZIP {zip1}', '{kw} {zip1}'],
+  ['road-0', '{S} for homes near {road0} in Greer', '{kw} near {road0} Greer'],
+  ['road-1', '{S} for homes near {road1} in Greer', '{kw} near {road1} Greer'],
+  ['allergies', '{S} for allergy-sensitive homes in Greer', '{kw} allergies Greer'],
+  ['large-homes', '{S} for large homes in Greer', '{kw} large home Greer SC'],
+  ['small-homes', '{S} for small homes and townhomes in Greer', '{kw} townhome Greer'],
+  ['short-notice', 'Booking {s} on short notice in Greer', '{kw} same week Greer'],
+  ['full-checklist', 'The complete {s} checklist for Greer homes', '{kw} checklist Greer SC'],
+  ['brazilian-way', 'The Brazilian approach to {s} in Greer', 'Brazilian {kw} Greer'],
+  ['choose-company', 'How to choose a trustworthy {s} company in Greer', 'best {kw} Greer SC'],
+  ['products', 'Safer products for {s} in Greer homes', 'safe {kw} Greer'],
+  ['myths', 'Common myths about {s}, answered for Greer homeowners', '{kw} myths Greer'],
+];
+export function baseQueue() {
+  const base = cities.find((c) => c.isBase);
+  if (!base) return {};
+  const out = {};
+  services.forEach((svc) => {
+    const s = svc.short.toLowerCase();
+    const sub = (t) => t.replaceAll('{S}', svc.short).replaceAll('{s}', s).replaceAll('{kw}', svc.keywords[0])
+      .replaceAll('{zip0}', base.zips[0] || base.zips[0]).replaceAll('{zip1}', base.zips[1] || base.zips[0])
+      .replaceAll('{road0}', base.roads[0]).replaceAll('{road1}', base.roads[1] || base.roads[0]);
+    const list = [];
+    svc.angles.forEach((ang, a) => {
+      if (a === 0 || (svc.slug === 'house-cleaning' && ang[0] === 'frequency')) return;
+      list.push([ang[0], fill(ang[1], base), fill(ang[2], base)]);
+    });
+    BASE_ANGLES.forEach((ang) => {
+      if (ang[0] === 'zip-1' && !base.zips[1]) return;
+      if (ang[0] === 'road-1' && !base.roads[1]) return;
+      list.push([ang[0], sub(ang[1]), sub(ang[2])]);
+    });
+    const seen = new Set();
+    out[svc.slug] = list.map(([angle, title, keyword]) => ({
+      slug: slugify(title).slice(0, 90).replace(/-+$/, ''), title, keyword, angle,
+      city: base.slug, cityName: base.full, service: svc.slug, serviceName: svc.name,
+      image: pick(svc.images, hash(title)),
+    })).filter((t) => (seen.has(t.slug) ? false : seen.add(t.slug)));
+  });
+  return out;
+}
+
 // Topic queue for the daily article routine
 export function topicQueue() {
   const out = [];
   const maxAngles = Math.max(...services.map((s) => s.angles.length));
   for (let a = 0; a < maxAngles; a++) {
     cities.forEach((city, ci) => {
+      if (site.greerDailyPerService && city.isBase) return; // the base city has its own daily queue
       rotate(services, ci + a).forEach((svc) => {
         const ang = svc.angles[a];
         if (!ang) return;
