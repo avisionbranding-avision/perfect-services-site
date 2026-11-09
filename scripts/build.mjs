@@ -34,7 +34,7 @@ function write(rel, html, { sitemap = true, priority = 0.6, lastmod = TODAY } = 
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, html);
   if (sitemap) {
-    const loc = `${D}/${rel.replace(/index\.html$/, '').replace(/\\/g, '/')}`;
+    const loc = `${D}/${rel.replace(/\\/g, '/').replace(/index\.html$/, '').replace(/\.html$/, '')}`;
     urls.push({ loc, priority, lastmod });
   }
 }
@@ -43,7 +43,7 @@ const cityUrl = (c) => `/areas/${c.slug}/`;
 const cityServiceUrl = (c, s) => `/areas/${c.slug}/${s.slug}/`;
 const serviceUrl = (s) => `/services/${s.slug}/`;
 const cityBlogUrl = (c) => `/blog/${c.slug}/`;
-const postUrl = (p) => `/blog/${p.slug}.html`;
+const postUrl = (p) => `/blog/${p.slug}`;
 
 // ---------- layout ----------
 const PHONE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>';
@@ -61,7 +61,7 @@ function footerServices() {
   return `<div><h3>Services</h3><ul>${services.map((s) => `<li><a href="${serviceUrl(s)}">${esc(s.name)}</a></li>`).join('')}<li><a href="/#estimate">Free estimate</a></li></ul></div>`;
 }
 function layout({ title, description, canonical, image = 'open-floor-plan-greer.jpg', jsonld = [], body, current = '', type = 'website' }) {
-  const nav = [['/services/', 'Services', 'services'], ['/areas/', 'Areas', 'areas'], ['/#method', 'Brazilian method', ''], ['/blog.html', 'Blog', 'blog'], ['/faq/', 'FAQ', 'faq']];
+  const nav = [['/services/', 'Services', 'services'], ['/areas/', 'Areas', 'areas'], ['/#method', 'Brazilian method', ''], ['/blog', 'Blog', 'blog'], ['/faq/', 'FAQ', 'faq']];
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -433,7 +433,7 @@ function buildPosts() {
       ids.push([id, plain(inner)]);
       return idm ? m : `<h2 id="${id}"${attrs}>${inner}</h2>`;
     });
-    const items = [['Home', '/'], ['Blog', '/blog.html'], ...(city ? [[city.full, cityBlogUrl(city)]] : []), [p.title, null]];
+    const items = [['Home', '/'], ['Blog', '/blog'], ...(city ? [[city.full, cityBlogUrl(city)]] : []), [p.title, null]];
     const faqs = p.faqs || [];
     const rel = relatedPosts({ city, svc, exclude: p.slug });
     const words = plain(p.html).split(/\s+/).length;
@@ -455,7 +455,7 @@ ${city && svc ? `<div class="side-box"><h3>${esc(svc.short)} in ${esc(city.name)
     }), { priority: 0.6, lastmod: p.updated || p.date });
   });
   // legacy posts are already HTML; add them to the sitemap
-  posts.filter((p) => p.legacy).forEach((p) => urls.push({ loc: `${D}/blog/${p.slug}.html`, priority: 0.6, lastmod: p.date }));
+  posts.filter((p) => p.legacy).forEach((p) => urls.push({ loc: `${D}${postUrl(p)}`, priority: 0.6, lastmod: p.date }));
 }
 
 function buildBlogIndex() {
@@ -464,8 +464,8 @@ function buildBlogIndex() {
   write('blog.html', layout({
     title: 'House Cleaning Tips & Guides for Greer and the Upstate SC | Perfect Services Blog',
     description: 'Expert house cleaning guides for Greer and the Upstate: prices, deep cleaning, move-out checklists, maid service, Airbnb, post-construction and commercial cleaning.',
-    canonical: '/blog.html', current: 'blog',
-    jsonld: [{ '@type': 'Blog', name: 'Perfect Services Cleaning Blog', url: `${D}/blog.html`, publisher: BUSINESS, blogPost: posts.slice(0, 50).map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: `${D}${postUrl(p)}`, datePublished: p.date })) }],
+    canonical: '/blog', current: 'blog',
+    jsonld: [{ '@type': 'Blog', name: 'Perfect Services Cleaning Blog', url: `${D}/blog`, publisher: BUSINESS, blogPost: posts.slice(0, 50).map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: `${D}${postUrl(p)}`, datePublished: p.date })) }],
     body: `<section class="blog-hero"><div class="wrap bh-grid">
 <div><span class="tag">Perfect Services blog</span><h1>House cleaning guides for Upstate SC homes</h1><p>Checklists, prices and honest advice from a Brazilian cleaning team in Greer, written for homeowners, renters, hosts and small businesses in ${cities.length} Upstate communities.</p><div class="hero-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a><a class="btn btn-ghost" href="/faq/">Read the FAQ</a></div></div>
 <div class="bh-stats"><div><b>${posts.length}</b><span>cleaning guides</span></div><div><b>${cities.length}</b><span>city blogs</span></div>${site.googleBusinessProfile ? `<a href="${site.googleBusinessProfile}" target="_blank" rel="noopener" style="text-decoration:none;color:#fff"><div><b>★★★★★</b><span>Google reviews</span></div></a>` : '<div><b>Same day</b><span>free estimates</span></div>'}</div>
@@ -490,7 +490,7 @@ cards.forEach(function(k,i){k.hidden = f==='all' ? i===0 : k.dataset.cat!==f});}
   cities.forEach((city) => {
     const own = posts.filter((p) => p.city === city.slug);
     const general = posts.filter((p) => p.city !== city.slug).slice(0, Math.max(3, 9 - own.length));
-    const items = [['Home', '/'], ['Blog', '/blog.html'], [`${city.name} blog`, null]];
+    const items = [['Home', '/'], ['Blog', '/blog'], [`${city.name} blog`, null]];
     write(`blog/${city.slug}/index.html`, layout({
       title: `${city.name} House Cleaning Blog: Tips, Checklists & Prices | Perfect Services`,
       description: trim(`House cleaning tips, checklists and price guides for ${city.full} homeowners, renters, hosts and businesses, from the Perfect Services team in Greer.`, 158),
@@ -582,8 +582,29 @@ function buildSitemap() {
   const body = urls.filter((u) => (seen.has(u.loc) ? false : seen.add(u.loc)))
     .map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority.toFixed(1)}</priority></url>`).join('\n');
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`);
-  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\nDisallow: /painel/\nDisallow: /functions/\nDisallow: /api/\n\nSitemap: ${D}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /thank-you\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\nDisallow: /painel/\nDisallow: /functions/\nDisallow: /api/\n\nSitemap: ${D}/sitemap.xml\n`);
   return seen.size;
+}
+
+// Clean URLs: Cloudflare Pages answers /x.html with a 308 to /x, so every internal link, canonical, JSON-LD url
+// and sitemap entry points at the extensionless address (Netlify serves both). index.html links are left alone.
+function prettyLinks() {
+  const SKIP = new Set(['.git', '.claude', 'node_modules', 'scripts', 'data', 'content', 'painel', 'functions']);
+  const dq = D.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const rel = /(=")((?!https?:|\/\/)[^"#?\s:]*?)(?<!index)\.html(?=[#?"])/g;
+  const abs = new RegExp(`${dq}(/[^"'\\s<]*?)(?<!/index)\\.html(?=[#?"'<\\s])`, 'g');
+  const fix = (f) => {
+    const s = fs.readFileSync(f, 'utf8');
+    const t = s.replace(rel, '$1$2').replace(abs, `${D}$1`);
+    if (t !== s) fs.writeFileSync(f, t);
+  };
+  (function walk(d) {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const p = path.join(d, e.name);
+      if (e.isDirectory()) { if (!SKIP.has(e.name)) walk(p); } else if (p.endsWith('.html')) fix(p);
+    }
+  })(ROOT);
+  fix(path.join(ROOT, 'sitemap.xml'));
 }
 
 // Remove previously generated folders so only released cities are published
@@ -604,6 +625,7 @@ buildPosts();
 buildBlogIndex();
 buildFaq();
 const n = buildSitemap();
+prettyLinks();
 
 // ---------- status file for the monitoring panel (/painel/) ----------
 function writeStatus(urlCount) {
@@ -640,7 +662,7 @@ function writeStatus(urlCount) {
     // Order in which to request indexing in Search Console (10 a day): hubs, then cities by distance,
     // then each city's service pages, then city blogs, then articles (Greer first, newest first).
     inspectQueue: [...new Set([
-      `${D}/`, `${D}/services/`, `${D}/areas/`, `${D}/faq/`, `${D}/blog.html`,
+      `${D}/`, `${D}/services/`, `${D}/areas/`, `${D}/faq/`, `${D}/blog`,
       ...cities.map((c) => `${D}${cityUrl(c)}`),
       ...services.map((s) => `${D}${serviceUrl(s)}`),
       ...cities.flatMap((c) => services.map((s) => `${D}${cityServiceUrl(c, s)}`)),

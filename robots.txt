@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /thank-you.html
+Disallow: /thank-you
 Disallow: /data/
 Disallow: /scripts/
 Disallow: /content/

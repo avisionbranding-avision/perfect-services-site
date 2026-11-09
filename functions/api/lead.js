@@ -1,7 +1,7 @@
 // POST /api/lead: receives the estimate forms (home "estimate" and city pages "estimate-local").
 // 1. Saves the lead in D1 (binding LEADS_DB), so no lead is ever lost.
 // 2. Emails it to the agency (Resend: RESEND_API_KEY, LEAD_EMAIL_TO, optional LEAD_EMAIL_FROM).
-// 3. Redirects the visitor to /thank-you.html.
+// 3. Redirects the visitor to /thank-you.
 // The agency reviews it in /painel/ (Leads tab) and forwards it to Tony by SMS.
 
 export const SCHEMA = `CREATE TABLE IF NOT EXISTS leads (
@@ -17,7 +17,7 @@ const FIELDS = ['name', 'phone', 'address', 'zip', 'service', 'bedrooms', 'bathr
 const LABELS = { name: 'Nome', phone: 'Telefone', address: 'Endereço', zip: 'CEP (ZIP)', service: 'Serviço', bedrooms: 'Quartos', bathrooms: 'Banheiros', frequency: 'Frequência', message: 'Mensagem', page: 'Página do site' };
 const clip = (v, n) => String(v ?? '').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '').trim().slice(0, n);
 const escHtml = (s) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const thanks = (request) => Response.redirect(new URL('/thank-you.html', request.url).toString(), 303);
+const thanks = (request) => Response.redirect(new URL('/thank-you', request.url).toString(), 303);
 
 function failPage() {
   return new Response('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Perfect Services</title><body style="font:16px/1.5 system-ui;max-width:520px;margin:40px auto;padding:0 16px"><h1>Sorry, something went wrong</h1><p>We could not receive your request. Please call <a href="tel:+18643995168">(864) 399-5168</a> or text <a href="sms:+18646668520">(864) 666-8520</a> and we will schedule your free in-home estimate.</p></body>', { status: 500, headers: { 'content-type': 'text/html; charset=utf-8' } });

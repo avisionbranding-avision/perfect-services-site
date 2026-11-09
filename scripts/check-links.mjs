@@ -23,7 +23,9 @@ for (const f of files) {
     if (/^(https?:|mailto:|tel:|sms:|data:)/.test(u)) continue;
     total++;
     const target = u.startsWith('/') ? path.join(ROOT, u) : path.join(path.dirname(f), u);
-    const ok = fs.existsSync(target) && (fs.statSync(target).isFile() || fs.existsSync(path.join(target, 'index.html')));
+    // Clean URLs (/blog, /blog/post) are served from /blog.html and /blog/post.html
+    const ok = (fs.existsSync(target) && (fs.statSync(target).isFile() || fs.existsSync(path.join(target, 'index.html'))))
+      || (!path.extname(target) && fs.existsSync(`${target}.html`));
     if (!ok) broken.push({ page: path.relative(ROOT, f).replace(/\\/g, '/'), link: u });
   }
 }
