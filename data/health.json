@@ -1,79 +1,84 @@
 {
- "checkedAt": "2026-11-09T06:45:00Z",
- "overall": "warning",
- "checks": [
-  {
-   "id": "build",
-   "label": "Geração do site",
-   "status": "ok",
-   "detail": "545 páginas geradas"
-  },
-  {
-   "id": "links",
-   "label": "Links internos",
-   "status": "ok",
-   "detail": "Nenhum link quebrado"
-  },
-  {
-   "id": "posts_json",
-   "label": "Artigos",
-   "status": "ok",
-   "detail": "14 artigos válidos"
-  },
-  {
-   "id": "daily_run",
-   "label": "Rotina diária",
-   "status": "ok",
-   "detail": "Artigos de hoje publicados"
-  },
-  {
-   "id": "daily_count",
-   "label": "Quantidade de artigos",
-   "status": "ok",
-   "detail": "4 artigos hoje"
-  },
-  {
-   "id": "gbp_posts",
-   "label": "Posts do Google Meu Negócio",
-   "status": "ok",
-   "detail": "3 posts de hoje prontos, sem telefone, link ou e-mail no texto"
-  },
-  {
-   "id": "greer_queue",
-   "label": "Temas de Greer",
-   "status": "ok",
-   "detail": "46 dias restantes"
-  },
-  {
-   "id": "cities",
-   "label": "Cidades no ar",
-   "status": "ok",
-   "detail": "43 de 43 cidades no ar"
-  },
-  {
-   "id": "live_site",
-   "label": "Site no ar",
-   "status": "warning",
-   "detail": "não foi possível verificar o site a partir da nuvem"
-  },
-  {
-   "id": "sitemap",
-   "label": "Sitemap",
-   "status": "ok",
-   "detail": "545 URLs, igual ao esperado"
-  }
- ],
- "fixes": [],
- "history": [
-  {
-   "at": "2026-11-09T06:45:00Z",
-   "overall": "warning",
-   "summary": "Site no ar não verificável da nuvem; resto ok"
-  },
-  {
-   "at": "2026-11-09T05:20:00Z",
-   "overall": "warning",
-   "summary": "Site no ar não verificável da nuvem; resto ok"
-  }
- ]
+  "checkedAt": "2026-11-09T09:50:00Z",
+  "overall": "warning",
+  "checks": [
+    {
+      "id": "build",
+      "label": "Geração do site",
+      "status": "ok",
+      "detail": "561 páginas geradas"
+    },
+    {
+      "id": "links",
+      "label": "Links internos",
+      "status": "ok",
+      "detail": "Nenhum link quebrado"
+    },
+    {
+      "id": "posts_json",
+      "label": "Artigos",
+      "status": "ok",
+      "detail": "20 artigos válidos"
+    },
+    {
+      "id": "daily_run",
+      "label": "Rotina diária",
+      "status": "ok",
+      "detail": "Artigos de hoje publicados (2 execuções)"
+    },
+    {
+      "id": "daily_count",
+      "label": "Quantidade de artigos",
+      "status": "ok",
+      "detail": "20 artigos hoje; a segunda rodada é às 12:00 UTC"
+    },
+    {
+      "id": "gbp_posts",
+      "label": "Posts do Google Meu Negócio",
+      "status": "ok",
+      "detail": "3 posts de hoje prontos, sem telefone, link ou e-mail no texto"
+    },
+    {
+      "id": "greer_queue",
+      "label": "Temas de Greer",
+      "status": "ok",
+      "detail": "22 dias restantes"
+    },
+    {
+      "id": "cities",
+      "label": "Cidades no ar",
+      "status": "ok",
+      "detail": "43 de 43 cidades no ar"
+    },
+    {
+      "id": "live_site",
+      "label": "Site no ar",
+      "status": "warning",
+      "detail": "não foi possível verificar o site a partir da nuvem"
+    },
+    {
+      "id": "sitemap",
+      "label": "Sitemap",
+      "status": "ok",
+      "detail": "561 URLs, igual ao esperado"
+    }
+  ],
+  "fixes": [],
+  "history": [
+    {
+      "at": "2026-11-09T09:50:00Z",
+      "overall": "warning",
+      "summary": "Site no ar não verificável da nuvem; resto ok"
+    },
+    {
+      "at": "2026-11-09T06:45:00Z",
+      "overall": "warning",
+      "summary": "Site no ar não verificável da nuvem; resto ok"
+    },
+    {
+      "at": "2026-11-09T05:20:00Z",
+      "overall": "warning",
+      "summary": "Site no ar não verificável da nuvem; resto ok"
+    }
+  ]
 }

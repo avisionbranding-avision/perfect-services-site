@@ -1,199 +1,199 @@
 {
- "updatedAt": "2026-11-09T06:45:00Z",
- "kit": [
-  {
-   "label": "Business name (igual ao Google)",
-   "value": "Perfect Services Painting & Cleaning"
-  },
-  {
-   "label": "Primary category",
-   "value": "House Cleaning Service"
-  },
-  {
-   "label": "Other categories",
-   "value": "Maid Service, Janitorial Service, Commercial Cleaning Service"
-  },
-  {
-   "label": "Phone",
-   "value": "(864) 399-5168"
-  },
-  {
-   "label": "Text / SMS",
-   "value": "(864) 666-8520"
-  },
-  {
-   "label": "Email",
-   "value": "perfectservices6340@gmail.com"
-  },
-  {
-   "label": "Website",
-   "value": "https://perfectservicespaintingcleaning.com/"
-  },
-  {
-   "label": "City / ZIP (hide street address: service-area business)",
-   "value": "Greer, SC 29651"
-  },
-  {
-   "label": "Short description (160 characters)",
-   "value": "Brazilian-owned house cleaning in Greer, SC. Deep, move-out, recurring, Airbnb and office cleaning across the Upstate. Free in-home estimates."
-  },
-  {
-   "label": "Long description",
-   "value": "Perfect Services is a Brazilian-owned cleaning company based in Greer, South Carolina, run by Regiani and Tony. We clean homes, apartments, vacation rentals and offices with a hands-on, detail-first method, including the baseboards, edges and corners a rushed clean skips. Services: recurring house cleaning and maid service, deep cleaning, move-in and move-out cleaning, post-construction cleanup, Airbnb and vacation rental turnovers, apartment and condo cleaning, one-time cleanings, eco-friendly green cleaning and commercial office cleaning. We serve Greer, Taylors, Greenville, Spartanburg, Simpsonville, Mauldin and communities within 30 miles. Free in-home estimates with no commitment: call (864) 399-5168 or text (864) 666-8520."
-  },
-  {
-   "label": "Services",
-   "value": "House Cleaning & Maid Service; Deep Cleaning; Move-In & Move-Out Cleaning; Post-Construction Cleaning; Commercial & Office Cleaning; Brazilian House Cleaning; Airbnb & Vacation Rental Cleaning; Apartment & Condo Cleaning; One-Time House Cleaning; Eco-Friendly Green Cleaning"
-  },
-  {
-   "label": "Google Business Profile: service areas (max 20)",
-   "value": "Greer SC; Taylors SC; Greenville SC; Spartanburg SC; Simpsonville SC; Mauldin SC; Duncan SC; Lyman SC; Wellford SC; Inman SC; Travelers Rest SC; Five Forks SC; Boiling Springs SC; Fountain Inn SC; Easley SC; Powdersville SC; Moore SC; Berea SC; Wade Hampton SC; Piedmont SC"
-  },
-  {
-   "label": "All cities served (directories without a limit)",
-   "value": "Greer, Taylors, Duncan, Lyman, Wade Hampton, Wellford, Startex, Reidville, Five Forks, Inman, Greenville, Mauldin, Travelers Rest, Campobello, Moore, Simpsonville, Berea, Parker, Gantt, Roebuck, Boiling Springs, Marietta, Landrum, Spartanburg, Fountain Inn, Woodruff, Powdersville, Piedmont, Pauline, Easley, Gray Court, Pelzer, Cowpens, Chesnee, Williamston, Pacolet, Pickens, Liberty (SC); Tryon, Saluda, Columbus, Flat Rock, Hendersonville (NC)"
-  },
-  {
-   "label": "Instagram",
-   "value": "https://www.instagram.com/perfectservices/"
-  },
-  {
-   "label": "Photos to upload",
-   "value": "Use the photos in the site's /images folder: team photo first, then kitchen, bathroom, living room and other rooms the team cleaned."
-  }
- ],
- "directories": [
-  {
-   "id": "google",
-   "name": "Google Business Profile",
-   "priority": 1,
-   "signup": "https://business.google.com/",
-   "why": "Decide o mapa do Google (os 3 primeiros com estrelas). Já existe: revisar categoria, os 20 bairros/cidades, serviços, fotos e postar 1 vez por semana.",
-   "match": "google.com",
-   "status": "found",
-   "url": "https://share.google/we1NiMp6n1ipAOppy",
-   "checkedAt": null
-  },
-  {
-   "id": "bing",
-   "name": "Bing Places",
-   "priority": 2,
-   "signup": "https://www.bingplaces.com/",
-   "why": "Importa tudo do Google em 2 minutos. Alimenta Bing, Copilot e ChatGPT.",
-   "match": "bing.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": "2026-11-09T06:45:00Z"
-  },
-  {
-   "id": "yelp",
-   "name": "Yelp",
-   "priority": 3,
-   "signup": "https://biz.yelp.com/",
-   "why": "Aparece no topo do Google para 'house cleaning + cidade' e alimenta o Apple Maps.",
-   "match": "yelp.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": "2026-11-09T06:45:00Z"
-  },
-  {
-   "id": "angi",
-   "name": "Angi (inclui HomeAdvisor)",
-   "priority": 4,
-   "signup": "https://www.angi.com/pros",
-   "why": "Angi e HomeAdvisor estão no top 3 em quase todas as cidades medidas. Um cadastro cobre os dois.",
-   "match": "angi.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": "2026-11-09T06:45:00Z"
-  },
-  {
-   "id": "thumbtack",
-   "name": "Thumbtack",
-   "priority": 5,
-   "signup": "https://www.thumbtack.com/pro",
-   "why": "Aparece no top 10 de Greer e Duncan com empresas locais listadas.",
-   "match": "thumbtack.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  },
-  {
-   "id": "care",
-   "name": "Care.com",
-   "priority": 6,
-   "signup": "https://www.care.com/",
-   "why": "É o resultado nº 1 em todas as cidades medidas. Criar perfil de housekeeping/empresa.",
-   "match": "care.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  },
-  {
-   "id": "apple",
-   "name": "Apple Business Connect",
-   "priority": 7,
-   "signup": "https://businessconnect.apple.com/",
-   "why": "Coloca a empresa no Apple Maps e na Siri (iPhone).",
-   "match": "apple.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  },
-  {
-   "id": "nextdoor",
-   "name": "Nextdoor",
-   "priority": 8,
-   "signup": "https://business.nextdoor.com/",
-   "why": "Indicação de vizinhos: forte para limpeza residencial em bairros.",
-   "match": "nextdoor.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  },
-  {
-   "id": "facebook",
-   "name": "Facebook (página da empresa)",
-   "priority": 9,
-   "signup": "https://www.facebook.com/pages/create",
-   "why": "Citação básica e lugar para avaliações e recomendações.",
-   "match": "facebook.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  },
-  {
-   "id": "bbb",
-   "name": "BBB (Better Business Bureau)",
-   "priority": 10,
-   "signup": "https://www.bbb.org/",
-   "why": "Aparece no top 10 em Lyman. Passa confiança para clientes americanos.",
-   "match": "bbb.org",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  },
-  {
-   "id": "homeguide",
-   "name": "HomeGuide",
-   "priority": 11,
-   "signup": "https://homeguide.com/",
-   "why": "Aparece no top 5 em Wellford com empresas de limpeza.",
-   "match": "homeguide.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  },
-  {
-   "id": "chamber",
-   "name": "Greer Chamber of Commerce",
-   "priority": 12,
-   "signup": "https://www.greerchamber.com/",
-   "why": "Link de um site local de autoridade (associação paga). Forte para Greer.",
-   "match": "greerchamber.com",
-   "status": "pending",
-   "url": null,
-   "checkedAt": null
-  }
- ]
+  "updatedAt": "2026-11-09T09:50:00Z",
+  "kit": [
+    {
+      "label": "Business name (igual ao Google)",
+      "value": "Perfect Services Painting & Cleaning"
+    },
+    {
+      "label": "Primary category",
+      "value": "House Cleaning Service"
+    },
+    {
+      "label": "Other categories",
+      "value": "Maid Service, Janitorial Service, Commercial Cleaning Service"
+    },
+    {
+      "label": "Phone",
+      "value": "(864) 399-5168"
+    },
+    {
+      "label": "Text / SMS",
+      "value": "(864) 666-8520"
+    },
+    {
+      "label": "Email",
+      "value": "perfectservices6340@gmail.com"
+    },
+    {
+      "label": "Website",
+      "value": "https://perfectservicespaintingcleaning.com/"
+    },
+    {
+      "label": "City / ZIP (hide street address: service-area business)",
+      "value": "Greer, SC 29651"
+    },
+    {
+      "label": "Short description (160 characters)",
+      "value": "Brazilian-owned house cleaning in Greer, SC. Deep, move-out, recurring, Airbnb and office cleaning across the Upstate. Free in-home estimates."
+    },
+    {
+      "label": "Long description",
+      "value": "Perfect Services is a Brazilian-owned cleaning company based in Greer, South Carolina, run by Regiani and Tony. We clean homes, apartments, vacation rentals and offices with a hands-on, detail-first method, including the baseboards, edges and corners a rushed clean skips. Services: recurring house cleaning and maid service, deep cleaning, move-in and move-out cleaning, post-construction cleanup, Airbnb and vacation rental turnovers, apartment and condo cleaning, one-time cleanings, eco-friendly green cleaning and commercial office cleaning. We serve Greer, Taylors, Greenville, Spartanburg, Simpsonville, Mauldin and communities within 30 miles. Free in-home estimates with no commitment: call (864) 399-5168 or text (864) 666-8520."
+    },
+    {
+      "label": "Services",
+      "value": "House Cleaning & Maid Service; Deep Cleaning; Move-In & Move-Out Cleaning; Post-Construction Cleaning; Commercial & Office Cleaning; Brazilian House Cleaning; Airbnb & Vacation Rental Cleaning; Apartment & Condo Cleaning; One-Time House Cleaning; Eco-Friendly Green Cleaning"
+    },
+    {
+      "label": "Google Business Profile: service areas (max 20)",
+      "value": "Greer SC; Taylors SC; Greenville SC; Spartanburg SC; Simpsonville SC; Mauldin SC; Duncan SC; Lyman SC; Wellford SC; Inman SC; Travelers Rest SC; Five Forks SC; Boiling Springs SC; Fountain Inn SC; Easley SC; Powdersville SC; Moore SC; Berea SC; Wade Hampton SC; Piedmont SC"
+    },
+    {
+      "label": "All cities served (directories without a limit)",
+      "value": "Greer, Taylors, Duncan, Lyman, Wade Hampton, Wellford, Startex, Reidville, Five Forks, Inman, Greenville, Mauldin, Travelers Rest, Campobello, Moore, Simpsonville, Berea, Parker, Gantt, Roebuck, Boiling Springs, Marietta, Landrum, Spartanburg, Fountain Inn, Woodruff, Powdersville, Piedmont, Pauline, Easley, Gray Court, Pelzer, Cowpens, Chesnee, Williamston, Pacolet, Pickens, Liberty (SC); Tryon, Saluda, Columbus, Flat Rock, Hendersonville (NC)"
+    },
+    {
+      "label": "Instagram",
+      "value": "https://www.instagram.com/perfectservices/"
+    },
+    {
+      "label": "Photos to upload",
+      "value": "Use the photos in the site's /images folder: team photo first, then kitchen, bathroom, living room and other rooms the team cleaned."
+    }
+  ],
+  "directories": [
+    {
+      "id": "google",
+      "name": "Google Business Profile",
+      "priority": 1,
+      "signup": "https://business.google.com/",
+      "why": "Decide o mapa do Google (os 3 primeiros com estrelas). Já existe: revisar categoria, os 20 bairros/cidades, serviços, fotos e postar 1 vez por semana.",
+      "match": "google.com",
+      "status": "found",
+      "url": "https://share.google/we1NiMp6n1ipAOppy",
+      "checkedAt": null
+    },
+    {
+      "id": "bing",
+      "name": "Bing Places",
+      "priority": 2,
+      "signup": "https://www.bingplaces.com/",
+      "why": "Importa tudo do Google em 2 minutos. Alimenta Bing, Copilot e ChatGPT.",
+      "match": "bing.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": "2026-11-09T06:45:00Z"
+    },
+    {
+      "id": "yelp",
+      "name": "Yelp",
+      "priority": 3,
+      "signup": "https://biz.yelp.com/",
+      "why": "Aparece no topo do Google para 'house cleaning + cidade' e alimenta o Apple Maps.",
+      "match": "yelp.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": "2026-11-09T06:45:00Z"
+    },
+    {
+      "id": "angi",
+      "name": "Angi (inclui HomeAdvisor)",
+      "priority": 4,
+      "signup": "https://www.angi.com/pros",
+      "why": "Angi e HomeAdvisor estão no top 3 em quase todas as cidades medidas. Um cadastro cobre os dois.",
+      "match": "angi.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": "2026-11-09T06:45:00Z"
+    },
+    {
+      "id": "thumbtack",
+      "name": "Thumbtack",
+      "priority": 5,
+      "signup": "https://www.thumbtack.com/pro",
+      "why": "Aparece no top 10 de Greer e Duncan com empresas locais listadas.",
+      "match": "thumbtack.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": "2026-11-09T09:50:00Z"
+    },
+    {
+      "id": "care",
+      "name": "Care.com",
+      "priority": 6,
+      "signup": "https://www.care.com/",
+      "why": "É o resultado nº 1 em todas as cidades medidas. Criar perfil de housekeeping/empresa.",
+      "match": "care.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": "2026-11-09T09:50:00Z"
+    },
+    {
+      "id": "apple",
+      "name": "Apple Business Connect",
+      "priority": 7,
+      "signup": "https://businessconnect.apple.com/",
+      "why": "Coloca a empresa no Apple Maps e na Siri (iPhone).",
+      "match": "apple.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": "2026-11-09T09:50:00Z"
+    },
+    {
+      "id": "nextdoor",
+      "name": "Nextdoor",
+      "priority": 8,
+      "signup": "https://business.nextdoor.com/",
+      "why": "Indicação de vizinhos: forte para limpeza residencial em bairros.",
+      "match": "nextdoor.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": null
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook (página da empresa)",
+      "priority": 9,
+      "signup": "https://www.facebook.com/pages/create",
+      "why": "Citação básica e lugar para avaliações e recomendações.",
+      "match": "facebook.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": null
+    },
+    {
+      "id": "bbb",
+      "name": "BBB (Better Business Bureau)",
+      "priority": 10,
+      "signup": "https://www.bbb.org/",
+      "why": "Aparece no top 10 em Lyman. Passa confiança para clientes americanos.",
+      "match": "bbb.org",
+      "status": "pending",
+      "url": null,
+      "checkedAt": null
+    },
+    {
+      "id": "homeguide",
+      "name": "HomeGuide",
+      "priority": 11,
+      "signup": "https://homeguide.com/",
+      "why": "Aparece no top 5 em Wellford com empresas de limpeza.",
+      "match": "homeguide.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": null
+    },
+    {
+      "id": "chamber",
+      "name": "Greer Chamber of Commerce",
+      "priority": 12,
+      "signup": "https://www.greerchamber.com/",
+      "why": "Link de um site local de autoridade (associação paga). Forte para Greer.",
+      "match": "greerchamber.com",
+      "status": "pending",
+      "url": null,
+      "checkedAt": null
+    }
+  ]
 }
