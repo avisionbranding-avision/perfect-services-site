@@ -1,9 +1,10 @@
 {
  "checkedAt": "2026-11-09T06:40:00Z",
- "checkedBy": "Claude, no painel do perfil",
+ "checkedBy": "Claude, no painel do perfil e no Gmail",
  "rating": 5.0,
  "total": 14,
  "unanswered": 0,
- "note": "Todas as 14 avaliações estão respondidas. As 2 mais recentes (há 6 dias e há 1 semana) também.",
- "pending": []
+ "note": "Todas as 14 avaliações estão respondidas, inclusive as mais recentes (Patrice e Carolina).",
+ "pending": [],
+ "seen": ["1a19ea8a008e29b5", "1a192e236491cff7", "1a183a89e3ea23e2", "1a17bfa53ae2883e", "1a17553d8c2f2166", "1a164f532a17c6a5"]
 }

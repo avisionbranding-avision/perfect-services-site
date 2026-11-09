@@ -9,7 +9,7 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 1. `git pull -q origin main`. Read `data/site.json`, `data/health.json` and `data/rankings.json`.
 2. Run the checks below. Each check gets a status: `ok`, `warning` or `error`, plus a short detail in Brazilian Portuguese that a non-technical owner understands.
 3. Undo the build output so you never commit it: `git checkout -- . && git clean -fdq -- areas services faq blog` (keep your own edits to `data/health.json`, `data/rankings.json` and any `content/posts` fix, by writing those files after this reset).
-4. Write `data/health.json`, `data/rankings.json`, `data/citations.json`, `data/gbp-health.json` and `data/gbp-tasks.json` (formats below and in "Directory listings").
+4. Write `data/health.json`, `data/rankings.json`, `data/citations.json`, `data/gbp-health.json`, `data/gbp-tasks.json` and `data/reviews.json` (formats below and in "Directory listings").
 5. Commit only those files (plus any `content/posts` fix) and push to main:
    - only health/rankings changed: message `Monitor: <YYYY-MM-DD HH:MM> UTC [skip netlify]` (this does not redeploy the site);
    - you fixed a post: message `Monitor fix: <what>` without `[skip netlify]`, so the fix goes live.
@@ -52,6 +52,22 @@ Also add one line of expert advice per city in `tip` (Brazilian Portuguese): wha
 - Check `gbp_posts` in the table below: after 13:30 UTC, `content/gbp/<today UTC>.json` must exist with `gbpDailyPosts` posts (warning if missing or short). Also warn if any post text contains a phone number, a URL or an email address (Google rejects those): fix it yourself by removing that part of the text (allowed safe fix), then rebuild and push without `[skip netlify]`.
 - Once a day (the first run after 12:00 UTC), WebSearch `"Perfect Services" Greer SC reviews` and `Perfect Services Cleaning Greer SC Google`. If a result clearly about this business shows its Google star rating and review count, record them. Never guess: if no result shows them, keep the previous values.
 - Write `data/gbp-health.json`: `{ "checkedAt": "...", "rating": 5.0 or null, "reviews": 12 or null, "source": "<url where you saw it>", "note": "<one line in Brazilian Portuguese>" }` and commit it with the other data files.
+
+## New Google reviews (Gmail → panel, with an expert reply ready)
+
+Google sends an email to the owner's Gmail for every new review of the profile. If no Gmail tools are available in this run, skip this section silently. Use the Gmail tools **only to search and read** those emails. Never send, reply, draft, label, archive, delete or mark anything, and never open any other email.
+
+1. Search Gmail with `from:businessprofile-noreply@google.com newer_than:4d` (subjects like "<Name> fez uma avaliação sobre Perfect Services…", "você tem N novas avaliações", or the English equivalents).
+2. Skip any email whose thread id is already in `data/reviews.json` (`pending[].id` or `seen`).
+3. For each new email, read it (plain text) and extract: the reviewer's **first name only**, the star rating ("avaliação de 5 estrelas"), the review text shown (it may be cut with "…"; set `truncated: true`), and the "Responda à avaliação" link with the `&trk=` parameter removed. A digest email ("você tem 2 novas avaliações") has no text: add one entry with `firstName: null`, `text: null` and the link to all reviews.
+4. Write the reply as a local SEO expert, in the reviewer's language (English unless the review is clearly Spanish or Portuguese):
+   - 4–5 stars: thank by first name; reflect one specific thing they said; mention the service once (detect it from the text; if unclear, use "house cleaning") and the city once (detect it from the text; if unclear, use "Greer"), naturally; one sentence pairing a related service (e.g. deep cleaning with recurring house cleaning); 40–110 words; sign "– Regiani & Tony, Perfect Services". No keyword lists, no emojis, no prices, no details about the customer's home.
+   - 1–3 stars (or any complaint): no keywords; thank them, apologize without excuses, say the team wants to make it right, invite them to call or text (864) 399-5168; 30–80 words; same signature. Mark `priority: "high"`.
+   - Also write `replyAlt`, a second version with different wording.
+   - If the text is truncated, write a reply that works without the missing part, and say so in `note`.
+5. Add each to `pending` (newest first): `{ "id": "<thread id>", "date": "<ISO>", "firstName": "...", "stars": 5, "text": "...", "truncated": true, "service": "<service slug or null>", "city": "<city slug or null>", "link": "<reply link>", "reply": "...", "replyAlt": "...", "priority": "normal|high", "note": "..." }`. Add the id to `seen` too. Increase `total` by the number of new reviews (not for digests you already counted). Drop `pending` entries older than 30 days (keep their ids in `seen`).
+6. Send a push notification right away for each new review: "Perfect Services: nova avaliação ★<n> de <Nome>. Resposta pronta no painel: https://perfectservicespaintingcleaning.com/painel/#avaliacoes". For 1–3 stars start with "⚠" and add "responda hoje".
+7. Commit `data/reviews.json` with the other data files.
 
 ## GBP improvement suggestions (`data/gbp-tasks.json` → `suggestions`)
 

@@ -34,6 +34,26 @@
     { id: 'communication', label: 'Comunicação / agendamento', kw: ['communicat', 'respons', 'text', 'quick', 'easy to book', 'schedul', 'flexible', 'comunic', 'agend'],
       en: ['We try to make booking as easy as the cleaning is thorough, so thank you for mentioning it.'], es: ['Intentamos que agendar sea tan fácil como impecable es la limpieza.'], pt: ['Tentamos deixar o agendamento tão fácil quanto a limpeza é caprichada.'] }
   ];
+  // SEO: keyword variants per service (rotated so replies don't repeat the same phrase) and the service
+  // that naturally goes with it (a second, related keyword that links the profile to more searches).
+  var ALT = {
+    'house-cleaning': ['house cleaning', 'maid service', 'recurring house cleaning'],
+    'deep-cleaning': ['deep cleaning', 'deep house cleaning', 'top-to-bottom deep clean'],
+    'move-in-move-out-cleaning': ['move-out cleaning', 'move-in cleaning', 'end-of-lease cleaning'],
+    'post-construction-cleaning': ['post-construction cleaning', 'post-renovation cleanup'],
+    'commercial-office-cleaning': ['office cleaning', 'commercial cleaning'],
+    'brazilian-house-cleaning': ['Brazilian house cleaning', 'Brazilian-style cleaning'],
+    'airbnb-vacation-rental-cleaning': ['Airbnb turnover cleaning', 'vacation rental cleaning'],
+    'apartment-condo-cleaning': ['apartment cleaning', 'condo cleaning'],
+    'one-time-cleaning': ['one-time cleaning', 'one-time house cleaning'],
+    'eco-friendly-green-cleaning': ['eco-friendly cleaning', 'green cleaning']
+  };
+  var PAIR = {
+    'house-cleaning': 'deep-cleaning', 'deep-cleaning': 'house-cleaning', 'move-in-move-out-cleaning': 'deep-cleaning',
+    'post-construction-cleaning': 'deep-cleaning', 'commercial-office-cleaning': 'post-construction-cleaning',
+    'brazilian-house-cleaning': 'deep-cleaning', 'airbnb-vacation-rental-cleaning': 'deep-cleaning',
+    'apartment-condo-cleaning': 'move-in-move-out-cleaning', 'one-time-cleaning': 'house-cleaning', 'eco-friendly-green-cleaning': 'house-cleaning'
+  };
   var NEG = ['late', 'missed', 'broke', 'damage', 'rude', 'dirty', 'not clean', 'disappoint', 'never', 'refund', 'complain', 'worst', 'terrible', 'poor', 'unprofessional', 'forgot', 'skipped'];
 
   var $ = function (id) { return document.getElementById(id); };
@@ -62,8 +82,10 @@
     var negWords = NEG.filter(function (w) { return low(input.text).indexOf(w) >= 0; });
     var hi = name ? name : '';
     var parts = [];
-    var svcTxt = svc ? svc[lang] : null;
+    var svcTxt = svc ? (lang === 'en' ? pick(ALT[svc.slug] || [svc.en]) : svc[lang]) : null;
     var place = city ? city.name : null;
+    var pairSvc = svc && PAIR[svc.slug] ? SERVICES.filter(function (x) { return x.slug === PAIR[svc.slug]; })[0] : null;
+    var pairTxt = pairSvc ? (lang === 'en' ? pick(ALT[pairSvc.slug] || [pairSvc.en], 1) : pairSvc[lang]) : null;
 
     if (stars >= 4 && !negWords.length) {
       var open = {
@@ -84,6 +106,13 @@
         parts.push({ en: 'Thank you for trusting Perfect Services with your ' + svcTxt + '.', es: 'Gracias por confiar en Perfect Services para su ' + svcTxt + '.', pt: 'Obrigado por confiar na Perfect Services para a ' + svcTxt + '.' }[lang]);
       } else if (place) {
         parts.push({ en: 'Thank you for trusting Perfect Services with your home in ' + place + '.', es: 'Gracias por confiar en Perfect Services para su hogar en ' + place + '.', pt: 'Obrigado por confiar na Perfect Services para a sua casa em ' + place + '.' }[lang]);
+      }
+      if (pairTxt && place) {
+        parts.push(pick({
+          en: ['Many ' + place + ' clients pair it with ' + pairTxt + ' to keep their home fresh between visits.', 'If you ever need ' + pairTxt + ', our team covers ' + place + ' and the rest of the Upstate.'],
+          es: ['Si alguna vez necesita ' + pairTxt + ', también atendemos ' + place + ' y todo el Upstate.'],
+          pt: ['Se precisar de ' + pairTxt + ', também atendemos ' + place + ' e toda a região do Upstate.']
+        }[lang], 1));
       }
       if (stars === 4) parts.push({ en: 'If there is anything we can do to make the next visit a 5-star one, just let us know.', es: 'Si hay algo que podamos mejorar para que la próxima visita sea de 5 estrellas, díganos.', pt: 'Se houver algo que possamos melhorar para a próxima visita ser 5 estrelas, é só nos avisar.' }[lang]);
       parts.push(pick({
@@ -115,6 +144,24 @@
       ['Palavra-chave usada', !(stars >= 4 && !negWords.length) ? 'Nenhuma (de propósito, em avaliação negativa)' : (svcTxt || place) ? [svcTxt, place].filter(Boolean).join(' + ') : 'Nenhuma: escolha o serviço e a cidade para incluir']
     ];
     if (negWords.length) analysis.push(['Pontos de atenção', negWords.join(', ')]);
+    var words = reply.split(/\s+/).length;
+    var positive = stars >= 4 && !negWords.length;
+    var checks = positive ? [
+      ['Agradece pelo nome', !!name],
+      ['Cita o que o cliente elogiou', topics.length > 0],
+      ['Palavra-chave do serviço', !!svcTxt],
+      ['Cidade (busca local)', !!place],
+      ['Serviço complementar (2ª palavra-chave)', !!(pairTxt && place)],
+      ['Tamanho ideal (40 a 120 palavras)', words >= 40 && words <= 120]
+    ] : [
+      ['Agradece e reconhece o problema', true],
+      ['Leva a conversa para o telefone', true],
+      ['Sem palavra-chave (protege a marca)', true],
+      ['Tom calmo, sem se defender', true]
+    ];
+    var okN = checks.filter(function (c) { return c[1]; }).length;
+    var miss = checks.filter(function (c) { return !c[1]; }).map(function (c) { return c[0]; });
+    analysis.push(['Nota de SEO', okN + '/' + checks.length + (miss.length ? ' · falta: ' + miss.join(', ') : ' · completa')]);
     var tip = stars >= 4 && !negWords.length
       ? (svc && city ? 'Boa avaliação para SEO: a resposta liga "' + svc.en + '" a "' + city.name + '". Publique hoje.' : 'Escolha o serviço e a cidade para a resposta reforçar a busca local.')
       : 'Responda hoje, com calma. Depois ligue para o cliente. Uma avaliação negativa bem respondida passa mais confiança do que nenhuma. Se ele atualizar a nota, agradeça de novo.';
@@ -149,15 +196,58 @@
     navigator.clipboard.writeText($('rReply').textContent).then(function () { b.textContent = 'Copiado'; setTimeout(function () { b.textContent = 'Copiar resposta'; }, 1500); }).catch(function () { b.textContent = 'Selecione e copie'; });
   });
 
+  var LS_REV = 'ps-reviews-answered-v1';
+  function getDone() { try { return JSON.parse(localStorage.getItem(LS_REV) || '{}'); } catch (e) { return {}; } }
+  function setDone(d) { try { localStorage.setItem(LS_REV, JSON.stringify(d)); } catch (e) { /* storage blocked */ } }
+  function mk(tag, attrs, kids) {
+    var n = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) { if (attrs[k] == null) return; if (k === 'text') n.textContent = attrs[k]; else n.setAttribute(k, attrs[k]); });
+    (kids || []).forEach(function (c) { if (c) n.append(c); });
+    return n;
+  }
+  function copyBtnR(text, label) {
+    var b = mk('button', { class: 'btn', type: 'button', text: label });
+    b.addEventListener('click', function () { navigator.clipboard.writeText(text).then(function () { b.textContent = 'Copiado'; setTimeout(function () { b.textContent = label; }, 1500); }).catch(function () { b.textContent = 'Selecione e copie'; }); });
+    return b;
+  }
+  var lastState = null;
+  function renderNew(r) {
+    var done = getDone();
+    var list = (r.pending || []);
+    var open = list.filter(function (p) { return !done[p.id]; });
+    var box = $('revNew');
+    if (!list.length) { box.replaceChildren(mk('div', { class: 'empty', text: 'Nenhuma avaliação nova esperando resposta.' })); }
+    else box.replaceChildren.apply(box, list.map(function (p) {
+      var isDone = !!done[p.id];
+      var stars = '★★★★★'.slice(0, p.stars || 0) + '☆☆☆☆☆'.slice(0, 5 - (p.stars || 0));
+      var mark = mk('button', { class: 'btn ' + (isDone ? '' : 'ok'), type: 'button', text: isDone ? 'Desfazer' : 'Marquei como respondida' });
+      mark.addEventListener('click', function () { var d = getDone(); if (d[p.id]) delete d[p.id]; else d[p.id] = new Date().toISOString(); setDone(d); if (lastState) window.psReviews.render(lastState); });
+      var alt = p.replyAlt ? copyBtnR(p.replyAlt, 'Copiar 2ª versão') : null;
+      return mk('article', { class: 'gpost' + (isDone ? ' done' : '') }, [
+        mk('div', { class: 'top' }, [mk('span', { class: 'where', text: (p.firstName || 'Avaliação nova') + ' · ' + stars + ' · ' + (p.date ? new Date(p.date).toLocaleDateString('pt-BR') : '') }), mk('span', { class: 'pill', 'data-s': isDone ? 'ok' : (p.priority === 'high' ? 'error' : 'warning'), text: isDone ? 'Respondida' : (p.priority === 'high' ? 'Responder hoje' : 'Sem resposta') })]),
+        p.text ? mk('div', { class: 'txt', style: 'max-height:120px', text: '“' + p.text + '”' + (p.truncated ? ' (texto cortado no e-mail)' : '') }) : null,
+        mk('h3', { text: 'Resposta pronta' }),
+        mk('div', { class: 'txt rreply', text: p.reply || '' }),
+        mk('div', { class: 'acts' }, [copyBtnR(p.reply || '', 'Copiar resposta'), alt, p.link ? mk('a', { class: 'btn go', href: p.link, target: '_blank', rel: 'noopener', text: 'Responder no Google' }) : null, mark]),
+        p.note ? mk('p', { class: 'note', style: 'margin:0', text: p.note }) : null
+      ]);
+    }));
+    var pill = $('revNewPill');
+    pill.dataset.s = open.length ? (open.some(function (p) { return p.priority === 'high'; }) ? 'error' : 'warning') : 'ok';
+    pill.textContent = open.length ? open.length + ' para responder' : 'Nada pendente';
+    return open.length;
+  }
+
   window.psReviews = {
     render: function (state) {
+      lastState = state;
       if (state.status && state.status.cities) fillSelects(state.status.cities);
       var r = state.reviews; if (!r) return;
-      var pend = r.unanswered || 0;
+      var pend = renderNew(r);
       var pill = $('revPill'); pill.dataset.s = pend ? 'error' : 'ok'; pill.textContent = pend ? pend + ' sem resposta' : 'Todas respondidas';
       var badge = $('revBadge'); badge.hidden = !pend; badge.textContent = pend;
       var when = r.checkedAt ? new Date(r.checkedAt).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : '';
-      $('revStatus').textContent = 'Nota ' + Number(r.rating).toFixed(1).replace('.', ',') + '★ com ' + r.total + ' avaliações. ' + (r.note || '') + (when ? ' Conferido no perfil em ' + when + '.' : '') + ' Quando chegar uma avaliação nova, o Google avisa por e-mail: cole o texto no gerador abaixo.';
+      $('revStatus').textContent = 'Nota ' + Number(r.rating).toFixed(1).replace('.', ',') + '★ com ' + r.total + ' avaliações. ' + (r.note || '') + (when ? ' Conferido no perfil em ' + when + '.' : '') + ' Avaliações novas aparecem sozinhas aqui (o monitor lê o aviso do Google no Gmail a cada 3 horas) e você recebe uma notificação no celular.';
     }
   };
 })();
