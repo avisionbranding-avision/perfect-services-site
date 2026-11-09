@@ -5,5 +5,7 @@ Disallow: /data/
 Disallow: /scripts/
 Disallow: /content/
 Disallow: /painel/
+Disallow: /functions/
+Disallow: /api/
 
 Sitemap: https://perfectservicespaintingcleaning.com/sitemap.xml

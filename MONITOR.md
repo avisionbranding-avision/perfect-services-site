@@ -11,7 +11,8 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 3. Undo the build output so you never commit it: `git checkout -- . && git clean -fdq -- areas services faq blog` (keep your own edits to `data/health.json`, `data/rankings.json` and any `content/posts` fix, by writing those files after this reset).
 4. Write `data/health.json`, `data/rankings.json`, `data/citations.json`, `data/gbp-health.json`, `data/gbp-tasks.json` and `data/reviews.json` (formats below and in "Directory listings").
 5. Commit only those files (plus any `content/posts` fix) and push to main:
-   - only health/rankings changed: message `Monitor: <YYYY-MM-DD HH:MM> UTC [skip netlify]` (this does not redeploy the site);
+   - `[skip netlify] [skip ci]` below is the "do not deploy" marker: `[skip netlify]` for Netlify, `[skip ci]` for Cloudflare Pages. Always write both together.
+   - only health/rankings changed: message `Monitor: <YYYY-MM-DD HH:MM> UTC [skip netlify] [skip ci]` (this does not redeploy the site);
    - you fixed a post: message `Monitor fix: <what> [skip netlify]` (the fix goes live with the next 7h deploy). Leave out `[skip netlify]` only when the fix repairs an `error` in `build` or `links`, so the broken site is fixed right away.
 6. Notify (PushNotification tool, Brazilian Portuguese, short):
    - any `error`: always, starting with "⚠ Perfect Services: problema no site", what is wrong, and what you did or what the owner should do;

@@ -21,6 +21,14 @@ const titleCase = (s) => s.replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace
 const list = (arr) => (arr.length < 2 ? arr.join('') : `${arr.slice(0, -1).join(', ')} and ${arr[arr.length - 1]}`);
 const trim = (s, n) => (s.length <= n ? s : `${s.slice(0, n - 1).replace(/\s+\S*$/, '')}…`);
 
+// Forms: on Cloudflare Pages (CF_PAGES is set during its build) they post to /api/lead (functions/api/lead.js);
+// anywhere else they stay Netlify Forms. The same repository deploys correctly on both during the move.
+const ON_CF = !!process.env.CF_PAGES || process.env.FORMS === 'cloudflare';
+const formTag = (cls, name) => (ON_CF
+  ? `<form class="${cls}" name="${name}" method="POST" action="/api/lead">`
+  : `<form class="${cls}" name="${name}" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="company">`);
+const formMode = (html) => html.replace(/<form class="(quote[^"]*)" name="(estimate[\w-]*)" method="POST"[^>]*>/g, (_, c, n) => formTag(c, n));
+
 function write(rel, html, { sitemap = true, priority = 0.6, lastmod = TODAY } = {}) {
   const file = path.join(ROOT, rel);
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -346,7 +354,7 @@ function bookingBlock(city, svc, seed) {
 <h2 style="margin-top:32px">What clients say</h2>
 ${revs.map((r) => `<blockquote class="rv-q"><p>“${esc(r.text)}”</p><cite>${esc(r.who)} · ★★★★★ Google review</cite></blockquote>`).join('')}
 </div>
-<form class="quote quote-local" name="estimate-local" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="company">
+${formTag('quote quote-local', 'estimate-local')}
 <input type="hidden" name="form-name" value="estimate-local"><input type="hidden" name="page" value="${esc(svc.name)} – ${esc(city.full)}">
 <p class="hidden"><label>Leave this empty <input name="company"></label></p>
 <h3>Get your ${esc(city.name)} price</h3><p>Takes about one minute. No commitment.</p>
@@ -550,7 +558,7 @@ function patchExisting() {
   } catch { /* no citations file yet */ }
   index = index.replace('"@id":"#business",', `"@id":"${D}/#business",\n    "url":"${D}/",`);
   if (!index.includes('rel="canonical"')) index = index.replace('<meta name="keywords"', `<link rel="canonical" href="${D}/">\n<meta name="keywords"`);
-  fs.writeFileSync(ipath, withAnalytics(index));
+  fs.writeFileSync(ipath, withAnalytics(formMode(index)));
   const ty = path.join(ROOT, 'thank-you.html');
   if (fs.existsSync(ty)) fs.writeFileSync(ty, withAnalytics(fs.readFileSync(ty, 'utf8')));
   urls.unshift({ loc: `${D}/`, priority: 1.0, lastmod: TODAY });
@@ -574,7 +582,7 @@ function buildSitemap() {
   const body = urls.filter((u) => (seen.has(u.loc) ? false : seen.add(u.loc)))
     .map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority.toFixed(1)}</priority></url>`).join('\n');
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`);
-  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\nDisallow: /painel/\n\nSitemap: ${D}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\nDisallow: /painel/\nDisallow: /functions/\nDisallow: /api/\n\nSitemap: ${D}/sitemap.xml\n`);
   return seen.size;
 }
 

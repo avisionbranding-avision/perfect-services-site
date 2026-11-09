@@ -1,0 +1,16 @@
+# Cloudflare Pages headers (same rules as netlify.toml). Keep the generator files out of Google.
+/data/*
+  X-Robots-Tag: noindex
+/content/*
+  X-Robots-Tag: noindex
+/scripts/*
+  X-Robots-Tag: noindex
+/functions/*
+  X-Robots-Tag: noindex
+/painel/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-cache
+/data/status.json
+  Cache-Control: no-cache
+/data/gbp.json
+  Cache-Control: no-cache

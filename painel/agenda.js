@@ -48,7 +48,7 @@
     autoList('agAutoSite', AUTO.site); autoList('agAutoGmb', AUTO.gmb);
     youList('agYouSite', YOU.site); youList('agYouGmb', YOU.gmb);
     // live pending counts from the other tabs' badges
-    var map = [['ggBadge', 'Search Console & Analytics', '#gscga'], ['melBadge', 'Melhorias Google', '#melhorias'], ['gmnBadge', 'Posts do Google Meu Negócio', '#gmn'], ['revBadge', 'Avaliações sem resposta', '#avaliacoes']];
+    var map = [['leadBadge', 'Leads novos para repassar ao Tony', '#leads'], ['ggBadge', 'Search Console & Analytics', '#gscga'], ['melBadge', 'Melhorias Google', '#melhorias'], ['gmnBadge', 'Posts do Google Meu Negócio', '#gmn'], ['revBadge', 'Avaliações sem resposta', '#avaliacoes']];
     var box = $('agPend'); if (!box) return;
     box.replaceChildren.apply(box, map.map(function (m) {
       var b = $(m[0]); var n = b && !b.hidden ? Number(b.textContent) || 0 : 0;
