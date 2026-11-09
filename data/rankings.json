@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T12:50:00Z",
+  "updatedAt": "2026-11-09T15:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1442,6 +1442,281 @@
         }
       ],
       "tip": "Mercado mais disputado: diretórios no topo e a franquia The Cleaning Authority aparece. Destacar avaliações do Google e a diferença do método brasileiro na página de Spartanburg.",
+      "error": null
+    },
+    "fountain-inn-sc": {
+      "city": "Fountain Inn, SC",
+      "query": "house cleaning Fountain Inn SC",
+      "checkedAt": "2026-11-09T15:45:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "Care.com: House cleaning Fountain Inn SC"
+        },
+        {
+          "pos": 2,
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Fountain Inn SC"
+        },
+        {
+          "pos": 3,
+          "domain": "match.angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
+        },
+        {
+          "pos": 4,
+          "domain": "homeadvisor.com",
+          "title": "House Cleaning"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "Maddie & Sly Cleaning Services"
+        },
+        {
+          "pos": 6,
+          "domain": "bbb.org",
+          "title": "House Cleaning (BBB)"
+        },
+        {
+          "pos": 7,
+          "domain": "care.com",
+          "title": "The Dust Fairy LLC"
+        },
+        {
+          "pos": 8,
+          "domain": "servpro.com",
+          "title": "SERVPRO of South Greenville County"
+        }
+      ],
+      "competitors": [
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "name": "Maddie & Sly Cleaning Services"
+        },
+        {
+          "pos": 7,
+          "domain": "care.com",
+          "name": "The Dust Fairy LLC"
+        },
+        {
+          "pos": 8,
+          "domain": "servpro.com",
+          "name": "SERVPRO of South Greenville County"
+        }
+      ],
+      "tip": "Só diretórios (Care, HomeAdvisor, Angi, BBB) aparecem no topo; nenhuma empresa local com site forte. Reforçar a página de Fountain Inn com avaliações do Google e pedido de orçamento visível.",
+      "error": null
+    },
+    "woodruff-sc": {
+      "city": "Woodruff, SC",
+      "query": "house cleaning Woodruff SC",
+      "checkedAt": "2026-11-09T15:45:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "House cleaning Woodruff SC"
+        },
+        {
+          "pos": 2,
+          "domain": "care.com",
+          "title": "Housekeeping Woodruff SC"
+        },
+        {
+          "pos": 3,
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service"
+        },
+        {
+          "pos": 4,
+          "domain": "angi.com",
+          "title": "house cleaning Woodruff"
+        },
+        {
+          "pos": 5,
+          "domain": "homeadvisor.com",
+          "title": "Maid Service"
+        }
+      ],
+      "competitors": [],
+      "tip": "Os resultados são só diretórios e nenhum site local de limpeza aparece; página de Woodruff com preço inicial, avaliações e perguntas frequentes tem boa chance de entrar.",
+      "error": null
+    },
+    "powdersville-sc": {
+      "city": "Powdersville, SC",
+      "query": "house cleaning Powdersville SC",
+      "checkedAt": "2026-11-09T15:45:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "homeguide.com",
+          "title": "JL's Cleaning Service"
+        },
+        {
+          "pos": 2,
+          "domain": "manta.com",
+          "title": "SNP 365 Cleaners"
+        },
+        {
+          "pos": 3,
+          "domain": "thumbtack.com",
+          "title": "Cris House Cleaning"
+        },
+        {
+          "pos": 4,
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "South Carolina Housekeeping Services"
+        }
+      ],
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "homeguide.com",
+          "name": "JL's Cleaning Service"
+        },
+        {
+          "pos": 2,
+          "domain": "manta.com",
+          "name": "SNP 365 Cleaners"
+        },
+        {
+          "pos": 3,
+          "domain": "thumbtack.com",
+          "name": "Cris House Cleaning"
+        }
+      ],
+      "tip": "Resultados fracos e pouco locais; uma página de Powdersville com menção ao Anderson County e à proximidade com Greer pode se destacar.",
+      "error": null
+    },
+    "tryon-nc": {
+      "city": "Tryon, NC",
+      "query": "house cleaning Tryon NC",
+      "checkedAt": "2026-11-09T15:45:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "angi.com",
+          "title": "house cleaning Tryon"
+        },
+        {
+          "pos": 2,
+          "domain": "care.com",
+          "title": "Housekeepers Tryon NC"
+        },
+        {
+          "pos": 3,
+          "domain": "bbb.org",
+          "title": "Janitor (BBB Tryon)"
+        },
+        {
+          "pos": 4,
+          "domain": "bbb.org",
+          "title": "Maid service (BBB Tryon)"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "Move-out cleaning Tryon NC"
+        }
+      ],
+      "competitors": [],
+      "tip": "Só diretórios aparecem; destacar que atendemos Tryon (NC) a partir de Greer, com o tempo de deslocamento.",
+      "error": null
+    },
+    "piedmont-sc": {
+      "city": "Piedmont, SC",
+      "query": "house cleaning Piedmont SC",
+      "checkedAt": "2026-11-09T15:45:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "House cleaning Piedmont SC"
+        },
+        {
+          "pos": 2,
+          "domain": "homeadvisor.com",
+          "title": "c.house cleaning.piedmont.SC"
+        },
+        {
+          "pos": 3,
+          "domain": "match.angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
+        },
+        {
+          "pos": 4,
+          "domain": "care.com",
+          "title": "Housekeeping Piedmont SC"
+        },
+        {
+          "pos": 5,
+          "domain": "thebuildermarket.com",
+          "title": "Top-Rated Cleaning & Maid Services Piedmont SC"
+        }
+      ],
+      "competitors": [],
+      "tip": "Domínio dos diretórios; página de Piedmont com serviços detalhados e avaliações do Google tende a competir.",
+      "error": null
+    },
+    "pauline-sc": {
+      "city": "Pauline, SC",
+      "query": "house cleaning Pauline SC",
+      "checkedAt": "2026-11-09T15:45:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "angi.com",
+          "title": "house cleaning Pauline"
+        },
+        {
+          "pos": 2,
+          "domain": "care.com",
+          "title": "Housekeeping Pauline SC"
+        },
+        {
+          "pos": 3,
+          "domain": "care.com",
+          "title": "Housekeepers Pauline SC"
+        },
+        {
+          "pos": 4,
+          "domain": "instaservice.com",
+          "title": "Cleaning Services Pauline"
+        },
+        {
+          "pos": 5,
+          "domain": "bbb.org",
+          "title": "Janitor (BBB Pauline)"
+        }
+      ],
+      "competitors": [
+        {
+          "pos": 4,
+          "domain": "instaservice.com",
+          "name": "Instaservice"
+        }
+      ],
+      "tip": "Cidade pequena com busca dominada por diretórios; manter a página enxuta, com telefone e orçamento grátis em destaque.",
       "error": null
     }
   }
