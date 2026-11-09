@@ -53,13 +53,14 @@
   {
    "id": "setup-phone",
    "priority": 5,
-   "title": "Telefone: usar o mesmo número em todo lugar",
+   "title": "Telefone principal: trocar para (864) 399-5168",
    "where": "Editar perfil → Contato → Número de telefone",
-   "why": "O Google compara o telefone do perfil com o do site e dos diretórios. Números diferentes enfraquecem o ranking local.",
-   "verified": { "status": "pending", "note": "No perfil hoje: (864) 666-8520. No site, o número principal para ligar é (864) 399-5168 e o 666-8520 aparece como texto/SMS. Decida qual é o principal." },
-   "steps": ["Decida com o cliente qual é o número principal", "Opção A: trocar o telefone do perfil para (864) 399-5168 e manter o 666-8520 no Chat/SMS", "Opção B: manter o 666-8520 no perfil e me avisar para eu trocar o número principal no site e no kit dos diretórios"],
+   "why": "O Google compara o telefone do perfil com o do site e dos diretórios. O número principal definido é (864) 399-5168, o mesmo do site e do kit.",
+   "verified": { "status": "pending", "note": "No perfil hoje: (864) 666-8520 como telefone principal. Decisão de 09/11: o principal é (864) 399-5168; o 666-8520 fica só para texto/SMS." },
+   "steps": ["Em Número de telefone, troque para (864) 399-5168", "Em Chat, mantenha o SMS do (864) 666-8520", "Salvar"],
    "copy": [
-    { "label": "Número principal do site", "value": "(864) 399-5168" }
+    { "label": "Telefone principal", "value": "(864) 399-5168" },
+    { "label": "Chat/SMS (manter)", "value": "(864) 666-8520" }
    ]
   },
   {

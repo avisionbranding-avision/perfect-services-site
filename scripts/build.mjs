@@ -40,6 +40,15 @@ const postUrl = (p) => `/blog/${p.slug}.html`;
 // ---------- layout ----------
 const PHONE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>';
 
+// Google Analytics 4 + lead tracking (calls, texts, estimate form). Marker comment keeps patching idempotent.
+const ANALYTICS = site.ga4 ? `<!--ps-ga4--><script async src="https://www.googletagmanager.com/gtag/js?id=${site.ga4}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.ga4}');</script>
+<script src="/js/track.js" defer></script><!--/ps-ga4-->` : '';
+const withAnalytics = (html) => {
+  const clean = html.replace(/<!--ps-ga4-->[\s\S]*?<!--\/ps-ga4-->\s*/, '');
+  return ANALYTICS ? clean.replace('</head>', `${ANALYTICS}\n</head>`) : clean;
+};
+
 function footerServices() {
   return `<div><h3>Services</h3><ul>${services.map((s) => `<li><a href="${serviceUrl(s)}">${esc(s.name)}</a></li>`).join('')}<li><a href="/#estimate">Free estimate</a></li></ul></div>`;
 }
@@ -66,6 +75,7 @@ function layout({ title, description, canonical, image = 'open-floor-plan-greer.
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/local.css">
 ${jsonld.length ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': jsonld })}</script>` : ''}
+${ANALYTICS}
 </head>
 <body>
 <div class="strip"><div class="wrap"><div><span>Call <a href="tel:${site.phone.replace(/-/g, '')}">${site.phoneDisplay}</a></span><span>Text <a href="sms:${site.sms}">${site.smsDisplay}</a></span></div><span>★★★★★ 5-star house cleaning in Greer and the Upstate</span></div></div>
@@ -472,7 +482,9 @@ function patchExisting() {
   } catch { /* no citations file yet */ }
   index = index.replace('"@id":"#business",', `"@id":"${D}/#business",\n    "url":"${D}/",`);
   if (!index.includes('rel="canonical"')) index = index.replace('<meta name="keywords"', `<link rel="canonical" href="${D}/">\n<meta name="keywords"`);
-  fs.writeFileSync(ipath, index);
+  fs.writeFileSync(ipath, withAnalytics(index));
+  const ty = path.join(ROOT, 'thank-you.html');
+  if (fs.existsSync(ty)) fs.writeFileSync(ty, withAnalytics(fs.readFileSync(ty, 'utf8')));
   urls.unshift({ loc: `${D}/`, priority: 1.0, lastmod: TODAY });
 
   posts.filter((p) => p.legacy).forEach((p) => {
@@ -484,7 +496,7 @@ function patchExisting() {
       const block = `<!--ps-links--><section class="lp alt"><div class="wrap"><h2>${esc(svc.name)} near you</h2><p>Perfect Services offers <a href="${serviceUrl(svc)}">${esc(svc.short.toLowerCase())}</a> in Greer and across the Upstate. Pick your city to see what is included, prices and local answers. Related: ${pairsOf(svc).map((s, k) => `<a href="${serviceUrl(s)}">${esc(anchorKw(s, seed + k))}</a>`).join(', ')}.</p>${cityLinks(cities.slice(0, 12), (c) => cityServiceUrl(c, svc), (c) => `${esc(svc.short)} ${esc(c.full)}`)}</div></section><!--/ps-links-->\n`;
       html = html.replace(/(<section class="related")/, `${block}$1`);
     }
-    fs.writeFileSync(f, html);
+    fs.writeFileSync(f, withAnalytics(html));
   });
 }
 
