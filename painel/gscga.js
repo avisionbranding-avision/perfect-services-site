@@ -7,25 +7,6 @@
   var GSC = 'https://search.google.com/search-console?resource_id=sc-domain%3Aperfectservicespaintingcleaning.com';
   var GA = 'https://analytics.google.com/';
   var TASKS = [
-    // ---- once (setup) ----
-    { id: 'ga-key-events', when: 'once', from: '2026-11-10', tool: 'Analytics', title: 'Marcar os contatos como eventos-chave (conversões)',
-      why: 'Sem isso, o Analytics não mostra quantos pedidos de orçamento e ligações cada cidade e serviço gera.',
-      steps: ['Analytics → Administrador (engrenagem) → Exibição de dados → Eventos', 'Ative "Marcar como evento-chave" em: generate_lead, click_call, click_sms', 'Se os eventos ainda não aparecem na lista, volte amanhã (eles surgem depois do primeiro uso)'], link: GA },
-    { id: 'ga-link-gsc', when: 'once', from: '2026-11-09', tool: 'Analytics', title: 'Vincular o Analytics ao Search Console',
-      why: 'Cruza as buscas do Google com as visitas e os contatos no site.',
-      steps: ['Analytics → Administrador → Links de produtos → Search Console', 'Vincular → escolha perfectservicespaintingcleaning.com → escolha o fluxo da Web → Enviar'], link: GA },
-    { id: 'ga-retention', when: 'once', from: '2026-11-09', tool: 'Analytics', title: 'Guardar os dados por 14 meses',
-      why: 'O padrão é 2 meses; com 14 dá para comparar meses e temporadas.',
-      steps: ['Administrador → Coleta e modificação de dados → Retenção de dados', 'Retenção de dados de eventos: 14 meses → Salvar'], link: GA },
-    { id: 'ga-client', when: 'once', from: '2026-11-09', tool: 'Analytics', title: 'Dar acesso de administrador ao cliente',
-      why: 'O cliente fica dono dos dados junto com a agência.',
-      steps: ['Administrador → Gerenciamento de acesso à conta → + → Adicionar usuários', 'E-mail da conta Google do cliente → função Administrador → Adicionar'], link: GA },
-    { id: 'gsc-client', when: 'once', from: '2026-11-09', tool: 'Search Console', title: 'Dar acesso ao cliente no Search Console',
-      why: 'O cliente vê as buscas e a indexação na própria conta.',
-      steps: ['Search Console → Configurações → Usuários e permissões → Adicionar usuário', 'E-mail do cliente → Proprietário (ou Completo)'], link: GSC },
-    { id: 'gsc-sitemap', when: 'once', from: '2026-11-09', tool: 'Search Console', title: 'Enviar o sitemap (feito em 09/11)',
-      why: 'Já foi enviado com 545 páginas. O Google relê sozinho; não precisa reenviar.',
-      steps: ['Nada a fazer. Confira só se o status continua "Processado" na tarefa semanal.'], link: GSC, preDone: true },
     // ---- daily ----
     { id: 'gsc-inspect', when: 'daily', tool: 'Search Console', title: 'Pedir indexação dos 10 links do dia',
       why: 'Acelera a entrada das páginas principais no Google (limite do Google: cerca de 10 por dia).',
@@ -86,7 +67,7 @@
   function render() {
     var s = load();
     var now = today();
-    var groups = ['daily', 'weekly', 'monthly', 'once'];
+    var groups = ['daily', 'weekly', 'monthly']; // one-time setup lives in google.js
     var pending = 0;
     var weekday = new Date().getDay();
     groups.forEach(function (g) {

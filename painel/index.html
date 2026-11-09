@@ -241,6 +241,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     <button type="button" role="tab" id="tab-melhorias" data-tab="melhorias" aria-selected="false">Melhorias Google <span class="badge" id="melBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-avaliacoes" data-tab="avaliacoes" aria-selected="false">Avaliações <span class="badge" id="revBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-gscga" data-tab="gscga" aria-selected="false">Search Console & Analytics <span class="badge" id="ggBadge" hidden></span></button>
+    <button type="button" role="tab" id="tab-google" data-tab="google" aria-selected="false">Configuração Google <span class="badge" id="gcBadge" hidden></span></button>
   </nav>
 
   <div data-panel="leads" hidden style="padding-bottom:40px">
@@ -292,8 +293,25 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
         <section class="card"><h2>Toda segunda-feira</h2><p class="note">Revisão da semana anterior.</p><div class="tasks" id="gg-weekly"></div></section>
       </div>
       <div class="col">
-        <section class="card"><h2>Configuração (uma vez)</h2><p class="note">Faça na ordem. Os eventos do Analytics aparecem 24 a 48 horas depois da instalação (feita em 09/11).</p><div class="tasks" id="gg-once"></div></section>
+        <section class="card"><h2>Configuração (uma vez)</h2><p class="note">A configuração do Analytics, do Search Console e do Tag Manager agora fica na aba <a href="#google">Configuração Google</a>.</p></section>
         <section class="card"><h2>Todo dia 1º do mês</h2><p class="note">Fechamento do mês e relatório para o cliente.</p><div class="tasks" id="gg-monthly"></div></section>
+      </div>
+    </div>
+  </div>
+
+  <div data-panel="google" hidden style="padding-bottom:40px">
+    <section class="card" style="margin-bottom:16px">
+      <div class="head"><h2>Configuração do Google</h2><span class="pill" id="gcPill" data-s="pending">—</span></div>
+      <p class="note">Tudo o que falta configurar uma vez no Search Console, no Tag Manager (GTM) e no Analytics (GA4). Cada item diz quem faz: <b>VOC</b> é você, <b>CL</b> é o Claude. Os itens do Search Console liberam sozinhos quando o domínio estiver na Cloudflare. O progresso fica salvo neste navegador.</p>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card"><h2>Search Console</h2><p class="note">Depois que o domínio passar para a Cloudflare. A verificação continua pelo registro TXT do Google, que foi mantido.</p><div class="tasks" id="gc-gsc"></div></section>
+        <section class="card"><h2>Google Analytics 4 (uma vez)</h2><p class="note">Ajustes da conta G-NBGQ3ZCS3N. Os eventos aparecem 24 a 48 horas depois do primeiro uso.</p><div class="tasks" id="gc-ga"></div></section>
+      </div>
+      <div class="col">
+        <section class="card"><h2>Google Tag Manager (GTM)</h2><p class="note">Faça na ordem. Com o GTM, dá para adicionar Google Ads, pixel da Meta e outras tags sem mexer no código do site.</p><div class="tasks" id="gc-gtm"></div></section>
+        <section class="card"><h2>Depois (quando houver anúncios)</h2><p class="note">Opcional. Tudo entra pelo GTM.</p><div class="tasks" id="gc-later"></div></section>
       </div>
     </div>
   </div>
@@ -859,7 +877,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     document.querySelectorAll('.tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
   }
   document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', `#${b.dataset.tab}`); } catch { /* ignore */ } }));
-  const TABS = ['leads', 'agenda', 'site', 'gmn', 'melhorias', 'avaliacoes', 'gscga'];
+  const TABS = ['leads', 'agenda', 'site', 'gmn', 'melhorias', 'avaliacoes', 'gscga', 'google'];
   const fromHash = () => { const h = location.hash.slice(1); showTab(TABS.find((t) => h.startsWith(t)) || 'site'); if (h && !TABS.includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
   window.addEventListener('hashchange', fromHash);
   fromHash();
@@ -896,6 +914,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 </script>
 <script src="/painel/reviews.js"></script>
 <script src="/painel/gscga.js"></script>
+<script src="/painel/google.js"></script>
 <script src="/painel/agenda.js"></script>
 <script src="/painel/leads.js"></script>
 </body>
