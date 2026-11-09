@@ -186,7 +186,7 @@ footer a:hover{color:var(--cyan)}
   .post-card.big .pc-img{height:auto}
   .post-card.big .pc-img img{aspect-ratio:16/9}
   .bh-grid{grid-template-columns:1fr}
-  .post-layout{grid-template-columns:1fr}
+  .post-layout{grid-template-columns:minmax(0,1fr)}
   .post-side{position:static}
   .toc{display:none}
 }

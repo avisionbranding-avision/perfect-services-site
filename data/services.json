@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "house-cleaning",
+    "name": "House Cleaning & Maid Service",
+    "short": "House cleaning",
+    "category": "Maid service",
+    "formValue": "Regular cleaning",
+    "keywords": ["house cleaning", "maid service", "home cleaning service", "recurring house cleaning", "weekly house cleaning", "biweekly cleaning service", "housekeeping service", "residential cleaning"],
+    "summary": "Weekly, biweekly or monthly maid service that keeps your home guest-ready all the time, done room by room with the Brazilian detail-first method.",
+    "intro": [
+      "A clean home should not depend on finding a free Saturday. Our recurring house cleaning gives you the same trusted team, the same checklist and the same result on every visit, whether you book weekly, every two weeks or once a month.",
+      "Most families we clean for want one thing: to walk in the door and not see a list of chores. Our maid service handles kitchens, bathrooms, bedrooms and living areas on a schedule you choose, and we hand-wipe the edges and corners a quick clean skips.",
+      "Regular house cleaning is the easiest way to keep dust, pet hair and kitchen grease from building up. Every visit follows a written room-by-room checklist, so nothing depends on memory or mood."
+    ],
+    "includes": ["Kitchen counters, sink and stovetop cleaned and sanitized", "Appliance fronts and handles wiped", "Bathrooms: toilet, shower, tub, mirrors and chrome", "Floors vacuumed and mopped by hand", "Surfaces, shelves and furniture dusted", "Beds made and trash emptied", "Baseboards and door frames touched up on a rotation", "Light switches and high-touch spots wiped"],
+    "idealFor": ["Busy families and dual-income households", "Pet owners fighting hair and dander", "Homeowners who want a guest-ready house every week", "Seniors who want help keeping the home safe and clean"],
+    "priceFactors": [["Home size and layout", "More rooms and square feet take more time"], ["Bedrooms and bathrooms", "Bathrooms are the most time-intensive rooms"], ["Frequency", "Weekly and biweekly visits cost less per visit than monthly"], ["Pets and kids", "Extra hair and traffic add a little time"], ["First visit", "The first clean is usually deeper, to reach the maintenance standard"]],
+    "images": ["living-room-greer.jpg", "family-room-cleaning-greer.jpg", "master-bedroom-cleaning-greer.jpg", "kitchen-dining-greer.jpg", "carpet-hallway-vacuum-lines.jpg", "living-kitchen-open-plan.jpg"],
+    "faqs": [
+      ["How often should I book house cleaning in {city}?", "Most {city} families choose biweekly cleaning. Weekly works best for homes with pets or young kids, and monthly works for smaller homes that stay tidy between visits."],
+      ["Do I get the same cleaner every time?", "We do our best to send the same Perfect Services team on every recurring visit, so they learn your home and your preferences."],
+      ["Do you bring your own cleaning supplies?", "Yes. Our team brings the products and equipment. If you prefer a specific product, just tell us."],
+      ["Can I skip or reschedule a recurring cleaning?", "Yes. Text us ahead of time and we move your visit to another day that works."]
+    ],
+    "blog": ["maid-service-greer-sc-weekly-biweekly-monthly", "prepare-home-for-house-cleaning", "house-cleaning-cost-greer-sc"],
+    "angles": [
+      ["cost", "How much does house cleaning cost in {city}, {st}?", "house cleaning cost {city} {st}"],
+      ["frequency", "Weekly vs. biweekly maid service in {city}: which is right for you?", "maid service {city} {st}"],
+      ["first-visit", "What to expect from your first house cleaning in {city}", "house cleaning {city} {st}"],
+      ["pets", "House cleaning for pet owners in {city}: hair, dander and odors", "pet friendly house cleaning {city}"],
+      ["busy-families", "A realistic cleaning routine for busy families in {city}", "home cleaning service {city}"],
+      ["hire", "How to choose a house cleaning service in {city}, {st}", "best house cleaning {city} {st}"],
+      ["checklist", "Room-by-room house cleaning checklist for {city} homes", "house cleaning checklist {city}"],
+      ["seasonal", "Seasonal cleaning guide for {city} homeowners", "housekeeping service {city}"]
+    ]
+  },
+  {
+    "slug": "deep-cleaning",
+    "name": "Deep Cleaning",
+    "short": "Deep cleaning",
+    "category": "Deep cleaning",
+    "formValue": "Deep cleaning",
+    "keywords": ["deep cleaning", "deep house cleaning", "deep cleaning service", "one time deep clean", "spring cleaning", "top to bottom cleaning", "detailed house cleaning", "Brazilian deep cleaning"],
+    "summary": "A top-to-bottom clean of baseboards, cabinet fronts, grout, vents, fans and appliances: the build-up regular cleanings leave behind.",
+    "intro": [
+      "A deep cleaning is for the dirt you stopped noticing: the grey line on the baseboards, the film on cabinet fronts, the grout that used to be white. Our team works top to bottom, hand-wiping every surface instead of only what is visible.",
+      "If your home has not had a professional clean in a while, a deep cleaning resets it. We reach the places a regular visit does not: ceiling fan blades, vents, door frames, behind and around the toilet and the toe kicks under cabinets.",
+      "Deep cleaning is the Brazilian method at its most detailed. Every room gets the full checklist plus the extras, so the house feels new again and stays easier to maintain afterward."
+    ],
+    "includes": ["Everything in a regular house cleaning", "Baseboards and door frames hand-wiped", "Cabinet fronts and handles degreased", "Grout lines scrubbed in kitchen and bathrooms", "Ceiling fan blades, vents and light fixtures dusted", "Window sills, tracks and blinds cleaned", "Behind and around the toilet base", "Appliance exteriors, range hood and backsplash"],
+    "idealFor": ["Homes that have not had a professional clean in months", "Spring cleaning and holiday preparation", "Before starting recurring maid service", "Allergy sufferers who need dust removed, not moved"],
+    "priceFactors": [["Home size", "Square feet and number of rooms set the base time"], ["Condition", "Heavy build-up takes longer to remove"], ["Add-ons", "Inside the oven, fridge or cabinets adds time"], ["Bathrooms", "Grout and hard water spots are the slowest work"], ["Access", "Clutter-free rooms clean faster"]],
+    "images": ["oven-deep-cleaning.jpg", "double-vanity-bathroom.jpg", "master-bedroom-cleaning-greer.jpg", "kitchen-island-marble.jpg", "bathroom-cleaning-greer.jpg", "bonus-room-carpet-cleaning.jpg"],
+    "faqs": [
+      ["What is the difference between deep cleaning and regular cleaning?", "A regular cleaning maintains a home that is already clean. A deep cleaning removes build-up from baseboards, grout, vents, fans, cabinet fronts and appliances, the places regular visits do not reach every time."],
+      ["How often should a home in {city} get a deep cleaning?", "Most homes in {city} benefit from a deep cleaning two to four times a year, or once before switching to regular maid service."],
+      ["How long does a deep cleaning take?", "It depends on the size and condition of the home. We tell you the expected time together with your free estimate."],
+      ["Do you clean inside the oven and fridge?", "Yes, as an add-on to any deep cleaning. Just mention it when you request your estimate."]
+    ],
+    "blog": ["deep-cleaning-vs-regular-cleaning", "upstate-sc-pollen-red-clay-cleaning-tips", "holiday-cleaning-checklist-greer-sc"],
+    "angles": [
+      ["vs-regular", "Deep cleaning vs. regular cleaning in {city}: what is the difference?", "deep cleaning {city} {st}"],
+      ["cost", "How much does a deep cleaning cost in {city}, {st}?", "deep cleaning cost {city}"],
+      ["spring", "Spring deep cleaning checklist for {city} homes", "spring cleaning {city} {st}"],
+      ["pollen", "Pollen season in {city}: a deep cleaning plan for allergy sufferers", "deep house cleaning {city}"],
+      ["kitchen", "Kitchen deep cleaning guide for {city} homeowners", "kitchen deep cleaning {city}"],
+      ["bathroom", "How we deep clean bathrooms in {city}: grout, glass and hard water", "bathroom deep cleaning {city}"],
+      ["before-guests", "Deep cleaning before guests arrive: a {city} host's checklist", "one time deep clean {city}"],
+      ["how-often", "How often should you deep clean your {city} home?", "deep cleaning service {city} {st}"]
+    ]
+  },
+  {
+    "slug": "move-in-move-out-cleaning",
+    "name": "Move-In & Move-Out Cleaning",
+    "short": "Move-out cleaning",
+    "category": "Move-out cleaning",
+    "formValue": "Move-in / move-out",
+    "keywords": ["move out cleaning", "move in cleaning", "end of lease cleaning", "apartment move out cleaning", "rental turnover cleaning", "deposit cleaning", "move out cleaning service", "vacant home cleaning"],
+    "summary": "Inside cabinets, closets, fridge and oven, ready for the final walkthrough, your deposit and the next family.",
+    "intro": [
+      "Moving out is stressful enough without losing part of your deposit to cleaning fees. Our move-out cleaning follows the same checklist landlords and property managers use at the final walkthrough, so the home passes the first time.",
+      "An empty home is the best time to clean it properly. Our move-in and move-out cleaning covers the inside of every cabinet, drawer and closet, the refrigerator, the oven and the floors along every wall.",
+      "Whether you are handing back keys, listing a home for sale or moving in after another family, we leave the space clean enough to photograph, inspect or unpack into right away."
+    ],
+    "includes": ["Inside and outside of all kitchen cabinets and drawers", "Inside the refrigerator, freezer, oven and microwave", "Range hood, stovetop and backsplash degreased", "Bathrooms scrubbed: toilet base, grout, glass and vanity interiors", "Closets: shelves, rods and floors", "Baseboards, doors, frames and light switches", "Window sills, tracks and blinds", "Floors vacuumed and mopped edge to edge"],
+    "idealFor": ["Renters who want their full deposit back", "Homeowners listing or closing on a home", "Landlords and property managers turning over rentals", "Families moving in before the furniture arrives"],
+    "priceFactors": [["Home size", "Number of rooms and square feet"], ["Condition", "How the home was left by the last occupant"], ["Appliances", "Inside oven and fridge are included but heavy grease adds time"], ["Empty or furnished", "Empty homes clean faster"], ["Timing", "Tight closing-day schedules may need a larger team"]],
+    "images": ["kitchen-dining-cleaning.jpg", "bathroom-cleaning-greer.jpg", "home-hallway.jpg", "laundry-room-cleaning.jpg", "open-floor-plan-greer.jpg", "dining-room-hardwood-greer.jpg"],
+    "faqs": [
+      ["When should I schedule move-out cleaning in {city}?", "Book it after the last box leaves and before the final walkthrough. An empty home cleans faster and nothing hides behind furniture."],
+      ["Do you clean inside the oven and fridge on move-out jobs?", "Yes. Inside the oven, refrigerator, microwave, cabinets and closets are part of every Perfect Services move-out cleaning."],
+      ["Can landlords and property managers in {city} book turnover cleaning?", "Yes. We clean rental turnovers in {city} for landlords, property managers and real estate agents, and we can work with lockbox access."],
+      ["Do you offer move-in cleaning too?", "Yes. A move-in cleaning before your furniture arrives is the easiest time to clean inside cabinets and closets."]
+    ],
+    "blog": ["move-out-cleaning-checklist-greer-sc", "house-cleaning-cost-greer-sc", "prepare-home-for-house-cleaning"],
+    "angles": [
+      ["checklist", "Move-out cleaning checklist for {city} renters", "move out cleaning {city} {st}"],
+      ["deposit", "How to get your security deposit back in {city}, {st}", "deposit cleaning {city}"],
+      ["landlords", "Rental turnover cleaning for {city} landlords and property managers", "rental turnover cleaning {city}"],
+      ["move-in", "Move-in cleaning in {city}: what to clean before you unpack", "move in cleaning {city} {st}"],
+      ["selling", "Cleaning a home before listing it for sale in {city}", "move out cleaning service {city}"],
+      ["cost", "How much does move-out cleaning cost in {city}?", "move out cleaning cost {city}"],
+      ["apartment", "Apartment move-out cleaning in {city}: a renter's guide", "apartment move out cleaning {city}"],
+      ["timeline", "Moving to {city}? A cleaning timeline for moving week", "end of lease cleaning {city}"]
+    ]
+  },
+  {
+    "slug": "post-construction-cleaning",
+    "name": "Post-Construction Cleaning",
+    "short": "Post-construction cleaning",
+    "category": "Post-construction",
+    "formValue": "Post-construction",
+    "keywords": ["post construction cleaning", "after construction cleaning", "post renovation cleaning", "remodel cleanup", "new construction cleaning", "builder cleaning", "construction dust cleaning", "final clean new home"],
+    "summary": "Fine dust, debris and residue removed after a build or remodel, so you can move in right away.",
+    "intro": [
+      "Construction dust does not stay where the work happened. It settles on every ledge, inside cabinets, in light fixtures and in window tracks. Our post-construction cleaning removes it in phases, top to bottom, so it does not come back a week later.",
+      "After a remodel, the last thing you want is to clean drywall dust out of a brand-new kitchen. We handle the final clean for homeowners, builders and contractors, leaving the space ready for photos, inspection or move-in.",
+      "New construction and renovation projects need a different kind of cleaning: residue on glass, paint specks, sticker glue and dust inside every cabinet. Our team brings the tools and the patience for it."
+    ],
+    "includes": ["Fine construction dust removed from all surfaces, ledges and trim", "Inside cabinets, drawers and closets", "Windows, glass, tracks and sills", "Paint specks, sticker residue and adhesive removed", "Light fixtures, vents and ceiling fans", "Bathrooms and new fixtures polished", "Floors vacuumed and washed (multiple passes)", "Final touch-up pass before move-in"],
+    "idealFor": ["Homeowners finishing a remodel or addition", "Builders and general contractors", "New construction closings", "Kitchen and bathroom renovations"],
+    "priceFactors": [["Project size", "Square feet and number of rooms affected"], ["Dust level", "Drywall sanding creates the most fine dust"], ["Phases", "Rough clean, final clean and touch-up can be booked together"], ["Windows and glass", "Residue and stickers take time"], ["Deadline", "Closing or inspection dates may need a larger team"]],
+    "images": ["kitchen-island-marble.jpg", "dining-room-hardwood-greer.jpg", "open-floor-plan-greer.jpg", "double-vanity-bathroom.jpg", "living-kitchen-open-plan.jpg", "home-hallway.jpg"],
+    "faqs": [
+      ["Do you work with builders and contractors in {city}?", "Yes. We clean new construction and remodels in {city} for homeowners, builders and general contractors, including final cleans before closing."],
+      ["How soon after construction can you clean?", "Book us after the trades are finished and the heavy debris is removed. We can also do a rough clean mid-project and a final clean at the end."],
+      ["Do you remove paint and sticker residue from windows?", "Yes. Removing residue, paint specks and stickers from glass and fixtures is part of our post-construction cleaning."],
+      ["Why does construction dust keep coming back?", "Fine dust settles slowly and hides in vents, fixtures and cabinets. We clean top to bottom in phases so it is removed, not just moved around."]
+    ],
+    "blog": ["post-construction-cleaning-greer-sc", "deep-cleaning-vs-regular-cleaning", "upstate-sc-pollen-red-clay-cleaning-tips"],
+    "angles": [
+      ["phases", "The three phases of post-construction cleaning in {city}", "post construction cleaning {city} {st}"],
+      ["remodel", "After the remodel: how to clean up construction dust in your {city} home", "post renovation cleaning {city}"],
+      ["builders", "Final clean for builders and contractors in {city}", "builder cleaning {city} {st}"],
+      ["new-home", "New construction cleaning in {city}: before you move into your new home", "new construction cleaning {city}"],
+      ["kitchen-remodel", "Kitchen remodel cleanup checklist for {city} homeowners", "remodel cleanup {city}"],
+      ["cost", "How much does post-construction cleaning cost in {city}?", "after construction cleaning cost {city}"],
+      ["dust", "Why construction dust keeps coming back (and how we stop it) in {city}", "construction dust cleaning {city}"],
+      ["windows", "Removing paint, stickers and residue after construction in {city}", "post construction window cleaning {city}"]
+    ]
+  },
+  {
+    "slug": "commercial-office-cleaning",
+    "name": "Commercial & Office Cleaning",
+    "short": "Office cleaning",
+    "category": "Commercial cleaning",
+    "formValue": "Commercial / office",
+    "keywords": ["office cleaning", "commercial cleaning", "janitorial service", "business cleaning", "small business cleaning", "commercial cleaning company", "office cleaning service", "retail store cleaning"],
+    "summary": "Offices, stores and small businesses cleaned on a schedule that works around your hours.",
+    "intro": [
+      "Clients and employees notice a clean office before they notice anything else. Our commercial cleaning keeps reception, workstations, break rooms and restrooms consistent, on a schedule that works around your business hours.",
+      "Small businesses need a cleaning company that shows up, follows the checklist and does not need supervision. We clean offices, stores, studios and small commercial spaces with the same detail-first method we use in homes.",
+      "From weekly office cleaning to a one-time deep clean before an inspection or grand opening, our team handles high-touch surfaces, floors and restrooms so you can focus on running the business."
+    ],
+    "includes": ["Desks, counters and workstations wiped", "High-touch points: handles, switches, keypads", "Restrooms cleaned, disinfected and restocked", "Break room, sink, microwave and fridge exterior", "Trash and recycling removed", "Floors vacuumed and mopped", "Glass doors and entry areas", "Reception and waiting areas dusted"],
+    "idealFor": ["Small and medium offices", "Retail stores and showrooms", "Salons, studios and clinics", "Property managers with common areas"],
+    "priceFactors": [["Square feet", "Total area to clean"], ["Frequency", "Daily, weekly or monthly service"], ["Restrooms", "Number and traffic of restrooms"], ["Hours", "After-hours schedules"], ["Floor types", "Carpet, tile and hard floors need different care"]],
+    "images": ["home-hallway.jpg", "kitchen-island-marble.jpg", "living-kitchen-open-plan.jpg", "carpet-hallway-vacuum-lines.jpg", "kitchen-dining-cleaning.jpg", "double-vanity-bathroom.jpg"],
+    "faqs": [
+      ["Do you clean offices after business hours in {city}?", "Yes. We schedule commercial cleaning in {city} around your hours, including early mornings, evenings and weekends."],
+      ["What types of businesses do you clean?", "Offices, retail stores, studios, salons, small clinics and common areas for property managers."],
+      ["Can we get a one-time commercial deep clean?", "Yes. We do one-time deep cleans before inspections, openings, moves and events, as well as recurring service."],
+      ["Do you bring your own supplies and equipment?", "Yes. Our team brings professional products and equipment. Restroom paper and soap restocking can be added."]
+    ],
+    "blog": ["commercial-office-cleaning-greer-greenville", "deep-cleaning-vs-regular-cleaning", "house-cleaning-cost-greer-sc"],
+    "angles": [
+      ["checklist", "Office cleaning checklist for small businesses in {city}", "office cleaning {city} {st}"],
+      ["hire", "How to choose a commercial cleaning company in {city}", "commercial cleaning {city} {st}"],
+      ["frequency", "How often should your {city} office be professionally cleaned?", "office cleaning service {city}"],
+      ["retail", "Retail store cleaning in {city}: what customers notice first", "retail store cleaning {city}"],
+      ["high-touch", "High-touch areas every {city} business should clean daily", "business cleaning {city}"],
+      ["cost", "How much does office cleaning cost in {city}, {st}?", "office cleaning cost {city}"],
+      ["opening", "Grand opening cleaning checklist for {city} businesses", "commercial cleaning company {city}"],
+      ["restrooms", "Commercial restroom cleaning standards for {city} businesses", "janitorial service {city} {st}"]
+    ]
+  },
+  {
+    "slug": "brazilian-house-cleaning",
+    "name": "Brazilian House Cleaning",
+    "short": "Brazilian cleaning",
+    "category": "Brazilian cleaning",
+    "formValue": "Regular cleaning",
+    "keywords": ["Brazilian house cleaning", "Brazilian cleaners", "Brazilian cleaning service", "Brazilian maid service", "Brazilian deep cleaning", "detailed house cleaning", "hand cleaning method", "Brazilian cleaning lady"],
+    "summary": "The detail-first, hands-on Brazilian method: every surface touched by hand, corners and edges included.",
+    "intro": [
+      "In Brazil, a clean house means every surface was touched by hand, not just the ones you see. That is the standard our Brazilian cleaning team brings to every home: edges, corners, baseboards and the spots behind and under things.",
+      "Brazilian house cleaning is not a product or a trend. It is a way of working: slower where it matters, hand-wiping instead of spraying and moving on, and finishing every room on the checklist before leaving.",
+      "Families who switch to Brazilian cleaners usually say the same thing: they did not know their home could feel this clean. The difference is in the details a typical rushed clean leaves behind."
+    ],
+    "includes": ["Every surface hand-wiped, not just sprayed", "Corners, edges and baseboards cleaned by hand", "Furniture and small items moved and cleaned under", "Door frames, switches and handles detailed", "Bathrooms scrubbed including grout and toilet base", "Kitchen degreased: stovetop, hood, cabinet fronts", "Floors hand-washed along the walls", "Final walk-through against the room checklist"],
+    "idealFor": ["Homeowners disappointed by rushed cleaning services", "Families who want a truly detailed clean", "Homes with hardwood, tile and grout that need care", "Anyone who wants the corners done, every visit"],
+    "priceFactors": [["Home size", "Rooms and square feet"], ["Level of detail", "Regular or deep Brazilian clean"], ["Frequency", "Recurring visits cost less per visit"], ["Bathrooms", "The most detailed rooms"], ["Condition", "First visits take longer"]],
+    "images": ["open-floor-plan-greer.jpg", "perfect-services-team.jpg", "dining-room-hardwood-greer.jpg", "double-vanity-bathroom.jpg", "living-room-greer.jpg", "kitchen-dining-greer.jpg"],
+    "faqs": [
+      ["What is Brazilian house cleaning?", "Brazilian house cleaning is a hands-on, detail-first method. Instead of only cleaning what you see, every surface is wiped by hand, including corners, edges and baseboards most cleaning services skip."],
+      ["Are your cleaners in {city} actually Brazilian?", "Yes. Perfect Services is a Brazilian-owned cleaning team based in Greer that serves {city} and the Upstate."],
+      ["Is Brazilian cleaning more expensive?", "Not necessarily. Pricing depends on the home and the type of cleaning. You get a clear price with your free estimate."],
+      ["Can I book Brazilian cleaning as a recurring service?", "Yes. Brazilian cleaning is available weekly, biweekly, monthly or as a one-time deep clean."]
+    ],
+    "blog": ["brazilian-house-cleaning-greer-sc", "deep-cleaning-vs-regular-cleaning", "maid-service-greer-sc-weekly-biweekly-monthly"],
+    "angles": [
+      ["what-is", "What is Brazilian house cleaning? A guide for {city} homeowners", "Brazilian house cleaning {city} {st}"],
+      ["vs-typical", "Brazilian cleaners vs. a typical cleaning service in {city}", "Brazilian cleaners {city}"],
+      ["details", "The 10 details Brazilian cleaners never skip in {city} homes", "Brazilian cleaning service {city}"],
+      ["hardwood", "How Brazilian cleaners care for hardwood and tile floors in {city}", "Brazilian maid service {city}"],
+      ["kitchen", "The Brazilian way to clean a kitchen: tips for {city} homes", "Brazilian deep cleaning {city}"],
+      ["why", "Why {city} families are switching to Brazilian cleaners", "Brazilian cleaning lady {city} {st}"],
+      ["bathroom", "Brazilian bathroom cleaning method for {city} homes", "detailed house cleaning {city}"],
+      ["routine", "A Brazilian-style weekly cleaning routine for {city} homes", "Brazilian house cleaners near {city}"]
+    ]
+  },
+  {
+    "slug": "airbnb-vacation-rental-cleaning",
+    "name": "Airbnb & Vacation Rental Cleaning",
+    "short": "Airbnb cleaning",
+    "category": "Airbnb cleaning",
+    "formValue": "Regular cleaning",
+    "keywords": ["Airbnb cleaning", "vacation rental cleaning", "short term rental cleaning", "VRBO cleaning", "Airbnb turnover cleaning", "guest turnover cleaning", "rental property cleaning", "Airbnb cleaning service"],
+    "summary": "Fast, consistent turnovers between guests so every stay starts with a five-star first impression.",
+    "intro": [
+      "Your reviews depend on the first thing guests see when they open the door. Our Airbnb and vacation rental cleaning delivers the same five-star turnover every time, on your booking calendar.",
+      "Short-term rental hosts need a cleaning team that is reliable, fast and consistent. We reset kitchens, bathrooms and bedrooms between stays, and we tell you about damage or missing items right away.",
+      "Whether you host one property or several, our guest turnover cleaning keeps your rental photo-ready, so you can focus on bookings instead of chasing cleaners."
+    ],
+    "includes": ["Full kitchen reset: dishes, counters, appliances", "Bathrooms cleaned and disinfected", "Beds made with fresh linens (host-provided)", "Floors vacuumed and mopped", "Trash removed and bins reset", "Restocking checklist for host supplies", "Damage and missing-item report with photos", "Staging to match your listing photos"],
+    "idealFor": ["Airbnb and VRBO hosts", "Property managers with short-term rentals", "Owners of lake and mountain vacation homes", "Hosts who live out of town"],
+    "priceFactors": [["Property size", "Bedrooms and bathrooms"], ["Turnover window", "Same-day turnovers need tighter scheduling"], ["Linens", "Laundry on site or off site"], ["Restocking", "Supplies check and refill"], ["Frequency", "Number of turnovers per month"]],
+    "images": ["master-bedroom-cleaning-greer.jpg", "living-kitchen-open-plan.jpg", "bathroom-cleaning-greer.jpg", "kitchen-dining-greer.jpg", "laundry-room-cleaning.jpg", "family-room-cleaning-greer.jpg"],
+    "faqs": [
+      ["Do you clean Airbnb rentals in {city}?", "Yes. We provide Airbnb and vacation rental turnover cleaning in {city} and nearby, scheduled around your guests' check-out and check-in times."],
+      ["Can you work from my booking calendar?", "Yes. Share your calendar and we schedule turnovers automatically after each check-out."],
+      ["Do you report damage or missing items?", "Yes. If we find damage, stains or missing items, we send you photos right away."],
+      ["Do you wash linens and towels?", "We can wash linens on site when the property has a washer and dryer. Tell us your setup when you request an estimate."]
+    ],
+    "blog": ["house-cleaning-cost-greer-sc", "move-out-cleaning-checklist-greer-sc", "deep-cleaning-vs-regular-cleaning"],
+    "angles": [
+      ["checklist", "Airbnb turnover cleaning checklist for {city} hosts", "Airbnb cleaning {city} {st}"],
+      ["reviews", "How cleaning affects your Airbnb reviews in {city}", "Airbnb cleaning service {city}"],
+      ["hire", "How to find a reliable vacation rental cleaner in {city}", "vacation rental cleaning {city}"],
+      ["same-day", "Same-day turnovers: how {city} hosts avoid bad check-ins", "Airbnb turnover cleaning {city}"],
+      ["deep", "When your {city} short-term rental needs a deep clean", "short term rental cleaning {city}"],
+      ["cost", "How much does Airbnb cleaning cost in {city}?", "Airbnb cleaning cost {city}"],
+      ["supplies", "Restocking checklist for {city} vacation rentals", "rental property cleaning {city}"],
+      ["out-of-town", "Managing a {city} rental from out of town: the cleaning side", "VRBO cleaning {city} {st}"]
+    ]
+  },
+  {
+    "slug": "apartment-condo-cleaning",
+    "name": "Apartment & Condo Cleaning",
+    "short": "Apartment cleaning",
+    "category": "Apartment cleaning",
+    "formValue": "Regular cleaning",
+    "keywords": ["apartment cleaning", "condo cleaning", "townhome cleaning", "apartment cleaning service", "apartment maid service", "studio apartment cleaning", "condo cleaning service", "small home cleaning"],
+    "summary": "Detailed cleaning for apartments, condos and townhomes, sized and priced for smaller spaces.",
+    "intro": [
+      "Smaller spaces get dirty faster because every room works harder. Our apartment and condo cleaning keeps your kitchen, bathroom and living area fresh without paying for a full house service.",
+      "Apartment life is busy. Our team cleans studios, one- and two-bedroom apartments, condos and townhomes on a schedule you choose, with the same detail-first checklist we use in large homes.",
+      "Whether you rent or own, an apartment cleaning service gives you back your evenings and weekends, and keeps your unit inspection-ready all year."
+    ],
+    "includes": ["Kitchen counters, sink, stovetop and appliance fronts", "Bathroom: toilet, shower, tub, mirror and vanity", "Floors vacuumed and mopped", "Dusting of surfaces, shelves and furniture", "Beds made and trash emptied", "Baseboards and door frames", "Balcony or patio door glass", "Light switches and handles sanitized"],
+    "idealFor": ["Renters in apartment communities", "Condo and townhome owners", "Young professionals and students", "Seniors in smaller homes"],
+    "priceFactors": [["Unit size", "Studio, one, two or three bedrooms"], ["Bathrooms", "Number of bathrooms"], ["Frequency", "Recurring visits cost less per visit"], ["Pets", "Hair and dander add time"], ["Access", "Gate codes and parking"]],
+    "images": ["living-kitchen-open-plan.jpg", "kitchen-dining-cleaning.jpg", "double-vanity-bathroom.jpg", "master-bedroom-cleaning-greer.jpg", "home-hallway.jpg", "carpet-hallway-vacuum-lines.jpg"],
+    "faqs": [
+      ["Do you clean apartments and condos in {city}?", "Yes. We clean studios, apartments, condos and townhomes in {city}, one time or on a recurring schedule."],
+      ["Is apartment cleaning cheaper than house cleaning?", "Usually yes, because the space is smaller. Your free estimate is based on bedrooms, bathrooms and frequency."],
+      ["Can you get into gated apartment communities?", "Yes. Share the gate code and parking instructions and we confirm the arrival time before every visit."],
+      ["Do you do apartment move-out cleaning?", "Yes. See our move-in and move-out cleaning, built around the landlord's walkthrough checklist."]
+    ],
+    "blog": ["move-out-cleaning-checklist-greer-sc", "maid-service-greer-sc-weekly-biweekly-monthly", "prepare-home-for-house-cleaning"],
+    "angles": [
+      ["checklist", "Apartment cleaning checklist for {city} renters", "apartment cleaning {city} {st}"],
+      ["small-space", "Small-space cleaning tips for {city} apartments and condos", "condo cleaning {city}"],
+      ["cost", "How much does apartment cleaning cost in {city}?", "apartment cleaning cost {city}"],
+      ["inspection", "Getting your {city} apartment ready for an inspection", "apartment cleaning service {city}"],
+      ["pets", "Keeping a {city} apartment clean with pets", "apartment maid service {city}"],
+      ["townhome", "Townhome cleaning guide for {city} owners", "townhome cleaning {city} {st}"],
+      ["routine", "A 15-minute daily routine for {city} apartment living", "small home cleaning {city}"],
+      ["kitchen", "Small kitchen, big mess: apartment kitchen cleaning in {city}", "studio apartment cleaning {city}"]
+    ]
+  },
+  {
+    "slug": "one-time-cleaning",
+    "name": "One-Time House Cleaning",
+    "short": "One-time cleaning",
+    "category": "One-time cleaning",
+    "formValue": "Regular cleaning",
+    "keywords": ["one time cleaning", "one time house cleaning", "single house cleaning", "occasional cleaning", "party cleaning", "special occasion cleaning", "last minute house cleaning", "cleaning service near me"],
+    "summary": "A single, no-commitment clean before guests, after a party, before an event or whenever you need it.",
+    "intro": [
+      "Not every home needs a weekly service. Sometimes you just need the house clean before the in-laws arrive, after a party or before a big family photo. Our one-time house cleaning is exactly that: one visit, no contract.",
+      "A one-time cleaning is the easiest way to try Perfect Services. You get the full room-by-room checklist and our Brazilian attention to detail, with no commitment to recurring visits.",
+      "Holidays, birthdays, open houses, recovering from an illness or simply a busy month: a one-time clean gives you a fresh start whenever life gets ahead of you."
+    ],
+    "includes": ["Full kitchen cleaning and degreasing", "Bathrooms cleaned and disinfected", "Bedrooms and living areas dusted", "Floors vacuumed and mopped", "Baseboards and door frames", "Mirrors and glass polished", "Trash emptied", "Optional add-ons: inside oven, fridge or cabinets"],
+    "idealFor": ["Before holidays and family visits", "After parties and events", "Open houses and showings", "Trying a cleaning service for the first time"],
+    "priceFactors": [["Home size", "Rooms and square feet"], ["Condition", "Time since the last professional clean"], ["Add-ons", "Oven, fridge, cabinets, windows"], ["Date", "Holiday weeks book quickly"], ["Pets", "Hair and dander"]],
+    "images": ["living-room-greer.jpg", "kitchen-dining-greer.jpg", "family-room-cleaning-greer.jpg", "dining-room-hardwood-greer.jpg", "bathroom-cleaning-greer.jpg", "bonus-room-carpet-cleaning.jpg"],
+    "faqs": [
+      ["Do you offer one-time cleaning in {city} without a contract?", "Yes. You can book a single cleaning in {city} with no contract and no commitment to recurring service."],
+      ["How far in advance should I book?", "A few days is usually enough. Holiday weeks fill up quickly, so book early for Thanksgiving and Christmas."],
+      ["Is a one-time cleaning the same as a deep cleaning?", "A one-time cleaning can be regular or deep. If the home has not been professionally cleaned in a while, we usually recommend a deep clean."],
+      ["Can I switch to recurring service later?", "Yes. Many clients start with a one-time cleaning and then choose weekly, biweekly or monthly visits."]
+    ],
+    "blog": ["holiday-cleaning-checklist-greer-sc", "prepare-home-for-house-cleaning", "deep-cleaning-vs-regular-cleaning"],
+    "angles": [
+      ["holiday", "Holiday cleaning checklist for {city} hosts", "one time house cleaning {city} {st}"],
+      ["party", "After-party cleaning in {city}: what to do the next morning", "party cleaning {city}"],
+      ["open-house", "Cleaning before an open house in {city}", "one time cleaning {city}"],
+      ["guests", "Getting your {city} home ready for overnight guests", "last minute house cleaning {city}"],
+      ["try", "Trying a cleaning service for the first time in {city}? Start here", "cleaning service near {city}"],
+      ["cost", "How much does a one-time house cleaning cost in {city}?", "one time cleaning cost {city}"],
+      ["recovery", "Getting back on track: a one-time reset clean for busy {city} families", "occasional cleaning {city}"],
+      ["events", "Special occasion cleaning in {city}: birthdays, showers and graduations", "special occasion cleaning {city} {st}"]
+    ]
+  },
+  {
+    "slug": "eco-friendly-green-cleaning",
+    "name": "Eco-Friendly Green Cleaning",
+    "short": "Green cleaning",
+    "category": "Green cleaning",
+    "formValue": "Regular cleaning",
+    "keywords": ["eco friendly cleaning", "green cleaning", "non toxic house cleaning", "natural cleaning service", "pet safe cleaning", "chemical free cleaning", "allergy friendly cleaning", "green house cleaning"],
+    "summary": "House cleaning with low-odor, family- and pet-friendly products on request, without cutting corners on the result.",
+    "intro": [
+      "If you have small children, pets or allergies, the products used in your home matter as much as the result. Our eco-friendly cleaning uses gentler, low-odor products on request, with the same detailed checklist.",
+      "Green cleaning is not about cleaning less. It is about choosing the right product for each surface and relying more on technique: microfiber, hand-wiping and rinsing instead of strong fragrance.",
+      "Tell us what you prefer and we adapt: fragrance-free products, your own products, or our family- and pet-friendly options. Your home gets clean without the chemical smell."
+    ],
+    "includes": ["Low-odor, family- and pet-friendly products on request", "Microfiber cloths that capture dust instead of spreading it", "Kitchen and bathroom cleaning with gentler products", "Floors cleaned with surface-safe solutions", "Option to use your own preferred products", "Fragrance-free option for sensitive households", "Hand-wiping technique that reduces product use", "Same full room-by-room checklist"],
+    "idealFor": ["Families with babies and young children", "Pet owners", "Allergy and asthma sufferers", "Households sensitive to fragrance"],
+    "priceFactors": [["Home size", "Rooms and square feet"], ["Product choice", "Our products or yours"], ["Frequency", "Recurring visits cost less per visit"], ["Condition", "Heavy build-up takes longer with gentle products"], ["Bathrooms", "Most time-intensive rooms"]],
+    "images": ["family-room-cleaning-greer.jpg", "master-bedroom-cleaning-greer.jpg", "laundry-room-cleaning.jpg", "living-room-greer.jpg", "kitchen-island-marble.jpg", "bonus-room-carpet-cleaning.jpg"],
+    "faqs": [
+      ["Do you offer green cleaning in {city}?", "Yes. We offer eco-friendly, low-odor cleaning in {city} on request, with family- and pet-friendly products."],
+      ["Can you use my own cleaning products?", "Yes. If you prefer specific products, leave them out and our team will use them."],
+      ["Is green cleaning safe for pets?", "We use pet-friendly options on request and keep products away from pet bowls and bedding. Tell us about your pets when you book."],
+      ["Does eco-friendly cleaning work as well?", "Yes. Technique does most of the work: microfiber, hand-wiping and the right product for each surface."]
+    ],
+    "blog": ["upstate-sc-pollen-red-clay-cleaning-tips", "prepare-home-for-house-cleaning", "maid-service-greer-sc-weekly-biweekly-monthly"],
+    "angles": [
+      ["guide", "A guide to eco-friendly house cleaning in {city}", "eco friendly cleaning {city} {st}"],
+      ["pets", "Pet-safe cleaning tips for {city} homes", "pet safe cleaning {city}"],
+      ["allergies", "Allergy-friendly cleaning for {city} homes during pollen season", "allergy friendly cleaning {city}"],
+      ["babies", "Cleaning a home with a new baby in {city}", "non toxic house cleaning {city}"],
+      ["microfiber", "Why microfiber matters: green cleaning techniques in {city}", "green cleaning {city}"],
+      ["kitchen", "Natural kitchen cleaning tips for {city} homes", "natural cleaning service {city}"],
+      ["fragrance", "Fragrance-free cleaning for sensitive {city} households", "chemical free cleaning {city}"],
+      ["hire", "How to choose a green cleaning service in {city}, {st}", "green house cleaning {city} {st}"]
+    ]
+  }
+]

@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 Disallow: /thank-you.html
+Disallow: /data/
+Disallow: /scripts/
+Disallow: /content/
 
 Sitemap: https://perfectservicespaintingcleaning.com/sitemap.xml

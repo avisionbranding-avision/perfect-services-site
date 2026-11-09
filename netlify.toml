@@ -1,0 +1,20 @@
+[build]
+  publish = "."
+  command = "node scripts/build.mjs"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Keep the generator source files out of Google
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+[[headers]]
+  for = "/scripts/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"

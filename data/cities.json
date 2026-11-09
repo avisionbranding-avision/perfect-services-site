@@ -1,0 +1,666 @@
+[
+ {
+  "name": "Greer",
+  "st": "SC",
+  "county": "Greenville and Spartanburg counties",
+  "lat": 34.9387,
+  "lng": -82.2271,
+  "zips": [
+   "29650",
+   "29651",
+   "29652"
+  ],
+  "roads": [
+   "I-85",
+   "SC-14",
+   "SC-101",
+   "US-29"
+  ],
+  "note": "our home base, with everything from historic homes near Downtown Greer and Trade Street to the newer neighborhoods near GSP Airport and the BMW plant"
+ },
+ {
+  "name": "Taylors",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.9204,
+  "lng": -82.2962,
+  "zips": [
+   "29687"
+  ],
+  "roads": [
+   "US-29 (Wade Hampton Blvd)",
+   "SC-290"
+  ],
+  "note": "a community of established neighborhoods and family homes, centered on the revitalized Taylors Mill area"
+ },
+ {
+  "name": "Duncan",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.9379,
+  "lng": -82.1454,
+  "zips": [
+   "29334"
+  ],
+  "roads": [
+   "I-85",
+   "US-29",
+   "SC-290"
+  ],
+  "note": "a fast-growing town near the I-85 corridor with many new subdivisions"
+ },
+ {
+  "name": "Lyman",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.9482,
+  "lng": -82.1271,
+  "zips": [
+   "29365"
+  ],
+  "roads": [
+   "US-29",
+   "SC-292"
+  ],
+  "note": "a former mill town with a mix of historic mill homes and new construction"
+ },
+ {
+  "name": "Wade Hampton",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.9035,
+  "lng": -82.3332,
+  "zips": [
+   "29607",
+   "29615"
+  ],
+  "roads": [
+   "US-29 (Wade Hampton Blvd)",
+   "I-385"
+  ],
+  "note": "a busy suburban area of neighborhoods between Greenville and Taylors"
+ },
+ {
+  "name": "Wellford",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.9507,
+  "lng": -82.1059,
+  "zips": [
+   "29385"
+  ],
+  "roads": [
+   "US-29",
+   "I-85"
+  ],
+  "note": "a small town along US-29 with quiet residential streets"
+ },
+ {
+  "name": "Startex",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.929,
+  "lng": -82.0973,
+  "zips": [
+   "29377"
+  ],
+  "roads": [
+   "US-29",
+   "I-85"
+  ],
+  "note": "a historic mill village close to the Duncan and Lyman area"
+ },
+ {
+  "name": "Reidville",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.864,
+  "lng": -82.1065,
+  "zips": [
+   "29375"
+  ],
+  "roads": [
+   "SC-296",
+   "SC-290"
+  ],
+  "note": "a growing community with larger lots and newer family homes"
+ },
+ {
+  "name": "Five Forks",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.8104,
+  "lng": -82.2296,
+  "zips": [
+   "29681"
+  ],
+  "roads": [
+   "Woodruff Rd",
+   "SC-14"
+  ],
+  "note": "an area of established subdivisions and larger family homes between Greer and Simpsonville"
+ },
+ {
+  "name": "Inman",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 35.0471,
+  "lng": -82.0901,
+  "zips": [
+   "29349"
+  ],
+  "roads": [
+   "I-26",
+   "US-176"
+  ],
+  "note": "a small town with farmland, lake homes and new neighborhoods"
+ },
+ {
+  "name": "Greenville",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.8526,
+  "lng": -82.394,
+  "zips": [
+   "29601",
+   "29605",
+   "29607",
+   "29609",
+   "29615"
+  ],
+  "roads": [
+   "I-85",
+   "I-385",
+   "US-29"
+  ],
+  "note": "the heart of the Upstate, with everything from downtown condos near Main Street and Falls Park to established neighborhoods across the city"
+ },
+ {
+  "name": "Mauldin",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.7787,
+  "lng": -82.3101,
+  "zips": [
+   "29662"
+  ],
+  "roads": [
+   "I-385",
+   "Butler Rd"
+  ],
+  "note": "a suburban city of family neighborhoods along the I-385 corridor"
+ },
+ {
+  "name": "Travelers Rest",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.9676,
+  "lng": -82.4435,
+  "zips": [
+   "29690"
+  ],
+  "roads": [
+   "US-25",
+   "US-276"
+  ],
+  "note": "a lively small town on the Swamp Rabbit Trail with homes toward the mountains"
+ },
+ {
+  "name": "Campobello",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 35.1126,
+  "lng": -82.1504,
+  "zips": [
+   "29322"
+  ],
+  "roads": [
+   "I-26",
+   "US-176"
+  ],
+  "note": "a rural foothills community with farms and country homes"
+ },
+ {
+  "name": "Moore",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.8818,
+  "lng": -82,
+  "zips": [
+   "29369"
+  ],
+  "roads": [
+   "SC-290",
+   "I-26"
+  ],
+  "note": "a growing area with new subdivisions south of Spartanburg"
+ },
+ {
+  "name": "Simpsonville",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.7371,
+  "lng": -82.2543,
+  "zips": [
+   "29680",
+   "29681"
+  ],
+  "roads": [
+   "I-385",
+   "Fairview Rd"
+  ],
+  "note": "one of the Upstate's most popular family suburbs, full of newer two-story homes"
+ },
+ {
+  "name": "Berea",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.8854,
+  "lng": -82.4651,
+  "zips": [
+   "29617"
+  ],
+  "roads": [
+   "US-25 (White Horse Rd)"
+  ],
+  "note": "a community of established residential neighborhoods west of Greenville"
+ },
+ {
+  "name": "Parker",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.8507,
+  "lng": -82.454,
+  "zips": [
+   "29611"
+  ],
+  "roads": [
+   "US-123",
+   "US-25"
+  ],
+  "note": "an area of historic mill neighborhoods on Greenville's west side"
+ },
+ {
+  "name": "Gantt",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.8001,
+  "lng": -82.4243,
+  "zips": [
+   "29605"
+  ],
+  "roads": [
+   "I-85",
+   "US-25"
+  ],
+  "note": "a community of residential neighborhoods south of downtown Greenville"
+ },
+ {
+  "name": "Roebuck",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.8793,
+  "lng": -81.9668,
+  "zips": [
+   "29376"
+  ],
+  "roads": [
+   "US-221",
+   "SC-215"
+  ],
+  "note": "a growing suburb south of Spartanburg with many family homes"
+ },
+ {
+  "name": "Boiling Springs",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 35.0465,
+  "lng": -81.9818,
+  "zips": [
+   "29316"
+  ],
+  "roads": [
+   "SC-9",
+   "I-85"
+  ],
+  "note": "one of Spartanburg County's fastest-growing communities, with many new subdivisions"
+ },
+ {
+  "name": "Marietta",
+  "st": "SC",
+  "county": "Greenville County",
+  "lat": 34.979,
+  "lng": -82.51,
+  "zips": [
+   "29661"
+  ],
+  "roads": [
+   "US-25",
+   "US-276"
+  ],
+  "note": "a quiet foothills community on the way to the Blue Ridge"
+ },
+ {
+  "name": "Landrum",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 35.1751,
+  "lng": -82.189,
+  "zips": [
+   "29356"
+  ],
+  "roads": [
+   "I-26",
+   "US-176"
+  ],
+  "note": "a charming foothills town with historic homes and horse country nearby"
+ },
+ {
+  "name": "Spartanburg",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.9496,
+  "lng": -81.932,
+  "zips": [
+   "29301",
+   "29302",
+   "29303",
+   "29306",
+   "29307"
+  ],
+  "roads": [
+   "I-26",
+   "I-85",
+   "I-585"
+  ],
+  "note": "the hub of Spartanburg County, with everything from historic homes near Morgan Square and the colleges to large suburban neighborhoods"
+ },
+ {
+  "name": "Fountain Inn",
+  "st": "SC",
+  "county": "Greenville and Laurens counties",
+  "lat": 34.689,
+  "lng": -82.1957,
+  "zips": [
+   "29644"
+  ],
+  "roads": [
+   "I-385",
+   "SC-418"
+  ],
+  "note": "a growing small town with a walkable Main Street and new neighborhoods"
+ },
+ {
+  "name": "Woodruff",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.7396,
+  "lng": -82.0365,
+  "zips": [
+   "29388"
+  ],
+  "roads": [
+   "I-26",
+   "SC-101"
+  ],
+  "note": "a small town with older homes and new rural subdivisions"
+ },
+ {
+  "name": "Powdersville",
+  "st": "SC",
+  "county": "Anderson County",
+  "lat": 34.7918,
+  "lng": -82.4929,
+  "zips": [
+   "29673"
+  ],
+  "roads": [
+   "SC-153",
+   "I-85"
+  ],
+  "note": "a fast-growing community with many new homes between Greenville and Easley"
+ },
+ {
+  "name": "Tryon",
+  "st": "NC",
+  "county": "Polk County",
+  "lat": 35.2082,
+  "lng": -82.239,
+  "zips": [
+   "28782"
+  ],
+  "roads": [
+   "I-26",
+   "US-176"
+  ],
+  "note": "a mountain town known for its arts scene, equestrian life and historic homes"
+ },
+ {
+  "name": "Piedmont",
+  "st": "SC",
+  "county": "Greenville and Anderson counties",
+  "lat": 34.7023,
+  "lng": -82.4646,
+  "zips": [
+   "29673"
+  ],
+  "roads": [
+   "I-85",
+   "SC-20"
+  ],
+  "note": "a historic mill town along the Saluda River with new neighborhoods nearby"
+ },
+ {
+  "name": "Pauline",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.84,
+  "lng": -81.87,
+  "zips": [
+   "29374"
+  ],
+  "roads": [
+   "SC-56",
+   "SC-215"
+  ],
+  "note": "a rural community with country homes south of Spartanburg"
+ },
+ {
+  "name": "Saluda",
+  "st": "NC",
+  "county": "Polk County",
+  "lat": 35.2373,
+  "lng": -82.3482,
+  "zips": [
+   "28773"
+  ],
+  "roads": [
+   "I-26",
+   "US-176"
+  ],
+  "note": "a small mountain town with cabins, vacation homes and historic houses"
+ },
+ {
+  "name": "Columbus",
+  "st": "NC",
+  "county": "Polk County",
+  "lat": 35.2532,
+  "lng": -82.1971,
+  "zips": [
+   "28722"
+  ],
+  "roads": [
+   "I-26",
+   "NC-108"
+  ],
+  "note": "the Polk County seat, with foothill homes and quiet neighborhoods"
+ },
+ {
+  "name": "Easley",
+  "st": "SC",
+  "county": "Pickens County",
+  "lat": 34.8298,
+  "lng": -82.6015,
+  "zips": [
+   "29640",
+   "29642"
+  ],
+  "roads": [
+   "US-123",
+   "SC-93"
+  ],
+  "note": "a growing city with established neighborhoods and many new subdivisions"
+ },
+ {
+  "name": "Gray Court",
+  "st": "SC",
+  "county": "Laurens County",
+  "lat": 34.604,
+  "lng": -82.1132,
+  "zips": [
+   "29645"
+  ],
+  "roads": [
+   "SC-101",
+   "US-276"
+  ],
+  "note": "a rural community with farmland and new homes south of Fountain Inn"
+ },
+ {
+  "name": "Pelzer",
+  "st": "SC",
+  "county": "Anderson County",
+  "lat": 34.6443,
+  "lng": -82.4618,
+  "zips": [
+   "29669"
+  ],
+  "roads": [
+   "SC-20",
+   "SC-8"
+  ],
+  "note": "a historic mill village on the Saluda River"
+ },
+ {
+  "name": "Cowpens",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 35.0168,
+  "lng": -81.804,
+  "zips": [
+   "29330"
+  ],
+  "roads": [
+   "I-85",
+   "SC-110"
+  ],
+  "note": "a small historic town east of Spartanburg"
+ },
+ {
+  "name": "Chesnee",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 35.1485,
+  "lng": -81.8601,
+  "zips": [
+   "29323"
+  ],
+  "roads": [
+   "US-221",
+   "SC-11"
+  ],
+  "note": "a rural foothills town with farms and country homes"
+ },
+ {
+  "name": "Flat Rock",
+  "st": "NC",
+  "county": "Henderson County",
+  "lat": 35.2712,
+  "lng": -82.4418,
+  "zips": [
+   "28731"
+  ],
+  "roads": [
+   "US-25",
+   "I-26"
+  ],
+  "note": "a historic mountain village with many second homes and vacation rentals"
+ },
+ {
+  "name": "Williamston",
+  "st": "SC",
+  "county": "Anderson County",
+  "lat": 34.6187,
+  "lng": -82.4779,
+  "zips": [
+   "29697"
+  ],
+  "roads": [
+   "SC-20",
+   "US-29"
+  ],
+  "note": "a small town with historic homes and a friendly downtown"
+ },
+ {
+  "name": "Pacolet",
+  "st": "SC",
+  "county": "Spartanburg County",
+  "lat": 34.9001,
+  "lng": -81.7584,
+  "zips": [
+   "29372"
+  ],
+  "roads": [
+   "SC-150",
+   "US-176"
+  ],
+  "note": "a historic mill town on the Pacolet River"
+ },
+ {
+  "name": "Pickens",
+  "st": "SC",
+  "county": "Pickens County",
+  "lat": 34.8834,
+  "lng": -82.7074,
+  "zips": [
+   "29671"
+  ],
+  "roads": [
+   "US-178",
+   "SC-8"
+  ],
+  "note": "the Pickens County seat, at the gateway to Table Rock and the mountains"
+ },
+ {
+  "name": "Liberty",
+  "st": "SC",
+  "county": "Pickens County",
+  "lat": 34.7882,
+  "lng": -82.6924,
+  "zips": [
+   "29657"
+  ],
+  "roads": [
+   "SC-93",
+   "US-178"
+  ],
+  "note": "a small town with family homes between Easley and Clemson"
+ },
+ {
+  "name": "Hendersonville",
+  "st": "NC",
+  "county": "Henderson County",
+  "lat": 35.3187,
+  "lng": -82.461,
+  "zips": [
+   "28739",
+   "28791",
+   "28792"
+  ],
+  "roads": [
+   "I-26",
+   "US-25"
+  ],
+  "note": "a popular mountain city with a historic Main Street, retirement communities and vacation homes"
+ }
+]
