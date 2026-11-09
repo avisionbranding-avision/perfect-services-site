@@ -1,12 +1,12 @@
 {
- "checkedAt": "2026-11-09T05:20:00Z",
+ "checkedAt": "2026-11-09T06:45:00Z",
  "overall": "warning",
  "checks": [
   {
    "id": "build",
    "label": "Geração do site",
    "status": "ok",
-   "detail": "125 páginas geradas"
+   "detail": "545 páginas geradas"
   },
   {
    "id": "links",
@@ -33,10 +33,22 @@
    "detail": "4 artigos hoje"
   },
   {
+   "id": "gbp_posts",
+   "label": "Posts do Google Meu Negócio",
+   "status": "ok",
+   "detail": "3 posts de hoje prontos, sem telefone, link ou e-mail no texto"
+  },
+  {
+   "id": "greer_queue",
+   "label": "Temas de Greer",
+   "status": "ok",
+   "detail": "46 dias restantes"
+  },
+  {
    "id": "cities",
    "label": "Cidades no ar",
    "status": "ok",
-   "detail": "8 cidades no ar"
+   "detail": "43 de 43 cidades no ar"
   },
   {
    "id": "live_site",
@@ -48,11 +60,16 @@
    "id": "sitemap",
    "label": "Sitemap",
    "status": "ok",
-   "detail": "125 URLs, igual ao esperado"
+   "detail": "545 URLs, igual ao esperado"
   }
  ],
  "fixes": [],
  "history": [
+  {
+   "at": "2026-11-09T06:45:00Z",
+   "overall": "warning",
+   "summary": "Site no ar não verificável da nuvem; resto ok"
+  },
   {
    "at": "2026-11-09T05:20:00Z",
    "overall": "warning",
