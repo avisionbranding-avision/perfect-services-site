@@ -1,182 +1,317 @@
 {
- "updatedAt": "2026-11-09T06:10:00Z",
- "verifiedAt": "2026-11-09T06:10:00Z",
- "how": "Logada na conta que administra o perfil, pesquise no Google \"Perfect Services Painting & Cleaning\" ou acesse business.google.com e clique em Editar perfil. O perfil foi conferido pelo Claude em 09/11 às 03:10 (horário de São Paulo); o status de cada tarefa mostra o que estava no perfil nesse momento.",
- "setup": [
-  {
-   "id": "setup-categories",
-   "priority": 1,
-   "title": "Categorias",
-   "where": "Editar perfil → Sobre → Categoria de negócios",
-   "why": "A categoria principal é o fator que mais pesa para aparecer em \"house cleaning + cidade\".",
-   "verified": { "status": "pending", "note": "No perfil hoje: só a categoria \"Limpeza\", sem categorias adicionais." },
-   "steps": ["Categoria principal: digite \"house cleaning\" ou \"limpeza de casas\" e escolha a opção de serviço de limpeza de casas", "Clique em \"Adicionar outra categoria\" e inclua as 3 abaixo (digite em inglês ou português e escolha a opção mais próxima)", "Salvar"],
-   "copy": [
-    { "label": "Categoria principal", "value": "House cleaning service" },
-    { "label": "Categorias adicionais", "value": "Maid service, Janitorial service, Commercial cleaning service" }
-   ]
-  },
-  {
-   "id": "setup-areas",
-   "priority": 2,
-   "title": "Área de atendimento: limpar repetidas e completar 20 cidades",
-   "where": "Editar perfil → Local → Área de cobertura",
-   "why": "Define em quais cidades o perfil pode aparecer no mapa. 20 é o limite do Google.",
-   "verified": { "status": "pending", "note": "No perfil hoje: 12 itens, mas só 7 cidades diferentes. Greer, Taylors, Reidville e Greenville aparecem 2 vezes (com e sem CEP). Faltam Spartanburg, Simpsonville, Mauldin e outras." },
-   "steps": ["Remova as repetidas (deixe uma de cada)", "Adicione as que faltam da lista abaixo até chegar a 20", "Salvar"],
-   "copy": [
-    { "label": "20 cidades", "value": "Greer SC; Taylors SC; Greenville SC; Spartanburg SC; Simpsonville SC; Mauldin SC; Duncan SC; Lyman SC; Wellford SC; Inman SC; Travelers Rest SC; Five Forks SC; Boiling Springs SC; Fountain Inn SC; Easley SC; Powdersville SC; Moore SC; Berea SC; Reidville SC; Piedmont SC" }
-   ]
-  },
-  {
-   "id": "setup-services",
-   "priority": 3,
-   "title": "Serviços: adicionar os que faltam",
-   "where": "Editar perfil → Serviços → Adicionar mais serviços",
-   "why": "Cada serviço vira palavra-chave do perfil e aparece para quem busca aquele serviço.",
-   "verified": { "status": "partial", "note": "No perfil hoje: 7 serviços (escritórios, detalhada, padrão, colchões, estofados, janelas, profunda). Faltam: move-in/move-out, pós-obra, Airbnb, apartamento, avulsa, ecológica e Brazilian. Colchões, estofados e janelas não estão no site: confirme com o cliente se oferece; se não, remova." },
-   "steps": ["Clique em \"Adicionar mais serviços\" → serviço personalizado", "Adicione os que faltam com nome e descrição abaixo", "Se o cliente não faz colchões, estofados ou janelas, remova esses", "Salvar"],
-   "copyFrom": "gbpServices"
-  },
-  {
-   "id": "setup-description",
-   "priority": 4,
-   "title": "Descrição: trocar pela versão que cita todas as cidades",
-   "where": "Editar perfil → Sobre → Descrição",
-   "why": "A descrição atual cita só Greer, Greenville e Taylors. A nova cobre todos os serviços e a área de 30 milhas.",
-   "verified": { "status": "partial", "note": "No perfil hoje: descrição boa, mas cita só Greer, Greenville e Taylors." },
-   "steps": ["Apague a descrição atual", "Cole a descrição abaixo", "Salvar"],
-   "copy": [
-    { "label": "Descrição (até 750 caracteres)", "value": "Perfect Services is a Brazilian-owned cleaning company based in Greer, South Carolina, run by Regiani and Tony. We clean homes, apartments, vacation rentals and offices with a hands-on, detail-first method, including the baseboards, edges and corners a rushed clean skips. Services: recurring house cleaning and maid service, deep cleaning, move-in and move-out cleaning, post-construction cleanup, Airbnb turnovers, apartment and condo cleaning, one-time and eco-friendly green cleaning, and office cleaning. We serve Greer, Taylors, Greenville, Spartanburg, Simpsonville, Mauldin and communities within 30 miles. Free in-home estimates, no commitment." }
-   ]
-  },
-  {
-   "id": "setup-phone",
-   "priority": 5,
-   "title": "Telefone principal: trocar para (864) 399-5168",
-   "where": "Editar perfil → Contato → Número de telefone",
-   "why": "O Google compara o telefone do perfil com o do site e dos diretórios. O número principal definido é (864) 399-5168, o mesmo do site e do kit.",
-   "verified": { "status": "pending", "note": "No perfil hoje: (864) 666-8520 como telefone principal. Decisão de 09/11: o principal é (864) 399-5168; o 666-8520 fica só para texto/SMS." },
-   "steps": ["Em Número de telefone, troque para (864) 399-5168", "Em Chat, mantenha o SMS do (864) 666-8520", "Salvar"],
-   "copy": [
-    { "label": "Telefone principal", "value": "(864) 399-5168" },
-    { "label": "Chat/SMS (manter)", "value": "(864) 666-8520" }
-   ]
-  },
-  {
-   "id": "setup-social",
-   "priority": 6,
-   "title": "Adicionar o Instagram",
-   "where": "Editar perfil → Contato → Perfis de redes sociais",
-   "why": "Liga o perfil às redes da empresa e passa confiança.",
-   "verified": { "status": "pending", "note": "No perfil hoje: nenhum perfil de rede social." },
-   "steps": ["Clique em Adicionar", "Escolha Instagram e cole o link", "Salvar"],
-   "copy": [
-    { "label": "Instagram", "value": "https://www.instagram.com/perfectservices/" }
-   ]
-  },
-  {
-   "id": "setup-address",
-   "priority": 7,
-   "title": "Endereço: ocultar se for residência",
-   "where": "Editar perfil → Local → Endereço da empresa",
-   "why": "Para empresa que atende na casa do cliente, o Google recomenda mostrar só a área de atendimento. Se o endereço é a casa dos donos, deixá-lo público também expõe a família.",
-   "verified": { "status": "pending", "note": "No perfil hoje: o endereço completo aparece publicamente. Confirme com o cliente se ele recebe clientes nesse local." },
-   "steps": ["Se não recebe clientes no local: edite o endereço e escolha não mostrar o endereço para os clientes", "Mantenha a área de atendimento preenchida", "Salvar"],
-   "copy": []
-  },
-  {
-   "id": "setup-hours",
-   "priority": 8,
-   "title": "Horário de funcionamento",
-   "where": "Editar perfil → Horário",
-   "why": "Perfis sem horário perdem posição e aparecem menos em buscas feitas agora.",
-   "verified": { "status": "done", "note": "No perfil hoje: 08:00–18:00 todos os dias, inclusive domingo. Confirme se domingo é real; se não for, marque fechado." },
-   "steps": ["Conferir se domingo está certo", "Para feriados, use \"Horário especial\""],
-   "copy": []
-  },
-  {
-   "id": "setup-photos",
-   "priority": 9,
-   "title": "Fotos: logo, capa e 10 ou mais",
-   "where": "Painel do perfil → Fotos → Adicionar foto",
-   "why": "Perfis com mais fotos recebem mais cliques e pedidos de contato.",
-   "verified": { "status": "unknown", "note": "Não consegui contar as fotos. Confira em Fotos e marque quando tiver logo, capa e 10 ou mais." },
-   "steps": ["Logo: use o logo do site", "Capa: a foto da equipe", "Adicione pelo menos 10 fotos de ambientes limpos"],
-   "copy": [
-    { "label": "Logo", "value": "https://perfectservicespaintingcleaning.com/images/logo.png" },
-    { "label": "Capa (equipe)", "value": "https://perfectservicespaintingcleaning.com/images/perfect-services-team.jpg" },
-    { "label": "Fotos de ambientes", "value": "https://perfectservicespaintingcleaning.com/images/kitchen-island-marble.jpg\nhttps://perfectservicespaintingcleaning.com/images/double-vanity-bathroom.jpg\nhttps://perfectservicespaintingcleaning.com/images/living-room-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/master-bedroom-cleaning-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/open-floor-plan-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/oven-deep-cleaning.jpg\nhttps://perfectservicespaintingcleaning.com/images/dining-room-hardwood-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/laundry-room-cleaning.jpg\nhttps://perfectservicespaintingcleaning.com/images/bathroom-cleaning-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/family-room-cleaning-greer.jpg" }
-   ]
-  },
-  {
-   "id": "setup-site",
-   "priority": 10,
-   "title": "Site no perfil",
-   "where": "Editar perfil → Contato → Site",
-   "why": "O link leva quem vê o perfil para o site, com as páginas de cada cidade e serviço.",
-   "verified": { "status": "done", "note": "No perfil hoje: https://perfectservicespaintingcleaning.com/ (correto)." },
-   "steps": ["Nada a fazer"],
-   "copy": []
-  },
-  {
-   "id": "setup-reviews",
-   "priority": 11,
-   "title": "Pedido de avaliação depois de cada limpeza",
-   "where": "Painel do perfil → Solicitar avaliações → Gerar link",
-   "why": "Avaliações são o fator que mais pesa no mapa do Google, junto com a categoria.",
-   "verified": { "status": "partial", "note": "No perfil hoje: nota 5,0 com 14 avaliações. Ótima nota; o próximo passo é aumentar o número." },
-   "steps": ["Clique em Gerar link e copie o link curto", "Depois de cada limpeza, envie por SMS a mensagem abaixo com o link", "Responda todas as avaliações, inclusive as boas"],
-   "copy": [
-    { "label": "Mensagem por SMS", "value": "Hi! Thank you for choosing Perfect Services today. If you're happy with the cleaning, a quick Google review helps our small Brazilian team a lot: [review link]. Thank you! – Regiani & Tony" }
-   ]
-  }
- ],
- "suggestions": [
-  {
-   "id": "sug-2026-11-09-posts-gap",
-   "priority": 1,
-   "createdAt": "2026-11-09T06:10:00Z",
-   "title": "Retomar os posts hoje: o último foi em 26/10",
-   "where": "Aba Google Meu Negócio do painel",
-   "why": "No perfil, vários posts foram publicados de uma vez em 23/10 e o último foi em 26/10; desde então, 14 dias sem posts. Postar de forma regular (3 por dia, não vários de uma vez) mostra ao Google que o perfil está ativo.",
-   "steps": ["Abra a aba Google Meu Negócio", "Publique os 3 posts de hoje", "Mantenha o ritmo diário"],
-   "copy": []
-  },
-  {
-   "id": "sug-2026-11-09-products",
-   "priority": 2,
-   "createdAt": "2026-11-09T06:00:00Z",
-   "title": "Cadastrar 4 serviços também em \"Produtos\", com link",
-   "where": "Painel do perfil → Editar produtos",
-   "why": "A seção Produtos aparece em destaque no perfil, com foto e botão com link para a página do serviço.",
-   "steps": ["Crie um produto para cada serviço abaixo", "Foto: use uma foto do serviço", "Botão: Saiba mais, com o link de cada um"],
-   "copy": [
-    { "label": "Deep Cleaning (link)", "value": "https://perfectservicespaintingcleaning.com/services/deep-cleaning/?utm_source=google&utm_medium=gbp_product" },
-    { "label": "Move-In & Move-Out Cleaning (link)", "value": "https://perfectservicespaintingcleaning.com/services/move-in-move-out-cleaning/?utm_source=google&utm_medium=gbp_product" },
-    { "label": "House Cleaning & Maid Service (link)", "value": "https://perfectservicespaintingcleaning.com/services/house-cleaning/?utm_source=google&utm_medium=gbp_product" },
-    { "label": "Airbnb & Vacation Rental Cleaning (link)", "value": "https://perfectservicespaintingcleaning.com/services/airbnb-vacation-rental-cleaning/?utm_source=google&utm_medium=gbp_product" }
-   ]
-  },
-  {
-   "id": "sug-2026-11-09-reviews",
-   "priority": 3,
-   "createdAt": "2026-11-09T06:00:00Z",
-   "title": "Meta da semana: 3 avaliações novas",
-   "where": "Mensagem por SMS para clientes recentes",
-   "why": "A nota é 5,0, mas são 14 avaliações. No ranking de hoje, as empresas no topo de Greer (como MaidPro e The Cleaning Authority) destacam avaliações. É o fator que mais move o mapa.",
-   "steps": ["Liste os clientes atendidos nos últimos 30 dias", "Envie a mensagem de avaliação (tarefa de avaliações) para cada um", "Responda cada avaliação em até 24 horas"],
-   "copy": []
-  },
-  {
-   "id": "sug-2026-11-09-photos",
-   "priority": 4,
-   "createdAt": "2026-11-09T06:00:00Z",
-   "title": "Subir 2 fotos novas por semana",
-   "where": "Painel do perfil → Fotos → Adicionar foto",
-   "why": "Fotos recentes mostram ao Google que o perfil está ativo. Fotos tiradas no trabalho valem mais que fotos de banco.",
-   "steps": ["Peça à equipe 2 fotos de cada limpeza da semana (sem rosto de cliente nem endereço)", "Envie no perfil"],
-   "copy": []
-  }
- ]
+  "updatedAt": "2026-11-09T12:50:00Z",
+  "verifiedAt": "2026-11-09T06:10:00Z",
+  "how": "Logada na conta que administra o perfil, pesquise no Google \"Perfect Services Painting & Cleaning\" ou acesse business.google.com e clique em Editar perfil. O perfil foi conferido pelo Claude em 09/11 às 03:10 (horário de São Paulo); o status de cada tarefa mostra o que estava no perfil nesse momento.",
+  "setup": [
+    {
+      "id": "setup-categories",
+      "priority": 1,
+      "title": "Categorias",
+      "where": "Editar perfil → Sobre → Categoria de negócios",
+      "why": "A categoria principal é o fator que mais pesa para aparecer em \"house cleaning + cidade\".",
+      "verified": {
+        "status": "pending",
+        "note": "No perfil hoje: só a categoria \"Limpeza\", sem categorias adicionais."
+      },
+      "steps": [
+        "Categoria principal: digite \"house cleaning\" ou \"limpeza de casas\" e escolha a opção de serviço de limpeza de casas",
+        "Clique em \"Adicionar outra categoria\" e inclua as 3 abaixo (digite em inglês ou português e escolha a opção mais próxima)",
+        "Salvar"
+      ],
+      "copy": [
+        {
+          "label": "Categoria principal",
+          "value": "House cleaning service"
+        },
+        {
+          "label": "Categorias adicionais",
+          "value": "Maid service, Janitorial service, Commercial cleaning service"
+        }
+      ]
+    },
+    {
+      "id": "setup-areas",
+      "priority": 2,
+      "title": "Área de atendimento: limpar repetidas e completar 20 cidades",
+      "where": "Editar perfil → Local → Área de cobertura",
+      "why": "Define em quais cidades o perfil pode aparecer no mapa. 20 é o limite do Google.",
+      "verified": {
+        "status": "pending",
+        "note": "No perfil hoje: 12 itens, mas só 7 cidades diferentes. Greer, Taylors, Reidville e Greenville aparecem 2 vezes (com e sem CEP). Faltam Spartanburg, Simpsonville, Mauldin e outras."
+      },
+      "steps": [
+        "Remova as repetidas (deixe uma de cada)",
+        "Adicione as que faltam da lista abaixo até chegar a 20",
+        "Salvar"
+      ],
+      "copy": [
+        {
+          "label": "20 cidades",
+          "value": "Greer SC; Taylors SC; Greenville SC; Spartanburg SC; Simpsonville SC; Mauldin SC; Duncan SC; Lyman SC; Wellford SC; Inman SC; Travelers Rest SC; Five Forks SC; Boiling Springs SC; Fountain Inn SC; Easley SC; Powdersville SC; Moore SC; Berea SC; Reidville SC; Piedmont SC"
+        }
+      ]
+    },
+    {
+      "id": "setup-services",
+      "priority": 3,
+      "title": "Serviços: adicionar os que faltam",
+      "where": "Editar perfil → Serviços → Adicionar mais serviços",
+      "why": "Cada serviço vira palavra-chave do perfil e aparece para quem busca aquele serviço.",
+      "verified": {
+        "status": "partial",
+        "note": "No perfil hoje: 7 serviços (escritórios, detalhada, padrão, colchões, estofados, janelas, profunda). Faltam: move-in/move-out, pós-obra, Airbnb, apartamento, avulsa, ecológica e Brazilian. Colchões, estofados e janelas não estão no site: confirme com o cliente se oferece; se não, remova."
+      },
+      "steps": [
+        "Clique em \"Adicionar mais serviços\" → serviço personalizado",
+        "Adicione os que faltam com nome e descrição abaixo",
+        "Se o cliente não faz colchões, estofados ou janelas, remova esses",
+        "Salvar"
+      ],
+      "copyFrom": "gbpServices"
+    },
+    {
+      "id": "setup-description",
+      "priority": 4,
+      "title": "Descrição: trocar pela versão que cita todas as cidades",
+      "where": "Editar perfil → Sobre → Descrição",
+      "why": "A descrição atual cita só Greer, Greenville e Taylors. A nova cobre todos os serviços e a área de 30 milhas.",
+      "verified": {
+        "status": "partial",
+        "note": "No perfil hoje: descrição boa, mas cita só Greer, Greenville e Taylors."
+      },
+      "steps": [
+        "Apague a descrição atual",
+        "Cole a descrição abaixo",
+        "Salvar"
+      ],
+      "copy": [
+        {
+          "label": "Descrição (até 750 caracteres)",
+          "value": "Perfect Services is a Brazilian-owned cleaning company based in Greer, South Carolina, run by Regiani and Tony. We clean homes, apartments, vacation rentals and offices with a hands-on, detail-first method, including the baseboards, edges and corners a rushed clean skips. Services: recurring house cleaning and maid service, deep cleaning, move-in and move-out cleaning, post-construction cleanup, Airbnb turnovers, apartment and condo cleaning, one-time and eco-friendly green cleaning, and office cleaning. We serve Greer, Taylors, Greenville, Spartanburg, Simpsonville, Mauldin and communities within 30 miles. Free in-home estimates, no commitment."
+        }
+      ]
+    },
+    {
+      "id": "setup-phone",
+      "priority": 5,
+      "title": "Telefone principal: trocar para (864) 399-5168",
+      "where": "Editar perfil → Contato → Número de telefone",
+      "why": "O Google compara o telefone do perfil com o do site e dos diretórios. O número principal definido é (864) 399-5168, o mesmo do site e do kit.",
+      "verified": {
+        "status": "pending",
+        "note": "No perfil hoje: (864) 666-8520 como telefone principal. Decisão de 09/11: o principal é (864) 399-5168; o 666-8520 fica só para texto/SMS."
+      },
+      "steps": [
+        "Em Número de telefone, troque para (864) 399-5168",
+        "Em Chat, mantenha o SMS do (864) 666-8520",
+        "Salvar"
+      ],
+      "copy": [
+        {
+          "label": "Telefone principal",
+          "value": "(864) 399-5168"
+        },
+        {
+          "label": "Chat/SMS (manter)",
+          "value": "(864) 666-8520"
+        }
+      ]
+    },
+    {
+      "id": "setup-social",
+      "priority": 6,
+      "title": "Adicionar o Instagram",
+      "where": "Editar perfil → Contato → Perfis de redes sociais",
+      "why": "Liga o perfil às redes da empresa e passa confiança.",
+      "verified": {
+        "status": "pending",
+        "note": "No perfil hoje: nenhum perfil de rede social."
+      },
+      "steps": [
+        "Clique em Adicionar",
+        "Escolha Instagram e cole o link",
+        "Salvar"
+      ],
+      "copy": [
+        {
+          "label": "Instagram",
+          "value": "https://www.instagram.com/perfectservices/"
+        }
+      ]
+    },
+    {
+      "id": "setup-address",
+      "priority": 7,
+      "title": "Endereço: ocultar se for residência",
+      "where": "Editar perfil → Local → Endereço da empresa",
+      "why": "Para empresa que atende na casa do cliente, o Google recomenda mostrar só a área de atendimento. Se o endereço é a casa dos donos, deixá-lo público também expõe a família.",
+      "verified": {
+        "status": "pending",
+        "note": "No perfil hoje: o endereço completo aparece publicamente. Confirme com o cliente se ele recebe clientes nesse local."
+      },
+      "steps": [
+        "Se não recebe clientes no local: edite o endereço e escolha não mostrar o endereço para os clientes",
+        "Mantenha a área de atendimento preenchida",
+        "Salvar"
+      ],
+      "copy": []
+    },
+    {
+      "id": "setup-hours",
+      "priority": 8,
+      "title": "Horário de funcionamento",
+      "where": "Editar perfil → Horário",
+      "why": "Perfis sem horário perdem posição e aparecem menos em buscas feitas agora.",
+      "verified": {
+        "status": "done",
+        "note": "No perfil hoje: 08:00–18:00 todos os dias, inclusive domingo. Confirme se domingo é real; se não for, marque fechado."
+      },
+      "steps": [
+        "Conferir se domingo está certo",
+        "Para feriados, use \"Horário especial\""
+      ],
+      "copy": []
+    },
+    {
+      "id": "setup-photos",
+      "priority": 9,
+      "title": "Fotos: logo, capa e 10 ou mais",
+      "where": "Painel do perfil → Fotos → Adicionar foto",
+      "why": "Perfis com mais fotos recebem mais cliques e pedidos de contato.",
+      "verified": {
+        "status": "unknown",
+        "note": "Não consegui contar as fotos. Confira em Fotos e marque quando tiver logo, capa e 10 ou mais."
+      },
+      "steps": [
+        "Logo: use o logo do site",
+        "Capa: a foto da equipe",
+        "Adicione pelo menos 10 fotos de ambientes limpos"
+      ],
+      "copy": [
+        {
+          "label": "Logo",
+          "value": "https://perfectservicespaintingcleaning.com/images/logo.png"
+        },
+        {
+          "label": "Capa (equipe)",
+          "value": "https://perfectservicespaintingcleaning.com/images/perfect-services-team.jpg"
+        },
+        {
+          "label": "Fotos de ambientes",
+          "value": "https://perfectservicespaintingcleaning.com/images/kitchen-island-marble.jpg\nhttps://perfectservicespaintingcleaning.com/images/double-vanity-bathroom.jpg\nhttps://perfectservicespaintingcleaning.com/images/living-room-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/master-bedroom-cleaning-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/open-floor-plan-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/oven-deep-cleaning.jpg\nhttps://perfectservicespaintingcleaning.com/images/dining-room-hardwood-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/laundry-room-cleaning.jpg\nhttps://perfectservicespaintingcleaning.com/images/bathroom-cleaning-greer.jpg\nhttps://perfectservicespaintingcleaning.com/images/family-room-cleaning-greer.jpg"
+        }
+      ]
+    },
+    {
+      "id": "setup-site",
+      "priority": 10,
+      "title": "Site no perfil",
+      "where": "Editar perfil → Contato → Site",
+      "why": "O link leva quem vê o perfil para o site, com as páginas de cada cidade e serviço.",
+      "verified": {
+        "status": "done",
+        "note": "No perfil hoje: https://perfectservicespaintingcleaning.com/ (correto)."
+      },
+      "steps": [
+        "Nada a fazer"
+      ],
+      "copy": []
+    },
+    {
+      "id": "setup-reviews",
+      "priority": 11,
+      "title": "Pedido de avaliação depois de cada limpeza",
+      "where": "Painel do perfil → Solicitar avaliações → Gerar link",
+      "why": "Avaliações são o fator que mais pesa no mapa do Google, junto com a categoria.",
+      "verified": {
+        "status": "partial",
+        "note": "No perfil hoje: nota 5,0 com 14 avaliações. Ótima nota; o próximo passo é aumentar o número."
+      },
+      "steps": [
+        "Clique em Gerar link e copie o link curto",
+        "Depois de cada limpeza, envie por SMS a mensagem abaixo com o link",
+        "Responda todas as avaliações, inclusive as boas"
+      ],
+      "copy": [
+        {
+          "label": "Mensagem por SMS",
+          "value": "Hi! Thank you for choosing Perfect Services today. If you're happy with the cleaning, a quick Google review helps our small Brazilian team a lot: [review link]. Thank you! – Regiani & Tony"
+        }
+      ]
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "sug-2026-11-09-posts-gap",
+      "priority": 1,
+      "createdAt": "2026-11-09T06:10:00Z",
+      "title": "Retomar os posts hoje: o último foi em 26/10",
+      "where": "Aba Google Meu Negócio do painel",
+      "why": "No perfil, vários posts foram publicados de uma vez em 23/10 e o último foi em 26/10; desde então, 14 dias sem posts. Postar de forma regular (3 por dia, não vários de uma vez) mostra ao Google que o perfil está ativo.",
+      "steps": [
+        "Abra a aba Google Meu Negócio",
+        "Publique os 3 posts de hoje",
+        "Mantenha o ritmo diário"
+      ],
+      "copy": []
+    },
+    {
+      "id": "sug-2026-11-09-products",
+      "priority": 2,
+      "createdAt": "2026-11-09T06:00:00Z",
+      "title": "Cadastrar 4 serviços também em \"Produtos\", com link",
+      "where": "Painel do perfil → Editar produtos",
+      "why": "A seção Produtos aparece em destaque no perfil, com foto e botão com link para a página do serviço.",
+      "steps": [
+        "Crie um produto para cada serviço abaixo",
+        "Foto: use uma foto do serviço",
+        "Botão: Saiba mais, com o link de cada um"
+      ],
+      "copy": [
+        {
+          "label": "Deep Cleaning (link)",
+          "value": "https://perfectservicespaintingcleaning.com/services/deep-cleaning/?utm_source=google&utm_medium=gbp_product"
+        },
+        {
+          "label": "Move-In & Move-Out Cleaning (link)",
+          "value": "https://perfectservicespaintingcleaning.com/services/move-in-move-out-cleaning/?utm_source=google&utm_medium=gbp_product"
+        },
+        {
+          "label": "House Cleaning & Maid Service (link)",
+          "value": "https://perfectservicespaintingcleaning.com/services/house-cleaning/?utm_source=google&utm_medium=gbp_product"
+        },
+        {
+          "label": "Airbnb & Vacation Rental Cleaning (link)",
+          "value": "https://perfectservicespaintingcleaning.com/services/airbnb-vacation-rental-cleaning/?utm_source=google&utm_medium=gbp_product"
+        }
+      ]
+    },
+    {
+      "id": "sug-2026-11-09-reviews",
+      "priority": 3,
+      "createdAt": "2026-11-09T06:00:00Z",
+      "title": "Meta da semana: 3 avaliações novas",
+      "where": "Mensagem por SMS para clientes recentes",
+      "why": "A nota é 5,0, mas são 14 avaliações. No ranking de hoje, as empresas no topo de Greer (como MaidPro e The Cleaning Authority) destacam avaliações. É o fator que mais move o mapa.",
+      "steps": [
+        "Liste os clientes atendidos nos últimos 30 dias",
+        "Envie a mensagem de avaliação (tarefa de avaliações) para cada um",
+        "Responda cada avaliação em até 24 horas"
+      ],
+      "copy": []
+    },
+    {
+      "id": "sug-2026-11-09-photos",
+      "priority": 4,
+      "createdAt": "2026-11-09T06:00:00Z",
+      "title": "Subir 2 fotos novas por semana",
+      "where": "Painel do perfil → Fotos → Adicionar foto",
+      "why": "Fotos recentes mostram ao Google que o perfil está ativo. Fotos tiradas no trabalho valem mais que fotos de banco.",
+      "steps": [
+        "Peça à equipe 2 fotos de cada limpeza da semana (sem rosto de cliente nem endereço)",
+        "Envie no perfil"
+      ],
+      "copy": []
+    }
+  ]
 }

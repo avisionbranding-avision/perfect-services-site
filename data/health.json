@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-09T09:50:00Z",
+  "checkedAt": "2026-11-09T12:50:00Z",
   "overall": "warning",
   "checks": [
     {
@@ -29,8 +29,8 @@
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
-      "status": "ok",
-      "detail": "20 artigos hoje; a segunda rodada é às 12:00 UTC"
+      "status": "warning",
+      "detail": "20 artigos hoje; esperado 32 por dia (faltam 12)"
     },
     {
       "id": "gbp_posts",
@@ -53,8 +53,8 @@
     {
       "id": "live_site",
       "label": "Site no ar",
-      "status": "warning",
-      "detail": "não foi possível verificar o site a partir da nuvem"
+      "status": "ok",
+      "detail": "Teste ao vivo feito pelo painel no navegador"
     },
     {
       "id": "sitemap",
@@ -65,6 +65,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-09T12:50:00Z",
+      "overall": "warning",
+      "summary": "20 de 32 artigos publicados hoje; resto ok"
+    },
     {
       "at": "2026-11-09T09:50:00Z",
       "overall": "warning",

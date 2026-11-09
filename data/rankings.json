@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T09:50:00Z",
+  "updatedAt": "2026-11-09T12:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1198,6 +1198,250 @@
         }
       ],
       "tip": "Os resultados são de Parker, Colorado; ninguém local domina. Oportunidade: página de Parker SC deixando claro 'Parker, South Carolina' perto de Greenville/Greer.",
+      "error": null
+    },
+    "gantt-sc": {
+      "city": "Gantt, SC",
+      "query": "house cleaning Gantt SC",
+      "checkedAt": "2026-11-09T12:50:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "thebuildermarket.com",
+          "title": "Top-Rated Cleaning & Maid Services Near You in Gantt, SC"
+        },
+        {
+          "pos": 2,
+          "domain": "aaarousse.com",
+          "title": "Hoarding cleanup Gantt SC"
+        },
+        {
+          "pos": 3,
+          "domain": "goloadup.com",
+          "title": "Gantt Garage Cleanout"
+        },
+        {
+          "pos": 4,
+          "domain": "thumbtack.com",
+          "title": "Sc cleaning services"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "House cleaning Garnett SC"
+        }
+      ],
+      "competitors": [],
+      "tip": "Quase só diretórios e serviços de limpeza pesada aparecem; nenhuma empresa de limpeza residencial local no topo. Oportunidade: reforçar a página de Gantt com bairros, serviços e avaliações.",
+      "error": null
+    },
+    "roebuck-sc": {
+      "city": "Roebuck, SC",
+      "query": "house cleaning Roebuck SC",
+      "checkedAt": "2026-11-09T12:50:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "House cleaning Roebuck SC"
+        },
+        {
+          "pos": 2,
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Roebuck SC"
+        },
+        {
+          "pos": 3,
+          "domain": "angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
+        },
+        {
+          "pos": 4,
+          "domain": "angi.com",
+          "title": "house cleaning Roebuck"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "Cleaning lady Roebuck SC"
+        }
+      ],
+      "competitors": [],
+      "tip": "O topo é só diretórios (Care.com, HomeAdvisor, Angi); nenhuma empresa própria. Dá para entrar com uma página de Roebuck clara, com preços de referência e avaliações do Google.",
+      "error": null
+    },
+    "boiling-springs-sc": {
+      "city": "Boiling Springs, SC",
+      "query": "house cleaning Boiling Springs SC",
+      "checkedAt": "2026-11-09T12:50:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "House cleaning Boiling Springs SC"
+        },
+        {
+          "pos": 2,
+          "domain": "care.com",
+          "title": "Housekeeping Boiling Springs SC"
+        },
+        {
+          "pos": 3,
+          "domain": "care.com",
+          "title": "Housekeeping Boiling Springs SC page 2"
+        },
+        {
+          "pos": 4,
+          "domain": "thumbtack.com",
+          "title": "Carolina Cleaning & Staging Service"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "Housekeepers Boiling Springs SC"
+        }
+      ],
+      "competitors": [
+        {
+          "pos": 4,
+          "domain": "thumbtack.com",
+          "name": "Carolina Cleaning & Staging Service"
+        }
+      ],
+      "tip": "Care.com domina o topo e os resultados misturam Boiling Springs NC. Deixar claro o estado (SC) e o raio de atendimento na página de Boiling Springs.",
+      "error": null
+    },
+    "marietta-sc": {
+      "city": "Marietta, SC",
+      "query": "house cleaning Marietta SC",
+      "checkedAt": "2026-11-09T12:50:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "House cleaning Marietta SC"
+        },
+        {
+          "pos": 2,
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Marietta SC"
+        },
+        {
+          "pos": 3,
+          "domain": "angi.com",
+          "title": "house cleaning Marietta"
+        },
+        {
+          "pos": 4,
+          "domain": "care.com",
+          "title": "Housekeeping Marietta SC"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "Housekeeping Marietta SC page 2"
+        }
+      ],
+      "competitors": [],
+      "tip": "Resultados quase só de diretórios; aparecem franquias (The Cleaning Authority, Merry Maids) mais abaixo. Uma página local enxuta de Marietta com avaliações pode ganhar espaço.",
+      "error": null
+    },
+    "landrum-sc": {
+      "city": "Landrum, SC",
+      "query": "house cleaning Landrum SC",
+      "checkedAt": "2026-11-09T12:50:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "House cleaning Landrum SC"
+        },
+        {
+          "pos": 2,
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Landrum SC"
+        },
+        {
+          "pos": 3,
+          "domain": "care.com",
+          "title": "Housekeepers Landrum SC"
+        },
+        {
+          "pos": 4,
+          "domain": "angi.com",
+          "title": "house cleaning Landrum"
+        },
+        {
+          "pos": 5,
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service"
+        }
+      ],
+      "competitors": [],
+      "tip": "Só diretórios no topo, sem empresa local destacada. Incluir na página de Landrum o telefone, os serviços e a nota do Google para competir.",
+      "error": null
+    },
+    "spartanburg-sc": {
+      "city": "Spartanburg, SC",
+      "query": "house cleaning Spartanburg SC",
+      "checkedAt": "2026-11-09T12:50:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "House cleaning Spartanburg SC"
+        },
+        {
+          "pos": 2,
+          "domain": "thumbtack.com",
+          "title": "Refreshly LLC"
+        },
+        {
+          "pos": 3,
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Spartanburg SC"
+        },
+        {
+          "pos": 4,
+          "domain": "thumbtack.com",
+          "title": "First Class Cleaning"
+        },
+        {
+          "pos": 5,
+          "domain": "angi.com",
+          "title": "Compare Quotes from Cleaning Services"
+        }
+      ],
+      "competitors": [
+        {
+          "pos": 2,
+          "domain": "thumbtack.com",
+          "name": "Refreshly LLC"
+        },
+        {
+          "pos": 4,
+          "domain": "thumbtack.com",
+          "name": "First Class Cleaning"
+        },
+        {
+          "pos": 10,
+          "domain": "thecleaningauthority.com",
+          "name": "The Cleaning Authority"
+        }
+      ],
+      "tip": "Mercado mais disputado: diretórios no topo e a franquia The Cleaning Authority aparece. Destacar avaliações do Google e a diferença do método brasileiro na página de Spartanburg.",
       "error": null
     }
   }
