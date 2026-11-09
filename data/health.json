@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-09T15:45:00Z",
+  "checkedAt": "2026-11-09T18:45:00Z",
   "overall": "warning",
   "checks": [
     {
@@ -65,6 +65,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-09T18:45:00Z",
+      "overall": "warning",
+      "summary": "20 de 32 artigos publicados hoje; resto ok"
+    },
     {
       "at": "2026-11-09T15:45:00Z",
       "overall": "warning",
