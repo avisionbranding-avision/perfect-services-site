@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-09T07:23:43.767Z",
+ "generatedAt": "2026-11-09T10:04:44.943Z",
  "domain": "https://perfectservicespaintingcleaning.com",
  "settings": {
-  "dailyPosts": 6,
+  "dailyPosts": 12,
   "citiesPerDay": 12,
   "launchDate": "2026-11-09",
   "paused": false
@@ -1183,7 +1183,17 @@
    "service": "House Cleaning & Maid Service"
   },
   {
+   "title": "A realistic cleaning routine for busy families in Greer",
+   "city": "Greer, SC",
+   "service": "House Cleaning & Maid Service"
+  },
+  {
    "title": "Spring deep cleaning checklist for Greer homes",
+   "city": "Greer, SC",
+   "service": "Deep Cleaning"
+  },
+  {
+   "title": "Pollen season in Greer: a deep cleaning plan for allergy sufferers",
    "city": "Greer, SC",
    "service": "Deep Cleaning"
   },
@@ -1193,7 +1203,17 @@
    "service": "Move-In & Move-Out Cleaning"
   },
   {
+   "title": "Move-in cleaning in Greer: what to clean before you unpack",
+   "city": "Greer, SC",
+   "service": "Move-In & Move-Out Cleaning"
+  },
+  {
    "title": "Final clean for builders and contractors in Greer",
+   "city": "Greer, SC",
+   "service": "Post-Construction Cleaning"
+  },
+  {
+   "title": "New construction cleaning in Greer: before you move into your new home",
    "city": "Greer, SC",
    "service": "Post-Construction Cleaning"
   },
@@ -1203,7 +1223,17 @@
    "service": "Commercial & Office Cleaning"
   },
   {
+   "title": "Retail store cleaning in Greer: what customers notice first",
+   "city": "Greer, SC",
+   "service": "Commercial & Office Cleaning"
+  },
+  {
    "title": "The 10 details Brazilian cleaners never skip in Greer homes",
+   "city": "Greer, SC",
+   "service": "Brazilian House Cleaning"
+  },
+  {
+   "title": "How Brazilian cleaners care for hardwood and tile floors in Greer",
    "city": "Greer, SC",
    "service": "Brazilian House Cleaning"
   },
@@ -1213,7 +1243,17 @@
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
+   "title": "Same-day turnovers: how Greer hosts avoid bad check-ins",
+   "city": "Greer, SC",
+   "service": "Airbnb & Vacation Rental Cleaning"
+  },
+  {
    "title": "How much does apartment cleaning cost in Greer?",
+   "city": "Greer, SC",
+   "service": "Apartment & Condo Cleaning"
+  },
+  {
+   "title": "Getting your Greer apartment ready for an inspection",
    "city": "Greer, SC",
    "service": "Apartment & Condo Cleaning"
   },
@@ -1223,7 +1263,17 @@
    "service": "One-Time House Cleaning"
   },
   {
+   "title": "Getting your Greer home ready for overnight guests",
+   "city": "Greer, SC",
+   "service": "One-Time House Cleaning"
+  },
+  {
    "title": "Allergy-friendly cleaning for Greer homes during pollen season",
+   "city": "Greer, SC",
+   "service": "Eco-Friendly Green Cleaning"
+  },
+  {
+   "title": "Cleaning a home with a new baby in Greer",
    "city": "Greer, SC",
    "service": "Eco-Friendly Green Cleaning"
   },
@@ -1256,6 +1306,36 @@
    "title": "The three phases of post-construction cleaning in Campobello",
    "city": "Campobello, SC",
    "service": "Post-Construction Cleaning"
+  },
+  {
+   "title": "Office cleaning checklist for small businesses in Moore",
+   "city": "Moore, SC",
+   "service": "Commercial & Office Cleaning"
+  },
+  {
+   "title": "What is Brazilian house cleaning? A guide for Simpsonville homeowners",
+   "city": "Simpsonville, SC",
+   "service": "Brazilian House Cleaning"
+  },
+  {
+   "title": "Airbnb turnover cleaning checklist for Berea hosts",
+   "city": "Berea, SC",
+   "service": "Airbnb & Vacation Rental Cleaning"
+  },
+  {
+   "title": "Apartment cleaning checklist for Parker renters",
+   "city": "Parker, SC",
+   "service": "Apartment & Condo Cleaning"
+  },
+  {
+   "title": "Holiday cleaning checklist for Gantt hosts",
+   "city": "Gantt, SC",
+   "service": "One-Time House Cleaning"
+  },
+  {
+   "title": "A guide to eco-friendly house cleaning in Roebuck",
+   "city": "Roebuck, SC",
+   "service": "Eco-Friendly Green Cleaning"
   }
  ]
 }

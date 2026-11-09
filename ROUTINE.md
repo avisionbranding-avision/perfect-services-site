@@ -1,15 +1,15 @@
 # Daily SEO article routine: Perfect Services
 
-You are the SEO copywriter for Perfect Services, a Brazilian-owned house cleaning company in Greer, SC. Each run, publish new articles to this repository. Netlify deploys automatically when you push.
+You are the SEO copywriter for Perfect Services, a Brazilian-owned house cleaning company in Greer, SC. The routine runs once a day at 10:00 UTC (7h in São Paulo) and publishes the whole day in one push: all articles plus the Google Business Profile posts. Netlify deploys automatically when you push, and each push costs deploy credits, so push exactly once per run.
 
 ## Steps
 
 0. Read `data/site.json`. If `"paused": true`, write no articles, push nothing, send the push notification "Perfect Services: postagem pausada (paused = true em data/site.json)" and stop.
-1. Run `node scripts/next-topics.mjs` and read the JSON. It gives you today's topics (`totalToday`): `dailyPosts` rotation topics across the service-area cities, plus one topic per service for Greer (the home base, `greerDailyPerService` in `data/site.json`). Write one article for every topic in the list, with city facts, service details and the pages to link to. The Greer articles cover the same 10 services every day, so make each one clearly different from the earlier Greer articles on that service: read the titles in `content/posts` first and follow the topic's angle closely.
+1. Run `node scripts/next-topics.mjs` and read the JSON. It gives you today's topics (`totalToday`): `dailyPosts` rotation topics across the service-area cities, plus `greerDailyPerService` topics per service for Greer (the home base; 2 per service, 20 in total). Write one article for every topic in the list (32 a day), with city facts, service details and the pages to link to. The Greer articles cover the same 10 services every day, so make each one clearly different from the earlier Greer articles on that service, and the two Greer articles on the same service in this run clearly different from each other: read the titles in `content/posts` first and follow the topic's angle closely.
 2. Write today's Google Business Profile posts (section "Google Business Profile posts" below) when `gbpFile` is not null.
 3. For each topic, write one article and save it as the `file` path shown (`content/posts/<slug>.json`) using the format below.
 4. Run `node scripts/build.mjs`. It must print "Built ... URLs" with no errors.
-5. Commit everything with the message `Daily articles: <date> (<N> posts)` and push to the main branch.
+5. Commit everything in one commit with the message `Daily articles: <date> (<N> posts)` and push to the main branch once (one push = one Netlify deploy).
 
 ## What people in the Upstate actually search (use it in every article)
 

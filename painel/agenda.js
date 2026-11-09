@@ -4,13 +4,13 @@
   var ASSISTANT = 'https://claude.ai/artifact/Ch4LvJS6yD4PMFbveP5ieb';
   var AUTO = {
     site: [
-      ['Todo dia, 9h e 17h', '16 artigos por execução (32/dia): 10 de Greer, um por serviço, e 6 de outras cidades, com palavras-chave das buscas da região, FAQ e links para a página do serviço na cidade.'],
-      ['Todo dia, a cada publicação', 'Blog das cidades, FAQ central, sitemap e links internos atualizados sozinhos.'],
-      ['A cada 3 horas', 'Monitor: saúde do site, links quebrados, correções seguras, posição de 6 cidades nas buscas e cadastros em diretórios.'],
+      ['Todo dia, 7h', '32 artigos de uma vez, publicados juntos: 20 de Greer (2 por serviço) e 12 de outras cidades, com palavras-chave das buscas da região, FAQ e links para a página do serviço na cidade.'],
+      ['Todo dia, 7h (na mesma publicação)', 'Blog das cidades, FAQ central, sitemap e links internos atualizados sozinhos. Uma publicação no Netlify por dia.'],
+      ['A cada 3 horas', 'Monitor: saúde do site, links quebrados, posição de 6 cidades nas buscas e cadastros em diretórios. Correções entram na publicação das 7h; só publica na hora se o site quebrar.'],
       ['Toda segunda', 'Com os prints que você manda do Search Console e do Analytics: reforço das páginas entre a posição 8 e 20 e ajuste dos temas dos artigos.'],
     ],
     gmb: [
-      ['Todo dia, 9h', '3 posts prontos (1 de Greer + 2 de outras cidades), com texto, botão, link da página certa e foto.'],
+      ['Todo dia, 7h', '3 posts prontos (1 de Greer + 2 de outras cidades), com texto, botão, link da página certa e foto.'],
       ['A cada 3 horas', 'Nota e avaliações do perfil, e novas sugestões de melhoria na aba Melhorias Google.'],
       ['Quando chega avaliação', 'Resposta de SEO pronta na aba Avaliações (automático pelo Gmail quando você autorizar).'],
     ],
