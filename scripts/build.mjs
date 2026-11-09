@@ -613,7 +613,7 @@ function writeStatus(urlCount) {
   const perService = Number(site.greerDailyPerService || 0);
   const baseLists = Object.values(baseQueue()).map((l) => l.filter((t) => !published.has(t.slug)));
   const baseNext = perService ? baseLists.flatMap((l) => l.slice(0, perService)) : [];
-  const greerDaysLeft = perService && baseLists.length ? Math.min(...baseLists.map((l) => Math.floor(l.length / perService))) : null;
+  const greerDaysLeft = perService && baseLists.length ? Math.min(...baseLists.map((l) => Math.floor(l.length / (perService * (site.runsPerDay || 1))))) : null;
   const status = {
     generatedAt: new Date().toISOString(),
     domain: D,
@@ -624,7 +624,7 @@ function writeStatus(urlCount) {
       fixedPagesLive: urlCount - posts.length, fixedPagesTotal: allEligibleCities.length * (services.length + 2) + services.length + 3 + 2,
       posts: posts.length, legacyPosts: posts.filter((p) => p.legacy).length,
       queueRemaining: queue.length,
-      articlesPerDay: (site.dailyPosts || 0) + baseNext.length,
+      articlesPerDay: ((site.dailyPosts || 0) + baseNext.length) * (site.runsPerDay || 1),
       greerDaysLeft,
     },
     cities: cityRows,

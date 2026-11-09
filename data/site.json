@@ -15,6 +15,7 @@
   "googleBusinessProfile": "https://share.google/we1NiMp6n1ipAOppy",
   "includeNorthCarolina": true,
   "dailyPosts": 6,
+  "runsPerDay": 2,
   "greerDailyPerService": 1,
   "gbpDailyPosts": 3,
   "gbpStart": "2026-11-09",
