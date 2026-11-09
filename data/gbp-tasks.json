@@ -47,7 +47,7 @@
    "verified": { "status": "partial", "note": "No perfil hoje: descrição boa, mas cita só Greer, Greenville e Taylors." },
    "steps": ["Apague a descrição atual", "Cole a descrição abaixo", "Salvar"],
    "copy": [
-    { "label": "Descrição (até 750 caracteres)", "value": "Perfect Services is a Brazilian-owned cleaning company based in Greer, South Carolina, run by Regiani and Tony. We clean homes, apartments, vacation rentals and offices with a hands-on, detail-first method, including the baseboards, edges and corners a rushed clean skips. Services: recurring house cleaning and maid service, deep cleaning, move-in and move-out cleaning, post-construction cleanup, Airbnb turnovers, apartment and condo cleaning, one-time and eco-friendly green cleaning, and office cleaning. We serve Greer, Taylors, Greenville, Spartanburg, Simpsonville, Mauldin and communities within 30 miles. Free estimates, usually the same day." }
+    { "label": "Descrição (até 750 caracteres)", "value": "Perfect Services is a Brazilian-owned cleaning company based in Greer, South Carolina, run by Regiani and Tony. We clean homes, apartments, vacation rentals and offices with a hands-on, detail-first method, including the baseboards, edges and corners a rushed clean skips. Services: recurring house cleaning and maid service, deep cleaning, move-in and move-out cleaning, post-construction cleanup, Airbnb turnovers, apartment and condo cleaning, one-time and eco-friendly green cleaning, and office cleaning. We serve Greer, Taylors, Greenville, Spartanburg, Simpsonville, Mauldin and communities within 30 miles. Free in-home estimates, no commitment." }
    ]
   },
   {

@@ -125,7 +125,7 @@ function pairParagraph(city, svc, seed) {
   const n = esc(city.name), me = esc(svc.short.toLowerCase());
   return pick([
     `Many ${n} clients pair ${me} with ${L(a, 1)}. If you need a different kind of visit, we also offer ${L(b, 2)} and ${L(c, 3)}, all with the same checklist and the same local team.`,
-    `${me.charAt(0).toUpperCase() + me.slice(1)} is not the only option in ${n}: homes that need extra attention often start with ${L(a, 1)}, while others book ${L(b, 2)} or ${L(c, 3)}. Not sure which fits? Text us a photo and we will tell you.`,
+    `${me.charAt(0).toUpperCase() + me.slice(1)} is not the only option in ${n}: homes that need extra attention often start with ${L(a, 1)}, while others book ${L(b, 2)} or ${L(c, 3)}. Not sure which fits? We will tell you at the free in-home estimate.`,
     `Planning more than one visit in ${n}? Combine ${me} with ${L(a, 1)}, or look at ${L(b, 2)} and ${L(c, 3)}. Each page lists what is included and what changes the price.`,
   ], seed);
 }
@@ -177,7 +177,7 @@ const faqHTML = (faqs, heading = 'Frequently asked questions') => `<section clas
 
 function cta(city) {
   const where = city ? ` in ${esc(city.full)}` : '';
-  return `<div class="inline-cta"><div><h2>Get a free estimate${where}</h2><p>Brazilian-style cleaning from a local Greer team. Price usually the same day, no commitment.</p></div><div class="ic-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a><a class="btn btn-ghost" href="tel:${site.phone.replace(/-/g, '')}">${PHONE_SVG} Call ${site.phoneDisplay}</a></div></div>`;
+  return `<div class="inline-cta"><div><h2>Get a free estimate${where}</h2><p>Brazilian-style cleaning from a local Greer team. We visit, see the space and give you an exact price, with no commitment.</p></div><div class="ic-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a><a class="btn btn-ghost" href="tel:${site.phone.replace(/-/g, '')}">${PHONE_SVG} Call ${site.phoneDisplay}</a></div></div>`;
 }
 function gallery(images, svc, city, seed) {
   return `<div class="pics">${images.map((img, i) => {
@@ -222,7 +222,7 @@ function cityFaqs(city, svc) {
     [`Do you offer ${s} in ${city.full}?`, `Yes. Perfect Services provides ${s} in ${city.name} and across ${city.county}, including ZIP code${city.zips.length > 1 ? 's' : ''} ${list(city.zips)}.`],
     [`How far is ${city.name} from your team?`, city.isBase ? 'Greer is our home base, so we are usually just minutes away.' : `${city.name} is about ${city.distRound} miles ${city.dir} of our base in Greer, roughly ${city.drive} minutes away. We schedule visits there every week.`],
     [`Do you also clean near ${city.name}?`, `Yes. We also serve ${list(near)} and the rest of the Upstate. <a href="/areas/">See all areas we serve</a>.`],
-    [`How do I get a cleaning price in ${city.name}?`, `Fill out our <a href="/#estimate">free estimate form</a>, call ${site.phoneDisplay} or text a photo to ${site.smsDisplay}. Most requests get a price the same day.`],
+    [`How do I get a cleaning price in ${city.name}?`, `Book a free in-home estimate: fill out our <a href="/#estimate">estimate form</a>, call ${site.phoneDisplay} or text ${site.smsDisplay}. We visit your home in ${city.name}, see the space and give you an exact price, with no commitment.`],
   ];
 }
 
@@ -251,7 +251,7 @@ function buildServices() {
       jsonld: [{ '@type': 'Service', name: svc.name, serviceType: svc.name, description: svc.summary, provider: BUSINESS, areaServed: cities.map((c) => ({ '@type': 'City', name: c.full })), url: `${D}${serviceUrl(svc)}` }, crumbsLD(items2), faqLD(faqs)],
       body: `<section class="page-hero"><div class="wrap">${crumbs(items2)}<span class="tag">${esc(svc.category)}</span><h1>${esc(svc.name)} in Greer and the Upstate</h1><p class="sub">${esc(svc.summary)}</p><div class="hero-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a><a class="btn btn-ghost" href="tel:${site.phone.replace(/-/g, '')}">${PHONE_SVG} ${site.phoneDisplay}</a></div></div></section>
 <section class="lp"><div class="wrap cols"><div class="prose">${svc.intro.map((p) => `<p>${esc(p)}</p>`).join('')}<h2>What's included</h2><ul class="chk">${svc.includes.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><h2>Who it's for</h2><ul>${svc.idealFor.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>
-<aside class="side-facts"><h3>${esc(svc.name)} at a glance</h3><dl><dt>Service area</dt><dd>Greer + ${cities.length - 1} nearby cities</dd><dt>Estimate</dt><dd>Free, usually same day</dd><dt>Method</dt><dd>Brazilian detail-first</dd><dt>Supplies</dt><dd>We bring everything</dd></dl><a class="btn btn-blue" href="/#estimate">Get my free estimate</a></aside></div></section>
+<aside class="side-facts"><h3>${esc(svc.name)} at a glance</h3><dl><dt>Service area</dt><dd>Greer + ${cities.length - 1} nearby cities</dd><dt>Estimate</dt><dd>Free, in your home</dd><dt>Method</dt><dd>Brazilian detail-first</dd><dt>Supplies</dt><dd>We bring everything</dd></dl><a class="btn btn-blue" href="/#estimate">Get my free estimate</a></aside></div></section>
 <section class="lp alt"><div class="wrap"><h2>Real homes, real results</h2>${gallery(rotate(svc.images, seed, 4), svc, null, seed)}</div></section>
 <section class="lp"><div class="wrap prose"><h2>What affects the price</h2><div class="table-wrap"><table><thead><tr><th>Factor</th><th>Why it matters</th></tr></thead><tbody>${svc.priceFactors.map(([a, b]) => `<tr><td>${esc(a)}</td><td>${esc(b)}</td></tr>`).join('')}</tbody></table></div>${faqHTML(faqs)}${faqMore(svc.slug)}</div></section>
 <section class="lp alt"><div class="wrap"><h2>${esc(svc.name)} by city</h2>${cityLinks(cities, (c) => cityServiceUrl(c, svc), (c) => `${esc(svc.short)} ${esc(c.full)}`)}</div></section>
@@ -288,7 +288,7 @@ function buildAreas() {
       description: trim(`Brazilian-style house cleaning in ${city.full}: maid service, deep cleaning, move-out, Airbnb, post-construction and office cleaning. Free estimate: ${site.phoneDisplay}.`, 158),
       canonical: cityUrl(city), image: imgs[0], current: 'areas',
       jsonld: [{ '@type': 'Service', name: `House cleaning in ${city.full}`, serviceType: 'House cleaning', provider: BUSINESS, areaServed: { '@type': 'City', name: city.full }, url: `${D}${cityUrl(city)}` }, crumbsLD(items2), faqLD(faqs)],
-      body: `<section class="page-hero"><div class="wrap">${crumbs(items2)}<span class="tag">${city.isBase ? 'Our home base' : `${city.distRound} miles from Greer`}</span><h1>House cleaning in ${esc(city.full)}</h1><p class="sub">Brazilian-style house cleaning, maid service and commercial cleaning for homes and businesses in ${esc(city.name)}. Every corner, every visit.</p><ul class="facts"><li>${esc(city.county)}</li><li>ZIP ${esc(city.zips.join(', '))}</li><li>Free estimate, same day</li></ul><div class="hero-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a></div></div></section>
+      body: `<section class="page-hero"><div class="wrap">${crumbs(items2)}<span class="tag">${city.isBase ? 'Our home base' : `${city.distRound} miles from Greer`}</span><h1>House cleaning in ${esc(city.full)}</h1><p class="sub">Brazilian-style house cleaning, maid service and commercial cleaning for homes and businesses in ${esc(city.name)}. Every corner, every visit.</p><ul class="facts"><li>${esc(city.county)}</li><li>ZIP ${esc(city.zips.join(', '))}</li><li>Free in-home estimate</li></ul><div class="hero-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a></div></div></section>
 <section class="lp"><div class="wrap cols"><div class="prose"><p>${esc(localParagraph(city, null, seed))}</p><p>${esc(pick(services[0].intro, seed))}</p><h2>Cleaning services in ${esc(city.name)}</h2><p>Choose the service that fits your home or business. Each one has its own checklist, price factors and answers for ${esc(city.name)} clients.</p></div>
 <aside class="side-facts"><h3>${esc(city.full)} service area</h3>${cityFacts(city)}<div class="map-box"><iframe title="Map of ${esc(city.full)}" loading="lazy" src="https://maps.google.com/maps?q=${encodeURIComponent(city.full)}&z=12&output=embed"></iframe></div><a class="btn btn-blue" href="/#estimate">Check my price</a></aside></div>
 <div class="wrap"><div class="cards">${services.map((s) => svcCard(s, cityServiceUrl(city, s), city)).join('')}</div></div></section>
@@ -330,19 +330,19 @@ function intentBlocks(city, svc, seed) {
   ], seed);
   return `<p>${keywordLine}</p>
 <h2>How much does ${esc(s)} cost in ${n}?</h2>
-<p>The price of ${esc(s)} in ${n} depends on the size of the home, the number of bedrooms and bathrooms, how long since the last professional clean and any extras you add. We do not quote a blind number: you get a clear, fixed price before we start, usually the same day, with no commitment.</p>
-<p><strong>The fastest way to get your price:</strong> text a few photos of the kitchen and bathrooms to ${site.smsDisplay}, or use the short form below. If you want ongoing help, ask for a recurring schedule (weekly, every two weeks or monthly) and we price it with the first visit.</p>
+<p>The price of ${esc(s)} in ${n} depends on the size of the home, the number of bedrooms and bathrooms, how long since the last professional clean and any extras you add. We never quote a blind number over the phone: every home is different, so we give you an exact price after a <strong>free in-home estimate</strong>, with no commitment.</p>
+<p><strong>How to get your exact price:</strong> use the short form below, call ${site.phoneDisplay} or text ${site.smsDisplay}. We schedule a quick visit to your ${n} home, look at the rooms and the condition, and tell you the price before any work starts. If you want ongoing help, ask about a recurring schedule (weekly, every two weeks or monthly) during the visit.</p>
 <h2>How long does ${esc(s)} take?</h2>
 <p>It depends on the same factors as the price. A recurring visit in a maintained home is the quickest, while a first-time ${esc(s)} or a home that has not been cleaned in a while takes longer. When we send your price, we also tell you how long the team expects to be at your ${n} home, so you can plan your day.</p>
 <h2>Need ${esc(s)} this week in ${n}?</h2>
-<p>Our team is based in Greer${city.isBase ? '' : `, about ${city.drive} minutes from ${n}`}. Text or call and we tell you the next available opening for your ${city.zips[0]} address, often within the same week.</p>`;
+<p>Our team is based in Greer${city.isBase ? '' : `, about ${city.drive} minutes from ${n}`}. Text or call to schedule your free in-home estimate, and we tell you the next available cleaning date for your ${city.zips[0]} address.</p>`;
 }
 function bookingBlock(city, svc, seed) {
   const opts = services.map((x) => `<option${x.slug === svc.slug ? ' selected' : ''}>${esc(x.name)}</option>`).join('');
   const revs = rotate(REVIEWS, seed, 2);
   return `<section class="lp alt" id="book"><div class="wrap cols"><div class="prose">
 <h2>Book ${esc(svc.short.toLowerCase())} in ${esc(city.name)} in 3 steps</h2>
-<ol class="steps"><li><span><strong>Send the basics.</strong> Use the form or text photos to ${site.smsDisplay}.</span></li><li><span><strong>Get your price.</strong> A fixed price, usually the same day, with no commitment.</span></li><li><span><strong>Pick your day.</strong> We confirm the date and time that work for you.</span></li></ol>
+<ol class="steps"><li><span><strong>Request your free estimate.</strong> Use the form, call ${site.phoneDisplay} or text ${site.smsDisplay}.</span></li><li><span><strong>We visit your home.</strong> A quick walkthrough to see the space, then an exact price, with no commitment.</span></li><li><span><strong>Pick your cleaning day.</strong> We confirm the date and time that work for you.</span></li></ol>
 <h2 style="margin-top:32px">What clients say</h2>
 ${revs.map((r) => `<blockquote class="rv-q"><p>“${esc(r.text)}”</p><cite>${esc(r.who)} · ★★★★★ Google review</cite></blockquote>`).join('')}
 </div>
@@ -357,7 +357,7 @@ ${revs.map((r) => `<blockquote class="rv-q"><p>“${esc(r.text)}”</p><cite>${e
 <div class="field"><label for="q-msg">Bedrooms, bathrooms, best day (optional)</label><textarea id="q-msg" name="message" rows="3"></textarea></div>
 <label class="consent"><input type="checkbox" name="consent" required>I agree that Perfect Services may call or text me about this estimate. Message and data rates may apply. Reply STOP to opt out.</label>
 <button class="btn btn-blue" type="submit">Get my free estimate</button>
-<p class="after">We reply with a price, usually the same day.</p>
+<p class="after">We call or text you to schedule your free in-home estimate.</p>
 </form></div></section>`;
 }
 
@@ -367,7 +367,7 @@ function buildCityService(city, svc) {
   const items = [['Home', '/'], ['Areas', '/areas/'], [city.full, cityUrl(city)], [svc.name, null]];
   const sLow = svc.short.toLowerCase();
   const intentFaqs = [
-    [`How much does ${sLow} cost in ${city.name}?`, `It depends on the size of your home, the number of bedrooms and bathrooms, and how long since the last professional clean. Text a few photos to ${site.smsDisplay} or use the form on this page and we send a fixed price, usually the same day, with no commitment.`],
+    [`How much does ${sLow} cost in ${city.name}?`, `It depends on the size of your home, the number of bedrooms and bathrooms, and how long since the last professional clean. We give you an exact price after a free in-home estimate: request it with the form on this page, call ${site.phoneDisplay} or text ${site.smsDisplay}. No commitment.`],
     [`How long does ${sLow} take?`, `A maintained home takes less time than a first-time or overdue clean. With your price, we also tell you how long the team expects to be at your ${city.name} home.`],
     [`Can I book ${sLow} this week in ${city.name}?`, `Often, yes. Text or call ${site.phoneDisplay} and we tell you the next available opening for your ${city.zips[0]} address.`],
     ...(SERVICE_DEF[svc.slug] ? [SERVICE_DEF[svc.slug]] : []),
@@ -384,17 +384,17 @@ function buildCityService(city, svc) {
     description: trim(`${svc.name} in ${city.full} (${city.zips[0]}): ${svc.summary.charAt(0).toLowerCase()}${svc.summary.slice(1)} Free estimate: ${site.phoneDisplay}.`, 158),
     canonical: cityServiceUrl(city, svc), image: imgs[0], current: 'areas',
     jsonld: [{ '@type': 'Service', name: `${svc.name} in ${city.full}`, serviceType: svc.name, description: svc.summary, provider: BUSINESS, areaServed: { '@type': 'City', name: city.full }, url: `${D}${cityServiceUrl(city, svc)}` }, crumbsLD(items), faqLD(faqs)],
-    body: `<section class="page-hero"><div class="wrap">${crumbs(items)}<span class="tag">${esc(svc.category)} · ${esc(city.name)}</span><h1>${esc(h1)}</h1><p class="sub">${esc(svc.summary)} Serving ${esc(city.name)} and ${esc(city.county)} from our base in Greer.</p><ul class="facts"><li>ZIP ${esc(city.zips.join(', '))}</li><li>${city.isBase ? 'Local Greer team' : `${city.distRound} mi from Greer`}</li><li>Free estimate, same day</li></ul><div class="hero-actions"><a class="btn btn-white" href="#book">Get my free estimate</a><a class="btn btn-ghost" href="tel:${site.phone.replace(/-/g, '')}">${PHONE_SVG} ${site.phoneDisplay}</a></div></div></section>
+    body: `<section class="page-hero"><div class="wrap">${crumbs(items)}<span class="tag">${esc(svc.category)} · ${esc(city.name)}</span><h1>${esc(h1)}</h1><p class="sub">${esc(svc.summary)} Serving ${esc(city.name)} and ${esc(city.county)} from our base in Greer.</p><ul class="facts"><li>ZIP ${esc(city.zips.join(', '))}</li><li>${city.isBase ? 'Local Greer team' : `${city.distRound} mi from Greer`}</li><li>Free in-home estimate</li></ul><div class="hero-actions"><a class="btn btn-white" href="#book">Get my free estimate</a><a class="btn btn-ghost" href="tel:${site.phone.replace(/-/g, '')}">${PHONE_SVG} ${site.phoneDisplay}</a></div></div></section>
 <section class="lp"><div class="wrap cols"><div class="prose">
 <p>${esc(pick(svc.intro, seed))}</p>
 <p>${esc(localParagraph(city, svc, seed >> 3))}</p>
-<p>Whether you search for ${esc(kw[1])}, ${esc(kw[2])} or ${esc(kw[3])} in ${esc(city.name)}, you get the same thing from Perfect Services: a written checklist, a local team and a clear price before we start.</p>
+<p>Whether you search for ${esc(kw[1])}, ${esc(kw[2])} or ${esc(kw[3])} in ${esc(city.name)}, you get the same thing from Perfect Services: a written checklist, a local team and an exact price after a free in-home estimate.</p>
 <p>${pairParagraph(city, svc, seed)}</p>
 <h2>What our ${esc(svc.short.toLowerCase())} in ${esc(city.name)} includes</h2><ul class="chk">${shuffle(svc.includes, seed).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>
 <h2>Why ${esc(city.name)} ${audience} choose Perfect Services</h2><ul>
 <li><strong>Brazilian detail-first method.</strong> Every surface is hand-wiped, including the edges, corners and baseboards a rushed clean skips.</li>
 <li><strong>${city.isBase ? 'Based right here in Greer.' : `A local team ${city.distRound} miles away.`}</strong> ${city.isBase ? 'We are your neighbors, not a call center.' : `We drive to ${esc(city.name)} from Greer every week, roughly ${city.drive} minutes away.`}</li>
-<li><strong>Free estimate, usually the same day.</strong> Text a photo to ${site.smsDisplay} and get a price fast.</li>
+<li><strong>Free in-home estimate.</strong> We visit, see the space and give you an exact price before any work starts, with no commitment.</li>
 <li><strong>Built for ${esc(svc.idealFor[seed % svc.idealFor.length].charAt(0).toLowerCase() + svc.idealFor[seed % svc.idealFor.length].slice(1))}.</strong> ${esc(svc.name)} is planned around how you actually use your space.</li>
 </ul></div>
 <aside class="side-facts"><h3>${esc(svc.short)} in ${esc(city.full)}</h3>${cityFacts(city)}<a class="btn btn-blue" href="#book">Get my ${esc(city.name)} price</a><a class="side-phone" style="color:var(--blue)" href="tel:${site.phone.replace(/-/g, '')}">or call ${site.phoneDisplay}</a></aside></div></section>
@@ -468,7 +468,7 @@ function buildBlogIndex() {
 <div class="post-grid" id="grid">${[feat, ...rest].map(postCard).join('')}</div>
 <div style="margin-top:64px"><h2>Cleaning blog by city</h2><p class="lead" style="margin-bottom:24px">Local guides for every community we serve.</p>${cityLinks(cities, cityBlogUrl, (c) => `${esc(c.name)} cleaning blog`)}</div>
 </div></section>
-<section class="blog-cta"><div class="wrap"><div><h2>Rather have it done for you?</h2><p>Perfect Services cleans homes and businesses in Greer and the Upstate. Free estimate, usually the same day.</p></div><div class="ic-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a><a class="btn btn-ghost" href="tel:${site.phone.replace(/-/g, '')}">Call ${site.phoneDisplay}</a></div></div></section>
+<section class="blog-cta"><div class="wrap"><div><h2>Rather have it done for you?</h2><p>Perfect Services cleans homes and businesses in Greer and the Upstate. Free in-home estimate, no commitment.</p></div><div class="ic-actions"><a class="btn btn-white" href="/#estimate">Get my free estimate</a><a class="btn btn-ghost" href="tel:${site.phone.replace(/-/g, '')}">Call ${site.phoneDisplay}</a></div></div></section>
 <script>
 (function(){var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('#grid .post-card'),feat=document.querySelector('.featured');
 cards[0].hidden=true;

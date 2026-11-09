@@ -229,7 +229,25 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     <button type="button" role="tab" id="tab-gmn" data-tab="gmn" aria-selected="false">Google Meu Negócio <span class="badge" id="gmnBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-melhorias" data-tab="melhorias" aria-selected="false">Melhorias Google <span class="badge" id="melBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-avaliacoes" data-tab="avaliacoes" aria-selected="false">Avaliações <span class="badge" id="revBadge" hidden></span></button>
+    <button type="button" role="tab" id="tab-gscga" data-tab="gscga" aria-selected="false">Search Console & Analytics <span class="badge" id="ggBadge" hidden></span></button>
   </nav>
+
+  <div data-panel="gscga" hidden style="padding-bottom:40px">
+    <section class="card" style="margin-bottom:16px">
+      <div class="head"><h2>Rotina do Search Console e do Analytics</h2><span class="pill" id="ggPill" data-s="pending">—</span></div>
+      <p class="note">O que fazer, em que dia e como. Leva cerca de 8 minutos por dia e 15 minutos às segundas. Nos itens marcados, mande os prints para o Claude: eu analiso e aplico as melhorias no site e nos artigos.</p>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card"><h2>Todo dia</h2><p class="note">De manhã, depois da notificação das 9h.</p><div class="tasks" id="gg-daily"></div></section>
+        <section class="card"><h2>Toda segunda-feira</h2><p class="note">Revisão da semana anterior.</p><div class="tasks" id="gg-weekly"></div></section>
+      </div>
+      <div class="col">
+        <section class="card"><h2>Configuração (uma vez)</h2><p class="note">Faça na ordem. Os eventos do Analytics aparecem 24 a 48 horas depois da instalação (feita em 09/11).</p><div class="tasks" id="gg-once"></div></section>
+        <section class="card"><h2>Todo dia 1º do mês</h2><p class="note">Fechamento do mês e relatório para o cliente.</p><div class="tasks" id="gg-monthly"></div></section>
+      </div>
+    </div>
+  </div>
 
   <div data-panel="avaliacoes" hidden style="padding-bottom:40px">
     <section class="card" style="margin-bottom:16px">
@@ -792,7 +810,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     document.querySelectorAll('.tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
   }
   document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', `#${b.dataset.tab}`); } catch { /* ignore */ } }));
-  const TABS = ['site', 'gmn', 'melhorias', 'avaliacoes'];
+  const TABS = ['site', 'gmn', 'melhorias', 'avaliacoes', 'gscga'];
   const fromHash = () => { const h = location.hash.slice(1); showTab(TABS.find((t) => h.startsWith(t)) || 'site'); if (h && !TABS.includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
   window.addEventListener('hashchange', fromHash);
   fromHash();
@@ -828,5 +846,6 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 })();
 </script>
 <script src="/painel/reviews.js"></script>
+<script src="/painel/gscga.js"></script>
 </body>
 </html>

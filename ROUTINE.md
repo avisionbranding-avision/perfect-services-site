@@ -23,7 +23,7 @@ From Google search suggestions for Greer, Greenville, Spartanburg, Simpsonville,
 - **Not our audience (never target):** "house washing" and "pressure washing" (exterior), "house cleaning jobs" (job seekers), dental "deep cleaning".
 
 How to use it:
-- Answer the price question in every article with an H2 such as "How much does <service> cost in <city>?": explain the factors (size, bedrooms and bathrooms, condition, frequency, extras) and how to get a fixed price fast (text photos to (864) 666-8520 or the form on the city page). **Never state a dollar amount**.
+- Answer the price question in every article with an H2 such as "How much does <service> cost in <city>?": explain the factors (size, bedrooms and bathrooms, condition, frequency, extras) and that **Perfect Services only gives prices after a free in-home estimate** (a quick visit to see the space, no commitment), booked with the form on the city page, a call to (864) 399-5168 or a text to (864) 666-8520. **Never state a dollar amount, never promise a price by photo or "the same day"**: the exact price always comes after the visit.
 - Include one short "how long it takes" paragraph and one "booking this week" line where they fit.
 - Use one or two of the local service phrasings above naturally (not all of them), and "near me" phrasing at most once.
 - End with a clear call to action that links to the city-service page's form (`<cityServicePage>#book`), since that page now has an on-page estimate form.
@@ -55,7 +55,7 @@ How to use it:
 Rules for the post text (Google Business Profile policy and local SEO):
 - 120 to 220 words, plain text, American English, no hashtags, no emoji walls (one emoji at most).
 - Mention the service and the city naturally in the first sentence, and the keyword once. Mention one or two concrete details from `cityFacts` (county, ZIP, a main road) or `serviceFacts` (what is included, who it is for).
-- Follow the item's `angle`: `tip` (one practical tip), `checklist` (3–5 short lines), `free-estimate` (how the free estimate works: text a photo, price usually the same day), `season` (what the current season means for cleaning in the Upstate), `question` (answer one common question), `why-us` (Brazilian detail-first method, local Greer team), `before-you-book` (what to prepare).
+- Follow the item's `angle`: `tip` (one practical tip), `checklist` (3–5 short lines), `free-estimate` (how the free in-home estimate works: book it, the team visits, sees the space and gives an exact price, no commitment; never mention photos-for-price or same-day pricing), `season` (what the current season means for cleaning in the Upstate), `question` (answer one common question), `why-us` (Brazilian detail-first method, local Greer team), `before-you-book` (what to prepare).
 - Do NOT put phone numbers, prices, discounts, URLs or email addresses in the text (Google rejects posts with phone numbers and links in the text). The `link` goes in the post's button.
 - End with one call to action that matches the button, such as "Tap Learn more to see what's included in Taylors."
 - Never invent reviews, prices, statistics or awards. Every post must read differently from the posts of the last 30 days in `content/gbp/`.
