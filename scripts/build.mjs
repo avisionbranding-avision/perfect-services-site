@@ -464,6 +464,12 @@ function patchExisting() {
   index = index.replace(/<div class="svc-body"><h3>(.*?)<\/h3><p>(.*?)<\/p><a href="[^"]*">[^<]*<\/a><\/div>/g, (m, h, p) => (svcMap[h] ? `<div class="svc-body"><h3>${h}</h3><p>${p}</p><a href="${serviceUrl(serviceBySlug[svcMap[h]])}">See ${h.toLowerCase()} →</a></div>` : m));
   index = index.replace(/<ul class="city-list">[\s\S]*?<\/ul>(\s*<a class="btn btn-blue" href="#estimate")/, `<ul class="city-list">${cities.slice(0, 12).map((c) => `<li><a href="${cityUrl(c)}" style="text-decoration:none">${esc(c.name)}<small>${c.isBase ? esc(c.zips.join(', ')) : `${c.distRound} mi · ${esc(c.st)}`}</small></a></li>`).join('')}<li><a href="/areas/" style="text-decoration:none;color:var(--blue)">${cities.length > 12 ? `+ ${cities.length - 12} more areas` : 'All areas we serve'}<small>See the full list</small></a></li></ul>$1`);
   index = index.replace(/"areaServed":\[[\s\S]*?\],\n/, `"areaServed":${JSON.stringify(cities.map((c) => ({ '@type': 'City', name: c.full })))},\n`);
+  // Link every directory profile the monitor has found (same business, same details everywhere)
+  try {
+    const cit = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'citations.json'), 'utf8'));
+    const same = [...new Set([site.instagram, site.googleBusinessProfile, ...cit.directories.filter((d) => d.status === 'found' && /^https:\/\//.test(d.url || '')).map((d) => d.url)].filter(Boolean))];
+    index = index.replace(/"sameAs":\[[^\]]*\]/, `"sameAs":${JSON.stringify(same)}`);
+  } catch { /* no citations file yet */ }
   index = index.replace('"@id":"#business",', `"@id":"${D}/#business",\n    "url":"${D}/",`);
   if (!index.includes('rel="canonical"')) index = index.replace('<meta name="keywords"', `<link rel="canonical" href="${D}/">\n<meta name="keywords"`);
   fs.writeFileSync(ipath, index);

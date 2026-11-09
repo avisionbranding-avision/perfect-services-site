@@ -139,6 +139,12 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 .insp .btn{padding:5px 10px;font-size:.76rem}
 .insp .btn.go{background:var(--brand);color:var(--panel);border-color:var(--brand)}
 .insp .btn.ok{background:var(--ok);color:var(--panel);border-color:var(--ok)}
+.insp .why{display:block;font-family:var(--body);font-size:.78rem;color:var(--muted);margin-top:2px}
+.kit{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+.kit li{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:start}
+.kit b{font-size:.76rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.kit p{margin:0;font-size:.86rem;overflow-wrap:anywhere;grid-column:1}
+.kit .btn{grid-row:1 / span 2;grid-column:2;align-self:center}
 @media (max-width:560px){.insp li{grid-template-columns:auto minmax(0,1fr)}.insp .acts{grid-column:1 / -1;justify-content:flex-start}}
 </style>
 </head>
@@ -181,6 +187,17 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
           <label style="display:flex;gap:8px;align-items:center"><input type="radio" name="propType" id="propDomain" value="domain"> Domínio (sc-domain)</label>
           <label style="display:flex;gap:8px;align-items:center;margin-top:4px"><input type="radio" name="propType" id="propPrefix" value="prefix"> Prefixo do URL (https://…)</label>
           <p class="muted">O progresso fica salvo neste navegador. Use sempre o mesmo aparelho para inspecionar.</p>
+        </details>
+      </section>
+
+      <section class="card" id="diretorios">
+        <div class="head"><h2>Diretórios: o caminho para o top 1 local</h2><span class="pill" id="citPill" data-s="pending">—</span></div>
+        <p class="note">Care.com, Angi, HomeAdvisor e Thumbtack ocupam o topo nas cidades. Cadastre a Perfect Services em cada um, sempre com os mesmos dados do kit abaixo. O monitor procura os perfis sozinho e marca aqui quando cada um aparece na internet.</p>
+        <div class="bar" style="height:8px"><i id="citBar"></i></div>
+        <p class="muted" id="citProgress" style="font-size:.82rem;margin:6px 0 12px">&nbsp;</p>
+        <ol class="insp" id="citList"></ol>
+        <details style="margin-top:14px" open><summary style="cursor:pointer;font-weight:700">Kit de cadastro: copie e cole em cada site</summary>
+          <ul class="kit" id="kitList"></ul>
         </details>
       </section>
 
@@ -364,12 +381,13 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       getJSON(`/data/status.json?t=${Date.now()}`).then((d) => { state.status = d; }).catch(() => {}),
       getJSON(`${RAW}data/health.json?t=${Date.now()}`).then((d) => { state.health = d; }).catch(() => {}),
       getJSON(`${RAW}data/rankings.json?t=${Date.now()}`).then((d) => { state.rankings = d; }).catch(() => {}),
+      getJSON(`${RAW}data/citations.json?t=${Date.now()}`).catch(() => getJSON(`/data/citations.json?t=${Date.now()}`)).then((d) => { state.citations = d; }).catch(() => {}),
     ];
     if (force || Date.now() - state.commitsAt > 5 * 60 * 1000) {
       jobs.push(getJSON(`${API}/commits?per_page=30`).then((d) => { state.commits = d; state.commitsAt = Date.now(); }).catch(() => {}));
     }
     await Promise.all(jobs);
-    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect();
+    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect(); renderCitations();
     $('refreshInfo').textContent = `Ao vivo · atualizado ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
   }
   // ---------- daily Search Console inspection chain (progress kept in this browser) ----------
@@ -423,6 +441,40 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       box.textContent = `Limite de hoje concluído. Amanhã a lista começa no link #${all.indexOf(pending[0]) + 1}.`;
     } else box.hidden = true;
   }
+  // ---------- directories / citations ----------
+  const copyBtn = (text) => {
+    const b = el('button', { class: 'btn', type: 'button', text: 'Copiar' });
+    b.addEventListener('click', () => { navigator.clipboard.writeText(text).then(() => { b.textContent = 'Copiado'; setTimeout(() => { b.textContent = 'Copiar'; }, 1500); }).catch(() => { b.textContent = 'Selecione e copie'; }); });
+    return b;
+  };
+  let kitDrawn = '';
+  function renderCitations() {
+    const c = state.citations; if (!c || !c.directories) return;
+    const dirs = c.directories.slice().sort((a, b) => a.priority - b.priority);
+    const found = dirs.filter((d) => d.status === 'found').length;
+    $('citBar').style.width = `${(100 * found / dirs.length).toFixed(1)}%`;
+    $('citProgress').textContent = `${found} de ${dirs.length} perfis encontrados na internet${c.updatedAt ? ` · conferido ${ago(c.updatedAt)}` : ''}`;
+    const pill = $('citPill');
+    pill.dataset.s = found === dirs.length ? 'ok' : 'warning';
+    pill.textContent = found === dirs.length ? 'Completo' : `${dirs.length - found} para cadastrar`;
+    $('citList').replaceChildren(...dirs.map((d) => {
+      const isFound = d.status === 'found';
+      const acts = el('span', { class: 'acts' });
+      if (isFound && d.url) acts.append(el('a', { class: 'btn', href: d.url, target: '_blank', rel: 'noopener', text: 'Ver perfil' }));
+      if (!isFound) acts.append(el('a', { class: 'btn go', href: d.signup, target: '_blank', rel: 'noopener', text: 'Cadastrar' }));
+      acts.append(el('span', { class: 'pill', 'data-s': isFound ? 'ok' : 'warning', text: isFound ? 'No ar' : 'Pendente' }));
+      return el('li', { class: isFound ? 'done' : null },
+        el('span', { class: 'n', text: `#${d.priority}` }),
+        el('span', { class: 'u', style: 'font-family:var(--body);font-weight:600;text-decoration:none' }, document.createTextNode(d.name), el('span', { class: 'why', text: d.why })),
+        acts);
+    }));
+    const sig = JSON.stringify(c.kit);
+    if (sig !== kitDrawn) {
+      kitDrawn = sig;
+      $('kitList').replaceChildren(...c.kit.map((k) => el('li', {}, el('b', { text: k.label }), el('p', { text: k.value }), copyBtn(k.value))));
+    }
+  }
+
   const radios = { domain: $('propDomain'), prefix: $('propPrefix') };
   radios[propType()].checked = true;
   Object.values(radios).forEach((r) => r.addEventListener('change', () => { store.set(LS_PROP, r.value); renderInspect(); }));

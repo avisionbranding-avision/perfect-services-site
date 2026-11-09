@@ -9,8 +9,8 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 1. `git pull -q origin main`. Read `data/site.json`, `data/health.json` and `data/rankings.json`.
 2. Run the checks below. Each check gets a status: `ok`, `warning` or `error`, plus a short detail in Brazilian Portuguese that a non-technical owner understands.
 3. Undo the build output so you never commit it: `git checkout -- . && git clean -fdq -- areas services faq blog` (keep your own edits to `data/health.json`, `data/rankings.json` and any `content/posts` fix, by writing those files after this reset).
-4. Write `data/health.json` and `data/rankings.json` (formats below).
-5. Commit only those two files (plus any `content/posts` fix) and push to main:
+4. Write `data/health.json`, `data/rankings.json` and `data/citations.json` (formats below and in "Directory listings").
+5. Commit only those files (plus any `content/posts` fix) and push to main:
    - only health/rankings changed: message `Monitor: <YYYY-MM-DD HH:MM> UTC [skip netlify]` (this does not redeploy the site);
    - you fixed a post: message `Monitor fix: <what>` without `[skip netlify]`, so the fix goes live.
 6. Notify (PushNotification tool, Brazilian Portuguese, short):
@@ -45,6 +45,16 @@ Each run, take the 6 live cities (from `data/status.json`, `live: true`) whose `
 This is an approximate view from a web search tool, not official Google data. Never invent results: if a search fails, keep the city's previous data and set `error` on it.
 
 Also add one line of expert advice per city in `tip` (Brazilian Portuguese): what to do on our site to compete for that query, based on what the top results show (for example: "Os 3 primeiros mostram preços e avaliações na página; destacar avaliações do Google na página de Simpsonville").
+
+## Directory listings (citations)
+
+`data/citations.json` lists the directories where the business should be listed. Each run, check the 3 directories with `status: "pending"` whose `checkedAt` is oldest or missing (every few days, re-check one `found` entry too):
+
+- WebSearch `"Perfect Services" Greer SC <directory name>` and `"perfectservicespaintingcleaning.com" <directory name>`.
+- Mark `status: "found"` and set `url` only when a result on that directory's domain (`match`) is clearly this business: the name "Perfect Services" plus Greer (or the phone (864) 399-5168, or the website). A different "Perfect Services" in another state is not a match.
+- Otherwise keep `status: "pending"`. Set `checkedAt` either way and `updatedAt` at the top.
+- Never change `kit`, `why`, `signup` or `priority`.
+- When a directory changes from pending to found, mention it in the push notification ("Perfect Services: novo perfil encontrado no <nome>"), even if everything else is ok. Commit `data/citations.json` together with the other two files (`[skip netlify]` is fine; the daily build adds the profile to the site's structured data).
 
 ## File formats
 
