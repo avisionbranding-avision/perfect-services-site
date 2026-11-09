@@ -151,6 +151,17 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 .task .body{padding:0 14px 14px;display:grid;gap:10px;font-size:.86rem}
 .task .body ol{margin:0;padding-left:20px;display:grid;gap:4px}
 .task .why{color:var(--muted)}
+.rgen{display:grid;gap:6px}
+.rgen label{font-size:.76rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-top:6px}
+.rgen input,.rgen select,.rgen textarea{font:inherit;font-size:.9rem;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:9px 10px;width:100%;min-width:0}
+.rgen textarea{resize:vertical}
+.rgen input:focus-visible,.rgen select:focus-visible,.rgen textarea:focus-visible{outline:2px solid var(--brand);outline-offset:1px}
+.rrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:10px}
+.rrow > div{display:grid;gap:6px}
+.ranal{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:6px;font-size:.86rem}
+.ranal li{display:grid;grid-template-columns:130px minmax(0,1fr);gap:8px}
+.ranal b{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.rreply{white-space:pre-wrap;font-size:.92rem;line-height:1.6;background:var(--bg);border-radius:8px;padding:14px;margin-top:8px}
 .task .vnote{margin:0;padding:8px 10px;border-radius:8px;background:var(--brand-soft);font-size:.84rem}
 .task .kit{margin:0}
 .task .kit p{white-space:pre-wrap}
@@ -217,7 +228,59 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     <button type="button" role="tab" id="tab-site" data-tab="site" aria-selected="true">Site e SEO</button>
     <button type="button" role="tab" id="tab-gmn" data-tab="gmn" aria-selected="false">Google Meu Negócio <span class="badge" id="gmnBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-melhorias" data-tab="melhorias" aria-selected="false">Melhorias Google <span class="badge" id="melBadge" hidden></span></button>
+    <button type="button" role="tab" id="tab-avaliacoes" data-tab="avaliacoes" aria-selected="false">Avaliações <span class="badge" id="revBadge" hidden></span></button>
   </nav>
+
+  <div data-panel="avaliacoes" hidden style="padding-bottom:40px">
+    <section class="card" style="margin-bottom:16px">
+      <div class="head"><h2>Avaliações do Google</h2><span class="pill" id="revPill" data-s="pending">—</span></div>
+      <p class="note" id="revStatus">Carregando…</p>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card">
+          <h2>Gerador de resposta estratégica</h2>
+          <p class="note">Cole a avaliação que chegou. O gerador analisa o que o cliente disse e escreve uma resposta pessoal que cita o serviço e a cidade de forma natural, o que ajuda o perfil a aparecer nessas buscas.</p>
+          <form class="rgen" id="rgen">
+            <label for="rName">Nome do cliente</label>
+            <input id="rName" type="text" placeholder="Ex.: Patrice Holmes" autocomplete="off">
+            <label for="rStars">Estrelas</label>
+            <select id="rStars"><option value="5">★★★★★ (5)</option><option value="4">★★★★ (4)</option><option value="3">★★★ (3)</option><option value="2">★★ (2)</option><option value="1">★ (1)</option></select>
+            <label for="rText">Texto da avaliação</label>
+            <textarea id="rText" rows="5" placeholder="Cole aqui o que o cliente escreveu (pode ficar vazio se ele só deu estrelas)"></textarea>
+            <div class="rrow">
+              <div><label for="rService">Serviço</label><select id="rService"></select></div>
+              <div><label for="rCity">Cidade do cliente</label><select id="rCity"></select></div>
+            </div>
+            <label for="rLang">Idioma da resposta</label>
+            <select id="rLang"><option value="auto">Automático (mesmo idioma da avaliação)</option><option value="en">English</option><option value="es">Español</option><option value="pt">Português</option></select>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:6px"><button class="btn go" type="submit" style="background:var(--brand);color:var(--panel);border-color:var(--brand)">Gerar resposta</button><button class="btn" type="button" id="rAgain">Outra versão</button></div>
+          </form>
+        </section>
+      </div>
+      <div class="col">
+        <section class="card" id="rOut" hidden>
+          <h2>Análise da avaliação</h2>
+          <ul class="ranal" id="rAnal"></ul>
+          <h2 style="margin-top:16px">Resposta para colar no Google</h2>
+          <div class="txt rreply" id="rReply"></div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px"><button class="btn ok" type="button" id="rCopy" style="background:var(--ok);color:var(--panel);border-color:var(--ok)">Copiar resposta</button><span class="muted" id="rCount" style="font-size:.8rem"></span></div>
+          <p class="note" style="margin-top:12px" id="rTip"></p>
+        </section>
+        <section class="card">
+          <h2>Regras que o gerador segue</h2>
+          <ul class="howto" style="list-style:disc">
+            <li>Agradece pelo nome e cita algo que o cliente realmente disse.</li>
+            <li>Cita o serviço e a cidade <b>uma vez</b>, de forma natural. Nada de repetir palavra-chave.</li>
+            <li>Nunca expõe dados do cliente (endereço, detalhes da casa, valor pago).</li>
+            <li>Avaliação de 1 a 3 estrelas: sem palavra-chave; pede desculpas, mostra que vai resolver e convida para conversar por telefone.</li>
+            <li>Responda em até 24 horas. Avaliação respondida rápido conta pontos no Google.</li>
+            <li>Cada versão sai diferente, para as respostas não ficarem iguais entre si.</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
 
   <div data-panel="melhorias" hidden style="padding-bottom:40px">
     <section class="card" style="margin-bottom:16px">
@@ -497,6 +560,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       getJSON(`${RAW}data/health.json?t=${Date.now()}`).then((d) => { state.health = d; }).catch(() => {}),
       getJSON(`${RAW}data/rankings.json?t=${Date.now()}`).then((d) => { state.rankings = d; }).catch(() => {}),
       getJSON(`/data/gbp.json?t=${Date.now()}`).then((d) => { state.gbp = d; }).catch(() => {}),
+      getJSON(`${RAW}data/reviews.json?t=${Date.now()}`).catch(() => getJSON(`/data/reviews.json?t=${Date.now()}`)).then((d) => { state.reviews = d; }).catch(() => {}),
       getJSON(`${RAW}data/gbp-tasks.json?t=${Date.now()}`).catch(() => getJSON(`/data/gbp-tasks.json?t=${Date.now()}`)).then((d) => { state.gbpTasks = d; }).catch(() => {}),
       getJSON(`${RAW}data/gbp-health.json?t=${Date.now()}`).then((d) => { state.gbpHealth = d; }).catch(() => {}),
       getJSON(`${RAW}data/citations.json?t=${Date.now()}`).catch(() => getJSON(`/data/citations.json?t=${Date.now()}`)).then((d) => { state.citations = d; }).catch(() => {}),
@@ -505,7 +569,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       jobs.push(getJSON(`${API}/commits?per_page=30`).then((d) => { state.commits = d; state.commitsAt = Date.now(); }).catch(() => {}));
     }
     await Promise.all(jobs);
-    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect(); renderCitations(); renderGmn(); renderMelhorias();
+    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect(); renderCitations(); renderGmn(); renderMelhorias(); if (window.psReviews) window.psReviews.render(state);
     $('refreshInfo').textContent = `Ao vivo · atualizado ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
   }
   // ---------- daily Search Console inspection chain (progress kept in this browser) ----------
@@ -723,7 +787,8 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     document.querySelectorAll('.tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
   }
   document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', `#${b.dataset.tab}`); } catch { /* ignore */ } }));
-  const fromHash = () => { const h = location.hash.slice(1); showTab(h.startsWith('gmn') ? 'gmn' : h.startsWith('melhorias') ? 'melhorias' : 'site'); if (h && !['gmn', 'site', 'melhorias'].includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
+  const TABS = ['site', 'gmn', 'melhorias', 'avaliacoes'];
+  const fromHash = () => { const h = location.hash.slice(1); showTab(TABS.find((t) => h.startsWith(t)) || 'site'); if (h && !TABS.includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
   window.addEventListener('hashchange', fromHash);
   fromHash();
 
@@ -757,5 +822,6 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
   setInterval(() => { if (state.status) { const nr = nextRun(state.status.settings.paused); $('kNext').textContent = nr.big; } }, 30 * 1000);
 })();
 </script>
+<script src="/painel/reviews.js"></script>
 </body>
 </html>
