@@ -77,7 +77,17 @@ Durante a espera do DNS o site não cai: parte das pessoas vê o Netlify e parte
 Me avise e eu faço a minha parte:
 - testo todas as páginas, o formulário, a aba Leads com o login e o sitemap;
 - ajusto as rotinas de artigos e o monitor para a Cloudflare (`[skip ci]`, uma publicação por dia às 7h);
-- confirmo que o Search Console continua lendo o site (a propriedade é por domínio, nada muda lá).
+- **Google Search Console**:
+  - confirmo que a propriedade continua verificada (o TXT do Google foi mantido no DNS da Cloudflare);
+  - reenvio o `sitemap.xml`, que agora usa endereços sem `.html`;
+  - peço a inspeção do `/blog` e dos artigos antigos com o endereço novo;
+  - acompanho o relatório de páginas por alguns dias, para os endereços `.html` antigos aparecerem como "página com redirecionamento", e não como erro.
+- **Google Tag Manager (GTM)**:
+  - hoje o site usa o Google Analytics 4 direto (G-NBGQ3ZCS3N), com os eventos `generate_lead`, `click_call` e `click_sms`;
+  - crio o contêiner do GTM na conta da Avision e coloco o código dele em todas as páginas pelo gerador do site;
+  - passo o GA4 e os 3 eventos para dentro do GTM, tirando o código direto, para não contar cada visita em dobro;
+  - deixo pronto para adicionar Google Ads, pixel da Meta e outras tags sem mexer no código;
+  - confiro no modo de visualização do GTM e no Tempo real do GA4 que visita, ligação, SMS e pedido de orçamento continuam sendo contados.
 
 Depois de 2 ou 3 dias estável, você pode desligar o site no Netlify. **Antes de desligar**, baixe os pedidos antigos: Netlify → Forms → `estimate` e `estimate-local` → **Download as CSV**. É o único dado que existe só no Netlify. Todo o resto (site, artigos, painel, dados) está no GitHub.
 
