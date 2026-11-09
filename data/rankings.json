@@ -1,5 +1,365 @@
 {
- "updatedAt": null,
+ "updatedAt": "2026-11-09T05:20:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
- "cities": {}
+ "cities": {
+  "greer-sc": {
+   "city": "Greer, SC",
+   "query": "house cleaning Greer SC",
+   "checkedAt": "2026-11-09T05:20:00Z",
+   "ourPosition": null,
+   "ourUrl": null,
+   "top": [
+    {
+     "pos": 1,
+     "domain": "care.com",
+     "title": "greer sc page2"
+    },
+    {
+     "pos": 2,
+     "domain": "thecleaningauthority.com",
+     "title": "house cleaning"
+    },
+    {
+     "pos": 3,
+     "domain": "care.com",
+     "title": "Care.com"
+    },
+    {
+     "pos": 4,
+     "domain": "thumbtack.com",
+     "title": "Angel Grove Cleaning LLC"
+    },
+    {
+     "pos": 5,
+     "domain": "maidpro.com",
+     "title": "MaidPro Greer, SC"
+    },
+    {
+     "pos": 6,
+     "domain": "angi.com",
+     "title": "Angi - An Artistic Touch Cleaning"
+    },
+    {
+     "pos": 7,
+     "domain": "thebuildermarket.com",
+     "title": "Top-Rated Cleaning & Maid Services in Greer"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeepers"
+    },
+    {
+     "pos": 9,
+     "domain": "homeadvisor.com",
+     "title": "House Cleaning"
+    },
+    {
+     "pos": 10,
+     "domain": "angi.com",
+     "title": "house cleaning"
+    }
+   ],
+   "competitors": [
+    {
+     "pos": 2,
+     "domain": "thecleaningauthority.com",
+     "name": "house cleaning"
+    },
+    {
+     "pos": 5,
+     "domain": "maidpro.com",
+     "name": "MaidPro Greer, SC"
+    }
+   ],
+   "tip": "Os primeiros resultados são diretórios e franquias (MaidPro, Cleaning Authority) com avaliações em destaque; mostrar avaliações do Google, preços iniciais e 'Greer, SC' no título da página de Greer.",
+   "error": null
+  },
+  "taylors-sc": {
+   "city": "Taylors, SC",
+   "query": "house cleaning Taylors SC",
+   "checkedAt": "2026-11-09T05:20:00Z",
+   "ourPosition": null,
+   "ourUrl": null,
+   "top": [
+    {
+     "pos": 1,
+     "domain": "care.com",
+     "title": "Care.com"
+    },
+    {
+     "pos": 2,
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from House Cleaning Services"
+    },
+    {
+     "pos": 3,
+     "domain": "homeadvisor.com",
+     "title": "House Cleaning"
+    },
+    {
+     "pos": 4,
+     "domain": "care.com",
+     "title": "Care.com housekeeping"
+    },
+    {
+     "pos": 5,
+     "domain": "care.com",
+     "title": "Care.com housekeepers"
+    },
+    {
+     "pos": 6,
+     "domain": "care.com",
+     "title": "Care.com housekeepers p2"
+    },
+    {
+     "pos": 7,
+     "domain": "homeadvisor.com",
+     "title": "Walls Ceilings Clean"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeeping p1"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "Care.com housekeeping p2"
+    },
+    {
+     "pos": 10,
+     "domain": "care.com",
+     "title": "Care.com jobs"
+    }
+   ],
+   "competitors": [],
+   "tip": "Só diretórios aparecem no topo, sem empresa local forte; há espaço para ranquear com uma página de Taylors com preço, avaliações e perguntas frequentes.",
+   "error": null
+  },
+  "duncan-sc": {
+   "city": "Duncan, SC",
+   "query": "house cleaning Duncan SC",
+   "checkedAt": "2026-11-09T05:20:00Z",
+   "ourPosition": null,
+   "ourUrl": null,
+   "top": [
+    {
+     "pos": 1,
+     "domain": "care.com",
+     "title": "Care.com"
+    },
+    {
+     "pos": 2,
+     "domain": "homeadvisor.com",
+     "title": "Serving Duncan, SC"
+    },
+    {
+     "pos": 3,
+     "domain": "match.angi.com",
+     "title": "Post-Construction Clean-up"
+    },
+    {
+     "pos": 4,
+     "domain": "angi.com",
+     "title": "house cleaning"
+    },
+    {
+     "pos": 5,
+     "domain": "thumbtack.com",
+     "title": "MJD Cleaning Services"
+    },
+    {
+     "pos": 6,
+     "domain": "care.com",
+     "title": "Care.com housekeeping p2"
+    },
+    {
+     "pos": 7,
+     "domain": "care.com",
+     "title": "Care.com housekeepers"
+    },
+    {
+     "pos": 8,
+     "domain": "thumbtack.com",
+     "title": "To Have & To Hold Cleaners"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "Care.com housekeeping"
+    },
+    {
+     "pos": 10,
+     "domain": "care.com",
+     "title": "Care.com cleaning lady"
+    }
+   ],
+   "competitors": [],
+   "tip": "Domínio de diretórios (Care, Angi, Thumbtack); destacar anos de experiência e avaliações reais na página de Duncan, como os perfis concorrentes fazem.",
+   "error": null
+  },
+  "lyman-sc": {
+   "city": "Lyman, SC",
+   "query": "house cleaning Lyman SC",
+   "checkedAt": "2026-11-09T05:20:00Z",
+   "ourPosition": null,
+   "ourUrl": null,
+   "top": [
+    {
+     "pos": 1,
+     "domain": "care.com",
+     "title": "Care.com"
+    },
+    {
+     "pos": 2,
+     "domain": "angi.com",
+     "title": "house cleaning"
+    },
+    {
+     "pos": 3,
+     "domain": "homeadvisor.com",
+     "title": "house cleaning Lyman"
+    },
+    {
+     "pos": 4,
+     "domain": "match.angi.com",
+     "title": "Post-Construction Cleaning"
+    },
+    {
+     "pos": 5,
+     "domain": "match.angi.com",
+     "title": "Cleaning Maid Services"
+    },
+    {
+     "pos": 6,
+     "domain": "care.com",
+     "title": "Care.com housekeeping"
+    },
+    {
+     "pos": 7,
+     "domain": "care.com",
+     "title": "Care.com housekeepers"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeepers p2"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "Care.com cleaning lady"
+    },
+    {
+     "pos": 10,
+     "domain": "bbb.org",
+     "title": "house cleaning BBB"
+    }
+   ],
+   "competitors": [],
+   "tip": "Nenhuma empresa local no topo, apenas diretórios; uma página de Lyman bem completa (serviços, preços, FAQ) pode competir rápido.",
+   "error": null
+  },
+  "wade-hampton-sc": {
+   "city": "Wade Hampton, SC",
+   "query": "house cleaning Wade Hampton SC",
+   "checkedAt": "2026-11-09T05:20:00Z",
+   "ourPosition": null,
+   "ourUrl": null,
+   "top": [
+    {
+     "pos": 1,
+     "domain": "en.wikipedia.org",
+     "title": "Wade Hampton, South Carolina"
+    },
+    {
+     "pos": 2,
+     "domain": "angi.com",
+     "title": "house cleaning (Hampton, SC)"
+    },
+    {
+     "pos": 3,
+     "domain": "care.com",
+     "title": "South Carolina Housekeeping Services"
+    }
+   ],
+   "competitors": [],
+   "tip": "A busca não retornou empresas de limpeza para Wade Hampton (nome confunde com outros lugares); incluir 'Taylors' e 'Greenville' no texto da página e usar CEPs atendidos.",
+   "error": null
+  },
+  "wellford-sc": {
+   "city": "Wellford, SC",
+   "query": "house cleaning Wellford SC",
+   "checkedAt": "2026-11-09T05:20:00Z",
+   "ourPosition": null,
+   "ourUrl": null,
+   "top": [
+    {
+     "pos": 1,
+     "domain": "care.com",
+     "title": "Care.com"
+    },
+    {
+     "pos": 2,
+     "domain": "homeadvisor.com",
+     "title": "house cleaning"
+    },
+    {
+     "pos": 3,
+     "domain": "angi.com",
+     "title": "house cleaning"
+    },
+    {
+     "pos": 4,
+     "domain": "homeguide.com",
+     "title": "Susvea's Naked Cleaning"
+    },
+    {
+     "pos": 5,
+     "domain": "care.com",
+     "title": "Care.com housekeeping"
+    },
+    {
+     "pos": 6,
+     "domain": "homeadvisor.com",
+     "title": "Range Hood Clean"
+    },
+    {
+     "pos": 7,
+     "domain": "experience.com",
+     "title": "Experience.com"
+    },
+    {
+     "pos": 8,
+     "domain": "angi.com",
+     "title": "Angi cleaning"
+    },
+    {
+     "pos": 9,
+     "domain": "homeadvisor.com",
+     "title": "One time cleaning"
+    },
+    {
+     "pos": 10,
+     "domain": "care.com",
+     "title": "Care.com cleaning lady"
+    }
+   ],
+   "competitors": [
+    {
+     "pos": 4,
+     "domain": "homeguide.com",
+     "name": "Susvea's Naked Cleaning"
+    },
+    {
+     "pos": 7,
+     "domain": "experience.com",
+     "name": "Experience.com"
+    }
+   ],
+   "tip": "Poucos concorrentes locais (Susvea's, Upstate SK); mostrar avaliações e orçamento grátis na página de Wellford.",
+   "error": null
+  }
+ }
 }

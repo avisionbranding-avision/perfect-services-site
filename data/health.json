@@ -1,7 +1,62 @@
 {
- "checkedAt": null,
- "overall": "pending",
- "checks": [],
+ "checkedAt": "2026-11-09T05:20:00Z",
+ "overall": "warning",
+ "checks": [
+  {
+   "id": "build",
+   "label": "Geração do site",
+   "status": "ok",
+   "detail": "125 páginas geradas"
+  },
+  {
+   "id": "links",
+   "label": "Links internos",
+   "status": "ok",
+   "detail": "Nenhum link quebrado"
+  },
+  {
+   "id": "posts_json",
+   "label": "Artigos",
+   "status": "ok",
+   "detail": "14 artigos válidos"
+  },
+  {
+   "id": "daily_run",
+   "label": "Rotina diária",
+   "status": "ok",
+   "detail": "Artigos de hoje publicados"
+  },
+  {
+   "id": "daily_count",
+   "label": "Quantidade de artigos",
+   "status": "ok",
+   "detail": "4 artigos hoje"
+  },
+  {
+   "id": "cities",
+   "label": "Cidades no ar",
+   "status": "ok",
+   "detail": "8 cidades no ar"
+  },
+  {
+   "id": "live_site",
+   "label": "Site no ar",
+   "status": "warning",
+   "detail": "não foi possível verificar o site a partir da nuvem"
+  },
+  {
+   "id": "sitemap",
+   "label": "Sitemap",
+   "status": "ok",
+   "detail": "125 URLs, igual ao esperado"
+  }
+ ],
  "fixes": [],
- "history": []
+ "history": [
+  {
+   "at": "2026-11-09T05:20:00Z",
+   "overall": "warning",
+   "summary": "Site no ar não verificável da nuvem; resto ok"
+  }
+ ]
 }
