@@ -151,6 +151,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 .task .body{padding:0 14px 14px;display:grid;gap:10px;font-size:.86rem}
 .task .body ol{margin:0;padding-left:20px;display:grid;gap:4px}
 .task .why{color:var(--muted)}
+.task .vnote{margin:0;padding:8px 10px;border-radius:8px;background:var(--brand-soft);font-size:.84rem}
 .task .kit{margin:0}
 .task .kit p{white-space:pre-wrap}
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 16px;border-bottom:1px solid var(--line)}
@@ -656,11 +657,12 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     else { $('gRating').textContent = '—'; $('gRatingSub').textContent = h && h.checkedAt ? 'não encontrada na web' : 'aguardando o monitor'; }
     const taskDone = store.get('ps-gbp-tasks-v1', {});
     const setup = state.gbpTasks ? (state.gbpTasks.setup || []).slice().sort((a, b) => a.priority - b.priority) : [];
-    const doneChk = setup.filter((x) => taskDone[x.id]).length;
+    const tDone = (x) => (window.psTaskDone ? window.psTaskDone(x, taskDone) : !!taskDone[x.id]);
+    const doneChk = setup.filter(tDone).length;
     const hp = $('gmnHealthPill');
     const healthy = setup.length && in7 >= target * 0.7 && doneChk >= setup.length - 1;
     hp.dataset.s = healthy ? 'ok' : 'warning'; hp.textContent = healthy ? 'Saudável' : `Configuração ${doneChk}/${setup.length || '—'}`;
-    $('gmnChecklist').replaceChildren(...setup.map((x) => el('li', {}, el('span', { class: 'pill', 'data-s': taskDone[x.id] ? 'ok' : 'warning', text: taskDone[x.id] ? 'Feito' : 'Pendente' }), document.createTextNode(` ${x.title}`))));
+    $('gmnChecklist').replaceChildren(...setup.map((x) => el('li', {}, el('span', { class: 'pill', 'data-s': tDone(x) ? 'ok' : 'warning', text: tDone(x) ? 'Feito' : (x.verified && x.verified.status === 'partial' ? 'Parcial' : 'Pendente') }), document.createTextNode(` ${x.title}`))));
     const sig = JSON.stringify(g.services || []);
     if ($('gmnServices').dataset.sig !== sig) {
       $('gmnServices').dataset.sig = sig;
@@ -669,21 +671,27 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
   }
   // ---------- Melhorias Google (tasks + live suggestions) ----------
   const LS_TASKS = 'ps-gbp-tasks-v1';
+  window.psTaskDone = (t, done) => !!done[t.id] || (t.verified && t.verified.status === 'done');
+  const VSTATUS = { done: ['ok', 'Feito'], partial: ['warning', 'Parcial'], pending: ['error', 'Pendente'], unknown: ['pending', 'A conferir'] };
   function taskEl(t, idx, done, onToggle) {
-    const isDone = !!done[t.id];
+    const isDone = window.psTaskDone(t, done);
+    const [vs, vl] = done[t.id] ? ['ok', 'Feito'] : t.verified ? VSTATUS[t.verified.status] || ['warning', 'Pendente'] : ['warning', 'Pendente'];
     const copies = t.copyFrom === 'gbpServices' && state.gbp
       ? (state.gbp.services || []).flatMap((s) => [{ label: `${s.name}: nome`, value: s.name }, { label: `${s.name}: descrição`, value: s.description }])
       : (t.copy || []);
-    const btn = el('button', { class: `btn ${isDone ? '' : 'ok'}`, type: 'button', text: isDone ? 'Desfazer' : 'Marcar como feito' });
+    const btn = el('button', { class: `btn ${done[t.id] ? '' : 'ok'}`, type: 'button', text: done[t.id] ? 'Desfazer' : 'Marcar como feito' });
     btn.addEventListener('click', (e) => { e.preventDefault(); onToggle(t.id); });
+    const vAt = state.gbpTasks && state.gbpTasks.verifiedAt ? new Date(state.gbpTasks.verifiedAt).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) : '';
     const det = el('details', { class: `task${isDone ? ' done' : ''}` },
-      el('summary', {}, el('span', { class: 'n', text: `#${idx}` }), el('span', {}, el('b', { text: t.title }), el('small', { text: t.where || '' })), el('span', { class: 'pill', 'data-s': isDone ? 'ok' : 'warning', text: isDone ? 'Feito' : 'Pendente' })),
+      el('summary', {}, el('span', { class: 'n', text: `#${idx}` }), el('span', {}, el('b', { text: t.title }), el('small', { text: t.where || '' })), el('span', { class: 'pill', 'data-s': vs, text: vl })),
       el('div', { class: 'body' },
+        t.verified && t.verified.note ? el('p', { class: 'vnote', text: `Conferido no perfil${vAt ? ` em ${vAt}` : ''}: ${t.verified.note}` }) : null,
         t.why ? el('p', { class: 'why', style: 'margin:0', text: t.why }) : null,
         t.steps && t.steps.length ? el('ol', {}, ...t.steps.map((s) => el('li', { text: s }))) : null,
         copies.length ? el('ul', { class: 'kit' }, ...copies.map((c) => el('li', {}, el('b', { text: c.label }), el('p', { text: c.value }), copyBtn(c.value)))) : null,
         el('div', {}, btn)));
     if (!isDone && idx === 1) det.open = true;
+    if (!isDone && t.verified && t.verified.status === 'pending' && idx <= 2) det.open = true;
     return det;
   }
   function renderMelhorias() {
@@ -699,10 +707,11 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     $('sugList').replaceChildren(...(sugs.length ? mk(sugs) : [el('div', { class: 'empty', text: 'Nenhuma sugestão nova no momento.' })]));
     $('sugAt').textContent = t.updatedAt ? `Atualizado ${ago(t.updatedAt)}.` : '';
     const all = [...setup, ...sugs];
-    const doneN = all.filter((x) => done[x.id]).length;
+    const isD = (x) => window.psTaskDone(x, done);
+    const doneN = all.filter(isD).length;
     const pend = all.length - doneN;
     $('melBar').style.width = `${all.length ? (100 * doneN / all.length).toFixed(1) : 0}%`;
-    $('melProgress').textContent = `${doneN} de ${all.length} feitas · configuração ${setup.filter((x) => done[x.id]).length}/${setup.length} · sugestões ${sugs.filter((x) => done[x.id]).length}/${sugs.length}`;
+    $('melProgress').textContent = `${doneN} de ${all.length} feitas · configuração ${setup.filter(isD).length}/${setup.length} · sugestões ${sugs.filter(isD).length}/${sugs.length}${t.verifiedAt ? ` · perfil conferido ${ago(t.verifiedAt)}` : ''}`;
     $('melPill').dataset.s = pend ? 'warning' : 'ok';
     $('melPill').textContent = pend ? `${pend} pendente${pend === 1 ? '' : 's'}` : 'Tudo feito';
     const b = $('melBadge'); b.hidden = !pend; b.textContent = pend;
