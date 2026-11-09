@@ -2,7 +2,9 @@
 // Usage: node scripts/next-topics.mjs [N]
 //   N = rotation topics across all cities (default: dailyPosts in data/site.json)
 //   plus, when greerDailyPerService is set, that many topics per service for the base city (Greer).
-import { site, topicQueue, baseQueue, cityBySlug, serviceBySlug, nearby, loadPosts, ALL_IMAGES } from './lib.mjs';
+import fs from 'node:fs';
+import path from 'node:path';
+import { ROOT, site, topicQueue, baseQueue, gbpPlan, cityBySlug, serviceBySlug, nearby, loadPosts, ALL_IMAGES } from './lib.mjs';
 
 const n = Number(process.argv[2] || site.dailyPosts || 4);
 const posts = loadPosts();
@@ -32,7 +34,18 @@ const expand = (t) => {
   };
 };
 
+// Google Business Profile posts for today (written to content/gbp/<date>.json)
+const today = new Date().toISOString().slice(0, 10);
+const gbpFile = `content/gbp/${today}.json`;
+const gbpToday = fs.existsSync(path.join(ROOT, gbpFile)) ? [] : gbpPlan(today).map((g) => {
+  const c = cityBySlug[g.city]; const s = serviceBySlug[g.service];
+  const article = posts.find((p) => p.city === g.city && p.service === g.service && !p.legacy);
+  return { ...g, cityFacts: { county: c.county, zips: c.zips, roads: c.roads, note: c.note, milesFromGreer: c.distRound }, serviceFacts: { includes: s.includes, idealFor: s.idealFor, summary: s.summary }, relatedArticle: article ? { title: article.title, url: `${site.domain}/blog/${article.slug}.html` } : null };
+});
+
 console.log(JSON.stringify({
+  gbpFile: gbpToday.length ? gbpFile : null,
+  gbpToday,
   remainingInQueue: queue.length,
   greerRemainingPerService: Object.fromEntries(Object.keys(base).map((k, i) => [k, baseRemaining[i].length])),
   totalToday: Math.min(n, queue.length) + baseToday.length,

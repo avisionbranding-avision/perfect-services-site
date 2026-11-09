@@ -191,6 +191,30 @@ export function baseQueue() {
   return out;
 }
 
+// Google Business Profile (GBP) daily post plan.
+// Post 1 every day is about Greer (where the profile is), cycling the 10 services.
+// The other posts walk every city x service pair, nearest cities first, so each region gets its turn.
+const GBP_ANGLES = ['tip', 'checklist', 'free-estimate', 'season', 'question', 'why-us', 'before-you-book'];
+export function gbpPlan(day) {
+  const n = Number(site.gbpDailyPosts || 0);
+  if (!n) return [];
+  const d = Math.max(0, Math.floor((Date.parse(`${day}T00:00:00Z`) - Date.parse(`${site.gbpStart || site.launchDate}T00:00:00Z`)) / 86400000));
+  const base = cities.find((c) => c.isBase);
+  const others = cities.filter((c) => !c.isBase);
+  const pairs = [];
+  for (let r = 0; r < services.length; r++) others.forEach((c, ci) => pairs.push([c, services[(ci + r) % services.length]]));
+  const plan = [[base, services[d % services.length]]];
+  for (let k = 0; k < n - 1 && pairs.length; k++) plan.push(pairs[(d * (n - 1) + k) % pairs.length]);
+  return plan.map(([c, s], i) => ({
+    id: `${day}-${i + 1}`,
+    city: c.slug, cityName: c.full, service: s.slug, serviceName: s.name,
+    angle: GBP_ANGLES[(d + i) % GBP_ANGLES.length],
+    link: `${site.domain}/areas/${c.slug}/${s.slug}/?utm_source=google&utm_medium=gbp_post&utm_campaign=${s.slug}&utm_content=${c.slug}`,
+    image: `${site.domain}/images/${pick(s.images, hash(`${day}|${i}`))}`,
+    keyword: `${s.keywords[0]} ${c.name} ${c.st}`,
+  }));
+}
+
 // Topic queue for the daily article routine
 export function topicQueue() {
   const out = [];

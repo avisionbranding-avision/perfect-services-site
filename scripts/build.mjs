@@ -567,4 +567,21 @@ function writeStatus(urlCount) {
   fs.writeFileSync(path.join(ROOT, 'data', 'status.json'), `${JSON.stringify(status, null, 1)}\n`);
 }
 writeStatus(n);
+
+// Google Business Profile posts: collect content/gbp/*.json into data/gbp.json for the panel
+(function writeGbp() {
+  const dir = path.join(ROOT, 'content', 'gbp');
+  const days = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().reverse().slice(0, 60) : [];
+  const out = [];
+  for (const f of days) {
+    try { const j = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8').replace(/^﻿/, '')); (j.posts || []).forEach((p) => out.push({ date: j.date || f.slice(0, 10), ...p })); } catch { console.warn(`GBP file skipped (invalid JSON): ${f}`); }
+  }
+  // One-time setup: the "Services" section of the profile (max 300 characters each)
+  const gbpServices = services.map((s) => ({
+    name: s.name,
+    description: trim(`${s.summary} Serving Greer and the Upstate within 30 miles. Free estimates.`, 300),
+    link: `${D}/services/${s.slug}/`,
+  }));
+  fs.writeFileSync(path.join(ROOT, 'data', 'gbp.json'), `${JSON.stringify({ generatedAt: new Date().toISOString(), dailyPosts: site.gbpDailyPosts || 0, services: gbpServices, posts: out }, null, 1)}\n`);
+})();
 console.log(`Built ${n} URLs: ${services.length} services x ${cities.length} released cities (of ${allEligibleCities.length}), ${posts.length} posts.`);

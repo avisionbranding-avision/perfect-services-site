@@ -9,7 +9,7 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 1. `git pull -q origin main`. Read `data/site.json`, `data/health.json` and `data/rankings.json`.
 2. Run the checks below. Each check gets a status: `ok`, `warning` or `error`, plus a short detail in Brazilian Portuguese that a non-technical owner understands.
 3. Undo the build output so you never commit it: `git checkout -- . && git clean -fdq -- areas services faq blog` (keep your own edits to `data/health.json`, `data/rankings.json` and any `content/posts` fix, by writing those files after this reset).
-4. Write `data/health.json`, `data/rankings.json` and `data/citations.json` (formats below and in "Directory listings").
+4. Write `data/health.json`, `data/rankings.json`, `data/citations.json` and `data/gbp-health.json` (formats below and in "Directory listings").
 5. Commit only those files (plus any `content/posts` fix) and push to main:
    - only health/rankings changed: message `Monitor: <YYYY-MM-DD HH:MM> UTC [skip netlify]` (this does not redeploy the site);
    - you fixed a post: message `Monitor fix: <what>` without `[skip netlify]`, so the fix goes live.
@@ -27,6 +27,7 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 | `posts_json` | every `content/posts/*.json` parses and has slug, title, description, date, city, service, html | error for a broken file |
 | `daily_run` | `git log --since="30 hours ago" --grep="Daily articles"` | after 13:30 UTC: error if there is no "Daily articles" commit dated today (UTC). Before 13:30 UTC: ok if yesterday's exists. Skip (status ok, detail "pausado") when `paused` is true |
 | `daily_count` | number of posts dated today in `content/posts` | after the daily run: warning if fewer than `totals.articlesPerDay` in `data/status.json` |
+| `gbp_posts` | today's `content/gbp/<date>.json` (see "Google Business Profile health") | warning if missing after 13:30 UTC, or if a post breaks the text rules |
 | `greer_queue` | `totals.greerDaysLeft` in `data/status.json` | warning when below 7 days ("Temas de Greer acabando: pedir novos ângulos"); ok otherwise |
 | `cities` | `data/status.json` after the build: `totals.citiesLive` vs cities whose `releaseDate` is today or earlier | warning if fewer are live than expected (the next deploy fixes it) |
 | `live_site` | `curl -s -o /dev/null -w "%{http_code}"` on the home page, `/sitemap.xml`, `/faq/` and the newest post URL. The cloud network usually blocks this; then try the WebFetch tool on the home page and the newest post URL instead | error if any page returns 4xx/5xx. If both curl and WebFetch are blocked, status `ok` with detail "Teste ao vivo feito pelo painel no navegador" (the panel tests the live pages itself) |
@@ -45,6 +46,12 @@ Each run, take the 6 live cities (from `data/status.json`, `live: true`) whose `
 This is an approximate view from a web search tool, not official Google data. Never invent results: if a search fails, keep the city's previous data and set `error` on it.
 
 Also add one line of expert advice per city in `tip` (Brazilian Portuguese): what to do on our site to compete for that query, based on what the top results show (for example: "Os 3 primeiros mostram preços e avaliações na página; destacar avaliações do Google na página de Simpsonville").
+
+## Google Business Profile (GBP) health
+
+- Check `gbp_posts` in the table below: after 13:30 UTC, `content/gbp/<today UTC>.json` must exist with `gbpDailyPosts` posts (warning if missing or short). Also warn if any post text contains a phone number, a URL or an email address (Google rejects those): fix it yourself by removing that part of the text (allowed safe fix), then rebuild and push without `[skip netlify]`.
+- Once a day (the first run after 12:00 UTC), WebSearch `"Perfect Services" Greer SC reviews` and `Perfect Services Cleaning Greer SC Google`. If a result clearly about this business shows its Google star rating and review count, record them. Never guess: if no result shows them, keep the previous values.
+- Write `data/gbp-health.json`: `{ "checkedAt": "...", "rating": 5.0 or null, "reviews": 12 or null, "source": "<url where you saw it>", "note": "<one line in Brazilian Portuguese>" }` and commit it with the other data files.
 
 ## Directory listings (citations)
 

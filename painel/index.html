@@ -139,6 +139,32 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 .insp .btn{padding:5px 10px;font-size:.76rem}
 .insp .btn.go{background:var(--brand);color:var(--panel);border-color:var(--brand)}
 .insp .btn.ok{background:var(--ok);color:var(--panel);border-color:var(--ok)}
+[hidden]{display:none!important}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 16px;border-bottom:1px solid var(--line)}
+.tabs button{appearance:none;border:0;background:none;color:var(--muted);font:700 .92rem var(--body);padding:10px 14px;border-bottom:3px solid transparent;margin-bottom:-1px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--brand)}
+.tabs button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.badge{background:var(--bad);color:#fff;border-radius:999px;font-size:.7rem;padding:1px 7px}
+.gposts{display:grid;gap:12px}
+.gpost{border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;gap:10px;min-width:0}
+.gpost.done{background:var(--ok-soft);border-color:transparent}
+.gpost .top{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.gpost .where{font-size:.78rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.gpost h3{margin:0;font:800 1rem var(--display)}
+.gpost .txt{white-space:pre-wrap;font-size:.88rem;line-height:1.55;background:var(--bg);border-radius:8px;padding:12px;max-height:260px;overflow:auto;overflow-wrap:anywhere}
+.gpost .row{display:grid;grid-template-columns:90px minmax(0,1fr) auto;gap:8px;align-items:center;font-size:.84rem}
+.gpost .row b{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.gpost .row code{font-family:var(--mono);font-size:.75rem;overflow-wrap:anywhere}
+.gpost .thumb{width:100%;max-height:150px;object-fit:cover;border-radius:8px}
+.gpost .acts{display:flex;gap:6px;flex-wrap:wrap}
+.gpost .btn.ok{background:var(--ok);color:var(--panel);border-color:var(--ok)}
+.gpost .btn.go{background:var(--brand);color:var(--panel);border-color:var(--brand)}
+.sub3{font:800 .9rem var(--display);margin:16px 0 8px}
+.checklist{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.checklist label{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;cursor:pointer}
+.checklist input{margin-top:3px;accent-color:var(--ok)}
+.howto{margin:8px 0 0;padding-left:20px;font-size:.86rem;display:grid;gap:6px}
+@media (max-width:560px){.gpost .row{grid-template-columns:minmax(0,1fr) auto}.gpost .row b{grid-column:1 / -1}}
 .insp .why{display:block;font-family:var(--body);font-size:.78rem;color:var(--muted);margin-top:2px}
 .kit{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
 .kit li{border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:start}
@@ -173,7 +199,55 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     </div>
   </section>
 
-  <div class="grid">
+  <nav class="tabs" role="tablist" aria-label="Áreas do painel">
+    <button type="button" role="tab" id="tab-site" data-tab="site" aria-selected="true">Site e SEO</button>
+    <button type="button" role="tab" id="tab-gmn" data-tab="gmn" aria-selected="false">Google Meu Negócio <span class="badge" id="gmnBadge" hidden></span></button>
+  </nav>
+
+  <div class="grid" data-panel="gmn" hidden>
+    <div class="col">
+      <section class="card" id="gmn-hoje">
+        <div class="head"><h2>Posts de hoje para o Google Meu Negócio</h2><span class="pill" id="gmnPill" data-s="pending">—</span></div>
+        <p class="note">Cada post já vem com o texto, o botão, o link da página certa (serviço + cidade) e a foto. Publique em <b>business.google.com</b> → <b>Adicionar atualização</b>, depois marque <b>Publicado</b> aqui.</p>
+        <div id="gmnToday" class="gposts"><div class="empty">Os posts de hoje aparecem aqui depois da execução diária (7h de Greer).</div></div>
+      </section>
+      <section class="card" id="gmn-pendentes" hidden>
+        <h2>Posts de dias anteriores ainda não publicados</h2>
+        <p class="note">Publique estes primeiro, do mais antigo para o mais novo. No máximo 3 a 4 por dia, para o Google não segurar o perfil.</p>
+        <div id="gmnPending" class="gposts"></div>
+      </section>
+    </div>
+    <div class="col">
+      <section class="card">
+        <div class="head"><h2>Saúde do Google Meu Negócio</h2><span class="pill" id="gmnHealthPill" data-s="pending">—</span></div>
+        <p class="note">Ritmo de postagem (marcado por você aqui) e a nota pública do perfil (lida pelo monitor na web).</p>
+        <div class="kpis" style="margin-top:0;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr))">
+          <div class="kpi"><div class="lab">Posts em 7 dias</div><div class="val" id="g7">—</div><div class="sub" id="g7sub">&nbsp;</div></div>
+          <div class="kpi"><div class="lab">Dias seguidos</div><div class="val" id="gStreak">—</div><div class="sub">postando</div></div>
+          <div class="kpi"><div class="lab">Nota no Google</div><div class="val" id="gRating">—</div><div class="sub" id="gRatingSub">&nbsp;</div></div>
+        </div>
+        <h3 class="sub3">Checklist do perfil</h3>
+        <ul class="checklist" id="gmnChecklist"></ul>
+      </section>
+      <section class="card">
+        <h2>Configuração única: serviços do perfil</h2>
+        <p class="note">No perfil: <b>Editar perfil → Serviços</b>. Adicione cada serviço com esta descrição (máx. 300 caracteres).</p>
+        <ul class="kit" id="gmnServices"></ul>
+      </section>
+      <section class="card">
+        <h2>Como publicar um post (1 minuto)</h2>
+        <ol class="howto">
+          <li>Abra <b>business.google.com</b> (ou pesquise "Perfect Services Cleaning" logado na conta do perfil) e clique em <b>Adicionar atualização</b>.</li>
+          <li><b>Foto:</b> clique em "Abrir foto", salve a imagem e envie no post.</li>
+          <li><b>Descrição:</b> clique em "Copiar texto" e cole.</li>
+          <li><b>Botão:</b> escolha o botão indicado ("Saiba mais" ou "Reservar") e cole o <b>link</b> copiado.</li>
+          <li>Clique em <b>Publicar</b> e volte aqui para marcar <b>Publicado</b>.</li>
+        </ol>
+      </section>
+    </div>
+  </div>
+
+  <div class="grid" data-panel="site">
     <div class="col">
       <section class="card" id="inspecionar">
         <div class="head"><h2>Inspecionar hoje no Google</h2><span class="pill" id="inspPill" data-s="pending">—</span></div>
@@ -381,13 +455,15 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       getJSON(`/data/status.json?t=${Date.now()}`).then((d) => { state.status = d; }).catch(() => {}),
       getJSON(`${RAW}data/health.json?t=${Date.now()}`).then((d) => { state.health = d; }).catch(() => {}),
       getJSON(`${RAW}data/rankings.json?t=${Date.now()}`).then((d) => { state.rankings = d; }).catch(() => {}),
+      getJSON(`/data/gbp.json?t=${Date.now()}`).then((d) => { state.gbp = d; }).catch(() => {}),
+      getJSON(`${RAW}data/gbp-health.json?t=${Date.now()}`).then((d) => { state.gbpHealth = d; }).catch(() => {}),
       getJSON(`${RAW}data/citations.json?t=${Date.now()}`).catch(() => getJSON(`/data/citations.json?t=${Date.now()}`)).then((d) => { state.citations = d; }).catch(() => {}),
     ];
     if (force || Date.now() - state.commitsAt > 5 * 60 * 1000) {
       jobs.push(getJSON(`${API}/commits?per_page=30`).then((d) => { state.commits = d; state.commitsAt = Date.now(); }).catch(() => {}));
     }
     await Promise.all(jobs);
-    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect(); renderCitations();
+    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect(); renderCitations(); renderGmn();
     $('refreshInfo').textContent = `Ao vivo · atualizado ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
   }
   // ---------- daily Search Console inspection chain (progress kept in this browser) ----------
@@ -474,6 +550,94 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       $('kitList').replaceChildren(...c.kit.map((k) => el('li', {}, el('b', { text: k.label }), el('p', { text: k.value }), copyBtn(k.value))));
     }
   }
+
+  // ---------- Google Meu Negócio ----------
+  const LS_GBP = 'ps-gbp-posted-v1', LS_GBPCHK = 'ps-gbp-checklist-v1';
+  const GBP_CHECKLIST = [
+    ['cat', 'Categoria principal: House cleaning service'],
+    ['cat2', 'Categorias extras: Maid service, Janitorial service, Commercial cleaning service'],
+    ['areas', 'As 20 áreas de atendimento do kit (aba Site → Diretórios)'],
+    ['svc', 'Os 10 serviços cadastrados com descrição (abaixo)'],
+    ['hours', 'Horário de funcionamento preenchido'],
+    ['site', 'Site: https://perfectservicespaintingcleaning.com/'],
+    ['photos', '10 fotos ou mais, com logo e capa'],
+    ['desc', 'Descrição longa do kit colada em "Descrição da empresa"'],
+    ['reviews', 'Pedir avaliação a cada cliente depois da limpeza'],
+    ['reply', 'Responder todas as avaliações (inclusive as boas)'],
+  ];
+  const BUTTON_PT = { 'Learn more': 'Saiba mais', Book: 'Reservar', 'Call now': 'Ligar agora' };
+  const field = (label, value, extra) => el('div', { class: 'row' }, el('b', { text: label }), el('code', { text: value }), extra || copyBtn(value));
+  function postCard(p, posted, onToggle) {
+    const isDone = !!posted[p.id];
+    const mark = el('button', { class: `btn ${isDone ? '' : 'ok'}`, type: 'button', text: isDone ? 'Desfazer' : 'Publicado' });
+    mark.addEventListener('click', () => onToggle(p.id));
+    const copyText = copyBtn(p.text); copyText.textContent = 'Copiar texto';
+    copyText.addEventListener('click', () => setTimeout(() => { copyText.textContent = 'Copiar texto'; }, 1600));
+    return el('article', { class: `gpost${isDone ? ' done' : ''}` },
+      el('div', { class: 'top' }, el('span', { class: 'where', text: `${p.cityName} · ${p.serviceName}` }), el('span', { class: 'pill', 'data-s': isDone ? 'ok' : 'warning', text: isDone ? 'Publicado' : 'A publicar' })),
+      el('h3', { text: p.title }),
+      el('div', { class: 'txt', text: p.text }),
+      el('div', { class: 'acts' }, copyText, el('a', { class: 'btn', href: p.image, target: '_blank', rel: 'noopener', text: 'Abrir foto' }), mark),
+      field('Botão', BUTTON_PT[p.button] || p.button, el('span')),
+      field('Link', p.link),
+      el('img', { class: 'thumb', src: p.image, alt: `Foto do post: ${p.serviceName} em ${p.cityName}`, loading: 'lazy' }));
+  }
+  function renderGmn() {
+    const g = state.gbp; if (!g) return;
+    const posted = store.get(LS_GBP, {});
+    const toggle = (id) => { const d = store.get(LS_GBP, {}); if (d[id]) delete d[id]; else d[id] = localDay(); store.set(LS_GBP, d); renderGmn(); };
+    const posts = g.posts || [];
+    const latest = posts.length ? posts[0].date : null;
+    const todays = posts.filter((p) => p.date === latest);
+    const older = posts.filter((p) => p.date !== latest && !posted[p.id]).reverse();
+    $('gmnToday').replaceChildren(...(todays.length ? todays.map((p) => postCard(p, posted, toggle)) : [el('div', { class: 'empty', text: 'Os posts de hoje aparecem aqui depois da execução diária (7h de Greer).' })]));
+    $('gmn-pendentes').hidden = !older.length;
+    $('gmnPending').replaceChildren(...older.slice(0, 12).map((p) => postCard(p, posted, toggle)));
+    const left = todays.filter((p) => !posted[p.id]).length;
+    const pill = $('gmnPill');
+    pill.dataset.s = left ? 'warning' : 'ok';
+    pill.textContent = todays.length ? (left ? `${left} para publicar · ${latest.split('-').reverse().slice(0, 2).join('/')}` : 'Tudo publicado') : '—';
+    const badge = $('gmnBadge'); const pend = left + older.length;
+    badge.hidden = !pend; badge.textContent = pend;
+    // health
+    const days = Object.values(posted);
+    const since = new Date(); since.setDate(since.getDate() - 6);
+    const in7 = days.filter((d) => new Date(`${d}T12:00:00`) >= since).length;
+    const target = (g.dailyPosts || 3) * 7;
+    $('g7').replaceChildren(nf.format(in7), el('small', { text: ` / ${target}` }));
+    $('g7sub').textContent = in7 >= target * 0.7 ? 'ritmo bom' : 'abaixo da meta';
+    let streak = 0; const set = new Set(days); const dd = new Date();
+    if (!set.has(localDay())) dd.setDate(dd.getDate() - 1);
+    for (;;) { const k = `${dd.getFullYear()}-${String(dd.getMonth() + 1).padStart(2, '0')}-${String(dd.getDate()).padStart(2, '0')}`; if (!set.has(k)) break; streak++; dd.setDate(dd.getDate() - 1); }
+    $('gStreak').textContent = nf.format(streak);
+    const h = state.gbpHealth;
+    if (h && h.rating != null) { $('gRating').textContent = `${String(h.rating).replace('.', ',')}★`; $('gRatingSub').textContent = `${h.reviews != null ? `${h.reviews} avaliações · ` : ''}${ago(h.checkedAt)}`; }
+    else { $('gRating').textContent = '—'; $('gRatingSub').textContent = h && h.checkedAt ? 'não encontrada na web' : 'aguardando o monitor'; }
+    const chk = store.get(LS_GBPCHK, {});
+    const doneChk = GBP_CHECKLIST.filter(([k]) => chk[k]).length;
+    const hp = $('gmnHealthPill');
+    const healthy = in7 >= target * 0.7 && doneChk >= 8;
+    hp.dataset.s = healthy ? 'ok' : 'warning'; hp.textContent = healthy ? 'Saudável' : `Checklist ${doneChk}/${GBP_CHECKLIST.length}`;
+    $('gmnChecklist').replaceChildren(...GBP_CHECKLIST.map(([k, label]) => {
+      const box = el('input', { type: 'checkbox', id: `chk-${k}` }); box.checked = !!chk[k];
+      box.addEventListener('change', () => { const c = store.get(LS_GBPCHK, {}); c[k] = box.checked; store.set(LS_GBPCHK, c); renderGmn(); });
+      return el('li', {}, el('label', { for: `chk-${k}` }, box, document.createTextNode(label)));
+    }));
+    const sig = JSON.stringify(g.services || []);
+    if ($('gmnServices').dataset.sig !== sig) {
+      $('gmnServices').dataset.sig = sig;
+      $('gmnServices').replaceChildren(...(g.services || []).map((s) => el('li', {}, el('b', { text: s.name }), el('p', { text: s.description }), copyBtn(s.description))));
+    }
+  }
+  // tabs
+  function showTab(name) {
+    document.querySelectorAll('[data-panel]').forEach((p) => { p.hidden = p.dataset.panel !== name; });
+    document.querySelectorAll('.tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
+  }
+  document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', b.dataset.tab === 'gmn' ? '#gmn' : '#site'); } catch { /* ignore */ } }));
+  const fromHash = () => { const h = location.hash.slice(1); showTab(h.startsWith('gmn') ? 'gmn' : 'site'); if (h && h !== 'gmn' && h !== 'site') { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
+  window.addEventListener('hashchange', fromHash);
+  fromHash();
 
   const radios = { domain: $('propDomain'), prefix: $('propPrefix') };
   radios[propType()].checked = true;
