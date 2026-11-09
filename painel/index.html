@@ -129,6 +129,17 @@ tr:last-child td{border-bottom:0}
 .auto li span{color:var(--muted)}
 .muted{color:var(--muted)}
 footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
+.insp{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:i}
+.insp li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:8px 12px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.insp li.done{background:var(--ok-soft);border-color:transparent}
+.insp li.done .u{text-decoration:line-through;color:var(--muted)}
+.insp .n{font:800 .8rem var(--display);color:var(--muted);min-width:2.2em}
+.insp .u{font-family:var(--mono);font-size:.78rem;overflow-wrap:anywhere}
+.insp .acts{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.insp .btn{padding:5px 10px;font-size:.76rem}
+.insp .btn.go{background:var(--brand);color:var(--panel);border-color:var(--brand)}
+.insp .btn.ok{background:var(--ok);color:var(--panel);border-color:var(--ok)}
+@media (max-width:560px){.insp li{grid-template-columns:auto minmax(0,1fr)}.insp .acts{grid-column:1 / -1;justify-content:flex-start}}
 </style>
 </head>
 <body>
@@ -158,6 +169,21 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 
   <div class="grid">
     <div class="col">
+      <section class="card" id="inspecionar">
+        <div class="head"><h2>Inspecionar hoje no Google</h2><span class="pill" id="inspPill" data-s="pending">—</span></div>
+        <p class="note">10 links por dia, em ordem de prioridade. Para cada um: <b>Abrir no Search Console</b> → espere carregar → <b>Solicitar indexação</b> → volte e marque <b>Feito</b>. Amanhã a lista continua de onde parou.</p>
+        <div class="bar" style="height:8px"><i id="inspBar"></i></div>
+        <p class="muted" id="inspProgress" style="font-size:.82rem;margin:6px 0 12px">&nbsp;</p>
+        <ol class="insp" id="inspList"></ol>
+        <div id="inspDone" hidden class="empty" style="margin-top:10px"></div>
+        <details style="margin-top:12px;font-size:.82rem"><summary class="muted" style="cursor:pointer">O link abre com erro no Search Console?</summary>
+          <p class="muted">O tipo de propriedade do seu Search Console decide o formato do link. Troque aqui e tente de novo:</p>
+          <label style="display:flex;gap:8px;align-items:center"><input type="radio" name="propType" id="propDomain" value="domain"> Domínio (sc-domain)</label>
+          <label style="display:flex;gap:8px;align-items:center;margin-top:4px"><input type="radio" name="propType" id="propPrefix" value="prefix"> Prefixo do URL (https://…)</label>
+          <p class="muted">O progresso fica salvo neste navegador. Use sempre o mesmo aparelho para inspecionar.</p>
+        </details>
+      </section>
+
       <section class="card" id="checks-card">
         <div class="head"><h2>Saúde do site</h2><span class="muted" id="checkedAt" style="font-size:.8rem"></span></div>
         <p class="note">Erros disparam uma notificação imediata no seu celular (app do Claude). Avisos só notificam quando aparecem pela primeira vez.</p>
@@ -343,9 +369,64 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
       jobs.push(getJSON(`${API}/commits?per_page=30`).then((d) => { state.commits = d; state.commitsAt = Date.now(); }).catch(() => {}));
     }
     await Promise.all(jobs);
-    renderStatus(); renderHealth(); renderRankings(); renderFeed();
+    renderStatus(); renderHealth(); renderRankings(); renderFeed(); renderInspect();
     $('refreshInfo').textContent = `Ao vivo · atualizado ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
   }
+  // ---------- daily Search Console inspection chain (progress kept in this browser) ----------
+  const DAILY_INSPECT = 10;
+  const LS_KEY = 'ps-inspected-v1', LS_PROP = 'ps-gsc-prop';
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* storage blocked */ } },
+  };
+  const localDay = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
+  const propType = () => store.get(LS_PROP, 'domain');
+  const gscLink = (url) => {
+    const host = new URL(url).hostname.replace(/^www\./, '');
+    const resource = propType() === 'domain' ? `sc-domain:${host}` : `https://${host}/`;
+    return `https://search.google.com/search-console/inspect?resource_id=${encodeURIComponent(resource)}&id=${encodeURIComponent(url)}`;
+  };
+  function renderInspect() {
+    const s = state.status; if (!s || !s.inspectQueue) return;
+    const done = store.get(LS_KEY, {});
+    const today = localDay();
+    const all = s.inspectQueue;
+    const doneToday = all.filter((u) => done[u] === today);
+    const pending = all.filter((u) => !done[u]);
+    const slots = Math.max(0, DAILY_INSPECT - doneToday.length);
+    const list = [...doneToday, ...pending.slice(0, slots)];
+    const total = all.length, doneCount = all.filter((u) => done[u]).length;
+    $('inspBar').style.width = `${(100 * doneCount / total).toFixed(1)}%`;
+    $('inspProgress').textContent = `${nf.format(doneCount)} de ${nf.format(total)} links inspecionados · faltam ≈ ${Math.ceil(pending.length / DAILY_INSPECT)} dias · hoje: ${doneToday.length}/${DAILY_INSPECT}`;
+    const pill = $('inspPill');
+    if (!pending.length) { pill.dataset.s = 'ok'; pill.textContent = 'Tudo inspecionado'; }
+    else if (doneToday.length >= DAILY_INSPECT) { pill.dataset.s = 'ok'; pill.textContent = 'Feito hoje'; }
+    else { pill.dataset.s = 'warning'; pill.textContent = `${DAILY_INSPECT - doneToday.length} para hoje`; }
+    $('inspList').replaceChildren(...list.map((u) => {
+      const isDone = !!done[u];
+      const idx = all.indexOf(u) + 1;
+      const copy = el('button', { class: 'btn', type: 'button', text: 'Copiar' });
+      copy.addEventListener('click', () => { navigator.clipboard.writeText(u).then(() => { copy.textContent = 'Copiado'; }).catch(() => { copy.textContent = 'Selecione e copie'; }); });
+      const mark = el('button', { class: `btn ${isDone ? '' : 'ok'}`, type: 'button', text: isDone ? 'Desfazer' : 'Feito' });
+      mark.addEventListener('click', () => { const d = store.get(LS_KEY, {}); if (d[u]) delete d[u]; else d[u] = today; store.set(LS_KEY, d); renderInspect(); });
+      return el('li', { class: isDone ? 'done' : null },
+        el('span', { class: 'n', text: `#${idx}` }),
+        el('span', { class: 'u', text: u.replace(/^https:\/\/[^/]+/, '') || '/' }),
+        el('span', { class: 'acts' }, el('a', { class: 'btn go', href: gscLink(u), target: '_blank', rel: 'noopener', text: 'Abrir no Search Console' }), copy, mark));
+    }));
+    const box = $('inspDone');
+    if (!pending.length) {
+      box.hidden = false;
+      box.textContent = 'Todos os links do site já foram enviados ao Google. Daqui para frente: só os artigos novos de cada dia entram aqui, e o foco passa para o relatório de Desempenho (buscas, posições e cliques por cidade).';
+    } else if (doneToday.length >= DAILY_INSPECT) {
+      box.hidden = false;
+      box.textContent = `Limite de hoje concluído. Amanhã a lista começa no link #${all.indexOf(pending[0]) + 1}.`;
+    } else box.hidden = true;
+  }
+  const radios = { domain: $('propDomain'), prefix: $('propPrefix') };
+  radios[propType()].checked = true;
+  Object.values(radios).forEach((r) => r.addEventListener('change', () => { store.set(LS_PROP, r.value); renderInspect(); }));
+
   // Live test from the viewer's browser (same site, so no cloud network limits)
   let liveRunning = false;
   async function liveTest(all) {

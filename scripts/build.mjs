@@ -543,6 +543,18 @@ function writeStatus(urlCount) {
     },
     cities: cityRows,
     recentPosts: posts.filter((p) => !p.legacy).slice(0, 40).map((p) => ({ title: p.title, slug: p.slug, url: `${D}${postUrl(p)}`, city: cityBySlug[p.city] ? cityBySlug[p.city].full : p.city, service: serviceBySlug[p.service] ? serviceBySlug[p.service].short : p.service, date: p.date })),
+    // Order in which to request indexing in Search Console (10 a day): hubs, then cities by distance,
+    // then each city's service pages, then city blogs, then articles (Greer first, newest first).
+    inspectQueue: [...new Set([
+      `${D}/`, `${D}/services/`, `${D}/areas/`, `${D}/faq/`, `${D}/blog.html`,
+      ...cities.map((c) => `${D}${cityUrl(c)}`),
+      ...services.map((s) => `${D}${serviceUrl(s)}`),
+      ...cities.flatMap((c) => services.map((s) => `${D}${cityServiceUrl(c, s)}`)),
+      ...cities.map((c) => `${D}${cityBlogUrl(c)}`),
+      ...posts.filter((p) => !p.legacy && p.city === 'greer-sc').map((p) => `${D}${postUrl(p)}`),
+      ...posts.filter((p) => !p.legacy && p.city !== 'greer-sc').map((p) => `${D}${postUrl(p)}`),
+      ...posts.filter((p) => p.legacy).map((p) => `${D}${postUrl(p)}`),
+    ])],
     nextTopics: [...baseNext, ...queue.slice(0, site.dailyPosts || 4)].map((t) => ({ title: t.title, city: t.cityName, service: t.serviceName })),
   };
   fs.mkdirSync(path.join(ROOT, 'data'), { recursive: true });
