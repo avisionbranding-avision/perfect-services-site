@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   ROOT, site, services, cities, cityBySlug, serviceBySlug, nearby, hash, pick, rotate, shuffle,
-  fill, loadPosts, IMAGE_LABELS, slugify, allEligibleCities,
+  fill, loadPosts, IMAGE_LABELS, slugify, allEligibleCities, topicQueue,
 } from './lib.mjs';
 
 const D = site.domain.replace(/\/$/, '');
@@ -488,7 +488,7 @@ function buildSitemap() {
   const body = urls.filter((u) => (seen.has(u.loc) ? false : seen.add(u.loc)))
     .map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority.toFixed(1)}</priority></url>`).join('\n');
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`);
-  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\n\nSitemap: ${D}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\nDisallow: /painel/\n\nSitemap: ${D}/sitemap.xml\n`);
   return seen.size;
 }
 
@@ -510,4 +510,37 @@ buildPosts();
 buildBlogIndex();
 buildFaq();
 const n = buildSitemap();
+
+// ---------- status file for the monitoring panel (/painel/) ----------
+function writeStatus(urlCount) {
+  const day = (d) => new Date(d).toISOString().slice(0, 10);
+  const launch = Date.parse(`${site.launchDate}T00:00:00Z`);
+  const atLaunch = site.citiesAtLaunch || 8, perDay = site.citiesPerDay || 3;
+  const cityRows = allEligibleCities.map((c, i) => ({
+    name: c.name, st: c.st, slug: c.slug, county: c.county, miles: c.distRound,
+    releaseDate: day(launch + (i < atLaunch ? 0 : Math.ceil((i - atLaunch + 1) / perDay)) * 86400000),
+    live: !!cityBySlug[c.slug],
+    posts: posts.filter((p) => p.city === c.slug).length,
+  }));
+  const published = new Set(posts.map((p) => p.slug));
+  const queue = topicQueue().filter((t) => !published.has(t.slug));
+  const status = {
+    generatedAt: new Date().toISOString(),
+    domain: D,
+    settings: { dailyPosts: site.dailyPosts, citiesPerDay: perDay, launchDate: site.launchDate, paused: !!site.paused },
+    totals: {
+      urls: urlCount,
+      citiesLive: cities.length, citiesTotal: allEligibleCities.length,
+      fixedPagesLive: urlCount - posts.length, fixedPagesTotal: allEligibleCities.length * (services.length + 2) + services.length + 3 + 2,
+      posts: posts.length, legacyPosts: posts.filter((p) => p.legacy).length,
+      queueRemaining: queue.length,
+    },
+    cities: cityRows,
+    recentPosts: posts.filter((p) => !p.legacy).slice(0, 40).map((p) => ({ title: p.title, slug: p.slug, url: `${D}${postUrl(p)}`, city: cityBySlug[p.city] ? cityBySlug[p.city].full : p.city, service: serviceBySlug[p.service] ? serviceBySlug[p.service].short : p.service, date: p.date })),
+    nextTopics: queue.slice(0, 12).map((t) => ({ title: t.title, city: t.cityName, service: t.serviceName })),
+  };
+  fs.mkdirSync(path.join(ROOT, 'data'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, 'data', 'status.json'), `${JSON.stringify(status, null, 1)}\n`);
+}
+writeStatus(n);
 console.log(`Built ${n} URLs: ${services.length} services x ${cities.length} released cities (of ${allEligibleCities.length}), ${posts.length} posts.`);

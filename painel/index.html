@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Painel SEO Perfect Services</title>
+<link rel="icon" href="/images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: control-room board. Status band on top, then a two-column grid of panels that stacks on phones. */
+:root{
+  --bg:#F3F7FA; --panel:#FFFFFF; --ink:#10202E; --muted:#5B6B78; --line:#DCE5EC;
+  --brand:#1273BE; --brand-deep:#08406B; --brand-soft:#E3F0FA;
+  --ok:#1E8A55; --ok-soft:#E3F4EA; --warn:#B26A00; --warn-soft:#FFF2DC; --bad:#C2352B; --bad-soft:#FCE7E5; --idle:#8A97A3;
+  --display:"Montserrat","Arial Black",Arial,sans-serif; --body:"Inter","Segoe UI",Helvetica,Arial,sans-serif; --mono:"JetBrains Mono",Consolas,monospace;
+  --r:12px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0B1620; --panel:#112230; --ink:#E6EEF4; --muted:#93A5B4; --line:#21384A;
+  --brand:#5AB0F0; --brand-deep:#BFE1FA; --brand-soft:#15344D;
+  --ok:#4CC488; --ok-soft:#123326; --warn:#F2B24C; --warn-soft:#3A2C12; --bad:#FF7A6E; --bad-soft:#3D1A17; --idle:#6F8394;
+  color-scheme:dark;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--body)}
+a{color:var(--brand)}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+header.top{background:var(--brand-deep);color:#fff;padding-block:18px}
+@media (prefers-color-scheme:dark){header.top{background:#06121B}}
+.top .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:12px;align-items:center}
+.brand img{width:44px;height:44px;border-radius:10px;background:#fff;object-fit:contain;padding:3px}
+.brand h1{font:800 1.25rem/1.15 var(--display);margin:0;letter-spacing:.01em}
+.brand p{margin:0;font-size:.82rem;opacity:.8}
+.live{display:flex;gap:10px;align-items:center;font-size:.82rem;opacity:.9}
+.dot{width:9px;height:9px;border-radius:50%;background:#6FE7F2;box-shadow:0 0 0 0 rgba(111,231,242,.6)}
+@media (prefers-reduced-motion:no-preference){.dot{animation:pulse 2s infinite}@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(111,231,242,0)}100%{box-shadow:0 0 0 0 rgba(111,231,242,0)}}}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:7px 14px;font:600 .82rem var(--body);text-decoration:none;cursor:pointer}
+.btn:hover{border-color:var(--brand);color:var(--brand)}
+.top .btn{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+.btn:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+
+.band{padding-block:18px}
+.status{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;border-radius:var(--r);padding:16px 20px;border:1px solid var(--line);background:var(--panel)}
+.status[data-s=ok]{background:var(--ok-soft);border-color:transparent}
+.status[data-s=warning]{background:var(--warn-soft);border-color:transparent}
+.status[data-s=error]{background:var(--bad-soft);border-color:transparent}
+.status strong{font:800 1.15rem var(--display)}
+.status .msg{flex:1 1 280px;min-width:0}
+.status .msg p{margin:2px 0 0;color:var(--muted);font-size:.88rem}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font:700 .72rem var(--body);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+.pill::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.pill[data-s=ok]{color:var(--ok);background:var(--ok-soft)}
+.pill[data-s=warning]{color:var(--warn);background:var(--warn-soft)}
+.pill[data-s=error]{color:var(--bad);background:var(--bad-soft)}
+.pill[data-s=pending],.pill[data-s=idle]{color:var(--idle);background:var(--brand-soft)}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr));gap:12px;margin-top:14px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;min-width:0}
+.kpi .lab{font-size:.74rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.kpi .val{font:800 1.9rem/1.1 var(--display);margin-top:6px;font-variant-numeric:tabular-nums}
+.kpi .val small{font:600 .85rem var(--body);color:var(--muted)}
+.kpi .sub{font-size:.8rem;color:var(--muted);margin-top:4px}
+.bar{height:6px;border-radius:6px;background:var(--brand-soft);margin-top:8px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--brand);border-radius:6px;width:0}
+
+.grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:16px;padding-bottom:40px}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+.col{display:grid;gap:16px;align-content:start;min-width:0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px 18px 16px;min-width:0}
+.card h2{font:800 1rem var(--display);margin:0;letter-spacing:.01em}
+.card .note{color:var(--muted);font-size:.83rem;margin:4px 0 12px}
+.head{display:flex;gap:10px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}
+
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.checks li{display:grid;grid-template-columns:4px minmax(0,1fr) auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px 0;overflow:hidden}
+.checks li::before{content:"";align-self:stretch;margin:-10px 0;background:var(--idle)}
+.checks li[data-s=ok]::before{background:var(--ok)}
+.checks li[data-s=warning]::before{background:var(--warn)}
+.checks li[data-s=error]::before{background:var(--bad)}
+.checks b{display:block;font-size:.9rem}
+.checks span{color:var(--muted);font-size:.82rem}
+.fixes{margin:12px 0 0;padding-left:18px;font-size:.85rem}
+
+.hist{display:flex;gap:3px;flex-wrap:wrap;margin-top:12px}
+.hist i{width:10px;height:22px;border-radius:3px;background:var(--idle)}
+.hist i[data-s=ok]{background:var(--ok)}.hist i[data-s=warning]{background:var(--warn)}.hist i[data-s=error]{background:var(--bad)}
+
+.feed{list-style:none;margin:0;padding:0;max-height:420px;overflow:auto}
+.feed li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.feed li:last-child{border-bottom:0}
+.feed .k{grid-row:span 2;align-self:start;margin-top:3px}
+.feed .t{font-weight:600;font-size:.88rem;overflow-wrap:anywhere}
+.feed .w{color:var(--muted);font-size:.78rem;font-family:var(--mono)}
+.tag{display:inline-block;border-radius:6px;padding:2px 7px;font:700 .68rem var(--body);text-transform:uppercase;letter-spacing:.05em;background:var(--brand-soft);color:var(--brand)}
+.tag.art{background:var(--ok-soft);color:var(--ok)}
+.tag.mon{background:var(--brand-soft);color:var(--muted)}
+.tag.fix{background:var(--warn-soft);color:var(--warn)}
+
+.tw{overflow-x:auto;margin-inline:-4px}
+table{width:100%;border-collapse:collapse;font-size:.86rem;font-variant-numeric:tabular-nums}
+th{text-align:left;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700;padding:8px 6px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.pos{font:800 1.05rem var(--display)}
+.pos.top3{color:var(--ok)}.pos.top10{color:var(--brand)}.pos.none{color:var(--idle);font:600 .8rem var(--body)}
+.comp{color:var(--muted);font-size:.8rem}
+.tip{font-size:.8rem;margin-top:4px}
+.empty{color:var(--muted);font-size:.88rem;border:1px dashed var(--line);border-radius:10px;padding:16px;text-align:center}
+
+.cities{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr));gap:6px}
+.city{border:1px solid var(--line);border-radius:8px;padding:7px 9px;font-size:.8rem;min-width:0}
+.city b{display:block;font-size:.84rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.city span{color:var(--muted)}
+.city.live{border-color:transparent;background:var(--ok-soft)}
+.city.live span{color:var(--ok)}
+
+.list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.list li{font-size:.86rem;line-height:1.4}
+.list li span{display:block;color:var(--muted);font-size:.78rem}
+.auto{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.auto li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;font-size:.86rem}
+.auto li i{width:28px;height:28px;border-radius:8px;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;font:800 .8rem var(--display);font-style:normal}
+.auto li b{display:block}
+.auto li span{color:var(--muted)}
+.muted{color:var(--muted)}
+footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand"><img src="/images/logo.png" alt="Perfect Services"><div><h1>Painel SEO Perfect Services</h1><p>Tudo o que o sistema faz, 24 horas por dia</p></div></div>
+    <div class="live"><span class="dot" aria-hidden="true"></span><span id="refreshInfo">Carregando…</span><button class="btn" id="refreshBtn" type="button">Atualizar agora</button></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="band">
+    <div class="status" id="statusBox" data-s="pending">
+      <span class="pill" id="statusPill" data-s="pending">Aguardando</span>
+      <div class="msg"><strong id="statusTitle">Carregando o status do site…</strong><p id="statusSub">O monitor verifica o site a cada 3 horas.</p></div>
+      <a class="btn" href="https://claude.ai/code/routines" target="_blank" rel="noopener">Pausar ou retomar rotinas</a>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="lab">Páginas no ar</div><div class="val" id="kUrls">—</div><div class="sub" id="kUrlsSub">&nbsp;</div></div>
+      <div class="kpi"><div class="lab">Cidades no ar</div><div class="val" id="kCities">—</div><div class="bar"><i id="kCitiesBar"></i></div></div>
+      <div class="kpi"><div class="lab">Páginas fixas</div><div class="val" id="kFixed">—</div><div class="bar"><i id="kFixedBar"></i></div></div>
+      <div class="kpi"><div class="lab">Artigos publicados</div><div class="val" id="kPosts">—</div><div class="sub" id="kPostsSub">&nbsp;</div></div>
+      <div class="kpi"><div class="lab">Próxima postagem</div><div class="val" id="kNext">—</div><div class="sub" id="kNextSub">&nbsp;</div></div>
+      <div class="kpi"><div class="lab">Temas na fila</div><div class="val" id="kQueue">—</div><div class="sub" id="kQueueSub">&nbsp;</div></div>
+    </div>
+  </section>
+
+  <div class="grid">
+    <div class="col">
+      <section class="card" id="checks-card">
+        <div class="head"><h2>Saúde do site</h2><span class="muted" id="checkedAt" style="font-size:.8rem"></span></div>
+        <p class="note">Erros disparam uma notificação imediata no seu celular (app do Claude). Avisos só notificam quando aparecem pela primeira vez.</p>
+        <ul class="checks" id="checks"><li data-s="pending"><div><b>Aguardando a primeira verificação</b><span>O monitor roda a cada 3 horas e grava o resultado aqui.</span></div><span class="pill" data-s="pending">Aguardando</span></li></ul>
+        <ul class="fixes" id="fixes" hidden></ul>
+        <div class="hist" id="hist" aria-label="Últimas verificações"></div>
+      </section>
+
+      <section class="card" id="rank-card">
+        <div class="head"><h2>Posição nas buscas por cidade</h2><span class="muted" id="rankAt" style="font-size:.8rem"></span></div>
+        <p class="note">Busca "house cleaning + cidade". Visão aproximada feita por busca na web, atualizada a cada 3 horas em rodízio de cidades. A posição oficial do Google entra aqui quando o Search Console for conectado.</p>
+        <div class="tw"><table><thead><tr><th>Cidade</th><th>Nossa posição</th><th>Quem está no topo · dica</th></tr></thead><tbody id="rankBody"><tr><td colspan="3"><div class="empty">A primeira leitura de posições aparece aqui após a primeira verificação do monitor.</div></td></tr></tbody></table></div>
+      </section>
+
+      <section class="card">
+        <div class="head"><h2>Liberação das cidades</h2><span class="muted" id="cityInfo" style="font-size:.8rem"></span></div>
+        <p class="note">Verde: no ar. As outras mostram a data em que entram no ar (às 7h de Greer).</p>
+        <div class="cities" id="cities"></div>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="card">
+        <h2>Atividade em tempo real</h2>
+        <p class="note">Cada publicação, verificação e correção feita no site.</p>
+        <ul class="feed" id="feed"><li><span class="tag mon k">…</span><span class="t">Carregando atividade…</span><span class="w"></span></li></ul>
+      </section>
+
+      <section class="card">
+        <h2>Artigos recentes</h2>
+        <p class="note">Os últimos artigos publicados pela rotina diária.</p>
+        <ul class="list" id="posts"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Próximos temas</h2>
+        <p class="note">O que a rotina vai escrever nos próximos dias, em ordem.</p>
+        <ul class="list" id="next"></ul>
+      </section>
+
+      <section class="card">
+        <h2>O que o sistema faz sozinho</h2>
+        <ul class="auto" style="margin-top:12px">
+          <li><i>1</i><div><b>Artigos diários às 7h de Greer</b><span>Escreve os artigos da fila com palavras-chave da cidade, FAQ e links internos, gera o site e publica.</span></div></li>
+          <li><i>2</i><div><b>Libera cidades novas</b><span>Cada publicação coloca no ar as cidades com data de hoje, com as 12 páginas de cada uma.</span></div></li>
+          <li><i>3</i><div><b>Liga tudo por links</b><span>Cada artigo novo aponta para a página do serviço na cidade, para cidades vizinhas e para o FAQ, e aparece no blog da cidade.</span></div></li>
+          <li><i>4</i><div><b>Verifica o site a cada 3 horas</b><span>Geração do site, links quebrados, artigos do dia, cidades liberadas e páginas no ar.</span></div></li>
+          <li><i>5</i><div><b>Corrige o que é seguro</b><span>Link quebrado ou arquivo de artigo com erro de digitação: corrige e republica sozinho. O resto vira alerta no seu celular.</span></div></li>
+          <li><i>6</i><div><b>Acompanha a concorrência</b><span>Pesquisa cada cidade em rodízio, anota quem está no topo e sugere o que melhorar na nossa página.</span></div></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</main>
+<footer class="wrap">Página interna, fora do Google. Dados: site publicado, repositório do GitHub e monitor automático.</footer>
+
+<script>
+(() => {
+  const REPO = 'avisionbranding-avision/perfect-services-site';
+  const RAW = `https://raw.githubusercontent.com/${REPO}/main/`;
+  const API = `https://api.github.com/repos/${REPO}`;
+  const DAILY_UTC_HOUR = 12;
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, attrs = {}, ...kids) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) { if (v == null) continue; if (k === 'text') n.textContent = v; else n.setAttribute(k, v); }
+    kids.flat().forEach((c) => c != null && n.append(c));
+    return n;
+  };
+  const nf = new Intl.NumberFormat('pt-BR');
+  const STATUS = { ok: 'Tudo certo', warning: 'Aviso', error: 'Erro', pending: 'Aguardando', idle: 'Agendada' };
+  const ago = (iso) => {
+    if (!iso) return '';
+    const s = Math.round((Date.now() - Date.parse(iso)) / 1000);
+    if (s < 60) return 'agora';
+    if (s < 3600) return `há ${Math.round(s / 60)} min`;
+    if (s < 86400) return `há ${Math.round(s / 3600)} h`;
+    return `há ${Math.round(s / 86400)} d`;
+  };
+  const when = (iso) => iso ? new Date(iso).toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : '';
+  const getJSON = async (url) => { const r = await fetch(url, { cache: 'no-store' }); if (!r.ok) throw new Error(`${r.status}`); return r.json(); };
+
+  let state = { status: null, health: null, rankings: null, commits: null, commitsAt: 0 };
+
+  function nextRun(paused) {
+    if (paused) return { big: 'Pausada', sub: 'Mude "paused" para false em data/site.json' };
+    const now = new Date();
+    const t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), DAILY_UTC_HOUR, 0, 0));
+    if (t <= now) t.setUTCDate(t.getUTCDate() + 1);
+    const m = Math.round((t - now) / 60000);
+    return { big: m >= 60 ? `${Math.floor(m / 60)}h ${String(m % 60).padStart(2, '0')}` : `${m} min`, sub: `${t.toLocaleString('pt-BR', { weekday: 'short', hour: '2-digit', minute: '2-digit' })} (seu horário)` };
+  }
+
+  function renderStatus() {
+    const s = state.status; if (!s) return;
+    const t = s.totals;
+    $('kUrls').textContent = nf.format(t.urls);
+    $('kUrlsSub').textContent = `Gerado ${ago(s.generatedAt)}`;
+    $('kCities').replaceChildren(nf.format(t.citiesLive), el('small', { text: ` / ${t.citiesTotal}` }));
+    $('kCitiesBar').style.width = `${(100 * t.citiesLive / t.citiesTotal).toFixed(1)}%`;
+    $('kFixed').replaceChildren(nf.format(t.fixedPagesLive), el('small', { text: ` / ${t.fixedPagesTotal}` }));
+    $('kFixedBar').style.width = `${Math.min(100, 100 * t.fixedPagesLive / t.fixedPagesTotal).toFixed(1)}%`;
+    const today = new Date().toISOString().slice(0, 10);
+    const todayCount = s.recentPosts.filter((p) => p.date === today).length;
+    $('kPosts').textContent = nf.format(t.posts);
+    $('kPostsSub').textContent = `${todayCount} hoje · ${s.settings.dailyPosts} por dia`;
+    const nr = nextRun(s.settings.paused);
+    $('kNext').textContent = nr.big; $('kNextSub').textContent = nr.sub;
+    $('kQueue').textContent = nf.format(t.queueRemaining);
+    $('kQueueSub').textContent = `≈ ${Math.ceil(t.queueRemaining / Math.max(1, s.settings.dailyPosts))} dias de conteúdo`;
+
+    const live = s.cities.filter((c) => c.live).length;
+    $('cityInfo').textContent = `${live} de ${s.cities.length} no ar`;
+    $('cities').replaceChildren(...s.cities.map((c) => el('div', { class: `city${c.live ? ' live' : ''}`, title: `${c.county} · ${c.miles} mi de Greer` },
+      el('b', { text: `${c.name}, ${c.st}` }),
+      el('span', { text: c.live ? `No ar · ${c.posts} artigo${c.posts === 1 ? '' : 's'}` : `Entra ${c.releaseDate.split('-').reverse().slice(0, 2).join('/')}` }))));
+
+    $('posts').replaceChildren(...(s.recentPosts.length ? s.recentPosts.slice(0, 8).map((p) => el('li', {}, el('a', { href: p.url, target: '_blank', rel: 'noopener', text: p.title }), el('span', { text: `${p.city} · ${p.service} · ${p.date.split('-').reverse().join('/')}` }))) : [el('li', { class: 'muted', text: 'Nenhum artigo novo ainda.' })]));
+    $('next').replaceChildren(...s.nextTopics.slice(0, 8).map((t2) => el('li', {}, document.createTextNode(t2.title), el('span', { text: `${t2.city} · ${t2.service}` }))));
+  }
+
+  function renderHealth() {
+    const h = state.health;
+    const s = state.status;
+    let overall = h && h.overall ? h.overall : 'pending';
+    if (s && s.settings.paused && overall === 'ok') overall = 'warning';
+    const box = $('statusBox'); box.dataset.s = overall;
+    $('statusPill').dataset.s = overall; $('statusPill').textContent = STATUS[overall] || overall;
+    const bad = h && h.checks ? h.checks.filter((c) => c.status !== 'ok') : [];
+    $('statusTitle').textContent = overall === 'ok' ? 'Site no ar e rotinas funcionando'
+      : overall === 'pending' ? 'Aguardando a primeira verificação do monitor'
+      : (s && s.settings.paused ? 'Postagem diária pausada' : `${bad.length} ponto${bad.length === 1 ? '' : 's'} para olhar`);
+    $('statusSub').textContent = h && h.checkedAt ? `Última verificação ${ago(h.checkedAt)} (${when(h.checkedAt)}).${bad.length ? ` ${bad.map((c) => c.label).join(', ')}.` : ''}` : 'O monitor verifica o site a cada 3 horas e grava o resultado aqui.';
+    if (!h || !h.checks || !h.checks.length) return;
+    $('checkedAt').textContent = `Verificado ${ago(h.checkedAt)}`;
+    const order = { error: 0, warning: 1, ok: 2 };
+    $('checks').replaceChildren(...h.checks.slice().sort((a, b) => (order[a.status] ?? 3) - (order[b.status] ?? 3)).map((c) => el('li', { 'data-s': c.status },
+      el('div', {}, el('b', { text: c.label || c.id }), el('span', { text: c.detail || '' })),
+      el('span', { class: 'pill', 'data-s': c.status, text: STATUS[c.status] || c.status }))));
+    const fx = $('fixes');
+    if (h.fixes && h.fixes.length) { fx.hidden = false; fx.replaceChildren(...h.fixes.map((f) => el('li', { text: `Corrigido automaticamente: ${f}` }))); } else fx.hidden = true;
+    $('hist').replaceChildren(...(h.history || []).slice(0, 60).reverse().map((x) => el('i', { 'data-s': x.overall, title: `${when(x.at)} · ${x.summary || STATUS[x.overall]}` })));
+  }
+
+  function renderRankings() {
+    const r = state.rankings; if (!r || !r.cities) return;
+    const rows = Object.entries(r.cities).map(([slug, c]) => ({ slug, ...c }));
+    if (!rows.length) return;
+    $('rankAt').textContent = r.updatedAt ? `Atualizado ${ago(r.updatedAt)}` : '';
+    rows.sort((a, b) => (a.ourPosition ?? 99) - (b.ourPosition ?? 99) || a.city.localeCompare(b.city));
+    $('rankBody').replaceChildren(...rows.map((c) => {
+      const p = c.ourPosition;
+      const pos = el('div', { class: `pos ${p == null ? 'none' : p <= 3 ? 'top3' : p <= 10 ? 'top10' : ''}`, text: p == null ? (c.error ? 'Erro na busca' : 'Fora do top 10') : `#${p}` });
+      const comp = (c.competitors || []).slice(0, 3).map((x) => `#${x.pos} ${x.name || x.domain}`).join(' · ');
+      return el('tr', {},
+        el('td', {}, el('b', { text: c.city }), el('div', { class: 'comp', text: ago(c.checkedAt) })),
+        el('td', {}, pos),
+        el('td', {}, el('div', { class: 'comp', text: comp || '—' }), c.tip ? el('div', { class: 'tip', text: c.tip }) : null));
+    }));
+  }
+
+  function renderFeed() {
+    const cs = state.commits; if (!cs) return;
+    const kind = (m) => /^Daily articles/i.test(m) ? ['art', 'Artigos'] : /^Monitor fix/i.test(m) ? ['fix', 'Correção'] : /^Monitor/i.test(m) ? ['mon', 'Verificação'] : ['', 'Site'];
+    $('feed').replaceChildren(...cs.map((c) => {
+      const msg = c.commit.message.split('\n')[0].replace(/\s*\[skip netlify\]/i, '');
+      const [k, label] = kind(msg);
+      const at = c.commit.author && c.commit.author.date;
+      return el('li', {}, el('span', { class: `tag ${k} k`, text: label }), el('span', { class: 't', text: msg }), el('span', { class: 'w', text: `${when(at)} · ${ago(at)}` }));
+    }));
+  }
+
+  async function load(force) {
+    $('refreshInfo').textContent = 'Atualizando…';
+    const jobs = [
+      getJSON(`/data/status.json?t=${Date.now()}`).then((d) => { state.status = d; }).catch(() => {}),
+      getJSON(`${RAW}data/health.json?t=${Date.now()}`).then((d) => { state.health = d; }).catch(() => {}),
+      getJSON(`${RAW}data/rankings.json?t=${Date.now()}`).then((d) => { state.rankings = d; }).catch(() => {}),
+    ];
+    if (force || Date.now() - state.commitsAt > 5 * 60 * 1000) {
+      jobs.push(getJSON(`${API}/commits?per_page=30`).then((d) => { state.commits = d; state.commitsAt = Date.now(); }).catch(() => {}));
+    }
+    await Promise.all(jobs);
+    renderStatus(); renderHealth(); renderRankings(); renderFeed();
+    $('refreshInfo').textContent = `Ao vivo · atualizado ${new Date().toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })}`;
+  }
+  $('refreshBtn').addEventListener('click', () => load(true));
+  load(true);
+  setInterval(() => load(false), 2 * 60 * 1000);
+  setInterval(() => { if (state.status) { const nr = nextRun(state.status.settings.paused); $('kNext').textContent = nr.big; } }, 30 * 1000);
+})();
+</script>
+</body>
+</html>

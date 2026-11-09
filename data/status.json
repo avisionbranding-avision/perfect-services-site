@@ -1,0 +1,548 @@
+{
+ "generatedAt": "2026-11-09T05:15:36.246Z",
+ "domain": "https://perfectservicespaintingcleaning.com",
+ "settings": {
+  "dailyPosts": 4,
+  "citiesPerDay": 12,
+  "launchDate": "2026-11-09",
+  "paused": false
+ },
+ "totals": {
+  "urls": 125,
+  "citiesLive": 8,
+  "citiesTotal": 43,
+  "fixedPagesLive": 111,
+  "fixedPagesTotal": 531,
+  "posts": 14,
+  "legacyPosts": 10,
+  "queueRemaining": 625
+ },
+ "cities": [
+  {
+   "name": "Greer",
+   "st": "SC",
+   "slug": "greer-sc",
+   "county": "Greenville and Spartanburg counties",
+   "miles": 1,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 10
+  },
+  {
+   "name": "Taylors",
+   "st": "SC",
+   "slug": "taylors-sc",
+   "county": "Greenville County",
+   "miles": 4,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 4
+  },
+  {
+   "name": "Duncan",
+   "st": "SC",
+   "slug": "duncan-sc",
+   "county": "Spartanburg County",
+   "miles": 5,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 0
+  },
+  {
+   "name": "Lyman",
+   "st": "SC",
+   "slug": "lyman-sc",
+   "county": "Spartanburg County",
+   "miles": 6,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 0
+  },
+  {
+   "name": "Wade Hampton",
+   "st": "SC",
+   "slug": "wade-hampton-sc",
+   "county": "Greenville County",
+   "miles": 6,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 0
+  },
+  {
+   "name": "Wellford",
+   "st": "SC",
+   "slug": "wellford-sc",
+   "county": "Spartanburg County",
+   "miles": 7,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 0
+  },
+  {
+   "name": "Startex",
+   "st": "SC",
+   "slug": "startex-sc",
+   "county": "Spartanburg County",
+   "miles": 7,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 0
+  },
+  {
+   "name": "Reidville",
+   "st": "SC",
+   "slug": "reidville-sc",
+   "county": "Spartanburg County",
+   "miles": 9,
+   "releaseDate": "2026-11-09",
+   "live": true,
+   "posts": 0
+  },
+  {
+   "name": "Five Forks",
+   "st": "SC",
+   "slug": "five-forks-sc",
+   "county": "Greenville County",
+   "miles": 9,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Inman",
+   "st": "SC",
+   "slug": "inman-sc",
+   "county": "Spartanburg County",
+   "miles": 11,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Greenville",
+   "st": "SC",
+   "slug": "greenville-sc",
+   "county": "Greenville County",
+   "miles": 11,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Mauldin",
+   "st": "SC",
+   "slug": "mauldin-sc",
+   "county": "Greenville County",
+   "miles": 12,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Travelers Rest",
+   "st": "SC",
+   "slug": "travelers-rest-sc",
+   "county": "Greenville County",
+   "miles": 12,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Campobello",
+   "st": "SC",
+   "slug": "campobello-sc",
+   "county": "Spartanburg County",
+   "miles": 13,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Moore",
+   "st": "SC",
+   "slug": "moore-sc",
+   "county": "Spartanburg County",
+   "miles": 13,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Simpsonville",
+   "st": "SC",
+   "slug": "simpsonville-sc",
+   "county": "Greenville County",
+   "miles": 14,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Berea",
+   "st": "SC",
+   "slug": "berea-sc",
+   "county": "Greenville County",
+   "miles": 14,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Parker",
+   "st": "SC",
+   "slug": "parker-sc",
+   "county": "Greenville County",
+   "miles": 14,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Gantt",
+   "st": "SC",
+   "slug": "gantt-sc",
+   "county": "Greenville County",
+   "miles": 15,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Roebuck",
+   "st": "SC",
+   "slug": "roebuck-sc",
+   "county": "Spartanburg County",
+   "miles": 15,
+   "releaseDate": "2026-11-10",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Boiling Springs",
+   "st": "SC",
+   "slug": "boiling-springs-sc",
+   "county": "Spartanburg County",
+   "miles": 16,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Marietta",
+   "st": "SC",
+   "slug": "marietta-sc",
+   "county": "Greenville County",
+   "miles": 16,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Landrum",
+   "st": "SC",
+   "slug": "landrum-sc",
+   "county": "Spartanburg County",
+   "miles": 16,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Spartanburg",
+   "st": "SC",
+   "slug": "spartanburg-sc",
+   "county": "Spartanburg County",
+   "miles": 17,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Fountain Inn",
+   "st": "SC",
+   "slug": "fountain-inn-sc",
+   "county": "Greenville and Laurens counties",
+   "miles": 17,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Woodruff",
+   "st": "SC",
+   "slug": "woodruff-sc",
+   "county": "Spartanburg County",
+   "miles": 17,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Powdersville",
+   "st": "SC",
+   "slug": "powdersville-sc",
+   "county": "Anderson County",
+   "miles": 18,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Tryon",
+   "st": "NC",
+   "slug": "tryon-nc",
+   "county": "Polk County",
+   "miles": 19,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Piedmont",
+   "st": "SC",
+   "slug": "piedmont-sc",
+   "county": "Greenville and Anderson counties",
+   "miles": 21,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Pauline",
+   "st": "SC",
+   "slug": "pauline-sc",
+   "county": "Spartanburg County",
+   "miles": 21,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Saluda",
+   "st": "NC",
+   "slug": "saluda-nc",
+   "county": "Polk County",
+   "miles": 22,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Columbus",
+   "st": "NC",
+   "slug": "columbus-nc",
+   "county": "Polk County",
+   "miles": 22,
+   "releaseDate": "2026-11-11",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Easley",
+   "st": "SC",
+   "slug": "easley-sc",
+   "county": "Pickens County",
+   "miles": 23,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Gray Court",
+   "st": "SC",
+   "slug": "gray-court-sc",
+   "county": "Laurens County",
+   "miles": 24,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Pelzer",
+   "st": "SC",
+   "slug": "pelzer-sc",
+   "county": "Anderson County",
+   "miles": 24,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Cowpens",
+   "st": "SC",
+   "slug": "cowpens-sc",
+   "county": "Spartanburg County",
+   "miles": 25,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Chesnee",
+   "st": "SC",
+   "slug": "chesnee-sc",
+   "county": "Spartanburg County",
+   "miles": 25,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Flat Rock",
+   "st": "NC",
+   "slug": "flat-rock-nc",
+   "county": "Henderson County",
+   "miles": 26,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Williamston",
+   "st": "SC",
+   "slug": "williamston-sc",
+   "county": "Anderson County",
+   "miles": 26,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Pacolet",
+   "st": "SC",
+   "slug": "pacolet-sc",
+   "county": "Spartanburg County",
+   "miles": 27,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Pickens",
+   "st": "SC",
+   "slug": "pickens-sc",
+   "county": "Pickens County",
+   "miles": 27,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Liberty",
+   "st": "SC",
+   "slug": "liberty-sc",
+   "county": "Pickens County",
+   "miles": 28,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  },
+  {
+   "name": "Hendersonville",
+   "st": "NC",
+   "slug": "hendersonville-nc",
+   "county": "Henderson County",
+   "miles": 29,
+   "releaseDate": "2026-11-12",
+   "live": false,
+   "posts": 0
+  }
+ ],
+ "recentPosts": [
+  {
+   "title": "Deep cleaning vs. regular cleaning in Taylors: what is the difference?",
+   "slug": "deep-cleaning-vs-regular-cleaning-in-taylors-what-is-the-difference",
+   "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-taylors-what-is-the-difference.html",
+   "city": "Taylors, SC",
+   "service": "Deep cleaning",
+   "date": "2026-11-09"
+  },
+  {
+   "title": "Move-out cleaning checklist for Taylors renters",
+   "slug": "move-out-cleaning-checklist-for-taylors-renters",
+   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-checklist-for-taylors-renters.html",
+   "city": "Taylors, SC",
+   "service": "Move-out cleaning",
+   "date": "2026-11-09"
+  },
+  {
+   "title": "Office cleaning checklist for small businesses in Taylors",
+   "slug": "office-cleaning-checklist-for-small-businesses-in-taylors",
+   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-taylors.html",
+   "city": "Taylors, SC",
+   "service": "Office cleaning",
+   "date": "2026-11-09"
+  },
+  {
+   "title": "The three phases of post-construction cleaning in Taylors",
+   "slug": "the-three-phases-of-post-construction-cleaning-in-taylors",
+   "url": "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-taylors.html",
+   "city": "Taylors, SC",
+   "service": "Post-construction cleaning",
+   "date": "2026-11-09"
+  }
+ ],
+ "nextTopics": [
+  {
+   "title": "What is Brazilian house cleaning? A guide for Taylors homeowners",
+   "city": "Taylors, SC",
+   "service": "Brazilian House Cleaning"
+  },
+  {
+   "title": "Airbnb turnover cleaning checklist for Taylors hosts",
+   "city": "Taylors, SC",
+   "service": "Airbnb & Vacation Rental Cleaning"
+  },
+  {
+   "title": "Apartment cleaning checklist for Taylors renters",
+   "city": "Taylors, SC",
+   "service": "Apartment & Condo Cleaning"
+  },
+  {
+   "title": "Holiday cleaning checklist for Taylors hosts",
+   "city": "Taylors, SC",
+   "service": "One-Time House Cleaning"
+  },
+  {
+   "title": "A guide to eco-friendly house cleaning in Taylors",
+   "city": "Taylors, SC",
+   "service": "Eco-Friendly Green Cleaning"
+  },
+  {
+   "title": "How much does house cleaning cost in Taylors, SC?",
+   "city": "Taylors, SC",
+   "service": "House Cleaning & Maid Service"
+  },
+  {
+   "title": "Move-out cleaning checklist for Duncan renters",
+   "city": "Duncan, SC",
+   "service": "Move-In & Move-Out Cleaning"
+  },
+  {
+   "title": "The three phases of post-construction cleaning in Duncan",
+   "city": "Duncan, SC",
+   "service": "Post-Construction Cleaning"
+  },
+  {
+   "title": "Office cleaning checklist for small businesses in Duncan",
+   "city": "Duncan, SC",
+   "service": "Commercial & Office Cleaning"
+  },
+  {
+   "title": "What is Brazilian house cleaning? A guide for Duncan homeowners",
+   "city": "Duncan, SC",
+   "service": "Brazilian House Cleaning"
+  },
+  {
+   "title": "Airbnb turnover cleaning checklist for Duncan hosts",
+   "city": "Duncan, SC",
+   "service": "Airbnb & Vacation Rental Cleaning"
+  },
+  {
+   "title": "Apartment cleaning checklist for Duncan renters",
+   "city": "Duncan, SC",
+   "service": "Apartment & Condo Cleaning"
+  }
+ ]
+}

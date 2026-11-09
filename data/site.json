@@ -14,6 +14,7 @@
   "googleBusinessProfile": "https://share.google/we1NiMp6n1ipAOppy",
   "includeNorthCarolina": true,
   "dailyPosts": 4,
+  "paused": false,
   "launchDate": "2026-11-09",
   "citiesAtLaunch": 8,
   "citiesPerDay": 12
