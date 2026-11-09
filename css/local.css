@@ -52,3 +52,23 @@
   .chk,.cards,.links{grid-template-columns:1fr}
   .lp{padding:48px 0}
 }
+
+/* ---------- on-page estimate form + booking steps (city x service pages) ---------- */
+.quote-local{background:#fff;border:1.5px solid var(--line);border-radius:20px;padding:26px;display:grid;gap:12px;align-self:start;box-shadow:0 18px 40px rgba(8,64,107,.08)}
+.quote-local h3{font-family:var(--display);font-size:1.35rem;margin:0}
+.quote-local > p{margin:0;color:var(--muted);font-size:.92rem}
+.quote-local .field{display:grid;gap:6px}
+.quote-local label{font-weight:600;font-size:.88rem}
+.quote-local input,.quote-local select,.quote-local textarea{font:inherit;font-size:1rem;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);width:100%;min-width:0}
+.quote-local input:focus,.quote-local select:focus,.quote-local textarea:focus{outline:2px solid var(--blue);outline-offset:1px;border-color:var(--blue)}
+.quote-local .consent{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.8rem;color:var(--muted)}
+.quote-local .consent input{width:auto;margin-top:3px}
+.quote-local .hidden{display:none}
+.quote-local .btn{width:100%;justify-content:center}
+.quote-local .after{font-size:.82rem;color:var(--muted);text-align:center}
+.steps{list-style:none;counter-reset:st;padding:0;margin:16px 0 0;display:grid;gap:12px}
+.steps li{counter-increment:st;display:grid;grid-template-columns:36px minmax(0,1fr);gap:12px;align-items:start}
+.steps li::before{content:counter(st);width:36px;height:36px;border-radius:50%;background:var(--blue);color:#fff;font:800 1rem var(--display);display:grid;place-items:center}
+.rv-q{margin:14px 0 0;padding:16px 18px;background:#fff;border-radius:14px;border:1px solid var(--line)}
+.rv-q p{margin:0;font-style:italic}
+.rv-q cite{display:block;margin-top:8px;font-style:normal;font-size:.85rem;color:var(--muted)}

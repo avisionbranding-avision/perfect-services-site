@@ -219,10 +219,12 @@ export function gbpPlan(day) {
 export function topicQueue() {
   const out = [];
   const maxAngles = Math.max(...services.map((s) => s.angles.length));
+  // Order: for each angle, one article per city before any city gets a second one (k = which of the
+  // city's rotated services), so every region gets fresh content as early as possible.
   for (let a = 0; a < maxAngles; a++) {
-    cities.forEach((city, ci) => {
+    for (let k = 0; k < services.length; k++) cities.forEach((city, ci) => {
       if (site.greerDailyPerService && city.isBase) return; // the base city has its own daily queue
-      rotate(services, ci + a).forEach((svc) => {
+      [rotate(services, ci + a)[k]].forEach((svc) => {
         const ang = svc.angles[a];
         if (!ang) return;
         // Greer already has legacy articles for these angles: skip them to avoid duplicate content

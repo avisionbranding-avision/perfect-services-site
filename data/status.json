@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-09T06:46:18.735Z",
+ "generatedAt": "2026-11-09T06:54:39.186Z",
  "domain": "https://perfectservicespaintingcleaning.com",
  "settings": {
-  "dailyPosts": 4,
+  "dailyPosts": 6,
   "citiesPerDay": 12,
   "launchDate": "2026-11-09",
   "paused": false
@@ -16,7 +16,7 @@
   "posts": 14,
   "legacyPosts": 10,
   "queueRemaining": 3356,
-  "articlesPerDay": 14,
+  "articlesPerDay": 16,
   "greerDaysLeft": 46
  },
  "cities": [
@@ -1084,24 +1084,34 @@
    "service": "Eco-Friendly Green Cleaning"
   },
   {
-   "title": "What is Brazilian house cleaning? A guide for Taylors homeowners",
-   "city": "Taylors, SC",
+   "title": "Move-out cleaning checklist for Duncan renters",
+   "city": "Duncan, SC",
+   "service": "Move-In & Move-Out Cleaning"
+  },
+  {
+   "title": "The three phases of post-construction cleaning in Lyman",
+   "city": "Lyman, SC",
+   "service": "Post-Construction Cleaning"
+  },
+  {
+   "title": "Office cleaning checklist for small businesses in Wade Hampton",
+   "city": "Wade Hampton, SC",
+   "service": "Commercial & Office Cleaning"
+  },
+  {
+   "title": "What is Brazilian house cleaning? A guide for Wellford homeowners",
+   "city": "Wellford, SC",
    "service": "Brazilian House Cleaning"
   },
   {
-   "title": "Airbnb turnover cleaning checklist for Taylors hosts",
-   "city": "Taylors, SC",
+   "title": "Airbnb turnover cleaning checklist for Startex hosts",
+   "city": "Startex, SC",
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
-   "title": "Apartment cleaning checklist for Taylors renters",
-   "city": "Taylors, SC",
+   "title": "Apartment cleaning checklist for Reidville renters",
+   "city": "Reidville, SC",
    "service": "Apartment & Condo Cleaning"
-  },
-  {
-   "title": "Holiday cleaning checklist for Taylors hosts",
-   "city": "Taylors, SC",
-   "service": "One-Time House Cleaning"
   }
  ]
 }

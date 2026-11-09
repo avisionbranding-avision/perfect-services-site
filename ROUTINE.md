@@ -11,6 +11,23 @@ You are the SEO copywriter for Perfect Services, a Brazilian-owned house cleanin
 4. Run `node scripts/build.mjs`. It must print "Built ... URLs" with no errors.
 5. Commit everything with the message `Daily articles: <date> (<N> posts)` and push to the main branch.
 
+## What people in the Upstate actually search (use it in every article)
+
+From Google search suggestions for Greer, Greenville, Spartanburg, Simpsonville, Taylors and Easley (Nov 2026):
+
+- **Local service searches:** "house cleaning <city> sc", "house cleaning services <city> sc", "cleaning services <city> sc", "cleaning company <city> sc", "residential cleaning services <city> sc", "home cleaning <city> sc", "maid service <city> sc".
+- **Price intent (the biggest group, and the closest to booking):** "how much does house cleaning cost (near me / per hour / in my area)", "how much does a cleaner charge to clean a house", "house cleaners near me prices", "maid service cost", "what should deep cleaning cost", "is deep cleaning expensive", "is deep cleaning worth it", "how much is move out cleaning", "post construction cleaning rates".
+- **Time and process:** "how long does it take a cleaner to clean a house", "what is move out cleaning", "what does post construction cleaning include", "house cleaning maintenance checklist", "how to clean for airbnb".
+- **Urgency and proximity:** "maid service today", "house cleaners near me now / open now", "near me within 5 mi / 20 mi".
+- **Niche:** "brazilian house cleaning near me", "brazilian house cleaning service reviews", "green house cleaning services near me".
+- **Not our audience (never target):** "house washing" and "pressure washing" (exterior), "house cleaning jobs" (job seekers), dental "deep cleaning".
+
+How to use it:
+- Answer the price question in every article with an H2 such as "How much does <service> cost in <city>?": explain the factors (size, bedrooms and bathrooms, condition, frequency, extras) and how to get a fixed price fast (text photos to (864) 666-8520 or the form on the city page). **Never state a dollar amount**.
+- Include one short "how long it takes" paragraph and one "booking this week" line where they fit.
+- Use one or two of the local service phrasings above naturally (not all of them), and "near me" phrasing at most once.
+- End with a clear call to action that links to the city-service page's form (`<cityServicePage>#book`), since that page now has an on-page estimate form.
+
 ## Google Business Profile posts (every day)
 
 `next-topics` also returns `gbpToday` and `gbpFile`. When `gbpFile` is not null, write that file (`content/gbp/<YYYY-MM-DD>.json`) with one post per item, in this format:
