@@ -107,7 +107,7 @@
 
   function load() {
     fetch('/api/leads', { credentials: 'same-origin', cache: 'no-store' }).then(function (r) {
-      if (r.status === 404 || r.status === 405) { state.error = 'A aba Leads funciona depois da mudança do site para a Cloudflare. Até lá, os pedidos chegam pelo e-mail de notificação do Netlify.'; return null; }
+      if (r.status === 404 || r.status === 405) { state.error = 'A lista de leads não respondeu. Os pedidos continuam chegando no e-mail da Avision; tente de novo em alguns minutos.'; return null; }
       if (r.status === 401) { state.error = 'Acesso não autorizado. Entre no painel pelo login da Cloudflare (código no seu e-mail) e atualize a página.'; return null; }
       if (r.status === 503) { state.error = 'O banco de leads ainda não foi ligado ao site na Cloudflare (LEADS_DB).'; return null; }
       if (!r.ok) throw new Error(r.status);

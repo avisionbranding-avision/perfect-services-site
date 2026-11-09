@@ -618,7 +618,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     const cs = state.commits; if (!cs) return;
     const kind = (m) => /^Daily articles/i.test(m) ? ['art', 'Artigos'] : /^Monitor fix/i.test(m) ? ['fix', 'Correção'] : /^Monitor/i.test(m) ? ['mon', 'Verificação'] : ['', 'Site'];
     $('feed').replaceChildren(...cs.map((c) => {
-      const msg = c.commit.message.split('\n')[0].replace(/\s*\[skip netlify\]/i, '');
+      const msg = c.commit.message.split('\n')[0].replace(/\s*\[skip (netlify|ci)\]/gi, '');
       const [k, label] = kind(msg);
       const at = c.commit.author && c.commit.author.date;
       return el('li', {}, el('span', { class: `tag ${k} k`, text: label }), el('span', { class: 't', text: msg }), el('span', { class: 'w', text: `${when(at)} · ${ago(at)}` }));

@@ -5,7 +5,7 @@
   var AUTO = {
     site: [
       ['Todo dia, 7h', '32 artigos de uma vez, publicados juntos: 20 de Greer (2 por serviço) e 12 de outras cidades, com palavras-chave das buscas da região, FAQ e links para a página do serviço na cidade.'],
-      ['Todo dia, 7h (na mesma publicação)', 'Blog das cidades, FAQ central, sitemap e links internos atualizados sozinhos. Uma publicação no Netlify por dia.'],
+      ['Todo dia, 7h (na mesma publicação)', 'Blog das cidades, FAQ central, sitemap e links internos atualizados sozinhos. Uma publicação por dia na Cloudflare.'],
       ['A cada 3 horas', 'Monitor: saúde do site, links quebrados, posição de 6 cidades nas buscas e cadastros em diretórios. Correções entram na publicação das 7h; só publica na hora se o site quebrar.'],
       ['Toda segunda', 'Com os prints que você manda do Search Console e do Analytics: reforço das páginas entre a posição 8 e 20 e ajuste dos temas dos artigos.'],
     ],

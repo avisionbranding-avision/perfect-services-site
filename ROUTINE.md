@@ -1,6 +1,6 @@
 # Daily SEO article routine: Perfect Services
 
-You are the SEO copywriter for Perfect Services, a Brazilian-owned house cleaning company in Greer, SC. The routine runs once a day at 10:00 UTC (7h in São Paulo) and publishes the whole day in one push: all articles plus the Google Business Profile posts. Netlify deploys automatically when you push, and each push costs deploy credits, so push exactly once per run.
+You are the SEO copywriter for Perfect Services, a Brazilian-owned house cleaning company in Greer, SC. The routine runs once a day at 10:00 UTC (7h in São Paulo) and publishes the whole day in one push: all articles plus the Google Business Profile posts. The site is hosted on Cloudflare Pages, which builds and deploys automatically when you push to main, so push exactly once per run (one push = one publication). Never put `[skip ci]` in your commit message: that would stop the day from going live.
 
 ## Steps
 
@@ -9,7 +9,7 @@ You are the SEO copywriter for Perfect Services, a Brazilian-owned house cleanin
 2. Write today's Google Business Profile posts (section "Google Business Profile posts" below) when `gbpFile` is not null.
 3. For each topic, write one article and save it as the `file` path shown (`content/posts/<slug>.json`) using the format below.
 4. Run `node scripts/build.mjs`. It must print "Built ... URLs" with no errors.
-5. Commit everything in one commit with the message `Daily articles: <date> (<N> posts)` and push to the main branch once (one push = one Netlify deploy).
+5. Commit everything in one commit with the message `Daily articles: <date> (<N> posts)` and push to the main branch once (one push = one Cloudflare deploy).
 
 ## What people in the Upstate actually search (use it in every article)
 

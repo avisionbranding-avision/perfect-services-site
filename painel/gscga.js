@@ -32,7 +32,7 @@
       steps: ['Aba "Site e SEO" → seção "Inspecionar hoje no Google"', 'Abra cada link → Solicitar indexação → marque Feito'], link: '#inspecionar', time: '5 min' },
     { id: 'ga-leads', when: 'daily', tool: 'Analytics', title: 'Conferir os pedidos de orçamento de ontem',
       why: 'Lead respondido rápido fecha mais. Confere se nenhum pedido ficou sem retorno.',
-      steps: ['Analytics → Relatórios → Engajamento → Eventos', 'Veja generate_lead, click_call e click_sms de ontem', 'Compare com os pedidos recebidos no Netlify/e-mail: todos foram respondidos?'], link: GA, time: '3 min' },
+      steps: ['Analytics → Relatórios → Engajamento → Eventos', 'Veja generate_lead, click_call e click_sms de ontem', 'Compare com os pedidos recebidos na aba Leads: todos foram respondidos?'], link: GA, time: '3 min' },
     // ---- weekly (Mondays) ----
     { id: 'gsc-pages', when: 'weekly', tool: 'Search Console', title: 'Quantas páginas o Google já indexou',
       why: 'Mostra se o Google está aceitando as páginas e os artigos diários.',
