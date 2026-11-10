@@ -23,18 +23,23 @@ function failPage() {
   return new Response('<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Perfect Services</title><body style="font:16px/1.5 system-ui;max-width:520px;margin:40px auto;padding:0 16px"><h1>Sorry, something went wrong</h1><p>We could not receive your request. Please call <a href="tel:+18643995168">(864) 399-5168</a> or text <a href="sms:+18646668520">(864) 666-8520</a> and we will schedule your free in-home estimate.</p></body>', { status: 500, headers: { 'content-type': 'text/html; charset=utf-8' } });
 }
 
-// Sends one email through Resend. Returns true when accepted.
+// Sends one email through Resend. Returns true when accepted. lastMail keeps a short, secret-free status for diagnosis.
+export let lastMail = '';
 export async function sendResend(env, to, subject, html, text) {
   const list = String(to || '').split(',').map((s) => s.trim()).filter(Boolean);
-  if (!env.RESEND_API_KEY || !list.length) return false;
+  const key = String(env.RESEND_API_KEY || '').trim();
+  if (!key) { lastMail = 'no-key'; return false; }
+  if (!list.length) { lastMail = 'no-recipient'; return false; }
+  if (!key.startsWith('re_')) { lastMail = 'key-not-re_'; return false; }
   try {
     const r = await fetch('https://api.resend.com/emails', {
       method: 'POST',
-      headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+      headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' },
       body: JSON.stringify({ from: env.LEAD_EMAIL_FROM || 'Perfect Services Leads <onboarding@resend.dev>', to: list, subject, html, text }),
     });
+    lastMail = r.ok ? 'sent' : `resend-${r.status}`;
     return r.ok;
-  } catch { return false; }
+  } catch { lastMail = 'network-error'; return false; }
 }
 
 const telHref = (p) => { let d = String(p || '').replace(/\D/g, ''); if (d.length === 10) d = `1${d}`; return d ? `+${d}` : ''; };
@@ -90,7 +95,10 @@ export async function onRequestPost({ request, env }) {
   }
   const emailed = await sendEmail(env, lead);
   if (!saved && !emailed) return failPage();
-  return thanks(request);
+  const res = thanks(request);
+  const out = new Response(null, res);
+  out.headers.set('x-lead-mail', lastMail || 'unknown');
+  return out;
 }
 
 export function onRequest() {
