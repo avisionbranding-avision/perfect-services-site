@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Painel SEO Perfect Services</title>
+<title>Central do site · Perfect Services</title>
 <link rel="icon" href="/images/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -206,12 +206,13 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 .kit p{margin:0;font-size:.86rem;overflow-wrap:anywhere;grid-column:1}
 .kit .btn{grid-row:1 / span 2;grid-column:2;align-self:center}
 @media (max-width:560px){.insp li{grid-template-columns:auto minmax(0,1fr)}.insp .acts{grid-column:1 / -1;justify-content:flex-start}}
+.subnav{display:flex;gap:8px;flex-wrap:wrap}.subnav a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:.84rem;text-decoration:none;color:inherit;background:var(--card, #fff)}
 </style>
 </head>
 <body>
 <header class="top">
   <div class="wrap">
-    <div class="brand"><img src="/images/logo.png" alt="Perfect Services"><div><h1>Painel SEO Perfect Services</h1><p>Tudo o que o sistema faz, 24 horas por dia</p></div></div>
+    <div class="brand"><img src="/images/logo.png" alt="Perfect Services"><div><h1>Central do site · Perfect Services</h1><p>SEO, Google, leads e técnica em tempo real</p></div></div>
     <div class="live"><span class="dot" aria-hidden="true"></span><span id="refreshInfo">Carregando…</span><button class="btn" id="refreshBtn" type="button">Atualizar agora</button></div>
   </div>
 </header>
@@ -234,15 +235,15 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
   </section>
 
   <nav class="tabs" role="tablist" aria-label="Áreas do painel">
+    <button type="button" role="tab" id="tab-hoje" data-tab="hoje" aria-selected="true">Hoje</button>
     <button type="button" role="tab" id="tab-leads" data-tab="leads" aria-selected="false">Leads <span class="badge" id="leadBadge" hidden></span></button>
-    <button type="button" role="tab" id="tab-agenda" data-tab="agenda" aria-selected="false">Agenda de SEO</button>
-    <button type="button" role="tab" id="tab-site" data-tab="site" aria-selected="true">Site e SEO</button>
+    <button type="button" role="tab" id="tab-seo" data-tab="seo" aria-selected="false">SEO do site</button>
+    <button type="button" role="tab" id="tab-melhorias-seo" data-tab="melhorias-seo" aria-selected="false">Melhorias SEO 24h <span class="badge" id="seoBadge" hidden></span></button>
+    <button type="button" role="tab" id="tab-google" data-tab="google" aria-selected="false">Google: GA4, GTM e Search <span class="badge" id="ggBadge" hidden></span></button>
     <button type="button" role="tab" id="tab-gmn" data-tab="gmn" aria-selected="false">Google Meu Negócio <span class="badge" id="gmnBadge" hidden></span></button>
-    <button type="button" role="tab" id="tab-melhorias" data-tab="melhorias" aria-selected="false">Melhorias Google <span class="badge" id="melBadge" hidden></span></button>
-    <button type="button" role="tab" id="tab-avaliacoes" data-tab="avaliacoes" aria-selected="false">Avaliações <span class="badge" id="revBadge" hidden></span></button>
-    <button type="button" role="tab" id="tab-gscga" data-tab="gscga" aria-selected="false">Search Console & Analytics <span class="badge" id="ggBadge" hidden></span></button>
-    <button type="button" role="tab" id="tab-google" data-tab="google" aria-selected="false">Configuração Google <span class="badge" id="gcBadge" hidden></span></button>
+    <button type="button" role="tab" id="tab-tecnico" data-tab="tecnico" aria-selected="false">Técnico <span class="badge" id="tecBadge" hidden></span></button>
   </nav>
+  <div hidden aria-hidden="true"><span class="badge" id="melBadge" hidden></span><span class="badge" id="revBadge" hidden></span><span class="badge" id="gcBadge" hidden></span></div>
 
   <div data-panel="leads" hidden style="padding-bottom:40px">
     <section class="card" style="margin-bottom:16px">
@@ -264,7 +265,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     <div class="gposts" id="leadList"><div class="empty">Carregando…</div></div>
   </div>
 
-  <div data-panel="agenda" hidden style="padding-bottom:40px">
+  <div data-panel="hoje" hidden style="padding-bottom:40px">
     <section class="card assist" style="margin-bottom:16px">
       <div><h2>Assistente de IA</h2><p class="note" style="margin:4px 0 0">Ficou com dúvida em algum checklist? O assistente conhece toda a operação e responde passo a passo. Abre no Claude, logado na sua conta.</p></div>
       <a class="btn go" id="agAssistant" href="#" target="_blank" rel="noopener">Abrir o assistente</a>
@@ -282,24 +283,71 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     </div>
   </div>
 
-  <div data-panel="gscga" hidden style="padding-bottom:40px">
-    <section class="card" style="margin-bottom:16px">
-      <div class="head"><h2>Rotina do Search Console e do Analytics</h2><span class="pill" id="ggPill" data-s="pending">—</span></div>
-      <p class="note">O que fazer, em que dia e como. Leva cerca de 8 minutos por dia e 15 minutos às segundas. Nos itens marcados, mande os prints para o Claude: eu analiso e aplico as melhorias no site e nos artigos.</p>
-    </section>
-    <div class="grid" style="padding-bottom:0">
-      <div class="col">
-        <section class="card"><h2>Todo dia</h2><p class="note">De manhã, depois da notificação das 7h.</p><div class="tasks" id="gg-daily"></div></section>
-        <section class="card"><h2>Toda segunda-feira</h2><p class="note">Revisão da semana anterior.</p><div class="tasks" id="gg-weekly"></div></section>
-      </div>
-      <div class="col">
-        <section class="card"><h2>Configuração (uma vez)</h2><p class="note">A configuração do Analytics, do Search Console e do Tag Manager agora fica na aba <a href="#google">Configuração Google</a>.</p></section>
-        <section class="card"><h2>Todo dia 1º do mês</h2><p class="note">Fechamento do mês e relatório para o cliente.</p><div class="tasks" id="gg-monthly"></div></section>
-      </div>
+  <div class="grid" data-panel="seo">
+    <div class="col">
+      <section class="card" id="inspecionar">
+        <div class="head"><h2>Inspecionar hoje no Google</h2><span class="pill" id="inspPill" data-s="pending">—</span></div>
+        <p class="note">10 links por dia, em ordem de prioridade. Para cada um: <b>Abrir no Search Console</b> → espere carregar → <b>Solicitar indexação</b> → volte e marque <b>Feito</b>. Amanhã a lista continua de onde parou.</p>
+        <div class="bar" style="height:8px"><i id="inspBar"></i></div>
+        <p class="muted" id="inspProgress" style="font-size:.82rem;margin:6px 0 12px">&nbsp;</p>
+        <ol class="insp" id="inspList"></ol>
+        <div id="inspDone" hidden class="empty" style="margin-top:10px"></div>
+        <details style="margin-top:12px;font-size:.82rem"><summary class="muted" style="cursor:pointer">O link abre com erro no Search Console?</summary>
+          <p class="muted">O tipo de propriedade do seu Search Console decide o formato do link. Troque aqui e tente de novo:</p>
+          <label style="display:flex;gap:8px;align-items:center"><input type="radio" name="propType" id="propDomain" value="domain"> Domínio (sc-domain)</label>
+          <label style="display:flex;gap:8px;align-items:center;margin-top:4px"><input type="radio" name="propType" id="propPrefix" value="prefix"> Prefixo do URL (https://…)</label>
+          <p class="muted">O progresso fica salvo neste navegador. Use sempre o mesmo aparelho para inspecionar.</p>
+        </details>
+      </section>
+
+      <section class="card" id="diretorios">
+        <div class="head"><h2>Diretórios: o caminho para o top 1 local</h2><span class="pill" id="citPill" data-s="pending">—</span></div>
+        <p class="note">Care.com, Angi, HomeAdvisor e Thumbtack ocupam o topo nas cidades. Cadastre a Perfect Services em cada um, sempre com os mesmos dados do kit abaixo. O monitor procura os perfis sozinho e marca aqui quando cada um aparece na internet.</p>
+        <div class="bar" style="height:8px"><i id="citBar"></i></div>
+        <p class="muted" id="citProgress" style="font-size:.82rem;margin:6px 0 12px">&nbsp;</p>
+        <ol class="insp" id="citList"></ol>
+        <details style="margin-top:14px" open><summary style="cursor:pointer;font-weight:700">Kit de cadastro: copie e cole em cada site</summary>
+          <ul class="kit" id="kitList"></ul>
+        </details>
+      </section>
+
+      <section class="card">
+        <div class="head"><h2>Liberação das cidades</h2><span class="muted" id="cityInfo" style="font-size:.8rem"></span></div>
+        <p class="note">Verde: no ar. As outras mostram a data em que entram no ar (às 7h de Greer).</p>
+        <div class="cities" id="cities"></div>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="card">
+        <h2>Atividade em tempo real</h2>
+        <p class="note">Cada publicação, verificação e correção feita no site.</p>
+        <ul class="feed" id="feed"><li><span class="tag mon k">…</span><span class="t">Carregando atividade…</span><span class="w"></span></li></ul>
+      </section>
+
+      <section class="card">
+        <h2>Artigos recentes</h2>
+        <p class="note">Os últimos artigos publicados pela rotina diária.</p>
+        <ul class="list" id="posts"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Próximos temas</h2>
+        <p class="note">O que a rotina vai escrever na próxima execução.</p>
+        <ul class="list" id="next"></ul>
+      </section>
+
     </div>
   </div>
-
-  <div data-panel="google" hidden style="padding-bottom:40px">
+  <div data-panel="google" style="padding-bottom:16px">
+    <section class="card" id="google-agora">
+      <div class="head"><h2>Google agora</h2><span class="pill" id="glPill" data-s="pending">Conferindo…</span></div>
+      <p class="note">Testado ao vivo a partir deste navegador sempre que o painel atualiza. Para números de visitas e buscas, use os atalhos: o Google não deixa mostrar esses relatórios fora da conta dele.</p>
+      <ul class="checks" id="glChecks"><li data-s="pending"><div><b>Conferindo…</b><span>&nbsp;</span></div><span class="pill" data-s="pending">…</span></li></ul>
+      <div class="acts" style="display:flex;gap:6px;flex-wrap:wrap;margin-top:12px" id="glLinks"></div>
+    </section>
+  </div>
+  <div data-panel="google" id="google-config" hidden style="padding-bottom:40px">
     <section class="card" style="margin-bottom:16px">
       <div class="head"><h2>Configuração do Google</h2><span class="pill" id="gcPill" data-s="pending">—</span></div>
       <p class="note">Tudo o que falta configurar uma vez no Search Console, no Tag Manager (GTM) e no Analytics (GA4). Cada item diz quem faz: <b>VOC</b> é você, <b>CL</b> é o Claude. Os itens do Search Console liberam sozinhos quando o domínio estiver na Cloudflare. O progresso fica salvo neste navegador.</p>
@@ -316,7 +364,121 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     </div>
   </div>
 
-  <div data-panel="avaliacoes" hidden style="padding-bottom:40px">
+  <div data-panel="google" id="google-rotina" hidden style="padding-bottom:40px">
+    <section class="card" style="margin-bottom:16px">
+      <div class="head"><h2>Rotina do Search Console e do Analytics</h2><span class="pill" id="ggPill" data-s="pending">—</span></div>
+      <p class="note">O que fazer, em que dia e como. Leva cerca de 8 minutos por dia e 15 minutos às segundas. Nos itens marcados, mande os prints para o Claude: eu analiso e aplico as melhorias no site e nos artigos.</p>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card"><h2>Todo dia</h2><p class="note">De manhã, depois da notificação das 7h.</p><div class="tasks" id="gg-daily"></div></section>
+        <section class="card"><h2>Toda segunda-feira</h2><p class="note">Revisão da semana anterior.</p><div class="tasks" id="gg-weekly"></div></section>
+      </div>
+      <div class="col">
+        <section class="card"><h2>Todo dia 1º do mês</h2><p class="note">Fechamento do mês e relatório para o cliente.</p><div class="tasks" id="gg-monthly"></div></section>
+      </div>
+    </div>
+  </div>
+
+  <div data-panel="melhorias-seo" style="padding-bottom:40px">
+    <section class="card" style="margin-bottom:16px">
+      <div class="head"><h2>Melhorias de SEO: o Claude trabalhando 24 horas</h2><span class="pill" id="seoPill" data-s="pending">—</span></div>
+      <p class="note">A cada 3 horas o monitor analisa o site, as buscas por cidade e a concorrência e anota aqui cada ponto de melhoria. O que é seguro ele mesmo corrige; o resto fica marcado para você ou para uma sessão com o Claude. Atualiza sozinho.</p>
+      <div class="kpis" style="margin-top:0">
+        <div class="kpi"><div class="lab">Em andamento</div><div class="val" id="seoK1">—</div></div>
+        <div class="kpi"><div class="lab">Para você</div><div class="val" id="seoK2">—</div></div>
+        <div class="kpi"><div class="lab">Feitas nos últimos 7 dias</div><div class="val" id="seoK3">—</div></div>
+      </div>
+      <p class="vnote" id="seoNow" style="margin:12px 0 0;padding:10px 12px;border-radius:8px;background:var(--ok-soft, #e9f7ef)">Carregando…</p>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card"><h2>Abertas</h2><p class="note">Da mais importante para a menos importante.</p><div class="tasks" id="seoOpen"></div></section>
+      </div>
+      <div class="col">
+        <section class="card"><h2>Feitas</h2><p class="note">O que já foi aplicado no site e quando.</p><div class="tasks" id="seoDone"></div></section>
+      <section class="card" id="rank-card">
+        <div class="head"><h2>Posição nas buscas por cidade</h2><span class="muted" id="rankAt" style="font-size:.8rem"></span></div>
+        <p class="note">Busca "house cleaning + cidade". Visão aproximada feita por busca na web, atualizada a cada 3 horas em rodízio de cidades. A posição oficial do Google entra aqui quando o Search Console for conectado.</p>
+        <div class="tw"><table><thead><tr><th>Cidade</th><th>Nossa posição</th><th>Quem está no topo · dica</th></tr></thead><tbody id="rankBody"><tr><td colspan="3"><div class="empty">A primeira leitura de posições aparece aqui após a primeira verificação do monitor.</div></td></tr></tbody></table></div>
+      </section>
+
+      </div>
+    </div>
+  </div>
+  <div data-panel="gmn" style="padding-bottom:12px">
+    <nav class="subnav" aria-label="Seções do Google Meu Negócio"><a href="#gmn-posts">Posts para copiar</a><a href="#gmn-melhorias">Atualizações do perfil</a><a href="#gmn-avaliacoes">Avaliações</a></nav>
+  </div>
+  <div class="grid" data-panel="gmn" id="gmn-posts" hidden>
+    <div class="col">
+      <section class="card" id="gmn-hoje">
+        <div class="head"><h2>Posts de hoje para o Google Meu Negócio</h2><span class="pill" id="gmnPill" data-s="pending">—</span></div>
+        <p class="note">Cada post já vem com o texto, o botão, o link da página certa (serviço + cidade) e a foto. Publique em <b>business.google.com</b> → <b>Adicionar atualização</b>, depois marque <b>Publicado</b> aqui.</p>
+        <div id="gmnToday" class="gposts"><div class="empty">Os posts de hoje aparecem aqui depois da execução diária (7h de Greer).</div></div>
+      </section>
+      <section class="card" id="gmn-pendentes" hidden>
+        <h2>Posts de dias anteriores ainda não publicados</h2>
+        <p class="note">Publique estes primeiro, do mais antigo para o mais novo. No máximo 3 a 4 por dia, para o Google não segurar o perfil.</p>
+        <div id="gmnPending" class="gposts"></div>
+      </section>
+    </div>
+    <div class="col">
+      <section class="card">
+        <div class="head"><h2>Saúde do Google Meu Negócio</h2><span class="pill" id="gmnHealthPill" data-s="pending">—</span></div>
+        <p class="note">Ritmo de postagem (marcado por você aqui) e a nota pública do perfil (lida pelo monitor na web).</p>
+        <div class="kpis" style="margin-top:0;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr))">
+          <div class="kpi"><div class="lab">Posts em 7 dias</div><div class="val" id="g7">—</div><div class="sub" id="g7sub">&nbsp;</div></div>
+          <div class="kpi"><div class="lab">Dias seguidos</div><div class="val" id="gStreak">—</div><div class="sub">postando</div></div>
+          <div class="kpi"><div class="lab">Nota no Google</div><div class="val" id="gRating">—</div><div class="sub" id="gRatingSub">&nbsp;</div></div>
+        </div>
+        <h3 class="sub3">Configuração do perfil</h3>
+        <ul class="checklist" id="gmnChecklist"></ul>
+        <p style="margin:10px 0 0"><a class="btn" href="#melhorias" id="goMel">Abrir Melhorias Google</a></p>
+      </section>
+      <section class="card">
+        <h2>Configuração única: serviços do perfil</h2>
+        <p class="note">No perfil: <b>Editar perfil → Serviços</b>. Adicione cada serviço com esta descrição (máx. 300 caracteres).</p>
+        <ul class="kit" id="gmnServices"></ul>
+      </section>
+      <section class="card">
+        <h2>Como publicar um post (1 minuto)</h2>
+        <ol class="howto">
+          <li>Abra <b>business.google.com</b> (ou pesquise "Perfect Services Cleaning" logado na conta do perfil) e clique em <b>Adicionar atualização</b>.</li>
+          <li><b>Foto:</b> clique em "Abrir foto", salve a imagem e envie no post.</li>
+          <li><b>Descrição:</b> clique em "Copiar texto" e cole.</li>
+          <li><b>Botão:</b> escolha o botão indicado ("Saiba mais" ou "Reservar") e cole o <b>link</b> copiado.</li>
+          <li>Clique em <b>Publicar</b> e volte aqui para marcar <b>Publicado</b>.</li>
+        </ol>
+      </section>
+    </div>
+  </div>
+
+  <div data-panel="gmn" id="gmn-melhorias" hidden style="padding-bottom:40px">
+    <section class="card" style="margin-bottom:16px">
+      <div class="head"><h2>Melhorias do Google Meu Negócio</h2><span class="pill" id="melPill" data-s="pending">—</span></div>
+      <p class="note" id="melHow">Logada na conta que administra o perfil, pesquise no Google "Perfect Services Cleaning Greer" ou acesse business.google.com e clique em Editar perfil.</p>
+      <div class="bar" style="height:8px"><i id="melBar"></i></div>
+      <p class="muted" id="melProgress" style="font-size:.82rem;margin:6px 0 0">&nbsp;</p>
+    </section>
+    <div class="grid" style="padding-bottom:0">
+      <div class="col">
+        <section class="card">
+          <h2>Sugestões de agora</h2>
+          <p class="note">O monitor revisa o perfil, as buscas e a concorrência a cada 3 horas e coloca aqui o que mais pode fazer o perfil subir. <span id="sugAt"></span></p>
+          <div class="tasks" id="sugList"><div class="empty">Nenhuma sugestão nova no momento.</div></div>
+        </section>
+      </div>
+      <div class="col">
+        <section class="card">
+          <h2>Configuração do perfil (fazer uma vez)</h2>
+          <p class="note">Marque como feito conforme for salvando no Google. O Google pode levar alguns dias para aprovar cada mudança.</p>
+          <div class="tasks" id="setupList"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div data-panel="gmn" id="gmn-avaliacoes" hidden style="padding-bottom:40px">
     <section class="card" style="margin-bottom:16px">
       <div class="head"><h2>Avaliações do Google</h2><span class="pill" id="revPill" data-s="pending">—</span></div>
       <p class="note" id="revStatus">Carregando…</p>
@@ -372,103 +534,20 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     </div>
   </div>
 
-  <div data-panel="melhorias" hidden style="padding-bottom:40px">
-    <section class="card" style="margin-bottom:16px">
-      <div class="head"><h2>Melhorias do Google Meu Negócio</h2><span class="pill" id="melPill" data-s="pending">—</span></div>
-      <p class="note" id="melHow">Logada na conta que administra o perfil, pesquise no Google "Perfect Services Cleaning Greer" ou acesse business.google.com e clique em Editar perfil.</p>
-      <div class="bar" style="height:8px"><i id="melBar"></i></div>
-      <p class="muted" id="melProgress" style="font-size:.82rem;margin:6px 0 0">&nbsp;</p>
-    </section>
+  <div data-panel="tecnico" style="padding-bottom:40px">
     <div class="grid" style="padding-bottom:0">
       <div class="col">
-        <section class="card">
-          <h2>Sugestões de agora</h2>
-          <p class="note">O monitor revisa o perfil, as buscas e a concorrência a cada 3 horas e coloca aqui o que mais pode fazer o perfil subir. <span id="sugAt"></span></p>
-          <div class="tasks" id="sugList"><div class="empty">Nenhuma sugestão nova no momento.</div></div>
+        <section class="card" id="tec-stack">
+          <div class="head"><h2>Onde o site roda</h2><span class="pill" id="tecPill" data-s="pending">Conferindo…</span></div>
+          <p class="note">GitHub guarda o código e os artigos, a Cloudflare publica e responde ao visitante, o Resend envia o e-mail de cada lead. O Netlify não é mais usado.</p>
+          <ul class="checks" id="tecChecks"><li data-s="pending"><div><b>Conferindo…</b><span>&nbsp;</span></div><span class="pill" data-s="pending">…</span></li></ul>
         </section>
-      </div>
-      <div class="col">
         <section class="card">
-          <h2>Configuração do perfil (fazer uma vez)</h2>
-          <p class="note">Marque como feito conforme for salvando no Google. O Google pode levar alguns dias para aprovar cada mudança.</p>
-          <div class="tasks" id="setupList"></div>
+          <h2>Rotinas automáticas</h2>
+          <p class="note">Rodam na nuvem do Claude, com o notebook desligado.</p>
+          <ul class="checks" id="tecRoutines"></ul>
+          <div class="acts" style="margin-top:10px"><a class="btn" href="https://claude.ai/code/routines" target="_blank" rel="noopener">Abrir rotinas</a></div>
         </section>
-      </div>
-    </div>
-  </div>
-
-  <div class="grid" data-panel="gmn" hidden>
-    <div class="col">
-      <section class="card" id="gmn-hoje">
-        <div class="head"><h2>Posts de hoje para o Google Meu Negócio</h2><span class="pill" id="gmnPill" data-s="pending">—</span></div>
-        <p class="note">Cada post já vem com o texto, o botão, o link da página certa (serviço + cidade) e a foto. Publique em <b>business.google.com</b> → <b>Adicionar atualização</b>, depois marque <b>Publicado</b> aqui.</p>
-        <div id="gmnToday" class="gposts"><div class="empty">Os posts de hoje aparecem aqui depois da execução diária (7h de Greer).</div></div>
-      </section>
-      <section class="card" id="gmn-pendentes" hidden>
-        <h2>Posts de dias anteriores ainda não publicados</h2>
-        <p class="note">Publique estes primeiro, do mais antigo para o mais novo. No máximo 3 a 4 por dia, para o Google não segurar o perfil.</p>
-        <div id="gmnPending" class="gposts"></div>
-      </section>
-    </div>
-    <div class="col">
-      <section class="card">
-        <div class="head"><h2>Saúde do Google Meu Negócio</h2><span class="pill" id="gmnHealthPill" data-s="pending">—</span></div>
-        <p class="note">Ritmo de postagem (marcado por você aqui) e a nota pública do perfil (lida pelo monitor na web).</p>
-        <div class="kpis" style="margin-top:0;grid-template-columns:repeat(auto-fit,minmax(min(100%,130px),1fr))">
-          <div class="kpi"><div class="lab">Posts em 7 dias</div><div class="val" id="g7">—</div><div class="sub" id="g7sub">&nbsp;</div></div>
-          <div class="kpi"><div class="lab">Dias seguidos</div><div class="val" id="gStreak">—</div><div class="sub">postando</div></div>
-          <div class="kpi"><div class="lab">Nota no Google</div><div class="val" id="gRating">—</div><div class="sub" id="gRatingSub">&nbsp;</div></div>
-        </div>
-        <h3 class="sub3">Configuração do perfil</h3>
-        <ul class="checklist" id="gmnChecklist"></ul>
-        <p style="margin:10px 0 0"><a class="btn" href="#melhorias" id="goMel">Abrir Melhorias Google</a></p>
-      </section>
-      <section class="card">
-        <h2>Configuração única: serviços do perfil</h2>
-        <p class="note">No perfil: <b>Editar perfil → Serviços</b>. Adicione cada serviço com esta descrição (máx. 300 caracteres).</p>
-        <ul class="kit" id="gmnServices"></ul>
-      </section>
-      <section class="card">
-        <h2>Como publicar um post (1 minuto)</h2>
-        <ol class="howto">
-          <li>Abra <b>business.google.com</b> (ou pesquise "Perfect Services Cleaning" logado na conta do perfil) e clique em <b>Adicionar atualização</b>.</li>
-          <li><b>Foto:</b> clique em "Abrir foto", salve a imagem e envie no post.</li>
-          <li><b>Descrição:</b> clique em "Copiar texto" e cole.</li>
-          <li><b>Botão:</b> escolha o botão indicado ("Saiba mais" ou "Reservar") e cole o <b>link</b> copiado.</li>
-          <li>Clique em <b>Publicar</b> e volte aqui para marcar <b>Publicado</b>.</li>
-        </ol>
-      </section>
-    </div>
-  </div>
-
-  <div class="grid" data-panel="site">
-    <div class="col">
-      <section class="card" id="inspecionar">
-        <div class="head"><h2>Inspecionar hoje no Google</h2><span class="pill" id="inspPill" data-s="pending">—</span></div>
-        <p class="note">10 links por dia, em ordem de prioridade. Para cada um: <b>Abrir no Search Console</b> → espere carregar → <b>Solicitar indexação</b> → volte e marque <b>Feito</b>. Amanhã a lista continua de onde parou.</p>
-        <div class="bar" style="height:8px"><i id="inspBar"></i></div>
-        <p class="muted" id="inspProgress" style="font-size:.82rem;margin:6px 0 12px">&nbsp;</p>
-        <ol class="insp" id="inspList"></ol>
-        <div id="inspDone" hidden class="empty" style="margin-top:10px"></div>
-        <details style="margin-top:12px;font-size:.82rem"><summary class="muted" style="cursor:pointer">O link abre com erro no Search Console?</summary>
-          <p class="muted">O tipo de propriedade do seu Search Console decide o formato do link. Troque aqui e tente de novo:</p>
-          <label style="display:flex;gap:8px;align-items:center"><input type="radio" name="propType" id="propDomain" value="domain"> Domínio (sc-domain)</label>
-          <label style="display:flex;gap:8px;align-items:center;margin-top:4px"><input type="radio" name="propType" id="propPrefix" value="prefix"> Prefixo do URL (https://…)</label>
-          <p class="muted">O progresso fica salvo neste navegador. Use sempre o mesmo aparelho para inspecionar.</p>
-        </details>
-      </section>
-
-      <section class="card" id="diretorios">
-        <div class="head"><h2>Diretórios: o caminho para o top 1 local</h2><span class="pill" id="citPill" data-s="pending">—</span></div>
-        <p class="note">Care.com, Angi, HomeAdvisor e Thumbtack ocupam o topo nas cidades. Cadastre a Perfect Services em cada um, sempre com os mesmos dados do kit abaixo. O monitor procura os perfis sozinho e marca aqui quando cada um aparece na internet.</p>
-        <div class="bar" style="height:8px"><i id="citBar"></i></div>
-        <p class="muted" id="citProgress" style="font-size:.82rem;margin:6px 0 12px">&nbsp;</p>
-        <ol class="insp" id="citList"></ol>
-        <details style="margin-top:14px" open><summary style="cursor:pointer;font-weight:700">Kit de cadastro: copie e cole em cada site</summary>
-          <ul class="kit" id="kitList"></ul>
-        </details>
-      </section>
-
       <section class="card" id="checks-card">
         <div class="head"><h2>Saúde do site</h2><span class="muted" id="checkedAt" style="font-size:.8rem"></span></div>
         <p class="note">Erros disparam uma notificação imediata no seu celular (app do Claude). Avisos só notificam quando aparecem pela primeira vez.</p>
@@ -478,38 +557,14 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
         <div class="hist" id="hist" aria-label="Últimas verificações"></div>
       </section>
 
-      <section class="card" id="rank-card">
-        <div class="head"><h2>Posição nas buscas por cidade</h2><span class="muted" id="rankAt" style="font-size:.8rem"></span></div>
-        <p class="note">Busca "house cleaning + cidade". Visão aproximada feita por busca na web, atualizada a cada 3 horas em rodízio de cidades. A posição oficial do Google entra aqui quando o Search Console for conectado.</p>
-        <div class="tw"><table><thead><tr><th>Cidade</th><th>Nossa posição</th><th>Quem está no topo · dica</th></tr></thead><tbody id="rankBody"><tr><td colspan="3"><div class="empty">A primeira leitura de posições aparece aqui após a primeira verificação do monitor.</div></td></tr></tbody></table></div>
-      </section>
-
-      <section class="card">
-        <div class="head"><h2>Liberação das cidades</h2><span class="muted" id="cityInfo" style="font-size:.8rem"></span></div>
-        <p class="note">Verde: no ar. As outras mostram a data em que entram no ar (às 7h de Greer).</p>
-        <div class="cities" id="cities"></div>
-      </section>
-    </div>
-
-    <div class="col">
-      <section class="card">
-        <h2>Atividade em tempo real</h2>
-        <p class="note">Cada publicação, verificação e correção feita no site.</p>
-        <ul class="feed" id="feed"><li><span class="tag mon k">…</span><span class="t">Carregando atividade…</span><span class="w"></span></li></ul>
-      </section>
-
-      <section class="card">
-        <h2>Artigos recentes</h2>
-        <p class="note">Os últimos artigos publicados pela rotina diária.</p>
-        <ul class="list" id="posts"></ul>
-      </section>
-
-      <section class="card">
-        <h2>Próximos temas</h2>
-        <p class="note">O que a rotina vai escrever na próxima execução.</p>
-        <ul class="list" id="next"></ul>
-      </section>
-
+      </div>
+      <div class="col">
+        <section class="card">
+          <h2>Últimas mudanças no GitHub</h2>
+          <p class="note">Cada publicação, verificação e correção. Verificações do monitor não republicam o site.</p>
+          <ul class="feed" id="tecFeed"><li><span class="tag mon k">…</span><span class="t">Carregando…</span><span class="w"></span></li></ul>
+          <div class="acts" style="margin-top:10px;display:flex;gap:6px;flex-wrap:wrap"><a class="btn" href="https://github.com/avisionbranding-avision/perfect-services-site/commits/main" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://dash.cloudflare.com/67ca61a0639d2cd69552bda89977d9aa/pages/view/perfect-services-site" target="_blank" rel="noopener">Cloudflare</a><a class="btn" href="https://resend.com/emails" target="_blank" rel="noopener">Resend</a></div>
+        </section>
       <section class="card">
         <h2>O que o sistema faz sozinho</h2>
         <ul class="auto" style="margin-top:12px">
@@ -521,10 +576,11 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
           <li><i>6</i><div><b>Acompanha a concorrência</b><span>Pesquisa cada cidade em rodízio, anota quem está no topo e sugere o que melhorar na nossa página.</span></div></li>
         </ul>
       </section>
+      </div>
     </div>
   </div>
 </main>
-<footer class="wrap">Página interna, fora do Google. Dados: site publicado, repositório do GitHub e monitor automático.</footer>
+<footer class="wrap">Central interna, fora do Google. Dados: site na Cloudflare, repositório do GitHub e rotinas do Claude.</footer>
 
 <script>
 (() => {
@@ -877,8 +933,9 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
     document.querySelectorAll('.tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
   }
   document.querySelectorAll('.tabs button').forEach((b) => b.addEventListener('click', () => { showTab(b.dataset.tab); try { history.replaceState(null, '', `#${b.dataset.tab}`); } catch { /* ignore */ } }));
-  const TABS = ['leads', 'agenda', 'site', 'gmn', 'melhorias', 'avaliacoes', 'gscga', 'google'];
-  const fromHash = () => { const h = location.hash.slice(1); showTab(TABS.find((t) => h.startsWith(t)) || 'site'); if (h && !TABS.includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
+  const TABS = ['hoje', 'leads', 'seo', 'melhorias-seo', 'google', 'gmn', 'tecnico'];
+  const ALIAS = { agenda: 'hoje', site: 'seo', melhorias: 'gmn', avaliacoes: 'gmn', gscga: 'google', inspecionar: 'seo', diretorios: 'seo' };
+  const fromHash = () => { const h = location.hash.slice(1); showTab(ALIAS[h] || TABS.slice().sort((a, b) => b.length - a.length).find((t) => h.startsWith(t)) || (document.getElementById(h) && document.getElementById(h).closest('[data-panel]') ? document.getElementById(h).closest('[data-panel]').dataset.panel : 'hoje')); if (h && !TABS.includes(h)) { const t = document.getElementById(h); if (t) t.scrollIntoView(); } };
   window.addEventListener('hashchange', fromHash);
   fromHash();
 
@@ -917,5 +974,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
 <script src="/painel/google.js"></script>
 <script src="/painel/agenda.js"></script>
 <script src="/painel/leads.js"></script>
+<script src="/painel/seo.js"></script>
+<script src="/painel/tecnico.js"></script>
 </body>
 </html>

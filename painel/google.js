@@ -131,7 +131,52 @@
     var pill = $('gcPill'); if (pill) { pill.dataset.s = pending ? 'warning' : 'ok'; pill.textContent = done + ' de ' + total + ' feitos' + (pending ? ' · ' + pending + ' para fazer agora' : ''); }
     var badge = $('gcBadge'); if (badge) { badge.hidden = !pending; badge.textContent = pending; }
   }
+  // ---- "Google agora": live checks from this browser + shortcuts to the real reports ----
+  var GTM_ID = 'GTM-WTM3FM9G', GA_ID = 'G-NBGQ3ZCS3N';
+  var GA_REPORTS = 'https://analytics.google.com/analytics/web/#/a415555101p563359838/';
+  var GTM_WS = 'https://tagmanager.google.com/#/container/accounts/6403863561/containers/286086686/workspaces';
+  function liveRow(s, title, detail) { return mk('li', { 'data-s': s }, [mk('div', {}, [mk('b', { text: title }), mk('span', { text: detail })]), mk('span', { class: 'pill', 'data-s': s, text: s === 'ok' ? 'OK' : s === 'warning' ? 'Atenção' : s === 'error' ? 'Erro' : 'Conferindo' })]); }
+  function liveChecks() {
+    var box = $('glChecks'); if (!box) return;
+    var t = Date.now();
+    var txt = function (u, o) { return fetch(u, Object.assign({ cache: 'no-store' }, o || {})).then(function (r) { return r.ok ? r.text() : ''; }).catch(function () { return null; }); };
+    Promise.all([
+      txt('/?g=' + t),
+      txt('https://www.googletagmanager.com/gtm.js?id=' + GTM_ID + '&t=' + t),
+      fetch('https://cloudflare-dns.com/dns-query?name=' + DOMAIN + '&type=TXT', { headers: { accept: 'application/dns-json' } }).then(function (r) { return r.json(); }).catch(function () { return null; }),
+      txt('/sitemap.xml?t=' + t),
+      txt('/robots.txt?t=' + t)
+    ]).then(function (r) {
+      var home = r[0], gtmJs = r[1], dns = r[2], sm = r[3], robots = r[4];
+      var rows = [], warn = 0;
+      var add = function (s, a, b) { if (s !== 'ok') warn++; rows.push(liveRow(s, a, b)); };
+      add(home && home.indexOf(GTM_ID) > -1 ? 'ok' : 'error', 'Tag Manager no site', home && home.indexOf(GTM_ID) > -1 ? GTM_ID + ' está em todas as páginas geradas.' : 'O código do GTM não apareceu na página inicial.');
+      if (gtmJs === null) add('pending', 'Contêiner publicado', 'Não deu para ler o contêiner do GTM a partir deste navegador.');
+      else {
+        var hasGa = gtmJs.indexOf(GA_ID) > -1, hasEv = /generate_lead/.test(gtmJs);
+        add(hasGa && hasEv ? 'ok' : 'warning', 'Contêiner publicado', hasGa && hasEv ? 'Envia o Analytics (' + GA_ID + ') e os eventos de contato: pedido de orçamento, ligação, SMS, e-mail e clique em orçamento.' : 'A versão publicada do GTM não tem ' + (hasGa ? 'os eventos de contato' : 'o Analytics') + '.');
+      }
+      var txts = dns && dns.Answer ? dns.Answer.map(function (a) { return a.data || ''; }) : null;
+      if (!txts) add('pending', 'Verificação do Search Console', 'Não deu para consultar o DNS agora.');
+      else add(txts.some(function (x) { return /google-site-verification/.test(x); }) ? 'ok' : 'error', 'Verificação do Search Console', txts.some(function (x) { return /google-site-verification/.test(x); }) ? 'Registro de verificação do Google presente no DNS da Cloudflare. A propriedade continua verificada.' : 'O registro TXT do Google sumiu do DNS: o Search Console pode perder a verificação.');
+      var n = sm ? (sm.match(/<loc>/g) || []).length : 0;
+      add(n > 100 && robots && /Sitemap:/.test(robots) ? 'ok' : 'warning', 'Sitemap e robots.txt', n ? n + ' endereços no sitemap; o robots.txt aponta para ele. Reenviado ao Search Console em 10/11 (561 páginas lidas).' : 'Não deu para ler o sitemap.');
+      var ke = TASKS.find(function (x) { return x.id === 'ga-key-events'; });
+      var keDone = !!load()[ke.id];
+      add(keDone ? 'ok' : 'warning', 'Conversões no Analytics', keDone ? 'Eventos de contato marcados como eventos principais.' : 'click_estimate já é evento principal. Faltam generate_lead, click_call e click_sms (aparecem depois do primeiro uso; veja a configuração abaixo).');
+      box.replaceChildren.apply(box, rows);
+      var p = $('glPill'); p.dataset.s = warn ? 'warning' : 'ok'; p.textContent = warn ? warn + ' ponto' + (warn === 1 ? '' : 's') + ' para olhar' : 'Tudo funcionando';
+    });
+    var links = $('glLinks');
+    if (links && !links.childElementCount) {
+      [['Analytics: tempo real', GA_REPORTS + 'realtime/overview'], ['Analytics: eventos', GA_REPORTS + 'reports/explorer?r=events'], ['Search Console: desempenho', 'https://search.google.com/search-console/performance/search-analytics?resource_id=sc-domain%3A' + DOMAIN], ['Search Console: páginas', 'https://search.google.com/search-console/index?resource_id=sc-domain%3A' + DOMAIN], ['Tag Manager', GTM_WS]].forEach(function (l) {
+        links.append(mk('a', { class: 'btn', href: l[1], target: '_blank', rel: 'noopener', text: l[0] }));
+      });
+    }
+  }
   window.psGoogleSetup = { render: render };
   render();
   checkDomain();
+  liveChecks();
+  setInterval(liveChecks, 5 * 60 * 1000);
 })();

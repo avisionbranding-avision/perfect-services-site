@@ -17,3 +17,5 @@
   Cache-Control: no-cache
 /data/gbp.json
   Cache-Control: no-cache
+/data/seo-improvements.json
+  Cache-Control: no-cache

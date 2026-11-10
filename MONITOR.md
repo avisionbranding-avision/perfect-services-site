@@ -9,7 +9,7 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 1. `git pull -q origin main`. Read `data/site.json`, `data/health.json` and `data/rankings.json`.
 2. Run the checks below. Each check gets a status: `ok`, `warning` or `error`, plus a short detail in Brazilian Portuguese that a non-technical owner understands.
 3. Undo the build output so you never commit it: `git checkout -- . && git clean -fdq -- areas services faq blog` (keep your own edits to `data/health.json`, `data/rankings.json` and any `content/posts` fix, by writing those files after this reset).
-4. Write `data/health.json`, `data/rankings.json`, `data/citations.json`, `data/gbp-health.json`, `data/gbp-tasks.json` and `data/reviews.json` (formats below and in "Directory listings").
+4. Write `data/health.json`, `data/rankings.json`, `data/citations.json`, `data/gbp-health.json`, `data/gbp-tasks.json`, `data/reviews.json` and `data/seo-improvements.json` (formats below, in "Directory listings" and in "SEO improvements").
 5. Commit only those files (plus any `content/posts` fix) and push to main:
    - `[skip ci]` is the "do not deploy" marker for Cloudflare Pages (`[skip netlify]` is kept for the old Netlify site while it still exists). Always write both together.
    - only health/rankings changed: message `Monitor: <YYYY-MM-DD HH:MM> UTC [skip netlify] [skip ci]` (this does not redeploy the site);
@@ -33,11 +33,14 @@ Times are in UTC. Greer, SC is UTC-5 (UTC-4 in US summer time). The daily articl
 | `cities` | `data/status.json` after the build: `totals.citiesLive` vs cities whose `releaseDate` is today or earlier | warning if fewer are live than expected (the next deploy fixes it) |
 | `live_site` | `curl -s -o /dev/null -w "%{http_code}"` on the home page, `/sitemap.xml`, `/faq/` and the newest post URL. The cloud network usually blocks this; then try the WebFetch tool on the home page and the newest post URL instead | error if any page returns 4xx/5xx. If both curl and WebFetch are blocked, status `ok` with detail "Teste ao vivo feito pelo painel no navegador" (the panel tests the live pages itself) |
 | `sitemap` | the built `sitemap.xml` URL count vs `totals.urls` in `data/status.json` | warning if different |
+| `gtm` | the built `index.html` and the newest post page contain `GTM-WTM3FM9G` (Google Tag Manager, which loads GA4 and the lead events) | error if missing on either |
+| `lead_form` | `functions/api/lead.js` exists and the built city pages post their form to `/api/lead` when built with `CF_PAGES=1` (run `CF_PAGES=1 node scripts/build.mjs` once, check one city page, then reset as in step 3) | error if the form action is wrong |
 
 ### Safe automatic fixes (the only changes you may make)
 
 - A post JSON that fails to parse because of an obvious syntax slip: fix the syntax only.
 - A broken internal link inside a post's `html`: point it to the closest existing page (the same service in the same city, else the city page, else the service page).
+- Up to 3 open `auto` items from `data/seo-improvements.json` per run, only inside `content/posts/*.json`: a sharper `description` (140-160 characters, city + service + benefit), a `title` trimmed to 60 characters, or 1-2 extra internal links in `html` to the matching city/service pages. Never change a post's `slug` or `date`. Mark each one `feita` with `doneAt` and a one-line `result`.
 After a fix, run the build and the link check again; push only if both pass. Never edit `scripts/`, `functions/`, `_headers`, `data/site.json`, `css/`, `index.html`, `netlify.toml`, `.node-version`, `ROUTINE.md` or this file. Never delete posts.
 
 ## Search visibility per city
@@ -47,6 +50,24 @@ Each run, take the 6 live cities (from `data/status.json`, `live: true`) whose `
 This is an approximate view from a web search tool, not official Google data. Never invent results: if a search fails, keep the city's previous data and set `error` on it.
 
 Also add one line of expert advice per city in `tip` (Brazilian Portuguese): what to do on our site to compete for that query, based on what the top results show (for example: "Os 3 primeiros mostram preços e avaliações na página; destacar avaliações do Google na página de Simpsonville").
+
+## SEO improvements (`data/seo-improvements.json`)
+
+This file feeds the panel tab "Melhorias SEO 24h". Each run, look for real, specific improvements and keep the list current. Rotate the focus so the whole site is covered over the week:
+
+- content: posts with `description` outside 120-160 characters, `title` over 65 characters, fewer than 2 internal links to `/areas/` or `/services/`, or under 700 words;
+- local: each city's `tip` in `data/rankings.json` (turn the advice into one concrete item for that city page), cities where a competitor shows prices, reviews or FAQ we do not;
+- technical: the health checks above, pages missing from the sitemap, duplicate titles across posts;
+- links: city pages with no blog post linking to them yet;
+- google: Search Console or Analytics tasks the agency must do (owner `voce`).
+
+Rules:
+- One item per concrete change, with the exact page URL when there is one. Never invent data, positions or numbers.
+- `owner`: `auto` when a safe fix above can do it (only post JSON), `claude` when it needs code or page-template changes (scripts, city pages) and the agency should ask Claude in a session, `voce` when only the agency can do it (Search Console, GBP, directories).
+- `status`: `aberta`, `andamento` (you started it this run), `feita` (with `doneAt` and `result`). Keep `feita` items for 30 days, then drop them. Do not add an item that is already open; update it instead.
+- `priority` 1 (highest) to 5. Keep at most 25 open items; prefer the ones that move Greer and the closest cities first.
+- `now`: one sentence in Brazilian Portuguese about what you analysed this run (for example: "Revisei os títulos de 40 artigos e as dicas de 6 cidades; 2 melhorias aplicadas").
+- Write `updatedAt` (UTC ISO) every run, even when nothing changed. Commit it with the other data files (no-deploy markers as in step 5; post changes go live at 7h).
 
 ## Google Business Profile (GBP) health
 
@@ -125,3 +146,17 @@ Keep the last 60 entries in `history`, newest first. `overall` is the worst stat
 ```
 
 End your run with a short summary in English: overall status, checks that were not ok, fixes made, cities checked.
+
+### `data/seo-improvements.json`
+
+```json
+{
+  "updatedAt": "2026-11-10T12:30:00Z",
+  "now": "Revisei os títulos de 40 artigos e as dicas de 6 cidades; 2 melhorias aplicadas.",
+  "items": [
+    { "id": "seo-greer-reviews", "title": "Mostrar as avaliações 5 estrelas na página de Greer", "area": "local", "owner": "claude", "status": "aberta", "priority": 1,
+      "page": "https://perfectservicespaintingcleaning.com/areas/greer-sc/", "why": "Franquias aparecem no topo com nota e avaliações.", "action": "Bloco com nota do Google e 3 avaliações reais.", "foundAt": "2026-11-10", "doneAt": null, "result": null }
+  ]
+}
+```
+`area`: conteudo | tecnico | local | links | google. `owner`: auto | claude | voce. `status`: aberta | andamento | feita.
