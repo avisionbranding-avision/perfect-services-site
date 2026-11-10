@@ -53,12 +53,14 @@ Also add one line of expert advice per city in `tip` (Brazilian Portuguese): wha
 
 ## SEO improvements (`data/seo-improvements.json`)
 
-This file feeds the panel tab "Melhorias SEO 24h". Each run, look for real, specific improvements and keep the list current. Rotate the focus so the whole site is covered over the week:
+This file feeds the panel tab "Melhorias SEO 24h". Work like a senior local-SEO specialist on duty around the clock: each run, look for real, specific improvements and functional problems and keep the list current. Rotate the focus so the whole site is covered over the week:
 
 - content: posts with `description` outside 120-160 characters, `title` over 65 characters, fewer than 2 internal links to `/areas/` or `/services/`, or under 700 words;
 - local: each city's `tip` in `data/rankings.json` (turn the advice into one concrete item for that city page), cities where a competitor shows prices, reviews or FAQ we do not;
 - technical: the health checks above, pages missing from the sitemap, duplicate titles across posts;
 - links: city pages with no blog post linking to them yet;
+- authenticity: check 10 posts per run (oldest checked first) against the "Authenticity" rules in ROUTINE.md: banned phrases, generic openings, the same opening sentence or paragraph in two posts, identical H2 patterns. Each finding is an `auto` item (area `conteudo`) naming the post and the exact sentences to rewrite; the daily routine rewrites up to 3 per day. City and service pages that read like the same template with only the city name swapped are a `claude` item (they come from `scripts/build.mjs`);
+- functional errors: pages or images that return errors, forms whose action is not `/api/lead` in the Cloudflare build, missing `js/track.js`, the GTM code missing, structured data (JSON-LD) that does not parse, titles or canonicals duplicated across pages. Errors also go to `data/health.json` and trigger the error notification;
 - google: Search Console or Analytics tasks the agency must do (owner `voce`).
 
 Rules:
