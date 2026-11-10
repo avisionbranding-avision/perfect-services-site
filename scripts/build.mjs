@@ -49,10 +49,12 @@ const postUrl = (p) => `/blog/${p.slug}`;
 const PHONE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>';
 
 // Google Analytics 4 + lead tracking (calls, texts, estimate form). Marker comment keeps patching idempotent.
-const ANALYTICS = site.ga4 ? `<!--ps-ga4--><script async src="https://www.googletagmanager.com/gtag/js?id=${site.ga4}"></script>
+// Google Tag Manager (GTM) loads GA4 and the lead events; js/track.js pushes them to the dataLayer.
+// Without site.gtm it falls back to the direct GA4 tag.
+const ANALYTICS = site.gtm ? `<!--ps-ga4--><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${site.gtm}');</script>
+<script src="/js/track.js" defer></script><!--/ps-ga4-->` : site.ga4 ? `<!--ps-ga4--><script async src="https://www.googletagmanager.com/gtag/js?id=${site.ga4}"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${site.ga4}');</script>
-<script src="/js/track.js" defer></script><!--/ps-ga4-->` : '';
-const withAnalytics = (html) => {
+<script src="/js/track.js" defer></script><!--/ps-ga4-->` : '';const withAnalytics = (html) => {
   const clean = html.replace(/<!--ps-ga4-->[\s\S]*?<!--\/ps-ga4-->\s*/, '');
   return ANALYTICS ? clean.replace('</head>', `${ANALYTICS}\n</head>`) : clean;
 };
