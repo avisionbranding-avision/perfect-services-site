@@ -76,13 +76,15 @@
       box.replaceChildren.apply(box, list.map(function (t, i) {
         var done = isDone(t, s);
         var notYet = t.from && t.from > now && !done;
-        var dueNow = !done && !notYet && (g !== 'weekly' || weekday === 1 || true);
+        var dom = new Date().getDate();
+        var inWindow = g === 'monthly' ? dom <= 5 : true;
+        var dueNow = !done && !notYet && inWindow;
         if (dueNow) pending++;
         var btn = t.preDone ? null : mk('button', { class: 'btn ' + (done ? '' : 'ok'), type: 'button', text: done ? 'Desfazer' : 'Marcar como feito' });
         if (btn) btn.addEventListener('click', function (e) { e.preventDefault(); var st = load(); if (isDone(t, st)) delete st[t.id]; else st[t.id] = periodKey(t); save(st); render(); });
-        var pillTxt = done ? 'Feito' : notYet ? 'A partir de ' + t.from.split('-').reverse().slice(0, 2).join('/') : 'Pendente';
+        var pillTxt = done ? 'Feito' : notYet ? 'A partir de ' + t.from.split('-').reverse().slice(0, 2).join('/') : !inWindow ? 'No dia 1º' : 'Pendente';
         var det = mk('details', { class: 'task' + (done ? ' done' : '') }, [
-          mk('summary', {}, [mk('span', { class: 'n', text: t.tool === 'Analytics' ? 'GA' : 'GSC' }), mk('span', {}, [mk('b', { text: t.title }), mk('small', { text: (t.time ? t.time + ' · ' : '') + (done ? nextDue(t) : LABEL[g]) })]), mk('span', { class: 'pill', 'data-s': done ? 'ok' : notYet ? 'pending' : 'warning', text: pillTxt })]),
+          mk('summary', {}, [mk('span', { class: 'n', text: t.tool === 'Analytics' ? 'GA' : 'GSC' }), mk('span', {}, [mk('b', { text: t.title }), mk('small', { text: (t.time ? t.time + ' · ' : '') + (done ? nextDue(t) : LABEL[g]) })]), mk('span', { class: 'pill', 'data-s': done ? 'ok' : (notYet || !inWindow) ? 'pending' : 'warning', text: pillTxt })]),
           mk('div', { class: 'body' }, [
             mk('p', { class: 'why', style: 'margin:0', text: t.why }),
             mk('ol', {}, t.steps.map(function (x) { return mk('li', { text: x }); })),

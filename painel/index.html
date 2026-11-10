@@ -882,7 +882,7 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
   // ---------- Melhorias Google (tasks + live suggestions) ----------
   const LS_TASKS = 'ps-gbp-tasks-v1';
   window.psTaskDone = (t, done) => !!done[t.id] || (t.verified && t.verified.status === 'done');
-  const VSTATUS = { done: ['ok', 'Feito'], partial: ['warning', 'Parcial'], pending: ['error', 'Pendente'], unknown: ['pending', 'A conferir'] };
+  const VSTATUS = { done: ['ok', 'Feito'], partial: ['warning', 'Parcial'], pending: ['warning', 'Pendente'], unknown: ['pending', 'A conferir'] };
   function taskEl(t, idx, done, onToggle) {
     const isDone = window.psTaskDone(t, done);
     const [vs, vl] = done[t.id] ? ['ok', 'Feito'] : t.verified ? VSTATUS[t.verified.status] || ['warning', 'Pendente'] : ['warning', 'Pendente'];
@@ -969,12 +969,12 @@ footer{color:var(--muted);font-size:.78rem;padding-block:0 30px}
   setInterval(() => { if (state.status) { const nr = nextRun(state.status.settings.paused); $('kNext').textContent = nr.big; } }, 30 * 1000);
 })();
 </script>
-<script src="/painel/reviews.js?v=20261110b"></script>
-<script src="/painel/gscga.js?v=20261110b"></script>
-<script src="/painel/google.js?v=20261110b"></script>
-<script src="/painel/agenda.js?v=20261110b"></script>
-<script src="/painel/leads.js?v=20261110b"></script>
-<script src="/painel/seo.js?v=20261110b"></script>
-<script src="/painel/tecnico.js?v=20261110b"></script>
+<script src="/painel/reviews.js?v=20261110c"></script>
+<script src="/painel/gscga.js?v=20261110c"></script>
+<script src="/painel/google.js?v=20261110c"></script>
+<script src="/painel/agenda.js?v=20261110c"></script>
+<script src="/painel/leads.js?v=20261110c"></script>
+<script src="/painel/seo.js?v=20261110c"></script>
+<script src="/painel/tecnico.js?v=20261110c"></script>
 </body>
 </html>
