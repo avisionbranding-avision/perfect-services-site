@@ -148,6 +148,12 @@
       txt('/robots.txt?t=' + t)
     ]).then(function (r) {
       var home = r[0], gtmJs = r[1], dns = r[2], sm = r[3], robots = r[4];
+      if (home === null && sm === null && robots === null) {
+        box.replaceChildren(liveRow('pending', 'Sem conexão com o site a partir deste navegador', /^https?:$/.test(location.protocol) ? 'Nenhum teste chegou ao site agora (internet, VPN ou bloqueador). Nova tentativa em 30 segundos.' : 'Abra o painel pelo endereço oficial: https://' + DOMAIN + '/painel/'));
+        var p0 = $('glPill'); p0.dataset.s = 'pending'; p0.textContent = 'Sem conexão agora';
+        setTimeout(liveChecks, 30000);
+        return;
+      }
       var rows = [], warn = 0;
       var add = function (s, a, b) { if (s !== 'ok') warn++; rows.push(liveRow(s, a, b)); };
       add(home && home.indexOf(GTM_ID) > -1 ? 'ok' : 'error', 'Tag Manager no site', home && home.indexOf(GTM_ID) > -1 ? GTM_ID + ' está em todas as páginas geradas.' : 'O código do GTM não apareceu na página inicial.');

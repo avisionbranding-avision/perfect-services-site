@@ -23,7 +23,19 @@
     return get(API).then(function (r) { return r.ok ? r.json() : []; }).then(function (c) { commitsCache = c; commitsAt = Date.now(); return c; }).catch(function () { return commitsCache || []; });
   }
   function nextDaily() { var n = new Date(); var t = new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate(), 10, 0, 0)); if (t <= n) t.setUTCDate(t.getUTCDate() + 1); return t; }
+  var SITE = 'https://perfectservicespaintingcleaning.com';
+  var onSite = /^https?:$/.test(location.protocol) && /(^|\.)perfectservicespaintingcleaning\.com$|\.pages\.dev$|^localhost$|^127\.0\.0\.1$/.test(location.hostname);
+  var retryTimer = null;
+  function notice(title, detail, s) {
+    $('tecChecks').replaceChildren(row(s || 'pending', title, detail));
+    var pill = $('tecPill'); pill.dataset.s = 'pending'; pill.textContent = s === 'warning' ? 'Abra pelo endereço oficial' : 'Sem conexão agora';
+    var b = $('tecBadge'); b.hidden = true;
+  }
   function run() {
+    if (!onSite) {
+      notice('Abra o painel pelo endereço oficial', 'Este painel foi aberto fora do site (' + (location.protocol === 'file:' ? 'arquivo do computador' : location.hostname) + '), então o navegador não consegue testar o site daqui. Use ' + SITE + '/painel/', 'warning');
+      return;
+    }
     var t0 = Date.now();
     Promise.all([
       get('/', { method: 'HEAD' }).then(function (r) { return { ok: r.ok, server: r.headers.get('server') || '' }; }).catch(function () { return { ok: false, server: '' }; }),
@@ -35,6 +47,12 @@
       get('/sitemap.xml?t=' + t0).then(function (r) { return r.ok ? r.text() : ''; }).catch(function () { return ''; })
     ]).then(function (res) {
       var home = res[0], status = res[1], cs = res[2] || [], leadSt = res[3], leads = res[4], html = res[5], sm = res[6];
+      // Every request failed at once: this browser is offline or the request was blocked, not the site down.
+      if (!home.ok && !home.server && leadSt === 0 && !leads.st && !html && !sm) {
+        notice('Sem conexão com o site a partir deste navegador', 'Nenhum teste conseguiu chegar ao site agora (internet do computador, VPN ou bloqueador). O site em si não foi afetado. Nova tentativa em 30 segundos.');
+        clearTimeout(retryTimer); retryTimer = setTimeout(run, 30000);
+        return;
+      }
       var rows = [], bad = 0;
       var add = function (s, a, b) { if (s === 'warning' || s === 'error') bad++; rows.push(row(s, a, b)); };
       var onCf = /cloudflare/i.test(home.server);
@@ -57,6 +75,7 @@
       $('tecChecks').replaceChildren.apply($('tecChecks'), rows);
       var pill = $('tecPill'); pill.dataset.s = bad ? 'warning' : 'ok'; pill.textContent = bad ? bad + ' ponto' + (bad === 1 ? '' : 's') + ' para olhar' : 'Tudo certo';
       var b = $('tecBadge'); b.hidden = !bad; b.textContent = bad;
+      if (bad) { clearTimeout(retryTimer); retryTimer = setTimeout(run, 30000); } // confirm before it stays red
 
       // routines
       var daily = cs.find(function (c) { return /^Daily articles/i.test(c.commit.message); });
