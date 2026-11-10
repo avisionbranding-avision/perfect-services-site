@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-10T12:50:00Z",
-  "now": "Revisei 52 artigos (títulos, descrições, links e palavras) e as buscas de 6 cidades; 3 títulos encurtados e 6 melhorias novas.",
+  "updatedAt": "2026-11-10T15:50:00Z",
+  "now": "Revisei as buscas de 6 cidades e os artigos com título longo; 3 títulos encurtados (aplicados no próximo deploy das 7h).",
   "items": [
     {
       "id": "seo-diretorios",
@@ -217,42 +217,42 @@
       "title": "Encurtar o título para: Pollen Season in Greer: Deep Cleaning Plan for Allergies",
       "area": "conteudo",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 4,
       "page": "https://perfectservicespaintingcleaning.com/blog/pollen-season-in-greer-a-deep-cleaning-plan-for-allergy-sufferers.html",
       "why": "Título com mais de 65 caracteres.",
       "action": "Trocar o título por 'Pollen Season in Greer: Deep Cleaning Plan for Allergies'.",
       "foundAt": "2026-11-10",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-10",
+      "result": "Título agora com 58 caracteres."
     },
     {
       "id": "seo-titulo-rental-turnover-cleaning-for-greer-landl",
       "title": "Encurtar o título para: Rental Turnover Cleaning for Greer Landlords",
       "area": "conteudo",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 4,
       "page": "https://perfectservicespaintingcleaning.com/blog/rental-turnover-cleaning-for-greer-landlords-and-property-managers.html",
       "why": "Título com mais de 65 caracteres.",
       "action": "Trocar o título por 'Rental Turnover Cleaning for Greer Landlords'.",
       "foundAt": "2026-11-10",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-10",
+      "result": "Título agora com 57 caracteres."
     },
     {
       "id": "seo-titulo-what-is-brazilian-house-cleaning-a-guide",
       "title": "Encurtar o título para: What Is Brazilian House Cleaning? Simpsonville Guide",
       "area": "conteudo",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 4,
       "page": "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-simpsonville-homeowners.html",
       "why": "Título com mais de 65 caracteres.",
       "action": "Trocar o título por 'What Is Brazilian House Cleaning? Simpsonville Guide'.",
       "foundAt": "2026-11-10",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-10",
+      "result": "Título agora com 52 caracteres."
     },
     {
       "id": "seo-titulo-deep-cleaning-vs-regular-cleaning-in-mau",

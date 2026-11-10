@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T12:50:00Z",
+  "checkedAt": "2026-11-10T15:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -60,25 +60,30 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "561 URLs, igual ao esperado"
+      "detail": "593 URLs, igual ao esperado"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Código GTM presente na home e no artigo mais novo"
+      "detail": "GTM-WTM3FM9G presente na home e no artigo mais novo"
     },
     {
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulário envia para /api/lead no build do Cloudflare"
+      "detail": "Formulário envia para /api/lead"
     }
   ],
   "fixes": [
-    "3 títulos de artigos encurtados para até 60 caracteres (entram no ar às 7h)"
+    "3 títulos de artigos encurtados para até 60 caracteres (vão ao ar às 7h)"
   ],
   "history": [
+    {
+      "at": "2026-11-10T15:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 3 títulos encurtados"
+    },
     {
       "at": "2026-11-10T12:50:00Z",
       "overall": "ok",
