@@ -17,9 +17,9 @@
     p.link_location = 'none'; p.form_name = 'none'; p.requested_service = 'none';
     for (var k in extra) p[k] = extra[k];
     window.dataLayer = window.dataLayer || [];
-    var hasGtm = window.dataLayer.some && window.dataLayer.some(function (e) { return e && e.event === 'gtm.js'; });
-    if (hasGtm) { p.event = name; window.dataLayer.push(p); }
-    else if (typeof window.gtag === 'function') window.gtag('event', name, p);
+    // Direct GA4 tag (old pages): gtag() exists. Otherwise GTM reads the dataLayer push.
+    if (typeof window.gtag === 'function' && !window.google_tag_manager) window.gtag('event', name, p);
+    else { p.event = name; window.dataLayer.push(p); }
   }
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[href]');
