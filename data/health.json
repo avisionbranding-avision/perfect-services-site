@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T18:50:00Z",
+  "checkedAt": "2026-11-10T21:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -75,11 +75,13 @@
       "detail": "Formulário envia para /api/lead"
     }
   ],
-  "fixes": [
-    "Título do artigo de Mauldin encurtado",
-    "Descrição do artigo de custo de deep cleaning ajustada"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-10T21:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-10T18:50:00Z",
       "overall": "ok",
