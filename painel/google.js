@@ -15,10 +15,10 @@
   ];
   var TASKS = [
     // ---- Search Console ----
-    { id: 'sc-verify', g: 'gsc', who: 'Claude', after: 'domain', title: 'Confirmar que o Search Console continua verificado',
+    { id: 'sc-verify', doneOn: '2026-11-10', g: 'gsc', who: 'Claude', after: 'domain', title: 'Confirmar que o Search Console continua verificado',
       why: 'A troca de DNS não pode derrubar a verificação, senão os dados param de chegar.',
       steps: ['Search Console → Configurações → Verificação de propriedade', 'Deve aparecer "Verificado" pelo registro DNS (TXT)'], link: GSC },
-    { id: 'sc-sitemap', g: 'gsc', who: 'Claude', after: 'domain', title: 'Reenviar o sitemap com os endereços novos',
+    { id: 'sc-sitemap', doneOn: '2026-11-10', g: 'gsc', who: 'Claude', after: 'domain', title: 'Reenviar o sitemap com os endereços novos',
       why: 'O blog e os artigos antigos perderam o ".html" (ex.: /blog). O sitemap novo avisa o Google de uma vez.',
       steps: ['Search Console → Sitemaps', 'Envie https://' + DOMAIN + '/sitemap.xml', 'Status deve ficar "Processado"'], link: GSC },
     { id: 'sc-inspect', g: 'gsc', who: 'Você', after: 'domain', title: 'Pedir indexação do /blog e dos artigos com o endereço novo',
@@ -31,29 +31,29 @@
       why: 'O cliente vê as buscas e a indexação na própria conta.',
       steps: ['Search Console → Configurações → Usuários e permissões → Adicionar usuário', 'E-mail do cliente → Proprietário (ou Completo)'], link: GSC },
     // ---- GTM ----
-    { id: 'gtm-account', g: 'gtm', who: 'Você', title: 'Criar a conta e o contêiner no Tag Manager',
+    { id: 'gtm-account', doneOn: '2026-11-10', g: 'gtm', who: 'Você', title: 'Criar a conta e o contêiner no Tag Manager',
       why: 'O contêiner é onde as tags ficam. Precisa ser criado com a conta Google da Avision.',
       steps: ['Entre em tagmanager.google.com com a conta Google da Avision', 'Criar conta → Nome: Perfect Services → País: Estados Unidos', 'Contêiner: ' + DOMAIN + ' → Plataforma: Web → Criar e aceitar os termos', 'Copie o ID que começa com GTM- e mande aqui no chat (não é senha, pode mandar)'], link: GTM },
-    { id: 'gtm-install', g: 'gtm', who: 'Claude', needs: 'gtm-account', title: 'Instalar o código do GTM em todas as páginas',
+    { id: 'gtm-install', doneOn: '2026-11-10', g: 'gtm', who: 'Claude', needs: 'gtm-account', title: 'Instalar o código do GTM em todas as páginas',
       why: 'Entra pelo gerador do site, então vale para as páginas atuais e para os artigos novos de cada dia.',
       steps: ['Eu coloco o código no <head> e no <body> de todas as páginas', 'Publico junto com a postagem das 7h (ou na hora, se você pedir)'] },
-    { id: 'gtm-ga4', g: 'gtm', who: 'Claude', needs: 'gtm-account', title: 'Passar o Analytics e os 3 eventos para dentro do GTM',
+    { id: 'gtm-ga4', doneOn: '2026-11-10', g: 'gtm', who: 'Claude', needs: 'gtm-account', title: 'Passar o Analytics e os 3 eventos para dentro do GTM',
       why: 'Tag do Google (G-NBGQ3ZCS3N) e os eventos generate_lead, click_call e click_sms passam a sair do GTM. O código direto sai do site, para não contar cada visita duas vezes.',
       steps: ['Você entra no Tag Manager no Chrome', 'Eu crio a tag do Google, os 3 acionadores e as 3 tags de evento', 'Eu tiro o código direto do Analytics do site'], link: GTM },
-    { id: 'gtm-test', g: 'gtm', who: 'Claude', needs: 'gtm-ga4', title: 'Testar no modo Visualizar e no Tempo real',
+    { id: 'gtm-test', doneOn: '2026-11-10', g: 'gtm', who: 'Claude', needs: 'gtm-ga4', title: 'Testar no modo Visualizar e no Tempo real',
       why: 'Garante que visita, ligação, SMS e pedido de orçamento continuam sendo contados.',
       steps: ['GTM → Visualizar → abrir o site', 'Clicar em ligar, SMS e enviar um pedido de teste (com o seu ok)', 'Conferir no Analytics → Relatórios → Tempo real'], link: GTM },
-    { id: 'gtm-publish', g: 'gtm', who: 'Claude', needs: 'gtm-test', title: 'Publicar a versão do contêiner',
+    { id: 'gtm-publish', doneOn: '2026-11-10', g: 'gtm', who: 'Claude', needs: 'gtm-test', title: 'Publicar a versão do contêiner',
       why: 'Sem publicar, as tags só funcionam no modo de teste.',
       steps: ['GTM → Enviar → Nome da versão: "GA4 + eventos de contato" → Publicar'], link: GTM },
     // ---- GA4 ----
     { id: 'ga-key-events', g: 'ga', who: 'Você', from: '2026-11-10', title: 'Marcar os contatos como eventos-chave (conversões)',
       why: 'Sem isso, o Analytics não mostra quantos pedidos de orçamento e ligações cada cidade e serviço gera.',
-      steps: ['Analytics → Administrador (engrenagem) → Exibição de dados → Eventos', 'Ative "Marcar como evento-chave" em: generate_lead, click_call, click_sms', 'Se os eventos ainda não aparecem na lista, volte amanhã (eles surgem depois do primeiro uso)'], link: GA },
-    { id: 'ga-link-gsc', g: 'ga', who: 'Você', title: 'Vincular o Analytics ao Search Console',
+      steps: ['click_estimate já está marcado (10/11). Faltam os 3 abaixo, que só aparecem depois do primeiro uso no site', 'Analytics → Administrador (engrenagem) → Exibição de dados → Eventos → Eventos recentes', 'Clique na estrela de: generate_lead, click_call, click_sms', 'Se os eventos ainda não aparecem na lista, volte amanhã (eles surgem depois do primeiro uso)'], link: GA },
+    { id: 'ga-link-gsc', doneOn: '2026-11-10', g: 'ga', who: 'Você', title: 'Vincular o Analytics ao Search Console',
       why: 'Cruza as buscas do Google com as visitas e os contatos no site.',
       steps: ['Analytics → Administrador → Links de produtos → Search Console', 'Vincular → escolha ' + DOMAIN + ' → escolha o fluxo da Web → Enviar'], link: GA },
-    { id: 'ga-retention', g: 'ga', who: 'Você', title: 'Guardar os dados por 14 meses',
+    { id: 'ga-retention', doneOn: '2026-11-10', g: 'ga', who: 'Você', title: 'Guardar os dados por 14 meses',
       why: 'O padrão é 2 meses; com 14 dá para comparar meses e temporadas.',
       steps: ['Administrador → Coleta e modificação de dados → Retenção de dados', 'Retenção de dados de eventos: 14 meses → Salvar'], link: GA },
     { id: 'ga-client', g: 'ga', who: 'Você', title: 'Dar acesso de administrador ao cliente',
@@ -99,7 +99,7 @@
       var list = TASKS.filter(function (t) { return t.g === gr.id; });
       var openedOne = false;
       box.replaceChildren.apply(box, list.map(function (t) {
-        var isDone = !!s[t.id];
+        var isDone = !!s[t.id] || !!t.doneOn;
         var waitDomain = t.after === 'domain' && !domainLive && !isDone;
         var notYet = t.from && t.from > now && !isDone;
         var waitPrev = t.needs && !s[t.needs] && !isDone;
@@ -108,12 +108,12 @@
         var pillTxt = isDone ? 'Feito' : waitDomain ? 'Depois da troca do domínio' : waitPrev ? 'Depois do item anterior' : notYet ? 'A partir de ' + t.from.split('-').reverse().slice(0, 2).join('/') : t.optional ? 'Opcional' : 'Pendente';
         var pillS = isDone ? 'ok' : (blocked || t.optional) ? 'pending' : 'warning';
         var btn = mk('button', { class: 'btn ' + (isDone ? '' : 'ok'), type: 'button', text: isDone ? 'Desfazer' : 'Marcar como feito' });
-        btn.addEventListener('click', function (e) { e.preventDefault(); var st = load(); if (st[t.id]) delete st[t.id]; else st[t.id] = now; save(st); render(); });
+        if (t.doneOn) { btn = null; } else btn.addEventListener('click', function (e) { e.preventDefault(); var st = load(); if (st[t.id]) delete st[t.id]; else st[t.id] = now; save(st); render(); });
         var link = t.link ? mk('a', { class: 'btn go', href: t.link, target: t.link.charAt(0) === '#' ? null : '_blank', rel: 'noopener', text: t.link.charAt(0) === '#' ? 'Abrir a lista do dia' : 'Abrir ' + (t.link === GTM ? 'Tag Manager' : t.link === GA ? 'Analytics' : 'Search Console') }) : null;
         var det = mk('details', { class: 'task' + (isDone ? ' done' : '') }, [
           mk('summary', {}, [
             mk('span', { class: 'n', text: t.who === 'Você' ? 'VOC' : 'CL' , title: t.who === 'Você' ? 'Você faz' : 'O Claude faz' }),
-            mk('span', {}, [mk('b', { text: t.title }), mk('small', { text: (t.who === 'Você' ? 'Você faz' : 'O Claude faz') + (isDone && s[t.id] !== true ? ' · feito em ' + String(s[t.id]).split('-').reverse().slice(0, 2).join('/') : '') })]),
+            mk('span', {}, [mk('b', { text: t.title }), mk('small', { text: (t.who === 'Você' ? 'Você faz' : 'O Claude faz') + (isDone ? ' · feito em ' + String(t.doneOn || s[t.id]).split('-').reverse().slice(0, 2).join('/') : '') })]),
             mk('span', { class: 'pill', 'data-s': pillS, text: pillTxt })
           ]),
           mk('div', { class: 'body' }, [
