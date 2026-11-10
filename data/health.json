@@ -61,6 +61,18 @@
       "label": "Sitemap",
       "status": "ok",
       "detail": "561 URLs, igual ao esperado"
+    },
+    {
+      "id": "gtm",
+      "label": "Google Tag Manager",
+      "status": "ok",
+      "detail": "Código GTM presente na home e no artigo mais novo"
+    },
+    {
+      "id": "lead_form",
+      "label": "Formulário de contato",
+      "status": "ok",
+      "detail": "Formulário envia para /api/lead no build do Cloudflare"
     }
   ],
   "fixes": [],
