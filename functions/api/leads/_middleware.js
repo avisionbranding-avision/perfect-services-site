@@ -2,7 +2,7 @@
 // Cloudflare Access adds a signed JWT (Cf-Access-Jwt-Assertion); we verify its signature, audience,
 // issuer and expiry here too, so the data stays closed even if the Access rule is missing or misconfigured.
 // Needs env ACCESS_TEAM_DOMAIN (https://<team>.cloudflareaccess.com) and ACCESS_AUD (the application's AUD tag).
-// Fails closed: without both settings, nobody can read the leads.
+// Without both settings the leads are open (owner's decision); with them, only Access-verified requests pass.
 
 const b64url = (s) => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/').padEnd(Math.ceil(s.length / 4) * 4, '=')), (c) => c.charCodeAt(0));
 const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', 'cache-control': 'no-store' } });
@@ -40,7 +40,17 @@ export async function verifyAccess(request, env) {
   } catch { return null; }
 }
 
+// Owner's choice (10/11/2026): the Leads tab stays open while Cloudflare Access is not set up.
+// As soon as ACCESS_TEAM_DOMAIN and ACCESS_AUD exist, the check above is enforced again (no code change needed).
+const accessConfigured = (env) => !!(env.ACCESS_TEAM_DOMAIN && env.ACCESS_AUD);
+
 export async function onRequest(context) {
+  if (!accessConfigured(context.env)) {
+    const res = await context.next();
+    const out = new Response(res.body, res);
+    out.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    return out;
+  }
   const who = await verifyAccess(context.request, context.env);
   if (!who) return json({ error: 'not_authorized' }, 401);
   context.data.user = who;

@@ -7,6 +7,9 @@
   X-Robots-Tag: noindex
 /functions/*
   X-Robots-Tag: noindex
+/api/*
+  X-Robots-Tag: noindex, nofollow
+  Cache-Control: no-store
 /painel/*
   X-Robots-Tag: noindex, nofollow
   Cache-Control: no-cache

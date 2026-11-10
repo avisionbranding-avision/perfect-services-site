@@ -582,7 +582,7 @@ function buildSitemap() {
   const body = urls.filter((u) => (seen.has(u.loc) ? false : seen.add(u.loc)))
     .map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority.toFixed(1)}</priority></url>`).join('\n');
   fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`);
-  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /thank-you\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\nDisallow: /painel/\nDisallow: /functions/\nDisallow: /api/\n\nSitemap: ${D}/sitemap.xml\n`);
+  fs.writeFileSync(path.join(ROOT, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /thank-you.html\nDisallow: /thank-you\nDisallow: /data/\nDisallow: /scripts/\nDisallow: /content/\nDisallow: /functions/\n\nSitemap: ${D}/sitemap.xml\n`);
   return seen.size;
 }
 
