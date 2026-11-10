@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-10T06:05:42.764Z",
-  "now": "Regras de autenticidade adicionadas: a partir de agora o monitor revisa 10 artigos por rodada e a rotina das 7h reescreve até 3 trechos genéricos por dia.",
+  "updatedAt": "2026-11-10T09:55:00Z",
+  "now": "Revisei as dicas de 6 cidades (Mauldin, Travelers Rest, Campobello, Moore, Simpsonville, Berea) e os 3 diretórios; nenhuma melhoria automática aberta.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -183,6 +183,20 @@
       "foundAt": "2026-11-10",
       "doneAt": "2026-11-10",
       "result": "Ativo desde 10/11."
+    },
+    {
+      "id": "seo-berea-pagina",
+      "title": "Reforçar a página de Berea (nenhuma empresa local de limpeza aparece na busca)",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/berea-sc/",
+      "why": "A busca por 'house cleaning Berea SC' não mostrou empresa residencial local; só limpeza pesada e restauração.",
+      "action": "Bloco com bairros de Berea, serviços de limpeza residencial, FAQ e avaliações do Google.",
+      "foundAt": "2026-11-10",
+      "doneAt": null,
+      "result": null
     }
   ]
 }

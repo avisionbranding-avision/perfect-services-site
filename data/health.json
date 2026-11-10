@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-10T03:45:00Z",
+  "checkedAt": "2026-11-10T09:55:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "561 páginas geradas"
+      "detail": "593 páginas geradas"
     },
     {
       "id": "links",
@@ -18,19 +18,19 @@
       "id": "posts_json",
       "label": "Artigos",
       "status": "ok",
-      "detail": "20 artigos válidos"
+      "detail": "52 artigos válidos"
     },
     {
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de hoje publicados (2 execuções)"
+      "detail": "Artigos de hoje publicados (06:11 UTC)"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "Aguardando a rotina das 7h (São Paulo); ontem foram publicados 20 artigos"
+      "detail": "32 artigos de hoje publicados"
     },
     {
       "id": "gbp_posts",
@@ -65,6 +65,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-10T09:55:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-10T03:45:00Z",
       "overall": "ok",
