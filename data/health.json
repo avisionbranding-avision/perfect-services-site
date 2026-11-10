@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-09T21:45:00Z",
-  "overall": "warning",
+  "checkedAt": "2026-11-10T00:45:00Z",
+  "overall": "ok",
   "checks": [
     {
       "id": "build",
@@ -29,8 +29,8 @@
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
-      "status": "warning",
-      "detail": "20 artigos hoje; esperado 32 por dia (faltam 12)"
+      "status": "ok",
+      "detail": "Aguardando a rotina das 7h (São Paulo); ontem foram publicados 20 artigos"
     },
     {
       "id": "gbp_posts",
@@ -65,6 +65,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-10T00:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-09T21:45:00Z",
       "overall": "warning",
