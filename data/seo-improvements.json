@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T00:50:00Z",
-  "now": "Revisei as buscas de 6 cidades (Liberty, Duncan, Greer, Hendersonville, Lyman, Taylors): só diretórios e franquias aparecem, nosso site ainda não; nenhuma correção nova aplicada nesta rodada.",
+  "updatedAt": "2026-11-11T06:50:00Z",
+  "now": "Revisei 52 artigos (1 descrição ajustada para 151 caracteres) e as buscas de 6 cidades (Wade Hampton, Wellford, Startex, Reidville, Five Forks, Inman): só diretórios e franquias aparecem, nosso site ainda não.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -295,6 +295,20 @@
       "foundAt": "2026-11-10",
       "doneAt": null,
       "result": null
+    },
+    {
+      "id": "seo-desc-comercial-greer-2026-11-11",
+      "title": "Encurtar a descrição do artigo sobre empresa de limpeza comercial em Greer",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/how-to-choose-a-commercial-cleaning-company-in-greer.html",
+      "why": "Descrição com 161 caracteres, acima do limite de 160.",
+      "action": "Descrição reduzida para 151 caracteres.",
+      "foundAt": "2026-11-11",
+      "doneAt": "2026-11-11",
+      "result": "Descrição agora com 151 caracteres, vai ao ar no deploy das 7h."
     }
   ]
 }

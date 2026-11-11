@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T00:50:00Z",
+  "checkedAt": "2026-11-11T06:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -36,7 +36,7 @@
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "3 posts de hoje prontos, sem telefone, link ou e-mail no texto"
+      "detail": "Verificação após as 12:00 UTC; posts de ontem prontos"
     },
     {
       "id": "greer_queue",
@@ -75,8 +75,15 @@
       "detail": "Formulário envia para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Descrição do artigo de limpeza comercial em Greer reduzida para 151 caracteres"
+  ],
   "history": [
+    {
+      "at": "2026-11-11T06:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 1 melhoria SEO aplicada"
+    },
     {
       "at": "2026-11-11T00:50:00Z",
       "overall": "ok",
