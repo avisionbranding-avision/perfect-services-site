@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-10T21:50:00Z",
+  "updatedAt": "2026-11-11T00:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
       "city": "Greer, SC",
       "query": "house cleaning Greer SC",
-      "checkedAt": "2026-11-10T00:45:00Z",
+      "checkedAt": "2026-11-11T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Greer SC"
+          "title": "Care.com Greer SC"
         },
         {
           "pos": 2,
@@ -22,42 +22,17 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com Greer"
+          "title": "Care.com house cleaning Greer"
         },
         {
           "pos": 4,
-          "domain": "thumbtack.com",
-          "title": "Angel Grove Cleaning LLC"
-        },
-        {
-          "pos": 5,
           "domain": "maidpro.com",
           "title": "MaidPro Greer, SC"
         },
         {
-          "pos": 6,
+          "pos": 5,
           "domain": "angi.com",
-          "title": "An Artistic Touch Cleaning Service"
-        },
-        {
-          "pos": 7,
-          "domain": "thebuildermarket.com",
-          "title": "Cleaning & Maid Services Greer"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Housekeeping Greer"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Housekeepers Greer"
-        },
-        {
-          "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning Greer SC"
+          "title": "Angi Greer cleaning"
         }
       ],
       "competitors": [
@@ -67,220 +42,129 @@
           "name": "The Cleaning Authority"
         },
         {
-          "pos": 5,
+          "pos": 4,
           "domain": "maidpro.com",
           "name": "MaidPro Greer"
-        },
-        {
-          "pos": 4,
-          "domain": "thumbtack.com",
-          "name": "Angel Grove Cleaning LLC"
         }
       ],
-      "tip": "Franquias (MaidPro, Cleaning Authority) aparecem com nota e avaliações; destacar nossas 14 avaliações 5 estrelas e o endereço local na página de Greer.",
+      "tip": "Franquias (MaidPro 4,8 com 161 avaliações, Cleaning Authority) aparecem com nota; destacar nossas 14 avaliações 5 estrelas e o endereço local na página de Greer.",
       "error": null
     },
     "taylors-sc": {
       "city": "Taylors, SC",
       "query": "house cleaning Taylors SC",
-      "checkedAt": "2026-11-10T00:45:00Z",
+      "checkedAt": "2026-11-11T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com Taylors"
+          "title": "Care.com Taylors SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Compare quotes: house cleaning"
+          "title": "Angi Taylors cleaning"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning Taylors SC"
+          "title": "HomeAdvisor Taylors house cleaning"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeeping Taylors p3"
+          "title": "Care.com housekeepers Taylors"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeepers Taylors p3"
-        },
-        {
-          "pos": 6,
-          "domain": "care.com",
-          "title": "Housekeepers Taylors p2"
-        },
-        {
-          "pos": 7,
-          "domain": "homeadvisor.com",
-          "title": "Walls Ceilings Clean"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Housekeeping Taylors"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Housekeeping Taylors p2"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "House cleaning jobs Taylors"
+          "domain": "servpro.com",
+          "title": "SERVPRO of South Greenville County"
         }
       ],
       "competitors": [
         {
-          "pos": 7,
-          "domain": "homeadvisor.com",
-          "name": "Walls Ceilings Clean"
+          "pos": 5,
+          "domain": "servpro.com",
+          "name": "SERVPRO of South Greenville County"
         }
       ],
-      "tip": "Só diretórios no topo, nenhuma empresa com site próprio; uma página de Taylors com preço de referência e FAQ pode ocupar o espaço.",
+      "tip": "Angi mostra 4,6 com 862 avaliações em Taylors; colocar nossas avaliações reais e a distância de 4 milhas em destaque na página de Taylors.",
       "error": null
     },
     "duncan-sc": {
       "city": "Duncan, SC",
       "query": "house cleaning Duncan SC",
-      "checkedAt": "2026-11-10T00:45:00Z",
+      "checkedAt": "2026-11-11T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com Duncan"
+          "title": "Care.com house cleaning Duncan SC"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Duncan SC"
+          "title": "HomeAdvisor Duncan SC"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Post-construction cleaning Duncan"
+          "title": "Angi Post-Construction Duncan"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "House cleaning Duncan"
+          "title": "Angi house cleaning Duncan SC"
         },
         {
           "pos": 5,
           "domain": "thumbtack.com",
           "title": "MJD Cleaning Services"
-        },
-        {
-          "pos": 6,
-          "domain": "care.com",
-          "title": "Housekeeping Duncan p2"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Housekeepers Duncan"
-        },
-        {
-          "pos": 8,
-          "domain": "thumbtack.com",
-          "title": "To Have & To Hold Cleaners"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Housekeeping Duncan"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Cleaning lady Duncan"
         }
       ],
-      "competitors": [
-        {
-          "pos": 5,
-          "domain": "thumbtack.com",
-          "name": "MJD Cleaning Services"
-        },
-        {
-          "pos": 8,
-          "domain": "thumbtack.com",
-          "name": "To Have & To Hold Cleaners"
-        }
-      ],
-      "tip": "Topo dominado por diretórios; destacar na página de Duncan serviços e avaliações do Google para se diferenciar de perfis do Thumbtack.",
+      "competitors": [],
+      "tip": "Diretórios dominam Duncan e mostram notas Angi 4,5 a 4,8; destacar nossas avaliações 5 estrelas e a distância curta (5 milhas) na página de Duncan.",
       "error": null
     },
     "lyman-sc": {
       "city": "Lyman, SC",
       "query": "house cleaning Lyman SC",
-      "checkedAt": "2026-11-10T00:45:00Z",
+      "checkedAt": "2026-11-11T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com Lyman"
+          "title": "Care.com Lyman SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning Lyman"
+          "title": "Angi Lyman house cleaning"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Lyman SC"
+          "title": "HomeAdvisor Lyman"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Post-construction cleaning"
+          "title": "Angi post-construction Lyman"
         },
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "Compare quotes"
-        },
-        {
-          "pos": 6,
-          "domain": "care.com",
-          "title": "Housekeeping Lyman"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Housekeepers Lyman"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Housekeepers Lyman p2"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Cleaning lady Lyman"
-        },
-        {
-          "pos": 10,
-          "domain": "bbb.org",
-          "title": "House cleaning Lyman (BBB)"
+          "title": "Angi cleaning Lyman"
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa local com site aparece; página de Lyman com perguntas frequentes e mapa da área atendida deve ganhar posição.",
+      "tip": "Só diretórios para Lyman (Angi 4,5 com 106 avaliações, HomeAdvisor 4,9); reforçar a página de Lyman com FAQ, avaliações e perguntas locais.",
       "error": null
     },
     "wade-hampton-sc": {
@@ -2030,147 +1914,86 @@
     "liberty-sc": {
       "city": "Liberty, SC",
       "query": "house cleaning Liberty SC",
-      "checkedAt": "2026-11-09T21:45:00Z",
+      "checkedAt": "2026-11-11T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Liberty SC"
+          "title": "Care.com housekeeping Liberty SC"
         },
         {
           "pos": 2,
-          "domain": "care.com",
-          "title": "Care.com: housekeeping Liberty p3"
-        },
-        {
-          "pos": 3,
           "domain": "thumbtack.com",
           "title": "CrystalClear Cleaning Co"
         },
         {
-          "pos": 4,
+          "pos": 3,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Liberty"
+          "title": "Care.com housekeepers Liberty SC"
+        },
+        {
+          "pos": 4,
+          "domain": "bbb.org",
+          "title": "BBB maid service Liberty SC"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Care.com: cleaning lady Liberty"
-        },
-        {
-          "pos": 6,
-          "domain": "bbb.org",
-          "title": "BBB: maid service Liberty"
-        },
-        {
-          "pos": 7,
-          "domain": "goloadup.com",
-          "title": "Liberty Hoarder Cleanout Services"
-        },
-        {
-          "pos": 8,
-          "domain": "bbb.org",
-          "title": "BBB: cleaning services Liberty"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Care.com: laundry services Liberty"
-        },
-        {
-          "pos": 10,
-          "domain": "bbb.org",
-          "title": "BBB: commercial cleaning Liberty"
+          "domain": "angi.com",
+          "title": "Angi cleaning Liberty SC"
         }
       ],
-      "competitors": [
-        {
-          "pos": 3,
-          "domain": "thumbtack.com",
-          "name": "CrystalClear Cleaning Co"
-        }
-      ],
-      "tip": "Resultados dominados por Care.com com preços baixos de autônomos; posicionar a página de Liberty em equipe profissional, seguro e qualidade, não em preço.",
+      "competitors": [],
+      "tip": "Só diretórios aparecem para Liberty (Care.com, Thumbtack, Angi, BBB); uma página de Liberty com serviços, FAQ e área atendida pode ocupar o espaço.",
       "error": null
     },
     "hendersonville-nc": {
       "city": "Hendersonville, NC",
       "query": "house cleaning Hendersonville NC",
-      "checkedAt": "2026-11-10T00:45:00Z",
+      "checkedAt": "2026-11-11T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning in Hendersonville NC"
+          "title": "Care.com Hendersonville NC"
         },
         {
           "pos": 2,
           "domain": "experience.com",
-          "title": "Balkens (Experience.com)"
+          "title": "Balken's Cleaning Service"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Hendersonville NC"
+          "title": "HomeAdvisor house cleaning Hendersonville"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "G&A Cleaning Solutions, LLC"
+          "title": "G&A Cleaning Solutions"
         },
         {
           "pos": 5,
           "domain": "instaservice.com",
           "title": "Cleaning Services Hendersonville"
-        },
-        {
-          "pos": 6,
-          "domain": "experience.com",
-          "title": "G and A Cleaning Solutions"
-        },
-        {
-          "pos": 7,
-          "domain": "thumbtack.com",
-          "title": "A Greener Clean"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Cleaning lady Hendersonville NC"
-        },
-        {
-          "pos": 9,
-          "domain": "angi.com",
-          "title": "Compare quotes: maid service"
-        },
-        {
-          "pos": 10,
-          "domain": "angi.com",
-          "title": "Post-construction cleaning"
         }
       ],
       "competitors": [
         {
           "pos": 4,
           "domain": "angi.com",
-          "name": "G&A Cleaning Solutions, LLC"
+          "name": "G&A Cleaning Solutions"
         },
         {
-          "pos": 5,
-          "domain": "instaservice.com",
-          "name": "InstaService"
-        },
-        {
-          "pos": 7,
-          "domain": "thumbtack.com",
-          "name": "A Greener Clean"
+          "pos": 2,
+          "domain": "experience.com",
+          "name": "Balken's Cleaning Service"
         }
       ],
-      "tip": "Só aparecem diretórios e perfis pequenos; criar a página de Hendersonville com serviços, bairros atendidos e avaliações do Google para disputar uma busca fraca.",
+      "tip": "Concorrentes locais destacam anos de experiência e seguro; mostrar na página de Hendersonville o seguro, as avaliações e o tempo de atuação.",
       "error": null
     }
   }

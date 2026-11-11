@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T21:50:00Z",
+  "checkedAt": "2026-11-11T00:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,13 +24,13 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de hoje publicados (06:11 UTC)"
+      "detail": "Artigos de ontem publicados (06:11 UTC)"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de hoje publicados"
+      "detail": "32 artigos de ontem publicados"
     },
     {
       "id": "gbp_posts",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-11T00:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-10T21:50:00Z",
       "overall": "ok",
