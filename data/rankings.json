@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T06:50:00Z",
+  "updatedAt": "2026-11-11T09:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -510,303 +510,499 @@
     "greenville-sc": {
       "city": "Greenville, SC",
       "query": "house cleaning Greenville SC",
-      "checkedAt": "2026-11-10T03:45:00Z",
+      "checkedAt": "2026-11-11T09:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "thumbtack.com",
-          "title": "15 house cleaners in Greenville"
+          "domain": "maidpro.com",
+          "title": "MaidPro Greenville, SC"
         },
         {
           "pos": 2,
-          "domain": "thumbtack.com",
-          "title": "12 house cleaners (maids)"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Greenville, South Carolina"
         },
         {
           "pos": 3,
-          "domain": "maidpro.com",
-          "title": "MaidPro Greer, SC"
+          "domain": "mollymaid.com",
+          "title": "One-Time Cleaning Service in Greenville, SC"
         },
         {
           "pos": 4,
-          "domain": "maidpro.com",
-          "title": "MaidPro Greenville"
+          "domain": "yelp.com",
+          "title": "TOP 10 BEST House Cleaning Services in Greenville, SC"
         },
         {
           "pos": 5,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Greenville SC"
+          "domain": "thecleaningauthority.com",
+          "title": "Cleaning Service in Greenville, SC"
         },
         {
           "pos": 6,
-          "domain": "taskrabbit.co.uk",
-          "title": "House cleaning Greenville"
+          "domain": "cleancogreenville.com",
+          "title": "Home - CleanCo Greenville"
         },
         {
           "pos": 7,
-          "domain": "taskrabbit.co.uk",
-          "title": "House cleaning Greenville"
+          "domain": "chanelcleaningservicesllc.com",
+          "title": "House Cleaning Services in Greenville, SC 29605"
         },
         {
           "pos": 8,
-          "domain": "angi.com",
-          "title": "Home cleaning service reviews"
+          "domain": "squeakycleansc.com",
+          "title": "Squeaky Clean - Window & House Cleaning Greenville, SC"
         },
         {
           "pos": 9,
-          "domain": "angi.com",
-          "title": "Sunrise Cleaning Services"
-        },
-        {
-          "pos": 10,
-          "domain": "twomaidscleaning.com",
-          "title": "Two Maids Greenville"
+          "domain": "spotlessmagicworld.com",
+          "title": "Cleaning Services Greenville SC"
         }
       ],
       "competitors": [
         {
-          "pos": 3,
-          "domain": "maidpro.com",
-          "name": "MaidPro Greer, SC"
-        },
-        {
-          "pos": 4,
+          "pos": 1,
           "domain": "maidpro.com",
           "name": "MaidPro Greenville"
         },
         {
-          "pos": 10,
-          "domain": "twomaidscleaning.com",
-          "name": "Two Maids"
+          "pos": 2,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid of Greenville"
+        },
+        {
+          "pos": 5,
+          "domain": "thecleaningauthority.com",
+          "name": "The Cleaning Authority"
+        },
+        {
+          "pos": 6,
+          "domain": "cleancogreenville.com",
+          "name": "CleanCo Greenville"
+        },
+        {
+          "pos": 8,
+          "domain": "squeakycleansc.com",
+          "name": "Squeaky Clean"
         }
       ],
-      "tip": "Cidade muito disputada por franquias (MaidPro, Two Maids, Cleaning Authority). Competir com o ângulo local e brasileiro, avaliações do Google e páginas de bairro em vez de tentar vencer no termo genérico.",
+      "tip": "Os primeiros resultados são franquias (MaidPro, Molly Maid) com página dedicada à cidade, oferta clara e serviços listados. Reforçar a página de Greenville com tipos de limpeza, área atendida e avaliações reais do Google.",
       "error": null
     },
     "mauldin-sc": {
       "city": "Mauldin, SC",
       "query": "house cleaning Mauldin SC",
-      "checkedAt": "2026-11-10T09:55:00Z",
+      "checkedAt": "2026-11-11T09:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "House cleaning Mauldin SC"
+          "domain": "mollymaid.com",
+          "title": "Professional House Cleaning Services in Mauldin, SC"
         },
         {
           "pos": 2,
-          "domain": "thumbtack.com",
-          "title": "13 house cleaners in Mauldin"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Mauldin, South Carolina"
         },
         {
           "pos": 3,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Mauldin SC"
+          "domain": "yelp.com",
+          "title": "TOP 10 BEST House Cleaning Services in Mauldin, SC"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING IN MAULDIN, SC"
         },
         {
           "pos": 5,
-          "domain": "thumbtack.com",
-          "title": "Big Body Cleaning Services LLC"
+          "domain": "busybeezcleaning.com",
+          "title": "House Cleaning Services Mauldin SC"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "Housekeepers Mauldin SC"
+          "domain": "foothillsexterior.com",
+          "title": "House Washing Mauldin SC"
         },
         {
           "pos": 7,
-          "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "en.wikipedia.org",
+          "title": "Mauldin House"
+        },
+        {
+          "pos": 8,
+          "domain": "mymopps.com",
+          "title": "Professional Home Cleaning in Mauldin SC - MyMopps"
+        },
+        {
+          "pos": 9,
+          "domain": "en.wikipedia.org",
+          "title": "Hagood-Mauldin House"
+        },
+        {
+          "pos": 10,
+          "domain": "azaleacleaningco.com",
+          "title": "House Cleaning Simpsonville, House Cleaner Azalea Cleaning Co"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios (Care.com, Thumbtack, HomeAdvisor, Angi) aparecem; nenhuma empresa local no topo. Oportunidade: página de Mauldin com bairros, serviços e avaliações do Google.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
+        },
+        {
+          "pos": 5,
+          "domain": "busybeezcleaning.com",
+          "name": "Busy Beez Cleaning"
+        },
+        {
+          "pos": 8,
+          "domain": "mymopps.com",
+          "name": "MyMopps"
+        },
+        {
+          "pos": 10,
+          "domain": "azaleacleaningco.com",
+          "name": "Azalea Cleaning Co"
+        }
+      ],
+      "tip": "A concorrência em Mauldin é fraca (resultados misturados com casas históricas e lavagem de fachada). Há espaço: manter a página de Mauldin com serviços de limpeza profunda e mudança, e ligar artigos do blog a ela.",
       "error": null
     },
     "travelers-rest-sc": {
       "city": "Travelers Rest, SC",
       "query": "house cleaning Travelers Rest SC",
-      "checkedAt": "2026-11-10T09:55:00Z",
+      "checkedAt": "2026-11-11T09:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Travelers Rest SC"
+          "title": "House Cleaning Services in Travelers Rest, SC - Hire Local House Cleaners"
         },
         {
           "pos": 2,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Travelers Rest SC"
+          "domain": "servpro.com",
+          "title": "Travelers Rest Fire and Water Damage Restoration and Cleaning Services"
         },
         {
           "pos": 3,
-          "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services in Travelers Rest"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Travelers Rest, South Carolina"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeeping Travelers Rest SC"
+          "domain": "yellowpages.com",
+          "title": "Best 30 House Cleaning in Travelers Rest, SC with Reviews"
         },
         {
           "pos": 5,
-          "domain": "bbb.org",
-          "title": "House Cleaning, Travelers Rest"
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING near TRAVELERS REST, SC"
+        },
+        {
+          "pos": 6,
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING NEAR TRAVELERS REST, SC 29690"
+        },
+        {
+          "pos": 7,
+          "domain": "housekeeper.com",
+          "title": "Experienced Housekeeper in Travelers Rest, SC"
+        },
+        {
+          "pos": 8,
+          "domain": "busybeezcleaning.com",
+          "title": "House Cleaning Services in Travelers Rest, SC"
+        },
+        {
+          "pos": 9,
+          "domain": "mymopps.com",
+          "title": "Best Rated House Cleaning in Travelers Rest SC - MyMopps"
+        },
+        {
+          "pos": 10,
+          "domain": "busybeezcleaning.com",
+          "title": "Cleaning Services Greenville SC"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": "care.com",
-          "name": "Patty's Housekeeping"
+          "pos": 2,
+          "domain": "servpro.com",
+          "name": "SERVPRO"
         },
         {
-          "pos": null,
-          "domain": "care.com",
-          "name": "Cantrell Painting and Cleaning Services, LLC"
+          "pos": 3,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
+        },
+        {
+          "pos": 8,
+          "domain": "busybeezcleaning.com",
+          "name": "Busy Beez Cleaning"
+        },
+        {
+          "pos": 9,
+          "domain": "mymopps.com",
+          "name": "MyMopps"
         }
       ],
-      "tip": "Topo dominado por diretórios; Patty's Housekeeping e Cantrell Painting and Cleaning aparecem em listagens. Destacar na página de Travelers Rest serviços de pintura + limpeza e avaliações.",
+      "tip": "Diretórios (Care.com, Yelp, Yellow Pages) dominam o topo. Completar os perfis em diretórios e destacar na página de Travelers Rest planos recorrentes e limpeza de mudança.",
       "error": null
     },
     "campobello-sc": {
       "city": "Campobello, SC",
       "query": "house cleaning Campobello SC",
-      "checkedAt": "2026-11-10T09:55:00Z",
+      "checkedAt": "2026-11-11T09:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Campobello SC"
+          "title": "House Cleaning Services in Campobello, SC"
         },
         {
           "pos": 2,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Campobello SC"
+          "domain": "care.com",
+          "title": "Find THE BEST Housekeepers Near Me in Campobello, SC"
         },
         {
           "pos": 3,
-          "domain": "instaservice.com",
-          "title": "3-Bedroom Cleaning in Campobello, SC"
+          "domain": "homeadvisor.com",
+          "title": "Top-Rated Cleaning & Maid Services Experts in Campobello, SC"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning"
+          "domain": "servpro.com",
+          "title": "Campobello Fire and Water Damage Restoration and Cleaning Services"
         },
         {
           "pos": 5,
-          "domain": "angi.com",
-          "title": "house cleaning"
+          "domain": "homeaglow.com",
+          "title": "Housekeeping Services in Campobello, SC"
+        },
+        {
+          "pos": 6,
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING IN CAMPOBELLO, SC 29322"
+        },
+        {
+          "pos": 7,
+          "domain": "yelp.com",
+          "title": "TOP 10 BEST Home Cleaning near Campobello, SC"
+        },
+        {
+          "pos": 8,
+          "domain": "yelp.com",
+          "title": "THE BEST 10 Maid Cleaning Service near Campobello, SC"
+        },
+        {
+          "pos": 9,
+          "domain": "housekeeper.com",
+          "title": "Find Individuals in Campobello, South Carolina"
+        },
+        {
+          "pos": 10,
+          "domain": "aquaprosw.com",
+          "title": "Quality Campobello Exterior Cleaning"
         }
       ],
       "competitors": [
         {
-          "pos": 3,
-          "domain": "instaservice.com",
-          "name": "InstaService"
+          "pos": 4,
+          "domain": "servpro.com",
+          "name": "SERVPRO"
+        },
+        {
+          "pos": 5,
+          "domain": "homeaglow.com",
+          "name": "Homeaglow"
         }
       ],
-      "tip": "Diretórios e uma plataforma (InstaService) lideram. Reforçar a página de Campobello com tipos de casa (3 quartos, 2 banheiros), telefone e chamada para orçamento.",
+      "tip": "Só diretórios aparecem no topo, sem empresa local forte. Oportunidade: página de Campobello com área atendida, tipos de limpeza e perguntas frequentes para subir sem muita disputa.",
       "error": null
     },
     "moore-sc": {
       "city": "Moore, SC",
       "query": "house cleaning Moore SC",
-      "checkedAt": "2026-11-10T09:55:00Z",
+      "checkedAt": "2026-11-11T09:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "House cleaning Moore SC"
+          "domain": "angi.com",
+          "title": "Top 10 Best House cleaners in Moore, SC"
         },
         {
           "pos": 2,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Moore SC"
+          "domain": "care.com",
+          "title": "House Cleaning Services in Moore, SC"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "house cleaning"
+          "domain": "homeaglow.com",
+          "title": "House Cleaning Services in Moore, SC"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeeping Moore SC"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Moore, South Carolina"
         },
         {
           "pos": 5,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "yellowpages.com",
+          "title": "Best 30 House Cleaning in Moore, SC with Reviews"
+        },
+        {
+          "pos": 6,
+          "domain": "mollymaid.com",
+          "title": "Move-In and Move-Out Cleaning in Moore"
+        },
+        {
+          "pos": 7,
+          "domain": "castle-keepers.com",
+          "title": "Moore's Best House Cleaning Services"
+        },
+        {
+          "pos": 8,
+          "domain": "thriveandshinemaids.com",
+          "title": "House Cleaning in Moore, SC"
+        },
+        {
+          "pos": 9,
+          "domain": "abidesc.com",
+          "title": "Abide Home & Co."
+        },
+        {
+          "pos": 10,
+          "domain": "squeakycleany.com",
+          "title": "Professional Cleaning Service In Moore, South Carolina"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": "instaservice.com",
-          "name": "InstaService"
+          "pos": 3,
+          "domain": "homeaglow.com",
+          "name": "Homeaglow"
+        },
+        {
+          "pos": 4,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
+        },
+        {
+          "pos": 7,
+          "domain": "castle-keepers.com",
+          "name": "Castle Keepers"
+        },
+        {
+          "pos": 8,
+          "domain": "thriveandshinemaids.com",
+          "name": "Thrive & Shine Maids"
+        },
+        {
+          "pos": 9,
+          "domain": "abidesc.com",
+          "name": "Abide Home & Co."
         }
       ],
-      "tip": "Só diretórios no topo; InstaService tem página 'Full House Cleaning' para Moore. Criar na página de Moore bloco de limpeza completa com FAQ e avaliações.",
+      "tip": "Concorrentes locais (Abide, Castle Keepers) mostram preços iniciais ou tempo de mercado. Adicionar à página de Moore uma seção clara de limpeza de mudança e pedido de orçamento rápido.",
       "error": null
     },
     "simpsonville-sc": {
       "city": "Simpsonville, SC",
       "query": "house cleaning Simpsonville SC",
-      "checkedAt": "2026-11-10T09:55:00Z",
+      "checkedAt": "2026-11-11T09:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "maidpro.com",
-          "title": "MaidPro Simpsonville, SC"
+          "title": "MaidPro Simpsonville,SC"
         },
         {
           "pos": 2,
-          "domain": "care.com",
-          "title": "House cleaning Simpsonville SC"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Simpsonville, SC"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Housekeeping Simpsonville SC"
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING IN SIMPSONVILLE, SC"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Simpsonville SC"
+          "domain": "busybeezcleaning.com",
+          "title": "House Cleaning Simpsonville SC"
         },
         {
           "pos": 5,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "domain": "uplifthomecleaning.com",
+          "title": "House Cleaning in Simpsonville, SC"
+        },
+        {
+          "pos": 6,
+          "domain": "hhcleaningco.com",
+          "title": "Residential & Commercial Cleaning"
+        },
+        {
+          "pos": 7,
+          "domain": "azaleacleaningco.com",
+          "title": "House Cleaning Simpsonville, House Cleaner Azalea Cleaning Co"
+        },
+        {
+          "pos": 8,
+          "domain": "nestlyhomeservices.com",
+          "title": "Simpsonville, South Carolina House & Deep Cleaning"
+        },
+        {
+          "pos": 9,
+          "domain": "greencleanville.com",
+          "title": "Green Cleanville"
+        },
+        {
+          "pos": 10,
+          "domain": "upstatedreamcleaners.com",
+          "title": "Upstate Dream Clean"
         }
       ],
       "competitors": [
         {
           "pos": 1,
           "domain": "maidpro.com",
-          "name": "MaidPro Simpsonville"
+          "name": "MaidPro"
+        },
+        {
+          "pos": 2,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
+        },
+        {
+          "pos": 4,
+          "domain": "busybeezcleaning.com",
+          "name": "Busy Beez Cleaning"
+        },
+        {
+          "pos": 5,
+          "domain": "uplifthomecleaning.com",
+          "name": "Uplift Home Cleaning"
+        },
+        {
+          "pos": 7,
+          "domain": "azaleacleaningco.com",
+          "name": "Azalea Cleaning Co"
         }
       ],
-      "tip": "A franquia MaidPro lidera com página própria da cidade. Destacar na página de Simpsonville avaliações reais, atendimento local de Greer e orçamento rápido.",
+      "tip": "Vários concorrentes destacam 'funcionários verificados' e 'licenciada e segurada'. Destacar na página de Simpsonville a equipe de confiança, seguro e avaliações reais do Google.",
       "error": null
     },
     "berea-sc": {

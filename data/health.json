@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T06:50:00Z",
+  "checkedAt": "2026-11-11T09:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -75,10 +75,13 @@
       "detail": "Formulário envia para /api/lead"
     }
   ],
-  "fixes": [
-    "Descrição do artigo de limpeza comercial em Greer reduzida para 151 caracteres"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-11T09:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-11T06:50:00Z",
       "overall": "ok",
