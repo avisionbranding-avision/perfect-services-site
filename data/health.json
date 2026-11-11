@@ -1,48 +1,48 @@
 {
-  "checkedAt": "2026-11-11T09:50:00Z",
+  "checkedAt": "2026-11-11T15:50:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "593 páginas geradas"
+      "detail": "625 páginas geradas"
     },
     {
       "id": "links",
       "label": "Links internos",
       "status": "ok",
-      "detail": "Nenhum link quebrado"
+      "detail": "Nenhum link quebrado em 626 páginas"
     },
     {
       "id": "posts_json",
       "label": "Artigos",
       "status": "ok",
-      "detail": "52 artigos válidos"
+      "detail": "Todos os artigos estão válidos"
     },
     {
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de ontem publicados (06:11 UTC)"
+      "detail": "Artigos de hoje publicados às 10:06 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de ontem publicados"
+      "detail": "32 artigos de hoje (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Verificação após as 12:00 UTC; posts de ontem prontos"
+      "detail": "3 posts do Google de hoje, sem telefone/link/e-mail no texto"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "22 dias restantes"
+      "detail": "20 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,13 +60,13 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "593 URLs, igual ao esperado"
+      "detail": "625 URLs no sitemap"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "GTM-WTM3FM9G presente na home e no artigo mais novo"
+      "detail": "Google Tag Manager presente na home e no artigo mais novo"
     },
     {
       "id": "lead_form",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-11T15:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-11T09:50:00Z",
       "overall": "ok",
