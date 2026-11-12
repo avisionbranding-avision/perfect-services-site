@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T12:45:00Z",
-  "now": "Conferi build, links, GTM e formulário (tudo ok) e as dicas de 6 cidades (Inman, Greenville, Mauldin, Travelers Rest, Campobello, Moore); nenhuma melhoria automática aberta nesta rodada.",
+  "updatedAt": "2026-11-12T15:50:00Z",
+  "now": "Conferi build, links, GTM, formulário e 126 artigos; 3 títulos longos encurtados e as dicas de 6 cidades (Simpsonville, Berea, Parker, Gantt, Roebuck, Boiling Springs) atualizadas.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -337,6 +337,48 @@
       "foundAt": "2026-11-12",
       "doneAt": "2026-11-12T00:50:00Z",
       "result": "Novo título com 53 caracteres."
+    },
+    {
+      "id": "seo-titulo-getting-back-on-track-2026-11-12",
+      "title": "Encurtar o título do artigo para: One-time reset clean for busy Greer families",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": null,
+      "why": "Título acima de 65 caracteres corta no Google.",
+      "action": "Título reduzido para menos de 60 caracteres.",
+      "foundAt": "2026-11-12",
+      "doneAt": "2026-11-12T15:50:00Z",
+      "result": "Título novo com 44 caracteres."
+    },
+    {
+      "id": "seo-titulo-construction-dust-2026-11-12",
+      "title": "Encurtar o título do artigo para: Why construction dust keeps coming back in Greer",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": null,
+      "why": "Título acima de 65 caracteres corta no Google.",
+      "action": "Título reduzido para menos de 60 caracteres.",
+      "foundAt": "2026-11-12",
+      "doneAt": "2026-11-12T15:50:00Z",
+      "result": "Título novo com 48 caracteres."
+    },
+    {
+      "id": "seo-titulo-special-occasion-2026-11-12",
+      "title": "Encurtar o título do artigo para: Special occasion cleaning in Greer: parties and showers",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": null,
+      "why": "Título acima de 65 caracteres corta no Google.",
+      "action": "Título reduzido para menos de 60 caracteres.",
+      "foundAt": "2026-11-12",
+      "doneAt": "2026-11-12T15:50:00Z",
+      "result": "Título novo com 55 caracteres."
     }
   ]
 }
