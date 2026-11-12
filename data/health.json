@@ -1,18 +1,18 @@
 {
-  "checkedAt": "2026-11-12T09:50:00Z",
+  "checkedAt": "2026-11-12T12:45:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "625 páginas geradas"
+      "detail": "657 páginas geradas"
     },
     {
       "id": "links",
       "label": "Links internos",
       "status": "ok",
-      "detail": "Nenhum link quebrado em 626 páginas"
+      "detail": "Nenhum link quebrado em 659 páginas"
     },
     {
       "id": "posts_json",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de ontem publicados às 10:06 UTC"
+      "detail": "Artigos de hoje publicados às 10:05 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de ontem (meta 32)"
+      "detail": "32 artigos de hoje (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "3 posts do Google de ontem, sem telefone/link/e-mail no texto"
+      "detail": "3 posts do Google de hoje, sem telefone/link/e-mail no texto"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "20 dias de temas de Greer restantes"
+      "detail": "19 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,13 +60,13 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "625 URLs no sitemap"
+      "detail": "657 endereços no mapa do site"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Google Tag Manager presente na home e no artigo mais recente"
+      "detail": "GTM presente na home e no artigo mais novo"
     },
     {
       "id": "lead_form",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-12T12:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-12T09:50:00Z",
       "overall": "ok",
