@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-11T21:45:00Z",
-  "now": "Revisei as dicas de 6 cidades (Landrum, Spartanburg, Fountain Inn, Woodruff, Powdersville, Tryon); nenhuma melhoria automática aberta, 10 itens seguem abertos.",
+  "updatedAt": "2026-11-12T00:50:00Z",
+  "now": "Revisei 84 artigos (2 títulos longos corrigidos, descrições, links e tamanho ok) e as dicas de 6 cidades (Piedmont, Pelzer, Gray Court, Easley, Columbus NC, Saluda NC); 2 melhorias aplicadas.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -309,6 +309,34 @@
       "foundAt": "2026-11-11",
       "doneAt": "2026-11-11",
       "result": "Descrição agora com 151 caracteres, vai ao ar no deploy das 7h."
+    },
+    {
+      "id": "seo-titulo-deep-cleaning-vs-regular-cleaning-in-col",
+      "title": "Encurtar o título do artigo de Columbus para 53 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-columbus-what-is-the-difference.html",
+      "why": "O título tinha 71 caracteres e seria cortado nos resultados do Google.",
+      "action": "Título encurtado para até 60 caracteres, mantendo cidade e tema.",
+      "foundAt": "2026-11-12",
+      "doneAt": "2026-11-12T00:50:00Z",
+      "result": "Novo título com 53 caracteres."
+    },
+    {
+      "id": "seo-titulo-deep-cleaning-vs-regular-cleaning-in-mar",
+      "title": "Encurtar o título do artigo de Marietta para 53 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-marietta-what-is-the-difference.html",
+      "why": "O título tinha 71 caracteres e seria cortado nos resultados do Google.",
+      "action": "Título encurtado para até 60 caracteres, mantendo cidade e tema.",
+      "foundAt": "2026-11-12",
+      "doneAt": "2026-11-12T00:50:00Z",
+      "result": "Novo título com 53 caracteres."
     }
   ]
 }

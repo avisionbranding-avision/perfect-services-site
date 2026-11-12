@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T21:45:00Z",
+  "checkedAt": "2026-11-12T00:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,13 +24,13 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de hoje publicados às 10:06 UTC"
+      "detail": "Artigos de ontem publicados às 10:06 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de hoje (meta 32)"
+      "detail": "32 artigos de ontem (meta 32)"
     },
     {
       "id": "gbp_posts",
@@ -60,23 +60,30 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "625 URLs no sitemap"
+      "detail": "625 endereços no sitemap, igual ao esperado"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Google Tag Manager presente na home e no artigo mais novo"
+      "detail": "Google Tag Manager presente na home e no artigo mais recente"
     },
     {
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulário envia para /api/lead"
+      "detail": "Formulário envia para /api/lead no Cloudflare"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Encurtei os títulos longos dos artigos de Columbus e Marietta (71 → até 60 caracteres)"
+  ],
   "history": [
+    {
+      "at": "2026-11-12T00:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 2 títulos encurtados"
+    },
     {
       "at": "2026-11-11T21:45:00Z",
       "overall": "ok",

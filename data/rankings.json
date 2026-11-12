@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T21:45:00Z",
+  "updatedAt": "2026-11-12T00:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1487,7 +1487,7 @@
     "piedmont-sc": {
       "city": "Piedmont, SC",
       "query": "house cleaning Piedmont SC",
-      "checkedAt": "2026-11-10T15:50:00Z",
+      "checkedAt": "2026-11-12T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1504,21 +1504,41 @@
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Compare quotes: house cleaning"
+          "title": "Compare quotes: cleaning & maid services"
         },
         {
           "pos": 4,
+          "domain": "thebuildermarket.com",
+          "title": "Top-rated cleaning & maid services in Piedmont, SC"
+        },
+        {
+          "pos": 5,
           "domain": "care.com",
           "title": "Housekeeping Piedmont SC"
         },
         {
-          "pos": 5,
-          "domain": "thebuildermarket.com",
-          "title": "Cleaning & maid services Piedmont SC"
+          "pos": 6,
+          "domain": "angi.com",
+          "title": "House cleaning Piedmont SC"
+        },
+        {
+          "pos": 7,
+          "domain": "homeadvisor.com",
+          "title": "Walls & ceilings clean"
+        },
+        {
+          "pos": 8,
+          "domain": "thumbtack.com",
+          "title": "Piedmont Cleaning Pros (Winston-Salem, NC)"
+        },
+        {
+          "pos": 9,
+          "domain": "bbb.org",
+          "title": "House cleaning, Clemson category"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios; usar Piedmont no título e na descrição da página e criar um artigo local para ganhar o primeiro lugar entre empresas do site próprio.",
+      "tip": "Só diretórios aparecem; a busca mistura Piedmont da Carolina do Norte. Citar Piedmont (Greenville County) e Greer no título e no texto, e publicar um artigo local para ser a primeira empresa com site próprio.",
       "error": null
     },
     "pauline-sc": {
@@ -1562,14 +1582,14 @@
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-10T18:50:00Z",
+      "checkedAt": "2026-11-12T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Saluda NC"
+          "title": "Care.com: house cleaning Saluda NC"
         },
         {
           "pos": 2,
@@ -1582,106 +1602,182 @@
           "title": "House cleaning Saluda NC"
         },
         {
-          "pos": 6,
+          "pos": 4,
+          "domain": "care.com",
+          "title": "Housekeeping Saluda NC"
+        },
+        {
+          "pos": 5,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Saluda NC"
+        },
+        {
+          "pos": 6,
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Saluda NC"
         }
       ],
       "competitors": [
         {
           "pos": 2,
           "domain": "maidpro.com",
-          "name": "MaidPro"
+          "name": "MaidPro Saluda, NC"
         }
       ],
-      "tip": "A MaidPro tem página própria para Saluda. Destacar na página de Saluda a distância até Greer, os serviços e as avaliações do Google.",
+      "tip": "MaidPro (franquia) tem página própria de Saluda; responder com página local mais específica (Saluda, Polk County, Tryon) e avaliações reais do Google na página.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-10T18:50:00Z",
+      "checkedAt": "2026-11-12T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Columbus NC"
+          "title": "Care.com: house cleaning Columbus NC"
+        },
+        {
+          "pos": 2,
+          "domain": "care.com",
+          "title": "Housekeepers Columbus NC"
+        },
+        {
+          "pos": 3,
+          "domain": "care.com",
+          "title": "Housekeeping Columbus NC"
+        },
+        {
+          "pos": 4,
+          "domain": "angi.com",
+          "title": "House cleaning Columbus NC"
+        },
+        {
+          "pos": 5,
+          "domain": "merrymaids.com",
+          "title": "Merry Maids Columbus"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "house cleaning"
-        },
-        {
-          "pos": 8,
-          "domain": "merrymaids.com",
-          "title": "Merry Maids (outra cidade)"
+          "title": "Cleaning Columbus NC"
         }
       ],
-      "competitors": [],
-      "tip": "Poucas empresas locais aparecem; o topo é Care.com e Angi. Página de Columbus com serviços, área atendida e telefone visíveis tem espaço para subir.",
+      "competitors": [
+        {
+          "pos": 5,
+          "domain": "merrymaids.com",
+          "name": "Merry Maids Columbus"
+        }
+      ],
+      "tip": "A busca mistura outras Columbus (OH, IN, NJ); usar Columbus, NC (Polk County) e Tryon/Saluda no título e no texto, e reforçar a página da cidade com perguntas frequentes.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-10T18:50:00Z",
+      "checkedAt": "2026-11-12T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Easley SC"
+          "title": "Care.com: house cleaning Easley SC"
+        },
+        {
+          "pos": 2,
+          "domain": "care.com",
+          "title": "House cleaning Easley SC, page 2"
+        },
+        {
+          "pos": 3,
+          "domain": "care.com",
+          "title": "Cost of house cleaning in Easley SC"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "c.house cleaning.easley.SC"
+          "title": "House cleaning Easley SC"
+        },
+        {
+          "pos": 5,
+          "domain": "thumbtack.com",
+          "title": "10 house cleaners in Easley"
         },
         {
           "pos": 6,
-          "domain": "thumbtack.com",
-          "title": "Check out 10 house cleaners in your area"
+          "domain": "angi.com",
+          "title": "House cleaning Easley SC"
         },
         {
           "pos": 7,
-          "domain": "angi.com",
-          "title": "house cleaning"
+          "domain": "homeadvisor.com",
+          "title": "Post-construction clean-up Easley"
+        },
+        {
+          "pos": 8,
+          "domain": "thumbtack.com",
+          "title": "Emerald Cleaning Services"
+        },
+        {
+          "pos": 9,
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Easley SC"
+        },
+        {
+          "pos": 10,
+          "domain": "thebuildermarket.com",
+          "title": "Top-rated cleaning & maid services in Easley, SC"
         }
       ],
       "competitors": [],
-      "tip": "Quem aparece são diretórios com preço e nota. Mostrar na página de Easley uma faixa de preço por tipo de limpeza e a nota do Google.",
+      "tip": "Os resultados são diretórios com preço por hora e avaliações; adicionar à página de Easley uma faixa de preço por tipo de limpeza (sem inventar valores) e o formulário de orçamento perto do topo.",
       "error": null
     },
     "gray-court-sc": {
       "city": "Gray Court, SC",
       "query": "house cleaning Gray Court SC",
-      "checkedAt": "2026-11-10T18:50:00Z",
+      "checkedAt": "2026-11-12T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "gray court sc"
+          "title": "Care.com: house cleaning Gray Court SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Gray Court SC"
         },
         {
           "pos": 3,
           "domain": "bbb.org",
-          "title": "House Cleaning, Gray Court SC"
+          "title": "House cleaning, Gray Court (1,249 results)"
+        },
+        {
+          "pos": 4,
+          "domain": "care.com",
+          "title": "Cleaning lady Gray Court SC"
         },
         {
           "pos": 5,
           "domain": "instaservice.com",
-          "title": "House cleaning Gray Court"
+          "title": "3-bedroom cleaning in Gray Court, South Carolina"
+        },
+        {
+          "pos": 6,
+          "domain": "angi.com",
+          "title": "Cleaning Gray Court SC"
+        },
+        {
+          "pos": 7,
+          "domain": "bbb.org",
+          "title": "Cleaning services, Gray Court"
         }
       ],
       "competitors": [
@@ -1691,39 +1787,54 @@
           "name": "InstaService"
         }
       ],
-      "tip": "Topo de diretórios e BBB. Criar um artigo local sobre Gray Court e reforçar o perfil no BBB para entrar nesse grupo.",
+      "tip": "Só aparece uma franquia/serviço (InstaService) além dos diretórios; destacar Gray Court e Fountain Inn na página e mostrar o orçamento grátis para ganhar espaço.",
       "error": null
     },
     "pelzer-sc": {
       "city": "Pelzer, SC",
       "query": "house cleaning Pelzer SC",
-      "checkedAt": "2026-11-10T18:50:00Z",
+      "checkedAt": "2026-11-12T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Pelzer SC"
+          "title": "Care.com: house cleaning Pelzer SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "title": "Compare quotes: cleaning & maid services"
+        },
+        {
+          "pos": 3,
+          "domain": "angi.com",
+          "title": "House cleaning Pelzer SC"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "c.house cleaning.pelzer.SC"
+          "title": "House cleaning Pelzer SC"
         },
         {
           "pos": 5,
           "domain": "thebuildermarket.com",
-          "title": "Cleaning & Maid Services Pelzer SC"
+          "title": "Top-rated cleaning & maid services in Pelzer, SC"
+        },
+        {
+          "pos": 6,
+          "domain": "care.com",
+          "title": "Housekeepers Pelzer SC"
+        },
+        {
+          "pos": 7,
+          "domain": "bbb.org",
+          "title": "House cleaning, Pelzer (accredited)"
         }
       ],
       "competitors": [],
-      "tip": "Os resultados são diretórios. Mostrar na página de Pelzer os serviços, a nota do Google e um botão de orçamento grátis.",
+      "tip": "Top 10 só de diretórios, sem empresa local com site próprio; falar de Pelzer e de Williamston/Piedmont na página e pedir avaliações de clientes da região.",
       "error": null
     },
     "cowpens-sc": {
