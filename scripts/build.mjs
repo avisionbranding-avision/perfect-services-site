@@ -20,6 +20,16 @@ const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 const titleCase = (s) => s.replace(/\b([a-z])/g, (m) => m.toUpperCase()).replace(/\b(In|Of|And|Or|The|A|To|For|Vs)\b/g, (m) => m.toLowerCase());
 const list = (arr) => (arr.length < 2 ? arr.join('') : `${arr.slice(0, -1).join(', ')} and ${arr[arr.length - 1]}`);
 const trim = (s, n) => (s.length <= n ? s : `${s.slice(0, n - 1).replace(/\s+\S*$/, '')}…`);
+// Page titles: never cut mid-word with "…" (Google shows ~60 characters). Titles are "Main | Tagline | Brand":
+// keep the whole title if it fits, else drop the middle segments, else keep only the main part.
+const TITLE_MAX = 65;
+const fitTitle = (t) => {
+  const segs = String(t).replace(/…$/, '').split(' | ').map((s) => s.trim()).filter(Boolean);
+  if (segs.join(' | ').length <= TITLE_MAX) return segs.join(' | ');
+  if (segs.length > 1 && `${segs[0]} | ${segs[segs.length - 1]}`.length <= TITLE_MAX) return `${segs[0]} | ${segs[segs.length - 1]}`;
+  return segs[0];
+};
+const fitDesc = (d) => trim(String(d).replace(/\s+/g, ' ').trim(), 160);
 
 // Forms: on Cloudflare Pages (CF_PAGES is set during its build) they post to /api/lead (functions/api/lead.js);
 // anywhere else they stay Netlify Forms. The same repository deploys correctly on both during the move.
@@ -62,7 +72,9 @@ const ANALYTICS = site.gtm ? `<!--ps-ga4--><script>(function(w,d,s,l,i){w[l]=w[l
 function footerServices() {
   return `<div><h3>Services</h3><ul>${services.map((s) => `<li><a href="${serviceUrl(s)}">${esc(s.name)}</a></li>`).join('')}<li><a href="/#estimate">Free estimate</a></li></ul></div>`;
 }
-function layout({ title, description, canonical, image = 'open-floor-plan-greer.jpg', jsonld = [], body, current = '', type = 'website' }) {
+function layout({ title, description, canonical, image = 'open-floor-plan-greer.jpg', jsonld = [], body, current = '', type = 'website', robots = '' }) {
+  title = fitTitle(title);
+  description = fitDesc(description);
   const nav = [['/services/', 'Services', 'services'], ['/areas/', 'Areas', 'areas'], ['/#method', 'Brazilian method', ''], ['/blog', 'Blog', 'blog'], ['/faq/', 'FAQ', 'faq']];
   return `<!DOCTYPE html>
 <html lang="en">
@@ -71,7 +83,7 @@ function layout({ title, description, canonical, image = 'open-floor-plan-greer.
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="canonical" href="${D}${canonical}">
+${robots ? `<meta name="robots" content="${robots}">` : `<link rel="canonical" href="${D}${canonical}">`}
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:image" content="${D}/images/${image}">
@@ -390,7 +402,7 @@ function buildCityService(city, svc) {
   const others = services.filter((s) => s.slug !== svc.slug);
   const titleKw = titleCase(svc.keywords[0]);
   write(`areas/${city.slug}/${svc.slug}/index.html`, layout({
-    title: trim(`${titleKw} ${city.full} | ${pick(['Free Estimate', 'Brazilian Detail', 'Local Greer Team', '5-Star Service'], seed)} | Perfect Services`, 70),
+    title: `${titleKw} ${city.full} | ${pick(['Free Estimate', 'Brazilian Detail', 'Local Greer Team', '5-Star Service'], seed)} | Perfect Services`,
     description: trim(`${svc.name} in ${city.full} (${city.zips[0]}): ${svc.summary.charAt(0).toLowerCase()}${svc.summary.slice(1)} Free estimate: ${site.phoneDisplay}.`, 158),
     canonical: cityServiceUrl(city, svc), image: imgs[0], current: 'areas',
     jsonld: [{ '@type': 'Service', name: `${svc.name} in ${city.full}`, serviceType: svc.name, description: svc.summary, provider: BUSINESS, areaServed: { '@type': 'City', name: city.full }, url: `${D}${cityServiceUrl(city, svc)}` }, crumbsLD(items), faqLD(faqs)],
@@ -440,7 +452,7 @@ function buildPosts() {
     const rel = relatedPosts({ city, svc, exclude: p.slug });
     const words = plain(p.html).split(/\s+/).length;
     write(`blog/${p.slug}.html`, layout({
-      title: trim(`${p.title} | Perfect Services`, 70), description: p.description, canonical: postUrl(p), image: p.image, current: 'blog', type: 'article',
+      title: `${p.title} | Perfect Services`, description: p.description, canonical: postUrl(p), image: p.image, current: 'blog', type: 'article',
       jsonld: [{ '@type': 'BlogPosting', headline: p.title, description: p.description, image: `${D}/images/${p.image}`, datePublished: p.date, dateModified: p.updated || p.date, author: { '@type': 'Organization', name: 'Perfect Services' }, publisher: BUSINESS, keywords: p.keywords || '', articleSection: p.category, wordCount: words, mainEntityOfPage: `${D}${postUrl(p)}`, ...(city ? { about: { '@type': 'City', name: city.full } } : {}) }, crumbsLD(items), ...(faqs.length ? [faqLD(faqs)] : [])],
       body: `<div class="post-head"><div class="wrap">${crumbs(items)}<span class="tag">${esc(p.category)}${city ? ` · ${esc(city.name)}` : ''}</span><h1>${esc(p.h1 || p.title)}</h1><p class="post-dek">${esc(p.description)}</p><div class="post-meta"><img src="/images/logo.png" alt=""><span><strong>Perfect Services Team</strong><br><time datetime="${p.date}">${new Date(`${p.date}T12:00:00`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</time> · ${esc(p.readTime)}</span></div></div></div>
 <div class="wrap post-cover"><img src="/images/${p.image}" alt="${esc(`${IMAGE_LABELS[p.image] || 'Clean home'}, ${p.keywords || p.title} - Perfect Services`)}"></div>
@@ -541,6 +553,27 @@ ${groups.map((g) => `<div class="faq-group" id="${g.s.slug}">${faqHTML(g.all, `$
 }
 
 // ---------- patch the existing home page and legacy posts ----------
+// Hand-written pages: fit the <title>/og:title, trim the description, and add canonical, og:url and og:image when missing.
+function fixHead(html, canonical, image) {
+  html = html.replace(/<title>([\s\S]*?)<\/title>/, (m, t) => `<title>${esc(fitTitle(t.trim().replace(/&amp;/g, '&')))}</title>`)
+    .replace(/(<meta property="og:title" content=")([^"]*)(")/, (m, a, t, b) => `${a}${esc(fitTitle(t.replace(/&amp;/g, '&')))}${b}`)
+    .replace(/(<meta (?:name="description"|property="og:description") content=")([^"]*)(")/g, (m, a, d, b) => `${a}${fitDesc(d)}${b}`);
+  const add = [];
+  if (!/rel="canonical"/.test(html)) add.push(`<link rel="canonical" href="${D}${canonical}">`);
+  if (!/property="og:url"/.test(html)) add.push(`<meta property="og:url" content="${D}${canonical}">`);
+  if (image && !/property="og:image"/.test(html)) add.push(`<meta property="og:image" content="${D}/images/${image}">`);
+  return add.length ? html.replace(/(<meta name="description"[^>]*>)/, `$1\n${add.join('\n')}`) : html;
+}
+
+// 404 page: without it Cloudflare Pages answers unknown URLs with the home page and status 200 (a "soft 404").
+function build404() {
+  write('404.html', layout({
+    title: 'Page not found | Perfect Services', description: 'This page does not exist. See our house cleaning services, the areas we serve around Greer, SC, or book a free estimate.',
+    canonical: '/404', robots: 'noindex, follow',
+    body: `<section class="lp"><div class="wrap" style="text-align:center;padding:60px 0"><h1>Page not found</h1><p>The page you are looking for does not exist or has moved.</p><p><a class="btn btn-blue" href="/#estimate">Get a free estimate</a></p><p><a href="/services/">Our services</a> · <a href="/areas/">Areas we serve</a> · <a href="/blog">Blog</a> · <a href="/">Home</a></p></div></section>`,
+  }), { sitemap: false });
+}
+
 function patchExisting() {
   const svcMap = { 'Regular house cleaning': 'house-cleaning', 'Deep cleaning': 'deep-cleaning', 'Move-in / move-out cleaning': 'move-in-move-out-cleaning', 'Post-construction cleaning': 'post-construction-cleaning', 'Commercial and office cleaning': 'commercial-office-cleaning' };
   const fixNav = (html, prefix) => (html.includes('/areas/') ? html : html.replace(/(<li><a href="[^"]*#services">Services<\/a><\/li>)/, `$1<li><a href="/areas/">Areas</a></li>`))
@@ -560,6 +593,7 @@ function patchExisting() {
   } catch { /* no citations file yet */ }
   index = index.replace('"@id":"#business",', `"@id":"${D}/#business",\n    "url":"${D}/",`);
   if (!index.includes('rel="canonical"')) index = index.replace('<meta name="keywords"', `<link rel="canonical" href="${D}/">\n<meta name="keywords"`);
+  index = fixHead(index, '/', 'open-floor-plan-greer.jpg');
   fs.writeFileSync(ipath, withAnalytics(formMode(index)));
   const ty = path.join(ROOT, 'thank-you.html');
   if (fs.existsSync(ty)) fs.writeFileSync(ty, withAnalytics(fs.readFileSync(ty, 'utf8')));
@@ -568,6 +602,7 @@ function patchExisting() {
   posts.filter((p) => p.legacy).forEach((p) => {
     const f = path.join(ROOT, 'blog', `${p.slug}.html`);
     let html = fixNav(fs.readFileSync(f, 'utf8')).replace(/<!--ps-links-->[\s\S]*?<!--\/ps-links-->\s*/, '');
+    html = fixHead(html, postUrl(p), p.image);
     const svc = serviceBySlug[p.service];
     if (svc) {
       const seed = hash(p.slug);
@@ -626,6 +661,7 @@ buildAreas();
 buildPosts();
 buildBlogIndex();
 buildFaq();
+build404();
 const n = buildSitemap();
 prettyLinks();
 
