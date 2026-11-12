@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:45:00Z",
+  "updatedAt": "2026-11-12T21:50:00Z",
   "verifiedAt": "2026-11-09T06:10:00Z",
   "how": "Logada na conta que administra o perfil, pesquise no Google \"Perfect Services Painting & Cleaning\" ou acesse business.google.com e clique em Editar perfil. O perfil foi conferido pelo Claude em 09/11 às 03:10 (horário de São Paulo); o status de cada tarefa mostra o que estava no perfil nesse momento.",
   "setup": [
@@ -241,20 +241,6 @@
     }
   ],
   "suggestions": [
-    {
-      "id": "sug-2026-11-09-posts-gap",
-      "priority": 1,
-      "createdAt": "2026-11-09T06:10:00Z",
-      "title": "Retomar os posts hoje: o último foi em 26/10",
-      "where": "Aba Google Meu Negócio do painel",
-      "why": "No perfil, vários posts foram publicados de uma vez em 23/10 e o último foi em 26/10; desde então, 14 dias sem posts. Postar de forma regular (3 por dia, não vários de uma vez) mostra ao Google que o perfil está ativo.",
-      "steps": [
-        "Abra a aba Google Meu Negócio",
-        "Publique os 3 posts de hoje",
-        "Mantenha o ritmo diário"
-      ],
-      "copy": []
-    },
     {
       "id": "sug-2026-11-09-products",
       "priority": 2,

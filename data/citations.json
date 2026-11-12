@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:45:00Z",
+  "updatedAt": "2026-11-12T21:50:00Z",
   "kit": [
     {
       "label": "Business name (igual ao Google)",
@@ -83,7 +83,7 @@
       "match": "bing.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-12T12:45:00Z"
+      "checkedAt": "2026-11-12T21:50:00Z"
     },
     {
       "id": "yelp",
@@ -94,7 +94,7 @@
       "match": "yelp.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-12T09:50:00Z"
+      "checkedAt": "2026-11-12T21:50:00Z"
     },
     {
       "id": "angi",
@@ -116,7 +116,7 @@
       "match": "thumbtack.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-12T09:50:00Z"
+      "checkedAt": "2026-11-12T21:50:00Z"
     },
     {
       "id": "care",
