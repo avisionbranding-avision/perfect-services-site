@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-12T00:50:00Z",
+  "checkedAt": "2026-11-12T03:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -36,7 +36,7 @@
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "3 posts do Google de hoje, sem telefone/link/e-mail no texto"
+      "detail": "3 posts do Google de ontem, sem telefone/link/e-mail no texto"
     },
     {
       "id": "greer_queue",
@@ -60,7 +60,7 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "625 endereços no sitemap, igual ao esperado"
+      "detail": "625 URLs no sitemap"
     },
     {
       "id": "gtm",
@@ -75,10 +75,13 @@
       "detail": "Formulário envia para /api/lead no Cloudflare"
     }
   ],
-  "fixes": [
-    "Encurtei os títulos longos dos artigos de Columbus e Marietta (71 → até 60 caracteres)"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-12T03:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-12T00:50:00Z",
       "overall": "ok",

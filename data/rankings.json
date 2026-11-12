@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T00:50:00Z",
+  "updatedAt": "2026-11-12T03:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1544,39 +1544,69 @@
     "pauline-sc": {
       "city": "Pauline, SC",
       "query": "house cleaning Pauline SC",
-      "checkedAt": "2026-11-10T18:50:00Z",
+      "checkedAt": "2026-11-12T03:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "angi.com",
-          "title": "house cleaning (Pauline, SC)"
+          "domain": "care.com",
+          "title": "Housekeeping Pauline SC"
         },
         {
           "pos": 2,
-          "domain": "care.com",
-          "title": "Care.com housekeeping Pauline SC"
+          "domain": "angi.com",
+          "title": "House cleaning Pauline SC"
         },
         {
-          "pos": 10,
+          "pos": 3,
+          "domain": "care.com",
+          "title": "Housekeeping Pauline SC"
+        },
+        {
+          "pos": 4,
+          "domain": "care.com",
+          "title": "Housekeepers Pauline SC"
+        },
+        {
+          "pos": 5,
+          "domain": "care.com",
+          "title": "Cleaning ladies Pauline SC"
+        },
+        {
+          "pos": 6,
+          "domain": "angi.com",
+          "title": "Cleaning Pauline SC"
+        },
+        {
+          "pos": 7,
           "domain": "instaservice.com",
           "title": "Cleaning Services Pauline"
         },
         {
-          "pos": 11,
+          "pos": 8,
           "domain": "bbb.org",
-          "title": "BBB janitor Pauline SC"
+          "title": "Janitor in Pauline SC"
+        },
+        {
+          "pos": 9,
+          "domain": "myshinyrhino.com",
+          "title": "Shiny Rhino Pauline"
         }
       ],
       "competitors": [
         {
-          "pos": 10,
+          "pos": 7,
           "domain": "instaservice.com",
           "name": "InstaService"
+        },
+        {
+          "pos": 9,
+          "domain": "myshinyrhino.com",
+          "name": "Shiny Rhino"
         }
       ],
-      "tip": "O topo é só diretório (Angi, Care.com, BBB). Citar Pauline e as cidades vizinhas na página de Pauline com serviços, preço inicial e pedido de orçamento grátis.",
+      "tip": "Só diretórios e franquias no topo. Destacar na página de Pauline um FAQ de preços e a nota do Google para ganhar espaço.",
       "error": null
     },
     "saluda-nc": {
@@ -1840,7 +1870,7 @@
     "cowpens-sc": {
       "city": "Cowpens, SC",
       "query": "house cleaning Cowpens SC",
-      "checkedAt": "2026-11-10T21:50:00Z",
+      "checkedAt": "2026-11-12T03:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1857,33 +1887,38 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeepers Cowpens"
+          "title": "Housekeepers Cowpens SC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Move-out cleaning Cowpens"
+          "title": "Move-out cleaning Cowpens SC"
         },
         {
           "pos": 5,
           "domain": "instaservice.com",
           "title": "House cleaning 3 bed 2 bath Cowpens"
+        },
+        {
+          "pos": 6,
+          "domain": "care.com",
+          "title": "Cleaning ladies Cowpens SC"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
-          "domain": "angi.com",
-          "name": "First Class Cleaners LLC / No-Prints Cleaning Service (Angi)"
+          "pos": 5,
+          "domain": "instaservice.com",
+          "name": "InstaService"
         }
       ],
-      "tip": "Só diretórios aparecem no topo, sem empresa própria forte. Destacar na página de Cowpens preço inicial, avaliações do Google e o link para pedir orçamento.",
+      "tip": "Poucos cleaners locais; Angi e Care.com dominam. Reforçar a página de Cowpens com tamanhos de casa (2-3 quartos), FAQ e área atendida.",
       "error": null
     },
     "chesnee-sc": {
       "city": "Chesnee, SC",
       "query": "house cleaning Chesnee SC",
-      "checkedAt": "2026-11-10T21:50:00Z",
+      "checkedAt": "2026-11-12T03:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1900,38 +1935,32 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeeping Chesnee"
+          "title": "Housekeeping Chesnee SC"
         },
         {
           "pos": 4,
-          "domain": "angi.com",
-          "title": "Cleaning Chesnee SC"
+          "domain": "care.com",
+          "title": "Housekeeping Chesnee SC page 2"
         },
         {
           "pos": 5,
-          "domain": "servpro.com",
-          "title": "SERVPRO Chesnee SC"
-        }
-      ],
-      "competitors": [
-        {
-          "pos": 2,
-          "domain": "angi.com",
-          "name": "Sunrise Cleaning Services (Angi)"
+          "domain": "care.com",
+          "title": "Housekeepers Chesnee SC"
         },
         {
-          "pos": 5,
-          "domain": "servpro.com",
-          "name": "SERVPRO of Spartanburg County"
+          "pos": 6,
+          "domain": "care.com",
+          "title": "Cleaning ladies Chesnee SC"
         }
       ],
-      "tip": "Resultados dominados por Care.com e Angi. Mostrar na página de Chesnee a distância até Greer, serviços e avaliações reais para se destacar das listas genéricas.",
+      "competitors": [],
+      "tip": "Nenhuma empresa local no topo, só diretórios. Boa chance: página de Chesnee com serviços, FAQ e citação de Spartanburg e Pacolet.",
       "error": null
     },
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
-      "checkedAt": "2026-11-10T21:50:00Z",
+      "checkedAt": "2026-11-12T03:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1957,41 +1986,41 @@
         },
         {
           "pos": 5,
+          "domain": "care.com",
+          "title": "Housekeepers Flat Rock NC"
+        },
+        {
+          "pos": 6,
           "domain": "homeadvisor.com",
           "title": "HeyMaid"
         }
       ],
       "competitors": [
         {
-          "pos": 5,
+          "pos": 6,
           "domain": "homeadvisor.com",
           "name": "HeyMaid"
-        },
-        {
-          "pos": 4,
-          "domain": "care.com",
-          "name": "SunRiver Maids (Care.com)"
         }
       ],
-      "tip": "Concorrentes locais (HeyMaid, SunRiver Maids) aparecem em diretórios. Deixar claro na página de Flat Rock que atendemos a área e mostrar avaliações e FAQ de preços.",
+      "tip": "HeyMaid aparece com perfil local. Na página de Flat Rock, citar Hendersonville e Tryon e destacar visita de orçamento grátis.",
       "error": null
     },
     "williamston-sc": {
       "city": "Williamston, SC",
       "query": "house cleaning Williamston SC",
-      "checkedAt": "2026-11-10T21:50:00Z",
+      "checkedAt": "2026-11-12T03:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Trusted House Cleaning Services in Williamston, SC"
+          "title": "House cleaning Williamston SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Evans Cleaning Service"
+          "title": "Evans Cleaning Service Williamston SC"
         },
         {
           "pos": 3,
@@ -2001,33 +2030,33 @@
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "title": "Compare Quotes House Cleaning"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
           "title": "House cleaning Williamston SC"
+        },
+        {
+          "pos": 6,
+          "domain": "thebuildermarket.com",
+          "title": "Cleaning & Maid Services Williamston SC"
         }
       ],
       "competitors": [
         {
           "pos": 2,
           "domain": "care.com",
-          "name": "Evans Cleaning Service (Care.com)"
-        },
-        {
-          "pos": 6,
-          "domain": "thebuildermarket.com",
-          "name": "Top-Rated Cleaning & Maid Services"
+          "name": "Evans Cleaning Service"
         }
       ],
-      "tip": "Diretórios ocupam o topo. Incluir na página de Williamston uma faixa de preços por serviço e avaliações do Google para competir com Angi e Care.com.",
+      "tip": "Só diretórios e uma empresa pequena (Evans Cleaning). Página de Williamston com FAQ, serviços e cidades vizinhas como Pelzer e Easley.",
       "error": null
     },
     "pacolet-sc": {
       "city": "Pacolet, SC",
       "query": "house cleaning Pacolet SC",
-      "checkedAt": "2026-11-10T21:50:00Z",
+      "checkedAt": "2026-11-12T03:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2055,6 +2084,11 @@
           "pos": 5,
           "domain": "care.com",
           "title": "Cleaning ladies Pacolet SC"
+        },
+        {
+          "pos": 6,
+          "domain": "bbb.org",
+          "title": "Janitor Pacolet SC"
         }
       ],
       "competitors": [
@@ -2064,7 +2098,7 @@
           "name": "Angi house cleaning Pacolet"
         }
       ],
-      "tip": "Sem empresa local no topo, só diretórios. Boa chance: reforçar a página de Pacolet com FAQ, serviços e avaliações para subir.",
+      "tip": "Sem empresa local no topo, só diretórios. Reforçar a página de Pacolet com FAQ, serviços e citar Spartanburg e Cowpens.",
       "error": null
     },
     "pickens-sc": {
