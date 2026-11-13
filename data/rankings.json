@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-13T00:50:00Z",
+  "updatedAt": "2026-11-13T03:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
       "city": "Greer, SC",
       "query": "house cleaning Greer SC",
-      "checkedAt": "2026-11-12T06:50:00Z",
+      "checkedAt": "2026-11-13T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -17,7 +17,7 @@
         {
           "pos": 2,
           "domain": "thecleaningauthority.com",
-          "title": "House cleaning - The Cleaning Authority Greer"
+          "title": "House Cleaning in Greer, SC - The Cleaning Authority"
         },
         {
           "pos": 3,
@@ -47,12 +47,17 @@
         {
           "pos": 8,
           "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services in Greer, SC"
+          "title": "Top-Rated Cleaning & Maid Services Near You in Greer, SC"
+        },
+        {
+          "pos": 9,
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service Greer SC"
         },
         {
           "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning Greer SC"
+          "domain": "homeyou.com",
+          "title": "Cleaning services Greer costs"
         }
       ],
       "competitors": [
@@ -65,25 +70,15 @@
           "pos": 4,
           "domain": "maidpro.com",
           "name": "MaidPro Greer"
-        },
-        {
-          "pos": 6,
-          "domain": "thumbtack.com",
-          "name": "Angel Grove Cleaning LLC"
-        },
-        {
-          "pos": 7,
-          "domain": "angi.com",
-          "name": "An Artistic Touch Cleaning Service"
         }
       ],
-      "tip": "MaidPro aparece com 4,8 estrelas e 161 avaliações; mostrar nossa nota 5,0 e as avaliações reais do Google na página de Greer é o caminho mais direto para competir.",
+      "tip": "As franquias (The Cleaning Authority, MaidPro) lideram, e a MaidPro mostra nota 4,8 com 161 avaliações. Destacar nossa nota 5,0 do Google e avaliações reais na página de Greer, com faixa de preço por serviço.",
       "error": null
     },
     "taylors-sc": {
       "city": "Taylors, SC",
       "query": "house cleaning Taylors SC",
-      "checkedAt": "2026-11-12T06:50:00Z",
+      "checkedAt": "2026-11-13T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -120,7 +115,22 @@
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "Walls Ceilings Clean Taylors SC"
+          "title": "Walls Ceilings Clean"
+        },
+        {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "Housekeeping Taylors SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeeping Taylors SC page 2"
+        },
+        {
+          "pos": 10,
+          "domain": "care.com",
+          "title": "House cleaning jobs Taylors SC"
         }
       ],
       "competitors": [
@@ -130,13 +140,13 @@
           "name": "SERVPRO of South Greenville County"
         }
       ],
-      "tip": "Nenhuma empresa local aparece no topo, só diretórios; vale reforçar a página de Taylors com serviços, bairros atendidos e ligar ao artigo local.",
+      "tip": "Domínio de diretórios e poucas empresas locais. Na página de Taylors, destacar limpeza pós-obra e mudança (move-in/move-out), que os concorrentes locais citam, e linkar os artigos de Taylors.",
       "error": null
     },
     "duncan-sc": {
       "city": "Duncan, SC",
       "query": "house cleaning Duncan SC",
-      "checkedAt": "2026-11-12T06:50:00Z",
+      "checkedAt": "2026-11-13T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -153,12 +163,12 @@
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "General Cleaning, Carpet cleaning, janitorial service"
+          "title": "General Cleaning, janitorial service - Duncan"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Duncan SC"
         },
         {
           "pos": 5,
@@ -173,7 +183,22 @@
         {
           "pos": 7,
           "domain": "care.com",
+          "title": "Housekeeping Duncan SC page 2"
+        },
+        {
+          "pos": 8,
+          "domain": "care.com",
           "title": "Housekeeping Duncan SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeepers Duncan SC"
+        },
+        {
+          "pos": 10,
+          "domain": "homeadvisor.com",
+          "title": "Compare Quotes from Cleaning Services"
         }
       ],
       "competitors": [
@@ -188,13 +213,13 @@
           "name": "To Have & To Hold Cleaners"
         }
       ],
-      "tip": "Concorrentes pequenas do Thumbtack estão no topo; destacar na página de Duncan a distância curta (5 milhas de Greer) e um orçamento rápido pode ajudar.",
+      "tip": "Concorrentes locais aparecem pelo Thumbtack, com perfil e avaliações. Concluir o perfil no Thumbtack e mostrar na página de Duncan que somos uma equipe local a 5 milhas, com avaliações.",
       "error": null
     },
     "lyman-sc": {
       "city": "Lyman, SC",
       "query": "house cleaning Lyman SC",
-      "checkedAt": "2026-11-12T06:50:00Z",
+      "checkedAt": "2026-11-13T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -206,7 +231,7 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Lyman SC"
         },
         {
           "pos": 3,
@@ -234,13 +259,23 @@
           "title": "House Cleaning Lyman SC"
         },
         {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "Housekeepers Lyman SC page 2"
+        },
+        {
           "pos": 9,
-          "domain": "bbb.org",
-          "title": "house cleaning Lyman"
+          "domain": "care.com",
+          "title": "Housekeepers Lyman SC"
+        },
+        {
+          "pos": 10,
+          "domain": "care.com",
+          "title": "Cleaning ladies Lyman SC"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo e sem empresa local clara; a página de Lyman pode ganhar com perguntas frequentes e menção às cidades vizinhas atendidas.",
+      "tip": "Sem empresas locais no topo, só Care.com, Angi e HomeAdvisor. Adicionar perguntas frequentes e serviços específicos na página de Lyman para disputar o espaço.",
       "error": null
     },
     "wade-hampton-sc": {
@@ -2578,7 +2613,7 @@
     "pacolet-sc": {
       "city": "Pacolet, SC",
       "query": "house cleaning Pacolet SC",
-      "checkedAt": "2026-11-12T03:45:00Z",
+      "checkedAt": "2026-11-13T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2590,7 +2625,7 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning Pacolet SC"
+          "title": "House cleaning - Pacolet"
         },
         {
           "pos": 3,
@@ -2600,7 +2635,7 @@
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeeping Pacolet SC"
+          "title": "Housekeeping providers Pacolet SC"
         },
         {
           "pos": 5,
@@ -2610,90 +2645,104 @@
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "Janitor Pacolet SC"
-        }
-      ],
-      "competitors": [
+          "title": "Janitor - Pacolet SC"
+        },
         {
-          "pos": 2,
+          "pos": 7,
           "domain": "angi.com",
-          "name": "Angi house cleaning Pacolet"
+          "title": "Cleaning - Pacolet"
+        },
+        {
+          "pos": 8,
+          "domain": "goloadup.com",
+          "title": "Pacolet Hoarder Cleanout Services"
+        },
+        {
+          "pos": 9,
+          "domain": "bbb.org",
+          "title": "Wall Cleaning - Pacolet SC"
+        },
+        {
+          "pos": 10,
+          "domain": "bbb.org",
+          "title": "Janitor Service - Pacolet SC"
         }
       ],
-      "tip": "Sem empresa local no topo, só diretórios. Reforçar a página de Pacolet com FAQ, serviços e citar Spartanburg e Cowpens.",
+      "competitors": [],
+      "tip": "Só diretórios (Care.com, Angi, BBB) aparecem; nenhuma empresa local no topo. Boa chance: reforçar a página de Pacolet com serviços, FAQ e links dos artigos para disputar o espaço.",
       "error": null
     },
     "pickens-sc": {
       "city": "Pickens, SC",
       "query": "house cleaning Pickens SC",
-      "checkedAt": "2026-11-12T06:50:00Z",
+      "checkedAt": "2026-11-13T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Pickens SC"
+          "title": "Find Trusted House Cleaning Services in Pickens, SC"
         },
         {
           "pos": 2,
+          "domain": "care.com",
+          "title": "House cleaning Pickens SC"
+        },
+        {
+          "pos": 3,
           "domain": "walmart.com",
           "title": "House Cleaning Services at Pickens Supercenter"
         },
         {
-          "pos": 3,
+          "pos": 4,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Pickens SC"
         },
         {
-          "pos": 4,
+          "pos": 5,
           "domain": "care.com",
           "title": "Cost of house cleaning Pickens SC"
         },
         {
-          "pos": 5,
+          "pos": 6,
           "domain": "homeadvisor.com",
           "title": "House cleaning Pickens SC"
         },
         {
-          "pos": 6,
+          "pos": 7,
           "domain": "thumbtack.com",
           "title": "Southern Cleaning Services Upstate LLC"
         },
         {
-          "pos": 7,
+          "pos": 8,
           "domain": "servpro.com",
-          "title": "SERVPRO of Pickens County - cleaning"
+          "title": "SERVPRO of Pickens County"
         },
         {
-          "pos": 8,
+          "pos": 9,
           "domain": "thumbtack.com",
           "title": "Breathe Easy Cleaning Co"
         },
         {
           "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning Maid Services Pickens SC"
+          "domain": "care.com",
+          "title": "Housekeeping services Pickens SC page 2"
         }
       ],
       "competitors": [
         {
-          "pos": 6,
+          "pos": 7,
           "domain": "thumbtack.com",
           "name": "Southern Cleaning Services Upstate LLC"
         },
         {
-          "pos": 7,
-          "domain": "servpro.com",
-          "name": "SERVPRO of Pickens County"
-        },
-        {
-          "pos": 8,
+          "pos": 9,
           "domain": "thumbtack.com",
           "name": "Breathe Easy Cleaning Co"
         }
       ],
-      "tip": "O topo é só de diretórios (Care.com, Angi, HomeAdvisor); uma página de Pickens com faixa de preço e perguntas frequentes pode furar essa fila.",
+      "tip": "Poucas empresas locais; Care.com mostra preço médio por hora. Mostrar na página de Pickens faixas de preço e o que está incluso na limpeza, além de linkar artigos locais.",
       "error": null
     },
     "liberty-sc": {
