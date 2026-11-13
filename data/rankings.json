@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T03:50:00Z",
+  "updatedAt": "2026-11-13T06:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -281,19 +281,19 @@
     "wade-hampton-sc": {
       "city": "Wade Hampton, SC",
       "query": "house cleaning Wade Hampton SC",
-      "checkedAt": "2026-11-12T09:50:00Z",
+      "checkedAt": "2026-11-13T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "enviro-master.com",
-          "title": "Get a Quote (limpeza comercial)"
+          "title": "Get a Quote (Wade Hampton, comercial)"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning (Hampton, SC)"
+          "title": "house cleaning (Hampton SC)"
         },
         {
           "pos": 3,
@@ -313,33 +313,38 @@
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Squeeky Klean Maid Service LLC"
+          "title": "Squeeky Klean Maid Service"
         },
         {
           "pos": 7,
           "domain": "merrymaids.com",
-          "title": "Home cleaners Saint Helena Island SC"
+          "title": "Merry Maids"
         },
         {
           "pos": 8,
-          "domain": "maids.com",
-          "title": "House Cleaning Services in South Carolina"
+          "domain": "thumbtack.com",
+          "title": "Care2Clean South Carolina"
         }
       ],
       "competitors": [
         {
-          "pos": 5,
-          "domain": "maids.com",
-          "name": "House Cleaning Services in South Carolina"
+          "pos": 7,
+          "domain": "merrymaids.com",
+          "name": "Merry Maids"
+        },
+        {
+          "pos": 8,
+          "domain": "thumbtack.com",
+          "name": "Care2Clean South Carolina"
         }
       ],
-      "tip": "Busca quase sem resultado local para Wade Hampton (aparece Hampton, outra cidade). Oportunidade: título e texto da página citando Wade Hampton e o CEP 29607 para ser a resposta mais específica.",
+      "tip": "Nenhuma empresa residencial de Wade Hampton aparece no topo; a página de Wade Hampton pode ganhar citando Greenville/Taylors e preço por serviço.",
       "error": null
     },
     "wellford-sc": {
       "city": "Wellford, SC",
       "query": "house cleaning Wellford SC",
-      "checkedAt": "2026-11-12T09:50:00Z",
+      "checkedAt": "2026-11-13T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -351,12 +356,12 @@
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Wellford SC"
+          "title": "house cleaning Wellford SC"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "House cleaning Wellford"
+          "title": "house cleaning Wellford"
         },
         {
           "pos": 4,
@@ -365,13 +370,13 @@
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeeping Wellford SC"
+          "domain": "homeadvisor.com",
+          "title": "Range Hood Clean"
         },
         {
           "pos": 6,
-          "domain": "homeadvisor.com",
-          "title": "Range Hood Clean Wellford"
+          "domain": "care.com",
+          "title": "Housekeeping Wellford SC"
         },
         {
           "pos": 7,
@@ -389,27 +394,32 @@
           "pos": 4,
           "domain": "homeguide.com",
           "name": "Susvea's Naked Cleaning"
+        },
+        {
+          "pos": 8,
+          "domain": "experience.com",
+          "name": "Gold Crown Cleaning Service"
         }
       ],
-      "tip": "O topo é de diretórios com notas e preços. Na página de Wellford, mostrar estimativa grátis e a nota 5,0 do Google para se destacar.",
+      "tip": "Topo dominado por diretórios (Care.com, HomeAdvisor, Angi). Criar perfis nesses diretórios e destacar a página de Wellford com FAQ e avaliações.",
       "error": null
     },
     "startex-sc": {
       "city": "Startex, SC",
       "query": "house cleaning Startex SC",
-      "checkedAt": "2026-11-12T09:50:00Z",
+      "checkedAt": "2026-11-13T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Startex SC"
+          "title": "house cleaning Startex SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning Startex"
+          "title": "house cleaning Startex"
         },
         {
           "pos": 3,
@@ -424,90 +434,115 @@
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Housekeepers Startex SC"
+          "title": "Housekeepers Startex SC page 2"
         },
         {
           "pos": 6,
-          "domain": "homeadvisor.com",
-          "title": "Range Hood Clean Startex"
+          "domain": "care.com",
+          "title": "Housekeepers Startex SC page 3"
         },
         {
           "pos": 7,
-          "domain": "bbb.org",
-          "title": "Janitor Startex SC"
+          "domain": "care.com",
+          "title": "Cleaning lady page 2"
         },
         {
           "pos": 8,
-          "domain": "angi.com",
-          "title": "Cleaning Startex"
+          "domain": "care.com",
+          "title": "Cleaning lady page 3"
+        },
+        {
+          "pos": 9,
+          "domain": "homeadvisor.com",
+          "title": "Range Hood Clean"
+        },
+        {
+          "pos": 10,
+          "domain": "bbb.org",
+          "title": "janitor"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios aparecem para Startex, sem empresa local. Boa chance: página de Startex com a distância até Greer, estimativa grátis e link para as cidades vizinhas.",
+      "tip": "Só diretórios no topo (HomeAdvisor, Angi, Care.com); cadastrar a empresa neles e linkar a página de Startex com Greer, Duncan e Lyman.",
       "error": null
     },
     "reidville-sc": {
       "city": "Reidville, SC",
       "query": "house cleaning Reidville SC",
-      "checkedAt": "2026-11-12T09:50:00Z",
+      "checkedAt": "2026-11-13T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Reidville SC"
+          "title": "house cleaning Reidville SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning Reidville"
+          "title": "house cleaning Reidville"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "Powerwashing Reidville SC"
+          "title": "powerwashing Reidville"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "Dryer Vent Clean Reidville"
+          "title": "Dryer Vent Clean"
         },
         {
           "pos": 5,
           "domain": "instaservice.com",
-          "title": "Bedroom cleaning Reidville"
+          "title": "Bedroom Cleaning in Reidville"
         },
         {
           "pos": 6,
           "domain": "homeadvisor.com",
-          "title": "Post Construction Clean up Reidville"
+          "title": "Post Construction Clean up"
         },
         {
           "pos": 7,
           "domain": "merrymaids.com",
-          "title": "Merry Maids of Spartanburg area"
+          "title": "Merry Maids of Moore"
         },
         {
           "pos": 8,
-          "domain": "listen360.com",
-          "title": "Client Testimonials"
+          "domain": "merrymaids.com",
+          "title": "Merry Maids"
+        },
+        {
+          "pos": 9,
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
+        },
+        {
+          "pos": 10,
+          "domain": "thumbtack.com",
+          "title": "15 house cleaners Greenville"
         }
       ],
       "competitors": [
         {
           "pos": 7,
           "domain": "merrymaids.com",
-          "name": "Merry Maids of Spartanburg area"
+          "name": "Merry Maids of Moore"
+        },
+        {
+          "pos": 5,
+          "domain": "instaservice.com",
+          "name": "Instaservice"
         }
       ],
-      "tip": "Merry Maids aparece com serviço recorrente (semanal, quinzenal, mensal). Na página de Reidville, destacar os planos recorrentes e a estimativa grátis.",
+      "tip": "Diretórios e franquias (Merry Maids, MaidPro) disputam a busca; mostrar preço, nota do Google e FAQ na página de Reidville.",
       "error": null
     },
     "five-forks-sc": {
       "city": "Five Forks, SC",
       "query": "house cleaning Five Forks SC",
-      "checkedAt": "2026-11-12T09:50:00Z",
+      "checkedAt": "2026-11-13T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -519,41 +554,41 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning (Fork, SC)"
+          "title": "house cleaning (Fork SC)"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Cleaning (Fork, SC)"
+          "title": "cleaning (Fork SC)"
         },
         {
           "pos": 4,
           "domain": "bbb.org",
-          "title": "Maid service (Fork, SC)"
+          "title": "maid service (Fork SC)"
         },
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "House cleaning Conestee"
+          "title": "house cleaning Conestee"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "House cleaning Five Points"
+          "title": "house cleaning Five Points"
         },
         {
           "pos": 7,
           "domain": "thumbtack.com",
-          "title": "House cleaners Greenville SC"
+          "title": "15 house cleaners Greenville"
         },
         {
           "pos": 8,
           "domain": "thumbtack.com",
-          "title": "Maids Greenville SC"
+          "title": "12 maids Greenville"
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa de limpeza residencial específica de Five Forks na busca. Página com nome da cidade, vizinhas (Simpsonville, Mauldin) e estimativa grátis pode ganhar posição.",
+      "tip": "Resultados fracos e de outras cidades; boa chance de aparecer com uma página de Five Forks clara, com serviços, FAQ e links para Greer e Simpsonville.",
       "error": null
     },
     "inman-sc": {
@@ -2748,7 +2783,7 @@
     "liberty-sc": {
       "city": "Liberty, SC",
       "query": "house cleaning Liberty SC",
-      "checkedAt": "2026-11-12T06:50:00Z",
+      "checkedAt": "2026-11-13T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2778,12 +2813,17 @@
           "title": "maid service"
         },
         {
-          "pos": 7,
+          "pos": 6,
           "domain": "michaelssupremecleanservices.gosite.com",
           "title": "Michael's Supreme Clean Services"
         },
         {
-          "pos": 9,
+          "pos": 7,
+          "domain": "goloadup.com",
+          "title": "Liberty Hoarder Cleanout Services"
+        },
+        {
+          "pos": 8,
           "domain": "angi.com",
           "title": "Cleaning in Liberty SC"
         }
@@ -2793,14 +2833,9 @@
           "pos": 2,
           "domain": "thumbtack.com",
           "name": "CrystalClear Cleaning Co"
-        },
-        {
-          "pos": 7,
-          "domain": "michaelssupremecleanservices.gosite.com",
-          "name": "Michael's Supreme Clean Services"
         }
       ],
-      "tip": "Poucas empresas locais de limpeza interna aparecem; boa chance de entrar no topo com uma página de Liberty completa e um perfil no Google com a cidade como área atendida.",
+      "tip": "Só diretórios e cleaners individuais aparecem; poucas empresas locais de limpeza interna. Reforçar a página de Liberty com serviços, FAQ e a nota do Google para entrar no topo.",
       "error": null
     },
     "hendersonville-nc": {

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T03:50:00Z",
+  "checkedAt": "2026-11-13T06:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -36,7 +36,7 @@
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "3 posts do Google de hoje, sem telefone/link/e-mail no texto"
+      "detail": "Posts do Google de hoje ainda não são esperados (antes das 12:00 UTC)"
     },
     {
       "id": "greer_queue",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-13T06:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-13T03:50:00Z",
       "overall": "ok",
