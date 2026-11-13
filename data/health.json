@@ -1,18 +1,18 @@
 {
-  "checkedAt": "2026-11-13T09:40:00Z",
+  "checkedAt": "2026-11-13T12:40:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "657 páginas geradas"
+      "detail": "689 páginas geradas"
     },
     {
       "id": "links",
       "label": "Links internos",
       "status": "ok",
-      "detail": "Nenhum link quebrado em 659 páginas"
+      "detail": "Nenhum link quebrado em 691 páginas"
     },
     {
       "id": "posts_json",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de ontem publicados às 10:05 UTC"
+      "detail": "Artigos de hoje publicados às 10:04 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de ontem publicados (meta 32)"
+      "detail": "32 artigos de hoje publicados (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts do Google de hoje ainda não são esperados (antes das 12:00 UTC)"
+      "detail": "Posts do Google de hoje (2026-11-13) presentes"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "19 dias de temas de Greer restantes"
+      "detail": "18 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,7 +60,7 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "657 endereços no mapa do site"
+      "detail": "689 URLs no sitemap, igual ao esperado"
     },
     {
       "id": "gtm",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-13T12:40:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-13T09:40:00Z",
       "overall": "ok",
