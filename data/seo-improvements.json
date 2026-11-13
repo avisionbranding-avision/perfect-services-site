@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-12T21:50:00Z",
-  "now": "Conferi build, links, GTM, formulário e 126 artigos (sem problemas); atualizei as dicas de 6 cidades (Woodruff, Piedmont, Saluda, Columbus, Easley, Gray Court). Nenhuma melhoria automática nova a aplicar.",
+  "updatedAt": "2026-11-13T00:50:00Z",
+  "now": "Conferi build, links, GTM, formulário e 126 artigos; dicas de 6 cidades atualizadas (Pelzer, Pauline, Cowpens, Chesnee, Flat Rock, Williamston). 1 melhoria automática aplicada (título de Liberty).",
   "items": [
     {
       "id": "seo-diretorios",
@@ -379,6 +379,20 @@
       "foundAt": "2026-11-12",
       "doneAt": "2026-11-12T15:50:00Z",
       "result": "Título novo com 55 caracteres."
+    },
+    {
+      "id": "seo-titulo-liberty-2026-11-13",
+      "title": "Encurtar título do artigo de Liberty (70 → 49 caracteres)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-liberty-what-is-the-difference.html",
+      "why": "Título com mais de 65 caracteres é cortado nos resultados do Google.",
+      "action": "Título reduzido mantendo cidade e serviço.",
+      "foundAt": "2026-11-13",
+      "doneAt": "2026-11-13T00:50:00Z",
+      "result": "Título agora: Deep cleaning vs. regular cleaning in Liberty, SC"
     }
   ]
 }

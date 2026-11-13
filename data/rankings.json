@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T21:50:00Z",
+  "updatedAt": "2026-11-13T00:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1848,69 +1848,69 @@
     "pauline-sc": {
       "city": "Pauline, SC",
       "query": "house cleaning Pauline SC",
-      "checkedAt": "2026-11-12T03:45:00Z",
+      "checkedAt": "2026-11-13T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "Housekeeping Pauline SC"
+          "domain": "yelp.com",
+          "title": "TOP 10 BEST Home Cleaning in Pauline, SC"
         },
         {
           "pos": 2,
-          "domain": "angi.com",
-          "title": "House cleaning Pauline SC"
+          "domain": "homeaglow.com",
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Housekeeping Pauline SC"
+          "domain": "homeaglow.com",
+          "title": "5-Star Room Cleaning Services in Pauline, SC"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeepers Pauline SC"
+          "domain": "yellowpages.com",
+          "title": "Best 30 Janitorial Service in Pauline, SC"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Cleaning ladies Pauline SC"
+          "domain": "yelp.com",
+          "title": "TOP 10 BEST Carpet Cleaning in Pauline, SC"
         },
         {
           "pos": 6,
-          "domain": "angi.com",
-          "title": "Cleaning Pauline SC"
+          "domain": "homeaglow.com",
+          "title": "Move In / Move Out Cleaning Services in Pauline, SC"
         },
         {
           "pos": 7,
-          "domain": "instaservice.com",
-          "title": "Cleaning Services Pauline"
+          "domain": "mapquest.com",
+          "title": "H&M Cleaning Service, Pauline, SC 29374"
         },
         {
           "pos": 8,
-          "domain": "bbb.org",
-          "title": "Janitor in Pauline SC"
+          "domain": "housekeeper.com",
+          "title": "Pauline, SC Housekeeper Professional Cleaning Services"
         },
         {
           "pos": 9,
-          "domain": "myshinyrhino.com",
-          "title": "Shiny Rhino Pauline"
+          "domain": "wfskills.com",
+          "title": "House Cleaning in Pauline, South Carolina"
+        },
+        {
+          "pos": 10,
+          "domain": "wfskills.com",
+          "title": "House Cleaning in Pacolet, South Carolina"
         }
       ],
       "competitors": [
         {
           "pos": 7,
-          "domain": "instaservice.com",
-          "name": "InstaService"
-        },
-        {
-          "pos": 9,
-          "domain": "myshinyrhino.com",
-          "name": "Shiny Rhino"
+          "domain": "mapquest.com",
+          "name": "H&M Cleaning Service"
         }
       ],
-      "tip": "Só diretórios e franquias no topo. Destacar na página de Pauline um FAQ de preços e a nota do Google para ganhar espaço.",
+      "tip": "Só diretórios e plataformas no topo; uma página de Pauline com serviços, área atendida e FAQ local tem boa chance de entrar.",
       "error": null
     },
     "saluda-nc": {
@@ -2188,234 +2188,391 @@
     "pelzer-sc": {
       "city": "Pelzer, SC",
       "query": "house cleaning Pelzer SC",
-      "checkedAt": "2026-11-12T00:50:00Z",
+      "checkedAt": "2026-11-13T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "Care.com: house cleaning Pelzer SC"
+          "domain": "angi.com",
+          "title": "Top 10 Best House cleaners in Pelzer, SC"
         },
         {
           "pos": 2,
-          "domain": "angi.com",
-          "title": "Compare quotes: cleaning & maid services"
+          "domain": "local.yahoo.com",
+          "title": "KO Professional Cleaners in Pelzer, SC"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "House cleaning Pelzer SC"
+          "domain": "nextdoor.com",
+          "title": "Conscious Cleaning - Pelzer, SC - Nextdoor"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Pelzer SC"
+          "domain": "angi.com",
+          "title": "Top 10 Best House cleaners in West Pelzer, SC"
         },
         {
           "pos": 5,
-          "domain": "thebuildermarket.com",
-          "title": "Top-rated cleaning & maid services in Pelzer, SC"
+          "domain": "housekeeper.com",
+          "title": "Knowledgeable House Cleaner in Pelzer, South Carolina"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "Housekeepers Pelzer SC"
+          "domain": "yelp.com",
+          "title": "TOP 10 BEST Home Cleaning near Pelzer, SC"
         },
         {
           "pos": 7,
-          "domain": "bbb.org",
-          "title": "House cleaning, Pelzer (accredited)"
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING near PELZER, SC 29669"
+        },
+        {
+          "pos": 8,
+          "domain": "mapquest.com",
+          "title": "S&P 365 Cleaner, Pelzer, SC 29669"
+        },
+        {
+          "pos": 9,
+          "domain": "wadeworks.org",
+          "title": "Pressure Washing in Pelzer, SC"
+        },
+        {
+          "pos": 10,
+          "domain": "azaleacleaningco.com",
+          "title": "House Cleaning Simpsonville, House Cleaner Azalea Cleaning Co"
         }
       ],
-      "competitors": [],
-      "tip": "Top 10 só de diretórios, sem empresa local com site próprio; falar de Pelzer e de Williamston/Piedmont na página e pedir avaliações de clientes da região.",
+      "competitors": [
+        {
+          "pos": 2,
+          "domain": "local.yahoo.com",
+          "name": "KO Professional Cleaners"
+        },
+        {
+          "pos": 3,
+          "domain": "nextdoor.com",
+          "name": "Conscious Cleaning"
+        },
+        {
+          "pos": 8,
+          "domain": "mapquest.com",
+          "name": "S&P 365 Cleaner"
+        },
+        {
+          "pos": 10,
+          "domain": "azaleacleaningco.com",
+          "name": "Azalea Cleaning Co"
+        }
+      ],
+      "tip": "Diretórios dominam e uma empresa local aparece com muitas avaliações no Nextdoor; reforçar a página de Pelzer com avaliações reais do Google e um perfil no Nextdoor.",
       "error": null
     },
     "cowpens-sc": {
       "city": "Cowpens, SC",
       "query": "house cleaning Cowpens SC",
-      "checkedAt": "2026-11-12T03:45:00Z",
+      "checkedAt": "2026-11-13T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "House cleaning Cowpens SC"
+          "domain": "angi.com",
+          "title": "10 Best House cleaners in Cowpens, SC"
         },
         {
           "pos": 2,
-          "domain": "angi.com",
-          "title": "House cleaning Cowpens SC"
+          "domain": "local.yahoo.com",
+          "title": "Happy House Cleaning in Cowpens, SC"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Housekeepers Cowpens SC"
+          "domain": "local.yahoo.com",
+          "title": "Nancy's Cleaning Services in Cowpens, SC"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Move-out cleaning Cowpens SC"
+          "domain": "servpro.com",
+          "title": "Cowpens Fire and Water Damage Restoration and Cleaning Services"
         },
         {
           "pos": 5,
-          "domain": "instaservice.com",
-          "title": "House cleaning 3 bed 2 bath Cowpens"
+          "domain": "housekeeper.com",
+          "title": "Professional House Cleaning Provider in Cowpens"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "Cleaning ladies Cowpens SC"
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING near COWPENS, SC 29330"
+        },
+        {
+          "pos": 7,
+          "domain": "housekeeper.com",
+          "title": "Careful Housekeeping Service in Cowpens"
+        },
+        {
+          "pos": 8,
+          "domain": "castle-keepers.com",
+          "title": "Best House Cleaning Services in Cowpens, SC"
+        },
+        {
+          "pos": 9,
+          "domain": "housekeeper.com",
+          "title": "Top Independent Cleaners & Housekeepers in Cowpens"
+        },
+        {
+          "pos": 10,
+          "domain": "housekeeper.com",
+          "title": "Cowpens, SC Housekeeper"
         }
       ],
       "competitors": [
         {
-          "pos": 5,
-          "domain": "instaservice.com",
-          "name": "InstaService"
+          "pos": 2,
+          "domain": "local.yahoo.com",
+          "name": "Happy House Cleaning"
+        },
+        {
+          "pos": 3,
+          "domain": "local.yahoo.com",
+          "name": "Nancy's Cleaning Services"
+        },
+        {
+          "pos": 8,
+          "domain": "castle-keepers.com",
+          "name": "Castle Keepers House Cleaning"
         }
       ],
-      "tip": "Poucos cleaners locais; Angi e Care.com dominam. Reforçar a página de Cowpens com tamanhos de casa (2-3 quartos), FAQ e área atendida.",
+      "tip": "A Castle Keepers tem página própria para Cowpens com cotação online; incluir na página de Cowpens um formulário de orçamento em destaque e produtos ecológicos.",
       "error": null
     },
     "chesnee-sc": {
       "city": "Chesnee, SC",
       "query": "house cleaning Chesnee SC",
-      "checkedAt": "2026-11-12T03:45:00Z",
+      "checkedAt": "2026-11-13T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Chesnee SC"
+          "title": "House Cleaning Services in Chesnee, SC"
         },
         {
           "pos": 2,
-          "domain": "angi.com",
-          "title": "House cleaning Chesnee SC"
+          "domain": "housekeeper.com",
+          "title": "Find Cleaners, Housekeepers in Chesnee, South Carolina"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Housekeeping Chesnee SC"
+          "domain": "yelp.com",
+          "title": "THE BEST 10 HOME CLEANING near CHESNEE, SC"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeeping Chesnee SC page 2"
+          "domain": "housekeeper.com",
+          "title": "Experienced Chesnee Housekeeper"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeepers Chesnee SC"
+          "domain": "milanamaid.com",
+          "title": "House Cleaning Services in Chesnee, SC"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "Cleaning ladies Chesnee SC"
+          "domain": "milanamaid.com",
+          "title": "House Cleaning Services in Chesnee, SC"
+        },
+        {
+          "pos": 7,
+          "domain": "milanamaid.com",
+          "title": "Cleaning Services in Chesnee, SC"
+        },
+        {
+          "pos": 8,
+          "domain": "milanamaid.com",
+          "title": "Move-In & Move-Out Cleaning in Chesnee, SC"
+        },
+        {
+          "pos": 9,
+          "domain": "milanamaid.com",
+          "title": "Deep Cleaning Services in Chesnee, SC"
+        },
+        {
+          "pos": 10,
+          "domain": "homeglowcleaningservices.com",
+          "title": "House Cleaning in Chesnee, SC"
         }
       ],
-      "competitors": [],
-      "tip": "Nenhuma empresa local no topo, só diretórios. Boa chance: página de Chesnee com serviços, FAQ e citação de Spartanburg e Pacolet.",
+      "competitors": [
+        {
+          "pos": 5,
+          "domain": "milanamaid.com",
+          "name": "Milana Maid"
+        },
+        {
+          "pos": 10,
+          "domain": "homeglowcleaningservices.com",
+          "name": "Home Glow Cleaning Services"
+        }
+      ],
+      "tip": "Milana Maid ocupa 5 posições com páginas por serviço e mostra faixa de preço; criar páginas de serviço de Chesnee com faixas de preço e garantia.",
       "error": null
     },
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
-      "checkedAt": "2026-11-12T03:45:00Z",
+      "checkedAt": "2026-11-13T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "House cleaning Flat Rock NC"
+          "domain": "maidpro.com",
+          "title": "Flat Rock, NC Best House Cleaning Services"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning Flat Rock NC"
+          "title": "Top 10 Best House cleaners in Flat Rock, NC"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "House cleaning East Flat Rock NC"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Flat Rock, North Carolina"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeeping Flat Rock NC"
+          "domain": "yellowpages.com",
+          "title": "Best 30 House Cleaning in Flat Rock, NC"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeepers Flat Rock NC"
+          "domain": "housekeeper.com",
+          "title": "Find Cleaners, Housekeepers in Flat Rock, North Carolina"
         },
         {
           "pos": 6,
-          "domain": "homeadvisor.com",
-          "title": "HeyMaid"
+          "domain": "mollymaid.com",
+          "title": "Apartment and Condo Cleaning Services in Flat Rock"
+        },
+        {
+          "pos": 7,
+          "domain": "mollymaid.com",
+          "title": "Move-In and Move-Out Cleaning in Flat Rock"
+        },
+        {
+          "pos": 8,
+          "domain": "laclean4you.com",
+          "title": "Home Cleaning Services in Flat Rock, NC"
+        },
+        {
+          "pos": 9,
+          "domain": "clarityhousewash.com",
+          "title": "Flat Rock, NC"
+        },
+        {
+          "pos": 10,
+          "domain": "glowwaveservices.com",
+          "title": "House Cleaning in Flat Rock, NC"
         }
       ],
       "competitors": [
         {
-          "pos": 6,
-          "domain": "homeadvisor.com",
-          "name": "HeyMaid"
+          "pos": 1,
+          "domain": "maidpro.com",
+          "name": "MaidPro"
+        },
+        {
+          "pos": 3,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
+        },
+        {
+          "pos": 8,
+          "domain": "laclean4you.com",
+          "name": "L&A Cleaning"
+        },
+        {
+          "pos": 10,
+          "domain": "glowwaveservices.com",
+          "name": "GlowWave"
         }
       ],
-      "tip": "HeyMaid aparece com perfil local. Na página de Flat Rock, citar Hendersonville e Tryon e destacar visita de orçamento grátis.",
+      "tip": "Franquias (MaidPro, Molly Maid) lideram com páginas por serviço; deixar claro na página de Flat Rock que atendemos a região, com serviços de mudança e apartamento.",
       "error": null
     },
     "williamston-sc": {
       "city": "Williamston, SC",
       "query": "house cleaning Williamston SC",
-      "checkedAt": "2026-11-12T03:45:00Z",
+      "checkedAt": "2026-11-13T00:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "House cleaning Williamston SC"
+          "domain": "angi.com",
+          "title": "Top 10 Best House cleaners in Williamston, SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Evans Cleaning Service Williamston SC"
+          "title": "Find Top House Cleaning Jobs in Williamston, SC"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "Cleaning Williamston SC"
+          "domain": "care.com",
+          "title": "House Cleaning Services in Williamston, SC"
         },
         {
           "pos": 4,
-          "domain": "angi.com",
-          "title": "Compare Quotes House Cleaning"
+          "domain": "yellowpages.com",
+          "title": "Best 30 House Cleaning in Williamston, SC"
         },
         {
           "pos": 5,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Williamston SC"
+          "domain": "gototalcarecleaning.com",
+          "title": "House Cleaning Williamston, SC"
         },
         {
           "pos": 6,
-          "domain": "thebuildermarket.com",
-          "title": "Cleaning & Maid Services Williamston SC"
+          "domain": "myhomet.com",
+          "title": "House Cleaning in Williamston, South Carolina"
+        },
+        {
+          "pos": 7,
+          "domain": "ariscleaningservices.com",
+          "title": "Affordable Cleaning Service in Williamston, SC"
+        },
+        {
+          "pos": 8,
+          "domain": "cvpressurewash.com",
+          "title": "Pressure Washing Williamston SC"
+        },
+        {
+          "pos": 9,
+          "domain": "homeglowcleaningservices.com",
+          "title": "House Cleaning in Williamston, SC"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
-          "domain": "care.com",
-          "name": "Evans Cleaning Service"
+          "pos": 5,
+          "domain": "gototalcarecleaning.com",
+          "name": "TotalCare Cleaning"
+        },
+        {
+          "pos": 7,
+          "domain": "ariscleaningservices.com",
+          "name": "Aris Cleaning Services"
+        },
+        {
+          "pos": 9,
+          "domain": "homeglowcleaningservices.com",
+          "name": "Home Glow Cleaning Services"
         }
       ],
-      "tip": "Só diretórios e uma empresa pequena (Evans Cleaning). Página de Williamston com FAQ, serviços e cidades vizinhas como Pelzer e Easley.",
+      "tip": "Concorrentes mostram preço inicial por visita (TotalCare, Home Glow); exibir faixas de preço por tamanho de casa na página de Williamston.",
       "error": null
     },
     "pacolet-sc": {
