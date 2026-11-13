@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T15:45:00Z",
+  "checkedAt": "2026-11-13T18:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -72,11 +72,16 @@
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulário envia para /api/lead no Cloudflare"
+      "detail": "Formulário envia para /api/lead nas páginas de cidade"
     }
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-13T18:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-13T15:45:00Z",
       "overall": "ok",

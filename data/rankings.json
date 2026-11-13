@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T15:45:00Z",
+  "updatedAt": "2026-11-13T18:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1454,63 +1454,69 @@
     "woodruff-sc": {
       "city": "Woodruff, SC",
       "query": "house cleaning Woodruff SC",
-      "checkedAt": "2026-11-12T21:50:00Z",
+      "checkedAt": "2026-11-13T18:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Woodruff"
+          "title": "House cleaning Woodruff SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com housekeeping Woodruff p2"
+          "title": "Woodruff SC page 2"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "title": "Cleaning one time service Woodruff SC"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Angi house cleaning Woodruff"
+          "title": "SD Contracting (Angi match)"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Care.com housekeeping Woodruff"
+          "domain": "angi.com",
+          "title": "House cleaning Woodruff SC"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com housekeeping p3"
+          "title": "Housekeeping Woodruff SC"
         },
         {
           "pos": 7,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "domain": "care.com",
+          "title": "Housekeeping Woodruff SC page 3"
         },
         {
           "pos": 8,
-          "domain": "care.com",
-          "title": "Care.com cleaning lady Woodruff"
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service Woodruff SC"
         },
         {
           "pos": 9,
-          "domain": "thumbtack.com",
-          "title": "Clean Sweep Cleaning Co (Thumbtack)"
+          "domain": "care.com",
+          "title": "Cleaning lady Woodruff SC"
         },
         {
           "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "Maid Service Woodruff"
+          "domain": "thumbtack.com",
+          "title": "Clean Sweep Cleaning Co"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios no topo (Care.com, Angi, HomeAdvisor), sem empresa local própria; ainda não há uma página forte para Woodruff. Reforçar a página de Woodruff com preço inicial, FAQ local e CTA de orçamento, e linkar os artigos de Woodruff para ela.",
+      "competitors": [
+        {
+          "pos": 10,
+          "domain": "thumbtack.com",
+          "name": "Clean Sweep Cleaning Co"
+        }
+      ],
+      "tip": "Topo dominado por Care.com, Angi e HomeAdvisor, sem site de empresa local. Oportunidade: página de Woodruff com orçamento grátis e perguntas frequentes locais.",
       "error": null
     },
     "powdersville-sc": {
@@ -1559,7 +1565,7 @@
     "tryon-nc": {
       "city": "Tryon, NC",
       "query": "house cleaning Tryon NC",
-      "checkedAt": "2026-11-12T18:45:00Z",
+      "checkedAt": "2026-11-13T18:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1614,21 +1620,27 @@
           "title": "Move-out cleaning Tryon NC"
         }
       ],
-      "competitors": [],
-      "tip": "BBB e Angi aparecem entre os primeiros; criar o perfil no BBB e reforçar na página de Tryon que atendemos a região (perto de Landrum e Columbus) com avaliações do Google.",
+      "competitors": [
+        {
+          "pos": 11,
+          "domain": "homeadvisor.com",
+          "name": "HeyMaid"
+        }
+      ],
+      "tip": "Só diretórios no topo; aparecem Royalty Cleaning (BBB) e HeyMaid. Reforçar a página de Tryon citando Flat Rock e Saluda e o orçamento grátis.",
       "error": null
     },
     "piedmont-sc": {
       "city": "Piedmont, SC",
       "query": "house cleaning Piedmont SC",
-      "checkedAt": "2026-11-12T21:50:00Z",
+      "checkedAt": "2026-11-13T18:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Piedmont"
+          "title": "House cleaning Piedmont SC"
         },
         {
           "pos": 2,
@@ -1638,32 +1650,32 @@
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "title": "Cleaning & Maid Services Piedmont SC"
         },
         {
           "pos": 4,
           "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services Piedmont"
+          "title": "Top-Rated Cleaning & Maid Services Piedmont SC"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com housekeeping Piedmont"
+          "title": "Housekeeping Piedmont SC"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Compare Quotes Maid Service"
+          "title": "Maid service Piedmont SC"
         },
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "Angi house cleaning Piedmont"
+          "title": "House cleaning Piedmont SC"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Walls Ceilings Clean"
+          "title": "Walls Ceilings Clean Piedmont SC"
         },
         {
           "pos": 9,
@@ -1673,11 +1685,11 @@
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Piedmont"
+          "title": "Cleaning lady Piedmont SC"
         }
       ],
       "competitors": [],
-      "tip": "Topo dominado por diretórios que mostram nota média e número de avaliações. Destacar na página de Piedmont a nota 5,0 do Google e uma avaliação real, e citar que atendemos Piedmont a poucos minutos de Greer.",
+      "tip": "Só diretórios no topo; nenhuma empresa local de limpeza com site próprio. Destacar na página de Piedmont a proximidade com Greer e Greenville.",
       "error": null
     },
     "pauline-sc": {
@@ -1751,14 +1763,14 @@
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-12T21:50:00Z",
+      "checkedAt": "2026-11-13T18:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Saluda"
+          "title": "House cleaning Saluda NC"
         },
         {
           "pos": 2,
@@ -1773,95 +1785,95 @@
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeepers Saluda p3"
+          "title": "Housekeepers Saluda NC page 3"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com housekeeping Saluda"
+          "title": "Housekeeping Saluda NC"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi house cleaning Saluda"
+          "title": "House cleaning Saluda NC"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeeping p2"
+          "title": "Housekeeping Saluda NC page 2"
         },
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "Compare Quotes (Mill Spring NC)"
+          "title": "Cleaning & Maid Services Mill Spring NC"
         },
         {
           "pos": 9,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning Saluda"
+          "title": "House Cleaning Saluda NC"
         },
         {
           "pos": 10,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "title": "Cleaning one time service Saluda NC"
         }
       ],
       "competitors": [
         {
           "pos": 2,
           "domain": "maidpro.com",
-          "name": "MaidPro (Hendersonville)"
+          "name": "MaidPro Saluda"
         }
       ],
-      "tip": "A franquia MaidPro aparece em 2º com página própria para Saluda. Criar/reforçar conteúdo específico de Saluda NC (rotas, FAQ, tipos de casa) e mostrar a nota do Google para competir com a franquia.",
+      "tip": "MaidPro é a única empresa com site próprio (2ª posição). Página de Saluda deve mostrar serviços, orçamento grátis e avaliações do Google.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-12T21:50:00Z",
+      "checkedAt": "2026-11-13T18:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Columbus NC"
+          "title": "House cleaning Columbus NC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com housekeepers p3"
+          "title": "Housekeepers Columbus NC page 3"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com housekeeping Columbus"
+          "title": "Housekeeping Columbus NC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping p2"
+          "title": "Housekeeping Columbus NC page 2"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Columbus"
+          "title": "Cleaning lady Columbus NC"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi house cleaning Columbus NC"
+          "title": "House cleaning Columbus NC"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeepers Columbus"
+          "title": "Housekeepers Columbus NC"
         },
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "Angi cleaning Columbus NC"
+          "title": "Cleaning Columbus NC"
         },
         {
           "pos": 9,
@@ -1871,40 +1883,40 @@
         {
           "pos": 10,
           "domain": "100hires.com",
-          "title": "Home Cleaning Specialist job"
+          "title": "Vaga de limpeza Columbus NC"
         }
       ],
       "competitors": [
         {
           "pos": 9,
           "domain": "merrymaids.com",
-          "name": "Merry Maids (local da página incerto)"
+          "name": "Merry Maids"
         }
       ],
-      "tip": "O topo é quase só Care.com e Angi, e vários resultados são de outras cidades chamadas Columbus. Deixar claro na página \"Columbus, NC\" (condado de Polk, perto de Tryon) para ganhar a busca local.",
+      "tip": "Care.com e Angi dominam; Merry Maids é a única marca com site (a página não deixa claro o estado). Página de Columbus deve citar Columbus NC e Tryon/Saluda.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-12T21:50:00Z",
+      "checkedAt": "2026-11-13T18:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Easley"
+          "title": "House cleaning Easley SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com house cleaning p2"
+          "title": "House cleaning Easley SC page 2"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com cost house cleaning Easley"
+          "title": "Cost of house cleaning Easley SC"
         },
         {
           "pos": 4,
@@ -1914,22 +1926,22 @@
         {
           "pos": 5,
           "domain": "thumbtack.com",
-          "title": "10 house cleaners in your area"
+          "title": "House cleaners Easley SC"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi house cleaning Easley"
+          "title": "House cleaning Easley SC"
         },
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "Post-Construction Cleaning"
+          "title": "Post-Construction Cleaning Easley SC"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com housekeepers p3"
+          "title": "Housekeepers Easley SC page 3"
         },
         {
           "pos": 9,
@@ -1939,7 +1951,7 @@
         {
           "pos": 10,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning Easley"
+          "title": "One-time cleaning Easley SC"
         }
       ],
       "competitors": [
@@ -1949,7 +1961,7 @@
           "name": "Emerald Cleaning Services"
         }
       ],
-      "tip": "Páginas de custo (Care.com e Homeyou) aparecem com faixa de preço. Adicionar à página de Easley uma faixa de preço inicial e FAQ de custo, mais a nota 5,0 do Google.",
+      "tip": "Care.com mostra preço médio por hora; mostrar faixa de preço e orçamento grátis na página de Easley ajuda a competir.",
       "error": null
     },
     "gray-court-sc": {
