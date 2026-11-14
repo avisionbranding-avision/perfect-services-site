@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-13T21:45:00Z",
+  "checkedAt": "2026-11-14T00:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,19 +24,19 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de hoje publicados às 10:04 UTC"
+      "detail": "Artigos de ontem publicados às 10:04 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de hoje publicados (meta 32)"
+      "detail": "32 artigos de ontem publicados (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts do Google de hoje (2026-11-13) presentes"
+      "detail": "Posts do Google de ontem (2026-11-13) presentes"
     },
     {
       "id": "greer_queue",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-14T00:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-13T21:45:00Z",
       "overall": "ok",
