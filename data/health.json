@@ -1,18 +1,18 @@
 {
-  "checkedAt": "2026-11-14T09:45:00Z",
+  "checkedAt": "2026-11-14T12:50:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "689 páginas geradas"
+      "detail": "721 páginas geradas"
     },
     {
       "id": "links",
       "label": "Links internos",
       "status": "ok",
-      "detail": "Nenhum link quebrado em 691 páginas"
+      "detail": "Nenhum link quebrado"
     },
     {
       "id": "posts_json",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de ontem publicados às 10:04 UTC"
+      "detail": "Artigos de hoje publicados às 10:04 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de ontem publicados (meta 32)"
+      "detail": "32 artigos de hoje publicados (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts do Google de ontem (2026-11-13) presentes"
+      "detail": "Posts do Google de hoje (2026-11-14) presentes"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "18 dias de temas de Greer restantes"
+      "detail": "17 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,7 +60,7 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "689 URLs no sitemap, igual ao esperado"
+      "detail": "721 URLs no sitemap"
     },
     {
       "id": "gtm",
@@ -75,10 +75,13 @@
       "detail": "Formulário envia para /api/lead nas páginas de cidade"
     }
   ],
-  "fixes": [
-    "Encurtei o título de 3 artigos para até 60 caracteres (valem após o deploy das 7h)"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-14T12:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-14T09:45:00Z",
       "overall": "ok",

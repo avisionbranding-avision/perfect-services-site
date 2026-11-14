@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T09:45:00Z",
+  "updatedAt": "2026-11-14T12:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1284,7 +1284,7 @@
     "roebuck-sc": {
       "city": "Roebuck, SC",
       "query": "house cleaning Roebuck SC",
-      "checkedAt": "2026-11-13T12:40:00Z",
+      "checkedAt": "2026-11-14T12:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1306,7 +1306,7 @@
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "House cleaning Roebuck, SC"
+          "title": "house cleaning (Angi company list)"
         },
         {
           "pos": 5,
@@ -1321,110 +1321,151 @@
           "name": "First Class Cleaners LLC (4,7 estrelas, 46 avaliações no Angi)"
         }
       ],
-      "tip": "O topo é de diretórios; o Angi mostra empresa com 46 avaliações. Conseguir avaliações do Google e exibi-las na página de Roebuck.",
+      "tip": "O topo é só de diretórios; nenhuma empresa local aparece com site próprio. Há espaço: reforçar a página de Roebuck com avaliações do Google e preço de estimativa grátis.",
       "error": null
     },
     "boiling-springs-sc": {
       "city": "Boiling Springs, SC",
       "query": "house cleaning Boiling Springs SC",
-      "checkedAt": "2026-11-13T15:45:00Z",
+      "checkedAt": "2026-11-14T12:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaners em Boiling Springs"
+          "title": "Care.com logo (house cleaning Boiling Springs)"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com: custo de limpeza em Boiling Springs"
+          "title": "Care.com: custo de house cleaning"
         },
         {
           "pos": 3,
+          "domain": "care.com",
+          "title": "Care.com housekeeping"
+        },
+        {
+          "pos": 4,
           "domain": "thumbtack.com",
           "title": "Carolina Cleaning & Staging Service"
         },
         {
-          "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service Boiling Springs"
-        },
-        {
           "pos": 5,
-          "domain": "angi.com",
-          "title": "Maid Service, Organization... Boiling Springs"
+          "domain": "care.com",
+          "title": "housekeeping services Boiling Springs"
         },
         {
           "pos": 6,
-          "domain": "bbb.org",
-          "title": "House Cleaning: BBB Boiling Springs"
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service"
+        },
+        {
+          "pos": 7,
+          "domain": "homeadvisor.com",
+          "title": "Maid Service"
+        },
+        {
+          "pos": 8,
+          "domain": "angi.com",
+          "title": "Post-Construction Clean-up"
         }
       ],
       "competitors": [
         {
-          "pos": 3,
+          "pos": 4,
           "domain": "thumbtack.com",
-          "name": "Carolina Cleaning & Staging Service"
+          "name": "Carolina Cleaning & Staging Service (18 anos no Thumbtack)"
+        },
+        {
+          "pos": 7,
+          "domain": "homeadvisor.com",
+          "name": "Upstate SK Cleaning Service (4,6 estrelas, 88 avaliações no HomeAdvisor)"
         }
       ],
-      "tip": "O topo é só de diretórios (Care.com, Thumbtack, HomeAdvisor, Angi). Destacar na página de Boiling Springs o orçamento grátis em casa e a nota do Google, e cadastrar a empresa no Thumbtack e no Angi.",
+      "tip": "Diretórios dominam e mostram preço por hora (Care.com cerca de US$17). Colocar na página de Boiling Springs a explicação da estimativa grátis e avaliações do Google para diferenciar.",
       "error": null
     },
     "marietta-sc": {
       "city": "Marietta, SC",
       "query": "house cleaning Marietta SC",
-      "checkedAt": "2026-11-13T15:45:00Z",
+      "checkedAt": "2026-11-14T12:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Marietta SC"
+          "title": "Care.com logo (house cleaning Marietta)"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Marietta SC"
+          "title": "house cleaning Marietta SC"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "house cleaning Marietta SC"
+          "title": "house cleaning"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Marietta"
+          "title": "housekeeping Marietta"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady Marietta"
+          "title": "housekeeping Marietta"
         },
         {
           "pos": 6,
+          "domain": "care.com",
+          "title": "cleaning lady Marietta"
+        },
+        {
+          "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "Walls Ceilings Clean Marietta"
+          "title": "Walls Ceilings Clean"
+        },
+        {
+          "pos": 8,
+          "domain": "thecleaningauthority.com",
+          "title": "house cleaning (Marietta, pode ser a da Geórgia)"
+        },
+        {
+          "pos": 9,
+          "domain": "merrymaids.com",
+          "title": "Marietta Cleaning Services"
         }
       ],
-      "competitors": [],
-      "tip": "Quase não há empresas locais no topo de Marietta (as franquias que aparecem são de Marietta, GA). Chance real de entrar: página de Marietta com bairros e estradas locais, orçamento grátis e link para Greer/Travelers Rest.",
+      "competitors": [
+        {
+          "pos": 8,
+          "domain": "thecleaningauthority.com",
+          "name": "The Cleaning Authority (Marietta; pode ser outra cidade)"
+        },
+        {
+          "pos": 9,
+          "domain": "merrymaids.com",
+          "name": "Merry Maids (Marietta; pode ser outra cidade)"
+        }
+      ],
+      "tip": "Franquias de Marietta (GA) confundem a busca. Deixar claro 'Marietta, SC' no título e no texto da página, com o condado e a distância de Greer.",
       "error": null
     },
     "landrum-sc": {
       "city": "Landrum, SC",
       "query": "house cleaning Landrum SC",
-      "checkedAt": "2026-11-13T15:45:00Z",
+      "checkedAt": "2026-11-14T12:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Landrum SC"
+          "title": "Care.com: house cleaning Landrum"
         },
         {
           "pos": 2,
@@ -1434,39 +1475,44 @@
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning Landrum"
+          "title": "House Cleaning"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "house cleaning Landrum SC"
+          "title": "house cleaning"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service Landrum"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Landrum"
+          "title": "housekeepers Landrum"
+        },
+        {
+          "pos": 7,
+          "domain": "angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
         }
       ],
       "competitors": [],
-      "tip": "Topo dominado por Care.com, HomeAdvisor e Angi, sem empresa local própria. Reforçar na página de Landrum o atendimento na região de Spartanburg/Greer e pedir avaliações de clientes dessa área.",
+      "tip": "Só diretórios no topo, nenhuma empresa local com site. Oportunidade: página de Landrum com avaliações do Google e perguntas frequentes locais.",
       "error": null
     },
     "spartanburg-sc": {
       "city": "Spartanburg, SC",
       "query": "house cleaning Spartanburg SC",
-      "checkedAt": "2026-11-13T15:45:00Z",
+      "checkedAt": "2026-11-14T12:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Spartanburg SC"
+          "title": "Care.com logo (house cleaning Spartanburg)"
         },
         {
           "pos": 2,
@@ -1491,35 +1537,65 @@
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Spartanburg"
+          "title": "housekeeping Spartanburg"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Spartanburg p2"
+          "title": "housekeeping Spartanburg"
+        },
+        {
+          "pos": 8,
+          "domain": "angi.com",
+          "title": "Post-Construction Cleaning"
+        },
+        {
+          "pos": 9,
+          "domain": "thumbtack.com",
+          "title": "A MoM's Touch Cleaning Service"
+        },
+        {
+          "pos": 10,
+          "domain": "thecleaningauthority.com",
+          "title": "house cleaning (East Greenville, Spartanburg County)"
         }
       ],
       "competitors": [
         {
+          "pos": 2,
+          "domain": "thumbtack.com",
+          "name": "Refreshly LLC"
+        },
+        {
+          "pos": 4,
+          "domain": "thumbtack.com",
+          "name": "First Class Cleaning"
+        },
+        {
+          "pos": 9,
+          "domain": "thumbtack.com",
+          "name": "A MoM's Touch Cleaning Service (4 funcionários, 5 anos)"
+        },
+        {
           "pos": 10,
           "domain": "thecleaningauthority.com",
-          "name": "The Cleaning Authority (East Greenville)"
+          "name": "The Cleaning Authority"
         }
       ],
-      "tip": "Concorrência maior: diretórios mais a franquia The Cleaning Authority. Na página de Spartanburg, mostrar o processo, o orçamento grátis e as avaliações do Google; escrever artigos sobre limpeza pesada e mudança em Spartanburg.",
+      "tip": "Cidade mais disputada: Thumbtack e Care.com no topo, franquia Cleaning Authority presente. Reforçar a página de Spartanburg com avaliações reais do Google, selo de equipe verificada e FAQ de preços.",
       "error": null
     },
     "fountain-inn-sc": {
       "city": "Fountain Inn, SC",
       "query": "house cleaning Fountain Inn SC",
-      "checkedAt": "2026-11-13T15:45:00Z",
+      "checkedAt": "2026-11-14T12:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Fountain Inn SC"
+          "title": "Care.com logo (house cleaning Fountain Inn)"
         },
         {
           "pos": 2,
@@ -1534,27 +1610,41 @@
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning Fountain Inn"
+          "title": "House Cleaning"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Care.com: housekeepers Fountain Inn"
+          "domain": "homeadvisor.com",
+          "title": "Range Hood Clean"
         },
         {
           "pos": 6,
-          "domain": "angi.com",
-          "title": "Compare Quotes from Cleaning Services"
-        }
-      ],
-      "competitors": [
+          "domain": "care.com",
+          "title": "housekeepers Fountain Inn"
+        },
         {
-          "pos": 15,
-          "domain": "servpro.com",
-          "name": "SERVPRO of South Greenville County"
+          "pos": 7,
+          "domain": "angi.com",
+          "title": "Maid Service"
+        },
+        {
+          "pos": 8,
+          "domain": "homeadvisor.com",
+          "title": "Walls Ceilings Clean"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "move-out cleaning"
+        },
+        {
+          "pos": 10,
+          "domain": "bbb.org",
+          "title": "1.218 resultados para House Cleaning"
         }
       ],
-      "tip": "Só diretórios e a SERVPRO (restauração) aparecem. Página de Fountain Inn deve citar a proximidade com Simpsonville e Greer, o orçamento grátis e perguntas sobre preço.",
+      "competitors": [],
+      "tip": "Topo de diretórios (Care.com com valores de US$18 a US$40 por hora). Mostrar na página de Fountain Inn o que está incluso na limpeza e a estimativa grátis em casa.",
       "error": null
     },
     "woodruff-sc": {
