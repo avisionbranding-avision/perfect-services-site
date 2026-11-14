@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T12:50:00Z",
-  "now": "Revisei as buscas de 6 cidades (Roebuck, Boiling Springs, Marietta, Landrum, Spartanburg, Fountain Inn), 3 diretórios e a saúde do site; nenhuma melhoria automática nova aplicada.",
+  "updatedAt": "2026-11-14T15:45:00Z",
+  "now": "Revisei as buscas de 6 cidades (Powdersville, Woodruff, Tryon, Piedmont, Saluda, Columbus), 3 diretórios e a saúde do site; 2 títulos de artigos encurtados (Boiling Springs e Fountain Inn).",
   "items": [
     {
       "id": "seo-diretorios",
@@ -449,6 +449,20 @@
       "foundAt": "2026-11-14",
       "doneAt": null,
       "result": null
+    },
+    {
+      "id": "seo-titulo-boiling-springs-fountain-inn-2026-11-14",
+      "title": "Encurtar títulos de 2 artigos para até 60 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos de 78 e 69 caracteres são cortados no Google.",
+      "action": "Boiling Springs e Fountain Inn com título enxuto mantendo cidade e serviço.",
+      "foundAt": "2026-11-14",
+      "doneAt": "2026-11-14",
+      "result": "Títulos reduzidos para 57 e 52 caracteres; entram no ar às 7h."
     }
   ]
 }

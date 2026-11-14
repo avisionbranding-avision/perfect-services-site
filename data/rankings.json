@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T12:50:00Z",
+  "updatedAt": "2026-11-14T15:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1650,7 +1650,7 @@
     "woodruff-sc": {
       "city": "Woodruff, SC",
       "query": "house cleaning Woodruff SC",
-      "checkedAt": "2026-11-13T18:45:00Z",
+      "checkedAt": "2026-11-14T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1662,7 +1662,7 @@
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Woodruff SC page 2"
+          "title": "Housekeeping Woodruff SC page 2"
         },
         {
           "pos": 3,
@@ -1672,7 +1672,7 @@
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "SD Contracting (Angi match)"
+          "title": "SD Contracting"
         },
         {
           "pos": 5,
@@ -1692,7 +1692,7 @@
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service Woodruff SC"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 9,
@@ -1712,13 +1712,13 @@
           "name": "Clean Sweep Cleaning Co"
         }
       ],
-      "tip": "Topo dominado por Care.com, Angi e HomeAdvisor, sem site de empresa local. Oportunidade: página de Woodruff com orçamento grátis e perguntas frequentes locais.",
+      "tip": "Topo dominado por Care.com, Angi e HomeAdvisor; perfil nesses diretórios e uma página de Woodruff com orçamento grátis e avaliações do Google ajudam a competir.",
       "error": null
     },
     "powdersville-sc": {
       "city": "Powdersville, SC",
       "query": "house cleaning Powdersville SC",
-      "checkedAt": "2026-11-13T15:45:00Z",
+      "checkedAt": "2026-11-14T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1744,24 +1744,59 @@
         },
         {
           "pos": 5,
+          "domain": "merrymaids.com",
+          "title": "Home cleaners North Augusta SC"
+        },
+        {
+          "pos": 6,
           "domain": "care.com",
           "title": "South Carolina Housekeeping Services"
+        },
+        {
+          "pos": 7,
+          "domain": "homeadvisor.com",
+          "title": "Precision Clean"
+        },
+        {
+          "pos": 8,
+          "domain": "thumbtack.com",
+          "title": "Peerless Maids"
+        },
+        {
+          "pos": 9,
+          "domain": "angi.com",
+          "title": "Jewl's Care Cleaning"
+        },
+        {
+          "pos": 10,
+          "domain": "homeadvisor.com",
+          "title": "House Cleaning Greenville SC"
         }
       ],
       "competitors": [
         {
-          "pos": 4,
-          "domain": "maids.com",
-          "name": "Maids.com (SC)"
+          "pos": 1,
+          "domain": "homeguide.com",
+          "name": "JL's Cleaning Service"
+        },
+        {
+          "pos": 2,
+          "domain": "manta.com",
+          "name": "SNP 365 Cleaners"
+        },
+        {
+          "pos": 3,
+          "domain": "thumbtack.com",
+          "name": "Cris House Cleaning"
         }
       ],
-      "tip": "Poucas empresas locais citam Powdersville. Oportunidade: página de Powdersville com o nome da cidade e do condado de Anderson/Greenville, preço explicado e artigos locais.",
+      "tip": "Só aparecem diretórios e pequenas empresas de Easley/Greenville; citar Powdersville no título e no primeiro parágrafo da página e destacar a estimativa grátis e a nota 5,0 do Google.",
       "error": null
     },
     "tryon-nc": {
       "city": "Tryon, NC",
       "query": "house cleaning Tryon NC",
-      "checkedAt": "2026-11-13T18:45:00Z",
+      "checkedAt": "2026-11-14T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1813,23 +1848,17 @@
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Move-out cleaning Tryon NC"
+          "title": "Move out cleaning Tryon NC"
         }
       ],
-      "competitors": [
-        {
-          "pos": 11,
-          "domain": "homeadvisor.com",
-          "name": "HeyMaid"
-        }
-      ],
-      "tip": "Só diretórios no topo; aparecem Royalty Cleaning (BBB) e HeyMaid. Reforçar a página de Tryon citando Flat Rock e Saluda e o orçamento grátis.",
+      "competitors": [],
+      "tip": "Tryon fica longe de Greer; os resultados são só diretórios (Care.com, Angi, BBB). Cadastro no BBB e no Angi e menção clara da área atendida na página são o caminho.",
       "error": null
     },
     "piedmont-sc": {
       "city": "Piedmont, SC",
       "query": "house cleaning Piedmont SC",
-      "checkedAt": "2026-11-13T18:45:00Z",
+      "checkedAt": "2026-11-14T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1851,7 +1880,7 @@
         {
           "pos": 4,
           "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services Piedmont SC"
+          "title": "Top-Rated Cleaning & Maid Services in Piedmont SC"
         },
         {
           "pos": 5,
@@ -1871,12 +1900,12 @@
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Walls Ceilings Clean Piedmont SC"
+          "title": "Walls Ceilings Clean"
         },
         {
           "pos": 9,
           "domain": "thumbtack.com",
-          "title": "Piedmont Cleaning Pros"
+          "title": "Piedmont Cleaning Pros (Piedmont NC)"
         },
         {
           "pos": 10,
@@ -1885,7 +1914,7 @@
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo; nenhuma empresa local de limpeza com site próprio. Destacar na página de Piedmont a proximidade com Greer e Greenville.",
+      "tip": "Resultados são só diretórios; Piedmont fica perto de Greer, então reforçar links de artigos de Greer para a página de Piedmont e pedir avaliações citando a cidade.",
       "error": null
     },
     "pauline-sc": {
@@ -1959,7 +1988,7 @@
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-13T18:45:00Z",
+      "checkedAt": "2026-11-14T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2001,7 +2030,7 @@
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "Cleaning & Maid Services Mill Spring NC"
+          "title": "Cleaning Maid Services Mill Spring NC"
         },
         {
           "pos": 9,
@@ -2018,16 +2047,16 @@
         {
           "pos": 2,
           "domain": "maidpro.com",
-          "name": "MaidPro Saluda"
+          "name": "MaidPro (Hendersonville)"
         }
       ],
-      "tip": "MaidPro é a única empresa com site próprio (2ª posição). Página de Saluda deve mostrar serviços, orçamento grátis e avaliações do Google.",
+      "tip": "A franquia MaidPro aparece em 2º com página própria da cidade; criar na página de Saluda um bloco de serviços e FAQ local e citar o tempo de deslocamento a partir de Greer.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-13T18:45:00Z",
+      "checkedAt": "2026-11-14T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2078,18 +2107,18 @@
         },
         {
           "pos": 10,
-          "domain": "100hires.com",
-          "title": "Vaga de limpeza Columbus NC"
+          "domain": "angi.com",
+          "title": "Helping Hands Cleaning & More"
         }
       ],
       "competitors": [
         {
           "pos": 9,
           "domain": "merrymaids.com",
-          "name": "Merry Maids"
+          "name": "Merry Maids (local não confirmado)"
         }
       ],
-      "tip": "Care.com e Angi dominam; Merry Maids é a única marca com site (a página não deixa claro o estado). Página de Columbus deve citar Columbus NC e Tryon/Saluda.",
+      "tip": "Resultados dominados por Care.com e Angi; a página de Columbus deve deixar claro o atendimento em Columbus, NC, com FAQ e chamada para estimativa grátis.",
       "error": null
     },
     "easley-sc": {
