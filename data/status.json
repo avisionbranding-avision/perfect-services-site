@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13T10:04:50.149Z",
+ "generatedAt": "2026-11-14T10:04:47.164Z",
  "domain": "https://perfectservicespaintingcleaning.com",
  "settings": {
   "dailyPosts": 12,
@@ -8,16 +8,16 @@
   "paused": false
  },
  "totals": {
-  "urls": 689,
+  "urls": 721,
   "citiesLive": 43,
   "citiesTotal": 43,
   "fixedPagesLive": 531,
   "fixedPagesTotal": 531,
-  "posts": 158,
+  "posts": 190,
   "legacyPosts": 10,
-  "queueRemaining": 3302,
+  "queueRemaining": 3290,
   "articlesPerDay": 32,
-  "greerDaysLeft": 18
+  "greerDaysLeft": 17
  },
  "cities": [
   {
@@ -28,7 +28,7 @@
    "miles": 1,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 100
+   "posts": 120
   },
   {
    "name": "Taylors",
@@ -178,7 +178,7 @@
    "miles": 14,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Berea",
@@ -188,7 +188,7 @@
    "miles": 14,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Parker",
@@ -198,7 +198,7 @@
    "miles": 14,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Gantt",
@@ -208,7 +208,7 @@
    "miles": 15,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Roebuck",
@@ -218,7 +218,7 @@
    "miles": 15,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Boiling Springs",
@@ -228,7 +228,7 @@
    "miles": 16,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Marietta",
@@ -238,7 +238,7 @@
    "miles": 16,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Landrum",
@@ -248,7 +248,7 @@
    "miles": 16,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Spartanburg",
@@ -258,7 +258,7 @@
    "miles": 17,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Fountain Inn",
@@ -268,7 +268,7 @@
    "miles": 17,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Woodruff",
@@ -278,7 +278,7 @@
    "miles": 17,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Powdersville",
@@ -288,7 +288,7 @@
    "miles": 18,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 1
+   "posts": 2
   },
   {
    "name": "Tryon",
@@ -453,6 +453,262 @@
  ],
  "recentPosts": [
   {
+   "title": "A guide to eco-friendly house cleaning in Gantt",
+   "slug": "a-guide-to-eco-friendly-house-cleaning-in-gantt",
+   "url": "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-gantt",
+   "city": "Gantt, SC",
+   "service": "Green cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "After house cleaning: keeping your Greer home clean longer",
+   "slug": "after-house-cleaning-keeping-your-greer-home-clean-longer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/after-house-cleaning-keeping-your-greer-home-clean-longer",
+   "city": "Greer, SC",
+   "service": "House cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Airbnb turnover cleaning checklist for Simpsonville hosts",
+   "slug": "airbnb-turnover-cleaning-checklist-for-simpsonville-hosts",
+   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-simpsonville-hosts",
+   "city": "Simpsonville, SC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Airbnb turnover cleaning checklist for Woodruff hosts",
+   "slug": "airbnb-turnover-cleaning-checklist-for-woodruff-hosts",
+   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-woodruff-hosts",
+   "city": "Woodruff, SC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Apartment cleaning checklist for Berea renters",
+   "slug": "apartment-cleaning-checklist-for-berea-renters",
+   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-berea-renters",
+   "city": "Berea, SC",
+   "service": "Apartment cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Apartment cleaning checklist for Powdersville renters",
+   "slug": "apartment-cleaning-checklist-for-powdersville-renters",
+   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-powdersville-renters",
+   "city": "Powdersville, SC",
+   "service": "Apartment cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Deep cleaning vs. regular cleaning in Boiling Springs: what is the difference?",
+   "slug": "deep-cleaning-vs-regular-cleaning-in-boiling-springs-what-is-the-difference",
+   "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-boiling-springs-what-is-the-difference",
+   "city": "Boiling Springs, SC",
+   "service": "Deep cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Holiday cleaning checklist for Parker hosts",
+   "slug": "holiday-cleaning-checklist-for-parker-hosts",
+   "url": "https://perfectservicespaintingcleaning.com/blog/holiday-cleaning-checklist-for-parker-hosts",
+   "city": "Parker, SC",
+   "service": "One-time cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How much does house cleaning cost in Roebuck, SC?",
+   "slug": "how-much-does-house-cleaning-cost-in-roebuck-sc",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-much-does-house-cleaning-cost-in-roebuck-sc",
+   "city": "Roebuck, SC",
+   "service": "House cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book airbnb cleaning in Greer?",
+   "slug": "how-often-should-you-book-airbnb-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-airbnb-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book apartment cleaning in Greer?",
+   "slug": "how-often-should-you-book-apartment-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-apartment-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Apartment cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book Brazilian cleaning in Greer?",
+   "slug": "how-often-should-you-book-brazilian-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-brazilian-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Brazilian cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book deep cleaning in Greer?",
+   "slug": "how-often-should-you-book-deep-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-deep-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Deep cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book green cleaning in Greer?",
+   "slug": "how-often-should-you-book-green-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-green-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Green cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book move-out cleaning in Greer?",
+   "slug": "how-often-should-you-book-move-out-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-move-out-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Move-out cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book office cleaning in Greer?",
+   "slug": "how-often-should-you-book-office-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-office-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Office cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book one-time cleaning in Greer?",
+   "slug": "how-often-should-you-book-one-time-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-one-time-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "One-time cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How often should you book post-construction cleaning in Greer?",
+   "slug": "how-often-should-you-book-post-construction-cleaning-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-post-construction-cleaning-in-greer",
+   "city": "Greer, SC",
+   "service": "Post-construction cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for airbnb cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-airbnb-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-airbnb-cleaning",
+   "city": "Greer, SC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for apartment cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-apartment-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-apartment-cleaning",
+   "city": "Greer, SC",
+   "service": "Apartment cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for Brazilian cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-brazilian-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-brazilian-cleaning",
+   "city": "Greer, SC",
+   "service": "Brazilian cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for deep cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-deep-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-deep-cleaning",
+   "city": "Greer, SC",
+   "service": "Deep cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for green cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-green-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-green-cleaning",
+   "city": "Greer, SC",
+   "service": "Green cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for house cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-house-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-house-cleaning",
+   "city": "Greer, SC",
+   "service": "House cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for move-out cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-move-out-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-move-out-cleaning",
+   "city": "Greer, SC",
+   "service": "Move-out cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for office cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-office-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-office-cleaning",
+   "city": "Greer, SC",
+   "service": "Office cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for one-time cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-one-time-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-one-time-cleaning",
+   "city": "Greer, SC",
+   "service": "One-time cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "How to prepare your Greer home for post-construction cleaning",
+   "slug": "how-to-prepare-your-greer-home-for-post-construction-cleaning",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-post-construction-cleaning",
+   "city": "Greer, SC",
+   "service": "Post-construction cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Move-out cleaning checklist for Marietta renters",
+   "slug": "move-out-cleaning-checklist-for-marietta-renters",
+   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-checklist-for-marietta-renters",
+   "city": "Marietta, SC",
+   "service": "Move-out cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "Office cleaning checklist for small businesses in Spartanburg",
+   "slug": "office-cleaning-checklist-for-small-businesses-in-spartanburg",
+   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-spartanburg",
+   "city": "Spartanburg, SC",
+   "service": "Office cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "The three phases of post-construction cleaning in Landrum",
+   "slug": "the-three-phases-of-post-construction-cleaning-in-landrum",
+   "url": "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-landrum",
+   "city": "Landrum, SC",
+   "service": "Post-construction cleaning",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "What is Brazilian house cleaning? A guide for Fountain Inn homeowners",
+   "slug": "what-is-brazilian-house-cleaning-a-guide-for-fountain-inn-homeowners",
+   "url": "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-fountain-inn-homeowners",
+   "city": "Fountain Inn, SC",
+   "service": "Brazilian cleaning",
+   "date": "2026-11-14"
+  },
+  {
    "title": "A guide to eco-friendly house cleaning in Five Forks",
    "slug": "a-guide-to-eco-friendly-house-cleaning-in-five-forks",
    "url": "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-five-forks",
@@ -477,7 +733,7 @@
    "date": "2026-11-13"
   },
   {
-   "title": "Deep cleaning vs. regular cleaning in Greenville: what is the difference?",
+   "title": "Deep cleaning vs. regular cleaning in Greenville, SC",
    "slug": "deep-cleaning-vs-regular-cleaning-in-greenville-what-is-the-difference",
    "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-greenville-what-is-the-difference",
    "city": "Greenville, SC",
@@ -515,262 +771,6 @@
    "city": "Greer, SC",
    "service": "Deep cleaning",
    "date": "2026-11-13"
-  },
-  {
-   "title": "First-time green cleaning in Greer, SC: what to expect",
-   "slug": "first-time-green-cleaning-in-greer-sc-what-to-expect",
-   "url": "https://perfectservicespaintingcleaning.com/blog/first-time-green-cleaning-in-greer-sc-what-to-expect",
-   "city": "Greer, SC",
-   "service": "Green cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "First-time move-out cleaning in Greer, SC: what to expect",
-   "slug": "first-time-move-out-cleaning-in-greer-sc-what-to-expect",
-   "url": "https://perfectservicespaintingcleaning.com/blog/first-time-move-out-cleaning-in-greer-sc-what-to-expect",
-   "city": "Greer, SC",
-   "service": "Move-out cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "First-time office cleaning in Greer, SC: what to expect",
-   "slug": "first-time-office-cleaning-in-greer-sc-what-to-expect",
-   "url": "https://perfectservicespaintingcleaning.com/blog/first-time-office-cleaning-in-greer-sc-what-to-expect",
-   "city": "Greer, SC",
-   "service": "Office cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "First-time one-time cleaning in Greer, SC: what to expect",
-   "slug": "first-time-one-time-cleaning-in-greer-sc-what-to-expect",
-   "url": "https://perfectservicespaintingcleaning.com/blog/first-time-one-time-cleaning-in-greer-sc-what-to-expect",
-   "city": "Greer, SC",
-   "service": "One-time cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "First-time post-construction cleaning in Greer, SC: what to expect",
-   "slug": "first-time-post-construction-cleaning-in-greer-sc-what-to-expect",
-   "url": "https://perfectservicespaintingcleaning.com/blog/first-time-post-construction-cleaning-in-greer-sc-what-to-expect",
-   "city": "Greer, SC",
-   "service": "Post-construction cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "Holiday cleaning checklist for Reidville hosts",
-   "slug": "holiday-cleaning-checklist-for-reidville-hosts",
-   "url": "https://perfectservicespaintingcleaning.com/blog/holiday-cleaning-checklist-for-reidville-hosts",
-   "city": "Reidville, SC",
-   "service": "One-time cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does Airbnb cleaning take in Greer, SC?",
-   "slug": "how-long-does-airbnb-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-airbnb-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Airbnb cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does apartment cleaning take in Greer, SC?",
-   "slug": "how-long-does-apartment-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-apartment-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Apartment cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does Brazilian cleaning take in Greer, SC?",
-   "slug": "how-long-does-brazilian-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-brazilian-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does deep cleaning take in Greer, SC?",
-   "slug": "how-long-does-deep-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-deep-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Deep cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does green cleaning take in Greer, SC?",
-   "slug": "how-long-does-green-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-green-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Green cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does house cleaning take in Greer, SC?",
-   "slug": "how-long-does-house-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-house-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "House cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does move-out cleaning take in Greer, SC?",
-   "slug": "how-long-does-move-out-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-move-out-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Move-out cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does office cleaning take in Greer, SC?",
-   "slug": "how-long-does-office-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-office-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Office cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does one-time cleaning take in Greer, SC?",
-   "slug": "how-long-does-one-time-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-one-time-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "One-time cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How long does post-construction cleaning take in Greer, SC?",
-   "slug": "how-long-does-post-construction-cleaning-take-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-long-does-post-construction-cleaning-take-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Post-construction cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How much does house cleaning cost in Inman, SC?",
-   "slug": "how-much-does-house-cleaning-cost-in-inman-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-much-does-house-cleaning-cost-in-inman-sc",
-   "city": "Inman, SC",
-   "service": "House cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "How often should you book house cleaning in Greer?",
-   "slug": "how-often-should-you-book-house-cleaning-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-house-cleaning-in-greer",
-   "city": "Greer, SC",
-   "service": "House cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "Move-out cleaning checklist for Mauldin renters",
-   "slug": "move-out-cleaning-checklist-for-mauldin-renters",
-   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-checklist-for-mauldin-renters",
-   "city": "Mauldin, SC",
-   "service": "Move-out cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "Office cleaning checklist for small businesses in Campobello",
-   "slug": "office-cleaning-checklist-for-small-businesses-in-campobello",
-   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-campobello",
-   "city": "Campobello, SC",
-   "service": "Office cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "Office cleaning checklist for small businesses in Lyman",
-   "slug": "office-cleaning-checklist-for-small-businesses-in-lyman",
-   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-lyman",
-   "city": "Lyman, SC",
-   "service": "Office cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "The three phases of post-construction cleaning in Travelers Rest",
-   "slug": "the-three-phases-of-post-construction-cleaning-in-travelers-rest",
-   "url": "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-travelers-rest",
-   "city": "Travelers Rest, SC",
-   "service": "Post-construction cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "What is Brazilian house cleaning? A guide for Moore homeowners",
-   "slug": "what-is-brazilian-house-cleaning-a-guide-for-moore-homeowners",
-   "url": "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-moore-homeowners",
-   "city": "Moore, SC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "What is Brazilian house cleaning? A guide for Wade Hampton homeowners",
-   "slug": "what-is-brazilian-house-cleaning-a-guide-for-wade-hampton-homeowners",
-   "url": "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-wade-hampton-homeowners",
-   "city": "Wade Hampton, SC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-13"
-  },
-  {
-   "title": "A 15-minute daily routine for Greer apartment living",
-   "slug": "a-15-minute-daily-routine-for-greer-apartment-living",
-   "url": "https://perfectservicespaintingcleaning.com/blog/a-15-minute-daily-routine-for-greer-apartment-living",
-   "city": "Greer, SC",
-   "service": "Apartment cleaning",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "A Brazilian-style weekly cleaning routine for Greer homes",
-   "slug": "a-brazilian-style-weekly-cleaning-routine-for-greer-homes",
-   "url": "https://perfectservicespaintingcleaning.com/blog/a-brazilian-style-weekly-cleaning-routine-for-greer-homes",
-   "city": "Greer, SC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "A guide to eco-friendly house cleaning in Pacolet",
-   "slug": "a-guide-to-eco-friendly-house-cleaning-in-pacolet",
-   "url": "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-pacolet",
-   "city": "Pacolet, SC",
-   "service": "Green cleaning",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "Airbnb turnover cleaning checklist for Chesnee hosts",
-   "slug": "airbnb-turnover-cleaning-checklist-for-chesnee-hosts",
-   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-chesnee-hosts",
-   "city": "Chesnee, SC",
-   "service": "Airbnb cleaning",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "Apartment cleaning checklist for Flat Rock renters",
-   "slug": "apartment-cleaning-checklist-for-flat-rock-renters",
-   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-flat-rock-renters",
-   "city": "Flat Rock, NC",
-   "service": "Apartment cleaning",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "Apartment move-out cleaning in Greer: a renter's guide",
-   "slug": "apartment-move-out-cleaning-in-greer-a-renter-s-guide",
-   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-move-out-cleaning-in-greer-a-renter-s-guide",
-   "city": "Greer, SC",
-   "service": "Move-out cleaning",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "Brazilian bathroom cleaning method for Greer homes",
-   "slug": "brazilian-bathroom-cleaning-method-for-greer-homes",
-   "url": "https://perfectservicespaintingcleaning.com/blog/brazilian-bathroom-cleaning-method-for-greer-homes",
-   "city": "Greer, SC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-12"
-  },
-  {
-   "title": "Commercial restroom cleaning standards for Greer businesses",
-   "slug": "commercial-restroom-cleaning-standards-for-greer-businesses",
-   "url": "https://perfectservicespaintingcleaning.com/blog/commercial-restroom-cleaning-standards-for-greer-businesses",
-   "city": "Greer, SC",
-   "service": "Office cleaning",
-   "date": "2026-11-12"
   }
  ],
  "inspectQueue": [
@@ -1305,6 +1305,26 @@
   "https://perfectservicespaintingcleaning.com/blog/pickens-sc/",
   "https://perfectservicespaintingcleaning.com/blog/liberty-sc/",
   "https://perfectservicespaintingcleaning.com/blog/hendersonville-nc/",
+  "https://perfectservicespaintingcleaning.com/blog/after-house-cleaning-keeping-your-greer-home-clean-longer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-airbnb-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-apartment-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-brazilian-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-deep-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-green-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-move-out-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-office-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-one-time-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-often-should-you-book-post-construction-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-airbnb-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-apartment-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-brazilian-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-deep-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-green-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-house-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-move-out-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-office-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-one-time-cleaning",
+  "https://perfectservicespaintingcleaning.com/blog/how-to-prepare-your-greer-home-for-post-construction-cleaning",
   "https://perfectservicespaintingcleaning.com/blog/first-time-airbnb-cleaning-in-greer-sc-what-to-expect",
   "https://perfectservicespaintingcleaning.com/blog/first-time-apartment-cleaning-in-greer-sc-what-to-expect",
   "https://perfectservicespaintingcleaning.com/blog/first-time-brazilian-cleaning-in-greer-sc-what-to-expect",
@@ -1395,6 +1415,18 @@
   "https://perfectservicespaintingcleaning.com/blog/pet-safe-cleaning-tips-for-greer-homes",
   "https://perfectservicespaintingcleaning.com/blog/small-space-cleaning-tips-for-greer-apartments-and-condos",
   "https://perfectservicespaintingcleaning.com/blog/what-to-expect-from-your-first-house-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-gantt",
+  "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-simpsonville-hosts",
+  "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-woodruff-hosts",
+  "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-berea-renters",
+  "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-powdersville-renters",
+  "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-boiling-springs-what-is-the-difference",
+  "https://perfectservicespaintingcleaning.com/blog/holiday-cleaning-checklist-for-parker-hosts",
+  "https://perfectservicespaintingcleaning.com/blog/how-much-does-house-cleaning-cost-in-roebuck-sc",
+  "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-checklist-for-marietta-renters",
+  "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-spartanburg",
+  "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-landrum",
+  "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-fountain-inn-homeowners",
   "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-five-forks",
   "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-wellford-hosts",
   "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-startex-renters",
@@ -1466,164 +1498,164 @@
  ],
  "nextTopics": [
   {
-   "title": "How to prepare your Greer home for house cleaning",
+   "title": "5 house cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "House Cleaning & Maid Service"
   },
   {
-   "title": "After house cleaning: keeping your Greer home clean longer",
+   "title": "Questions to ask before hiring house cleaning in Greer",
    "city": "Greer, SC",
    "service": "House Cleaning & Maid Service"
   },
   {
-   "title": "How often should you book deep cleaning in Greer?",
+   "title": "After deep cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Deep Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for deep cleaning",
+   "title": "5 deep cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Deep Cleaning"
   },
   {
-   "title": "How often should you book move-out cleaning in Greer?",
+   "title": "After move-out cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Move-In & Move-Out Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for move-out cleaning",
+   "title": "5 move-out cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Move-In & Move-Out Cleaning"
   },
   {
-   "title": "How often should you book post-construction cleaning in Greer?",
+   "title": "After post-construction cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Post-Construction Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for post-construction cleaning",
+   "title": "5 post-construction cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Post-Construction Cleaning"
   },
   {
-   "title": "How often should you book office cleaning in Greer?",
+   "title": "After office cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Commercial & Office Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for office cleaning",
+   "title": "5 office cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Commercial & Office Cleaning"
   },
   {
-   "title": "How often should you book brazilian cleaning in Greer?",
+   "title": "After brazilian cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Brazilian House Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for brazilian cleaning",
+   "title": "5 brazilian cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Brazilian House Cleaning"
   },
   {
-   "title": "How often should you book airbnb cleaning in Greer?",
+   "title": "After airbnb cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for airbnb cleaning",
+   "title": "5 airbnb cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
-   "title": "How often should you book apartment cleaning in Greer?",
+   "title": "After apartment cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Apartment & Condo Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for apartment cleaning",
+   "title": "5 apartment cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Apartment & Condo Cleaning"
   },
   {
-   "title": "How often should you book one-time cleaning in Greer?",
+   "title": "After one-time cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "One-Time House Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for one-time cleaning",
+   "title": "5 one-time cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "One-Time House Cleaning"
   },
   {
-   "title": "How often should you book green cleaning in Greer?",
+   "title": "After green cleaning: keeping your Greer home clean longer",
    "city": "Greer, SC",
    "service": "Eco-Friendly Green Cleaning"
   },
   {
-   "title": "How to prepare your Greer home for green cleaning",
+   "title": "5 green cleaning mistakes Greer homeowners make",
    "city": "Greer, SC",
    "service": "Eco-Friendly Green Cleaning"
   },
   {
-   "title": "Airbnb turnover cleaning checklist for Simpsonville hosts",
-   "city": "Simpsonville, SC",
-   "service": "Airbnb & Vacation Rental Cleaning"
-  },
-  {
-   "title": "Apartment cleaning checklist for Berea renters",
-   "city": "Berea, SC",
-   "service": "Apartment & Condo Cleaning"
-  },
-  {
-   "title": "Holiday cleaning checklist for Parker hosts",
-   "city": "Parker, SC",
+   "title": "Holiday cleaning checklist for Tryon hosts",
+   "city": "Tryon, NC",
    "service": "One-Time House Cleaning"
   },
   {
-   "title": "A guide to eco-friendly house cleaning in Gantt",
-   "city": "Gantt, SC",
+   "title": "A guide to eco-friendly house cleaning in Piedmont",
+   "city": "Piedmont, SC",
    "service": "Eco-Friendly Green Cleaning"
   },
   {
-   "title": "How much does house cleaning cost in Roebuck, SC?",
-   "city": "Roebuck, SC",
+   "title": "How much does house cleaning cost in Pauline, SC?",
+   "city": "Pauline, SC",
    "service": "House Cleaning & Maid Service"
   },
   {
-   "title": "Deep cleaning vs. regular cleaning in Boiling Springs: what is the difference?",
-   "city": "Boiling Springs, SC",
+   "title": "Deep cleaning vs. regular cleaning in Saluda: what is the difference?",
+   "city": "Saluda, NC",
    "service": "Deep Cleaning"
   },
   {
-   "title": "Move-out cleaning checklist for Marietta renters",
-   "city": "Marietta, SC",
+   "title": "Move-out cleaning checklist for Columbus renters",
+   "city": "Columbus, NC",
    "service": "Move-In & Move-Out Cleaning"
   },
   {
-   "title": "The three phases of post-construction cleaning in Landrum",
-   "city": "Landrum, SC",
+   "title": "The three phases of post-construction cleaning in Easley",
+   "city": "Easley, SC",
    "service": "Post-Construction Cleaning"
   },
   {
-   "title": "Office cleaning checklist for small businesses in Spartanburg",
-   "city": "Spartanburg, SC",
+   "title": "Office cleaning checklist for small businesses in Gray Court",
+   "city": "Gray Court, SC",
    "service": "Commercial & Office Cleaning"
   },
   {
-   "title": "What is Brazilian house cleaning? A guide for Fountain Inn homeowners",
-   "city": "Fountain Inn, SC",
+   "title": "What is Brazilian house cleaning? A guide for Pelzer homeowners",
+   "city": "Pelzer, SC",
    "service": "Brazilian House Cleaning"
   },
   {
-   "title": "Airbnb turnover cleaning checklist for Woodruff hosts",
-   "city": "Woodruff, SC",
+   "title": "Airbnb turnover cleaning checklist for Cowpens hosts",
+   "city": "Cowpens, SC",
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
-   "title": "Apartment cleaning checklist for Powdersville renters",
-   "city": "Powdersville, SC",
+   "title": "Apartment cleaning checklist for Chesnee renters",
+   "city": "Chesnee, SC",
    "service": "Apartment & Condo Cleaning"
+  },
+  {
+   "title": "Holiday cleaning checklist for Flat Rock hosts",
+   "city": "Flat Rock, NC",
+   "service": "One-Time House Cleaning"
+  },
+  {
+   "title": "A guide to eco-friendly house cleaning in Williamston",
+   "city": "Williamston, SC",
+   "service": "Eco-Friendly Green Cleaning"
   }
  ]
 }
