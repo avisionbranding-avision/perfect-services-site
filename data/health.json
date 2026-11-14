@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-14T15:45:00Z",
+  "checkedAt": "2026-11-14T18:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -75,10 +75,13 @@
       "detail": "Formulário envia para /api/lead nas páginas de cidade"
     }
   ],
-  "fixes": [
-    "Títulos encurtados em 2 artigos (Boiling Springs e Fountain Inn); entram no ar às 7h"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-14T18:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-14T15:45:00Z",
       "overall": "ok",
