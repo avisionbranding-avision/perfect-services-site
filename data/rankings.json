@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-14T18:45:00Z",
+  "updatedAt": "2026-11-14T21:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
       "city": "Greer, SC",
       "query": "house cleaning Greer SC",
-      "checkedAt": "2026-11-14T00:45:00Z",
+      "checkedAt": "2026-11-14T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Greer SC"
+          "title": "House cleaning Greer SC (página 2)"
         },
         {
           "pos": 2,
@@ -22,7 +22,7 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Greer SC house cleaning"
+          "title": "House cleaning Greer SC"
         },
         {
           "pos": 4,
@@ -48,6 +48,16 @@
           "pos": 8,
           "domain": "thebuildermarket.com",
           "title": "Top-Rated Cleaning & Maid Services Near You in Greer, SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeeper Greer SC"
+        },
+        {
+          "pos": 10,
+          "domain": "homeadvisor.com",
+          "title": "House Cleaning Greer SC"
         }
       ],
       "competitors": [
@@ -60,22 +70,27 @@
           "pos": 4,
           "domain": "maidpro.com",
           "name": "MaidPro"
+        },
+        {
+          "pos": 6,
+          "domain": "thumbtack.com",
+          "name": "Angel Grove Cleaning LLC"
         }
       ],
-      "tip": "MaidPro mostra nota 4,8 com 161 avaliações na busca; destacar a nota e as avaliações reais do Google na página de Greer e nas páginas de serviço.",
+      "tip": "MaidPro aparece com nota 4,8 e 161 avaliações e o Homeyou mostra faixa de preço; destacar nota e avaliações reais do Google e uma faixa de preço na página de Greer.",
       "error": null
     },
     "taylors-sc": {
       "city": "Taylors, SC",
       "query": "house cleaning Taylors SC",
-      "checkedAt": "2026-11-14T00:45:00Z",
+      "checkedAt": "2026-11-14T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Taylors SC"
+          "title": "House cleaning Taylors SC"
         },
         {
           "pos": 2,
@@ -85,12 +100,12 @@
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning"
+          "title": "House Cleaning Taylors SC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeepers Taylors SC"
+          "title": "Housekeepers Taylors SC (página 3)"
         },
         {
           "pos": 5,
@@ -100,7 +115,27 @@
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Housekeepers Taylors SC page 2"
+          "title": "Housekeepers Taylors SC (página 2)"
+        },
+        {
+          "pos": 7,
+          "domain": "homeadvisor.com",
+          "title": "Walls Ceilings Clean"
+        },
+        {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "Housekeeping Taylors SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeeping Taylors SC (página 2)"
+        },
+        {
+          "pos": 10,
+          "domain": "care.com",
+          "title": "House cleaning jobs Taylors SC"
         }
       ],
       "competitors": [
@@ -110,20 +145,20 @@
           "name": "SERVPRO of South Greenville County"
         }
       ],
-      "tip": "Poucas empresas locais aparecem; o resto são diretórios. Mostrar na página de Taylors a proximidade com Greer (4 milhas), preço inicial por tipo de limpeza e perguntas frequentes.",
+      "tip": "Diretórios dominam e nenhuma empresa local forte aparece; reforçar a página de Taylors com avaliações reais, faixa de preço e perguntas frequentes para disputar as primeiras posições.",
       "error": null
     },
     "duncan-sc": {
       "city": "Duncan, SC",
       "query": "house cleaning Duncan SC",
-      "checkedAt": "2026-11-14T00:45:00Z",
+      "checkedAt": "2026-11-14T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Duncan SC"
+          "title": "House cleaning Duncan SC"
         },
         {
           "pos": 2,
@@ -138,7 +173,7 @@
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Duncan SC"
         },
         {
           "pos": 5,
@@ -149,6 +184,26 @@
           "pos": 6,
           "domain": "thumbtack.com",
           "title": "To Have & To Hold Cleaners"
+        },
+        {
+          "pos": 7,
+          "domain": "care.com",
+          "title": "Housekeeping Duncan SC (página 2)"
+        },
+        {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "Housekeeping Duncan SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeepers Duncan SC"
+        },
+        {
+          "pos": 10,
+          "domain": "homeadvisor.com",
+          "title": "Compare Quotes from Cleaning Services"
         }
       ],
       "competitors": [
@@ -156,37 +211,42 @@
           "pos": 5,
           "domain": "thumbtack.com",
           "name": "MJD Cleaning Services"
+        },
+        {
+          "pos": 5,
+          "domain": "thumbtack.com",
+          "name": "To Have & To Hold Cleaners"
         }
       ],
-      "tip": "Resultados dominados por diretórios e perfis do Thumbtack. Completar o perfil do Thumbtack e do Angi e destacar na página de Duncan que atendemos a cidade a 5 milhas de Greer.",
+      "tip": "Concorrentes aparecem com anos de experiência e orçamento grátis; destacar na página de Duncan o orçamento grátis, a experiência da equipe e avaliações reais.",
       "error": null
     },
     "lyman-sc": {
       "city": "Lyman, SC",
       "query": "house cleaning Lyman SC",
-      "checkedAt": "2026-11-14T00:45:00Z",
+      "checkedAt": "2026-11-14T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Lyman SC"
+          "title": "House cleaning Lyman SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Lyman SC"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Lyman SC"
+          "title": "House cleaning Lyman SC"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Post-Construction Cleaning Services"
+          "title": "Compare Quotes from Post-Construction Cleaning Services"
         },
         {
           "pos": 5,
@@ -206,11 +266,21 @@
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Housekeepers Lyman SC page 2"
+          "title": "Housekeepers Lyman SC (página 2)"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeepers Lyman SC"
+        },
+        {
+          "pos": 10,
+          "domain": "care.com",
+          "title": "Cleaning lady Lyman SC"
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa própria na frente, só diretórios. Página de Lyman precisa de bloco de perguntas frequentes e de links para as páginas de serviço mais procuradas.",
+      "tip": "Só diretórios aparecem, sem site de empresa; página de Lyman com serviços, FAQ e telefone claros pode chegar ao topo, e vale citar a proximidade de Greer e Duncan.",
       "error": null
     },
     "wade-hampton-sc": {
@@ -2458,6 +2528,9 @@
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
+      "checkedAt": "2026-11-14T21:45:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
       "top": [
         {
           "pos": 1,
@@ -2467,7 +2540,7 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning Flat Rock NC"
+          "title": "House cleaning, Flat Rock NC"
         },
         {
           "pos": 3,
@@ -2482,7 +2555,7 @@
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Housekeepers Flat Rock NC page 3"
+          "title": "Housekeepers Flat Rock NC (página 3)"
         },
         {
           "pos": 6,
@@ -2492,12 +2565,12 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Housekeeping Flat Rock NC page 2"
+          "title": "Housekeeping Flat Rock NC (página 2)"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Housekeepers Flat Rock NC page 2"
+          "title": "Housekeepers Flat Rock NC (página 2)"
         },
         {
           "pos": 9,
@@ -2512,21 +2585,23 @@
       ],
       "competitors": [
         {
-          "pos": 14,
+          "pos": null,
           "domain": "homeadvisor.com",
           "name": "HeyMaid"
+        },
+        {
+          "pos": null,
+          "domain": "servpro.com",
+          "name": "SERVPRO of Hendersonville and Lake Lure Forest City"
         }
       ],
-      "tip": "Care.com e Angi dominam; HeyMaid atende Flat Rock e Tryon. Reforçar a página de Flat Rock citando Hendersonville e cidades vizinhas.",
-      "checkedAt": "2026-11-13T21:45:00Z",
-      "ourPosition": null,
-      "ourUrl": null,
+      "tip": "Só diretórios e poucas empresas locais aparecem; criar uma página de Flat Rock com serviços, área atendida e telefone claro e pedir avaliações de clientes da região para entrar nesse espaço vazio.",
       "error": null
     },
     "williamston-sc": {
       "city": "Williamston, SC",
       "query": "house cleaning Williamston SC",
-      "checkedAt": "2026-11-14T00:45:00Z",
+      "checkedAt": "2026-11-14T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2543,7 +2618,7 @@
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Cleaning & Maid Services in Williamston, SC"
+          "title": "Cleaning Williamston SC"
         },
         {
           "pos": 4,
@@ -2569,10 +2644,26 @@
           "pos": 8,
           "domain": "homeadvisor.com",
           "title": "Cleaning one time service"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeepers Williamston SC (página 2)"
+        },
+        {
+          "pos": 10,
+          "domain": "care.com",
+          "title": "Housekeepers Williamston SC"
         }
       ],
-      "competitors": [],
-      "tip": "Só aparecem diretórios (Care.com, Angi, HomeAdvisor) e quase nenhuma empresa própria: boa chance de ranquear. Reforçar a página de Williamston com o nome da cidade, serviços, perguntas frequentes e link para o perfil do Google.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "name": "Evans Cleaning Service"
+        }
+      ],
+      "tip": "Resultados são diretórios e limpadoras independentes; mostrar preço transparente, avaliações e a limpeza pré-mudança na página de Williamston para se destacar.",
       "error": null
     },
     "pacolet-sc": {
