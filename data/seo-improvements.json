@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-14T06:45:00Z",
-  "now": "Revisei as buscas de 6 cidades (Liberty, Inman, Greenville, Mauldin, Campobello, Moore) e os 148 artigos (JSON válidos); nenhuma melhoria automática nova aplicada.",
+  "updatedAt": "2026-11-14T09:45:00Z",
+  "now": "Busquei 6 cidades (Hendersonville, Travelers Rest, Simpsonville, Berea, Parker, Gantt) e 3 diretórios (nenhum perfil novo); 3 títulos de artigos encurtados.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -393,6 +393,62 @@
       "foundAt": "2026-11-13",
       "doneAt": "2026-11-13T00:50:00Z",
       "result": "Título agora: Deep cleaning vs. regular cleaning in Liberty, SC"
+    },
+    {
+      "id": "seo-titulo-greenville-2026-11-14",
+      "title": "Encurtar o título do artigo de greenville para até 60 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": null,
+      "why": "O título tinha mais de 65 caracteres e podia ser cortado no Google.",
+      "action": "Título enxuto com cidade e serviço.",
+      "foundAt": "2026-11-14",
+      "doneAt": "2026-11-14T09:45:00Z",
+      "result": "Título reduzido para 50-52 caracteres; vale após o deploy das 7h."
+    },
+    {
+      "id": "seo-titulo-greer-2026-11-14",
+      "title": "Encurtar o título do artigo de greer para até 60 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": null,
+      "why": "O título tinha mais de 65 caracteres e podia ser cortado no Google.",
+      "action": "Título enxuto com cidade e serviço.",
+      "foundAt": "2026-11-14",
+      "doneAt": "2026-11-14T09:45:00Z",
+      "result": "Título reduzido para 50-52 caracteres; vale após o deploy das 7h."
+    },
+    {
+      "id": "seo-titulo-wade-hampton-2026-11-14",
+      "title": "Encurtar o título do artigo de wade-hampton para até 60 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": null,
+      "why": "O título tinha mais de 65 caracteres e podia ser cortado no Google.",
+      "action": "Título enxuto com cidade e serviço.",
+      "foundAt": "2026-11-14",
+      "doneAt": "2026-11-14T09:45:00Z",
+      "result": "Título reduzido para 50-52 caracteres; vale após o deploy das 7h."
+    },
+    {
+      "id": "seo-precos-faq-cidades",
+      "title": "Colocar faixa de preço e FAQ de preço nas páginas de Hendersonville, Simpsonville e Gantt",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/simpsonville-sc/",
+      "why": "Concorrentes nessas buscas mostram preço inicial na própria página (ex.: Home Glow, TotalCare, Nestly).",
+      "action": "Bloco de preço (sempre com orçamento grátis) e FAQ de preço no modelo das páginas de cidade.",
+      "foundAt": "2026-11-14",
+      "doneAt": null,
+      "result": null
     }
   ]
 }

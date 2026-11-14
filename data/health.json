@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-14T06:45:00Z",
+  "checkedAt": "2026-11-14T09:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -75,8 +75,15 @@
       "detail": "Formulário envia para /api/lead nas páginas de cidade"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Encurtei o título de 3 artigos para até 60 caracteres (valem após o deploy das 7h)"
+  ],
   "history": [
+    {
+      "at": "2026-11-14T09:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 3 títulos ajustados"
+    },
     {
       "at": "2026-11-14T06:45:00Z",
       "overall": "ok",
