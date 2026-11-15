@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-15T03:45:00Z",
+  "checkedAt": "2026-11-15T06:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,7 +24,7 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Artigos de ontem (14/11) publicados às 10:04 UTC; próxima rodada às 10:00 UTC"
+      "detail": "Artigos de ontem (15/11 ainda antes das 12:00 UTC): rodada de 14/11 publicada às 10:04 UTC; próxima às 10:00 UTC"
     },
     {
       "id": "daily_count",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-15T06:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-15T03:45:00Z",
       "overall": "ok",
