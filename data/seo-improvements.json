@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-15T00:45:00Z",
-  "now": "Revisei 190 artigos (títulos, descrições e links internos), a saúde do site e as buscas de 6 cidades (Pacolet, Five Forks, Pickens, Reidville, Startex, Wade Hampton); nada novo a corrigir.",
+  "updatedAt": "2026-11-15T03:45:00Z",
+  "now": "Revisei 6 cidades (Wellford, Campobello, Greenville, Inman, Liberty, Mauldin), 180 artigos (frases proibidas: nenhuma) e a abertura repetida de 2 artigos; nenhuma melhoria automática pendente.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -463,6 +463,34 @@
       "foundAt": "2026-11-14",
       "doneAt": "2026-11-14",
       "result": "Títulos reduzidos para 57 e 52 caracteres; entram no ar às 7h."
+    },
+    {
+      "id": "seo-abertura-pos-construcao",
+      "title": "Reescrever a abertura repetida dos artigos de pós-obra em Duncan e Spartanburg",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-duncan.html",
+      "why": "Os artigos the-three-phases-of-post-construction-cleaning-in-duncan e ...-in-spartanburg começam com o mesmo texto.",
+      "action": "Reescrever o primeiro parágrafo de um deles com um detalhe local diferente.",
+      "foundAt": "2026-11-15",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-liberty-mauldin-wellford",
+      "title": "Páginas de Liberty, Mauldin, Wellford e Campobello: preço inicial, FAQ e área atendida",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/mauldin-sc/",
+      "why": "Nessas buscas quase não há empresas com site próprio; só diretórios e uma ou duas empresas aparecem.",
+      "action": "Bloco de preço inicial, FAQ curta e distância de Greer em cada página de cidade.",
+      "foundAt": "2026-11-15",
+      "doneAt": null,
+      "result": null
     }
   ]
 }
