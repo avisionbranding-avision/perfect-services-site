@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-15T15:50:00Z",
-  "now": "Revisei as dicas de 6 cidades (Columbus, Pauline, Easley, Gray Court, Pelzer, Cowpens), 212 artigos e a busca por diretórios; 3 títulos encurtados, 24 artigos sem links internos.",
+  "updatedAt": "2026-11-15T18:45:00Z",
+  "now": "Revisei as dicas de 6 cidades (Chesnee, Greer, Taylors, Duncan, Lyman, Flat Rock) e os títulos dos artigos; 3 títulos encurtados.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -550,14 +550,14 @@
     },
     {
       "id": "seo-titulos-longos-restantes",
-      "title": "Encurtar mais 5 títulos de artigos acima de 65 caracteres",
+      "title": "Encurtar mais 2 títulos de artigos acima de 65 caracteres",
       "area": "conteudo",
       "owner": "auto",
       "status": "aberta",
       "priority": 4,
       "page": "https://perfectservicespaintingcleaning.com/blog/",
       "why": "Ainda há 5 títulos entre 68 e 73 caracteres (ex.: 5 green cleaning mistakes Greer homeowners make, Saluda deep vs regular).",
-      "action": "Reduzir cada título para até 60 caracteres.",
+      "action": "Reduzir para até 60 caracteres: 'After post-construction cleaning' (Greer) e 'Deep cleaning vs. regular cleaning in Saluda'.",
       "foundAt": "2026-11-15",
       "doneAt": null,
       "result": null
@@ -575,6 +575,20 @@
       "foundAt": "2026-11-15",
       "doneAt": null,
       "result": null
+    },
+    {
+      "id": "seo-titulos-greer-3",
+      "title": "Encurtar 3 títulos longos de artigos de Greer",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos acima de 65 caracteres são cortados no Google.",
+      "action": "Reduzir para até 60 caracteres.",
+      "foundAt": "2026-11-15",
+      "doneAt": "2026-11-15",
+      "result": "3 títulos reduzidos para 50 a 59 caracteres; entram no ar às 7h."
     }
   ]
 }

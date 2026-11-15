@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-15T15:50:00Z",
+  "checkedAt": "2026-11-15T18:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -60,25 +60,30 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "753 URLs no sitemap"
+      "detail": "753 endereços no sitemap, igual ao esperado"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "GTM presente na home e no artigo mais novo"
+      "detail": "Google Tag Manager presente na home e no artigo mais recente"
     },
     {
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulário envia para /api/lead nas páginas de cidade"
+      "detail": "Formulário envia para /api/lead no build da Cloudflare"
     }
   ],
   "fixes": [
-    "Encurtei os títulos de 3 artigos de Greer publicados hoje (de 78-89 para 47-54 caracteres); vão ao ar na próxima publicação das 7h"
+    "3 títulos de artigos de Greer encurtados para menos de 65 caracteres (entram no ar às 7h)"
   ],
   "history": [
+    {
+      "at": "2026-11-15T18:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 3 títulos encurtados"
+    },
     {
       "at": "2026-11-15T15:50:00Z",
       "overall": "ok",
