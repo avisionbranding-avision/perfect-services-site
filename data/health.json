@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-15T18:45:00Z",
+  "checkedAt": "2026-11-15T21:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -76,9 +76,14 @@
     }
   ],
   "fixes": [
-    "3 títulos de artigos de Greer encurtados para menos de 65 caracteres (entram no ar às 7h)"
+    "2 títulos de artigos (Greer e Saluda) encurtados para menos de 65 caracteres (entram no ar às 7h)"
   ],
   "history": [
+    {
+      "at": "2026-11-15T21:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 6 cidades, 3 diretórios e 2 títulos"
+    },
     {
       "at": "2026-11-15T18:45:00Z",
       "overall": "ok",

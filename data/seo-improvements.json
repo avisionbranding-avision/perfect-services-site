@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-15T18:45:00Z",
-  "now": "Revisei as dicas de 6 cidades (Chesnee, Greer, Taylors, Duncan, Lyman, Flat Rock) e os títulos dos artigos; 3 títulos encurtados.",
+  "updatedAt": "2026-11-15T21:45:00Z",
+  "now": "Revisei 222 artigos (títulos, links internos) e as dicas de 6 cidades; 2 títulos encurtados e 1 item obsoleto encerrado.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -539,28 +539,28 @@
       "title": "Adicionar links internos para cidade e serviço em 24 artigos sem nenhum",
       "area": "links",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 3,
       "page": "https://perfectservicespaintingcleaning.com/blog/",
       "why": "24 de 212 artigos não têm link para páginas de /areas/ ou /services/ (ex.: how-much-does-house-cleaning-cost-in-pauline-sc, move-out-cleaning-checklist-for-columbus-renters).",
       "action": "Incluir 1-2 links para a página da cidade e do serviço correspondente, 3 artigos por rodada.",
       "foundAt": "2026-11-15",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-15",
+      "result": "Conferido: todos os 222 artigos já têm 2 ou mais links para cidade e serviço"
     },
     {
       "id": "seo-titulos-longos-restantes",
       "title": "Encurtar mais 2 títulos de artigos acima de 65 caracteres",
       "area": "conteudo",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 4,
       "page": "https://perfectservicespaintingcleaning.com/blog/",
       "why": "Ainda há 5 títulos entre 68 e 73 caracteres (ex.: 5 green cleaning mistakes Greer homeowners make, Saluda deep vs regular).",
       "action": "Reduzir para até 60 caracteres: 'After post-construction cleaning' (Greer) e 'Deep cleaning vs. regular cleaning in Saluda'.",
       "foundAt": "2026-11-15",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-15",
+      "result": "Títulos de Greer e Saluda encurtados para menos de 60 caracteres (entram no ar às 7h)"
     },
     {
       "id": "seo-gray-court-pauline-easley",
