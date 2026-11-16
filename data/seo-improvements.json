@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T00:45:00Z",
-  "now": "Revisei os 222 artigos (descrição, título, links internos, tamanho e aberturas repetidas) e as dicas de 6 cidades; nenhuma correção nova necessária.",
+  "updatedAt": "2026-11-16T03:50:00Z",
+  "now": "Revisei 212 artigos (frases proibidas, descrições, títulos, links) e as dicas de 6 cidades; 2 melhorias aplicadas.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -589,6 +589,34 @@
       "foundAt": "2026-11-15",
       "doneAt": "2026-11-15",
       "result": "3 títulos reduzidos para 50 a 59 caracteres; entram no ar às 7h."
+    },
+    {
+      "id": "seo-desc-spartanburg-pelzer-2026-11-16",
+      "title": "Descrições mais completas em 2 artigos (Spartanburg e Pelzer)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "As descrições tinham 142 e 145 caracteres, abaixo da faixa ideal de 150-160.",
+      "action": "Ampliar a descrição para cerca de 150 caracteres com benefício claro.",
+      "foundAt": "2026-11-16",
+      "doneAt": "2026-11-16",
+      "result": "Descrições de Spartanburg (149) e Pelzer (151) ajustadas; entram no ar às 7h."
+    },
+    {
+      "id": "seo-parker-berea-vazio",
+      "title": "Parker e Berea sem concorrente local de limpeza residencial na busca",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/parker-sc/",
+      "why": "Na busca de hoje nenhum resultado era empresa de limpeza residencial dessas cidades (só diretórios, restauração e outros estados).",
+      "action": "Reforçar as páginas de Parker e Berea com serviços, distância de Greer, FAQ e botão de orçamento grátis.",
+      "foundAt": "2026-11-16",
+      "doneAt": null,
+      "result": null
     }
   ]
 }

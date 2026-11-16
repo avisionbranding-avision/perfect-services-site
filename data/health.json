@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T00:45:00Z",
+  "checkedAt": "2026-11-16T03:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -75,8 +75,15 @@
       "detail": "Formulário envia para /api/lead no build da Cloudflare"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Descrição de 2 artigos ajustada (Spartanburg e Pelzer)"
+  ],
   "history": [
+    {
+      "at": "2026-11-16T03:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 6 cidades, 3 diretórios, 2 descrições ajustadas"
+    },
     {
       "at": "2026-11-16T00:45:00Z",
       "overall": "ok",
