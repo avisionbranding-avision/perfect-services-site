@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T09:50:00Z",
+  "updatedAt": "2026-11-16T12:55:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1877,82 +1877,46 @@
     "pauline-sc": {
       "city": "Pauline, SC",
       "query": "house cleaning Pauline SC",
-      "checkedAt": "2026-11-15T15:50:00Z",
-      "ourPosition": null,
-      "ourUrl": null,
-      "top": [
-        {
-          "pos": 1,
-          "domain": "local.yahoo.com",
-          "title": "House Cleaning in Pacolet, SC"
-        },
-        {
-          "pos": 2,
-          "domain": "homeaglow.com",
-          "title": "House Cleaning Services in South Carolina"
-        },
-        {
-          "pos": 3,
-          "domain": "yelp.com",
-          "title": "TOP 10 BEST Home Cleaning in Pauline, SC - Yelp"
-        },
-        {
-          "pos": 4,
-          "domain": "homeaglow.com",
-          "title": "5-Star Room Cleaning Services in Pauline, SC"
-        },
-        {
-          "pos": 5,
-          "domain": "homeaglow.com",
-          "title": "Move In / Move Out Cleaning Services in Pauline, SC"
-        },
-        {
-          "pos": 6,
-          "domain": "yellowpages.com",
-          "title": "Best 30 Janitorial Service in Pauline, SC with Reviews"
-        },
-        {
-          "pos": 7,
-          "domain": "mapquest.com",
-          "title": "H&M Cleaning Service, Pauline, SC 29374, US - MapQuest"
-        },
-        {
-          "pos": 8,
-          "domain": "housekeeper.com",
-          "title": "Pauline, SC Housekeeper $10.0/hr Professional Cleaning Services"
-        },
-        {
-          "pos": 9,
-          "domain": "aaarousse.com",
-          "title": "Junk Removal in Pauline, SC"
-        },
-        {
-          "pos": 10,
-          "domain": "wfskills.com",
-          "title": "House Cleaning in Pauline, South Carolina"
-        }
-      ],
-      "competitors": [
-        {
-          "pos": 7,
-          "domain": "mapquest.com",
-          "name": "H&M Cleaning Service"
-        }
-      ],
-      "tip": "Só aparecem diretórios e plataformas; quase nenhuma empresa local com site próprio. Boa chance: reforçar a página de Pauline com serviços de mudança (move-in/move-out), preço inicial e a distância até Greer.",
-      "error": null
-    },
-    "saluda-nc": {
-      "city": "Saluda, NC",
-      "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-15T12:45:00Z",
+      "checkedAt": "2026-11-16T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Saluda NC"
+          "title": "Care.com housekeeping Pauline SC"
+        },
+        {
+          "pos": 2,
+          "domain": "angi.com",
+          "title": "house cleaning - Angi Pauline SC"
+        },
+        {
+          "pos": 3,
+          "domain": "care.com",
+          "title": "Care.com housekeeping Pauline SC"
+        },
+        {
+          "pos": 4,
+          "domain": "bbb.org",
+          "title": "BBB janitor Pauline SC"
+        }
+      ],
+      "competitors": [],
+      "tip": "Os resultados são só diretórios (Care.com, Angi, BBB); a página de Pauline pode ganhar com FAQ de preços e um bloco de avaliações do Google, que os diretórios não mostram por empresa.",
+      "error": null
+    },
+    "saluda-nc": {
+      "city": "Saluda, NC",
+      "query": "house cleaning Saluda NC",
+      "checkedAt": "2026-11-16T12:55:00Z",
+      "ourPosition": null,
+      "ourUrl": null,
+      "top": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "title": "Care.com house cleaning Saluda NC"
         },
         {
           "pos": 2,
@@ -1962,369 +1926,166 @@
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Saluda NC"
+          "title": "house cleaning Saluda NC - HomeAdvisor"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeepers Saluda NC"
-        },
-        {
-          "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeeping Saluda NC"
-        },
-        {
-          "pos": 6,
           "domain": "angi.com",
-          "title": "house cleaning"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Housekeeping Saluda NC (página 2)"
-        },
-        {
-          "pos": 8,
-          "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
-        },
-        {
-          "pos": 9,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning"
-        },
-        {
-          "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "title": "house cleaning - Angi Saluda NC"
         }
       ],
       "competitors": [
         {
           "pos": 2,
           "domain": "maidpro.com",
-          "name": "MaidPro Saluda, NC"
+          "name": "MaidPro Saluda"
         }
       ],
-      "tip": "A franquia MaidPro tem página própria para Saluda (escritório em Hendersonville). Para competir, a página de Saluda precisa de texto próprio da cidade, perguntas frequentes e chamada clara para orçamento grátis.",
+      "tip": "Só diretórios e a franquia MaidPro aparecem; a página de Saluda deve destacar atendimento local a partir de Greer, o que cobre o serviço e um pedido de orçamento grátis, com o telefone no topo.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-15T15:50:00Z",
+      "checkedAt": "2026-11-16T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "angi.com",
-          "title": "Top 10 Best House cleaners in Columbus, NC"
+          "domain": "care.com",
+          "title": "columbus nc - Care.com"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "House Cleaning Services in Columbus, NC - Cleaners Starting at $22.33/hr"
+          "title": "Care.com housekeepers Columbus NC"
         },
         {
           "pos": 3,
-          "domain": "yelp.com",
-          "title": "TOP 10 BEST House Cleaning near Columbus, NC - Yelp"
+          "domain": "care.com",
+          "title": "Care.com housekeeping Columbus NC"
         },
         {
           "pos": 4,
-          "domain": "housekeeper.com",
-          "title": "Find Cleaners, Housekeepers & Housekeeping Services in Columbus, North Carolina"
+          "domain": "angi.com",
+          "title": "house cleaning - Angi Columbus NC"
         },
         {
           "pos": 5,
-          "domain": "wfskills.com",
-          "title": "House Cleaning in Columbus, North Carolina"
-        },
-        {
-          "pos": 6,
-          "domain": "ariscleaningservices.com",
-          "title": "Affordable Cleaning Service in Columbus, NC"
-        },
-        {
-          "pos": 7,
-          "domain": "glowwaveservices.com",
-          "title": "House Cleaning in Columbus, NC"
-        },
-        {
-          "pos": 8,
-          "domain": "heymaid.com",
-          "title": "House Cleaning Services"
-        },
-        {
-          "pos": 9,
-          "domain": "homeglowcleaningservices.com",
-          "title": "House Cleaning in Columbus, NC"
+          "domain": "merrymaids.com",
+          "title": "Merry Maids Columbus cleaning services"
         }
       ],
       "competitors": [
         {
-          "pos": 6,
-          "domain": "ariscleaningservices.com",
-          "name": "Aris Cleaning Services"
-        },
-        {
-          "pos": 7,
-          "domain": "glowwaveservices.com",
-          "name": "GlowWave"
-        },
-        {
-          "pos": 8,
-          "domain": "heymaid.com",
-          "name": "HeyMaid"
-        },
-        {
           "pos": 9,
-          "domain": "homeglowcleaningservices.com",
-          "name": "Home Glow Cleaning Services"
+          "domain": "merrymaids.com",
+          "name": "Merry Maids"
         }
       ],
-      "tip": "Os 4 primeiros resultados são diretórios (Angi, Care.com, Yelp); entre as empresas, a Home Glow mostra preço fixo por visita. Colocar na página de Columbus uma faixa de preço inicial, o que está incluso em cada serviço e as perguntas frequentes.",
+      "tip": "A franquia Merry Maids aparece no resultado; destacar na página de Columbus os serviços (limpeza pós-obra, mudança) e o orçamento grátis sem compromisso para diferenciar de franquias.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-15T15:50:00Z",
+      "checkedAt": "2026-11-16T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "mollymaid.com",
-          "title": "House Cleaning Services in Easley, South Carolina"
+          "domain": "care.com",
+          "title": "Care.com house cleaning Easley SC"
         },
         {
           "pos": 2,
-          "domain": "yelp.com",
-          "title": "THE BEST 10 HOME CLEANING in EASLEY, SC - Yelp"
+          "domain": "care.com",
+          "title": "Care.com cost house cleaning Easley"
         },
         {
           "pos": 3,
-          "domain": "housekeeper.com",
-          "title": "Find Cleaners, Housekeepers & Housekeeping Services in Easley, South Carolina"
+          "domain": "homeadvisor.com",
+          "title": "house cleaning Easley SC - HomeAdvisor"
         },
         {
           "pos": 4,
-          "domain": "puregracecleaningco.com",
-          "title": "House Cleaning in Easley, SC"
+          "domain": "thumbtack.com",
+          "title": "10 house cleaners in your area - Thumbtack"
         },
         {
           "pos": 5,
-          "domain": "cleaningservicesc.com",
-          "title": "Reliable House Cleaning Services for a Spotless Home"
-        },
-        {
-          "pos": 6,
-          "domain": "mymopps.com",
-          "title": "Professional House Cleaning Services in Easley, SC - MyMopps"
-        },
-        {
-          "pos": 7,
-          "domain": "mymopps.com",
-          "title": "Affordable One-Time House Cleaning in Greenville and Easley, SC - MyMopps"
-        },
-        {
-          "pos": 8,
-          "domain": "mymopps.com",
-          "title": "Cleaning Services Easley SC - MyMopps"
-        },
-        {
-          "pos": 9,
-          "domain": "upstatecleaners.com",
-          "title": "Professional Home Cleaning Services in Easley, SC"
-        },
-        {
-          "pos": 10,
-          "domain": "spotlessmagicworld.com",
-          "title": "Cleaning Services in Easley, SC"
+          "domain": "angi.com",
+          "title": "house cleaning - Angi Easley SC"
         }
       ],
-      "competitors": [
-        {
-          "pos": 1,
-          "domain": "mollymaid.com",
-          "name": "Molly Maid of Greenville"
-        },
-        {
-          "pos": 4,
-          "domain": "puregracecleaningco.com",
-          "name": "Pure Grace Cleaning Co."
-        },
-        {
-          "pos": 5,
-          "domain": "cleaningservicesc.com",
-          "name": "Cleaning Service SC"
-        },
-        {
-          "pos": 6,
-          "domain": "mymopps.com",
-          "name": "MOPPS Cleaning Company"
-        },
-        {
-          "pos": 9,
-          "domain": "upstatecleaners.com",
-          "name": "Upstate Cleaners"
-        }
-      ],
-      "tip": "Diferente de antes, o topo tem empresas com página própria de Easley (Molly Maid, MOPPS, Pure Grace). Para competir: página de Easley com serviços listados, faixa de preço, nota do Google e FAQ; citar Airbnb e mudança como a Pure Grace.",
+      "competitors": [],
+      "tip": "Os diretórios mostram faixa de preço (Care.com, HomeYou); a página de Easley deve ter uma seção de fatores de preço e FAQ, e apontar para as avaliações do Google.",
       "error": null
     },
     "gray-court-sc": {
       "city": "Gray Court, SC",
       "query": "house cleaning Gray Court SC",
-      "checkedAt": "2026-11-15T15:50:00Z",
+      "checkedAt": "2026-11-16T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "local.yahoo.com",
-          "title": "Memes House Cleaning and More in Gray Court, SC"
+          "domain": "care.com",
+          "title": "gray court sc - Care.com"
         },
         {
           "pos": 2,
-          "domain": "care.com",
-          "title": "House Cleaning Services in Gray Court, SC - Cleaners Starting at $15.75/hr"
+          "domain": "angi.com",
+          "title": "house cleaning - Angi Gray Court SC"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "Divine Cleaning Services LLC Reviews - Gray Court, SC"
+          "domain": "bbb.org",
+          "title": "BBB: results for House Cleaning Gray Court"
         },
         {
           "pos": 4,
-          "domain": "mollymaid.com",
-          "title": "House Cleaning Services in Gray Court, SC"
-        },
-        {
-          "pos": 5,
-          "domain": "yelp.com",
-          "title": "THE BEST 10 Home Cleaning near GRAY COURT, SC 29645 - Yelp"
-        },
-        {
-          "pos": 6,
-          "domain": "housekeeper.com",
-          "title": "Find Individuals in Gray Court, South Carolina"
-        },
-        {
-          "pos": 7,
-          "domain": "yelp.com",
-          "title": "TOP 10 BEST Home Cleaning near Gray Court, SC - Yelp"
-        },
-        {
-          "pos": 8,
-          "domain": "mapquest.com",
-          "title": "Curtis Cleaners, Gray Court, SC 29645, US - MapQuest"
-        },
-        {
-          "pos": 9,
-          "domain": "yellowpages.com",
-          "title": "Best 30 Cleaning Contractors in Gray Court, SC with Reviews"
-        },
-        {
-          "pos": 10,
-          "domain": "manta.com",
-          "title": "Cleaning Services"
+          "domain": "care.com",
+          "title": "Care.com cleaning lady Gray Court SC"
         }
       ],
-      "competitors": [
-        {
-          "pos": 4,
-          "domain": "mollymaid.com",
-          "name": "Molly Maid (Greenville)"
-        },
-        {
-          "pos": 8,
-          "domain": "mapquest.com",
-          "name": "Curtis Cleaners / Swamp Rabbit Cleaning"
-        }
-      ],
-      "tip": "Topo dominado por diretórios; só a Molly Maid tem página própria de Gray Court. Criar na página de Gray Court um bloco com preço inicial, nota do Google e a distância até Greer, e pedir avaliações de clientes dessa região.",
+      "competitors": [],
+      "tip": "Cidade vizinha de Greer sem concorrente local forte na busca; reforçar na página de Gray Court a proximidade com Greer e ligar a 2 artigos do blog sobre a cidade.",
       "error": null
     },
     "pelzer-sc": {
       "city": "Pelzer, SC",
       "query": "house cleaning Pelzer SC",
-      "checkedAt": "2026-11-15T15:50:00Z",
+      "checkedAt": "2026-11-16T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "angi.com",
-          "title": "Top 10 Best House cleaners in Pelzer, SC"
+          "domain": "care.com",
+          "title": "Care.com house cleaning Pelzer SC"
         },
         {
           "pos": 2,
-          "domain": "local.yahoo.com",
-          "title": "KO Professional Cleaners in Pelzer, SC"
+          "domain": "match.angi.com",
+          "title": "Compare Quotes from House Cleaning Services - Angi"
         },
         {
           "pos": 3,
-          "domain": "nextdoor.com",
-          "title": "Conscious Cleaning - Pelzer, SC - Nextdoor"
+          "domain": "angi.com",
+          "title": "house cleaning - Angi Pelzer SC"
         },
         {
           "pos": 4,
-          "domain": "yellowpages.com",
-          "title": "Best 30 House Cleaning in Pelzer, SC with Reviews"
-        },
-        {
-          "pos": 5,
-          "domain": "yelp.com",
-          "title": "THE BEST 10 HOME CLEANING near PELZER, SC 29669 - Yelp"
-        },
-        {
-          "pos": 6,
-          "domain": "thecleanestroom.com",
-          "title": "2 Best House Cleaning & Maid Services in Pelzer, SC (2026)"
-        },
-        {
-          "pos": 7,
-          "domain": "greencleanville.com",
-          "title": "Recurring House Cleaning in Pelzer, SC"
-        },
-        {
-          "pos": 8,
-          "domain": "greencleanville.com",
-          "title": "Deep Cleaning in Pelzer, SC"
-        },
-        {
-          "pos": 9,
-          "domain": "azaleacleaningco.com",
-          "title": "House Cleaning Simpsonville, House Cleaner Azalea Cleaning Co"
-        },
-        {
-          "pos": 10,
-          "domain": "greencleanville.com",
-          "title": "Green Cleanville"
+          "domain": "homeadvisor.com",
+          "title": "house cleaning Pelzer SC - HomeAdvisor"
         }
       ],
-      "competitors": [
-        {
-          "pos": 7,
-          "domain": "greencleanville.com",
-          "name": "Green Cleanville"
-        },
-        {
-          "pos": 9,
-          "domain": "azaleacleaningco.com",
-          "name": "Azalea Cleaning Co"
-        },
-        {
-          "pos": 3,
-          "domain": "nextdoor.com",
-          "name": "Conscious Cleaning"
-        }
-      ],
-      "tip": "A Green Cleanville tem uma página por serviço em Pelzer (recorrente, profunda, mudança). Destacar na página de Pelzer limpeza ecológica, mostrar estimativa grátis e criar links para os serviços principais.",
+      "competitors": [],
+      "tip": "Só diretórios na busca; a página de Pelzer pode competir com FAQ de preços, lista de serviços e links para os artigos locais.",
       "error": null
     },
     "cowpens-sc": {
