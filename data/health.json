@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T03:50:00Z",
+  "checkedAt": "2026-11-16T06:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -72,13 +72,16 @@
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulário envia para /api/lead no build da Cloudflare"
+      "detail": "Formulários enviam para /api/lead no Cloudflare"
     }
   ],
-  "fixes": [
-    "Descrição de 2 artigos ajustada (Spartanburg e Pelzer)"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-16T06:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
+    },
     {
       "at": "2026-11-16T03:50:00Z",
       "overall": "ok",
