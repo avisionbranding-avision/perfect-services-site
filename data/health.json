@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-15T21:45:00Z",
+  "checkedAt": "2026-11-16T00:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -36,7 +36,7 @@
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "3 posts do Google de hoje (2026-11-15) presentes e sem telefone, link ou e-mail"
+      "detail": "Posts do Google de 15/11 presentes; o de hoje sai às 10h UTC"
     },
     {
       "id": "greer_queue",
@@ -75,10 +75,13 @@
       "detail": "Formulário envia para /api/lead no build da Cloudflare"
     }
   ],
-  "fixes": [
-    "2 títulos de artigos (Greer e Saluda) encurtados para menos de 65 caracteres (entram no ar às 7h)"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-16T00:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-15T21:45:00Z",
       "overall": "ok",
