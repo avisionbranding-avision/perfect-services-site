@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-17T06:50:00Z",
+  "checkedAt": "2026-11-17T09:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -60,23 +60,28 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "785 endereços no sitemap, igual ao esperado"
+      "detail": "785 endereços no mapa do site, igual ao esperado"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Google Tag Manager presente na home e no artigo mais recente"
+      "detail": "Google Tag Manager presente na home e no artigo mais novo"
     },
     {
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulários enviam para /api/lead no Cloudflare"
+      "detail": "Formulário envia para /api/lead e a função existe"
     }
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-17T09:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
+    },
     {
       "at": "2026-11-17T06:50:00Z",
       "overall": "ok",
@@ -371,11 +376,6 @@
       "at": "2026-11-09T12:50:00Z",
       "overall": "warning",
       "summary": "20 de 32 artigos publicados hoje; resto ok"
-    },
-    {
-      "at": "2026-11-09T09:50:00Z",
-      "overall": "warning",
-      "summary": "Site no ar não verificável da nuvem; resto ok"
     }
   ]
 }
