@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T00:55:00Z",
-  "now": "Revisei os títulos e descrições de 254 artigos e as buscas de 6 cidades (Campobello, Travelers Rest, Moore, Simpsonville, Berea, Parker); 3 títulos longos encurtados.",
+  "updatedAt": "2026-11-17T03:45:00Z",
+  "now": "Revisei 244 artigos (títulos, descrições, links internos, tamanho) sem achar problemas, e as buscas de 6 cidades (Liberty, Boiling Springs, Gantt, Landrum, Marietta, Roebuck); 1 nova melhoria local.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -631,6 +631,20 @@
       "foundAt": "2026-11-17",
       "doneAt": "2026-11-17",
       "result": "3 títulos encurtados (Inman, Pickens e Greer pós-obra); build e links ok."
+    },
+    {
+      "id": "seo-vazio-gantt-landrum-marietta",
+      "title": "Gantt, Landrum, Marietta e Roebuck: só diretórios no topo; mostrar nota do Google, preço inicial e FAQ",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/landrum-sc/",
+      "why": "Na busca de hoje só Care.com, Angi e HomeAdvisor aparecem para essas cidades, com nota e preço visíveis; nenhuma empresa local de limpeza aparece.",
+      "action": "Nas páginas dessas cidades, bloco com nota do Google, preço inicial, FAQ e a distância até Greer.",
+      "foundAt": "2026-11-17",
+      "doneAt": null,
+      "result": null
     }
   ]
 }
