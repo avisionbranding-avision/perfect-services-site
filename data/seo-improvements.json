@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-16T21:50:00Z",
-  "now": "Revisei as dicas de 6 cidades (Pickens, Wade Hampton, Wellford, Inman, Greenville, Mauldin): topo dominado por diretórios e franquias (MaidPro em Inman e Greenville); nenhuma melhoria automática aberta.",
+  "updatedAt": "2026-11-17T00:55:00Z",
+  "now": "Revisei os títulos e descrições de 254 artigos e as buscas de 6 cidades (Campobello, Travelers Rest, Moore, Simpsonville, Berea, Parker); 3 títulos longos encurtados.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -617,6 +617,20 @@
       "foundAt": "2026-11-16",
       "doneAt": null,
       "result": null
+    },
+    {
+      "id": "seo-titulos-inman-pickens-greer-2026-11-17",
+      "title": "Encurtar 3 títulos de artigos acima de 65 caracteres (Inman, Pickens, Greer)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos acima de 65 caracteres são cortados nos resultados do Google.",
+      "action": "Títulos reduzidos para até 60 caracteres.",
+      "foundAt": "2026-11-17",
+      "doneAt": "2026-11-17",
+      "result": "3 títulos encurtados (Inman, Pickens e Greer pós-obra); build e links ok."
     }
   ]
 }
