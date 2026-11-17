@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-17T09:45:00Z",
-  "now": "Rodei todas as verificações (tudo ok) e busquei 6 cidades (Woodruff, Pauline, Saluda, Columbus, Easley, Gray Court): só diretórios e franquias no topo, nenhuma melhoria automática nova.",
+  "updatedAt": "2026-11-17T12:55:00Z",
+  "now": "Revisei títulos e descrições de 276 artigos e as buscas de 6 cidades; 3 melhorias aplicadas (2 títulos, 1 descrição).",
   "items": [
     {
       "id": "seo-diretorios",
@@ -659,6 +659,20 @@
       "foundAt": "2026-11-17",
       "doneAt": null,
       "result": null
+    },
+    {
+      "id": "seo-titulos-roebuck-berea-campobello-2026-11-17",
+      "title": "Encurtar 2 títulos e 1 descrição de artigos (Roebuck, Berea, Campobello)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos acima de 65 caracteres e descrição acima de 160 são cortados no Google.",
+      "action": "Ajustar título/descrição mantendo cidade e serviço.",
+      "foundAt": "2026-11-17",
+      "doneAt": "2026-11-17",
+      "result": "Títulos com 61 e 62 caracteres, descrição com 141; no ar na rodada das 7h."
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-17T09:45:00Z",
+  "checkedAt": "2026-11-17T12:55:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "785 páginas geradas"
+      "detail": "817 páginas geradas"
     },
     {
       "id": "links",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de 16/11 publicada às 10:05 UTC (próxima às 10:00 UTC)"
+      "detail": "Rodada de 17/11 publicada às 10:06 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "Rodada de hoje ainda não aconteceu; ontem 32 artigos (meta 32)"
+      "detail": "32 artigos de hoje (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts do Google de 16/11 presentes (3); os de hoje saem na rodada das 10:00 UTC"
+      "detail": "Posts do Google de hoje presentes (3)"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "15 dias de temas de Greer restantes"
+      "detail": "14 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,23 +60,30 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "785 endereços no mapa do site, igual ao esperado"
+      "detail": "817 URLs, igual ao esperado"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Google Tag Manager presente na home e no artigo mais novo"
+      "detail": "Google Tag Manager presente na home e nos artigos"
     },
     {
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulário envia para /api/lead e a função existe"
+      "detail": "Formulários enviam para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "3 artigos ajustados (2 títulos e 1 descrição mais curtos); entram no ar às 7h"
+  ],
   "history": [
+    {
+      "at": "2026-11-17T12:55:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 3 melhorias de SEO aplicadas"
+    },
     {
       "at": "2026-11-17T09:45:00Z",
       "overall": "ok",
@@ -369,11 +376,6 @@
     },
     {
       "at": "2026-11-09T15:45:00Z",
-      "overall": "warning",
-      "summary": "20 de 32 artigos publicados hoje; resto ok"
-    },
-    {
-      "at": "2026-11-09T12:50:00Z",
       "overall": "warning",
       "summary": "20 de 32 artigos publicados hoje; resto ok"
     }
