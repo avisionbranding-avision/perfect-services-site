@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T18:50:00Z",
+  "updatedAt": "2026-11-18T21:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1172,14 +1172,14 @@
     "parker-sc": {
       "city": "Parker, SC",
       "query": "house cleaning Parker SC",
-      "checkedAt": "2026-11-18T00:45:00Z",
+      "checkedAt": "2026-11-18T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "homeadvisor.com",
-          "title": "Parkerscleaning (HomeAdvisor)"
+          "title": "Parkerscleaning"
         },
         {
           "pos": 2,
@@ -1188,53 +1188,44 @@
         },
         {
           "pos": 3,
-          "domain": "thumbtack.com",
-          "title": "Cleaning services (Jasper GA)"
-        },
-        {
-          "pos": 4,
           "domain": "enviro-master.com",
           "title": "Commercial cleaning Parker"
         },
         {
-          "pos": 5,
-          "domain": "thumbtack.com",
-          "title": "Parker House Residential and Commercial Cleaning (GA)"
-        },
-        {
-          "pos": 6,
+          "pos": 4,
           "domain": "servpro.com",
           "title": "Parker Cleanup and Restoration"
         },
         {
-          "pos": 7,
+          "pos": 5,
           "domain": "angi.com",
-          "title": "House cleaning (Parker, SD)"
-        },
-        {
-          "pos": 8,
-          "domain": "thumbtack.com",
-          "title": "Parker Cleaning Solutions (Greensboro NC)"
-        },
-        {
-          "pos": 9,
-          "domain": "angi.com",
-          "title": "Compare quotes house cleaning"
-        },
-        {
-          "pos": 10,
-          "domain": "thumbtack.com",
-          "title": "SC Cleaning Services (Summerville)"
+          "title": "house cleaning (Parker, SD)"
         }
       ],
-      "competitors": [],
-      "tip": "Nenhuma empresa de limpeza residencial de Parker aparece; o topo é lixo/serviço de emergência e diretórios. Reforçar a página de Parker com serviços, área atendida e pedido de orçamento para ocupar o espaço vazio.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "aaarousse.com",
+          "name": "AAA Rousse"
+        },
+        {
+          "pos": 2,
+          "domain": "enviro-master.com",
+          "name": "Enviro-Master"
+        },
+        {
+          "pos": 3,
+          "domain": "servpro.com",
+          "name": "SERVPRO"
+        }
+      ],
+      "tip": "Quase não há empresa de limpeza residencial de Parker no topo; é uma oportunidade: reforçar a página de Parker com 'Parker, SC' no título e links para Greenville/Taylors.",
       "error": null
     },
     "gantt-sc": {
       "city": "Gantt, SC",
       "query": "house cleaning Gantt SC",
-      "checkedAt": "2026-11-18T00:45:00Z",
+      "checkedAt": "2026-11-18T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1250,132 +1241,93 @@
         },
         {
           "pos": 3,
-          "domain": "goloadup.com",
-          "title": "Gantt Garage Cleanout"
-        },
-        {
-          "pos": 4,
           "domain": "aaarousse.com",
           "title": "Property cleanouts Gantt SC"
         },
         {
+          "pos": 4,
+          "domain": "thumbtack.com",
+          "title": "SC cleaning services"
+        },
+        {
           "pos": 5,
-          "domain": "thumbtack.com",
-          "title": "SC Cleaning Services (Summerville)"
-        },
-        {
-          "pos": 6,
-          "domain": "thumbtack.com",
-          "title": "SC Cleaning Services (Summerville)"
-        },
-        {
-          "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Gantt (AL)"
-        },
-        {
-          "pos": 8,
-          "domain": "thumbtack.com",
-          "title": "Canton Cleaning Company (Mount Pleasant)"
-        },
-        {
-          "pos": 9,
-          "domain": "merrymaids.com",
-          "title": "Home cleaners Port Royal SC"
-        },
-        {
-          "pos": 10,
-          "domain": "maids.com",
-          "title": "House Cleaning Services in South Carolina"
+          "title": "house cleaning Gantt AL"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios e serviços de entulho no topo; sem empresa local de limpeza em destaque. Página de Gantt com FAQ, cidades vizinhas (Greer, Taylors, Greenville) e orçamento grátis pode chegar ao topo.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "aaarousse.com",
+          "name": "AAA Rousse"
+        }
+      ],
+      "tip": "Pouca concorrência real em Gantt; a página de Gantt pode ranquear com mapa de cobertura, serviços e FAQ local, e links de artigos próximos.",
       "error": null
     },
     "roebuck-sc": {
       "city": "Roebuck, SC",
       "query": "house cleaning Roebuck SC",
-      "checkedAt": "2026-11-18T00:45:00Z",
+      "checkedAt": "2026-11-18T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Roebuck SC"
+          "title": "house cleaning Roebuck SC"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Roebuck SC"
+          "title": "house cleaning Roebuck"
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
+          "domain": "angi.com",
           "title": "Compare Quotes House Cleaning"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "House cleaning Roebuck"
+          "title": "house cleaning"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "Powerwashing Roebuck SC"
+          "title": "powerwashing Roebuck"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Cleaning lady Roebuck SC"
-        },
-        {
-          "pos": 7,
-          "domain": "match.angi.com",
-          "title": "Gutter cleaning Roebuck"
-        },
-        {
-          "pos": 8,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning Roebuck"
-        },
-        {
-          "pos": 9,
-          "domain": "homeadvisor.com",
-          "title": "Window Cleaning Roebuck"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Move-out cleaning Roebuck SC"
+          "title": "cleaning lady Roebuck"
         }
       ],
       "competitors": [],
-      "tip": "Topo 100% diretórios (Care.com, HomeAdvisor, Angi). Uma página de Roebuck com preço inicial, FAQ e avaliações do Google se diferencia dos diretórios.",
+      "tip": "Só diretórios aparecem; destacar na página de Roebuck avaliações do Google e preço inicial para se diferenciar de Care.com e Angi.",
       "error": null
     },
     "boiling-springs-sc": {
       "city": "Boiling Springs, SC",
       "query": "house cleaning Boiling Springs SC",
-      "checkedAt": "2026-11-18T00:45:00Z",
+      "checkedAt": "2026-11-18T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Boiling Springs SC"
+          "title": "house cleaning Boiling Springs SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Cost of house cleaning Boiling Springs"
+          "title": "cost house cleaning Boiling Springs"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeeping Boiling Springs SC page 2"
+          "title": "housekeeping Boiling Springs"
         },
         {
           "pos": 4,
@@ -1384,105 +1336,71 @@
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeeping services Boiling Springs SC"
-        },
-        {
-          "pos": 6,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service Boiling Springs"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Housekeeping Boiling Springs SC"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Housekeepers Boiling Springs SC"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Housekeeping Boiling Springs SC page 3"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Cleaning lady Boiling Springs SC"
+          "title": "Cleaning one time service"
         }
       ],
       "competitors": [
         {
-          "pos": 4,
+          "pos": 1,
           "domain": "thumbtack.com",
           "name": "Carolina Cleaning & Staging Service"
         }
       ],
-      "tip": "Care.com domina com preço médio por hora; mostrar na página de Boiling Springs o preço inicial por visita e a diferença da equipe profissional. Há poucos concorrentes locais próprios.",
+      "tip": "Care.com mostra preço médio por hora na página; incluir faixa de preço e FAQ de custo na página de Boiling Springs.",
       "error": null
     },
     "marietta-sc": {
       "city": "Marietta, SC",
       "query": "house cleaning Marietta SC",
-      "checkedAt": "2026-11-18T00:45:00Z",
+      "checkedAt": "2026-11-18T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Marietta SC"
+          "title": "house cleaning Marietta SC"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Marietta SC"
+          "title": "house cleaning Marietta"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "House cleaning Marietta"
+          "title": "house cleaning"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeeping Marietta SC page 2"
+          "title": "housekeeping Marietta"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeeping Marietta SC"
+          "domain": "thecleaningauthority.com",
+          "title": "house cleaning (Marietta)"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "Cleaning lady Marietta SC"
-        },
-        {
-          "pos": 7,
-          "domain": "homeadvisor.com",
-          "title": "Walls Ceilings Clean Marietta"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Move-out cleaning Marietta SC"
-        },
-        {
-          "pos": 9,
-          "domain": "homeadvisor.com",
-          "title": "Range Hood Clean Marietta"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Cleaning lady Marietta page 2"
+          "domain": "merrymaids.com",
+          "title": "Marietta Cleaning Services"
         }
       ],
-      "competitors": [],
-      "tip": "Topo só de diretórios; as marcas (Merry Maids, Cleaning Authority) aparecem mais abaixo e podem ser de Marietta GA. Página de Marietta citando Greenville County e Travelers Rest ajuda a aparecer.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "thecleaningauthority.com",
+          "name": "The Cleaning Authority"
+        },
+        {
+          "pos": 2,
+          "domain": "merrymaids.com",
+          "name": "Merry Maids"
+        }
+      ],
+      "tip": "Resultados misturam Marietta de outros estados e diretórios; deixar claro 'Marietta, SC' no título e na descrição da página.",
       "error": null
     },
     "landrum-sc": {
@@ -2710,7 +2628,7 @@
     "pickens-sc": {
       "city": "Pickens, SC",
       "query": "house cleaning Pickens SC",
-      "checkedAt": "2026-11-17T21:50:00Z",
+      "checkedAt": "2026-11-18T21:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2731,58 +2649,43 @@
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Care.com cost: house cleaning Pickens SC"
+          "domain": "homeadvisor.com",
+          "title": "house cleaning Pickens"
         },
         {
           "pos": 5,
-          "domain": "homeadvisor.com",
-          "title": "house cleaning Pickens SC"
-        },
-        {
-          "pos": 6,
           "domain": "thumbtack.com",
           "title": "Southern Cleaning Services Upstate LLC"
         },
         {
-          "pos": 7,
+          "pos": 6,
           "domain": "servpro.com",
           "title": "SERVPRO of Pickens County"
         },
         {
-          "pos": 8,
+          "pos": 7,
           "domain": "thumbtack.com",
-          "title": "Breathe Easy Cleaning Co."
-        },
-        {
-          "pos": 9,
-          "domain": "instaservice.com",
-          "title": "Reliable Full House Cleaning in Pickens, South Carolina"
-        },
-        {
-          "pos": 10,
-          "domain": "bbb.org",
-          "title": "House Cleaning in Pickens"
+          "title": "Breathe Easy Cleaning Co"
         }
       ],
       "competitors": [
         {
-          "pos": 6,
+          "pos": 1,
           "domain": "thumbtack.com",
-          "name": "Southern Cleaning Services Upstate LLC (via Thumbtack)"
+          "name": "Southern Cleaning Services Upstate LLC"
         },
         {
-          "pos": 7,
+          "pos": 2,
+          "domain": "thumbtack.com",
+          "name": "Breathe Easy Cleaning Co"
+        },
+        {
+          "pos": 3,
           "domain": "servpro.com",
           "name": "SERVPRO of Pickens County"
-        },
-        {
-          "pos": 9,
-          "domain": "instaservice.com",
-          "name": "InstaService"
         }
       ],
-      "tip": "Só diretórios e poucas empresas locais aparecem; a página de Pickens pode competir mostrando preço inicial, avaliações do Google e perguntas frequentes sobre a cidade.",
+      "tip": "A busca é dominada por diretórios (Care.com, Angi, Thumbtack) com preço por hora visível; criar na página de Pickens um bloco de preço/faixa e avaliações reais para competir com eles.",
       "error": null
     },
     "liberty-sc": {

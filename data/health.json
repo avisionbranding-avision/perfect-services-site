@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T18:50:00Z",
+  "checkedAt": "2026-11-18T21:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-18T21:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-18T18:50:00Z",
       "overall": "ok",
@@ -371,11 +376,6 @@
       "at": "2026-11-11T06:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 1 melhoria SEO aplicada"
-    },
-    {
-      "at": "2026-11-11T00:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
     }
   ]
 }
