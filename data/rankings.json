@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T15:50:00Z",
+  "updatedAt": "2026-11-18T18:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -828,7 +828,7 @@
     "travelers-rest-sc": {
       "city": "Travelers Rest, SC",
       "query": "house cleaning Travelers Rest SC",
-      "checkedAt": "2026-11-17T21:50:00Z",
+      "checkedAt": "2026-11-18T18:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -850,7 +850,7 @@
         {
           "pos": 4,
           "domain": "bbb.org",
-          "title": "House Cleaning in Travelers Rest"
+          "title": "House Cleaning"
         },
         {
           "pos": 5,
@@ -865,7 +865,7 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeeping"
+          "title": "Housekeeping Travelers Rest"
         },
         {
           "pos": 8,
@@ -875,22 +875,33 @@
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Cleaning lady Travelers Rest"
+          "title": "Cleaning ladies Travelers Rest"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Cleaning lady Travelers Rest page 2"
+          "title": "Cleaning ladies Travelers Rest"
         }
       ],
-      "competitors": [],
-      "tip": "Nenhuma empresa de limpeza com site próprio aparece no topo; uma página de Travelers Rest bem completa (serviços, bairros, perguntas frequentes) tem chance real de entrar entre os primeiros.",
+      "competitors": [
+        {
+          "pos": null,
+          "domain": "care.com",
+          "name": "Patty's Housekeeping"
+        },
+        {
+          "pos": null,
+          "domain": "care.com",
+          "name": "Cantrell Painting and Cleaning Services, LLC"
+        }
+      ],
+      "tip": "Os resultados são diretórios (Care.com, HomeAdvisor) e perfis pequenos; reforçar a página de Travelers Rest com serviços, bairros atendidos e avaliações reais.",
       "error": null
     },
     "campobello-sc": {
       "city": "Campobello, SC",
       "query": "house cleaning Campobello SC",
-      "checkedAt": "2026-11-17T21:50:00Z",
+      "checkedAt": "2026-11-18T18:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -907,7 +918,7 @@
         {
           "pos": 3,
           "domain": "instaservice.com",
-          "title": "Your Premier 3-Bedroom Cleaning Solution in Campobello"
+          "title": "3-Bedroom Cleaning in Campobello"
         },
         {
           "pos": 4,
@@ -927,7 +938,7 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Cleaning lady Campobello"
+          "title": "Cleaning ladies Campobello"
         },
         {
           "pos": 8,
@@ -952,13 +963,13 @@
           "name": "InstaService"
         }
       ],
-      "tip": "Poucos concorrentes reais; reforçar na página de Campobello a limpeza de mudança (move-out) e a proximidade com Greer e Landrum.",
+      "tip": "Quase só diretórios; a InstaService tem página por tipo de imóvel (3 quartos). Criar na página de Campobello blocos por tamanho de casa e FAQ.",
       "error": null
     },
     "moore-sc": {
       "city": "Moore, SC",
       "query": "house cleaning Moore SC",
-      "checkedAt": "2026-11-17T21:50:00Z",
+      "checkedAt": "2026-11-18T18:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -995,17 +1006,17 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Housekeeping Moore page 3"
+          "title": "Housekeeping Moore"
         },
         {
           "pos": 8,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning"
+          "domain": "care.com",
+          "title": "Housekeeping Moore"
         },
         {
           "pos": 9,
-          "domain": "care.com",
-          "title": "Housekeeping Moore page 2"
+          "domain": "homeadvisor.com",
+          "title": "House Cleaning"
         },
         {
           "pos": 10,
@@ -1013,14 +1024,20 @@
           "title": "Housekeepers Moore"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios no topo; mencionar Moore em artigos locais e ligar a página da cidade a Greer e Spartanburg ajuda a ganhar relevância.",
+      "competitors": [
+        {
+          "pos": null,
+          "domain": "homeadvisor.com",
+          "name": "Voda Cleaning & Restoration of Simpsonville & Greer"
+        }
+      ],
+      "tip": "Resultados dominados por diretórios; poucos negócios locais. Destacar na página de Moore o atendimento a partir de Greer e Spartanburg e pedir avaliações de clientes da região.",
       "error": null
     },
     "simpsonville-sc": {
       "city": "Simpsonville, SC",
       "query": "house cleaning Simpsonville SC",
-      "checkedAt": "2026-11-17T21:50:00Z",
+      "checkedAt": "2026-11-18T18:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1087,40 +1104,40 @@
           "name": "GoMac New Beginnings Co"
         }
       ],
-      "tip": "A franquia MaidPro lidera; destacar na página de Simpsonville o atendimento local, preço inicial e avaliações do Google para se diferenciar.",
+      "tip": "A franquia MaidPro lidera; mostrar na página de Simpsonville o diferencial de empresa familiar brasileira, avaliações do Google e orçamento grátis.",
       "error": null
     },
     "berea-sc": {
       "city": "Berea, SC",
       "query": "house cleaning Berea SC",
-      "checkedAt": "2026-11-17T21:50:00Z",
+      "checkedAt": "2026-11-18T18:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "aaarousse.com",
-          "title": "Hoarding cleanup by AAA Rousse"
+          "title": "Hoarding cleanup Berea SC"
         },
         {
           "pos": 2,
           "domain": "nannylane.com",
-          "title": "Housekeeper nannies in Berea, SC"
+          "title": "Housekeeper nanny Berea SC"
         },
         {
           "pos": 3,
+          "domain": "nannylane.com",
+          "title": "Housekeeper nanny Berea SC"
+        },
+        {
+          "pos": 4,
           "domain": "homeadvisor.com",
           "title": "Cleaning one time service (Berea, KY)"
         },
         {
-          "pos": 4,
-          "domain": "thumbtack.com",
-          "title": "SC Preferred Cleaners"
-        },
-        {
           "pos": 5,
-          "domain": "maids.com",
-          "title": "House Cleaning Services in South Carolina"
+          "domain": "thumbtack.com",
+          "title": "SC Preferred Cleaners (Charleston)"
         },
         {
           "pos": 6,
@@ -1129,33 +1146,27 @@
         },
         {
           "pos": 7,
-          "domain": "thumbtack.com",
-          "title": "Columbia Home Cleaners"
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 8,
           "domain": "thumbtack.com",
-          "title": "Care2Clean South Carolina"
+          "title": "Columbia Home Cleaners"
         },
         {
           "pos": 9,
-          "domain": "merrymaids.com",
-          "title": "home cleaners irmo sc"
+          "domain": "thumbtack.com",
+          "title": "Care2Clean South Carolina (Greenville)"
         },
         {
           "pos": 10,
-          "domain": "bbb.org",
-          "title": "House Cleaning in SC"
+          "domain": "merrymaids.com",
+          "title": "Home cleaners Irmo SC"
         }
       ],
-      "competitors": [
-        {
-          "pos": 5,
-          "domain": "maids.com",
-          "name": "Maids.com (franquia estadual)"
-        }
-      ],
-      "tip": "Quase não há concorrência local para Berea; a página da cidade pode ficar entre os primeiros com conteúdo próprio (bairros, serviços e perguntas frequentes) e links de Greer e Taylors.",
+      "competitors": [],
+      "tip": "Quase não há concorrência local para Berea (resultados de outras cidades); página de Berea com serviços, cidades vizinhas e FAQ tem boa chance de aparecer.",
       "error": null
     },
     "parker-sc": {
@@ -2637,63 +2648,63 @@
     "pacolet-sc": {
       "city": "Pacolet, SC",
       "query": "house cleaning Pacolet SC",
-      "checkedAt": "2026-11-17T18:50:00Z",
+      "checkedAt": "2026-11-18T18:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com - house cleaning Pacolet"
+          "title": "House cleaners in Pacolet, SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi - house cleaning Pacolet"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com housekeepers"
+          "title": "Housekeepers Pacolet SC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping"
+          "title": "Housekeeping Pacolet SC"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com cleaning ladies"
+          "title": "Cleaning ladies Pacolet SC"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "BBB janitor Pacolet"
+          "title": "Janitor, Pacolet SC"
         },
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "Angi cleaning Pacolet"
+          "title": "Cleaning Pacolet SC"
         },
         {
           "pos": 8,
-          "domain": "goloadup.com",
-          "title": "Pacolet Hoarder Cleanout"
+          "domain": "bbb.org",
+          "title": "Wall Cleaning"
         },
         {
           "pos": 9,
           "domain": "bbb.org",
-          "title": "BBB wall cleaning"
+          "title": "Janitor Service"
         },
         {
           "pos": 10,
           "domain": "bbb.org",
-          "title": "BBB janitor service"
+          "title": "Window Shade Cleaning"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios (Care.com, Angi, BBB) aparecem para Pacolet e nenhuma empresa local; criar conteúdo específico de Pacolet e pedir avaliações com a cidade citada pode abrir espaço.",
+      "tip": "Só diretórios aparecem para Pacolet e nenhuma empresa local; a página de Pacolet pode disputar o topo com preço inicial, FAQ e a nota do Google.",
       "error": null
     },
     "pickens-sc": {
