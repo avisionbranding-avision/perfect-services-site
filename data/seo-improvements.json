@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T03:45:00Z",
-  "now": "Revisei Liberty, Spartanburg, Fountain Inn, Powdersville, Tryon e Piedmont (só diretórios e franquias no topo) e confirmei site, links, GTM e formulário; nenhuma melhoria automática pendente.",
+  "updatedAt": "2026-11-18T06:50:00Z",
+  "now": "Revisei Hendersonville, Woodruff, Pauline, Saluda, Columbus e Easley (só diretórios no topo) e confirmei site, links, GTM e formulário; 24 artigos com menos de 2 links internos anotados para a rotina diária.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -699,6 +699,20 @@
       "why": "Só diretórios no topo; em Five Forks nenhuma empresa de limpeza local aparece.",
       "action": "Bloco de preço inicial, FAQ e cidades vizinhas atendidas nessas três páginas.",
       "foundAt": "2026-11-17",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-links-internos-2026-11-18",
+      "title": "Adicionar links internos a 24 artigos que têm menos de 2",
+      "area": "links",
+      "owner": "auto",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "24 artigos de content/posts têm menos de 2 links para páginas de cidade ou serviço.",
+      "action": "Incluir 1-2 links para a cidade e o serviço do artigo.",
+      "foundAt": "2026-11-18",
       "doneAt": null,
       "result": null
     }

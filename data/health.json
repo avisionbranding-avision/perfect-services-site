@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T03:45:00Z",
+  "checkedAt": "2026-11-18T06:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,7 +24,7 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de 17/11 publicada às 10:06 UTC"
+      "detail": "Rodada de 17/11 publicada às 10:06 UTC; próxima hoje às 10:00 UTC"
     },
     {
       "id": "daily_count",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-18T06:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-18T03:45:00Z",
       "overall": "ok",
@@ -371,11 +376,6 @@
       "at": "2026-11-10T12:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 3 títulos ajustados"
-    },
-    {
-      "at": "2026-11-10T09:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
     }
   ]
 }

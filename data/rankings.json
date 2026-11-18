@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T03:45:00Z",
+  "updatedAt": "2026-11-18T06:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1618,7 +1618,7 @@
     "woodruff-sc": {
       "city": "Woodruff, SC",
       "query": "house cleaning Woodruff SC",
-      "checkedAt": "2026-11-17T09:45:00Z",
+      "checkedAt": "2026-11-18T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1630,22 +1630,22 @@
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "woodruff sc page2"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 4,
-          "domain": "match.angi.com",
-          "title": "Angi"
+          "domain": "angi.com",
+          "title": "match.angi.com"
         },
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "Angi"
+          "title": "house cleaning"
         },
         {
           "pos": 6,
@@ -1660,7 +1660,7 @@
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 9,
@@ -1670,17 +1670,22 @@
         {
           "pos": 10,
           "domain": "thumbtack.com",
-          "title": "Thumbtack"
+          "title": "Clean Sweep Cleaning Co"
         }
       ],
       "competitors": [
         {
-          "pos": 17,
+          "pos": 1,
+          "domain": "thumbtack.com",
+          "name": "Clean Sweep Cleaning Co"
+        },
+        {
+          "pos": 2,
           "domain": "oxifresh.com",
-          "name": "Oxi Fresh (limpeza de pisos)"
+          "name": "Oxi Fresh"
         }
       ],
-      "tip": "Só diretórios (Care.com, Angi, HomeAdvisor) aparecem; Care.com mostra preço por hora. A página de Woodruff pode ganhar uma faixa de preço e o link para os serviços de limpeza geral e mudança.",
+      "tip": "Quase só diretórios no topo; poucas empresas locais aparecem. Criar conteúdo específico de Woodruff (preço, FAQ, nota do Google) na página da cidade abre espaço para entrar entre as primeiras empresas.",
       "error": null
     },
     "powdersville-sc": {
@@ -1888,14 +1893,14 @@
     "pauline-sc": {
       "city": "Pauline, SC",
       "query": "house cleaning Pauline SC",
-      "checkedAt": "2026-11-17T09:45:00Z",
+      "checkedAt": "2026-11-18T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "Angi"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
@@ -1935,28 +1940,28 @@
         {
           "pos": 9,
           "domain": "angi.com",
-          "title": "Angi"
+          "title": "Cleaning"
         },
         {
           "pos": 10,
           "domain": "instaservice.com",
-          "title": "Cleaning Services Pauline: Transform Your Space"
+          "title": "Cleaning Services Pauline"
         }
       ],
       "competitors": [
         {
-          "pos": 10,
+          "pos": 1,
           "domain": "instaservice.com",
           "name": "InstaService"
         }
       ],
-      "tip": "Topo dominado por Care.com e Angi; só a InstaService é um serviço de limpeza com página própria. Uma página de Pauline com preço, avaliações do Google e perguntas frequentes tem espaço para entrar no top 10.",
+      "tip": "Topo dominado por Care.com, Angi e BBB, sem empresa local de destaque. Uma página de Pauline com texto próprio, FAQ e menção a Spartanburg e Roebuck pode competir bem.",
       "error": null
     },
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-17T09:45:00Z",
+      "checkedAt": "2026-11-18T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1973,7 +1978,7 @@
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "house cleaning Saluda NC"
         },
         {
           "pos": 4,
@@ -1988,7 +1993,7 @@
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi"
+          "title": "house cleaning"
         },
         {
           "pos": 7,
@@ -1997,41 +2002,46 @@
         },
         {
           "pos": 8,
-          "domain": "match.angi.com",
-          "title": "Angi"
+          "domain": "angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 9,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "House Cleaning"
         },
         {
           "pos": 10,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "Cleaning one time service"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
+          "pos": 1,
           "domain": "maidpro.com",
-          "name": "MaidPro (franquia, escritório em Hendersonville)"
+          "name": "MaidPro Saluda, NC"
+        },
+        {
+          "pos": 2,
+          "domain": "instaservice.com",
+          "name": "InstaService"
         }
       ],
-      "tip": "A franquia MaidPro é a única empresa de limpeza no topo, no mais, só diretórios. A página de Saluda deve deixar claro que atendemos a região a partir de Greer e destacar limpeza recorrente e única.",
+      "tip": "A MaidPro é a única empresa de marca no topo, com página própria para Saluda. Fazer a página de Saluda mostrar tipos de limpeza, orçamento grátis e o contato direto, em vez de depender de diretórios.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-17T09:45:00Z",
+      "checkedAt": "2026-11-18T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "columbus nc"
         },
         {
           "pos": 2,
@@ -2056,7 +2066,7 @@
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi"
+          "title": "house cleaning"
         },
         {
           "pos": 7,
@@ -2066,12 +2076,12 @@
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "Angi"
+          "title": "Cleaning"
         },
         {
           "pos": 9,
           "domain": "merrymaids.com",
-          "title": "Merry Maids (Open Accessibility Menu)"
+          "title": "Merry Maids Columbus"
         },
         {
           "pos": 10,
@@ -2081,18 +2091,23 @@
       ],
       "competitors": [
         {
-          "pos": 9,
+          "pos": 1,
           "domain": "merrymaids.com",
-          "name": "Merry Maids (não confirmado como Columbus, NC)"
+          "name": "Merry Maids"
+        },
+        {
+          "pos": 2,
+          "domain": "bynext.co",
+          "name": "Columbus Home Cleaning Services You Can Trust"
         }
       ],
-      "tip": "Care.com ocupa a maior parte do topo e mostra preço por hora; a franquia Merry Maids aparece, sem confirmação de que atende Columbus, NC. Destacar na página de Columbus os serviços e um pedido de orçamento rápido.",
+      "tip": "Parte dos resultados é de outras cidades chamadas Columbus. Deixar claro 'Columbus, NC' no título e no texto da página, e citar Tryon e Saluda perto, ajuda o Google a ligar a página à cidade certa.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-17T09:45:00Z",
+      "checkedAt": "2026-11-18T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2149,12 +2164,12 @@
       ],
       "competitors": [
         {
-          "pos": 9,
+          "pos": 1,
           "domain": "thumbtack.com",
-          "name": "Emerald Cleaning Services (perfil no Thumbtack)"
+          "name": "Emerald Cleaning Services"
         }
       ],
-      "tip": "Os diretórios mostram faixa de preço (Care.com, HomeYou). A página de Easley deve ter uma faixa de preço por tipo de limpeza e destacar limpeza pós-obra e única, que também aparecem nos resultados.",
+      "tip": "Topo de diretórios; só a Emerald Cleaning Services aparece como empresa local. Mostrar faixa de preço e avaliações na página de Easley, já que os resultados citam valores por hora.",
       "error": null
     },
     "gray-court-sc": {
@@ -2761,24 +2776,24 @@
     "hendersonville-nc": {
       "city": "Hendersonville, NC",
       "query": "house cleaning Hendersonville NC",
-      "checkedAt": "2026-11-17T06:50:00Z",
+      "checkedAt": "2026-11-18T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaners em Hendersonville"
+          "title": "Care.com"
         },
         {
           "pos": 2,
           "domain": "experience.com",
-          "title": "balkens (Experience.com)"
+          "title": "balkens 22591812"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Hendersonville (HomeAdvisor)"
+          "title": "House cleaning Hendersonville NC"
         },
         {
           "pos": 4,
@@ -2793,22 +2808,22 @@
         {
           "pos": 6,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning (HomeAdvisor)"
+          "title": "House Cleaning"
         },
         {
           "pos": 7,
           "domain": "thumbtack.com",
-          "title": "Cleaning Services A Greener Clean"
+          "title": "cleaning services a greener clean"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Cleaning lady Hendersonville"
+          "title": "Care.com"
         },
         {
           "pos": 9,
           "domain": "careerplug.com",
-          "title": "House Cleaning PROfessional (vaga)"
+          "title": "House Cleaning PROfessional"
         },
         {
           "pos": 10,
@@ -2818,22 +2833,22 @@
       ],
       "competitors": [
         {
-          "pos": 4,
+          "pos": 1,
           "domain": "angi.com",
           "name": "G&A Cleaning Solutions, LLC"
         },
         {
-          "pos": 5,
+          "pos": 2,
           "domain": "instaservice.com",
           "name": "InstaService"
         },
         {
-          "pos": 7,
-          "domain": "thumbtack.com",
-          "name": "Cleaning Services A Greener Clean"
+          "pos": 3,
+          "domain": "maidpro.com",
+          "name": "MaidPro Saluda, NC"
         }
       ],
-      "tip": "Concorrentes mostram nota e avaliações (Angi 5,0 com 67 avaliações); colocar preço inicial, FAQ e avaliações reais na página de Hendersonville.",
+      "tip": "O topo é só diretórios (Care.com, HomeAdvisor, Angi); a G&A Cleaning Solutions destaca 'orçamento grátis' e 'segurada'. Na página de Hendersonville, destacar orçamento grátis, seguro e atendimento nesta cidade da Carolina do Norte.",
       "error": null
     }
   }
