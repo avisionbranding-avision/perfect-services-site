@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T09:45:00Z",
+  "updatedAt": "2026-11-18T12:55:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -415,122 +415,111 @@
     "startex-sc": {
       "city": "Startex, SC",
       "query": "house cleaning Startex SC",
-      "checkedAt": "2026-11-17T15:45:00Z",
+      "checkedAt": "2026-11-18T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor house cleaning Startex"
+          "title": "House cleaning Startex"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi house cleaning Startex"
+          "title": "House cleaning Startex"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Startex"
+          "title": "Cleaning lady Startex"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Startex"
+          "title": "Cleaning lady Startex"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com housekeepers Startex page 2"
+          "title": "Housekeepers Startex"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com housekeepers Startex page 3"
+          "title": "Housekeepers Startex"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Startex page 2"
+          "title": "Cleaning lady Startex"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Startex page 3"
+          "title": "Cleaning lady Startex"
         },
         {
           "pos": 9,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor range hood clean Startex"
+          "title": "Range Hood Clean Startex"
         },
         {
           "pos": 10,
           "domain": "bbb.org",
-          "title": "BBB janitor Startex"
+          "title": "Janitor Startex"
         }
       ],
-      "competitors": [
-        {
-          "pos": 1,
-          "domain": "homeadvisor.com",
-          "name": "Top Notch Cleaning Solutions"
-        },
-        {
-          "pos": 2,
-          "domain": "angi.com",
-          "name": "A Little House Cleaning Service"
-        }
-      ],
-      "tip": "Só diretórios no topo (HomeAdvisor mostra nota 5,0 com avaliações); mostrar na página de Startex a nota do Google, preço inicial e citar as cidades vizinhas Duncan, Wellford e Lyman.",
+      "competitors": [],
+      "tip": "Topo é só de diretórios; um bloco de perguntas frequentes e a nota do Google na página de Startex pode ganhar espaço.",
       "error": null
     },
     "reidville-sc": {
       "city": "Reidville, SC",
       "query": "house cleaning Reidville SC",
-      "checkedAt": "2026-11-17T15:45:00Z",
+      "checkedAt": "2026-11-18T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor house cleaning Reidville"
+          "title": "House cleaning Reidville"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi house cleaning Reidville"
+          "title": "House cleaning Reidville"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor powerwashing Reidville"
+          "title": "Powerwashing Reidville"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor dryer vent Reidville"
+          "title": "Dryer Vent Clean Reidville"
         },
         {
           "pos": 5,
           "domain": "instaservice.com",
-          "title": "Bedroom cleaning in Reidville"
+          "title": "Bedroom cleaning Reidville"
         },
         {
           "pos": 6,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor post construction cleanup Reidville"
+          "title": "Post Construction Clean up Reidville"
         },
         {
           "pos": 7,
           "domain": "merrymaids.com",
-          "title": "Merry Maids Spartanburg area home cleaning"
+          "title": "Merry Maids Spartanburg area"
         },
         {
           "pos": 8,
           "domain": "merrymaids.com",
-          "title": "Merry Maids Spartanburg area maid service"
+          "title": "Merry Maids maid service"
         },
         {
           "pos": 9,
@@ -545,19 +534,14 @@
       ],
       "competitors": [
         {
-          "pos": 2,
-          "domain": "angi.com",
-          "name": "First Class Cleaners LLC"
-        },
-        {
-          "pos": 1,
-          "domain": "homeadvisor.com",
-          "name": "Clean Verde"
-        },
-        {
           "pos": 7,
           "domain": "merrymaids.com",
           "name": "Merry Maids"
+        },
+        {
+          "pos": 9,
+          "domain": "maids.com",
+          "name": "Maids.com"
         },
         {
           "pos": 14,
@@ -565,55 +549,55 @@
           "name": "MaidPro Greer"
         }
       ],
-      "tip": "Franquias (Merry Maids, MaidPro Greer) e diretórios aparecem; reforçar a página de Reidville com a proximidade de Greer, serviços recorrentes, FAQ de preço e avaliações do Google.",
+      "tip": "Merry Maids e MaidPro aparecem; reforçar na página de Reidville a proximidade com Greer, avaliações e orçamento grátis em casa.",
       "error": null
     },
     "five-forks-sc": {
       "city": "Five Forks, SC",
       "query": "house cleaning Five Forks SC",
-      "checkedAt": "2026-11-17T15:45:00Z",
+      "checkedAt": "2026-11-18T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "goloadup.com",
-          "title": "Five Forks Property Cleanup"
+          "domain": "angi.com",
+          "title": "House cleaning Fork SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi house cleaning Fork SC"
+          "title": "Cleaning Fork SC"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "Angi cleaning Fork SC"
+          "domain": "bbb.org",
+          "title": "Maid service Fork SC"
         },
         {
           "pos": 4,
-          "domain": "bbb.org",
-          "title": "BBB maid service Fork SC"
+          "domain": "goloadup.com",
+          "title": "Five Forks Property Cleanup"
         },
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "Angi house cleaning Conestee SC"
+          "title": "House cleaning Conestee"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "BBB house cleaning Five Points SC"
+          "title": "House cleaning Five Points"
         },
         {
           "pos": 7,
           "domain": "thumbtack.com",
-          "title": "Thumbtack house cleaners Greenville"
+          "title": "House cleaners Greenville"
         },
         {
           "pos": 8,
           "domain": "thumbtack.com",
-          "title": "Thumbtack maids Greenville"
+          "title": "Maids Greenville"
         },
         {
           "pos": 9,
@@ -623,11 +607,17 @@
         {
           "pos": 10,
           "domain": "merrymaids.com",
-          "title": "Merry Maids North Augusta"
+          "title": "Home cleaners North Augusta"
         }
       ],
-      "competitors": [],
-      "tip": "Nenhuma empresa de limpeza de Five Forks aparece (só diretórios de cidades próximas); página própria com preço inicial, FAQ e área atendida pode ocupar um espaço vazio.",
+      "competitors": [
+        {
+          "pos": 9,
+          "domain": "maids.com",
+          "name": "Maids.com"
+        }
+      ],
+      "tip": "Busca fraca para a cidade (nada local); citar Five Forks e bairros vizinhos de Greenville no título e no texto da página.",
       "error": null
     },
     "inman-sc": {
@@ -2374,7 +2364,7 @@
     "cowpens-sc": {
       "city": "Cowpens, SC",
       "query": "house cleaning Cowpens SC",
-      "checkedAt": "2026-11-17T12:55:00Z",
+      "checkedAt": "2026-11-18T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2407,6 +2397,26 @@
           "pos": 6,
           "domain": "care.com",
           "title": "Cleaning lady Cowpens"
+        },
+        {
+          "pos": 7,
+          "domain": "care.com",
+          "title": "Housekeeping Cowpens"
+        },
+        {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "Cleaning lady (perfil)"
+        },
+        {
+          "pos": 9,
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service Boiling Springs"
+        },
+        {
+          "pos": 10,
+          "domain": "angi.com",
+          "title": "Cleaning Cowpens"
         }
       ],
       "competitors": [
@@ -2416,153 +2426,137 @@
           "name": "InstaService"
         }
       ],
-      "tip": "Poucos concorrentes locais; destacar na página de Cowpens os serviços de limpeza pesada e de mudança, que as páginas genéricas não detalham.",
+      "tip": "Só diretórios no topo, nenhuma empresa local; destacar na página de Cowpens limpeza pesada e de mudança com preço e avaliações.",
       "error": null
     },
     "chesnee-sc": {
       "city": "Chesnee, SC",
       "query": "house cleaning Chesnee SC",
-      "checkedAt": "2026-11-17T15:45:00Z",
+      "checkedAt": "2026-11-18T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Chesnee"
+          "title": "House cleaning Chesnee"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi house cleaning Chesnee"
+          "title": "House cleaning Chesnee"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com housekeeping Chesnee"
+          "title": "Housekeeping Chesnee"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping Chesnee page 2"
+          "title": "Housekeeping Chesnee"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com housekeepers Chesnee"
+          "title": "Housekeepers Chesnee"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Chesnee"
+          "title": "Cleaning lady Chesnee"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeepers Chesnee page 3"
+          "title": "Housekeepers Chesnee"
         },
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "Angi cleaning Chesnee"
+          "title": "Cleaning Chesnee"
         },
         {
           "pos": 9,
           "domain": "angi.com",
-          "title": "Angi couch cleaning Chesnee"
+          "title": "Couch cleaning Chesnee"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com house managers Chesnee"
+          "title": "House managers Chesnee"
         }
       ],
-      "competitors": [
-        {
-          "pos": 2,
-          "domain": "angi.com",
-          "name": "Sunrise Cleaning Services"
-        },
-        {
-          "pos": 11,
-          "domain": "care.com",
-          "name": "Kimmy's Cleaning Company"
-        }
-      ],
-      "tip": "O topo é só diretórios (Care.com e Angi) e quase nenhuma empresa local aparece; destacar na página de Chesnee a área atendida a partir de Greer, a faixa de preço inicial e as avaliações do Google.",
+      "competitors": [],
+      "tip": "Sem empresas locais fortes; página de Chesnee com serviços, FAQ e telefone em destaque tem chance de entrar no topo.",
       "error": null
     },
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
-      "checkedAt": "2026-11-17T15:45:00Z",
+      "checkedAt": "2026-11-18T12:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Flat Rock"
+          "title": "House cleaning Flat Rock"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi house cleaning Flat Rock"
+          "title": "House cleaning Flat Rock"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com house cleaning East Flat Rock"
+          "title": "House cleaning East Flat Rock"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping Flat Rock"
+          "title": "Housekeeping Flat Rock"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com housekeepers Flat Rock page 3"
+          "title": "Housekeepers Flat Rock"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com housekeeping services Flat Rock"
+          "title": "Housekeeping services Flat Rock"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeeping Flat Rock page 2"
+          "title": "Housekeeping Flat Rock"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com housekeepers Flat Rock page 2"
+          "title": "Housekeepers Flat Rock"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com housekeepers Flat Rock"
+          "title": "Housekeepers Flat Rock"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com cleaning lady East Flat Rock"
+          "title": "Cleaning lady East Flat Rock"
         }
       ],
       "competitors": [
         {
-          "pos": 11,
+          "pos": 14,
           "domain": "homeadvisor.com",
           "name": "HeyMaid"
-        },
-        {
-          "pos": 2,
-          "domain": "care.com",
-          "name": "SunRiver Maids"
         }
       ],
-      "tip": "Care.com domina e há poucas empresas locais (HeyMaid atende Flat Rock, Hendersonville e Tryon); deixar claro na página de Flat Rock que atendemos Hendersonville e arredores, com preço inicial e FAQ.",
+      "tip": "HeyMaid atende Flat Rock; deixar claro na página que atendemos a cidade (NC) e mostrar a distância e o orçamento grátis.",
       "error": null
     },
     "williamston-sc": {

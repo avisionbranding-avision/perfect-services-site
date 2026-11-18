@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-18T09:45:00Z",
-  "now": "Revisei Gray Court, Greer, Taylors, Duncan, Lyman e Pelzer (só diretórios e franquias no topo; nenhuma empresa local nova) e confirmei site, links, GTM e formulário; nenhuma melhoria automática nova.",
+  "updatedAt": "2026-11-18T12:55:00Z",
+  "now": "Revisei Cowpens, Startex, Reidville, Five Forks, Chesnee e Flat Rock (só diretórios e franquias no topo; nenhuma empresa local nova) e confirmei site, links, GTM e formulário; todos os artigos já têm 2+ links internos.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -707,14 +707,14 @@
       "title": "Adicionar links internos a 24 artigos que têm menos de 2",
       "area": "links",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 3,
       "page": "https://perfectservicespaintingcleaning.com/blog/",
       "why": "24 artigos de content/posts têm menos de 2 links para páginas de cidade ou serviço.",
       "action": "Incluir 1-2 links para a cidade e o serviço do artigo.",
       "foundAt": "2026-11-18",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-18",
+      "result": "Conferido: nenhum artigo tem menos de 2 links para cidade ou serviço; nada a alterar."
     }
   ]
 }
