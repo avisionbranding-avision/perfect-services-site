@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-19T12:55:00Z",
+  "checkedAt": "2026-11-19T15:50:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -79,6 +79,11 @@
     "2 títulos de artigos encurtados (Pacolet e Greer)"
   ],
   "history": [
+    {
+      "at": "2026-11-19T15:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 6 cidades, 3 diretórios, 2 títulos encurtados"
+    },
     {
       "at": "2026-11-19T12:55:00Z",
       "overall": "ok",
@@ -371,11 +376,6 @@
     },
     {
       "at": "2026-11-12T06:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-12T03:45:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
     }

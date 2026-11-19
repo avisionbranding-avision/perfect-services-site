@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T12:55:00Z",
+  "updatedAt": "2026-11-19T15:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -763,34 +763,34 @@
     "travelers-rest-sc": {
       "city": "Travelers Rest, SC",
       "query": "house cleaning Travelers Rest SC",
-      "checkedAt": "2026-11-18T18:50:00Z",
+      "checkedAt": "2026-11-19T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaners in Travelers Rest, SC"
+          "title": "Care.com house cleaning Travelers Rest"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Travelers Rest SC"
+          "title": "House cleaning Travelers Rest SC"
         },
         {
           "pos": 3,
           "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services Near You in Travelers Rest, SC"
+          "title": "Top-Rated Cleaning & Maid Services in Travelers Rest, SC"
         },
         {
           "pos": 4,
           "domain": "bbb.org",
-          "title": "House Cleaning"
+          "title": "House Cleaning in Travelers Rest (BBB)"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Housekeeping Travelers Rest"
+          "title": "Housekeeping Travelers Rest SC"
         },
         {
           "pos": 6,
@@ -800,60 +800,39 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Housekeeping Travelers Rest"
+          "title": "Housekeeping page 1"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Move-out cleaning Travelers Rest"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Cleaning ladies Travelers Rest"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Cleaning ladies Travelers Rest"
+          "title": "Move-out cleaning services Travelers Rest"
         }
       ],
-      "competitors": [
-        {
-          "pos": null,
-          "domain": "care.com",
-          "name": "Patty's Housekeeping"
-        },
-        {
-          "pos": null,
-          "domain": "care.com",
-          "name": "Cantrell Painting and Cleaning Services, LLC"
-        }
-      ],
-      "tip": "Os resultados são diretórios (Care.com, HomeAdvisor) e perfis pequenos; reforçar a página de Travelers Rest com serviços, bairros atendidos e avaliações reais.",
+      "competitors": [],
+      "tip": "O topo é de diretórios; uma empresa local (Patty's Housekeeping) aparece só na Care.com. Reforçar a página de Travelers Rest com preço inicial, FAQ e avaliações para ganhar espaço.",
       "error": null
     },
     "campobello-sc": {
       "city": "Campobello, SC",
       "query": "house cleaning Campobello SC",
-      "checkedAt": "2026-11-18T18:50:00Z",
+      "checkedAt": "2026-11-19T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaners in Campobello, SC"
+          "title": "Care.com house cleaning Campobello"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Campobello SC"
+          "title": "House cleaning Campobello SC"
         },
         {
           "pos": 3,
           "domain": "instaservice.com",
-          "title": "3-Bedroom Cleaning in Campobello"
+          "title": "Your Premier 3-Bedroom Cleaning Solution in Campobello, South Carolina"
         },
         {
           "pos": 4,
@@ -863,7 +842,7 @@
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Campobello"
         },
         {
           "pos": 6,
@@ -873,22 +852,12 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Cleaning ladies Campobello"
+          "title": "Cleaning lady Campobello"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
           "title": "Cleaning one time service"
-        },
-        {
-          "pos": 9,
-          "domain": "homeadvisor.com",
-          "title": "Powerwashing Campobello"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Housekeepers Campobello"
         }
       ],
       "competitors": [
@@ -898,81 +867,81 @@
           "name": "InstaService"
         }
       ],
-      "tip": "Quase só diretórios; a InstaService tem página por tipo de imóvel (3 quartos). Criar na página de Campobello blocos por tamanho de casa e FAQ.",
+      "tip": "Só uma plataforma de agendamento (InstaService) além dos diretórios; a página de Campobello pode vencer com texto próprio da cidade, preço inicial e FAQ.",
       "error": null
     },
     "moore-sc": {
       "city": "Moore, SC",
       "query": "house cleaning Moore SC",
-      "checkedAt": "2026-11-18T18:50:00Z",
+      "checkedAt": "2026-11-19T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaners in Moore, SC"
+          "title": "Care.com house cleaning Moore"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Moore SC"
+          "title": "House cleaning Moore SC"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Moore"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeeping Moore"
+          "title": "Housekeeping Moore SC"
         },
         {
           "pos": 5,
-          "domain": "angi.com",
+          "domain": "match.angi.com",
           "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 6,
-          "domain": "angi.com",
+          "domain": "match.angi.com",
           "title": "Compare Quotes from Cleaning Services"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Housekeeping Moore"
+          "title": "Housekeeping page 3"
         },
         {
           "pos": 8,
-          "domain": "care.com",
-          "title": "Housekeeping Moore"
-        },
-        {
-          "pos": 9,
           "domain": "homeadvisor.com",
           "title": "House Cleaning"
         },
         {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeeping page 2"
+        },
+        {
           "pos": 10,
           "domain": "care.com",
-          "title": "Housekeepers Moore"
+          "title": "Housekeepers Moore SC"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": "homeadvisor.com",
-          "name": "Voda Cleaning & Restoration of Simpsonville & Greer"
+          "pos": 11,
+          "domain": "instaservice.com",
+          "name": "InstaService"
         }
       ],
-      "tip": "Resultados dominados por diretórios; poucos negócios locais. Destacar na página de Moore o atendimento a partir de Greer e Spartanburg e pedir avaliações de clientes da região.",
+      "tip": "Topo dominado por diretórios, sem empresa local própria; a página de Moore deve mostrar áreas vizinhas (Spartanburg, Roebuck), preço inicial e nota do Google.",
       "error": null
     },
     "simpsonville-sc": {
       "city": "Simpsonville, SC",
       "query": "house cleaning Simpsonville SC",
-      "checkedAt": "2026-11-18T18:50:00Z",
+      "checkedAt": "2026-11-19T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -984,17 +953,17 @@
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "House cleaners in Simpsonville, SC"
+          "title": "Care.com house cleaning Simpsonville"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Simpsonville SC"
+          "title": "House cleaning Simpsonville SC"
         },
         {
           "pos": 4,
           "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services Near You in Simpsonville, SC"
+          "title": "Top-Rated Cleaning & Maid Services in Simpsonville, SC"
         },
         {
           "pos": 5,
@@ -1004,11 +973,11 @@
         {
           "pos": 6,
           "domain": "thumbtack.com",
-          "title": "GoMac New Beginnings Co"
+          "title": "GoMac New Beginnings Co (Thumbtack)"
         },
         {
           "pos": 7,
-          "domain": "angi.com",
+          "domain": "match.angi.com",
           "title": "Compare Quotes from House Cleaning Services"
         },
         {
@@ -1031,48 +1000,43 @@
         {
           "pos": 1,
           "domain": "maidpro.com",
-          "name": "MaidPro Simpsonville (franquia)"
-        },
-        {
-          "pos": 6,
-          "domain": "thumbtack.com",
-          "name": "GoMac New Beginnings Co"
+          "name": "MaidPro Simpsonville"
         }
       ],
-      "tip": "A franquia MaidPro lidera; mostrar na página de Simpsonville o diferencial de empresa familiar brasileira, avaliações do Google e orçamento grátis.",
+      "tip": "A franquia MaidPro lidera; a página de Simpsonville precisa mostrar o que a franquia não mostra: equipe local, orçamento grátis em casa, avaliações reais e o serviço Brazilian cleaning.",
       "error": null
     },
     "berea-sc": {
       "city": "Berea, SC",
       "query": "house cleaning Berea SC",
-      "checkedAt": "2026-11-18T18:50:00Z",
+      "checkedAt": "2026-11-19T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "aaarousse.com",
-          "title": "Hoarding cleanup Berea SC"
+          "title": "Hoarding cleanup by AAA Rousse (Berea SC)"
         },
         {
           "pos": 2,
           "domain": "nannylane.com",
-          "title": "Housekeeper nanny Berea SC"
+          "title": "Housekeeper nanny Berea"
         },
         {
           "pos": 3,
-          "domain": "nannylane.com",
-          "title": "Housekeeper nanny Berea SC"
-        },
-        {
-          "pos": 4,
           "domain": "homeadvisor.com",
           "title": "Cleaning one time service (Berea, KY)"
         },
         {
-          "pos": 5,
+          "pos": 4,
           "domain": "thumbtack.com",
           "title": "SC Preferred Cleaners (Charleston)"
+        },
+        {
+          "pos": 5,
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 6,
@@ -1081,27 +1045,33 @@
         },
         {
           "pos": 7,
-          "domain": "maids.com",
-          "title": "House Cleaning Services in South Carolina"
-        },
-        {
-          "pos": 8,
           "domain": "thumbtack.com",
           "title": "Columbia Home Cleaners"
         },
         {
-          "pos": 9,
+          "pos": 8,
           "domain": "thumbtack.com",
           "title": "Care2Clean South Carolina (Greenville)"
         },
         {
-          "pos": 10,
+          "pos": 9,
           "domain": "merrymaids.com",
           "title": "Home cleaners Irmo SC"
+        },
+        {
+          "pos": 10,
+          "domain": "bbb.org",
+          "title": "House Cleaning (SC)"
         }
       ],
-      "competitors": [],
-      "tip": "Quase não há concorrência local para Berea (resultados de outras cidades); página de Berea com serviços, cidades vizinhas e FAQ tem boa chance de aparecer.",
+      "competitors": [
+        {
+          "pos": 5,
+          "domain": "maids.com",
+          "name": "Maids.com (South Carolina)"
+        }
+      ],
+      "tip": "Nenhuma empresa local de limpeza residencial aparece para Berea; página de Berea com texto próprio, preço inicial e FAQ tem espaço para chegar ao topo.",
       "error": null
     },
     "parker-sc": {
@@ -2404,7 +2374,7 @@
     "williamston-sc": {
       "city": "Williamston, SC",
       "query": "house cleaning Williamston SC",
-      "checkedAt": "2026-11-18T15:50:00Z",
+      "checkedAt": "2026-11-19T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2416,12 +2386,12 @@
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Evans Cleaning Service - Williamston"
+          "title": "Evans Cleaning Service (Care.com)"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Williamston cleaning - Angi"
+          "title": "Cleaning companies in Williamston, SC"
         },
         {
           "pos": 4,
@@ -2431,12 +2401,12 @@
         {
           "pos": 5,
           "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services Near You in Williamston, SC"
+          "title": "Top-Rated Cleaning & Maid Services in Williamston, SC"
         },
         {
           "pos": 6,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Williamston SC"
+          "title": "House cleaning Williamston SC"
         },
         {
           "pos": 7,
@@ -2447,26 +2417,10 @@
           "pos": 8,
           "domain": "homeadvisor.com",
           "title": "Cleaning one time service"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Housekeepers Williamston SC"
-        },
-        {
-          "pos": 10,
-          "domain": "angi.com",
-          "title": "blind cleaning Williamston"
         }
       ],
-      "competitors": [
-        {
-          "pos": 2,
-          "domain": "care.com",
-          "name": "Evans Cleaning Service"
-        }
-      ],
-      "tip": "Só diretórios no topo e nenhuma empresa local forte: a página de Williamston pode disputar o topo com preço inicial claro, FAQ e links para Greer e Anderson.",
+      "competitors": [],
+      "tip": "Só diretórios (Care.com, Angi, HomeAdvisor) aparecem no topo, sem empresa local própria; destacar na página de Williamston o orçamento grátis, a nota do Google e as cidades vizinhas atendidas.",
       "error": null
     },
     "pacolet-sc": {

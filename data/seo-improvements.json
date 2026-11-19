@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T12:55:00Z",
-  "now": "Revisei os títulos e descrições dos 350 artigos, as buscas de 6 cidades (Flat Rock, Wade Hampton, Wellford, Inman, Greenville, Mauldin) e a saúde do site; 2 títulos encurtados; 3 diretórios conferidos sem novo perfil.",
+  "updatedAt": "2026-11-19T15:50:00Z",
+  "now": "Revisei 350 artigos (títulos, descrições, links internos), as buscas de 6 cidades (Williamston, Travelers Rest, Campobello, Moore, Simpsonville, Berea) e a saúde do site; 2 títulos encurtados; 3 diretórios conferidos sem novo perfil.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -768,6 +768,34 @@
       "page": "https://perfectservicespaintingcleaning.com/areas/inman-sc/",
       "why": "Em Inman a MaidPro mostra 4,8 estrelas com 161 avaliações; em Wellford só diretórios aparecem no topo.",
       "action": "Bloco com a nota do Google e preço inicial nas duas páginas de cidade.",
+      "foundAt": "2026-11-19",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-titulos-pacolet-greer-2026-11-19b",
+      "title": "Encurtar 2 títulos acima de 65 caracteres (Pacolet e Greer)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos com 70 e 67 caracteres são cortados nos resultados do Google.",
+      "action": "Títulos reduzidos para 61 caracteres.",
+      "foundAt": "2026-11-19",
+      "doneAt": "2026-11-19",
+      "result": "Dois títulos reduzidos para 61 caracteres."
+    },
+    {
+      "id": "seo-simpsonville-maidpro",
+      "title": "Página de Simpsonville: destacar o que a franquia MaidPro não mostra",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/simpsonville-sc/",
+      "why": "MaidPro aparece em 1º lugar para house cleaning Simpsonville SC na busca de hoje.",
+      "action": "Bloco com equipe local, orçamento grátis em casa, nota do Google e Brazilian cleaning.",
       "foundAt": "2026-11-19",
       "doneAt": null,
       "result": null
