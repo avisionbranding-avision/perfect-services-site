@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-19T09:45:00Z",
+  "checkedAt": "2026-11-19T12:55:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "849 páginas geradas"
+      "detail": "881 páginas geradas"
     },
     {
       "id": "links",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de 18/11 publicada às 10:05 UTC; a de hoje roda às 10:00 UTC"
+      "detail": "Rodada de hoje publicada às 10:05 UTC"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos da última rodada (meta 32); a de hoje roda às 10:00 UTC"
+      "detail": "32 artigos de hoje (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts do Google de ontem presentes (3); os de hoje saem na rodada das 10:00 UTC"
+      "detail": "3 posts do Google de hoje presentes, sem telefone, link ou e-mail no texto"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "13 dias de temas de Greer restantes"
+      "detail": "12 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,7 +60,7 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "849 endereços, igual ao esperado"
+      "detail": "881 endereços, igual ao esperado"
     },
     {
       "id": "gtm",
@@ -75,8 +75,15 @@
       "detail": "Formulários das cidades enviam para /api/lead na versão Cloudflare"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "2 títulos de artigos encurtados (Pacolet e Greer)"
+  ],
   "history": [
+    {
+      "at": "2026-11-19T12:55:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 6 cidades, 3 diretórios, 2 títulos encurtados"
+    },
     {
       "at": "2026-11-19T09:45:00Z",
       "overall": "ok",
@@ -371,11 +378,6 @@
       "at": "2026-11-12T03:45:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-12T00:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 2 títulos encurtados"
     }
   ]
 }

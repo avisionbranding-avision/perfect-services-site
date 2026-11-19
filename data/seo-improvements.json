@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T09:45:00Z",
-  "now": "Revisei as buscas de 6 cidades (Pelzer, Startex, Reidville, Five Forks, Cowpens, Chesnee) e a saúde do site; nenhuma melhoria automática aberta; 3 diretórios conferidos sem novo perfil.",
+  "updatedAt": "2026-11-19T12:55:00Z",
+  "now": "Revisei os títulos e descrições dos 350 artigos, as buscas de 6 cidades (Flat Rock, Wade Hampton, Wellford, Inman, Greenville, Mauldin) e a saúde do site; 2 títulos encurtados; 3 diretórios conferidos sem novo perfil.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -743,6 +743,34 @@
       "foundAt": "2026-11-19",
       "doneAt": "2026-11-19T06:55:00Z",
       "result": "Descrições agora com 157 e 152 caracteres."
+    },
+    {
+      "id": "seo-titulos-pacolet-greer-2026-11-19",
+      "title": "Encurtar 2 títulos acima de 65 caracteres (Pacolet e Greer)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": null,
+      "why": "Títulos de 70 e 67 caracteres são cortados nos resultados do Google.",
+      "action": "Reduzir para até 60 caracteres.",
+      "foundAt": "2026-11-19",
+      "doneAt": "2026-11-19",
+      "result": "2 títulos encurtados para 58 e 49 caracteres"
+    },
+    {
+      "id": "seo-wellford-inman-avaliacoes",
+      "title": "Mostrar nota, preço inicial e perguntas frequentes nas páginas de Wellford e Inman",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/inman-sc/",
+      "why": "Em Inman a MaidPro mostra 4,8 estrelas com 161 avaliações; em Wellford só diretórios aparecem no topo.",
+      "action": "Bloco com a nota do Google e preço inicial nas duas páginas de cidade.",
+      "foundAt": "2026-11-19",
+      "doneAt": null,
+      "result": null
     }
   ]
 }
