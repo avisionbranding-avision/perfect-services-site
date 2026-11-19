@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T21:45:00Z",
+  "updatedAt": "2026-11-19T00:55:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1406,7 +1406,7 @@
     "landrum-sc": {
       "city": "Landrum, SC",
       "query": "house cleaning Landrum SC",
-      "checkedAt": "2026-11-18T00:45:00Z",
+      "checkedAt": "2026-11-19T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1453,29 +1453,29 @@
         {
           "pos": 9,
           "domain": "homeadvisor.com",
-          "title": "Post Construction Clean up Landrum"
+          "title": "Post-construction clean-up Landrum"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Housekeepers Landrum page 0"
+          "title": "Housekeepers Landrum"
         }
       ],
       "competitors": [],
-      "tip": "Topo só de diretórios com preço por hora (cerca de US$21 no Care.com). Destacar na página de Landrum orçamento grátis e limpeza recorrente de preço claro.",
+      "tip": "Só diretórios no topo (Care.com, HomeAdvisor, Angi) e nenhuma empresa local com site próprio: espaço aberto. Reforçar a página de Landrum com preço inicial, FAQ e avaliações do Google para ser a primeira empresa local.",
       "error": null
     },
     "spartanburg-sc": {
       "city": "Spartanburg, SC",
       "query": "house cleaning Spartanburg SC",
-      "checkedAt": "2026-11-18T03:45:00Z",
+      "checkedAt": "2026-11-19T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Spartanburg"
+          "title": "House cleaning Spartanburg SC"
         },
         {
           "pos": 2,
@@ -1494,23 +1494,23 @@
         },
         {
           "pos": 5,
-          "domain": "angi.com",
-          "title": "Compare Quotes from Cleaning Services"
+          "domain": "match.angi.com",
+          "title": "Compare Quotes Cleaning Services"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Housekeeping Spartanburg (page 3)"
+          "title": "Housekeeping Spartanburg page 3"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Housekeeping Spartanburg (page 2)"
+          "title": "Housekeeping Spartanburg page 2"
         },
         {
           "pos": 8,
-          "domain": "angi.com",
-          "title": "Post-Construction Cleaning"
+          "domain": "match.angi.com",
+          "title": "Post-construction clean-up Spartanburg"
         },
         {
           "pos": 9,
@@ -1520,7 +1520,7 @@
         {
           "pos": 10,
           "domain": "thecleaningauthority.com",
-          "title": "House cleaning (Spartanburg County)"
+          "title": "House cleaning Spartanburg County"
         }
       ],
       "competitors": [
@@ -1545,20 +1545,20 @@
           "name": "The Cleaning Authority"
         }
       ],
-      "tip": "A franquia The Cleaning Authority aparece com página própria; na página de Spartanburg, mostrar equipe local, nota do Google e preço inicial para competir.",
+      "tip": "Cidade grande e disputada: franquia (The Cleaning Authority) e vários perfis no Thumbtack. Destacar na página de Spartanburg preço inicial, avaliações do Google e FAQ, e criar o perfil no Thumbtack.",
       "error": null
     },
     "fountain-inn-sc": {
       "city": "Fountain Inn, SC",
       "query": "house cleaning Fountain Inn SC",
-      "checkedAt": "2026-11-18T03:45:00Z",
+      "checkedAt": "2026-11-19T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Fountain Inn"
+          "title": "House cleaning Fountain Inn SC"
         },
         {
           "pos": 2,
@@ -1567,13 +1567,13 @@
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "match.angi.com",
+          "title": "Compare Quotes House Cleaning Services"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning"
+          "title": "House Cleaning Fountain Inn"
         },
         {
           "pos": 5,
@@ -1587,8 +1587,8 @@
         },
         {
           "pos": 7,
-          "domain": "angi.com",
-          "title": "Compare Quotes from Cleaning Services"
+          "domain": "match.angi.com",
+          "title": "Maid Service Fountain Inn"
         },
         {
           "pos": 8,
@@ -1606,8 +1606,14 @@
           "title": "Walls Ceilings Clean"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios no topo, sem empresa local de limpeza; na página de Fountain Inn, destacar a proximidade com Greer, preço inicial e FAQ.",
+      "competitors": [
+        {
+          "pos": 11,
+          "domain": "bbb.org",
+          "name": "BBB: Welcome Home Professional Cleaning, MaidPro Greenville"
+        }
+      ],
+      "tip": "Topo dominado por diretórios; só aparecem empresas pequenas no Care.com e no BBB. Destacar na página de Fountain Inn a limpeza de mudança (move-out), que o Care.com exibe, com preço inicial e FAQ.",
       "error": null
     },
     "woodruff-sc": {
@@ -1686,7 +1692,7 @@
     "powdersville-sc": {
       "city": "Powdersville, SC",
       "query": "house cleaning Powdersville SC",
-      "checkedAt": "2026-11-18T03:45:00Z",
+      "checkedAt": "2026-11-19T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1703,7 +1709,7 @@
         {
           "pos": 3,
           "domain": "thumbtack.com",
-          "title": "Cris House Cleaning"
+          "title": "Cris House Cleaning (Easley)"
         },
         {
           "pos": 4,
@@ -1723,22 +1729,22 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "South Carolina Housekeeping Services"
+          "title": "Housekeeping services SC"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Top-rated pros"
+          "title": "Precision Clean"
         },
         {
           "pos": 9,
           "domain": "thumbtack.com",
-          "title": "Peerless Maids"
+          "title": "Peerless Maids (Summerville)"
         },
         {
           "pos": 10,
           "domain": "angi.com",
-          "title": "Jewl's Care Cleaning"
+          "title": "Jewl's Care Cleaning (Simpsonville)"
         }
       ],
       "competitors": [
@@ -1748,17 +1754,12 @@
           "name": "JL's Cleaning Service"
         },
         {
-          "pos": 2,
-          "domain": "manta.com",
-          "name": "SNP 365 Cleaners"
-        },
-        {
           "pos": 3,
           "domain": "thumbtack.com",
-          "name": "Cris House Cleaning"
+          "name": "Cris House Cleaning (Easley)"
         }
       ],
-      "tip": "Poucos concorrentes locais reais (JL's, Cris) e sem avaliações fortes; página de Powdersville com área atendida clara, preço inicial e nota do Google.",
+      "tip": "Os resultados nem são de Powdersville: a busca traz empresas de outras cidades. Uma página de Powdersville bem focada (serviços, bairros, FAQ, avaliações) tem chance real de ranquear.",
       "error": null
     },
     "tryon-nc": {
@@ -1826,7 +1827,7 @@
     "piedmont-sc": {
       "city": "Piedmont, SC",
       "query": "house cleaning Piedmont SC",
-      "checkedAt": "2026-11-18T03:45:00Z",
+      "checkedAt": "2026-11-19T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1842,13 +1843,13 @@
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "match.angi.com",
+          "title": "Compare Quotes House Cleaning Services"
         },
         {
           "pos": 4,
           "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services in Piedmont SC"
+          "title": "Cleaning & Maid Services Piedmont SC"
         },
         {
           "pos": 5,
@@ -1857,13 +1858,13 @@
         },
         {
           "pos": 6,
-          "domain": "angi.com",
-          "title": "Compare Quotes from Cleaning Services"
+          "domain": "match.angi.com",
+          "title": "Maid Service Piedmont"
         },
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "House cleaning (Angi)"
+          "title": "House cleaning Piedmont"
         },
         {
           "pos": 8,
@@ -1873,7 +1874,7 @@
         {
           "pos": 9,
           "domain": "thumbtack.com",
-          "title": "Piedmont Cleaning Pros (Winston-Salem)"
+          "title": "Piedmont Cleaning Pros (Piedmont, NC)"
         },
         {
           "pos": 10,
@@ -1881,8 +1882,14 @@
           "title": "Cleaning lady Piedmont SC"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios no topo, sem empresa local; destacar na página de Piedmont a distância curta de Greer, preço inicial e FAQ.",
+      "competitors": [
+        {
+          "pos": 4,
+          "domain": "thebuildermarket.com",
+          "name": "Lista de empresas de limpeza em Piedmont SC"
+        }
+      ],
+      "tip": "Só diretórios e listas; nenhuma empresa local forte com site. Reforçar a página de Piedmont com serviços, preço inicial e FAQ, e citar cidades vizinhas (Greenville, Williamston).",
       "error": null
     },
     "pauline-sc": {
@@ -2691,7 +2698,7 @@
     "liberty-sc": {
       "city": "Liberty, SC",
       "query": "house cleaning Liberty SC",
-      "checkedAt": "2026-11-18T03:45:00Z",
+      "checkedAt": "2026-11-19T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2703,12 +2710,12 @@
         {
           "pos": 2,
           "domain": "thumbtack.com",
-          "title": "CrystalClear Cleaning Co (Liberty)"
+          "title": "CrystalClear Cleaning Co"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeeping Liberty (page 3)"
+          "title": "Housekeeping Liberty page 3"
         },
         {
           "pos": 4,
@@ -2723,7 +2730,7 @@
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "Maid service Liberty SC"
+          "title": "Maid service Liberty"
         },
         {
           "pos": 7,
@@ -2732,18 +2739,18 @@
         },
         {
           "pos": 8,
-          "domain": "goloadup.com",
-          "title": "Liberty Hoarder Cleanout Services"
+          "domain": "bbb.org",
+          "title": "Cleaning services Liberty"
         },
         {
           "pos": 9,
-          "domain": "bbb.org",
-          "title": "Cleaning Services Liberty SC"
+          "domain": "care.com",
+          "title": "Laundry services Liberty SC"
         },
         {
           "pos": 10,
-          "domain": "care.com",
-          "title": "Laundry services Liberty SC"
+          "domain": "bbb.org",
+          "title": "Commercial cleaning Liberty"
         }
       ],
       "competitors": [
@@ -2751,9 +2758,14 @@
           "pos": 2,
           "domain": "thumbtack.com",
           "name": "CrystalClear Cleaning Co"
+        },
+        {
+          "pos": 7,
+          "domain": "michaelssupremecleanservices.gosite.com",
+          "name": "Michael's Supreme Clean Services"
         }
       ],
-      "tip": "Topo dominado por Care.com e diretórios; destacar na página de Liberty o preço inicial, a nota do Google e um FAQ curto de área atendida.",
+      "tip": "Concorrência fraca: um perfil no Thumbtack e um site simples. Uma página de Liberty com preço, FAQ e avaliações pode chegar ao topo; criar o perfil no Thumbtack ajudaria a aparecer também lá.",
       "error": null
     },
     "hendersonville-nc": {
