@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:55:00Z",
+  "updatedAt": "2026-11-19T03:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1765,7 +1765,7 @@
     "tryon-nc": {
       "city": "Tryon, NC",
       "query": "house cleaning Tryon NC",
-      "checkedAt": "2026-11-18T03:45:00Z",
+      "checkedAt": "2026-11-19T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1806,22 +1806,28 @@
         },
         {
           "pos": 8,
-          "domain": "bbb.org",
-          "title": "Janitor Tryon NC"
+          "domain": "angi.com",
+          "title": "Floor cleaning Tryon"
         },
         {
           "pos": 9,
           "domain": "bbb.org",
-          "title": "Maid service Tryon NC"
+          "title": "Janitor Tryon NC"
         },
         {
           "pos": 10,
-          "domain": "care.com",
-          "title": "Move-out cleaning Tryon NC"
+          "domain": "bbb.org",
+          "title": "Maid service Tryon NC"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios e Care.com no topo; na página de Tryon, deixar claro que a equipe atende o lado de NC e mostrar preço inicial e FAQ.",
+      "competitors": [
+        {
+          "pos": 12,
+          "domain": "homeadvisor.com",
+          "name": "HeyMaid (equipe local de Tryon, Flat Rock e Hendersonville)"
+        }
+      ],
+      "tip": "Topo é só Care.com, Angi e BBB; na página de Tryon, deixar claro que atendemos o lado de NC e mostrar preço inicial e FAQ. HeyMaid já cita Tryon, Flat Rock e Hendersonville.",
       "error": null
     },
     "piedmont-sc": {
@@ -1895,54 +1901,54 @@
     "pauline-sc": {
       "city": "Pauline, SC",
       "query": "house cleaning Pauline SC",
-      "checkedAt": "2026-11-18T06:50:00Z",
+      "checkedAt": "2026-11-19T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Pauline"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeeping Pauline SC"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Pauline SC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeeping Pauline (page 2)"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Pauline SC"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Pauline (page 3)"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Pauline (page 2)"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Cleaning lady Pauline SC"
         },
         {
           "pos": 9,
           "domain": "angi.com",
-          "title": "Cleaning"
+          "title": "Cleaning Pauline SC"
         },
         {
           "pos": 10,
@@ -1950,27 +1956,21 @@
           "title": "Cleaning Services Pauline"
         }
       ],
-      "competitors": [
-        {
-          "pos": 1,
-          "domain": "instaservice.com",
-          "name": "InstaService"
-        }
-      ],
-      "tip": "Topo dominado por Care.com, Angi e BBB, sem empresa local de destaque. Uma página de Pauline com texto próprio, FAQ e menção a Spartanburg e Roebuck pode competir bem.",
+      "competitors": [],
+      "tip": "Só diretórios no topo (Angi, Care.com) e nenhuma empresa local; boa chance de aparecer: na página de Pauline, citar Spartanburg, preço inicial e FAQ.",
       "error": null
     },
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-18T06:50:00Z",
+      "checkedAt": "2026-11-19T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "House cleaning Saluda NC"
         },
         {
           "pos": 2,
@@ -1980,178 +1980,168 @@
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Saluda NC"
+          "title": "House cleaning Saluda NC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Saluda (page 3)"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeeping Saluda NC"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Saluda"
         },
         {
           "pos": 7,
-          "domain": "care.com",
-          "title": "Care.com"
+          "domain": "match.angi.com",
+          "title": "Cleaning & maid services Mill Spring"
         },
         {
           "pos": 8,
-          "domain": "angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
-        },
-        {
-          "pos": 9,
           "domain": "homeadvisor.com",
           "title": "House Cleaning"
         },
         {
-          "pos": 10,
+          "pos": 9,
           "domain": "homeadvisor.com",
           "title": "Cleaning one time service"
+        },
+        {
+          "pos": 10,
+          "domain": "care.com",
+          "title": "Housekeeping Saluda (page 2)"
         }
       ],
       "competitors": [
         {
-          "pos": 1,
-          "domain": "maidpro.com",
-          "name": "MaidPro Saluda, NC"
-        },
-        {
           "pos": 2,
-          "domain": "instaservice.com",
-          "name": "InstaService"
+          "domain": "maidpro.com",
+          "name": "MaidPro (escritório de Hendersonville)"
         }
       ],
-      "tip": "A MaidPro é a única empresa de marca no topo, com página própria para Saluda. Fazer a página de Saluda mostrar tipos de limpeza, orçamento grátis e o contato direto, em vez de depender de diretórios.",
+      "tip": "A MaidPro aparece em 2º com página própria de Saluda; na página de Saluda, citar Hendersonville e Tryon, serviços semanal, quinzenal e avulso, e FAQ com preços.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-18T06:50:00Z",
+      "checkedAt": "2026-11-19T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "columbus nc"
+          "title": "House cleaning Columbus NC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Columbus (page 3)"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeeping Columbus NC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeeping Columbus (page 2)"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Cleaning lady Columbus NC"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Columbus"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Columbus NC"
         },
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "Cleaning"
+          "title": "Cleaning Columbus NC"
         },
         {
           "pos": 9,
           "domain": "merrymaids.com",
-          "title": "Merry Maids Columbus"
+          "title": "Merry Maids Columbus cleaning services"
         },
         {
           "pos": 10,
           "domain": "100hires.com",
-          "title": "100hires.com"
+          "title": "Vaga de limpeza em Columbus NC"
         }
       ],
       "competitors": [
         {
-          "pos": 1,
+          "pos": 9,
           "domain": "merrymaids.com",
           "name": "Merry Maids"
-        },
-        {
-          "pos": 2,
-          "domain": "bynext.co",
-          "name": "Columbus Home Cleaning Services You Can Trust"
         }
       ],
-      "tip": "Parte dos resultados é de outras cidades chamadas Columbus. Deixar claro 'Columbus, NC' no título e no texto da página, e citar Tryon e Saluda perto, ajuda o Google a ligar a página à cidade certa.",
+      "tip": "Care.com domina e só a Merry Maids aparece como empresa; na página de Columbus, destacar atendimento semanal, quinzenal e avulso, com preço inicial e FAQ, para competir com a Merry Maids.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-18T06:50:00Z",
+      "checkedAt": "2026-11-19T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "House cleaning Easley SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "House cleaning Easley (page 2)"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Cost of house cleaning Easley SC"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "House cleaning Easley SC"
         },
         {
           "pos": 5,
           "domain": "thumbtack.com",
-          "title": "Thumbtack"
+          "title": "10 house cleaners in Easley"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi"
+          "title": "House cleaning Easley"
         },
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "Post-construction cleaning Easley"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Housekeepers Easley (page 3)"
         },
         {
           "pos": 9,
@@ -2161,17 +2151,17 @@
         {
           "pos": 10,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor"
+          "title": "House cleaning Easley"
         }
       ],
       "competitors": [
         {
-          "pos": 1,
+          "pos": 9,
           "domain": "thumbtack.com",
           "name": "Emerald Cleaning Services"
         }
       ],
-      "tip": "Topo de diretórios; só a Emerald Cleaning Services aparece como empresa local. Mostrar faixa de preço e avaliações na página de Easley, já que os resultados citam valores por hora.",
+      "tip": "Os resultados mostram preço médio (Care.com) e cotações (Thumbtack, HomeAdvisor); na página de Easley, mostrar faixa de preço por tipo de limpeza, FAQ e a nota do Google.",
       "error": null
     },
     "gray-court-sc": {
@@ -2771,19 +2761,19 @@
     "hendersonville-nc": {
       "city": "Hendersonville, NC",
       "query": "house cleaning Hendersonville NC",
-      "checkedAt": "2026-11-18T06:50:00Z",
+      "checkedAt": "2026-11-19T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "House cleaning Hendersonville NC"
         },
         {
           "pos": 2,
           "domain": "experience.com",
-          "title": "balkens 22591812"
+          "title": "Balken's Cleaning Service"
         },
         {
           "pos": 3,
@@ -2808,17 +2798,17 @@
         {
           "pos": 7,
           "domain": "thumbtack.com",
-          "title": "cleaning services a greener clean"
+          "title": "Cleaning Services A Greener Clean"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com"
+          "title": "Cleaning lady Hendersonville NC"
         },
         {
           "pos": 9,
-          "domain": "careerplug.com",
-          "title": "House Cleaning PROfessional"
+          "domain": "app.careerplug.com",
+          "title": "House Cleaning PROfessional (vaga)"
         },
         {
           "pos": 10,
@@ -2828,22 +2818,22 @@
       ],
       "competitors": [
         {
-          "pos": 1,
+          "pos": 2,
+          "domain": "experience.com",
+          "name": "Balken's Cleaning Service"
+        },
+        {
+          "pos": 4,
           "domain": "angi.com",
           "name": "G&A Cleaning Solutions, LLC"
         },
         {
-          "pos": 2,
-          "domain": "instaservice.com",
-          "name": "InstaService"
-        },
-        {
-          "pos": 3,
-          "domain": "maidpro.com",
-          "name": "MaidPro Saluda, NC"
+          "pos": 7,
+          "domain": "thumbtack.com",
+          "name": "Cleaning Services A Greener Clean"
         }
       ],
-      "tip": "O topo é só diretórios (Care.com, HomeAdvisor, Angi); a G&A Cleaning Solutions destaca 'orçamento grátis' e 'segurada'. Na página de Hendersonville, destacar orçamento grátis, seguro e atendimento nesta cidade da Carolina do Norte.",
+      "tip": "Empresas locais pequenas (Balken's, G&A) aparecem com anos de experiência e dono local; na página de Hendersonville, destacar equipe própria, limpeza ecológica e FAQ.",
       "error": null
     }
   }

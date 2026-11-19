@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T00:55:00Z",
-  "now": "Revisei as buscas de 6 cidades (Landrum, Fountain Inn, Liberty, Piedmont, Powdersville, Spartanburg): nenhuma mostra nosso site; build, links, GTM e formulários ok; sem correções automáticas pendentes.",
+  "updatedAt": "2026-11-19T03:50:00Z",
+  "now": "Revisei títulos, descrições, links e tamanho dos 308 artigos e as buscas de 6 cidades (Tryon, Columbus, Easley, Hendersonville, Pauline, Saluda); 3 títulos longos encurtados.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -715,6 +715,20 @@
       "foundAt": "2026-11-18",
       "doneAt": "2026-11-18",
       "result": "Conferido: nenhum artigo tem menos de 2 links para cidade ou serviço; nada a alterar."
+    },
+    {
+      "id": "seo-titulos-pauline-graycourt-spartanburg-2026-11-19",
+      "title": "Encurtar 3 títulos acima de 65 caracteres (Pauline, Gray Court, Spartanburg)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos longos são cortados nos resultados do Google.",
+      "action": "Reduzir cada título para até 60 caracteres mantendo cidade e tema.",
+      "foundAt": "2026-11-19",
+      "doneAt": "2026-11-19",
+      "result": "3 títulos reduzidos para 50-51 caracteres; entram no ar na rodada das 7h."
     }
   ]
 }
