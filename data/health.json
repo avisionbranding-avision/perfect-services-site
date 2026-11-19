@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-19T03:50:00Z",
+  "checkedAt": "2026-11-19T06:55:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,7 +24,7 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de 18/11 publicada às 10:05 UTC"
+      "detail": "Rodada de 18/11 publicada às 10:05 UTC; a de hoje roda às 10:00 UTC"
     },
     {
       "id": "daily_count",
@@ -60,25 +60,30 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "849 URLs, igual ao esperado"
+      "detail": "849 endereços, igual ao esperado"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Google Tag Manager presente na home e nos artigos"
+      "detail": "Código do Google Tag Manager presente na home e no artigo mais novo"
     },
     {
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulários enviam para /api/lead"
+      "detail": "Formulários das cidades enviam para /api/lead na versão Cloudflare"
     }
   ],
   "fixes": [
-    "3 títulos de artigos encurtados (Pauline, Gray Court, Spartanburg); entram no ar às 7h"
+    "Descrição de 2 artigos de Greer ajustada para 152-157 caracteres"
   ],
   "history": [
+    {
+      "at": "2026-11-19T06:55:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 6 cidades, 3 diretórios, 2 descrições ajustadas"
+    },
     {
       "at": "2026-11-19T03:50:00Z",
       "overall": "ok",
@@ -371,11 +376,6 @@
     },
     {
       "at": "2026-11-11T21:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-11T15:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
     }

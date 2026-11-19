@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T03:50:00Z",
-  "now": "Revisei títulos, descrições, links e tamanho dos 308 artigos e as buscas de 6 cidades (Tryon, Columbus, Easley, Hendersonville, Pauline, Saluda); 3 títulos longos encurtados.",
+  "updatedAt": "2026-11-19T06:55:00Z",
+  "now": "Revisei descrição, título, links internos e tamanho dos 308 artigos, títulos duplicados e as buscas de 6 cidades (Woodruff, Greer, Taylors, Duncan, Lyman, Gray Court); 2 descrições ajustadas.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -729,6 +729,20 @@
       "foundAt": "2026-11-19",
       "doneAt": "2026-11-19",
       "result": "3 títulos reduzidos para 50-51 caracteres; entram no ar na rodada das 7h."
+    },
+    {
+      "id": "seo-desc-greer-2026-11-19",
+      "title": "Ajustar a descrição de 2 artigos de Greer (Brazilian bathrooms e office closets) para 140-160 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Descrições com 161 e 169 caracteres seriam cortadas no Google.",
+      "action": "Descrição encurtada em 2 artigos.",
+      "foundAt": "2026-11-19",
+      "doneAt": "2026-11-19T06:55:00Z",
+      "result": "Descrições agora com 157 e 152 caracteres."
     }
   ]
 }
