@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-20T12:50:00Z",
+  "checkedAt": "2026-11-20T15:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -66,19 +66,22 @@
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Google Tag Manager presente na home e no artigo mais novo"
+      "detail": "Código do Google Tag Manager presente na home e no artigo mais novo"
     },
     {
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulários das cidades enviam para /api/lead na versão Cloudflare"
+      "detail": "Formulário envia para /api/lead no build do Cloudflare"
     }
   ],
-  "fixes": [
-    "Encurtados 2 títulos de artigos acima de 65 caracteres (Five Forks e Travelers Rest)"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-20T15:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-20T12:50:00Z",
       "overall": "ok",
@@ -371,11 +374,6 @@
     },
     {
       "at": "2026-11-13T06:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-13T03:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
     }
