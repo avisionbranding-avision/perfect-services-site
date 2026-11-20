@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T21:50:00Z",
-  "now": "Revisei as buscas de 6 cidades (Pickens, Landrum, Spartanburg, Fountain Inn, Powdersville, Piedmont), 3 diretórios e a saúde do site; nenhuma melhoria automática nova e nenhum erro.",
+  "updatedAt": "2026-11-20T00:45:00Z",
+  "now": "Revisei a busca de 6 cidades (Liberty, Columbus NC, Easley, Hendersonville, Pauline, Saluda), 3 diretórios e a saúde do site; 1 nova melhoria local aberta, nenhum erro.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -797,6 +797,20 @@
       "why": "MaidPro aparece em 1º lugar para house cleaning Simpsonville SC na busca de hoje.",
       "action": "Bloco com equipe local, orçamento grátis em casa, nota do Google e Brazilian cleaning.",
       "foundAt": "2026-11-19",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-hendersonville-saluda-garantias",
+      "title": "Destacar seguro, orçamento grátis e avaliações nas páginas de Hendersonville e Saluda",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/hendersonville-nc/",
+      "why": "Na busca por Hendersonville, empresas locais se apresentam como locally owned, insured e free estimates; em Saluda a MaidPro tem página própria.",
+      "action": "Bloco com garantias (orçamento grátis, equipe própria) e avaliações do Google nas páginas de Hendersonville e Saluda.",
+      "foundAt": "2026-11-20",
       "doneAt": null,
       "result": null
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T21:50:00Z",
+  "updatedAt": "2026-11-20T00:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1877,76 +1877,46 @@
     "pauline-sc": {
       "city": "Pauline, SC",
       "query": "house cleaning Pauline SC",
-      "checkedAt": "2026-11-19T03:50:00Z",
+      "checkedAt": "2026-11-20T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "House cleaning Pauline"
+          "title": "Angi: house cleaning Pauline SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Housekeeping Pauline SC"
+          "title": "Care.com: housekeeping Pauline SC"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Housekeepers Pauline SC"
+          "domain": "instaservice.com",
+          "title": "Instaservice: cleaning Pauline"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeeping Pauline (page 2)"
-        },
-        {
-          "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeepers Pauline SC"
-        },
-        {
-          "pos": 6,
-          "domain": "care.com",
-          "title": "Housekeepers Pauline (page 3)"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Housekeepers Pauline (page 2)"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Cleaning lady Pauline SC"
-        },
-        {
-          "pos": 9,
-          "domain": "angi.com",
-          "title": "Cleaning Pauline SC"
-        },
-        {
-          "pos": 10,
-          "domain": "instaservice.com",
-          "title": "Cleaning Services Pauline"
+          "domain": "bbb.org",
+          "title": "BBB: janitor Pauline"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo (Angi, Care.com) e nenhuma empresa local; boa chance de aparecer: na página de Pauline, citar Spartanburg, preço inicial e FAQ.",
+      "tip": "Só diretórios aparecem; ainda não há empresa local forte. Reforçar a página de Pauline com serviços, FAQ e chamada para orçamento grátis.",
       "error": null
     },
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-19T03:50:00Z",
+      "checkedAt": "2026-11-20T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Saluda NC"
+          "title": "Care.com: house cleaning Saluda NC"
         },
         {
           "pos": 2,
@@ -1956,188 +1926,118 @@
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Saluda NC"
+          "title": "HomeAdvisor: house cleaning Saluda"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeepers Saluda (page 3)"
+          "domain": "angi.com",
+          "title": "Angi: house cleaning Saluda NC"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Housekeeping Saluda NC"
-        },
-        {
-          "pos": 6,
-          "domain": "angi.com",
-          "title": "House cleaning Saluda"
-        },
-        {
-          "pos": 7,
-          "domain": "match.angi.com",
-          "title": "Cleaning & maid services Mill Spring"
-        },
-        {
-          "pos": 8,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning"
-        },
-        {
-          "pos": 9,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Housekeeping Saluda (page 2)"
+          "domain": "instaservice.com",
+          "title": "Instaservice: Saluda NC"
         }
       ],
       "competitors": [
         {
           "pos": 2,
           "domain": "maidpro.com",
-          "name": "MaidPro (escritório de Hendersonville)"
+          "name": "MaidPro Saluda, NC"
         }
       ],
-      "tip": "A MaidPro aparece em 2º com página própria de Saluda; na página de Saluda, citar Hendersonville e Tryon, serviços semanal, quinzenal e avulso, e FAQ com preços.",
+      "tip": "A MaidPro tem página própria para Saluda; a nossa precisa de FAQ, serviços recorrentes e avaliações reais para competir.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-19T03:50:00Z",
+      "checkedAt": "2026-11-20T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Columbus NC"
+          "title": "Care.com: house cleaning Columbus NC"
         },
         {
           "pos": 2,
-          "domain": "care.com",
-          "title": "Housekeepers Columbus (page 3)"
+          "domain": "angi.com",
+          "title": "Angi: house cleaning Columbus NC"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Housekeeping Columbus NC"
+          "domain": "merrymaids.com",
+          "title": "Merry Maids Columbus"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeeping Columbus (page 2)"
-        },
-        {
-          "pos": 5,
-          "domain": "care.com",
-          "title": "Cleaning lady Columbus NC"
-        },
-        {
-          "pos": 6,
-          "domain": "angi.com",
-          "title": "House cleaning Columbus"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Housekeepers Columbus NC"
-        },
-        {
-          "pos": 8,
-          "domain": "angi.com",
-          "title": "Cleaning Columbus NC"
-        },
-        {
-          "pos": 9,
-          "domain": "merrymaids.com",
-          "title": "Merry Maids Columbus cleaning services"
-        },
-        {
-          "pos": 10,
-          "domain": "100hires.com",
-          "title": "Vaga de limpeza em Columbus NC"
+          "domain": "bbb.org",
+          "title": "BBB: maid service Columbus"
         }
       ],
       "competitors": [
         {
-          "pos": 9,
+          "pos": 3,
           "domain": "merrymaids.com",
           "name": "Merry Maids"
         }
       ],
-      "tip": "Care.com domina e só a Merry Maids aparece como empresa; na página de Columbus, destacar atendimento semanal, quinzenal e avulso, com preço inicial e FAQ, para competir com a Merry Maids.",
+      "tip": "A busca mistura outras cidades chamadas Columbus; destacar “Columbus, NC” e Polk County no título e no texto da página e citar o tempo de deslocamento desde Greer.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-19T03:50:00Z",
+      "checkedAt": "2026-11-20T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Easley SC"
+          "title": "Care.com: house cleaning Easley SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "House cleaning Easley (page 2)"
+          "title": "Care.com: custo de limpeza em Easley"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Cost of house cleaning Easley SC"
+          "domain": "homeadvisor.com",
+          "title": "HomeAdvisor: house cleaning Easley"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Easley SC"
+          "domain": "thumbtack.com",
+          "title": "Thumbtack: 10 house cleaners em Easley"
         },
         {
           "pos": 5,
-          "domain": "thumbtack.com",
-          "title": "10 house cleaners in Easley"
+          "domain": "angi.com",
+          "title": "Angi: house cleaning Easley"
         },
         {
           "pos": 6,
-          "domain": "angi.com",
-          "title": "House cleaning Easley"
-        },
-        {
-          "pos": 7,
-          "domain": "homeadvisor.com",
-          "title": "Post-construction cleaning Easley"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Housekeepers Easley (page 3)"
-        },
-        {
-          "pos": 9,
           "domain": "thumbtack.com",
           "title": "Emerald Cleaning Services"
         },
         {
-          "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Easley"
+          "pos": 7,
+          "domain": "bbb.org",
+          "title": "BBB: house cleaning Easley"
         }
       ],
       "competitors": [
         {
-          "pos": 9,
+          "pos": 6,
           "domain": "thumbtack.com",
           "name": "Emerald Cleaning Services"
         }
       ],
-      "tip": "Os resultados mostram preço médio (Care.com) e cotações (Thumbtack, HomeAdvisor); na página de Easley, mostrar faixa de preço por tipo de limpeza, FAQ e a nota do Google.",
+      "tip": "As páginas mais fortes mostram preço médio e avaliações; incluir na página de Easley uma faixa de preço por tipo de limpeza e avaliações do Google.",
       "error": null
     },
     "gray-court-sc": {
@@ -2638,152 +2538,107 @@
     "liberty-sc": {
       "city": "Liberty, SC",
       "query": "house cleaning Liberty SC",
-      "checkedAt": "2026-11-19T00:55:00Z",
+      "checkedAt": "2026-11-20T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Housekeeping Liberty SC"
+          "title": "Care.com: housekeeping Liberty SC"
         },
         {
           "pos": 2,
           "domain": "thumbtack.com",
-          "title": "CrystalClear Cleaning Co"
+          "title": "CrystalClear Cleaning Co."
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Housekeeping Liberty page 3"
+          "domain": "bbb.org",
+          "title": "BBB: maid service"
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeepers Liberty SC"
+          "domain": "michaelssupremecleanservices.gosite.com",
+          "title": "Michael’s Supreme Clean Services"
         },
         {
           "pos": 5,
-          "domain": "care.com",
-          "title": "Cleaning lady Liberty SC"
+          "domain": "angi.com",
+          "title": "Angi: cleaning Liberty SC"
         },
         {
           "pos": 6,
-          "domain": "bbb.org",
-          "title": "Maid service Liberty"
+          "domain": "servpro.com",
+          "title": "SERVPRO of Liberty"
         },
         {
           "pos": 7,
-          "domain": "michaelssupremecleanservices.gosite.com",
-          "title": "Michael's Supreme Clean Services"
-        },
-        {
-          "pos": 8,
-          "domain": "bbb.org",
-          "title": "Cleaning services Liberty"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Laundry services Liberty SC"
-        },
-        {
-          "pos": 10,
-          "domain": "bbb.org",
-          "title": "Commercial cleaning Liberty"
+          "domain": "mycleaningjobs.com",
+          "title": "MyCleaningJobs: Liberty SC"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
-          "domain": "thumbtack.com",
-          "name": "CrystalClear Cleaning Co"
+          "pos": 3,
+          "domain": "bbb.org",
+          "name": "CrystalClear Cleaning Co."
         },
         {
-          "pos": 7,
+          "pos": 4,
           "domain": "michaelssupremecleanservices.gosite.com",
-          "name": "Michael's Supreme Clean Services"
+          "name": "Michael’s Supreme Clean Services"
         }
       ],
-      "tip": "Concorrência fraca: um perfil no Thumbtack e um site simples. Uma página de Liberty com preço, FAQ e avaliações pode chegar ao topo; criar o perfil no Thumbtack ajudaria a aparecer também lá.",
+      "tip": "Só aparecem diretórios (Care.com, Thumbtack, BBB, Angi) e poucas empresas locais; uma página de Liberty com serviços, FAQ e pedido de orçamento pode ocupar esse espaço.",
       "error": null
     },
     "hendersonville-nc": {
       "city": "Hendersonville, NC",
       "query": "house cleaning Hendersonville NC",
-      "checkedAt": "2026-11-19T03:50:00Z",
+      "checkedAt": "2026-11-20T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning Hendersonville NC"
+          "title": "Care.com: house cleaning Hendersonville NC"
         },
         {
           "pos": 2,
-          "domain": "experience.com",
-          "title": "Balken's Cleaning Service"
+          "domain": "homeadvisor.com",
+          "title": "HomeAdvisor: house cleaning Hendersonville"
         },
         {
           "pos": 3,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Hendersonville NC"
-        },
-        {
-          "pos": 4,
           "domain": "angi.com",
           "title": "G&A Cleaning Solutions, LLC"
         },
         {
-          "pos": 5,
+          "pos": 4,
           "domain": "instaservice.com",
-          "title": "Cleaning Services Hendersonville"
+          "title": "Instaservice: cleaning Hendersonville"
         },
         {
-          "pos": 6,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning"
-        },
-        {
-          "pos": 7,
+          "pos": 5,
           "domain": "thumbtack.com",
           "title": "Cleaning Services A Greener Clean"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Cleaning lady Hendersonville NC"
-        },
-        {
-          "pos": 9,
-          "domain": "app.careerplug.com",
-          "title": "House Cleaning PROfessional (vaga)"
-        },
-        {
-          "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
-          "domain": "experience.com",
-          "name": "Balken's Cleaning Service"
-        },
-        {
-          "pos": 4,
+          "pos": 3,
           "domain": "angi.com",
           "name": "G&A Cleaning Solutions, LLC"
         },
         {
-          "pos": 7,
+          "pos": 5,
           "domain": "thumbtack.com",
           "name": "Cleaning Services A Greener Clean"
         }
       ],
-      "tip": "Empresas locais pequenas (Balken's, G&A) aparecem com anos de experiência e dono local; na página de Hendersonville, destacar equipe própria, limpeza ecológica e FAQ.",
+      "tip": "Concorrentes locais se apresentam como “locally owned, insured, free estimates”; repetir essas garantias e o orçamento grátis na página de Hendersonville.",
       "error": null
     }
   }
