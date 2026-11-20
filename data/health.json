@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-20T09:55:00Z",
+  "checkedAt": "2026-11-20T12:50:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "881 páginas geradas"
+      "detail": "913 páginas geradas"
     },
     {
       "id": "links",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de ontem publicada; a de hoje roda às 10:00 UTC"
+      "detail": "Rodada de hoje publicada (32 artigos)"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "Rodada de hoje ainda não rodou (10:00 UTC); ontem foram 32 artigos (meta 32)"
+      "detail": "32 artigos de hoje (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts de ontem presentes e sem telefone, link ou e-mail; os de hoje saem após 10:00 UTC"
+      "detail": "3 posts de hoje presentes e sem telefone, link ou e-mail"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "12 dias de temas de Greer restantes"
+      "detail": "11 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,13 +60,13 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "881 URLs no sitemap, igual ao esperado"
+      "detail": "913 endereços no sitemap, igual ao esperado"
     },
     {
       "id": "gtm",
       "label": "Google Tag Manager",
       "status": "ok",
-      "detail": "Código do Google Tag Manager presente na home e no artigo mais novo"
+      "detail": "Google Tag Manager presente na home e no artigo mais novo"
     },
     {
       "id": "lead_form",
@@ -75,8 +75,15 @@
       "detail": "Formulários das cidades enviam para /api/lead na versão Cloudflare"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Encurtados 2 títulos de artigos acima de 65 caracteres (Five Forks e Travelers Rest)"
+  ],
   "history": [
+    {
+      "at": "2026-11-20T12:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 2 títulos encurtados"
+    },
     {
       "at": "2026-11-20T09:55:00Z",
       "overall": "ok",
@@ -371,11 +378,6 @@
       "at": "2026-11-13T03:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-13T00:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 1 título ajustado"
     }
   ]
 }

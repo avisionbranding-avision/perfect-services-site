@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-20T09:55:00Z",
-  "now": "Revisei os resultados de busca de 6 cidades (Chesnee, Wade Hampton, Wellford, Inman, Greenville, Mauldin) e 3 diretórios; títulos, descrições e links internos dos 350 artigos estão dentro do padrão; nenhuma melhoria nova.",
+  "updatedAt": "2026-11-20T12:50:00Z",
+  "now": "Revisei títulos, descrições e links internos dos 382 artigos e as dicas de 6 cidades (Flat Rock, Travelers Rest, Campobello, Moore, Simpsonville, Berea); 1 melhoria aplicada (2 títulos encurtados); nenhuma melhoria nova aberta.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -813,6 +813,20 @@
       "foundAt": "2026-11-20",
       "doneAt": null,
       "result": null
+    },
+    {
+      "id": "seo-titulos-fiveforks-travelersrest-2026-11-20",
+      "title": "Encurtar 2 títulos acima de 65 caracteres (Five Forks e Travelers Rest)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos com 71 e 73 caracteres são cortados nos resultados do Google.",
+      "action": "Encurtar mantendo cidade e serviço.",
+      "foundAt": "2026-11-20",
+      "doneAt": "2026-11-20",
+      "result": "Títulos agora com 52 e 54 caracteres; entram no ar no deploy das 7h."
     }
   ]
 }
