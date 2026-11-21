@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T03:50:00Z",
+ "updatedAt": "2026-11-21T06:45:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
@@ -269,14 +269,14 @@
   "wade-hampton-sc": {
    "city": "Wade Hampton, SC",
    "query": "house cleaning Wade Hampton SC",
-   "checkedAt": "2026-11-20T09:55:00Z",
+   "checkedAt": "2026-11-21T06:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "House cleaning Hampton"
+     "title": "House cleaning in Hampton SC"
     },
     {
      "pos": 2,
@@ -286,7 +286,7 @@
     {
      "pos": 3,
      "domain": "bark.com",
-     "title": "Cleaners Hampton SC"
+     "title": "Cleaners in Hampton SC"
     },
     {
      "pos": 4,
@@ -295,148 +295,133 @@
     },
     {
      "pos": 5,
-     "domain": "care.com",
-     "title": "Squeeky Klean Maid Service, Honea Path"
-    },
-    {
-     "pos": 6,
-     "domain": "merrymaids.com",
-     "title": "Home cleaners Saint Helena Island"
-    },
-    {
-     "pos": 7,
-     "domain": "maids.com",
-     "title": "House Cleaning Services in South Carolina"
-    },
-    {
-     "pos": 8,
-     "domain": "merrymaids.com",
-     "title": "Home cleaners North Augusta"
+     "domain": "homeaglow.com",
+     "title": "Housekeeping Services in Hampton, SC"
     }
    ],
    "competitors": [
     {
-     "pos": 6,
-     "domain": "merrymaids.com",
-     "name": "Merry Maids"
+     "pos": 4,
+     "domain": "maids.com",
+     "name": "The Maids"
     }
    ],
-   "tip": "A busca não mostra empresa local de Wade Hampton (resultados de outras cidades); citar Wade Hampton e Greenville no título e no texto da página para ocupar o espaço vazio.",
+   "tip": "A busca confunde Wade Hampton com Hampton (SC); reforçar na página 'Wade Hampton, Greenville County' no título e no texto para separar dos resultados errados.",
    "error": null
   },
   "wellford-sc": {
    "city": "Wellford, SC",
    "query": "house cleaning Wellford SC",
-   "checkedAt": "2026-11-20T09:55:00Z",
+   "checkedAt": "2026-11-21T06:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
+     "domain": "angi.com",
+     "title": "House cleaning Wellford"
+    },
+    {
+     "pos": 2,
      "domain": "care.com",
      "title": "House cleaning Wellford SC"
     },
     {
-     "pos": 2,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning Wellford"
-    },
-    {
      "pos": 3,
-     "domain": "angi.com",
-     "title": "House cleaning Wellford (9 profissionais)"
-    },
-    {
-     "pos": 4,
-     "domain": "homeguide.com",
-     "title": "Susvea's Naked Cleaning"
-    },
-    {
-     "pos": 5,
-     "domain": "care.com",
-     "title": "Housekeeping Wellford SC"
-    },
-    {
-     "pos": 6,
-     "domain": "homeadvisor.com",
-     "title": "Range hood clean"
-    },
-    {
-     "pos": 7,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning Wellford"
-    },
-    {
-     "pos": 8,
      "domain": "angi.com",
      "title": "Cleaning Wellford"
     },
     {
+     "pos": 4,
+     "domain": "care.com",
+     "title": "Housekeeping Wellford"
+    },
+    {
+     "pos": 5,
+     "domain": "homeadvisor.com",
+     "title": "House cleaning Wellford SC"
+    },
+    {
+     "pos": 6,
+     "domain": "homeadvisor.com",
+     "title": "Range Hood Clean"
+    },
+    {
+     "pos": 7,
+     "domain": "care.com",
+     "title": "Cleaning lady Wellford"
+    },
+    {
+     "pos": 8,
+     "domain": "homeadvisor.com",
+     "title": "Cleaning one time service"
+    },
+    {
      "pos": 9,
      "domain": "homeadvisor.com",
-     "title": "One-time cleaning Wellford"
+     "title": "Cleaning Maid Services Wellford"
     },
     {
      "pos": 10,
-     "domain": "care.com",
-     "title": "Cleaning lady Wellford SC"
+     "domain": "homeguide.com",
+     "title": "Susvea's Naked Cleaning"
     }
    ],
    "competitors": [
     {
-     "pos": 3,
-     "domain": "angi.com",
-     "name": "A Little House Cleaning Services LLC"
-    },
-    {
-     "pos": 2,
-     "domain": "homeadvisor.com",
-     "name": "Upstate SK Cleaning Service, Inc."
-    },
-    {
-     "pos": 2,
-     "domain": "homeadvisor.com",
-     "name": "Top Notch Cleaning Solutions"
+     "pos": 10,
+     "domain": "homeguide.com",
+     "name": "Susvea's Naked Cleaning"
     }
    ],
-   "tip": "Concorrentes locais aparecem com nota no HomeAdvisor e Angi; mostrar na página de Wellford a nota 5,0 do Google, preço inicial e perguntas frequentes.",
+   "tip": "Diretórios dominam Wellford, com notas e avaliações visíveis; colocar na página de Wellford a nota do Google, orçamento grátis e a proximidade de Greer.",
    "error": null
   },
   "startex-sc": {
    "city": "Startex, SC",
    "query": "house cleaning Startex SC",
-   "checkedAt": "2026-11-20T06:45:00Z",
+   "checkedAt": "2026-11-21T06:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning in Startex SC"
-    },
-    {
-     "pos": 2,
      "domain": "angi.com",
      "title": "House cleaning in Startex"
     },
     {
-     "pos": 3,
+     "pos": 2,
      "domain": "care.com",
      "title": "Cleaning lady in Startex"
     },
     {
+     "pos": 3,
+     "domain": "homeadvisor.com",
+     "title": "House cleaning Startex SC"
+    },
+    {
      "pos": 4,
+     "domain": "care.com",
+     "title": "Cleaning lady in Startex"
+    },
+    {
+     "pos": 5,
+     "domain": "angi.com",
+     "title": "Cleaning in Startex"
+    },
+    {
+     "pos": 6,
      "domain": "care.com",
      "title": "Housekeepers in Startex"
     },
     {
-     "pos": 5,
+     "pos": 7,
      "domain": "bbb.org",
      "title": "Janitor in Startex"
     }
    ],
    "competitors": [],
-   "tip": "Só diretórios aparecem para Startex, mostrando nota e número de avaliações; destacar na página de Startex a nota do Google, o orçamento grátis e a distância até Greer.",
+   "tip": "Só diretórios (Angi, Care.com, HomeAdvisor) aparecem para Startex; mostrar na página a nota do Google, orçamento grátis e a distância até Greer.",
    "error": null
   },
   "reidville-sc": {
@@ -608,7 +593,7 @@
   "inman-sc": {
    "city": "Inman, SC",
    "query": "house cleaning Inman SC",
-   "checkedAt": "2026-11-20T09:55:00Z",
+   "checkedAt": "2026-11-21T06:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -619,137 +604,117 @@
     },
     {
      "pos": 2,
-     "domain": "care.com",
-     "title": "Custo de house cleaning em Inman"
+     "domain": "angi.com",
+     "title": "Williams Family Solutions LLC"
     },
     {
      "pos": 3,
-     "domain": "maidpro.com",
-     "title": "MaidPro Inman (4,8 em 161 avaliações)"
+     "domain": "angi.com",
+     "title": "House cleaning Inman"
     },
     {
      "pos": 4,
      "domain": "angi.com",
-     "title": "Williams Family Solutions"
+     "title": "Cleaning Inman"
     },
     {
      "pos": 5,
-     "domain": "care.com",
-     "title": "Housekeeping Inman SC"
+     "domain": "maidpro.com",
+     "title": "MaidPro Inman, SC"
     },
     {
      "pos": 6,
-     "domain": "homeadvisor.com",
-     "title": "Cleaning maid services Inman"
-    },
-    {
-     "pos": 7,
-     "domain": "angi.com",
-     "title": "Maid service Inman"
-    },
-    {
-     "pos": 8,
      "domain": "care.com",
-     "title": "Housekeepers Inman SC"
+     "title": "Housekeeping Inman"
     }
    ],
    "competitors": [
     {
-     "pos": 3,
+     "pos": 5,
      "domain": "maidpro.com",
      "name": "MaidPro Inman"
-    },
-    {
-     "pos": 6,
-     "domain": "homeadvisor.com",
-     "name": "Top Notch Cleaning Solutions"
     }
    ],
-   "tip": "A franquia MaidPro mostra nota e número de avaliações; exibir na página de Inman as avaliações 5 estrelas do Google e um preço inicial.",
+   "tip": "A franquia MaidPro aparece com nota 4,8 e 161 avaliações; destacar na página de Inman nossa nota do Google, orçamento grátis e atendimento local.",
    "error": null
   },
   "greenville-sc": {
    "city": "Greenville, SC",
    "query": "house cleaning Greenville SC",
-   "checkedAt": "2026-11-20T09:55:00Z",
+   "checkedAt": "2026-11-21T06:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "thumbtack.com",
-     "title": "15 house cleaners em Greenville"
+     "domain": "care.com",
+     "title": "House cleaning Greenville SC"
     },
     {
      "pos": 2,
-     "domain": "thumbtack.com",
-     "title": "JUNE's Cleaning Service"
+     "domain": "homeadvisor.com",
+     "title": "House cleaning Greenville SC"
     },
     {
      "pos": 3,
+     "domain": "thumbtack.com",
+     "title": "House cleaners Greenville"
+    },
+    {
+     "pos": 4,
+     "domain": "bbb.org",
+     "title": "House Cleaning Greenville"
+    },
+    {
+     "pos": 5,
+     "domain": "angi.com",
+     "title": "House cleaning Greenville"
+    },
+    {
+     "pos": 6,
+     "domain": "thecleaningauthority.com",
+     "title": "The Cleaning Authority - East Greenville"
+    },
+    {
+     "pos": 7,
+     "domain": "thumbtack.com",
+     "title": "House cleaners Greenville"
+    },
+    {
+     "pos": 8,
      "domain": "maidpro.com",
      "title": "MaidPro Greer, SC"
     },
     {
-     "pos": 4,
-     "domain": "thumbtack.com",
-     "title": "12 maids em Greenville"
-    },
-    {
-     "pos": 5,
-     "domain": "maidpro.com",
-     "title": "MaidPro Greenville"
-    },
-    {
-     "pos": 6,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning Greenville"
-    },
-    {
-     "pos": 7,
-     "domain": "maidpro.com",
-     "title": "MaidPro Inman, SC"
-    },
-    {
-     "pos": 8,
-     "domain": "taskrabbit.co.uk",
-     "title": "House cleaning Greenville"
-    },
-    {
      "pos": 9,
-     "domain": "thumbtack.com",
-     "title": "Shad Cleaning LLC"
+     "domain": "angi.com",
+     "title": "A Little House Cleaning Service"
     },
     {
      "pos": 10,
-     "domain": "taskrabbit.co.uk",
-     "title": "House cleaning Greenville"
+     "domain": "homeadvisor.com",
+     "title": "House Cleaning Greenville"
     }
    ],
    "competitors": [
     {
-     "pos": 3,
+     "pos": 6,
+     "domain": "thecleaningauthority.com",
+     "name": "The Cleaning Authority"
+    },
+    {
+     "pos": 8,
      "domain": "maidpro.com",
      "name": "MaidPro Greer"
-    },
-    {
-     "pos": 5,
-     "domain": "maidpro.com",
-     "name": "MaidPro Greenville"
-    },
-    {
-     "pos": 9,
-     "domain": "thumbtack.com",
-     "name": "Shad Cleaning LLC"
     }
    ],
-   "tip": "Cidade grande e disputada, com franquias (MaidPro, Cleaning Authority, Two Maids) no topo; focar em Greer e vizinhas e usar Greenville com avaliações reais e preço inicial.",
+   "tip": "Franquias (Cleaning Authority, MaidPro, Merry Maids) disputam Greenville; destacar na página avaliações reais, preço de partida e a lista de serviços para competir.",
    "error": null
   },
   "mauldin-sc": {
    "city": "Mauldin, SC",
    "query": "house cleaning Mauldin SC",
-   "checkedAt": "2026-11-20T09:55:00Z",
+   "checkedAt": "2026-11-21T06:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -760,58 +725,32 @@
     },
     {
      "pos": 2,
-     "domain": "thumbtack.com",
-     "title": "13 house cleaners em Mauldin"
-    },
-    {
-     "pos": 3,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning Mauldin"
-    },
-    {
-     "pos": 4,
      "domain": "homeadvisor.com",
      "title": "Cleaning one time service"
     },
     {
-     "pos": 5,
+     "pos": 3,
+     "domain": "angi.com",
+     "title": "House Cleaning Mauldin"
+    },
+    {
+     "pos": 4,
      "domain": "thumbtack.com",
-     "title": "Big Body Cleaning Services LLC"
+     "title": "House cleaners Mauldin"
+    },
+    {
+     "pos": 5,
+     "domain": "care.com",
+     "title": "Cleaning lady Mauldin"
     },
     {
      "pos": 6,
-     "domain": "care.com",
-     "title": "Housekeeping Mauldin SC"
-    },
-    {
-     "pos": 7,
-     "domain": "care.com",
-     "title": "Housekeepers Mauldin SC"
-    },
-    {
-     "pos": 8,
-     "domain": "care.com",
-     "title": "Housekeeping Mauldin, página 2"
-    },
-    {
-     "pos": 9,
-     "domain": "angi.com",
-     "title": "Cleaning maid services Mauldin"
-    },
-    {
-     "pos": 10,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning Mauldin"
+     "domain": "bbb.org",
+     "title": "Cleaning services Mauldin"
     }
    ],
-   "competitors": [
-    {
-     "pos": 5,
-     "domain": "thumbtack.com",
-     "name": "Big Body Cleaning Services LLC"
-    }
-   ],
-   "tip": "Só diretórios e prestadores pequenos no topo; mostrar na página de Mauldin nota do Google, preço inicial e área atendida para se destacar.",
+   "competitors": [],
+   "tip": "Só diretórios aparecem para Mauldin; mostrar na página de Mauldin a nota do Google, o orçamento grátis e a distância até Greer.",
    "error": null
   },
   "travelers-rest-sc": {
