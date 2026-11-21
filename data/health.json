@@ -1,12 +1,12 @@
 {
- "checkedAt": "2026-11-21T09:45:00Z",
+ "checkedAt": "2026-11-21T12:45:00Z",
  "overall": "ok",
  "checks": [
   {
    "id": "build",
    "label": "Geração do site",
    "status": "ok",
-   "detail": "913 páginas geradas"
+   "detail": "945 páginas geradas"
   },
   {
    "id": "links",
@@ -24,25 +24,25 @@
    "id": "daily_run",
    "label": "Rotina diária",
    "status": "ok",
-   "detail": "Rodada de ontem publicada (32 artigos); a de hoje roda às 7h"
+   "detail": "Rodada de hoje publicada às 10:05 UTC (32 artigos)"
   },
   {
    "id": "daily_count",
    "label": "Quantidade de artigos",
    "status": "ok",
-   "detail": "Rodada de ontem com 32 artigos (meta 32); a de hoje roda às 7h"
+   "detail": "32 artigos de hoje (meta 32)"
   },
   {
    "id": "gbp_posts",
    "label": "Posts do Google Meu Negócio",
    "status": "ok",
-   "detail": "Posts de hoje ainda não gerados (antes das 12h UTC); os de ontem estavam corretos"
+   "detail": "3 posts de hoje gerados, sem telefone, link ou e-mail no texto"
   },
   {
    "id": "greer_queue",
    "label": "Temas de Greer",
    "status": "ok",
-   "detail": "11 dias de temas de Greer restantes"
+   "detail": "10 dias de temas de Greer restantes"
   },
   {
    "id": "cities",
@@ -60,7 +60,7 @@
    "id": "sitemap",
    "label": "Sitemap",
    "status": "ok",
-   "detail": "913 endereços no sitemap"
+   "detail": "945 URLs no sitemap, igual ao esperado"
   },
   {
    "id": "gtm",
@@ -77,6 +77,11 @@
  ],
  "fixes": [],
  "history": [
+  {
+   "at": "2026-11-21T12:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
   {
    "at": "2026-11-21T09:45:00Z",
    "overall": "ok",
@@ -369,11 +374,6 @@
   },
   {
    "at": "2026-11-14T03:45:00Z",
-   "overall": "ok",
-   "summary": "Tudo certo"
-  },
-  {
-   "at": "2026-11-14T00:45:00Z",
    "overall": "ok",
    "summary": "Tudo certo"
   }
