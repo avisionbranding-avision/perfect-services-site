@@ -1,33 +1,33 @@
 {
- "updatedAt": "2026-11-21T18:45:00Z",
+ "updatedAt": "2026-11-21T21:50:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
    "city": "Greer, SC",
    "query": "house cleaning Greer SC",
-   "checkedAt": "2026-11-21T00:55:00Z",
+   "checkedAt": "2026-11-21T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: house cleaning Greer"
+     "title": "Care.com house cleaning Greer SC"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Greer SC page 2"
+     "title": "Care.com Greer page 2"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "House cleaning Greer"
+     "title": "house cleaning"
     },
     {
      "pos": 4,
-     "domain": "angi.com",
-     "title": "Compare Quotes House Cleaning"
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from House Cleaning Services"
     },
     {
      "pos": 5,
@@ -37,27 +37,27 @@
     {
      "pos": 6,
      "domain": "angi.com",
-     "title": "An Artistic Touch Cleaning Service"
+     "title": "An Artistic Touch Cleaning Service, LLC"
     },
     {
      "pos": 7,
-     "domain": "care.com",
-     "title": "Cleaning lady Greer"
+     "domain": "thecleaningauthority.com",
+     "title": "The Cleaning Authority Greer house cleaning"
     },
     {
      "pos": 8,
-     "domain": "thecleaningauthority.com",
-     "title": "The Cleaning Authority Greer"
+     "domain": "care.com",
+     "title": "Care.com cleaning lady Greer"
     },
     {
      "pos": 9,
      "domain": "bbb.org",
-     "title": "Maid service Greer BBB"
+     "title": "maid service"
     },
     {
      "pos": 10,
-     "domain": "angi.com",
-     "title": "Compare Quotes Cleaning Services"
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from Cleaning Services"
     }
    ],
    "competitors": [
@@ -67,7 +67,7 @@
      "name": "MaidPro Greer"
     },
     {
-     "pos": 8,
+     "pos": 7,
      "domain": "thecleaningauthority.com",
      "name": "The Cleaning Authority"
     },
@@ -77,50 +77,50 @@
      "name": "An Artistic Touch Cleaning Service"
     }
    ],
-   "tip": "As franquias (MaidPro 4,8 estrelas com 161 avaliações) aparecem com nota. Mostrar na página de Greer a nota e as avaliações reais do Google, e reforçar que somos de Greer.",
+   "tip": "Franquias (MaidPro mostra 4,8 estrelas com 161 avaliações). Mostrar a nota do Google e avaliações reais na página de Greer e reforçar a marca local.",
    "error": null
   },
   "taylors-sc": {
    "city": "Taylors, SC",
    "query": "house cleaning Taylors SC",
-   "checkedAt": "2026-11-21T00:55:00Z",
+   "checkedAt": "2026-11-21T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: house cleaning Taylors"
+     "title": "Care.com house cleaning Taylors"
     },
     {
      "pos": 2,
      "domain": "bbb.org",
-     "title": "House Cleaning Taylors BBB"
+     "title": "House Cleaning (BBB)"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "Cleaning Taylors"
+     "title": "Angi cleaning Taylors"
     },
     {
      "pos": 4,
      "domain": "angi.com",
-     "title": "House cleaning Taylors"
+     "title": "house cleaning"
     },
     {
      "pos": 5,
-     "domain": "angi.com",
-     "title": "Compare Quotes House Cleaning"
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from House Cleaning Services"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Housekeeping Taylors"
+     "title": "Care.com housekeeping"
     },
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Cleaning lady Taylors"
+     "title": "Care.com cleaning lady"
     },
     {
      "pos": 8,
@@ -130,140 +130,140 @@
     {
      "pos": 9,
      "domain": "care.com",
-     "title": "Cleaning lady Taylors page 2"
+     "title": "Care.com cleaning lady page 2"
     },
     {
      "pos": 10,
      "domain": "care.com",
-     "title": "Housekeeping Taylors page 2"
+     "title": "Care.com housekeeping page 2"
     }
    ],
    "competitors": [],
-   "tip": "Só diretórios no topo para Taylors. Na página de Taylors, citar a distância de Greer (4 milhas), o orçamento grátis e uma faixa de preço inicial, que os diretórios não mostram.",
+   "tip": "Só diretórios no topo de Taylors; destacar na página o atendimento a 4 milhas de Greer, serviços e FAQ para ganhar o primeiro resultado de empresa local.",
    "error": null
   },
   "duncan-sc": {
    "city": "Duncan, SC",
    "query": "house cleaning Duncan SC",
-   "checkedAt": "2026-11-21T00:55:00Z",
+   "checkedAt": "2026-11-21T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: house cleaning Duncan"
+     "title": "Care.com house cleaning Duncan"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "House cleaning Duncan"
+     "title": "house cleaning"
     },
     {
      "pos": 3,
      "domain": "homeadvisor.com",
-     "title": "Duncan House Cleaning Services"
+     "title": "Serving Duncan, SC and surrounding areas"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Housekeeping Duncan"
+     "title": "Care.com housekeeping"
     },
     {
      "pos": 5,
      "domain": "homeadvisor.com",
-     "title": "Maid Service Duncan"
+     "title": "Compare Quotes from Cleaning Services"
     },
     {
      "pos": 6,
      "domain": "bbb.org",
-     "title": "Maid service Duncan BBB"
+     "title": "maid service"
     },
     {
      "pos": 7,
      "domain": "angi.com",
-     "title": "Cleaning Duncan"
+     "title": "Angi cleaning Duncan"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Cleaning lady Duncan"
+     "title": "Care.com cleaning lady"
     },
     {
      "pos": 9,
      "domain": "care.com",
-     "title": "Housekeeping Duncan page 2"
+     "title": "Care.com housekeeping page 2"
     },
     {
      "pos": 10,
-     "domain": "angi.com",
-     "title": "Compare Quotes Maid Service"
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from Cleaning Services"
     }
    ],
    "competitors": [],
-   "tip": "Nenhuma empresa local com site própria aparece em Duncan; só diretórios. Página de Duncan com FAQ local, área atendida (Lyman, Wellford, Greer) e botão de ligar no topo.",
+   "tip": "Resultados são diretórios com nota e número de avaliações; incluir avaliações do Google e um bloco de perguntas frequentes na página de Duncan.",
    "error": null
   },
   "lyman-sc": {
    "city": "Lyman, SC",
    "query": "house cleaning Lyman SC",
-   "checkedAt": "2026-11-21T00:55:00Z",
+   "checkedAt": "2026-11-21T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "House cleaning Lyman"
+     "title": "house cleaning"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Care.com: house cleaning Lyman"
+     "title": "Care.com house cleaning Lyman"
     },
     {
      "pos": 3,
      "domain": "bbb.org",
-     "title": "House cleaning Lyman BBB"
+     "title": "house cleaning"
     },
     {
      "pos": 4,
-     "domain": "angi.com",
-     "title": "Compare Quotes House Cleaning"
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from House Cleaning Services"
     },
     {
      "pos": 5,
-     "domain": "angi.com",
-     "title": "Compare Quotes Cleaning Services"
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from Cleaning Services"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Housekeeping Lyman"
+     "title": "Care.com housekeeping"
     },
     {
      "pos": 7,
      "domain": "bbb.org",
-     "title": "Maid service Lyman BBB"
+     "title": "maid service"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Cleaning lady Lyman"
+     "title": "Care.com cleaning lady"
     },
     {
      "pos": 9,
      "domain": "care.com",
-     "title": "Cleaning lady Lyman page 2"
+     "title": "Care.com cleaning lady page 2"
     },
     {
      "pos": 10,
-     "domain": "angi.com",
-     "title": "Post-Construction Cleaning Lyman"
+     "domain": "match.angi.com",
+     "title": "Post-Construction Cleaning"
     }
    ],
    "competitors": [],
-   "tip": "Só diretórios no topo (Angi 4,5 com 106 avaliações). Na página de Lyman, mostrar nota do Google, orçamento grátis e a lista de bairros e cidades vizinhas atendidas.",
+   "tip": "Só diretórios para Lyman; uma página com serviços, área atendida e avaliações reais pode competir bem, e um artigo local ajuda com links internos.",
    "error": null
   },
   "wade-hampton-sc": {
@@ -1571,24 +1571,24 @@
   "woodruff-sc": {
    "city": "Woodruff, SC",
    "query": "house cleaning Woodruff SC",
-   "checkedAt": "2026-11-21T00:55:00Z",
+   "checkedAt": "2026-11-21T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: house cleaning Woodruff"
+     "title": "Care.com house cleaning Woodruff"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "House cleaning Woodruff"
+     "title": "house cleaning"
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Housekeeping Woodruff page 2"
+     "title": "Care.com housekeeping page 2"
     },
     {
      "pos": 4,
@@ -1598,27 +1598,27 @@
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Cleaning lady Woodruff"
+     "title": "Care.com cleaning lady"
     },
     {
      "pos": 6,
-     "domain": "care.com",
-     "title": "Housekeeping Woodruff"
+     "domain": "match.angi.com",
+     "title": "SDcontracting"
     },
     {
      "pos": 7,
-     "domain": "angi.com",
-     "title": "match.angi.com rated"
+     "domain": "care.com",
+     "title": "Care.com housekeeping"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Housekeeping Woodruff page 3"
+     "title": "Care.com housekeeping page 3"
     },
     {
      "pos": 9,
      "domain": "angi.com",
-     "title": "Cleaning Woodruff"
+     "title": "Angi cleaning Woodruff"
     },
     {
      "pos": 10,
@@ -1627,7 +1627,7 @@
     }
    ],
    "competitors": [],
-   "tip": "Só diretórios aparecem em Woodruff. Reforçar a página com preço inicial, FAQ local e o selo de empresa de Greer a poucos minutos.",
+   "tip": "Resultados são diretórios; destacar limpeza pontual e recorrente em Woodruff com preço inicial e avaliações do Google na página da cidade.",
    "error": null
   },
   "powdersville-sc": {
@@ -1867,43 +1867,69 @@
   "pauline-sc": {
    "city": "Pauline, SC",
    "query": "house cleaning Pauline SC",
-   "checkedAt": "2026-11-20T21:50:00Z",
+   "checkedAt": "2026-11-21T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "Angi: house cleaning Pauline"
+     "title": "house cleaning"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Care.com: housekeeping Pauline"
+     "title": "Care.com housekeeping Pauline SC"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "Angi: cleaning Pauline"
+     "title": "Angi cleaning Pauline"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Care.com: housekeepers Pauline"
+     "title": "Care.com housekeepers Pauline"
     },
     {
      "pos": 5,
-     "domain": "bbb.org",
-     "title": "BBB: janitor Pauline"
+     "domain": "care.com",
+     "title": "Care.com housekeeping page 2"
     },
     {
      "pos": 6,
-     "domain": "instaservice.com",
-     "title": "Cleaning Services Pauline"
+     "domain": "care.com",
+     "title": "Care.com cleaning lady Pauline"
+    },
+    {
+     "pos": 7,
+     "domain": "care.com",
+     "title": "Care.com housekeepers page 0"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeepers page 2"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "Care.com housekeepers page 3"
+    },
+    {
+     "pos": 10,
+     "domain": "bbb.org",
+     "title": "BBB janitor Pauline"
     }
    ],
-   "competitors": [],
-   "tip": "O topo é só diretórios (Angi, Care.com, BBB) sem empresa local. Poucas páginas disputam a busca: a página de Pauline com perguntas e respostas e a cidade vizinha de Spartanburg linkada pode ganhar posição.",
+   "competitors": [
+    {
+     "pos": 19,
+     "domain": "instaservice.com",
+     "name": "Cleaning Services Pauline (InstaService)"
+    }
+   ],
+   "tip": "Só diretórios aparecem para Pauline; uma página local da Perfect Services com preço inicial, avaliações e FAQ pode entrar no topo com pouca concorrência real.",
    "error": null
   },
   "saluda-nc": {
