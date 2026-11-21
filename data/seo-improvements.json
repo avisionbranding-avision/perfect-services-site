@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-21T00:55:00Z",
- "now": "Revisei os resultados de busca de 6 cidades (Hendersonville, Greer, Taylors, Duncan, Lyman, Woodruff) e os 12 itens do painel; nenhuma melhoria nova nem correção automática nesta rodada.",
+ "updatedAt": "2026-11-21T03:50:00Z",
+ "now": "Revisei os resultados de busca de 6 cidades (Tryon, Cowpens, Five Forks, Gray Court, Pelzer, Reidville), 3 diretórios e os itens do painel; 1 melhoria automática aplicada (abertura repetida de um artigo de Airbnb).",
  "items": [
   {
    "id": "seo-diretorios",
@@ -833,14 +833,14 @@
    "title": "Reescrever a abertura repetida \"Checkout is at 11.\" em 2 artigos de Airbnb em Greer",
    "area": "conteudo",
    "owner": "auto",
-   "status": "aberta",
+   "status": "feita",
    "priority": 3,
    "page": "https://perfectservicespaintingcleaning.com/blog/airbnb-cleaning-in-greer-the-kitchen-step-by-step.html",
    "why": "Os artigos airbnb-cleaning-for-busy-families-in-greer e airbnb-cleaning-in-greer-the-kitchen-step-by-step começam com a mesma frase, o que parece texto de modelo.",
    "action": "Reescrever a primeira frase de um dos dois com outra situação concreta de turnover em Greer.",
    "foundAt": "2026-11-20",
-   "doneAt": null,
-   "result": null
+   "doneAt": "2026-11-21T03:50:00Z",
+   "result": "Abertura do artigo da cozinha reescrita (\"A family of five just left your Greer rental…\"); o outro artigo manteve a frase original."
   }
  ]
 }

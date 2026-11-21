@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T00:55:00Z",
+ "updatedAt": "2026-11-21T03:50:00Z",
  "kit": [
   {
    "label": "Business name (igual ao Google)",
@@ -116,7 +116,7 @@
    "match": "thumbtack.com",
    "status": "pending",
    "url": null,
-   "checkedAt": "2026-11-20T15:45:00Z"
+   "checkedAt": "2026-11-21T03:50:00Z"
   },
   {
    "id": "care",
@@ -127,7 +127,7 @@
    "match": "care.com",
    "status": "pending",
    "url": null,
-   "checkedAt": "2026-11-20T18:55:00Z"
+   "checkedAt": "2026-11-21T03:50:00Z"
   },
   {
    "id": "apple",
@@ -138,7 +138,7 @@
    "match": "apple.com",
    "status": "pending",
    "url": null,
-   "checkedAt": "2026-11-20T15:45:00Z"
+   "checkedAt": "2026-11-21T03:50:00Z"
   },
   {
    "id": "nextdoor",

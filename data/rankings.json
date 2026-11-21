@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T00:55:00Z",
+ "updatedAt": "2026-11-21T03:50:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
@@ -442,131 +442,167 @@
   "reidville-sc": {
    "city": "Reidville, SC",
    "query": "house cleaning Reidville SC",
-   "checkedAt": "2026-11-20T06:45:00Z",
+   "checkedAt": "2026-11-21T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning in Reidville SC"
+     "domain": "servpro.com",
+     "title": "Reidville Fire and Water Damage Restoration"
     },
     {
      "pos": 2,
-     "domain": "angi.com",
-     "title": "House cleaning in Reidville"
+     "domain": "mollymaid.com",
+     "title": "House Cleaning Services in Reidville, SC"
     },
     {
      "pos": 3,
-     "domain": "homeadvisor.com",
-     "title": "Powerwashing Reidville"
+     "domain": "curbappealgreenville.com",
+     "title": "House Washing in Reidville"
     },
     {
      "pos": 4,
-     "domain": "homeadvisor.com",
-     "title": "Dryer Vent Clean Reidville"
+     "domain": "gutterbro.team",
+     "title": "Pressure Washing in Reidville"
     },
     {
      "pos": 5,
-     "domain": "instaservice.com",
-     "title": "Bedroom cleaning in Reidville"
+     "domain": "cvpressurewash.com",
+     "title": "House Washing in Reidville"
     },
     {
      "pos": 6,
-     "domain": "homeadvisor.com",
-     "title": "Post Construction Clean up Reidville"
+     "domain": "freshandshine-cleaning.com",
+     "title": "Cleaning Services in Greenville & Spartanburg, SC"
     },
     {
      "pos": 7,
-     "domain": "merrymaids.com",
-     "title": "Merry Maids Spartanburg area"
+     "domain": "emilychenpressure.com",
+     "title": "Pressure Cleaning in South Carolina"
     },
     {
      "pos": 8,
-     "domain": "merrymaids.com",
-     "title": "Merry Maids maid service"
+     "domain": "olivacleaningservices.com",
+     "title": "Move Out Cleaning in Reidville, SC"
     },
     {
      "pos": 9,
-     "domain": "maids.com",
-     "title": "House Cleaning Services in South Carolina"
+     "domain": "riveradaviespressure.com",
+     "title": "Pressure Cleaning in South Carolina"
     },
     {
      "pos": 10,
-     "domain": "thumbtack.com",
-     "title": "House cleaners in Greenville"
+     "domain": "sparklingandbeyond.com",
+     "title": "Professional Deep Cleaning Services"
     }
    ],
    "competitors": [
     {
-     "pos": 7,
-     "domain": "merrymaids.com",
-     "name": "Merry Maids"
+     "pos": 2,
+     "domain": "mollymaid.com",
+     "name": "Molly Maid (franquia)"
     },
     {
-     "pos": 9,
-     "domain": "maids.com",
-     "name": "The Maids"
+     "pos": 6,
+     "domain": "freshandshine-cleaning.com",
+     "name": "Fresh & Shine (endereço em Reidville, preço em 15 min)"
+    },
+    {
+     "pos": 8,
+     "domain": "olivacleaningservices.com",
+     "name": "Oliva Cleaning Services"
+    },
+    {
+     "pos": 10,
+     "domain": "sparklingandbeyond.com",
+     "name": "Sparkling and Beyond"
     }
    ],
-   "tip": "Merry Maids aparece com serviço semanal, quinzenal e mensal; deixar claro na página de Reidville os planos recorrentes e a nota do Google.",
+   "tip": "Fresh & Shine promete preço em 15 minutos e mora em Reidville; mostrar na página de Reidville resposta rápida ao orçamento e atendimento por equipe de Greer, a poucos minutos.",
    "error": null
   },
   "five-forks-sc": {
    "city": "Five Forks, SC",
    "query": "house cleaning Five Forks SC",
-   "checkedAt": "2026-11-20T06:45:00Z",
+   "checkedAt": "2026-11-21T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "angi.com",
-     "title": "House cleaning in Fork SC"
+     "domain": "mollymaid.com",
+     "title": "House Cleaning Services in Five Forks, South Carolina"
     },
     {
      "pos": 2,
-     "domain": "angi.com",
-     "title": "Cleaning in Fork SC"
+     "domain": "yelp.com",
+     "title": "House Cleaning Services near Five Forks, SC"
     },
     {
      "pos": 3,
-     "domain": "bbb.org",
-     "title": "Maid service in Fork SC"
+     "domain": "aaarousse.com",
+     "title": "House Cleanout Services in Five Forks"
     },
     {
      "pos": 4,
-     "domain": "goloadup.com",
-     "title": "Five Forks Property Cleanup"
+     "domain": "grunber.com",
+     "title": "House Clean-out Services in Five Forks"
     },
     {
      "pos": 5,
-     "domain": "angi.com",
-     "title": "House cleaning in Conestee"
+     "domain": "bluetidesoftwash.com",
+     "title": "Pressure Washing in Five Forks"
     },
     {
      "pos": 6,
-     "domain": "bbb.org",
-     "title": "House cleaning"
+     "domain": "cleaningservicesc.com",
+     "title": "Affordable House Cleaning Services for Your Family"
     },
     {
      "pos": 7,
-     "domain": "thumbtack.com",
-     "title": "House cleaners in Greenville"
+     "domain": "foothillsexterior.com",
+     "title": "Soft Washing Five Forks SC"
     },
     {
      "pos": 8,
-     "domain": "thumbtack.com",
-     "title": "Maids in Greenville"
+     "domain": "purelycleaningsolutions.com",
+     "title": "Purely Cleaning Solutions"
     },
     {
      "pos": 9,
-     "domain": "maids.com",
-     "title": "House Cleaning Services in South Carolina"
+     "domain": "jcmaidservices.com",
+     "title": "Trusted Maid Services in Five Forks"
+    },
+    {
+     "pos": 10,
+     "domain": "wncwashpros.com",
+     "title": "Pressure Washing - Five Forks, SC"
     }
    ],
-   "competitors": [],
-   "tip": "Nenhuma empresa de limpeza de casas aparece claramente para Five Forks, então há espaço; reforçar a página com o nome da cidade, o bairro e o orçamento grátis.",
+   "competitors": [
+    {
+     "pos": 1,
+     "domain": "mollymaid.com",
+     "name": "Molly Maid (franquia)"
+    },
+    {
+     "pos": 6,
+     "domain": "cleaningservicesc.com",
+     "name": "Cleaning Service SC"
+    },
+    {
+     "pos": 8,
+     "domain": "purelycleaningsolutions.com",
+     "name": "Purely Cleaning Solutions (Simpsonville)"
+    },
+    {
+     "pos": 9,
+     "domain": "jcmaidservices.com",
+     "name": "JC Maid Service"
+    }
+   ],
+   "tip": "Só uma franquia (Molly Maid) e poucas locais; página de Five Forks com orçamento grátis, preço inicial e perguntas frequentes pode entrar no topo.",
    "error": null
   },
   "inman-sc": {
@@ -1670,44 +1706,79 @@
   "tryon-nc": {
    "city": "Tryon, NC",
    "query": "house cleaning Tryon NC",
-   "checkedAt": "2026-11-20T03:45:00Z",
+   "checkedAt": "2026-11-21T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "care.com",
-     "title": "Housekeepers in Tryon, NC"
+     "domain": "angi.com",
+     "title": "Top 10 Best House cleaners in Tryon, NC"
     },
     {
      "pos": 2,
-     "domain": "angi.com",
-     "title": "House cleaning in Tryon"
+     "domain": "yelp.com",
+     "title": "Home cleaning near Tryon, NC"
     },
     {
      "pos": 3,
-     "domain": "bbb.org",
-     "title": "Maid service in Tryon"
+     "domain": "housekeeper.com",
+     "title": "Housekeepers in Tryon, North Carolina"
     },
     {
      "pos": 4,
-     "domain": "homeadvisor.com",
-     "title": "HeyMaid"
+     "domain": "wfskills.com",
+     "title": "House Cleaning in Tryon, North Carolina"
     },
     {
      "pos": 5,
-     "domain": "mycleaningjobs.com",
-     "title": "Cleaning in Tryon, NC"
+     "domain": "glowwaveservices.com",
+     "title": "House Cleaning in Tryon, NC"
+    },
+    {
+     "pos": 6,
+     "domain": "happyhelpservices.com",
+     "title": "House Cleaning Services in Tryon"
+    },
+    {
+     "pos": 7,
+     "domain": "sarashousekeeping.com",
+     "title": "Sara's Housekeeping - Landrum, SC - Tryon, NC"
+    },
+    {
+     "pos": 8,
+     "domain": "heymaid.com",
+     "title": "House Cleaning Services"
+    },
+    {
+     "pos": 9,
+     "domain": "homeglowcleaningservices.com",
+     "title": "House Cleaning in Tryon, NC"
     }
    ],
    "competitors": [
     {
-     "pos": 4,
-     "domain": "homeadvisor.com",
-     "name": "HeyMaid (5.0, 11 avaliações no HomeAdvisor)"
+     "pos": 5,
+     "domain": "glowwaveservices.com",
+     "name": "GlowWave"
+    },
+    {
+     "pos": 6,
+     "domain": "happyhelpservices.com",
+     "name": "Happy2help Housekeeping"
+    },
+    {
+     "pos": 7,
+     "domain": "sarashousekeeping.com",
+     "name": "Sara's Housekeeping"
+    },
+    {
+     "pos": 9,
+     "domain": "homeglowcleaningservices.com",
+     "name": "Home Glow Cleaning Services (mostra preços iniciais)"
     }
    ],
-   "tip": "Só diretórios aparecem no topo; uma empresa local pequena (HeyMaid) mostra nota 5.0. Destacar na página de Tryon as avaliações do Google e o atendimento a Tryon/Saluda/Landrum para disputar o espaço.",
+   "tip": "Home Glow mostra preço inicial na página e Sara's atende Tryon e Landrum; colocar faixa de preço e Landrum/Saluda na página de Tryon.",
    "error": null
   },
   "piedmont-sc": {
@@ -1980,162 +2051,220 @@
   "gray-court-sc": {
    "city": "Gray Court, SC",
    "query": "house cleaning Gray Court SC",
-   "checkedAt": "2026-11-20T06:45:00Z",
+   "checkedAt": "2026-11-21T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "care.com",
-     "title": "Gray Court SC house cleaning"
+     "domain": "local.yahoo.com",
+     "title": "Memes House Cleaning and More in Gray Court"
     },
     {
      "pos": 2,
-     "domain": "angi.com",
-     "title": "House cleaning in Gray Court"
+     "domain": "care.com",
+     "title": "House Cleaning Services in Gray Court, SC"
     },
     {
      "pos": 3,
-     "domain": "bbb.org",
-     "title": "House Cleaning in Gray Court"
+     "domain": "angi.com",
+     "title": "Divine Cleaning Services LLC Reviews"
     },
     {
      "pos": 4,
-     "domain": "care.com",
-     "title": "Cleaning lady in Gray Court"
+     "domain": "mollymaid.com",
+     "title": "House Cleaning Services in Gray Court, SC"
     },
     {
      "pos": 5,
-     "domain": "instaservice.com",
-     "title": "House cleaning in Gray Court, South Carolina"
+     "domain": "yelp.com",
+     "title": "Home Cleaning near Gray Court, SC"
     },
     {
      "pos": 6,
-     "domain": "angi.com",
-     "title": "Cleaning in Gray Court"
+     "domain": "housekeeper.com",
+     "title": "Individuals in Gray Court"
     },
     {
      "pos": 7,
-     "domain": "bbb.org",
-     "title": "Cleaning Services in Gray Court"
+     "domain": "yelp.com",
+     "title": "Home Cleaning near Gray Court, SC"
     },
     {
      "pos": 8,
-     "domain": "care.com",
-     "title": "Move-out cleaning in Gray Court"
+     "domain": "mapquest.com",
+     "title": "Curtis Cleaners, Gray Court"
+    },
+    {
+     "pos": 9,
+     "domain": "yellowpages.com",
+     "title": "Cleaning Contractors in Gray Court"
+    },
+    {
+     "pos": 10,
+     "domain": "manta.com",
+     "title": "Cleaning Services Gray Court"
     }
    ],
-   "competitors": [],
-   "tip": "O topo é só de diretórios (Care.com, Angi, BBB) e nenhuma empresa local aparece; a página de Gray Court pode disputar o espaço com texto próprio da cidade, o telefone e o pedido de orçamento grátis bem visíveis.",
+   "competitors": [
+    {
+     "pos": 1,
+     "domain": "local.yahoo.com",
+     "name": "Memes House Cleaning and More"
+    },
+    {
+     "pos": 3,
+     "domain": "angi.com",
+     "name": "Divine Cleaning Services LLC (4,7 no Angi)"
+    },
+    {
+     "pos": 4,
+     "domain": "mollymaid.com",
+     "name": "Molly Maid (franquia)"
+    }
+   ],
+   "tip": "Divine Cleaning aparece com nota 4,7; mostrar a nota 5,0 do Google e o atendimento a Gray Court na página, e criar perfis nos diretórios que dominam o topo (Yahoo Local, Care, Yelp).",
    "error": null
   },
   "pelzer-sc": {
    "city": "Pelzer, SC",
    "query": "house cleaning Pelzer SC",
-   "checkedAt": "2026-11-20T06:45:00Z",
+   "checkedAt": "2026-11-21T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "care.com",
-     "title": "House cleaning in Pelzer SC"
+     "domain": "angi.com",
+     "title": "Top 10 Best House cleaners in Pelzer, SC"
     },
     {
      "pos": 2,
-     "domain": "angi.com",
-     "title": "Cleaning and maid services in Pelzer"
+     "domain": "local.yahoo.com",
+     "title": "KO Professional Cleaners in Pelzer, SC"
     },
     {
      "pos": 3,
-     "domain": "angi.com",
-     "title": "House cleaning in Pelzer"
+     "domain": "nextdoor.com",
+     "title": "Conscious Cleaning - Pelzer, SC"
     },
     {
      "pos": 4,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning in Pelzer SC"
+     "domain": "housekeeper.com",
+     "title": "House Cleaner in Pelzer, SC"
     },
     {
      "pos": 5,
-     "domain": "thebuildermarket.com",
-     "title": "Cleaning & Maid Services in Pelzer"
+     "domain": "yelp.com",
+     "title": "Home Cleaning near Pelzer, SC"
     },
     {
      "pos": 6,
-     "domain": "angi.com",
-     "title": "Maid service in Pelzer"
+     "domain": "greencleanville.com",
+     "title": "Recurring House Cleaning in Pelzer, SC"
     },
     {
      "pos": 7,
-     "domain": "care.com",
-     "title": "Housekeepers in Pelzer"
+     "domain": "thecleanestroom.com",
+     "title": "Best House Cleaning & Maid Services in Pelzer"
     },
     {
      "pos": 8,
-     "domain": "homeadvisor.com",
-     "title": "House Cleaning Pelzer"
+     "domain": "greencleanville.com",
+     "title": "Deep Cleaning in Pelzer, SC"
+    },
+    {
+     "pos": 9,
+     "domain": "azaleacleaningco.com",
+     "title": "House Cleaning Simpsonville, Azalea Cleaning Co"
+    },
+    {
+     "pos": 10,
+     "domain": "greencleanville.com",
+     "title": "Move-in/out Cleaning in Pelzer"
     }
    ],
-   "competitors": [],
-   "tip": "Só diretórios no topo de Pelzer; mostrar na página os tipos de plano (semanal, quinzenal, único) e as avaliações, como fazem os diretórios.",
+   "competitors": [
+    {
+     "pos": 6,
+     "domain": "greencleanville.com",
+     "name": "Green Cleanville (várias páginas por serviço em Pelzer)"
+    },
+    {
+     "pos": 9,
+     "domain": "azaleacleaningco.com",
+     "name": "Azalea Cleaning Co"
+    }
+   ],
+   "tip": "Green Cleanville tem uma página por serviço em Pelzer (recorrente, profunda, mudança); reforçar as páginas de serviço de Pelzer com texto próprio e orçamento grátis.",
    "error": null
   },
   "cowpens-sc": {
    "city": "Cowpens, SC",
    "query": "house cleaning Cowpens SC",
-   "checkedAt": "2026-11-20T06:45:00Z",
+   "checkedAt": "2026-11-21T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
-     "domain": "care.com",
-     "title": "House cleaning in Cowpens SC"
+     "domain": "angi.com",
+     "title": "10 Best House cleaners in Cowpens, SC"
     },
     {
      "pos": 2,
-     "domain": "angi.com",
-     "title": "House cleaning in Cowpens"
+     "domain": "local.yahoo.com",
+     "title": "Happy House Cleaning in Cowpens, SC"
     },
     {
      "pos": 3,
-     "domain": "care.com",
-     "title": "Housekeepers in Cowpens"
+     "domain": "servpro.com",
+     "title": "Cowpens Fire and Water Damage Restoration"
     },
     {
      "pos": 4,
-     "domain": "care.com",
-     "title": "Move-out cleaning in Cowpens"
+     "domain": "yelp.com",
+     "title": "Home cleaning near Cowpens, SC"
     },
     {
      "pos": 5,
-     "domain": "instaservice.com",
-     "title": "House cleaning 3 bed 2 bath Cowpens"
+     "domain": "housekeeper.com",
+     "title": "Professional House Cleaning Provider in Cowpens"
     },
     {
      "pos": 6,
-     "domain": "care.com",
-     "title": "Cleaning lady in Cowpens"
+     "domain": "housekeeper.com",
+     "title": "Careful Housekeeping Service in Cowpens"
     },
     {
      "pos": 7,
-     "domain": "care.com",
-     "title": "Housekeeping services in Cowpens"
+     "domain": "castle-keepers.com",
+     "title": "Best House Cleaning Services in Cowpens, SC"
     },
     {
      "pos": 8,
-     "domain": "care.com",
-     "title": "Housekeeper profile"
+     "domain": "housekeeper.com",
+     "title": "Top Independent Cleaners in Cowpens"
     },
     {
      "pos": 9,
-     "domain": "homeadvisor.com",
-     "title": "Cleaning one time service"
+     "domain": "reliablehousekeeping.com",
+     "title": "House Cleaning in Cowpens, SC"
     }
    ],
-   "competitors": [],
-   "tip": "O topo é de diretórios e perfis individuais; uma página de Cowpens com limpeza pesada e de mudança, mais as avaliações do Google, pode se destacar.",
+   "competitors": [
+    {
+     "pos": 7,
+     "domain": "castle-keepers.com",
+     "name": "Castle Keepers (franquia, orçamento online)"
+    },
+    {
+     "pos": 9,
+     "domain": "reliablehousekeeping.com",
+     "name": "Reliable Housekeeping"
+    }
+   ],
+   "tip": "Castle Keepers oferece orçamento online instantâneo; destacar na página de Cowpens o orçamento grátis e o atendimento a partir de Greer/Duncan.",
    "error": null
   },
   "chesnee-sc": {
