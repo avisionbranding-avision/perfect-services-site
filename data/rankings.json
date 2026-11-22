@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T06:50:00Z",
+  "updatedAt": "2026-11-22T09:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1148,7 +1148,7 @@
     "parker-sc": {
       "city": "Parker, SC",
       "query": "house cleaning Parker SC",
-      "checkedAt": "2026-11-21T12:45:00Z",
+      "checkedAt": "2026-11-22T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1211,7 +1211,7 @@
     "gantt-sc": {
       "city": "Gantt, SC",
       "query": "house cleaning Gantt SC",
-      "checkedAt": "2026-11-21T12:45:00Z",
+      "checkedAt": "2026-11-22T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1232,40 +1232,56 @@
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "South Carolina Housekeeping Services"
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "house cleaning (Gaston SC)"
+          "title": "cleaning (Galivants Ferry)"
         },
         {
           "pos": 6,
-          "domain": "maids.com",
-          "title": "House Cleaning Services in South Carolina"
+          "domain": "angi.com",
+          "title": "house cleaning (Gaston)"
+        },
+        {
+          "pos": 7,
+          "domain": "angi.com",
+          "title": "cleaning (Gable)"
+        },
+        {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "South Carolina Housekeeping Services"
         }
       ],
-      "competitors": [],
-      "tip": "Nenhuma empresa baseada em Gantt aparece; só diretórios genéricos. Uma página de Gantt citando Greenville/Greer e serviços principais tem boa chance de aparecer.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "thebuildermarket.com",
+          "name": "Castle Keepers House Cleaning (diretório)"
+        }
+      ],
+      "tip": "A busca mistra cidades de nome parecido e há poucas empresas de Gantt. Citar Gantt e Greenville na página, com a distância até Greer e os serviços mais pedidos na região.",
       "error": null
     },
     "roebuck-sc": {
       "city": "Roebuck, SC",
       "query": "house cleaning Roebuck SC",
-      "checkedAt": "2026-11-21T12:45:00Z",
+      "checkedAt": "2026-11-22T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Roebuck SC"
+          "title": "Care.com house cleaning Roebuck"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi: house cleaning Roebuck"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
@@ -1275,136 +1291,151 @@
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Roebuck SC"
+          "title": "house cleaning Roebuck"
         },
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "Angi: cleaning Roebuck"
+          "title": "cleaning"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady Roebuck"
+          "title": "Care.com cleaning lady Roebuck"
+        },
+        {
+          "pos": 7,
+          "domain": "care.com",
+          "title": "Care.com cleaning lady page 2"
+        },
+        {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "Care.com move-out cleaning Roebuck"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios (Care.com, Angi, HomeAdvisor); a Angi mostra a empresa First Class Cleaners com avaliações. Destacar na página de Roebuck avaliações reais do Google e a proximidade com Greer/Spartanburg.",
+      "tip": "Topo 100% de diretórios (Care.com, Angi, HomeAdvisor). Destacar na página de Roebuck a limpeza de mudança e o orçamento grátis, e completar os perfis nesses diretórios.",
       "error": null
     },
     "boiling-springs-sc": {
       "city": "Boiling Springs, SC",
       "query": "house cleaning Boiling Springs SC",
-      "checkedAt": "2026-11-21T12:45:00Z",
+      "checkedAt": "2026-11-22T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Boiling Springs SC"
+          "title": "Care.com house cleaning Boiling Springs"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com: housekeeping"
+          "title": "Care.com housekeeping"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com: housekeeping"
+          "title": "Care.com housekeeping"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady"
+          "title": "Care.com cleaning lady"
         },
         {
           "pos": 5,
+          "domain": "care.com",
+          "title": "Care.com housekeeping page 3"
+        },
+        {
+          "pos": 6,
+          "domain": "care.com",
+          "title": "Care.com housekeepers"
+        },
+        {
+          "pos": 7,
           "domain": "thumbtack.com",
           "title": "Carolina Cleaning & Staging Service"
         },
         {
-          "pos": 6,
-          "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
-        },
-        {
-          "pos": 7,
-          "domain": "angi.com",
-          "title": "Angi: cleaning Boiling Springs"
-        },
-        {
           "pos": 8,
-          "domain": "thumbtack.com",
-          "title": "Tidy cleaning"
+          "domain": "homeadvisor.com",
+          "title": "Range Hood Clean"
         },
         {
           "pos": 9,
-          "domain": "bbb.org",
-          "title": "BBB: maid service"
+          "domain": "care.com",
+          "title": "Care.com cost of house cleaning"
+        },
+        {
+          "pos": 10,
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service"
         }
       ],
       "competitors": [
         {
-          "pos": 5,
+          "pos": 7,
           "domain": "thumbtack.com",
           "name": "Carolina Cleaning & Staging Service"
-        },
-        {
-          "pos": 8,
-          "domain": "thumbtack.com",
-          "name": "Tidy cleaning"
         }
       ],
-      "tip": "Care.com domina o topo e as empresas aparecem via Thumbtack; mostrar preço/faixa e avaliações na página de Boiling Springs e linkar artigos locais para competir.",
+      "tip": "Care.com domina e mostra preço médio por hora. Em Boiling Springs, mostrar na página faixa de preço por tipo de limpeza e um FAQ de preços, e criar perfil na Thumbtack.",
       "error": null
     },
     "marietta-sc": {
       "city": "Marietta, SC",
       "query": "house cleaning Marietta SC",
-      "checkedAt": "2026-11-21T12:45:00Z",
+      "checkedAt": "2026-11-22T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning Marietta SC"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Marietta SC"
+          "title": "Care.com house cleaning Marietta"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Marietta SC"
+          "title": "house cleaning Marietta"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com: housekeeping"
+          "title": "Care.com housekeeping"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady"
+          "title": "Care.com housekeeping"
         },
         {
           "pos": 6,
-          "domain": "thecleaningauthority.com",
-          "title": "The Cleaning Authority (Marietta GA)"
+          "domain": "care.com",
+          "title": "Care.com cleaning lady"
         },
         {
           "pos": 7,
-          "domain": "merrymaids.com",
-          "title": "Merry Maids Marietta (GA)"
+          "domain": "homeadvisor.com",
+          "title": "Range Hood Clean"
+        },
+        {
+          "pos": 8,
+          "domain": "angi.com",
+          "title": "cleaning"
         }
       ],
       "competitors": [],
-      "tip": "Resultados misturam Marietta, GA; deixar claro 'Marietta, SC' no título e no texto, com Greer/Travelers Rest como referência de área atendida.",
+      "tip": "Topo de diretórios; as franquias que aparecem (Cleaning Authority, Merry Maids) são de Marietta, na Geórgia. Deixar claro \"Marietta, SC\" no título e H1 da página.",
       "error": null
     },
     "landrum-sc": {
@@ -2444,58 +2475,48 @@
     "chesnee-sc": {
       "city": "Chesnee, SC",
       "query": "house cleaning Chesnee SC",
-      "checkedAt": "2026-11-21T09:45:00Z",
+      "checkedAt": "2026-11-22T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "House cleaning Chesnee (8 profissionais)"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "House cleaning Chesnee SC"
+          "title": "Care.com house cleaning Chesnee"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeeping Chesnee SC"
+          "title": "Care.com housekeeping Chesnee"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Cleaning lady Chesnee SC"
+          "title": "Care.com cleaning lady Chesnee"
         },
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "Cleaning Chesnee"
+          "title": "cleaning"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "Housekeepers Chesnee SC"
+          "domain": "bbb.org",
+          "title": "Blind Cleaning (Chesnee)"
         },
         {
           "pos": 7,
-          "domain": "care.com",
-          "title": "Move-out cleaning Chesnee SC"
-        },
-        {
-          "pos": 8,
-          "domain": "bbb.org",
-          "title": "Blind Cleaning Chesnee"
-        },
-        {
-          "pos": 9,
           "domain": "homeyou.com",
-          "title": "Bryant Builders Chesnee"
+          "title": "Bryant Builders"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios aparecem para Chesnee e nenhuma empresa local se destaca; uma página de Chesnee com serviços, área atendida e FAQ pode ocupar esse espaço.",
+      "tip": "Só diretórios (Angi, Care.com, BBB) no topo, sem empresa local de limpeza com site próprio. Reforçar a página de Chesnee com a distância até Greer, serviços e pedido de orçamento rápido, e completar os perfis em Angi e Care.com.",
       "error": null
     },
     "flat-rock-nc": {
