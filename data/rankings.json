@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T00:45:00Z",
+ "updatedAt": "2026-11-22T03:50:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
@@ -269,14 +269,14 @@
   "wade-hampton-sc": {
    "city": "Wade Hampton, SC",
    "query": "house cleaning Wade Hampton SC",
-   "checkedAt": "2026-11-21T06:45:00Z",
+   "checkedAt": "2026-11-22T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "House cleaning in Hampton SC"
+     "title": "house cleaning (Hampton, SC)"
     },
     {
      "pos": 2,
@@ -297,49 +297,79 @@
      "pos": 5,
      "domain": "homeaglow.com",
      "title": "Housekeeping Services in Hampton, SC"
+    },
+    {
+     "pos": 6,
+     "domain": "maids.com",
+     "title": "House Cleaning Services in South Carolina"
+    },
+    {
+     "pos": 7,
+     "domain": "homeaglow.com",
+     "title": "Deep Cleaning Services in Hampton, SC"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Squeeky Klean Maid Service, Honea Path"
+    },
+    {
+     "pos": 9,
+     "domain": "homeadvisor.com",
+     "title": "SC Professional Cleaning"
+    },
+    {
+     "pos": 10,
+     "domain": "bbb.org",
+     "title": "House Cleaning, Clemson"
     }
    ],
    "competitors": [
     {
      "pos": 4,
      "domain": "maids.com",
-     "name": "The Maids"
+     "name": "Maids.com"
+    },
+    {
+     "pos": 9,
+     "domain": "homeadvisor.com",
+     "name": "SC Professional Cleaning"
     }
    ],
-   "tip": "A busca confunde Wade Hampton com Hampton (SC); reforçar na página 'Wade Hampton, Greenville County' no título e no texto para separar dos resultados errados.",
+   "tip": "A busca confunde Wade Hampton com Hampton, SC; deixar \"Wade Hampton, Greenville\" no título e no texto da página e citar o CEP 29615 para separar a cidade certa.",
    "error": null
   },
   "wellford-sc": {
    "city": "Wellford, SC",
    "query": "house cleaning Wellford SC",
-   "checkedAt": "2026-11-21T06:45:00Z",
+   "checkedAt": "2026-11-22T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "House cleaning Wellford"
+     "title": "house cleaning"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "House cleaning Wellford SC"
+     "title": "Care.com house cleaning Wellford"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "Cleaning Wellford"
+     "title": "cleaning"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Housekeeping Wellford"
+     "title": "housekeeping Wellford"
     },
     {
      "pos": 5,
      "domain": "homeadvisor.com",
-     "title": "House cleaning Wellford SC"
+     "title": "house cleaning Wellford"
     },
     {
      "pos": 6,
@@ -349,7 +379,7 @@
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Cleaning lady Wellford"
+     "title": "cleaning lady Wellford"
     },
     {
      "pos": 8,
@@ -369,59 +399,85 @@
    ],
    "competitors": [
     {
+     "pos": 5,
+     "domain": "homeadvisor.com",
+     "name": "Upstate SK Cleaning Service, Inc."
+    },
+    {
      "pos": 10,
      "domain": "homeguide.com",
      "name": "Susvea's Naked Cleaning"
     }
    ],
-   "tip": "Diretórios dominam Wellford, com notas e avaliações visíveis; colocar na página de Wellford a nota do Google, orçamento grátis e a proximidade de Greer.",
+   "tip": "Só diretórios no topo; os perfis mostram nota e avaliações. Colocar na página de Wellford a nota do Google, preço inicial e perguntas frequentes.",
    "error": null
   },
   "startex-sc": {
    "city": "Startex, SC",
    "query": "house cleaning Startex SC",
-   "checkedAt": "2026-11-21T06:45:00Z",
+   "checkedAt": "2026-11-22T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "House cleaning in Startex"
+     "title": "house cleaning"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Cleaning lady in Startex"
+     "title": "cleaning lady Startex"
     },
     {
      "pos": 3,
      "domain": "homeadvisor.com",
-     "title": "House cleaning Startex SC"
+     "title": "house cleaning Startex"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Cleaning lady in Startex"
+     "title": "cleaning lady Startex"
     },
     {
      "pos": 5,
      "domain": "angi.com",
-     "title": "Cleaning in Startex"
+     "title": "cleaning"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Housekeepers in Startex"
+     "title": "housekeepers Startex p2"
     },
     {
      "pos": 7,
+     "domain": "care.com",
+     "title": "cleaning lady Startex p2"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "housekeepers Startex p3"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "cleaning lady Startex p3"
+    },
+    {
+     "pos": 10,
      "domain": "bbb.org",
-     "title": "Janitor in Startex"
+     "title": "Janitor Startex"
     }
    ],
-   "competitors": [],
-   "tip": "Só diretórios (Angi, Care.com, HomeAdvisor) aparecem para Startex; mostrar na página a nota do Google, orçamento grátis e a distância até Greer.",
+   "competitors": [
+    {
+     "pos": 3,
+     "domain": "homeadvisor.com",
+     "name": "Top Notch Cleaning Solutions"
+    }
+   ],
+   "tip": "Nenhuma empresa local com site próprio no topo; citar Duncan, Wellford e Lyman na página de Startex e mostrar a distância de Greer.",
    "error": null
   },
   "reidville-sc": {
@@ -567,29 +623,29 @@
   "inman-sc": {
    "city": "Inman, SC",
    "query": "house cleaning Inman SC",
-   "checkedAt": "2026-11-21T06:45:00Z",
+   "checkedAt": "2026-11-22T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "House cleaning Inman SC"
+     "title": "house cleaning Inman"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "Williams Family Solutions LLC"
+     "title": "Williams Family Solutions"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "House cleaning Inman"
+     "title": "house cleaning"
     },
     {
      "pos": 4,
      "domain": "angi.com",
-     "title": "Cleaning Inman"
+     "title": "cleaning"
     },
     {
      "pos": 5,
@@ -599,60 +655,80 @@
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Housekeeping Inman"
+     "title": "housekeeping Inman"
+    },
+    {
+     "pos": 7,
+     "domain": "care.com",
+     "title": "housekeepers Inman"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "housekeeping Inman p3"
+    },
+    {
+     "pos": 9,
+     "domain": "bbb.org",
+     "title": "maid service"
+    },
+    {
+     "pos": 10,
+     "domain": "match.angi.com",
+     "title": "Compare Quotes from Cleaning Services"
     }
    ],
    "competitors": [
     {
      "pos": 5,
      "domain": "maidpro.com",
-     "name": "MaidPro Inman"
+     "name": "MaidPro Inman, SC"
     }
    ],
-   "tip": "A franquia MaidPro aparece com nota 4,8 e 161 avaliações; destacar na página de Inman nossa nota do Google, orçamento grátis e atendimento local.",
+   "tip": "MaidPro aparece no 5º lugar com 4,8 estrelas; na página de Inman destacar nota do Google, orçamento grátis em casa e preço inicial.",
    "error": null
   },
   "greenville-sc": {
    "city": "Greenville, SC",
    "query": "house cleaning Greenville SC",
-   "checkedAt": "2026-11-21T06:45:00Z",
+   "checkedAt": "2026-11-22T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "House cleaning Greenville SC"
+     "title": "Care.com house cleaning Greenville"
     },
     {
      "pos": 2,
      "domain": "homeadvisor.com",
-     "title": "House cleaning Greenville SC"
+     "title": "House cleaning Greenville"
     },
     {
      "pos": 3,
      "domain": "thumbtack.com",
-     "title": "House cleaners Greenville"
+     "title": "12 house cleaners"
     },
     {
      "pos": 4,
      "domain": "bbb.org",
-     "title": "House Cleaning Greenville"
+     "title": "1,247 results for House Cleaning"
     },
     {
      "pos": 5,
      "domain": "angi.com",
-     "title": "House cleaning Greenville"
+     "title": "house cleaning"
     },
     {
      "pos": 6,
      "domain": "thecleaningauthority.com",
-     "title": "The Cleaning Authority - East Greenville"
+     "title": "The Cleaning Authority house cleaning"
     },
     {
      "pos": 7,
      "domain": "thumbtack.com",
-     "title": "House cleaners Greenville"
+     "title": "15 house cleaners"
     },
     {
      "pos": 8,
@@ -667,7 +743,7 @@
     {
      "pos": 10,
      "domain": "homeadvisor.com",
-     "title": "House Cleaning Greenville"
+     "title": "House Cleaning"
     }
    ],
    "competitors": [
@@ -679,10 +755,10 @@
     {
      "pos": 8,
      "domain": "maidpro.com",
-     "name": "MaidPro Greer"
+     "name": "MaidPro"
     }
    ],
-   "tip": "Franquias (Cleaning Authority, MaidPro, Merry Maids) disputam Greenville; destacar na página avaliações reais, preço de partida e a lista de serviços para competir.",
+   "tip": "Franquias (Cleaning Authority, MaidPro, Merry Maids) disputam o topo; usar na página de Greenville o diferencial de equipe brasileira local, a nota do Google e a distância de Greer.",
    "error": null
   },
   "mauldin-sc": {
@@ -2262,69 +2338,74 @@
   "cowpens-sc": {
    "city": "Cowpens, SC",
    "query": "house cleaning Cowpens SC",
-   "checkedAt": "2026-11-21T03:50:00Z",
+   "checkedAt": "2026-11-22T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "10 Best House cleaners in Cowpens, SC"
+     "title": "house cleaning"
     },
     {
      "pos": 2,
-     "domain": "local.yahoo.com",
-     "title": "Happy House Cleaning in Cowpens, SC"
+     "domain": "care.com",
+     "title": "Care.com house cleaning Cowpens"
     },
     {
      "pos": 3,
-     "domain": "servpro.com",
-     "title": "Cowpens Fire and Water Damage Restoration"
+     "domain": "care.com",
+     "title": "housekeepers Cowpens"
     },
     {
      "pos": 4,
-     "domain": "yelp.com",
-     "title": "Home cleaning near Cowpens, SC"
+     "domain": "care.com",
+     "title": "cleaning lady Cowpens"
     },
     {
      "pos": 5,
-     "domain": "housekeeper.com",
-     "title": "Professional House Cleaning Provider in Cowpens"
+     "domain": "care.com",
+     "title": "move-out cleaning Cowpens"
     },
     {
      "pos": 6,
-     "domain": "housekeeper.com",
-     "title": "Careful Housekeeping Service in Cowpens"
+     "domain": "angi.com",
+     "title": "cleaning"
     },
     {
      "pos": 7,
-     "domain": "castle-keepers.com",
-     "title": "Best House Cleaning Services in Cowpens, SC"
+     "domain": "care.com",
+     "title": "housekeeping services Cowpens"
     },
     {
      "pos": 8,
-     "domain": "housekeeper.com",
-     "title": "Top Independent Cleaners in Cowpens"
+     "domain": "care.com",
+     "title": "Care.com profile"
     },
     {
      "pos": 9,
-     "domain": "reliablehousekeeping.com",
-     "title": "House Cleaning in Cowpens, SC"
+     "domain": "angi.com",
+     "title": "No-Prints Professional Cleaning Service"
+    },
+    {
+     "pos": 10,
+     "domain": "instaservice.com",
+     "title": "house cleaning 3 bed 2 bath Cowpens"
     }
    ],
    "competitors": [
     {
-     "pos": 7,
-     "domain": "castle-keepers.com",
-     "name": "Castle Keepers (franquia, orçamento online)"
+     "pos": 9,
+     "domain": "angi.com",
+     "name": "No-Prints Professional Cleaning Service"
     },
     {
-     "pos": 9,
-     "domain": "reliablehousekeeping.com",
-     "name": "Reliable Housekeeping"
+     "pos": 10,
+     "domain": "instaservice.com",
+     "name": "InstaService"
     }
    ],
-   "tip": "Castle Keepers oferece orçamento online instantâneo; destacar na página de Cowpens o orçamento grátis e o atendimento a partir de Greer/Duncan.",
+   "tip": "Só diretórios no topo e nenhuma empresa local com site próprio: publicar na página de Cowpens preço inicial, perguntas frequentes e a área atendida a partir de Greer para ocupar o espaço.",
    "error": null
   },
   "chesnee-sc": {

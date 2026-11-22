@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-22T00:45:00Z",
- "now": "Rodada da madrugada: site, links, GTM e formulário ok; revisei a busca de Hendersonville, Reidville, Five Forks, Tryon, Gray Court e Pelzer (só diretórios e franquias no topo) e 3 diretórios; sem novas melhorias.",
+ "updatedAt": "2026-11-22T03:50:00Z",
+ "now": "Revisei os títulos, descrições e links de 414 artigos e as dicas de 6 cidades; 3 títulos longos encurtados.",
  "items": [
   {
    "id": "seo-diretorios",
@@ -853,6 +853,34 @@
    "why": "Na busca de hoje, Home Glow (Pacolet, Pickens, Columbus) e Nestly (Pacolet) publicam preço inicial na página da cidade e a Homeaglow anuncia primeira limpeza em Liberty.",
    "action": "Bloco com orçamento grátis, o que está incluso e perguntas frequentes sobre preço nas quatro páginas, sem inventar valores.",
    "foundAt": "2026-11-21",
+   "doneAt": null,
+   "result": null
+  },
+  {
+   "id": "seo-titulos-gantt-piedmont-greer-2026-11-22",
+   "title": "Encurtar 3 títulos acima de 65 caracteres (Gantt, Piedmont, Greer)",
+   "area": "conteudo",
+   "owner": "auto",
+   "status": "feita",
+   "priority": 3,
+   "page": null,
+   "why": "Títulos acima de 65 caracteres são cortados nos resultados do Google.",
+   "action": "Encurtar para até 60 caracteres.",
+   "foundAt": "2026-11-22",
+   "doneAt": "2026-11-22",
+   "result": "3 títulos encurtados para 59, 59 e 47 caracteres; vão ao ar às 7h."
+  },
+  {
+   "id": "seo-wade-hampton-confusao",
+   "title": "Diferenciar Wade Hampton de Hampton, SC no texto da página",
+   "area": "local",
+   "owner": "claude",
+   "status": "aberta",
+   "priority": 3,
+   "page": "https://perfectservicespaintingcleaning.com/areas/wade-hampton-sc/",
+   "why": "A busca por house cleaning Wade Hampton SC devolveu só resultados da cidade de Hampton, SC.",
+   "action": "Citar Wade Hampton, Greenville e o CEP 29615 no título e no primeiro parágrafo.",
+   "foundAt": "2026-11-22",
    "doneAt": null,
    "result": null
   }
