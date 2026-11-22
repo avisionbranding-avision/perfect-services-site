@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-22T09:45:00Z",
+  "checkedAt": "2026-11-22T12:45:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "945 páginas geradas"
+      "detail": "977 páginas geradas"
     },
     {
       "id": "links",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de ontem publicada às 10:05 UTC (32 artigos)"
+      "detail": "Rodada de hoje publicada às 10:06 UTC (32 artigos)"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos da última rodada (meta 32)"
+      "detail": "32 artigos de hoje (meta 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Antes das 12h UTC: posts de hoje ainda não exigidos"
+      "detail": "3 posts de hoje prontos, sem telefone, link ou e-mail"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "10 dias de temas de Greer restantes"
+      "detail": "9 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,7 +60,7 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "945 URLs no sitemap, igual ao esperado"
+      "detail": "977 páginas no sitemap, igual ao esperado"
     },
     {
       "id": "gtm",
@@ -72,11 +72,18 @@
       "id": "lead_form",
       "label": "Formulário de contato",
       "status": "ok",
-      "detail": "Formulário envia para /api/lead no build do Cloudflare"
+      "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "4 melhorias SEO aplicadas em artigos (1 título encurtado, 3 links internos adicionados); entram no ar às 7h"
+  ],
   "history": [
+    {
+      "at": "2026-11-22T12:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 4 melhorias SEO em artigos"
+    },
     {
       "at": "2026-11-22T09:45:00Z",
       "overall": "ok",
@@ -369,11 +376,6 @@
     },
     {
       "at": "2026-11-15T03:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-15T00:45:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
     }

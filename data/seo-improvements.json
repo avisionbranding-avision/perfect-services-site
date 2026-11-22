@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-22T09:45:00Z",
-  "now": "Revisei as buscas de Chesnee, Parker, Gantt, Roebuck, Boiling Springs e Marietta (só diretórios no topo) e os 404 artigos (descrições, títulos e links internos ok); nenhuma melhoria automática nova.",
+  "updatedAt": "2026-11-22T12:45:00Z",
+  "now": "Revisei as buscas de Flat Rock, Landrum, Spartanburg, Fountain Inn, Powdersville e Piedmont (só diretórios e franquias no topo) e 446 artigos; 4 melhorias aplicadas (1 título e 3 links internos).",
   "items": [
     {
       "id": "seo-diretorios",
@@ -880,6 +880,34 @@
       "page": "https://perfectservicespaintingcleaning.com/areas/wade-hampton-sc/",
       "why": "A busca por house cleaning Wade Hampton SC devolveu só resultados da cidade de Hampton, SC.",
       "action": "Citar Wade Hampton, Greenville e o CEP 29615 no título e no primeiro parágrafo.",
+      "foundAt": "2026-11-22",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-titulos-links-2026-11-22b",
+      "title": "Encurtar 1 título (Williamston) e ligar 3 artigos às páginas de cidade/serviço",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Um título tinha 74 caracteres e 3 artigos (Tryon, Pauline, Piedmont) não linkavam para páginas de cidade/serviço.",
+      "action": "Título trimmed para 56 caracteres e 1 link interno adicionado em cada artigo.",
+      "foundAt": "2026-11-22",
+      "doneAt": "2026-11-22",
+      "result": "Título de Williamston encurtado; links para /areas/tryon-nc/, /areas/pauline-sc/house-cleaning/ e /areas/piedmont-sc/eco-friendly-green-cleaning/."
+    },
+    {
+      "id": "seo-flat-rock-landrum-fountain-powdersville-precos",
+      "title": "Mostrar faixas de preço reais e diferenciais nas páginas de Spartanburg, Fountain Inn, Landrum e Powdersville",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 2,
+      "page": "https://perfectservicespaintingcleaning.com/areas/spartanburg-sc/",
+      "why": "Concorrentes dessas cidades mostram preços (CleanSlate, Home Glow), seguro/sem contrato (Milana Maid) ou limpeza ecológica (Castle Keepers); nossas páginas não aparecem no topo.",
+      "action": "Pedir ao Claude: bloco de faixas de preço verdadeiras, seguro e opções ecológicas, e pontos de referência locais em cada página.",
       "foundAt": "2026-11-22",
       "doneAt": null,
       "result": null

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T09:45:00Z",
+  "updatedAt": "2026-11-22T12:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1441,245 +1441,250 @@
     "landrum-sc": {
       "city": "Landrum, SC",
       "query": "house cleaning Landrum SC",
-      "checkedAt": "2026-11-21T15:45:00Z",
+      "checkedAt": "2026-11-22T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "angi.com",
+          "title": "Top 10 Best House cleaners in Landrum, SC"
         },
         {
           "pos": 2,
-          "domain": "angi.com",
-          "title": "angi.com"
+          "domain": "thumbtack.com",
+          "title": "Healthy Home Cleaning, Llc"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Landrum, SC"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
+          "domain": "housekeeper.com",
+          "title": "Reliable Housekeeper in Landrum, SC"
         },
         {
           "pos": 5,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
+          "domain": "sarashousekeeping.com",
+          "title": "Cleaning Services - Housekeepers - Landrum, SC - Tryon, NC"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "milanamaid.com",
+          "title": "House Cleaning Services in Landrum, SC"
         },
         {
           "pos": 7,
-          "domain": "match.angi.com",
-          "title": "match.angi.com"
+          "domain": "olivacleaningservices.com",
+          "title": "House Cleaning in Landrum, SC"
         },
         {
           "pos": 8,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "milanamaid.com",
+          "title": "Home Cleaning Services in Landrum, SC"
         },
         {
           "pos": 9,
-          "domain": "angi.com",
-          "title": "angi.com"
-        },
-        {
-          "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
+          "domain": "pro.porch.com",
+          "title": "10 Best House Cleaning Services in Landrum, SC 2026"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": null,
-          "name": "Voda Cleaning & Restoration"
+          "pos": 3,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
+        },
+        {
+          "pos": 5,
+          "domain": "sarashousekeeping.com",
+          "name": "Sara's Housekeeping"
+        },
+        {
+          "pos": 6,
+          "domain": "milanamaid.com",
+          "name": "Milana Maid"
+        },
+        {
+          "pos": 7,
+          "domain": "olivacleaningservices.com",
+          "name": "Oliva Cleaning Services"
         }
       ],
-      "tip": "Topo dominado por diretórios; destacar na página de Landrum a proximidade com Greer, o preço por tamanho de casa e um FAQ local para ganhar espaço.",
+      "tip": "Os concorrentes locais destacam seguro, \"sem contrato\" e a região (Hwy 176, divisa com NC); mencionar seguro, ausência de contrato e esses pontos de referência na página de Landrum.",
       "error": null
     },
     "spartanburg-sc": {
       "city": "Spartanburg, SC",
       "query": "house cleaning Spartanburg SC",
-      "checkedAt": "2026-11-21T15:45:00Z",
+      "checkedAt": "2026-11-22T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "angi.com",
+          "title": "10 Best House cleaners in Spartanburg, SC - Nov 2026"
         },
         {
           "pos": 2,
-          "domain": "match.angi.com",
-          "title": "match.angi.com"
+          "domain": "maidpro.com",
+          "title": "MaidPro Spartanburg,SC"
         },
         {
           "pos": 3,
-          "domain": "thumbtack.com",
-          "title": "thumbtack.com"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Spartanburg, South Carolina"
         },
         {
           "pos": 4,
-          "domain": "thecleaningauthority.com",
-          "title": "thecleaningauthority.com"
+          "domain": "yelp.com",
+          "title": "Best 10 Home Cleaning in Spartanburg, SC"
         },
         {
           "pos": 5,
-          "domain": "thecleaningauthority.com",
-          "title": "thecleaningauthority.com"
+          "domain": "housekeeper.com",
+          "title": "Cleaners, Housekeepers in Spartanburg"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "thriveandshinemaids.com",
+          "title": "Residential House Cleaning Spartanburg SC"
         },
         {
           "pos": 7,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "tccleaningservice.com",
+          "title": "House Cleaning Service Spartanburg Boiling Springs Inman Duncan Landrum Greer"
         },
         {
           "pos": 8,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "cleanslateupstate.com",
+          "title": "House Cleaning Services in Greenville & Spartanburg, SC"
         },
         {
           "pos": 9,
-          "domain": "thumbtack.com",
-          "title": "thumbtack.com"
+          "domain": "momstouchcleaning.com",
+          "title": "Commercial Cleaning Service"
         },
         {
           "pos": 10,
-          "domain": "thumbtack.com",
-          "title": "thumbtack.com"
+          "domain": "elitenesscleaning.com",
+          "title": "The #1 Rated Spartanburg, SC House Cleaning Service"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": null,
-          "name": "The Cleaning Authority"
+          "pos": 2,
+          "domain": "maidpro.com",
+          "name": "MaidPro"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "Refreshly LLC"
+          "pos": 3,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "A MoM's Touch Cleaning Service"
+          "pos": 6,
+          "domain": "thriveandshinemaids.com",
+          "name": "Thrive & Shine Maids"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "Cleaning Maid Easy LLC"
+          "pos": 8,
+          "domain": "cleanslateupstate.com",
+          "name": "CleanSlate Upstate"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "S&D Cleaning"
+          "pos": 10,
+          "domain": "elitenesscleaning.com",
+          "name": "Eliteness Cleaning"
         }
       ],
-      "tip": "Cidade competitiva: a franquia The Cleaning Authority aparece com site próprio. Spartanburg precisa de página com perguntas e respostas, tipos de limpeza e avaliações reais para disputar.",
+      "tip": "Vários concorrentes mostram preços fixos (padrão, profunda, mudança) e oferta de primeira limpeza; adicionar na página de Spartanburg uma tabela de faixas de preço reais e o que cada visita inclui.",
       "error": null
     },
     "fountain-inn-sc": {
       "city": "Fountain Inn, SC",
       "query": "house cleaning Fountain Inn SC",
-      "checkedAt": "2026-11-21T15:45:00Z",
+      "checkedAt": "2026-11-22T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "care.com"
+          "title": "House Cleaning Services in Fountain Inn, SC"
         },
         {
           "pos": 2,
-          "domain": "bbb.org",
-          "title": "bbb.org"
+          "domain": "angi.com",
+          "title": "Top 10 Best House cleaners in Fountain Inn, SC"
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
-          "title": "match.angi.com"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Fountain Inn, South Carolina"
         },
         {
           "pos": 4,
-          "domain": "match.angi.com",
-          "title": "match.angi.com"
+          "domain": "yelp.com",
+          "title": "Best 10 Home Cleaning near Fountain Inn, SC 29644"
         },
         {
           "pos": 5,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
+          "domain": "ariscleaningservices.com",
+          "title": "Professional Cleaning Service in Fountain Inn, SC"
         },
         {
           "pos": 6,
-          "domain": "bbb.org",
-          "title": "bbb.org"
+          "domain": "purpleottercleaning.com",
+          "title": "Fountain Inn Cleaning Services"
         },
         {
           "pos": 7,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
+          "domain": "864cleaning.com",
+          "title": "Professional Cleaning and Lawn Care in Fountain Inn, SC"
         },
         {
           "pos": 8,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "spotlessmagicworld.com",
+          "title": "Cleaning Services in Fountain Inn, SC"
         },
         {
           "pos": 9,
-          "domain": "angi.com",
-          "title": "angi.com"
+          "domain": "homeglowcleaningservices.com",
+          "title": "House Cleaning in Fountain Inn, SC"
         },
         {
           "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
+          "domain": "squeakycleany.com",
+          "title": "Professional Cleaning Service In Fountain Inn, South Carolina"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": null,
-          "name": "Welcome Home Professional Cleaning, LLC"
+          "pos": 3,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "Jessica's Cleaning Services, LLC"
+          "pos": 5,
+          "domain": "ariscleaningservices.com",
+          "name": "Aris's Cleaning Services"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "SheShines Cleaning, LLC"
+          "pos": 6,
+          "domain": "purpleottercleaning.com",
+          "name": "Purple Otter Cleaning"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "Maddie & Sly Cleaning Services"
-        },
-        {
-          "pos": null,
-          "domain": null,
-          "name": "The Dust Fairy LLC"
+          "pos": 9,
+          "domain": "homeglowcleaningservices.com",
+          "name": "Home Glow Cleaning Services"
         }
       ],
-      "tip": "Perfil no BBB aparece no topo; criar o perfil no BBB e reforçar a página de Fountain Inn com mudança de casa (move-out), que tem procura local.",
+      "tip": "Purple Otter cita o centro histórico e a Laurens Road, e Home Glow publica preços; citar bairros e vias de Fountain Inn na página e mostrar faixas de preço.",
       "error": null
     },
     "woodruff-sc": {
@@ -1747,84 +1752,84 @@
     "powdersville-sc": {
       "city": "Powdersville, SC",
       "query": "house cleaning Powdersville SC",
-      "checkedAt": "2026-11-21T15:45:00Z",
+      "checkedAt": "2026-11-22T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "homeguide.com",
-          "title": "homeguide.com"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Powdersville, South Carolina"
         },
         {
           "pos": 2,
-          "domain": "thumbtack.com",
-          "title": "thumbtack.com"
+          "domain": "yelp.com",
+          "title": "Best 10 Home Cleaning near Powdersville Main"
         },
         {
           "pos": 3,
-          "domain": "manta.com",
-          "title": "manta.com"
+          "domain": "yelp.com",
+          "title": "Best 10 Home Cleaning in Powdersville, SC"
         },
         {
           "pos": 4,
-          "domain": "bbb.org",
-          "title": "bbb.org"
+          "domain": "yelp.com",
+          "title": "Best 10 Home Cleaning near SC-153, Powdersville"
         },
         {
           "pos": 5,
-          "domain": "maids.com",
-          "title": "maids.com"
+          "domain": "yelp.com",
+          "title": "QP Cleaning Service"
         },
         {
           "pos": 6,
-          "domain": "bbb.org",
-          "title": "bbb.org"
+          "domain": "castle-keepers.com",
+          "title": "Top-Rated Maid & Cleaning Services in Powdersville"
         },
         {
           "pos": 7,
-          "domain": "thumbtack.com",
-          "title": "thumbtack.com"
+          "domain": "upstateexteriorwash.com",
+          "title": "House Washing in Powdersville, SC"
         },
         {
           "pos": 8,
-          "domain": "bbb.org",
-          "title": "bbb.org"
+          "domain": "jcmaidservices.com",
+          "title": "Trusted Maid Services in Powdersville, South Carolina"
         },
         {
           "pos": 9,
-          "domain": "bbb.org",
-          "title": "bbb.org"
+          "domain": "junkgarbageremoval.com",
+          "title": "House Cleanout & Junk Removal in Powdersville, SC"
         },
         {
           "pos": 10,
-          "domain": "bbb.org",
-          "title": "bbb.org"
+          "domain": "sparklingandbeyond.com",
+          "title": "Professional Standard Cleaning Service"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": null,
-          "name": "JL's Cleaning Service"
+          "pos": 1,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid of Greenville"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "Cris House Cleaning"
+          "pos": 6,
+          "domain": "castle-keepers.com",
+          "name": "Castle Keepers"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "SNP 365 Cleaners"
+          "pos": 8,
+          "domain": "jcmaidservices.com",
+          "name": "JC Maid Service"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "SC Professional Cleaning"
+          "pos": 10,
+          "domain": "sparklingandbeyond.com",
+          "name": "Sparkling and Beyond"
         }
       ],
-      "tip": "Resultados fracos e genéricos (nada específico de Powdersville): boa chance de aparecer com uma página local clara, mencionando Powdersville e Easley/Piedmont por perto.",
+      "tip": "O topo é Molly Maid e Yelp; Castle Keepers se destaca com limpeza ecológica. Reforçar na página de Powdersville a limpeza ecológica e citar a SC-153 e a região.",
       "error": null
     },
     "tryon-nc": {
@@ -1892,74 +1897,74 @@
     "piedmont-sc": {
       "city": "Piedmont, SC",
       "query": "house cleaning Piedmont SC",
-      "checkedAt": "2026-11-21T15:45:00Z",
+      "checkedAt": "2026-11-22T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "care.com"
+          "title": "House Cleaning Services in Piedmont, SC"
         },
         {
           "pos": 2,
-          "domain": "match.angi.com",
-          "title": "match.angi.com"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Piedmont, South Carolina"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "angi.com"
+          "domain": "yelp.com",
+          "title": "Top 10 Best House Cleaning Services near Piedmont, SC"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
+          "domain": "yelp.com",
+          "title": "Top 10 Best House Cleaning Services near Piedmont, SC 29673"
         },
         {
           "pos": 5,
-          "domain": "match.angi.com",
-          "title": "match.angi.com"
+          "domain": "yelp.com",
+          "title": "Best 10 Home Cleaning near SC-153, Piedmont, SC 29673"
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "myhomet.com",
+          "title": "House Cleaning in Piedmont, South Carolina"
         },
         {
           "pos": 7,
-          "domain": "care.com",
-          "title": "care.com"
+          "domain": "greencleanville.com",
+          "title": "Recurring House Cleaning in Piedmont, SC"
         },
         {
           "pos": 8,
-          "domain": "angi.com",
-          "title": "angi.com"
+          "domain": "greencleanville.com",
+          "title": "Deep Cleaning in Piedmont, SC"
         },
         {
           "pos": 9,
-          "domain": "homeadvisor.com",
-          "title": "homeadvisor.com"
-        },
-        {
-          "pos": 10,
-          "domain": "thumbtack.com",
-          "title": "thumbtack.com"
+          "domain": "homeglowcleaningservices.com",
+          "title": "House Cleaning in Piedmont, SC"
         }
       ],
       "competitors": [
         {
-          "pos": null,
-          "domain": null,
-          "name": "Kays Spic and Spotless Cleaning"
+          "pos": 2,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
         },
         {
-          "pos": null,
-          "domain": null,
-          "name": "Over the Moon Residential Solutions"
+          "pos": 7,
+          "domain": "greencleanville.com",
+          "name": "Green Cleanville"
+        },
+        {
+          "pos": 9,
+          "domain": "homeglowcleaningservices.com",
+          "name": "Home Glow Cleaning Services"
         }
       ],
-      "tip": "Só diretórios no topo; página de Piedmont deve citar o nome da cidade com clareza (há resultados de Piedmont, NC misturados) e mostrar avaliações reais.",
+      "tip": "Green Cleanville tem páginas separadas de recorrente e profunda para Piedmont, com produtos não tóxicos; ligar a página de Piedmont às páginas de serviço e destacar segurança para crianças e pets.",
       "error": null
     },
     "pauline-sc": {
@@ -2522,44 +2527,79 @@
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
-      "checkedAt": "2026-11-21T12:45:00Z",
+      "checkedAt": "2026-11-22T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "care.com",
-          "title": "Care.com: house cleaning Flat Rock NC"
+          "domain": "angi.com",
+          "title": "Top 10 Best House cleaners in Flat Rock, NC"
         },
         {
           "pos": 2,
-          "domain": "angi.com",
-          "title": "Angi: house cleaning Flat Rock"
+          "domain": "care.com",
+          "title": "TOP 10 House Cleaning Services in Flat Rock, NC"
         },
         {
           "pos": 3,
-          "domain": "care.com",
-          "title": "Care.com: housekeeping Flat Rock"
+          "domain": "mollymaid.com",
+          "title": "House Cleaning Services in Flat Rock, North Carolina"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "HeyMaid (HomeAdvisor)"
+          "domain": "yellowpages.com",
+          "title": "Best 30 House Cleaning in Flat Rock, NC with Reviews"
         },
         {
           "pos": 5,
-          "domain": "bbb.org",
-          "title": "BBB: house cleaning (Fletcher NC)"
+          "domain": "housekeeper.com",
+          "title": "Cleaners, Housekeepers & Housekeeping Services in Flat Rock"
+        },
+        {
+          "pos": 6,
+          "domain": "mollymaid.com",
+          "title": "Apartment and Condo Cleaning Services in Flat Rock, NC"
+        },
+        {
+          "pos": 7,
+          "domain": "mollymaid.com",
+          "title": "Move-In and Move-Out Cleaning in Flat Rock"
+        },
+        {
+          "pos": 8,
+          "domain": "laclean4you.com",
+          "title": "Home Cleaning Services in Flat Rock, NC"
+        },
+        {
+          "pos": 9,
+          "domain": "clarityhousewash.com",
+          "title": "Flat Rock, NC"
+        },
+        {
+          "pos": 10,
+          "domain": "glowwaveservices.com",
+          "title": "House Cleaning in Flat Rock, NC"
         }
       ],
       "competitors": [
         {
-          "pos": 4,
-          "domain": "homeadvisor.com",
-          "name": "HeyMaid"
+          "pos": 3,
+          "domain": "mollymaid.com",
+          "name": "Molly Maid"
+        },
+        {
+          "pos": 8,
+          "domain": "laclean4you.com",
+          "name": "L&A Cleaning"
+        },
+        {
+          "pos": 10,
+          "domain": "glowwaveservices.com",
+          "name": "GlowWave"
         }
       ],
-      "tip": "Só diretórios (Care.com, Angi) aparecem e poucas empresas locais; uma página de Flat Rock com serviço, área atendida (Hendersonville/Tryon) e pedido de orçamento pode entrar fácil no topo.",
+      "tip": "Molly Maid ocupa 3 posições com páginas por serviço (apartamento, mudança); criar na página de Flat Rock blocos curtos de mudança e recorrente e destacar frequência semanal/quinzenal.",
       "error": null
     },
     "williamston-sc": {
