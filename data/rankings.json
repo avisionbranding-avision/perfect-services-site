@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T00:45:00Z",
+  "updatedAt": "2026-11-23T03:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -637,14 +637,14 @@
     "mauldin-sc": {
       "city": "Mauldin, SC",
       "query": "house cleaning Mauldin SC",
-      "checkedAt": "2026-11-22T06:50:00Z",
+      "checkedAt": "2026-11-23T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "Care.com house cleaning Mauldin"
         },
         {
           "pos": 2,
@@ -653,90 +653,101 @@
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "thumbtack.com",
+          "title": "13 house cleaners Mauldin"
         },
         {
           "pos": 4,
-          "domain": "thumbtack.com",
-          "title": "Check out 13 house cleaners in your area"
+          "domain": "angi.com",
+          "title": "Compare Quotes House Cleaning"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "cleaning lady Mauldin"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping Mauldin"
         },
         {
           "pos": 7,
           "domain": "bbb.org",
-          "title": "cleaning services"
+          "title": "cleaning services Mauldin"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "c.house cleaning.mauldin.SC. 12014"
+          "title": "house cleaning Mauldin"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping page2"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeepers Mauldin"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios no topo (Care.com, HomeAdvisor, Angi, Thumbtack, BBB): nenhuma empresa local com site próprio. Destacar na página de Mauldin preço inicial, avaliações e orçamento grátis para ocupar esse espaço.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "homeadvisor.com",
+          "name": "SC Professional Cleaning"
+        },
+        {
+          "pos": 2,
+          "domain": "bbb.org",
+          "name": "Trusted Professional Cleaners LLC"
+        }
+      ],
+      "tip": "Top 10 é só diretórios com nota e número de avaliações; mostrar a nota do Google e depoimentos reais na página de Mauldin.",
       "error": null
     },
     "travelers-rest-sc": {
       "city": "Travelers Rest, SC",
       "query": "house cleaning Travelers Rest SC",
-      "checkedAt": "2026-11-22T06:50:00Z",
+      "checkedAt": "2026-11-23T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "Care.com house cleaning Travelers Rest"
         },
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "Showing: 1,230 results for House Cleaning"
+          "title": "House Cleaning (1,230 results)"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping page2"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping Travelers Rest"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "cleaning lady page2"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "Showing: 2,614 results for Cleaning Services"
+          "title": "Cleaning Services"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "cleaning lady page3"
         },
         {
           "pos": 8,
@@ -746,29 +757,40 @@
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeepers"
         },
         {
           "pos": 10,
           "domain": "angi.com",
-          "title": "www.angi.com"
+          "title": "cleaning"
         }
       ],
-      "competitors": [],
-      "tip": "Topo dominado por Care.com e BBB; as empresas do BBB são de Greenville. Reforçar na página de Travelers Rest que atendemos a cidade, com faixa de preço e perguntas frequentes.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "care.com",
+          "name": "Patty's Housekeeping"
+        },
+        {
+          "pos": 2,
+          "domain": "care.com",
+          "name": "Cantrell Painting and Cleaning Services"
+        }
+      ],
+      "tip": "Care.com domina; reforçar a página de Travelers Rest com FAQ e faixa de preço para capturar quem compara valores.",
       "error": null
     },
     "campobello-sc": {
       "city": "Campobello, SC",
       "query": "house cleaning Campobello SC",
-      "checkedAt": "2026-11-22T06:50:00Z",
+      "checkedAt": "2026-11-23T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "Care.com house cleaning Campobello"
         },
         {
           "pos": 2,
@@ -783,22 +805,22 @@
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "c.house cleaning.campobello.SC. 12014"
+          "title": "house cleaning Campobello"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping Campobello"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "cleaning lady Campobello"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeepers Campobello"
         },
         {
           "pos": 8,
@@ -808,7 +830,7 @@
         {
           "pos": 9,
           "domain": "angi.com",
-          "title": "www.angi.com"
+          "title": "cleaning"
         },
         {
           "pos": 10,
@@ -816,14 +838,25 @@
           "title": "Jackie cleaning service"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios e autônomos pequenos aparecem. Página de Campobello com orçamento grátis, avaliações do Google e a distância até Greer pode ficar à frente.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "thumbtack.com",
+          "name": "Jackie Cleaning Service"
+        },
+        {
+          "pos": 2,
+          "domain": "angi.com",
+          "name": "A Little House Cleaning Services LLC"
+        }
+      ],
+      "tip": "Poucas empresas locais aparecem (Jackie Cleaning, A Little House); destacar na página de Campobello a proximidade com Greer e o tempo de resposta.",
       "error": null
     },
     "moore-sc": {
       "city": "Moore, SC",
       "query": "house cleaning Moore SC",
-      "checkedAt": "2026-11-22T06:50:00Z",
+      "checkedAt": "2026-11-23T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -835,37 +868,37 @@
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "Care.com house cleaning Moore"
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "angi.com",
+          "title": "Compare Quotes House Cleaning"
         },
         {
           "pos": 4,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from Cleaning Services"
+          "domain": "angi.com",
+          "title": "Compare Quotes Cleaning Services"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "c.house cleaning.moore.SC. 12014"
+          "title": "house cleaning Moore"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "maid service"
+          "title": "maid service Moore"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping Moore"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping page3"
         },
         {
           "pos": 9,
@@ -875,24 +908,35 @@
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeepers Moore"
         }
       ],
-      "competitors": [],
-      "tip": "Resultados são diretórios; as empresas do BBB para Moore ficam em Greenville, Simpsonville ou Fort Mill. Mostrar na página de Moore que somos vizinhos (Greer) e que o orçamento é grátis.",
+      "competitors": [
+        {
+          "pos": 1,
+          "domain": "homeadvisor.com",
+          "name": "Palmetto Cleaning Pro"
+        },
+        {
+          "pos": 2,
+          "domain": "bbb.org",
+          "name": "Molly Maid of Greenville"
+        }
+      ],
+      "tip": "Só diretórios no topo e nenhuma empresa de Moore; página de Moore com serviço, preço inicial e chamada para orçamento grátis.",
       "error": null
     },
     "simpsonville-sc": {
       "city": "Simpsonville, SC",
       "query": "house cleaning Simpsonville SC",
-      "checkedAt": "2026-11-22T06:50:00Z",
+      "checkedAt": "2026-11-23T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "Care.com house cleaning Simpsonville"
         },
         {
           "pos": 2,
@@ -901,33 +945,33 @@
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "angi.com",
+          "title": "Compare Quotes House Cleaning"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeeping Simpsonville"
         },
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "Showing: 2,434 results for Cleaning Services"
+          "title": "Cleaning Services (2,434 results)"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "housekeepers Simpsonville"
         },
         {
           "pos": 7,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from Cleaning Services"
+          "domain": "angi.com",
+          "title": "Compare Quotes Cleaning Services"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Compare Quotes from One-Time Cleaning Services"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 9,
@@ -937,17 +981,27 @@
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com logo"
+          "title": "cleaning lady Simpsonville"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
+          "pos": 1,
           "domain": "maidpro.com",
           "name": "MaidPro Simpsonville"
+        },
+        {
+          "pos": 2,
+          "domain": "thumbtack.com",
+          "name": "Purely Cleaning Solutions"
+        },
+        {
+          "pos": 3,
+          "domain": "angi.com",
+          "name": "Jewl's Care Cleaning"
         }
       ],
-      "tip": "Só a franquia MaidPro com site próprio no topo, no 2º lugar. Na página de Simpsonville, mostrar o que ela não mostra: equipe dona do negócio, preço inicial, avaliações do Google e orçamento grátis.",
+      "tip": "MaidPro (franquia) aparece em 2º; na página de Simpsonville destacar equipe local, avaliações do Google e garantia de satisfação.",
       "error": null
     },
     "berea-sc": {
@@ -2148,7 +2202,7 @@
     "cowpens-sc": {
       "city": "Cowpens, SC",
       "query": "house cleaning Cowpens SC",
-      "checkedAt": "2026-11-22T03:50:00Z",
+      "checkedAt": "2026-11-23T03:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2165,7 +2219,7 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "housekeepers Cowpens"
+          "title": "cowpens sc page2"
         },
         {
           "pos": 4,
@@ -2190,7 +2244,7 @@
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com profile"
+          "title": "jennyb6458"
         },
         {
           "pos": 9,
@@ -2200,22 +2254,27 @@
         {
           "pos": 10,
           "domain": "instaservice.com",
-          "title": "house cleaning 3 bed 2 bath Cowpens"
+          "title": "house cleaning 3 bed 2 bath"
         }
       ],
       "competitors": [
         {
-          "pos": 9,
-          "domain": "angi.com",
-          "name": "No-Prints Professional Cleaning Service"
-        },
-        {
-          "pos": 10,
+          "pos": 1,
           "domain": "instaservice.com",
           "name": "InstaService"
+        },
+        {
+          "pos": 2,
+          "domain": "angi.com",
+          "name": "No-Prints Cleaning Service"
+        },
+        {
+          "pos": 3,
+          "domain": "angi.com",
+          "name": "First Class Cleaners LLC"
         }
       ],
-      "tip": "Só diretórios no topo e nenhuma empresa local com site próprio: publicar na página de Cowpens preço inicial, perguntas frequentes e a área atendida a partir de Greer para ocupar o espaço.",
+      "tip": "Só diretórios (Angi, Care.com) e a InstaService aparecem; criar na página de Cowpens um bloco de preço inicial e FAQ local para ganhar espaço onde quase não há empresa local.",
       "error": null
     },
     "chesnee-sc": {
