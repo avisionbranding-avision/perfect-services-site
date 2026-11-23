@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T06:45:00Z",
+  "checkedAt": "2026-11-23T09:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,7 +24,7 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de ontem publicada às 10:06 UTC (32 artigos)"
+      "detail": "Rodada de ontem publicada às 10:06 UTC (32 artigos); a de hoje sai às 10:00 UTC"
     },
     {
       "id": "daily_count",
@@ -36,7 +36,7 @@
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "3 posts de ontem prontos; o de hoje sai às 7h"
+      "detail": "Posts de ontem prontos; o de hoje sai às 7h"
     },
     {
       "id": "greer_queue",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-23T09:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-23T06:45:00Z",
       "overall": "ok",
@@ -371,11 +376,6 @@
       "at": "2026-11-16T00:45:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-15T21:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades, 3 diretórios e 2 títulos"
     }
   ]
 }
