@@ -1,33 +1,33 @@
 {
-  "updatedAt": "2026-11-23T12:45:00Z",
+  "updatedAt": "2026-11-23T15:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
       "city": "Greer, SC",
       "query": "house cleaning Greer SC",
-      "checkedAt": "2026-11-22T18:45:00Z",
+      "checkedAt": "2026-11-23T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Greer SC"
+          "title": "Care.com house cleaning Greer"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com Greer page 2"
+          "title": "greer sc page2"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Angi house cleaning Greer"
+          "title": "house cleaning"
         },
         {
           "pos": 4,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes (Angi)"
+          "domain": "angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 5,
@@ -37,147 +37,137 @@
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "An Artistic Touch Cleaning Service (Angi)"
+          "title": "An Artistic Touch Cleaning Service, LLC"
         },
         {
           "pos": 7,
           "domain": "thecleaningauthority.com",
-          "title": "The Cleaning Authority Greer"
+          "title": "house cleaning (The Cleaning Authority)"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Greer"
+          "title": "Care.com"
         },
         {
           "pos": 9,
-          "domain": "match.angi.com",
-          "title": "Angi maid service Greer"
+          "domain": "bbb.org",
+          "title": "maid service"
         },
         {
           "pos": 10,
-          "domain": "bbb.org",
-          "title": "BBB maid service Greer"
+          "domain": "angi.com",
+          "title": "Compare Quotes from Cleaning Services"
         }
       ],
       "competitors": [
         {
           "pos": 5,
           "domain": "maidpro.com",
-          "name": "MaidPro Greer (4,8 estrelas, 161 avaliações no site deles)"
+          "name": "MaidPro Greer"
         },
         {
           "pos": 7,
           "domain": "thecleaningauthority.com",
-          "name": "The Cleaning Authority"
-        },
-        {
-          "pos": null,
-          "domain": "thumbtack.com",
-          "name": "Angel Grove Cleaning LLC"
-        },
-        {
-          "pos": 3,
-          "domain": "angi.com",
-          "name": "The Cleaning Fairy LLC"
+          "name": "The Cleaning Authority (Greer)"
         }
       ],
-      "tip": "MaidPro mostra nota e total de avaliações na página; destacar a nota 5,0 do Google e avaliações reais na página de Greer.",
+      "tip": "MaidPro (nota 4,8 com 161 avaliações) e The Cleaning Authority aparecem no topo; destacar a nota 5,0 do Google e avaliações reais na página de Greer e manter o foco em \"Brazilian house cleaning\" como diferencial.",
       "error": null
     },
     "taylors-sc": {
       "city": "Taylors, SC",
       "query": "house cleaning Taylors SC",
-      "checkedAt": "2026-11-22T18:45:00Z",
+      "checkedAt": "2026-11-23T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Taylors SC"
+          "title": "Care.com house cleaning Taylors"
         },
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "BBB house cleaning Taylors"
+          "title": "Showing: 1,238 results for House Cleaning"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Angi cleaning Taylors"
+          "title": "cleaning"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Angi house cleaning Taylors"
+          "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 5,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes (Angi)"
+          "domain": "angi.com",
+          "title": "house cleaning"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com housekeeping Taylors"
+          "title": "Care.com"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Taylors"
+          "title": "Care.com"
         },
         {
           "pos": 8,
-          "domain": "homeadvisor.com",
-          "title": "HomeAdvisor Walls Ceilings Clean"
+          "domain": "care.com",
+          "title": "Care.com"
         },
         {
           "pos": 9,
-          "domain": "care.com",
-          "title": "Care.com Taylors page 2"
+          "domain": "homeadvisor.com",
+          "title": "Walls Ceilings Clean"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com Taylors page 2"
+          "title": "Care.com"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo (Care.com, BBB, Angi); reforçar a página de Taylors com FAQ e preço por faixa de casa para disputar o resultado.",
+      "tip": "Só diretórios no topo; nenhuma empresa com site próprio apareceu. A página de Taylors pode ganhar com preço inicial, FAQ e telefone bem visíveis.",
       "error": null
     },
     "duncan-sc": {
       "city": "Duncan, SC",
       "query": "house cleaning Duncan SC",
-      "checkedAt": "2026-11-22T18:45:00Z",
+      "checkedAt": "2026-11-23T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Duncan SC"
+          "title": "Care.com house cleaning Duncan"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi house cleaning Duncan"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor Duncan"
+          "title": "Serving Duncan, SC and surrounding areas"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping Duncan"
+          "title": "Care.com"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor maid service Duncan"
+          "title": "Compare Quotes from Cleaning Services"
         },
         {
           "pos": 6,
@@ -187,88 +177,88 @@
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "Angi cleaning Duncan"
+          "title": "cleaning"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Duncan"
+          "title": "Care.com"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com Duncan page 2"
+          "title": "Care.com"
         },
         {
           "pos": 10,
-          "domain": "match.angi.com",
-          "title": "Angi maid service Duncan"
+          "domain": "angi.com",
+          "title": "Compare Quotes from Cleaning Services"
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa com site próprio no topo de Duncan; mostrar na página a cobertura de Duncan e a distância de 5 milhas de Greer.",
+      "tip": "Topo 100% de diretórios (Care.com, Angi, HomeAdvisor, BBB). Citar Duncan com a distância de Greer e os serviços mais pedidos na página para competir por buscas locais.",
       "error": null
     },
     "lyman-sc": {
       "city": "Lyman, SC",
       "query": "house cleaning Lyman SC",
-      "checkedAt": "2026-11-22T18:45:00Z",
+      "checkedAt": "2026-11-23T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "Angi house cleaning Lyman"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com house cleaning Lyman SC"
+          "title": "Care.com house cleaning Lyman"
         },
         {
           "pos": 3,
           "domain": "bbb.org",
-          "title": "BBB house cleaning Lyman"
+          "title": "house cleaning"
         },
         {
           "pos": 4,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes (Angi)"
+          "domain": "angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 5,
-          "domain": "match.angi.com",
-          "title": "Angi maid service Lyman"
+          "domain": "angi.com",
+          "title": "Compare Quotes from Cleaning Services"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com housekeeping Lyman"
+          "title": "Care.com"
         },
         {
           "pos": 7,
           "domain": "bbb.org",
-          "title": "BBB maid service Lyman"
+          "title": "maid service"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Lyman"
+          "title": "Care.com"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com Lyman page 2"
+          "title": "Care.com"
         },
         {
           "pos": 10,
-          "domain": "match.angi.com",
-          "title": "Angi post-construction Lyman"
+          "domain": "angi.com",
+          "title": "Compare Quotes from Post-Construction Cleaning Services"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo de Lyman; a página de Lyman precisa de FAQ própria e de links dos artigos do bairro para disputar.",
+      "tip": "Só diretórios no topo (Angi, Care.com, BBB). Ligar a página de Lyman a artigos locais e destacar atendimento rápido a partir de Greer.",
       "error": null
     },
     "wade-hampton-sc": {
@@ -1626,63 +1616,63 @@
     "woodruff-sc": {
       "city": "Woodruff, SC",
       "query": "house cleaning Woodruff SC",
-      "checkedAt": "2026-11-22T18:45:00Z",
+      "checkedAt": "2026-11-23T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Woodruff SC"
+          "title": "Care.com house cleaning Woodruff"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi house cleaning Woodruff"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com Woodruff page 2"
+          "title": "woodruff sc page2"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor one-time cleaning Woodruff"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Woodruff"
+          "title": "Care.com"
         },
         {
           "pos": 6,
-          "domain": "match.angi.com",
-          "title": "Angi SD Contracting"
+          "domain": "angi.com",
+          "title": "match.angi.com"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeeping Woodruff"
+          "title": "Care.com"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com Woodruff page 3"
+          "title": "Care.com"
         },
         {
           "pos": 9,
           "domain": "angi.com",
-          "title": "Angi cleaning Woodruff"
+          "title": "cleaning"
         },
         {
           "pos": 10,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor one-time cleaning Woodruff"
+          "title": "Cleaning one time service"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo de Woodruff; a página de Woodruff pode competir com FAQ e cobertura local explícita.",
+      "tip": "Topo é de diretórios; preços de referência no Care.com ficam perto de US$ 16-17 por hora. Mostrar na página de Woodruff o que está incluso na limpeza e o orçamento grátis.",
       "error": null
     },
     "powdersville-sc": {
@@ -2525,7 +2515,7 @@
     "pickens-sc": {
       "city": "Pickens, SC",
       "query": "house cleaning Pickens SC",
-      "checkedAt": "2026-11-22T15:45:00Z",
+      "checkedAt": "2026-11-23T15:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2537,12 +2527,12 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning Pickens"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "House Cleaning Pickens SC"
+          "title": "Care.com"
         },
         {
           "pos": 4,
@@ -2552,12 +2542,32 @@
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "House Cleaning Pickens"
+          "title": "Showing: 1,224 results for House Cleaning"
         },
         {
           "pos": 6,
           "domain": "walmart.com",
           "title": "House Cleaning Services at Pickens Supercenter"
+        },
+        {
+          "pos": 7,
+          "domain": "care.com",
+          "title": "Care.com"
+        },
+        {
+          "pos": 8,
+          "domain": "homeadvisor.com",
+          "title": "house cleaning Pickens SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Care.com"
+        },
+        {
+          "pos": 10,
+          "domain": "thumbtack.com",
+          "title": "Breathe Easy Cleaning Co."
         }
       ],
       "competitors": [
@@ -2565,9 +2575,14 @@
           "pos": 4,
           "domain": "thumbtack.com",
           "name": "Southern Cleaning Services Upstate LLC"
+        },
+        {
+          "pos": 10,
+          "domain": "thumbtack.com",
+          "name": "Breathe Easy Cleaning Co."
         }
       ],
-      "tip": "Thumbtack mostra tempo de empresa e verificação de antecedentes; na página de Pickens, destacar equipe com antecedentes verificados e o seguro.",
+      "tip": "O topo é só de diretórios (Care.com, Angi, Thumbtack, BBB). Pickens está pouco disputada por empresas com site próprio: reforçar a página de Pickens com nome, telefone e \"free estimate\" para entrar entre os diretórios.",
       "error": null
     },
     "liberty-sc": {
