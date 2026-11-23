@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T09:45:00Z",
+  "updatedAt": "2026-11-23T12:45:00Z",
   "kit": [
     {
       "label": "Business name (igual ao Google)",
@@ -94,7 +94,7 @@
       "match": "yelp.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-23T03:50:00Z"
+      "checkedAt": "2026-11-23T12:45:00Z"
     },
     {
       "id": "angi",
@@ -127,7 +127,7 @@
       "match": "care.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-23T00:45:00Z"
+      "checkedAt": "2026-11-23T12:45:00Z"
     },
     {
       "id": "apple",
@@ -193,7 +193,7 @@
       "match": "greerchamber.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-23T00:45:00Z"
+      "checkedAt": "2026-11-23T12:45:00Z"
     }
   ]
 }

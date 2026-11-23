@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-23T09:45:00Z",
-  "now": "Revisei as buscas de Chesnee, Landrum, Spartanburg, Fountain Inn, Powdersville e Piedmont (só diretórios e franquias no topo, nenhuma empresa nossa); build, links, GTM e formulário ok; lista no limite, nenhuma melhoria nova.",
+  "updatedAt": "2026-11-23T12:45:00Z",
+  "now": "Revisei as buscas de Flat Rock, Saluda, Columbus, Easley, Williamston e Pacolet (só diretórios e a MaidPro em Saluda); 3 títulos de Greer encurtados; build, links, GTM e formulário ok; lista no limite de 25 abertas.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -925,6 +925,20 @@
       "foundAt": "2026-11-22",
       "doneAt": null,
       "result": null
+    },
+    {
+      "id": "seo-titulos-greer-2026-11-23",
+      "title": "Encurtar 3 títulos de artigos de Greer acima de 65 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos longos são cortados no Google.",
+      "action": "Títulos de 3 artigos de Greer reduzidos para até 54 caracteres.",
+      "foundAt": "2026-11-23",
+      "doneAt": "2026-11-23T12:45:00Z",
+      "result": "3 títulos encurtados (53-61 caracteres); no ar após o deploy das 7h."
     }
   ]
 }

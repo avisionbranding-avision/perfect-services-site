@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T09:45:00Z",
+  "updatedAt": "2026-11-23T12:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1943,14 +1943,14 @@
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-22T15:45:00Z",
+      "checkedAt": "2026-11-23T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House Cleaning Saluda NC"
+          "title": "Care.com: house cleaning Saluda, NC"
         },
         {
           "pos": 2,
@@ -1960,7 +1960,7 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeepers Saluda NC"
+          "title": "Housekeepers Saluda"
         },
         {
           "pos": 4,
@@ -1969,74 +1969,104 @@
         },
         {
           "pos": 5,
+          "domain": "care.com",
+          "title": "Housekeeping Saluda"
+        },
+        {
+          "pos": 6,
+          "domain": "angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
+        },
+        {
+          "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning Saluda NC"
+          "title": "House Cleaning Saluda"
         }
       ],
       "competitors": [
         {
           "pos": 4,
           "domain": "maidpro.com",
-          "name": "MaidPro (atende Saluda a partir de Hendersonville)"
+          "name": "MaidPro Saluda, NC"
         }
       ],
-      "tip": "MaidPro aparece com página própria para Saluda (planos semanal, quinzenal e avulso); criar na página de Saluda uma seção de planos de frequência e o tempo de deslocamento a partir de Greer.",
+      "tip": "A MaidPro aparece em 4º com página própria e opções semanal, quinzenal e avulsa; na página de Saluda, destacar as mesmas frequências e o atendimento local sem franquia.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-22T15:45:00Z",
+      "checkedAt": "2026-11-23T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "house cleaning Columbus NC"
+          "title": "columbus nc"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning Columbus NC"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeeping Columbus NC"
+          "title": "Housekeeping Columbus"
         },
         {
           "pos": 4,
-          "domain": "merrymaids.com",
-          "title": "Merry Maids Columbus cleaning services"
+          "domain": "care.com",
+          "title": "Housekeeping Columbus"
         },
         {
           "pos": 5,
+          "domain": "care.com",
+          "title": "Cleaning lady Columbus"
+        },
+        {
+          "pos": 6,
+          "domain": "care.com",
+          "title": "Housekeepers Columbus"
+        },
+        {
+          "pos": 7,
+          "domain": "angi.com",
+          "title": "cleaning Columbus"
+        },
+        {
+          "pos": 8,
+          "domain": "angi.com",
+          "title": "Helping Hands Cleaning & More"
+        },
+        {
+          "pos": 9,
           "domain": "bbb.org",
-          "title": "Maid Service Columbus NC"
+          "title": "Maid Service Columbus"
         }
       ],
       "competitors": [
         {
-          "pos": 4,
-          "domain": "merrymaids.com",
-          "name": "Merry Maids (página de Columbus)"
+          "pos": 8,
+          "domain": "angi.com",
+          "name": "Helping Hands Cleaning & More"
         }
       ],
-      "tip": "Poucas empresas locais; a página de Columbus pode ganhar com os planos (semanal, quinzenal, avulso) e FAQ de preço, como a Merry Maids mostra, deixando claro que atendemos a região.",
+      "tip": "Care.com domina a busca e quase não há empresa local; boa chance de entrar. Na página de Columbus, deixar claro que atendemos Polk County, com orçamento grátis e preço por tipo de limpeza.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-22T15:45:00Z",
+      "checkedAt": "2026-11-23T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House Cleaning Easley SC"
+          "title": "Care.com: house cleaning Easley, SC"
         },
         {
           "pos": 2,
@@ -2051,21 +2081,32 @@
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeeping Easley SC"
+          "title": "House cleaning Easley page 2"
         },
         {
           "pos": 5,
-          "domain": "thumbtack.com",
-          "title": "Check out 10 house cleaners in your area"
+          "domain": "bbb.org",
+          "title": "Maid Service Easley"
         },
         {
           "pos": 6,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning Easley SC"
+          "domain": "care.com",
+          "title": "Housekeeping Easley"
+        },
+        {
+          "pos": 7,
+          "domain": "thumbtack.com",
+          "title": "Check out 10 house cleaners in your area"
         }
       ],
-      "competitors": [],
-      "tip": "Angi e Thumbtack destacam nota e número de avaliações; mostrar na página de Easley a nota do Google e avaliações reais, além do preço inicial.",
+      "competitors": [
+        {
+          "pos": 7,
+          "domain": "thumbtack.com",
+          "name": "Thumbtack: house cleaners in Easley"
+        }
+      ],
+      "tip": "Thumbtack mostra 52 limpadores 5 estrelas e a BBB lista empresas com nota A+; na página de Easley, mostrar nossas avaliações do Google e o seguro/equipe verificada.",
       "error": null
     },
     "gray-court-sc": {
@@ -2346,85 +2387,55 @@
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
-      "checkedAt": "2026-11-22T12:45:00Z",
+      "checkedAt": "2026-11-23T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "angi.com",
-          "title": "Top 10 Best House cleaners in Flat Rock, NC"
+          "domain": "care.com",
+          "title": "Care.com: house cleaning Flat Rock, NC"
         },
         {
           "pos": 2,
-          "domain": "care.com",
-          "title": "TOP 10 House Cleaning Services in Flat Rock, NC"
+          "domain": "angi.com",
+          "title": "house cleaning Flat Rock"
         },
         {
           "pos": 3,
-          "domain": "mollymaid.com",
-          "title": "House Cleaning Services in Flat Rock, North Carolina"
+          "domain": "care.com",
+          "title": "Housekeeping Flat Rock, NC"
         },
         {
           "pos": 4,
-          "domain": "yellowpages.com",
-          "title": "Best 30 House Cleaning in Flat Rock, NC with Reviews"
+          "domain": "angi.com",
+          "title": "cleaning Flat Rock"
         },
         {
           "pos": 5,
-          "domain": "housekeeper.com",
-          "title": "Cleaners, Housekeepers & Housekeeping Services in Flat Rock"
+          "domain": "homeadvisor.com",
+          "title": "HeyMaid"
         },
         {
           "pos": 6,
-          "domain": "mollymaid.com",
-          "title": "Apartment and Condo Cleaning Services in Flat Rock, NC"
-        },
-        {
-          "pos": 7,
-          "domain": "mollymaid.com",
-          "title": "Move-In and Move-Out Cleaning in Flat Rock"
-        },
-        {
-          "pos": 8,
-          "domain": "laclean4you.com",
-          "title": "Home Cleaning Services in Flat Rock, NC"
-        },
-        {
-          "pos": 9,
-          "domain": "clarityhousewash.com",
-          "title": "Flat Rock, NC"
-        },
-        {
-          "pos": 10,
-          "domain": "glowwaveservices.com",
-          "title": "House Cleaning in Flat Rock, NC"
+          "domain": "bbb.org",
+          "title": "House Cleaning Fletcher"
         }
       ],
       "competitors": [
         {
-          "pos": 3,
-          "domain": "mollymaid.com",
-          "name": "Molly Maid"
-        },
-        {
-          "pos": 8,
-          "domain": "laclean4you.com",
-          "name": "L&A Cleaning"
-        },
-        {
-          "pos": 10,
-          "domain": "glowwaveservices.com",
-          "name": "GlowWave"
+          "pos": 5,
+          "domain": "homeadvisor.com",
+          "name": "HeyMaid"
         }
       ],
-      "tip": "Molly Maid ocupa 3 posições com páginas por serviço (apartamento, mudança); criar na página de Flat Rock blocos curtos de mudança e recorrente e destacar frequência semanal/quinzenal.",
+      "tip": "O topo é todo de diretórios (Care.com e Angi); HeyMaid e SunRiver Maids são locais. Na página de Flat Rock, citar Hendersonville e Tryon como áreas atendidas e mostrar o telefone (864) 399-5168.",
       "error": null
     },
     "williamston-sc": {
       "city": "Williamston, SC",
       "query": "house cleaning Williamston SC",
-      "checkedAt": "2026-11-22T15:45:00Z",
+      "checkedAt": "2026-11-23T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2436,11 +2447,11 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi: cleaning companies Williamston"
+          "title": "cleaning Williamston"
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
+          "domain": "angi.com",
           "title": "Compare Quotes from House Cleaning Services"
         },
         {
@@ -2455,25 +2466,31 @@
         },
         {
           "pos": 6,
-          "domain": "thebuildermarket.com",
-          "title": "Top-Rated Cleaning & Maid Services in Williamston, SC"
+          "domain": "care.com",
+          "title": "Cleaning lady Williamston"
         }
       ],
-      "competitors": [],
-      "tip": "O topo é só diretório (Care.com, Angi, HomeAdvisor) com taxa por hora visível; mostrar na página de Williamston o preço inicial e o que está incluso, já que nenhuma empresa local aparece.",
+      "competitors": [
+        {
+          "pos": 4,
+          "domain": "care.com",
+          "name": "Evans Cleaning Service"
+        }
+      ],
+      "tip": "Só diretórios e pequenas empresas locais no topo; na página de Williamston, falar de Anderson County e de limpeza avulsa, que aparece nos resultados, com a faixa de preço por tamanho de casa.",
       "error": null
     },
     "pacolet-sc": {
       "city": "Pacolet, SC",
       "query": "house cleaning Pacolet SC",
-      "checkedAt": "2026-11-22T15:45:00Z",
+      "checkedAt": "2026-11-23T12:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House Cleaning Pacolet SC"
+          "title": "Care.com: house cleaning Pacolet, SC"
         },
         {
           "pos": 2,
@@ -2483,17 +2500,17 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeepers Pacolet SC"
+          "title": "Housekeepers Pacolet"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Pacolet cleaning"
+          "title": "cleaning Pacolet"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Housekeeping Providers Pacolet SC"
+          "title": "Housekeeping Pacolet"
         },
         {
           "pos": 6,
@@ -2502,7 +2519,7 @@
         }
       ],
       "competitors": [],
-      "tip": "O topo é de diretórios, sem empresa local; destacar na página de Pacolet que atendemos a cidade, com preço inicial e avaliações.",
+      "tip": "Nenhuma empresa local aparece, só Care.com, Angi e BBB. Na página de Pacolet, citar Spartanburg County, o telefone e o orçamento grátis, e cadastrar a empresa no Angi e na BBB.",
       "error": null
     },
     "pickens-sc": {

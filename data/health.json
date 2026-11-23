@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-23T09:45:00Z",
+  "checkedAt": "2026-11-23T12:45:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "977 páginas geradas"
+      "detail": "1009 páginas geradas"
     },
     {
       "id": "links",
@@ -24,13 +24,13 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de ontem publicada às 10:06 UTC (32 artigos); a de hoje sai às 10:00 UTC"
+      "detail": "Rodada de hoje publicada às 10:06 UTC (32 artigos)"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos da última rodada (meta 32)"
+      "detail": "32 artigos de hoje (meta: 32)"
     },
     {
       "id": "gbp_posts",
@@ -75,8 +75,15 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "3 títulos de artigos de Greer encurtados para até 65 caracteres"
+  ],
   "history": [
+    {
+      "at": "2026-11-23T12:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 3 títulos encurtados"
+    },
     {
       "at": "2026-11-23T09:45:00Z",
       "overall": "ok",
@@ -371,11 +378,6 @@
       "at": "2026-11-16T03:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 6 cidades, 3 diretórios, 2 descrições ajustadas"
-    },
-    {
-      "at": "2026-11-16T00:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
     }
   ]
 }
