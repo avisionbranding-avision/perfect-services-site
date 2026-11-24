@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T03:50:00Z",
+  "updatedAt": "2026-11-24T06:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1487,80 +1487,69 @@
     "marietta-sc": {
       "city": "Marietta, SC",
       "query": "house cleaning Marietta SC",
-      "checkedAt": "2026-11-23T06:45:00Z",
+      "checkedAt": "2026-11-24T06:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning Marietta SC"
+          "title": "Angi - house cleaning Marietta"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "House cleaning Marietta SC"
+          "title": "Care.com house cleaning Marietta"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Marietta SC"
+          "title": "HomeAdvisor house cleaning Marietta SC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeeping page 2"
+          "title": "Care.com housekeeping Marietta page 2"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Housekeeping Marietta"
+          "title": "Care.com housekeeping Marietta"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Cleaning lady Marietta"
+          "title": "Care.com cleaning lady Marietta"
         },
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "Range Hood Clean"
+          "title": "HomeAdvisor Range Hood Clean Marietta"
         },
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "Cleaning Marietta"
+          "title": "Angi cleaning Marietta"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Cleaning lady page 2"
+          "title": "Care.com cleaning lady Marietta page 2"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Move out cleaning Marietta"
+          "title": "Care.com move-out cleaning Marietta"
         }
       ],
-      "competitors": [
-        {
-          "pos": 16,
-          "domain": "thecleaningauthority.com",
-          "name": "The Cleaning Authority"
-        },
-        {
-          "pos": 17,
-          "domain": "merrymaids.com",
-          "name": "Merry Maids"
-        }
-      ],
-      "tip": "Só diretórios e franquias sem cidade clara; texto próprio de Marietta SC com perguntas frequentes ajuda a diferenciar da Marietta da Geórgia.",
+      "competitors": [],
+      "tip": "Só diretórios no topo para Marietta SC (franquias que aparecem depois são da Marietta da Geórgia); texto próprio de Marietta SC citando Greer e cidades vizinhas ajuda a diferenciar.",
       "error": null
     },
     "landrum-sc": {
       "city": "Landrum, SC",
       "query": "house cleaning Landrum SC",
-      "checkedAt": "2026-11-23T09:45:00Z",
+      "checkedAt": "2026-11-24T06:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1587,7 +1576,7 @@
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor one-time cleaning"
+          "title": "HomeAdvisor cleaning one time service Landrum"
         },
         {
           "pos": 6,
@@ -1596,13 +1585,13 @@
         },
         {
           "pos": 7,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services (Angi)"
+          "domain": "angi.com",
+          "title": "Angi Compare Quotes House Cleaning Landrum"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com housekeepers page 0"
+          "title": "Care.com housekeepers Landrum page 0"
         },
         {
           "pos": 9,
@@ -1612,11 +1601,11 @@
         {
           "pos": 10,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor House Cleaning"
+          "title": "HomeAdvisor House Cleaning Landrum"
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa local aparece no topo, só Care.com, Angi e HomeAdvisor; a página de Landrum pode ganhar com um bloco de avaliações do Google e preço inicial claro.",
+      "tip": "Só diretórios no topo, nenhuma empresa local. Página de Landrum com limpeza única e recorrente e perguntas frequentes pode competir.",
       "error": null
     },
     "spartanburg-sc": {
@@ -1705,7 +1694,7 @@
     "fountain-inn-sc": {
       "city": "Fountain Inn, SC",
       "query": "house cleaning Fountain Inn SC",
-      "checkedAt": "2026-11-23T09:45:00Z",
+      "checkedAt": "2026-11-24T06:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1721,13 +1710,13 @@
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services (Angi)"
+          "domain": "angi.com",
+          "title": "Angi Compare Quotes House Cleaning Fountain Inn"
         },
         {
           "pos": 4,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from Cleaning Services (Angi)"
+          "domain": "angi.com",
+          "title": "Angi Compare Quotes Cleaning Services"
         },
         {
           "pos": 5,
@@ -1760,19 +1749,8 @@
           "title": "HomeAdvisor House Cleaning"
         }
       ],
-      "competitors": [
-        {
-          "pos": 11,
-          "domain": "care.com",
-          "name": "Maddie & Sly Cleaning Services"
-        },
-        {
-          "pos": 14,
-          "domain": "care.com",
-          "name": "The Dust Fairy LLC"
-        }
-      ],
-      "tip": "Só diretórios no topo (Care.com, BBB, Angi, HomeAdvisor); reforçar a página de Fountain Inn com texto local, perguntas frequentes e avaliações do Google.",
+      "competitors": [],
+      "tip": "Diretórios dominam; destacar a nota 5,0 do Google e um FAQ de preços na página de Fountain Inn.",
       "error": null
     },
     "woodruff-sc": {
@@ -1840,24 +1818,24 @@
     "powdersville-sc": {
       "city": "Powdersville, SC",
       "query": "house cleaning Powdersville SC",
-      "checkedAt": "2026-11-23T09:45:00Z",
+      "checkedAt": "2026-11-24T06:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "homeguide.com",
-          "title": "JL's Cleaning Service (HomeGuide)"
+          "title": "JL's Cleaning Service"
         },
         {
           "pos": 2,
           "domain": "thumbtack.com",
-          "title": "Cris House Cleaning (Thumbtack)"
+          "title": "Cris House Cleaning"
         },
         {
           "pos": 3,
           "domain": "manta.com",
-          "title": "SNP 365 Cleaners (Manta)"
+          "title": "SNP 365 Cleaners"
         },
         {
           "pos": 4,
@@ -1867,12 +1845,12 @@
         {
           "pos": 5,
           "domain": "thumbtack.com",
-          "title": "Peerless Maids (Thumbtack)"
+          "title": "Peerless Maids"
         },
         {
           "pos": 6,
           "domain": "maids.com",
-          "title": "House Cleaning Services in South Carolina (Maids.com)"
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 7,
@@ -1882,7 +1860,7 @@
         {
           "pos": 8,
           "domain": "maids.com",
-          "title": "Maids.com South Carolina"
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 9,
@@ -1899,20 +1877,20 @@
         {
           "pos": 1,
           "domain": "homeguide.com",
-          "name": "JL's Cleaning Service (Greenville, diz atender Powdersville)"
+          "name": "JL's Cleaning Service"
         },
         {
           "pos": 2,
           "domain": "thumbtack.com",
-          "name": "Cris House Cleaning (Easley, diz atender Powdersville)"
+          "name": "Cris House Cleaning"
         },
         {
           "pos": 3,
           "domain": "manta.com",
-          "name": "SNP 365 Cleaners (foco em escritórios)"
+          "name": "SNP 365 Cleaners"
         }
       ],
-      "tip": "Os primeiros resultados são pequenos prestadores que citam Powdersville no texto; a página de Powdersville deve citar a cidade de forma natural, com serviços, preço inicial e área atendida.",
+      "tip": "Poucas empresas citam Powdersville; reforçar a página com o nome da cidade e das vizinhas (Easley, Greenville) e avaliações.",
       "error": null
     },
     "tryon-nc": {
@@ -1980,7 +1958,7 @@
     "piedmont-sc": {
       "city": "Piedmont, SC",
       "query": "house cleaning Piedmont SC",
-      "checkedAt": "2026-11-23T09:45:00Z",
+      "checkedAt": "2026-11-24T06:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1991,8 +1969,8 @@
         },
         {
           "pos": 2,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services (Angi)"
+          "domain": "angi.com",
+          "title": "Angi Compare Quotes House Cleaning Piedmont"
         },
         {
           "pos": 3,
@@ -2006,8 +1984,8 @@
         },
         {
           "pos": 5,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from Cleaning Services (Angi)"
+          "domain": "angi.com",
+          "title": "Angi Compare Quotes Cleaning Services"
         },
         {
           "pos": 6,
@@ -2027,16 +2005,22 @@
         {
           "pos": 9,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor Maid Service"
+          "title": "HomeAdvisor Maid Service Piedmont"
         },
         {
           "pos": 10,
           "domain": "thumbtack.com",
-          "title": "Over the Moon Residential Solutions (Thumbtack)"
+          "title": "Over the Moon Residential Solutions"
         }
       ],
-      "competitors": [],
-      "tip": "O topo é todo de diretórios (Care.com, Angi, HomeAdvisor) sem empresa local; a página de Piedmont tem espaço para ranquear com conteúdo local e avaliações reais.",
+      "competitors": [
+        {
+          "pos": 10,
+          "domain": "thumbtack.com",
+          "name": "Over the Moon Residential Solutions"
+        }
+      ],
+      "tip": "Diretórios no topo; mostrar preço inicial e equipe verificada na página de Piedmont, como os concorrentes fazem na Thumbtack.",
       "error": null
     },
     "pauline-sc": {
@@ -2488,14 +2472,14 @@
     "chesnee-sc": {
       "city": "Chesnee, SC",
       "query": "house cleaning Chesnee SC",
-      "checkedAt": "2026-11-23T09:45:00Z",
+      "checkedAt": "2026-11-24T06:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "Angi house cleaning Chesnee"
         },
         {
           "pos": 2,
@@ -2510,52 +2494,41 @@
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Chesnee"
+          "title": "Care.com housekeeping Chesnee page 2"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com housekeeping page 2"
+          "title": "Care.com cleaning lady Chesnee"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi cleaning"
+          "title": "Angi cleaning Chesnee"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeepers"
+          "title": "Care.com housekeepers Chesnee"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com housekeepers page 3"
+          "title": "Care.com housekeepers Chesnee page 3"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com move-out cleaning"
+          "title": "Care.com move-out cleaning Chesnee"
         },
         {
           "pos": 10,
           "domain": "angi.com",
-          "title": "Angi couch cleaning"
+          "title": "Angi couch cleaning Chesnee"
         }
       ],
-      "competitors": [
-        {
-          "pos": 1,
-          "domain": "angi.com",
-          "name": "Sunrise Cleaning Services (nota 5,0 em 8 avaliações no Angi)"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "name": "Kimmy's Cleaning Company"
-        }
-      ],
-      "tip": "O topo é só diretório (Angi e Care.com) e há poucas empresas locais; criar um bloco de perguntas e preços na página de Chesnee e citar a cidade e vizinhas como Pacolet e Campobello.",
+      "competitors": [],
+      "tip": "Só Angi e Care.com no topo; poucas empresas locais. Página de Chesnee com preço inicial e perguntas frequentes pode ocupar esse espaço.",
       "error": null
     },
     "flat-rock-nc": {
