@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T21:45:00Z",
+  "updatedAt": "2026-11-24T00:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -757,7 +757,7 @@
     "mauldin-sc": {
       "city": "Mauldin, SC",
       "query": "house cleaning Mauldin SC",
-      "checkedAt": "2026-11-23T03:50:00Z",
+      "checkedAt": "2026-11-24T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -814,23 +814,23 @@
       ],
       "competitors": [
         {
-          "pos": 1,
+          "pos": 8,
           "domain": "homeadvisor.com",
           "name": "SC Professional Cleaning"
         },
         {
-          "pos": 2,
+          "pos": 7,
           "domain": "bbb.org",
           "name": "Trusted Professional Cleaners LLC"
         }
       ],
-      "tip": "Top 10 é só diretórios com nota e número de avaliações; mostrar a nota do Google e depoimentos reais na página de Mauldin.",
+      "tip": "Top 10 é só diretórios com nota e avaliações; mostrar a nota do Google e depoimentos reais na página de Mauldin.",
       "error": null
     },
     "travelers-rest-sc": {
       "city": "Travelers Rest, SC",
       "query": "house cleaning Travelers Rest SC",
-      "checkedAt": "2026-11-23T03:50:00Z",
+      "checkedAt": "2026-11-24T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -842,12 +842,12 @@
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "House Cleaning (1,230 results)"
+          "title": "House Cleaning (BBB)"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "housekeeping page2"
+          "title": "housekeeping Travelers Rest page2"
         },
         {
           "pos": 4,
@@ -862,7 +862,7 @@
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "Cleaning Services"
+          "title": "Cleaning Services (BBB)"
         },
         {
           "pos": 7,
@@ -877,33 +877,33 @@
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "housekeepers"
+          "title": "housekeepers Travelers Rest"
         },
         {
           "pos": 10,
           "domain": "angi.com",
-          "title": "cleaning"
+          "title": "Cleaning Travelers Rest"
         }
       ],
       "competitors": [
         {
-          "pos": 1,
+          "pos": 10,
           "domain": "care.com",
           "name": "Patty's Housekeeping"
         },
         {
-          "pos": 2,
+          "pos": 18,
           "domain": "care.com",
-          "name": "Cantrell Painting and Cleaning Services"
+          "name": "Cantrell Painting and Cleaning Services, LLC"
         }
       ],
-      "tip": "Care.com domina; reforçar a página de Travelers Rest com FAQ e faixa de preço para capturar quem compara valores.",
+      "tip": "Só diretórios no topo (Care.com domina); nenhuma empresa com site próprio aparece: página de Travelers Rest com preço inicial, FAQ e nota do Google tem espaço para subir.",
       "error": null
     },
     "campobello-sc": {
       "city": "Campobello, SC",
       "query": "house cleaning Campobello SC",
-      "checkedAt": "2026-11-23T03:50:00Z",
+      "checkedAt": "2026-11-24T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -915,7 +915,7 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "house cleaning Campobello"
         },
         {
           "pos": 3,
@@ -939,18 +939,18 @@
         },
         {
           "pos": 7,
-          "domain": "care.com",
-          "title": "housekeepers Campobello"
-        },
-        {
-          "pos": 8,
           "domain": "homeadvisor.com",
           "title": "House Cleaning"
         },
         {
+          "pos": 8,
+          "domain": "care.com",
+          "title": "housekeepers Campobello"
+        },
+        {
           "pos": 9,
           "domain": "angi.com",
-          "title": "cleaning"
+          "title": "Cleaning Campobello"
         },
         {
           "pos": 10,
@@ -960,30 +960,30 @@
       ],
       "competitors": [
         {
-          "pos": 1,
-          "domain": "thumbtack.com",
-          "name": "Jackie Cleaning Service"
-        },
-        {
           "pos": 2,
           "domain": "angi.com",
           "name": "A Little House Cleaning Services LLC"
+        },
+        {
+          "pos": 10,
+          "domain": "thumbtack.com",
+          "name": "Jackie cleaning service"
         }
       ],
-      "tip": "Poucas empresas locais aparecem (Jackie Cleaning, A Little House); destacar na página de Campobello a proximidade com Greer e o tempo de resposta.",
+      "tip": "Só diretórios e autônomos; a página de Campobello pode se destacar com preço inicial, área atendida e FAQ (a instaservice.com aparece com página própria da cidade).",
       "error": null
     },
     "moore-sc": {
       "city": "Moore, SC",
       "query": "house cleaning Moore SC",
-      "checkedAt": "2026-11-23T03:50:00Z",
+      "checkedAt": "2026-11-24T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "house cleaning Moore"
         },
         {
           "pos": 2,
@@ -998,7 +998,7 @@
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Compare Quotes Cleaning Services"
+          "title": "Compare Quotes Maid Service"
         },
         {
           "pos": 5,
@@ -1033,23 +1033,18 @@
       ],
       "competitors": [
         {
-          "pos": 1,
+          "pos": 5,
           "domain": "homeadvisor.com",
           "name": "Palmetto Cleaning Pro"
-        },
-        {
-          "pos": 2,
-          "domain": "bbb.org",
-          "name": "Molly Maid of Greenville"
         }
       ],
-      "tip": "Só diretórios no topo e nenhuma empresa de Moore; página de Moore com serviço, preço inicial e chamada para orçamento grátis.",
+      "tip": "Nenhuma empresa local de limpeza com site aparece; só diretórios. Página de Moore com serviços, preço inicial e orçamento grátis pode ocupar esse espaço.",
       "error": null
     },
     "simpsonville-sc": {
       "city": "Simpsonville, SC",
       "query": "house cleaning Simpsonville SC",
-      "checkedAt": "2026-11-23T03:50:00Z",
+      "checkedAt": "2026-11-24T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1060,13 +1055,13 @@
         },
         {
           "pos": 2,
-          "domain": "maidpro.com",
-          "title": "MaidPro Simpsonville, SC"
+          "domain": "angi.com",
+          "title": "Compare Quotes House Cleaning"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "Compare Quotes House Cleaning"
+          "domain": "maidpro.com",
+          "title": "MaidPro Simpsonville, SC"
         },
         {
           "pos": 4,
@@ -1076,7 +1071,7 @@
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "Cleaning Services (2,434 results)"
+          "title": "Cleaning Services (BBB)"
         },
         {
           "pos": 6,
@@ -1086,12 +1081,12 @@
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "Compare Quotes Cleaning Services"
+          "title": "Maid Service"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "title": "One-Time Cleaning Services"
         },
         {
           "pos": 9,
@@ -1106,22 +1101,17 @@
       ],
       "competitors": [
         {
-          "pos": 1,
+          "pos": 3,
           "domain": "maidpro.com",
-          "name": "MaidPro Simpsonville"
+          "name": "MaidPro"
         },
         {
-          "pos": 2,
+          "pos": 9,
           "domain": "thumbtack.com",
           "name": "Purely Cleaning Solutions"
-        },
-        {
-          "pos": 3,
-          "domain": "angi.com",
-          "name": "Jewl's Care Cleaning"
         }
       ],
-      "tip": "MaidPro (franquia) aparece em 2º; na página de Simpsonville destacar equipe local, avaliações do Google e garantia de satisfação.",
+      "tip": "MaidPro (franquia) é o único site de empresa no topo 3; destacar o que a franquia não mostra: Brazilian-owned, orçamento grátis em casa e avaliações reais na página de Simpsonville.",
       "error": null
     },
     "berea-sc": {
@@ -2823,59 +2813,74 @@
     "hendersonville-nc": {
       "city": "Hendersonville, NC",
       "query": "house cleaning Hendersonville NC",
-      "checkedAt": "2026-11-23T00:45:00Z",
+      "checkedAt": "2026-11-24T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Hendersonville NC"
+          "title": "Care.com house cleaning Hendersonville"
         },
         {
           "pos": 2,
-          "domain": "match.angi.com",
+          "domain": "angi.com",
           "title": "Compare Quotes from Cleaning Services"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Hendersonville NC"
+          "title": "cleaning lady Hendersonville"
         },
         {
           "pos": 4,
           "domain": "bbb.org",
-          "title": "House Cleaning Hendersonville (BBB)"
+          "title": "House Cleaning (BBB)"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Hendersonville NC"
+          "title": "house cleaning Hendersonville"
         },
         {
           "pos": 6,
+          "domain": "homeadvisor.com",
+          "title": "House Cleaning"
+        },
+        {
+          "pos": 7,
           "domain": "merrymaids.com",
           "title": "Merry Maids Asheville/Hendersonville"
         },
         {
-          "pos": 7,
+          "pos": 8,
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service"
+        },
+        {
+          "pos": 9,
           "domain": "angi.com",
-          "title": "Angi cleaning companies Hendersonville"
+          "title": "Cleaning companies Hendersonville"
+        },
+        {
+          "pos": 10,
+          "domain": "angi.com",
+          "title": "G&A Cleaning Solutions, LLC"
         }
       ],
       "competitors": [
         {
-          "pos": 6,
+          "pos": 7,
           "domain": "merrymaids.com",
           "name": "Merry Maids"
         },
         {
-          "pos": 14,
-          "domain": "mollymaid.com",
-          "name": "Molly Maid"
+          "pos": 10,
+          "domain": "angi.com",
+          "name": "G&A Cleaning Solutions, LLC"
         }
       ],
-      "tip": "Só diretórios e franquias (Merry Maids, Molly Maid) aparecem; mostrar preço inicial, orçamento grátis e avaliações na página de Hendersonville.",
+      "tip": "Top 10 é quase só diretórios; Merry Maids e Molly Maid (franquias) atendem a região; mostrar seguro, orçamento grátis e nota do Google na página de Hendersonville.",
       "error": null
     }
   }
