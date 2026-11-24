@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T18:55:00Z",
-  "now": "Conferi 510 artigos (todos válidos), links e as dicas de 6 cidades; nenhuma melhoria automática aberta para aplicar.",
+  "updatedAt": "2026-11-24T21:50:00Z",
+  "now": "Conferi 510 artigos e as dicas de 6 cidades; 3 artigos sem links ganharam links internos e restam 29 sem links para a próxima rodada.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -981,6 +981,34 @@
       "foundAt": "2026-11-24",
       "doneAt": "2026-11-24T15:55:00Z",
       "result": "3 títulos agora com 60-62 caracteres"
+    },
+    {
+      "id": "seo-links-internos-2026-11-24",
+      "title": "Adicionar links internos a 29 artigos que não têm nenhum",
+      "area": "links",
+      "owner": "auto",
+      "status": "aberta",
+      "priority": 3,
+      "page": null,
+      "why": "29 artigos (principalmente de Greer, de 14, 15 e 23/11) não têm link para as páginas /areas/ ou /services/.",
+      "action": "Incluir 1-2 links para a página da cidade e do serviço correspondente no fim do HTML.",
+      "foundAt": "2026-11-24",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-links-3-posts-2026-11-24",
+      "title": "Links internos em 3 artigos (Tryon, Pauline, Powdersville)",
+      "area": "links",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": null,
+      "why": "Os 3 artigos não tinham links para cidade ou serviço.",
+      "action": "Parágrafo final com link da cidade e do serviço.",
+      "foundAt": "2026-11-24",
+      "doneAt": "2026-11-24T21:50:00Z",
+      "result": "3 artigos corrigidos; build e links ok"
     }
   ]
 }

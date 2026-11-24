@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T18:55:00Z",
+  "updatedAt": "2026-11-24T21:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -723,14 +723,14 @@
     "mauldin-sc": {
       "city": "Mauldin, SC",
       "query": "house cleaning Mauldin SC",
-      "checkedAt": "2026-11-24T00:45:00Z",
+      "checkedAt": "2026-11-24T21:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Mauldin"
+          "title": "House cleaning Mauldin"
         },
         {
           "pos": 2,
@@ -740,148 +740,126 @@
         {
           "pos": 3,
           "domain": "thumbtack.com",
-          "title": "13 house cleaners Mauldin"
+          "title": "13 house cleaners in your area"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Compare Quotes House Cleaning"
+          "title": "Compare quotes house cleaning"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "cleaning lady Mauldin"
+          "title": "Cleaning lady Mauldin"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "housekeeping Mauldin"
+          "title": "Housekeeping Mauldin"
         },
         {
           "pos": 7,
           "domain": "bbb.org",
-          "title": "cleaning services Mauldin"
+          "title": "Cleaning services (BBB)"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Mauldin"
+          "title": "House cleaning Mauldin"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "housekeeping page2"
+          "title": "Housekeeping Mauldin, página 2"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "housekeepers Mauldin"
+          "title": "Housekeepers Mauldin"
         }
       ],
-      "competitors": [
-        {
-          "pos": 8,
-          "domain": "homeadvisor.com",
-          "name": "SC Professional Cleaning"
-        },
-        {
-          "pos": 7,
-          "domain": "bbb.org",
-          "name": "Trusted Professional Cleaners LLC"
-        }
-      ],
-      "tip": "Top 10 é só diretórios com nota e avaliações; mostrar a nota do Google e depoimentos reais na página de Mauldin.",
+      "competitors": [],
+      "tip": "Topo dominado por diretórios que mostram nota e quantidade de avaliações (Angi 4,7). Destacar na página de Mauldin a nota 5,0 do Google e um bloco de perguntas frequentes.",
       "error": null
     },
     "travelers-rest-sc": {
       "city": "Travelers Rest, SC",
       "query": "house cleaning Travelers Rest SC",
-      "checkedAt": "2026-11-24T00:45:00Z",
+      "checkedAt": "2026-11-24T21:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Travelers Rest"
+          "title": "House cleaning Travelers Rest"
         },
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "House Cleaning (BBB)"
+          "title": "House cleaning (BBB)"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "housekeeping Travelers Rest page2"
+          "title": "Housekeeping Travelers Rest, página 2"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "housekeeping Travelers Rest"
+          "title": "Housekeeping Travelers Rest"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "cleaning lady page2"
+          "title": "Cleaning lady, página 2"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "Cleaning Services (BBB)"
+          "title": "Cleaning services (BBB)"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "cleaning lady page3"
+          "title": "Cleaning lady, página 3"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Range Hood Clean"
+          "title": "Range hood clean"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "housekeepers Travelers Rest"
+          "title": "Housekeepers Travelers Rest"
         },
         {
           "pos": 10,
           "domain": "angi.com",
-          "title": "Cleaning Travelers Rest"
+          "title": "Cleaning (Angi, Travelers Rest)"
         }
       ],
-      "competitors": [
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "name": "Patty's Housekeeping"
-        },
-        {
-          "pos": 18,
-          "domain": "care.com",
-          "name": "Cantrell Painting and Cleaning Services, LLC"
-        }
-      ],
-      "tip": "Só diretórios no topo (Care.com domina); nenhuma empresa com site próprio aparece: página de Travelers Rest com preço inicial, FAQ e nota do Google tem espaço para subir.",
+      "competitors": [],
+      "tip": "Só diretórios aparecem; nenhuma empresa local com site próprio no topo. Boa chance: otimizar a página de Travelers Rest com preço de referência por tipo de limpeza e links para os serviços.",
       "error": null
     },
     "campobello-sc": {
       "city": "Campobello, SC",
       "query": "house cleaning Campobello SC",
-      "checkedAt": "2026-11-24T00:45:00Z",
+      "checkedAt": "2026-11-24T21:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Campobello"
+          "title": "House cleaning Campobello"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning Campobello"
+          "title": "House cleaning (Angi)"
         },
         {
           "pos": 3,
@@ -891,32 +869,32 @@
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Campobello"
+          "title": "House cleaning Campobello"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "housekeeping Campobello"
+          "title": "Housekeeping Campobello"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "cleaning lady Campobello"
+          "title": "Cleaning lady Campobello"
         },
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning"
+          "title": "House cleaning"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "housekeepers Campobello"
+          "title": "Housekeepers Campobello"
         },
         {
           "pos": 9,
           "domain": "angi.com",
-          "title": "Cleaning Campobello"
+          "title": "Cleaning (Angi)"
         },
         {
           "pos": 10,
@@ -924,93 +902,76 @@
           "title": "Jackie cleaning service"
         }
       ],
-      "competitors": [
-        {
-          "pos": 2,
-          "domain": "angi.com",
-          "name": "A Little House Cleaning Services LLC"
-        },
-        {
-          "pos": 10,
-          "domain": "thumbtack.com",
-          "name": "Jackie cleaning service"
-        }
-      ],
-      "tip": "Só diretórios e autônomos; a página de Campobello pode se destacar com preço inicial, área atendida e FAQ (a instaservice.com aparece com página própria da cidade).",
+      "competitors": [],
+      "tip": "Poucos concorrentes locais com nota em Campobello (Angi cita 8 limpadores bem avaliados). Reforçar a página da cidade com avaliações reais e o telefone em destaque.",
       "error": null
     },
     "moore-sc": {
       "city": "Moore, SC",
       "query": "house cleaning Moore SC",
-      "checkedAt": "2026-11-24T00:45:00Z",
+      "checkedAt": "2026-11-24T21:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning Moore"
+          "title": "House cleaning (Angi, Moore)"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com house cleaning Moore"
+          "title": "House cleaning Moore"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Compare Quotes House Cleaning"
+          "title": "Compare quotes house cleaning"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Compare Quotes Maid Service"
+          "title": "Compare quotes maid service"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Moore"
+          "title": "House cleaning Moore"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "maid service Moore"
+          "title": "Maid service (BBB)"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "housekeeping Moore"
+          "title": "Housekeeping Moore"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "housekeeping page3"
+          "title": "Housekeeping Moore, página 3"
         },
         {
           "pos": 9,
           "domain": "homeadvisor.com",
-          "title": "Range Hood Clean"
+          "title": "Range hood clean"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "housekeepers Moore"
+          "title": "Housekeepers Moore"
         }
       ],
-      "competitors": [
-        {
-          "pos": 5,
-          "domain": "homeadvisor.com",
-          "name": "Palmetto Cleaning Pro"
-        }
-      ],
-      "tip": "Nenhuma empresa local de limpeza com site aparece; só diretórios. Página de Moore com serviços, preço inicial e orçamento grátis pode ocupar esse espaço.",
+      "competitors": [],
+      "tip": "Resultados são só diretórios e empresas de Greenville/Spartanburg. Reforçar na página de Moore a proximidade com Greer e o atendimento no mesmo dia útil, sem inventar prazos.",
       "error": null
     },
     "simpsonville-sc": {
       "city": "Simpsonville, SC",
       "query": "house cleaning Simpsonville SC",
-      "checkedAt": "2026-11-24T00:45:00Z",
+      "checkedAt": "2026-11-24T21:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1077,7 +1038,7 @@
           "name": "Purely Cleaning Solutions"
         }
       ],
-      "tip": "MaidPro (franquia) é o único site de empresa no topo 3; destacar o que a franquia não mostra: Brazilian-owned, orçamento grátis em casa e avaliações reais na página de Simpsonville.",
+      "tip": "Franquia MaidPro aparece na 3ª posição com página própria da cidade. Mostrar na página de Simpsonville nota e avaliações do Google, serviços e perguntas frequentes para competir.",
       "error": null
     },
     "berea-sc": {
@@ -1837,39 +1798,39 @@
     "tryon-nc": {
       "city": "Tryon, NC",
       "query": "house cleaning Tryon NC",
-      "checkedAt": "2026-11-23T21:45:00Z",
+      "checkedAt": "2026-11-24T21:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning – Tryon, NC"
+          "title": "House cleaning (Angi, Tryon)"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Housekeepers in Tryon, NC"
+          "title": "Housekeepers Tryon NC"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "cleaning – Tryon, NC"
+          "title": "Cleaning (Angi, Tryon)"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeepers in Tryon, NC (p2)"
+          "title": "Housekeepers Tryon NC, página 2"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Cleaning lady Tryon, NC"
+          "title": "Cleaning lady Tryon NC"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "maid service – Tryon, NC"
+          "title": "Maid service (BBB, Tryon)"
         },
         {
           "pos": 7,
@@ -1879,21 +1840,21 @@
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Housekeepers Tryon NC (p3)"
+          "title": "Housekeepers Tryon NC, página 3"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Cleaning lady Tryon (p2)"
+          "title": "Cleaning lady Tryon NC, página 2"
         },
         {
           "pos": 10,
           "domain": "bbb.org",
-          "title": "cleaning services – Tryon, NC"
+          "title": "Cleaning services (BBB, Tryon)"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo e nenhuma empresa local forte: a página de Tryon pode ganhar com texto próprio da região, FAQ de preços e link para os artigos de Tryon.",
+      "tip": "Em Tryon o topo é só de diretórios (Angi, Care.com, BBB). Publicar o perfil no BBB e no Angi e reforçar a página de Tryon com serviços, área atendida e perguntas frequentes.",
       "error": null
     },
     "piedmont-sc": {
