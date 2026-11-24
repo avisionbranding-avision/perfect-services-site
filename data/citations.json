@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T06:45:00Z",
+  "updatedAt": "2026-11-24T09:45:00Z",
   "kit": [
     {
       "label": "Business name (igual ao Google)",
@@ -94,7 +94,7 @@
       "match": "yelp.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-24T00:45:00Z"
+      "checkedAt": "2026-11-24T09:45:00Z"
     },
     {
       "id": "angi",
@@ -171,7 +171,7 @@
       "match": "bbb.org",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-23T21:45:00Z"
+      "checkedAt": "2026-11-24T09:45:00Z"
     },
     {
       "id": "homeguide",
@@ -182,7 +182,7 @@
       "match": "homeguide.com",
       "status": "pending",
       "url": null,
-      "checkedAt": "2026-11-23T21:45:00Z"
+      "checkedAt": "2026-11-24T09:45:00Z"
     },
     {
       "id": "chamber",

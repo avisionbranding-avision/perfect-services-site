@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T06:45:00Z",
-  "now": "Revisei as buscas de Marietta, Chesnee, Fountain Inn, Landrum, Piedmont e Powdersville (só diretórios e poucas empresas locais no topo); build, links, GTM e formulário ok; lista no limite de 25 abertas, nenhuma melhoria nova.",
+  "updatedAt": "2026-11-24T09:45:00Z",
+  "now": "Revisei 478 artigos e as buscas de Spartanburg, Saluda, Columbus, Easley, Flat Rock e Williamston (só diretórios e 2 franquias no topo); 3 títulos longos encurtados (Reidville, Greer); build, links, GTM e formulário ok.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -939,6 +939,20 @@
       "foundAt": "2026-11-23",
       "doneAt": "2026-11-23T12:45:00Z",
       "result": "3 títulos encurtados (53-61 caracteres); no ar após o deploy das 7h."
+    },
+    {
+      "id": "seo-titulos-reidville-greer-2026-11-24",
+      "title": "Encurtar 3 títulos acima de 65 caracteres (Reidville e Greer)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos acima de 65 caracteres são cortados no Google.",
+      "action": "Encurtar para até 51 caracteres.",
+      "foundAt": "2026-11-24",
+      "doneAt": "2026-11-24T09:45:00Z",
+      "result": "3 títulos encurtados (47, 46 e 51 caracteres); build e links ok"
     }
   ]
 }

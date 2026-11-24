@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T06:45:00Z",
+  "checkedAt": "2026-11-24T09:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -75,8 +75,15 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Encurtados 3 títulos de artigos acima de 65 caracteres (Reidville e Greer); entram no ar às 7h"
+  ],
   "history": [
+    {
+      "at": "2026-11-24T09:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 3 títulos encurtados"
+    },
     {
       "at": "2026-11-24T06:45:00Z",
       "overall": "ok",
@@ -371,11 +378,6 @@
       "at": "2026-11-17T00:55:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 3 títulos encurtados"
-    },
-    {
-      "at": "2026-11-16T21:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
     }
   ]
 }
