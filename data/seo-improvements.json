@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T09:45:00Z",
-  "now": "Revisei 478 artigos e as buscas de Spartanburg, Saluda, Columbus, Easley, Flat Rock e Williamston (só diretórios e 2 franquias no topo); 3 títulos longos encurtados (Reidville, Greer); build, links, GTM e formulário ok.",
+  "updatedAt": "2026-11-24T12:50:00Z",
+  "now": "Revisei 500 artigos e as buscas de Pacolet, Greer, Taylors, Duncan, Lyman e Woodruff (só diretórios e 2 franquias em Greer); 3 títulos longos encurtados (Greer); build, links, GTM e formulário ok.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -953,6 +953,20 @@
       "foundAt": "2026-11-24",
       "doneAt": "2026-11-24T09:45:00Z",
       "result": "3 títulos encurtados (47, 46 e 51 caracteres); build e links ok"
+    },
+    {
+      "id": "seo-titulos-greer-2026-11-24b",
+      "title": "Encurtar 3 títulos acima de 65 caracteres (Greer: verde verão/primavera, apartamento outono)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos longos são cortados nos resultados do Google.",
+      "action": "Títulos reduzidos para 51, 56 e 51 caracteres.",
+      "foundAt": "2026-11-24",
+      "doneAt": "2026-11-24",
+      "result": "3 títulos encurtados; entram no ar às 7h"
     }
   ]
 }

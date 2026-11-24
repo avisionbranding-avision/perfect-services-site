@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-24T09:45:00Z",
+  "checkedAt": "2026-11-24T12:50:00Z",
   "overall": "ok",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "1009 páginas geradas"
+      "detail": "1041 páginas geradas"
     },
     {
       "id": "links",
@@ -24,25 +24,25 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de ontem publicada às 10:06 UTC (32 artigos)"
+      "detail": "Rodada de hoje publicada às 10:05 UTC (32 artigos)"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos da última rodada (meta: 32)"
+      "detail": "32 artigos de hoje (meta: 32)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts de ontem prontos (3 posts); os de hoje saem após as 7h"
+      "detail": "Posts de hoje prontos (3 posts), sem telefone, link ou e-mail no texto"
     },
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "ok",
-      "detail": "8 dias de temas de Greer restantes"
+      "detail": "7 dias de temas de Greer restantes"
     },
     {
       "id": "cities",
@@ -60,7 +60,7 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "1009 páginas no sitemap, igual ao esperado"
+      "detail": "1041 páginas no sitemap, igual ao esperado"
     },
     {
       "id": "gtm",
@@ -76,9 +76,14 @@
     }
   ],
   "fixes": [
-    "Encurtados 3 títulos de artigos acima de 65 caracteres (Reidville e Greer); entram no ar às 7h"
+    "Encurtados 3 títulos de artigos acima de 65 caracteres (Greer); entram no ar às 7h"
   ],
   "history": [
+    {
+      "at": "2026-11-24T12:50:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 3 títulos encurtados, 6 cidades e 3 diretórios verificados"
+    },
     {
       "at": "2026-11-24T09:45:00Z",
       "overall": "ok",
@@ -373,11 +378,6 @@
       "at": "2026-11-17T03:45:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-17T00:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 títulos encurtados"
     }
   ]
 }
