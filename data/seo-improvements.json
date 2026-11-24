@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-24T12:50:00Z",
-  "now": "Revisei 500 artigos e as buscas de Pacolet, Greer, Taylors, Duncan, Lyman e Woodruff (só diretórios e 2 franquias em Greer); 3 títulos longos encurtados (Greer); build, links, GTM e formulário ok.",
+  "updatedAt": "2026-11-24T15:55:00Z",
+  "now": "Revisei 500 artigos e as buscas de Pickens, Reidville, Five Forks, Pauline, Gray Court e Pelzer (só diretórios e franquias); 3 títulos longos de Greer e Parker encurtados; build, links, GTM e formulário ok.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -967,6 +967,20 @@
       "foundAt": "2026-11-24",
       "doneAt": "2026-11-24",
       "result": "3 títulos encurtados; entram no ar às 7h"
+    },
+    {
+      "id": "seo-titulos-greer-parker-2026-11-24c",
+      "title": "Encurtar 3 títulos acima de 65 caracteres (Greer e Parker)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos longos são cortados nos resultados do Google.",
+      "action": "Títulos reduzidos para 60-62 caracteres.",
+      "foundAt": "2026-11-24",
+      "doneAt": "2026-11-24T15:55:00Z",
+      "result": "3 títulos agora com 60-62 caracteres"
     }
   ]
 }
