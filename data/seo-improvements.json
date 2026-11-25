@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T00:45:00Z",
-  "now": "Revisei as dicas de 6 cidades (Hendersonville, Berea, Parker, Gantt, Roebuck, Boiling Springs) e a saúde do site; nenhuma melhoria automática nova nesta rodada.",
+  "updatedAt": "2026-11-25T03:45:00Z",
+  "now": "Revisei os títulos e descrições de 500 artigos e as dicas de 6 cidades (Cowpens, Marietta, Landrum, Fountain Inn, Powdersville, Piedmont); 2 títulos encurtados. Restam 29 artigos sem links internos.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1009,6 +1009,20 @@
       "foundAt": "2026-11-24",
       "doneAt": "2026-11-24T21:50:00Z",
       "result": "3 artigos corrigidos; build e links ok"
+    },
+    {
+      "id": "seo-titulos-greer-hendersonville-2026-11-25",
+      "title": "Encurtar 2 títulos acima de 65 caracteres (Greer e Hendersonville)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": null,
+      "why": "Títulos longos são cortados no Google.",
+      "action": "Títulos reduzidos para 57 e 54 caracteres.",
+      "foundAt": "2026-11-25",
+      "doneAt": "2026-11-25",
+      "result": "Dois títulos encurtados; o ar muda na rodada das 7h."
     }
   ]
 }

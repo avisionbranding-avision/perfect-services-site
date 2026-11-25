@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T00:45:00Z",
+  "checkedAt": "2026-11-25T03:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -75,8 +75,15 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "2 títulos de artigos encurtados (Greer e Hendersonville)"
+  ],
   "history": [
+    {
+      "at": "2026-11-25T03:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo; 2 títulos encurtados"
+    },
     {
       "at": "2026-11-25T00:45:00Z",
       "overall": "ok",
@@ -371,11 +378,6 @@
       "at": "2026-11-17T18:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-17T15:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
     }
   ]
 }
