@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-11-25T06:50:00Z",
+  "updatedAt": "2026-11-25T09:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
       "city": "Greer, SC",
       "query": "house cleaning Greer SC",
-      "checkedAt": "2026-11-24T12:50:00Z",
+      "checkedAt": "2026-11-25T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Greer, SC"
+          "title": "Care.com: House cleaning Greer SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "greer sc page2"
+          "title": "Care.com: house cleaners Greer SC (page 2)"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Greer SC"
         },
         {
           "pos": 4,
@@ -42,70 +42,75 @@
         {
           "pos": 7,
           "domain": "thecleaningauthority.com",
-          "title": "house cleaning"
+          "title": "The Cleaning Authority Greer"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Cleaning ladies Greer"
+          "title": "Cleaning lady Greer SC"
         },
         {
           "pos": 9,
-          "domain": "bbb.org",
-          "title": "maid service"
+          "domain": "match.angi.com",
+          "title": "Compare Quotes from Cleaning Services"
         },
         {
           "pos": 10,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from Cleaning Services"
+          "domain": "bbb.org",
+          "title": "Maid service Greer SC"
         }
       ],
       "competitors": [
         {
           "pos": 5,
           "domain": "maidpro.com",
-          "name": "MaidPro Greer (franquia, nota 4,8 com 161 avaliações na busca)"
-        },
-        {
-          "pos": 6,
-          "domain": "angi.com",
-          "name": "An Artistic Touch Cleaning Service, LLC"
+          "name": "MaidPro Greer"
         },
         {
           "pos": 7,
           "domain": "thecleaningauthority.com",
-          "name": "The Cleaning Authority (franquia)"
+          "name": "The Cleaning Authority"
+        },
+        {
+          "pos": 6,
+          "domain": "angi.com",
+          "name": "An Artistic Touch Cleaning Service"
+        },
+        {
+          "pos": 13,
+          "domain": "thumbtack.com",
+          "name": "Angel Grove Cleaning LLC"
         }
       ],
-      "tip": "As franquias MaidPro e The Cleaning Authority aparecem com nota e avaliações. Na página de Greer, mostrar a nota 5,0 do Google com as 14 avaliações e o preço inicial, que as franquias não destacam.",
+      "tip": "MaidPro (4,8 estrelas, 161 avaliações) e a Cleaning Authority aparecem com página própria. Reforçar em Greer a nota do Google, preço inicial e o diferencial brasileiro, que as franquias não mostram.",
       "error": null
     },
     "taylors-sc": {
       "city": "Taylors, SC",
       "query": "house cleaning Taylors SC",
-      "checkedAt": "2026-11-24T12:50:00Z",
+      "checkedAt": "2026-11-25T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Taylors, SC"
+          "title": "Find house cleaners in Taylors, SC"
         },
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "House Cleaning (1.238 resultados)"
+          "title": "House Cleaning in Taylors SC (1,238 results)"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "cleaning Taylors"
+          "title": "Cleaning companies in Taylors, SC"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Taylors SC"
         },
         {
           "pos": 5,
@@ -115,39 +120,49 @@
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Housekeeping Taylors"
+          "title": "Housekeeping Taylors SC"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Cleaning Ladies Taylors"
+          "title": "Cleaning lady Taylors SC"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "Walls Ceilings Clean"
+          "title": "Walls Ceilings Clean Taylors SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Cleaning lady Taylors SC (page 2)"
+        },
+        {
+          "pos": 10,
+          "domain": "care.com",
+          "title": "Housekeeping Taylors SC (page 2)"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo, sem empresa local de limpeza. Na página de Taylors, citar Greenville County, o preço inicial e as avaliações do Google para ser a única marca local na busca.",
+      "tip": "Só diretórios no topo (Care.com, BBB, Angi). Na página de Taylors, destacar orçamento grátis, preço inicial e perguntas frequentes locais para ganhar de quem só tem perfil de diretório.",
       "error": null
     },
     "duncan-sc": {
       "city": "Duncan, SC",
       "query": "house cleaning Duncan SC",
-      "checkedAt": "2026-11-24T12:50:00Z",
+      "checkedAt": "2026-11-25T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Duncan, SC"
+          "title": "Find house cleaners in Duncan, SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Duncan SC"
         },
         {
           "pos": 3,
@@ -157,54 +172,64 @@
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Housekeeping Duncan"
+          "title": "Housekeeping Duncan SC"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "Compare Quotes from Cleaning Services"
+          "title": "Maid Service Duncan SC"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "maid service"
+          "title": "Maid service Duncan SC"
         },
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "cleaning Duncan"
+          "title": "Cleaning companies in Duncan, SC"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Cleaning Ladies Duncan"
+          "title": "Cleaning lady Duncan SC"
+        },
+        {
+          "pos": 9,
+          "domain": "care.com",
+          "title": "Housekeeping Duncan SC (page 2)"
+        },
+        {
+          "pos": 10,
+          "domain": "match.angi.com",
+          "title": "Maid Service Duncan SC"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios aparecem; nenhuma empresa local com site. Na página de Duncan, citar Spartanburg County, a distância de Greer, orçamento grátis e avaliações do Google.",
+      "tip": "Nenhuma empresa própria no topo: só Care.com, Angi, HomeAdvisor e BBB. Oportunidade em Duncan: mostrar na página preço inicial, nota do Google e a distância curta de Greer.",
       "error": null
     },
     "lyman-sc": {
       "city": "Lyman, SC",
       "query": "house cleaning Lyman SC",
-      "checkedAt": "2026-11-24T12:50:00Z",
+      "checkedAt": "2026-11-25T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Lyman SC"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Lyman, SC"
+          "title": "Find house cleaners in Lyman, SC"
         },
         {
           "pos": 3,
           "domain": "bbb.org",
-          "title": "house cleaning"
+          "title": "House cleaning Lyman SC"
         },
         {
           "pos": 4,
@@ -219,26 +244,31 @@
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Housekeeping Lyman"
+          "title": "Housekeeping Lyman SC"
         },
         {
           "pos": 7,
           "domain": "bbb.org",
-          "title": "maid service"
+          "title": "Maid service Lyman SC"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Cleaning Ladies Lyman"
+          "title": "Cleaning lady Lyman SC"
         },
         {
           "pos": 9,
-          "domain": "homeadvisor.com",
-          "title": "house cleaning Lyman"
+          "domain": "care.com",
+          "title": "Cleaning lady Lyman SC (page 2)"
+        },
+        {
+          "pos": 10,
+          "domain": "match.angi.com",
+          "title": "Post-Construction Cleaning Lyman SC"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios no topo (Angi, Care.com, BBB). Na página de Lyman, acrescentar perguntas frequentes com preço e área atendida e as avaliações do Google.",
+      "tip": "Só diretórios no topo. A página de Lyman pode ganhar perguntas frequentes locais, área atendida e preço inicial para competir com Angi e Care.com.",
       "error": null
     },
     "wade-hampton-sc": {
@@ -1670,53 +1700,63 @@
     "woodruff-sc": {
       "city": "Woodruff, SC",
       "query": "house cleaning Woodruff SC",
-      "checkedAt": "2026-11-24T12:50:00Z",
+      "checkedAt": "2026-11-25T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Woodruff, SC"
+          "title": "Find house cleaners in Woodruff, SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning"
+          "title": "House cleaning Woodruff SC"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Housekeeping Woodruff"
+          "title": "Housekeeping Woodruff SC (page 2)"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service"
+          "title": "Cleaning one time service Woodruff SC"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Cleaning Ladies Woodruff"
+          "title": "Cleaning lady Woodruff SC"
         },
         {
           "pos": 6,
           "domain": "match.angi.com",
-          "title": "SD contracting"
+          "title": "Angi pro page"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Housekeeping Woodruff"
+          "title": "Housekeeping Woodruff SC"
         },
         {
           "pos": 8,
+          "domain": "care.com",
+          "title": "Housekeeping Woodruff SC (page 3)"
+        },
+        {
+          "pos": 9,
           "domain": "angi.com",
-          "title": "cleaning Woodruff"
+          "title": "Cleaning companies in Woodruff, SC"
+        },
+        {
+          "pos": 10,
+          "domain": "angi.com",
+          "title": "Cleaning companies in Woodruff, SC (blind/other)"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios, sem concorrente local de limpeza residencial. Na página de Woodruff, destacar Spartanburg County, orçamento grátis e as avaliações do Google; cadastrar a empresa no Angi.",
+      "tip": "Só diretórios no topo (Care.com, Angi, HomeAdvisor). Em Woodruff, mostrar preço inicial, orçamento grátis e avaliações na página para se diferenciar.",
       "error": null
     },
     "powdersville-sc": {
@@ -2511,63 +2551,63 @@
     "williamston-sc": {
       "city": "Williamston, SC",
       "query": "house cleaning Williamston SC",
-      "checkedAt": "2026-11-24T09:45:00Z",
+      "checkedAt": "2026-11-25T09:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Williamston, SC"
+          "title": "Find Trusted House Cleaning Services in Williamston, SC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi: cleaning Williamston, SC"
+          "title": "Cleaning companies in Williamston, SC"
         },
         {
           "pos": 3,
-          "domain": "angi.com",
-          "title": "Angi: compare quotes, house cleaning services"
+          "domain": "match.angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com: Evans Cleaning Service, Williamston"
+          "title": "Evans Cleaning Service, Williamston SC"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor: cleaning one time service Williamston, SC"
+          "title": "Cleaning one time service Williamston SC"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady Williamston, SC"
+          "title": "Cleaning lady Williamston SC"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Williamston, SC"
+          "title": "Housekeepers Williamston SC"
         },
         {
           "pos": 8,
-          "domain": "care.com",
-          "title": "Care.com: housekeepers Williamston, SC (page 2)"
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Williamston SC"
         },
         {
           "pos": 9,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor: house cleaning Williamston, SC"
+          "title": "Maid Service Williamston SC"
         },
         {
           "pos": 10,
-          "domain": "homeadvisor.com",
-          "title": "HomeAdvisor: maid service Williamston, SC"
+          "domain": "thebuildermarket.com",
+          "title": "Top-Rated Cleaning & Maid Services in Williamston, SC"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios (Care.com, Angi, HomeAdvisor) e nenhuma empresa local com site próprio. Página de Williamston com preço inicial, área atendida e avaliações pode ocupar esse espaço.",
+      "tip": "Só diretórios no topo (Care.com, Angi, HomeAdvisor). Mostrar na página de Williamston preço inicial, orçamento grátis e a nota do Google para se destacar dos diretórios.",
       "error": null
     },
     "pacolet-sc": {

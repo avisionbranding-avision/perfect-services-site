@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T06:50:00Z",
-  "now": "Conferi os 500 artigos (títulos, descrições, links e tamanho: nada fora do padrão) e a busca de 6 cidades (Chesnee, Spartanburg, Saluda, Columbus, Easley, Flat Rock); nenhuma correção nova necessária.",
+  "updatedAt": "2026-11-25T09:45:00Z",
+  "now": "Conferi 510 artigos (títulos, descrições, links internos e tamanho) e a busca de 6 cidades (Williamston, Greer, Taylors, Duncan, Lyman, Woodruff); 1 descrição ajustada.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1023,6 +1023,20 @@
       "foundAt": "2026-11-25",
       "doneAt": "2026-11-25",
       "result": "Dois títulos encurtados; o ar muda na rodada das 7h."
+    },
+    {
+      "id": "seo-desc-hendersonville-2026-11-25",
+      "title": "Ajustar a descrição do artigo de Hendersonville para 156 caracteres",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-hendersonville-homeowners",
+      "why": "Descrição com 162 caracteres, acima do limite de 160.",
+      "action": "Encurtar mantendo cidade, método e orçamento grátis.",
+      "foundAt": "2026-11-25",
+      "doneAt": "2026-11-25",
+      "result": "Descrição agora com 156 caracteres."
     }
   ]
 }
