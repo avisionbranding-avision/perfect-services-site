@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T21:50:00Z",
+  "checkedAt": "2026-11-25T00:45:00Z",
   "overall": "ok",
   "checks": [
     {
@@ -24,19 +24,19 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de hoje publicada às 10:05 UTC (32 artigos)"
+      "detail": "Rodada de ontem publicada às 10:05 UTC (32 artigos)"
     },
     {
       "id": "daily_count",
       "label": "Quantidade de artigos",
       "status": "ok",
-      "detail": "32 artigos de hoje (meta: 32)"
+      "detail": "Aguardando a rodada de hoje (10:00 UTC)"
     },
     {
       "id": "gbp_posts",
       "label": "Posts do Google Meu Negócio",
       "status": "ok",
-      "detail": "Posts de hoje prontos (3 posts), sem telefone, link ou e-mail no texto"
+      "detail": "Posts de ontem prontos; os de hoje ainda não são esperados"
     },
     {
       "id": "greer_queue",
@@ -75,10 +75,13 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [
-    "3 artigos receberam links internos (Tryon, Pauline, Powdersville)"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-25T00:45:00Z",
+      "overall": "ok",
+      "summary": "Tudo certo"
+    },
     {
       "at": "2026-11-24T21:50:00Z",
       "overall": "ok",
@@ -373,11 +376,6 @@
       "at": "2026-11-17T15:45:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
-    },
-    {
-      "at": "2026-11-17T12:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 melhorias de SEO aplicadas"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T21:50:00Z",
+  "updatedAt": "2026-11-25T00:45:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1044,371 +1044,351 @@
     "berea-sc": {
       "city": "Berea, SC",
       "query": "house cleaning Berea SC",
-      "checkedAt": "2026-11-24T03:50:00Z",
+      "checkedAt": "2026-11-25T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "yelp.com",
-          "title": "Best 10 Home Cleaners in Berea, SC"
+          "domain": "aaarousse.com",
+          "title": "Hoarding cleanup Berea SC"
         },
         {
           "pos": 2,
-          "domain": "yelp.com",
-          "title": "Best 10 Home Cleaning in Berea, SC"
+          "domain": "nannylane.com",
+          "title": "Housekeeper nanny Berea"
         },
         {
           "pos": 3,
-          "domain": "ecoblastsc.com",
-          "title": "Pressure Washing Berea SC"
+          "domain": "bbb.org",
+          "title": "House Cleaning (SC)"
         },
         {
           "pos": 4,
-          "domain": "greencleanville.com",
-          "title": "Recurring House Cleaning in Berea, SC"
+          "domain": "bbb.org",
+          "title": "House Cleaning (Newberry)"
         },
         {
           "pos": 5,
-          "domain": "ariscleaningservices.com",
-          "title": "Affordable Cleaning Service in Berea, SC"
+          "domain": "thumbtack.com",
+          "title": "SC Preferred Cleaners"
         },
         {
           "pos": 6,
-          "domain": "greencleanville.com",
-          "title": "Deep Cleaning in Berea, SC"
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service (Berea, KY)"
         },
         {
           "pos": 7,
-          "domain": "greencleanville.com",
-          "title": "Green Cleanville"
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 8,
-          "domain": "areacosts.com",
-          "title": "House Cleaning Cost in Berea, South Carolina"
+          "domain": "homeaglow.com",
+          "title": "House Cleaning in Gaston, SC"
         },
         {
           "pos": 9,
-          "domain": "miriancleaningservices.com",
-          "title": "House Cleaning in Berea, SC"
+          "domain": "thumbtack.com",
+          "title": "Peerless Maids"
+        },
+        {
+          "pos": 10,
+          "domain": "angi.com",
+          "title": "A Little House Cleaning Service"
         }
       ],
       "competitors": [
         {
-          "pos": 4,
-          "domain": "greencleanville.com",
-          "name": "Green Cleanville"
-        },
-        {
-          "pos": 5,
-          "domain": "ariscleaningservices.com",
-          "name": "Aris Cleaning Services"
-        },
-        {
-          "pos": 9,
-          "domain": "miriancleaningservices.com",
-          "name": "Mirian Cleaning Services"
+          "pos": 10,
+          "domain": "angi.com",
+          "name": "A Little House Cleaning Service"
         }
       ],
-      "tip": "Green Cleanville tem uma página por serviço em Berea (recorrente, limpeza profunda, mudança) e um artigo de custos aparece no topo. Garantir páginas de serviço de Berea com faixa de preço e FAQ de custo.",
+      "tip": "Quase não há empresa de limpeza local de Berea nos resultados; a página de Berea pode ganhar rápido com o nome da cidade no título, o bairro/CEP e um bloco de perguntas frequentes.",
       "error": null
     },
     "parker-sc": {
       "city": "Parker, SC",
       "query": "house cleaning Parker SC",
-      "checkedAt": "2026-11-24T03:50:00Z",
+      "checkedAt": "2026-11-25T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "yelp.com",
-          "title": "Top 10 Best Housekeeping Service near Parker, SC"
+          "domain": "homeadvisor.com",
+          "title": "Parkers Cleaning"
         },
         {
           "pos": 2,
-          "domain": "yelp.com",
-          "title": "QB&Will’s Cleaning Crew - Parker"
+          "domain": "thumbtack.com",
+          "title": "Cleaning services"
         },
         {
           "pos": 3,
-          "domain": "bratcherspowerwashing.com",
-          "title": "Pressure Washing Parker SC"
+          "domain": "thumbtack.com",
+          "title": "Sparkling Touch of SC LLC"
         },
         {
           "pos": 4,
-          "domain": "pressurewashersgreenvillesc.com",
-          "title": "Pressure Washing Parker SC"
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 5,
-          "domain": "aprilfreshcleaning.com",
-          "title": "Home - House Cleaning"
+          "domain": "angi.com",
+          "title": "Compare Quotes House Cleaning Services"
         },
         {
           "pos": 6,
-          "domain": "thecleaningauthority.com",
-          "title": "Aurora House Cleaning Services"
+          "domain": "angi.com",
+          "title": "House cleaning (Parker, SD)"
         },
         {
           "pos": 7,
-          "domain": "propertycleanouts.com",
-          "title": "Property Cleanouts in Parker, SC"
+          "domain": "thumbtack.com",
+          "title": "Parker Cleaning Solutions"
         },
         {
           "pos": 8,
-          "domain": "junkgarbageremoval.com",
-          "title": "House Cleanout & Junk Removal in Parker, SC"
+          "domain": "servpro.com",
+          "title": "Parker Cleanup and Restoration"
         },
         {
           "pos": 9,
-          "domain": "sparklewash.com",
-          "title": "Parker, SC Pressure Washing"
+          "domain": "thumbtack.com",
+          "title": "SC cleaning services"
         },
         {
           "pos": 10,
-          "domain": "esteemedcleaners.com",
-          "title": "Residential Home Cleaning Parker, SC"
+          "domain": "care.com",
+          "title": "South Carolina Housekeeping Services"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
-          "domain": "yelp.com",
-          "name": "QB&Will’s Cleaning Crew"
+          "pos": 8,
+          "domain": "servpro.com",
+          "name": "SERVPRO of Parker"
         },
         {
-          "pos": 10,
-          "domain": "esteemedcleaners.com",
-          "name": "Esteemed Cleaners"
+          "pos": 15,
+          "domain": "maidpro.com",
+          "name": "MaidPro Greer, SC"
         }
       ],
-      "tip": "Concorrência fraca: o topo mistra Yelp, lavagem a pressão e outro Parker (Colorado). Uma página de Parker bem localizada, com bairros e serviços, tem boa chance de entrar no top 10.",
+      "tip": "Resultados fracos e misturados com outros estados; reforçar na página de Parker 'Parker, SC' no título e H1, ruas/escolas da região e a proximidade com Greer.",
       "error": null
     },
     "gantt-sc": {
       "city": "Gantt, SC",
       "query": "house cleaning Gantt SC",
-      "checkedAt": "2026-11-24T03:50:00Z",
+      "checkedAt": "2026-11-25T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "yelp.com",
-          "title": "Top 10 Best House Cleaning Services near Gantt, SC"
+          "domain": "thebuildermarket.com",
+          "title": "Cleaning & Maid Services in Gantt, SC"
         },
         {
           "pos": 2,
-          "domain": "yelp.com",
-          "title": "Top 10 Best Affordable House Cleaning near Gantt, SC"
+          "domain": "thumbtack.com",
+          "title": "Canton Cleaning Company"
         },
         {
           "pos": 3,
-          "domain": "yelp.com",
-          "title": "Best 10 Home Cleaning near Gantt, SC 29605"
+          "domain": "thumbtack.com",
+          "title": "SC cleaning services"
         },
         {
           "pos": 4,
-          "domain": "ccjunkandtrash.com",
-          "title": "House Cleanout Service in Gantt, SC"
+          "domain": "thumbtack.com",
+          "title": "NJSC Services"
         },
         {
           "pos": 5,
-          "domain": "hellocleaners.us",
-          "title": "Deep Cleaning in Gantt, SC"
+          "domain": "care.com",
+          "title": "South Carolina Housekeeping Services"
         },
         {
           "pos": 6,
-          "domain": "olivacleaningservices.com",
-          "title": "House Cleaning in Gantt, SC"
+          "domain": "angi.com",
+          "title": "House cleaning (Gaston)"
         },
         {
           "pos": 7,
-          "domain": "hellocleaners.us",
-          "title": "Hoarder / Heavy-Duty Cleaning in Gantt, SC"
+          "domain": "maids.com",
+          "title": "House Cleaning Services in South Carolina"
         },
         {
           "pos": 8,
-          "domain": "hellocleaners.us",
-          "title": "Same-Day Cleaning in Gantt, SC"
+          "domain": "angi.com",
+          "title": "Cleaning (Gable)"
         },
         {
           "pos": 9,
-          "domain": "homeglowcleaningservices.com",
-          "title": "House Cleaning in Gantt, SC"
+          "domain": "thumbtack.com",
+          "title": "SC Preferred Cleaners"
         },
         {
           "pos": 10,
-          "domain": "areacosts.com",
-          "title": "House Cleaning Cost in Gantt, South Carolina"
+          "domain": "angi.com",
+          "title": "Cleaning (Galivants Ferry)"
         }
       ],
       "competitors": [
         {
-          "pos": 5,
-          "domain": "hellocleaners.us",
-          "name": "Hello Cleaners"
-        },
-        {
-          "pos": 6,
-          "domain": "olivacleaningservices.com",
-          "name": "Oliva Cleaning Services"
-        },
-        {
-          "pos": 9,
-          "domain": "homeglowcleaningservices.com",
-          "name": "Home Glow Cleaning Services"
+          "pos": 1,
+          "domain": "thebuildermarket.com",
+          "name": "Castle Keepers of Greenville (listado em Gantt)"
         }
       ],
-      "tip": "Hello Cleaners e Home Glow mostram preços a partir de valores na própria página. Mostrar faixas de preço por tamanho de casa e a opção de limpeza profunda na página de Gantt.",
+      "tip": "Só aparece um diretório citando Castle Keepers em Gantt; uma página de Gantt com título local claro, serviços e FAQ tem boa chance de entrar no topo.",
       "error": null
     },
     "roebuck-sc": {
       "city": "Roebuck, SC",
       "query": "house cleaning Roebuck SC",
-      "checkedAt": "2026-11-24T03:50:00Z",
+      "checkedAt": "2026-11-25T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "angi.com",
-          "title": "Top 10 Best House cleaners in Roebuck, SC"
+          "domain": "care.com",
+          "title": "House cleaning in Roebuck, SC"
         },
         {
           "pos": 2,
-          "domain": "mapquest.com",
-          "title": "Christina's house's cleaning, Roebuck"
+          "domain": "angi.com",
+          "title": "House cleaning Roebuck"
         },
         {
           "pos": 3,
-          "domain": "yelp.com",
-          "title": "Top 10 Best House Cleaners near Roebuck, SC"
+          "domain": "angi.com",
+          "title": "Compare Quotes House Cleaning Services"
         },
         {
           "pos": 4,
-          "domain": "yelp.com",
-          "title": "Best 10 Home Cleaning near Roebuck, SC 29376"
+          "domain": "homeadvisor.com",
+          "title": "House cleaning Roebuck SC"
         },
         {
           "pos": 5,
-          "domain": "yelp.com",
-          "title": "Best 10 Home Cleaning near Roebuck, SC"
+          "domain": "care.com",
+          "title": "Cleaning lady in Roebuck"
         },
         {
           "pos": 6,
-          "domain": "housekeeper.com",
-          "title": "Cleaners & Housekeepers in Roebuck"
+          "domain": "angi.com",
+          "title": "Cleaning in Roebuck"
         },
         {
           "pos": 7,
-          "domain": "wfskills.com",
-          "title": "House Cleaning in Roebuck, South Carolina"
+          "domain": "care.com",
+          "title": "Cleaning lady (page 2)"
         },
         {
           "pos": 8,
-          "domain": "ariscleaningservices.com",
-          "title": "Professional Cleaning Service in Roebuck, SC"
+          "domain": "care.com",
+          "title": "Move-out cleaning Roebuck"
         },
         {
           "pos": 9,
-          "domain": "wikipedia.org",
-          "title": "Roberson-Everett-Roebuck House"
+          "domain": "bbb.org",
+          "title": "Janitor in Roebuck"
+        },
+        {
+          "pos": 10,
+          "domain": "homeadvisor.com",
+          "title": "Window cleaning Roebuck"
         }
       ],
       "competitors": [
         {
-          "pos": 8,
-          "domain": "ariscleaningservices.com",
-          "name": "Aris Cleaning Services"
+          "pos": 2,
+          "domain": "angi.com",
+          "name": "First Class Cleaners LLC (4.7 no Angi, 46 avaliações)"
         }
       ],
-      "tip": "Quase só diretórios no topo (Angi, Yelp, MapQuest). Completar os perfis de diretório e reforçar a página de Roebuck com serviços e a área atendida a partir de Greer.",
+      "tip": "O topo é só diretórios (Care.com, Angi) com notas e preços; mostrar avaliações e faixa de preço na página de Roebuck e manter o perfil do Angi preenchido.",
       "error": null
     },
     "boiling-springs-sc": {
       "city": "Boiling Springs, SC",
       "query": "house cleaning Boiling Springs SC",
-      "checkedAt": "2026-11-24T03:50:00Z",
+      "checkedAt": "2026-11-25T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "maidpro.com",
-          "title": "MaidPro Boiling Springs,SC"
+          "domain": "care.com",
+          "title": "House cleaning in Boiling Springs, SC"
         },
         {
           "pos": 2,
-          "domain": "yellowpages.com",
-          "title": "Best 30 House Cleaning in Boiling Springs, SC"
+          "domain": "care.com",
+          "title": "Housekeeping Boiling Springs (p2)"
         },
         {
           "pos": 3,
-          "domain": "yelp.com",
-          "title": "Top 10 Best Home Cleaning near Boiling Springs, SC"
+          "domain": "care.com",
+          "title": "Housekeeping Boiling Springs"
         },
         {
           "pos": 4,
-          "domain": "gototalcarecleaning.com",
-          "title": "House Cleaning Boiling Springs, SC"
+          "domain": "care.com",
+          "title": "Cleaning lady Boiling Springs"
         },
         {
           "pos": 5,
-          "domain": "milanamaid.com",
-          "title": "House Cleaning in Boiling Springs, SC"
+          "domain": "care.com",
+          "title": "Housekeeping (p3)"
         },
         {
           "pos": 6,
-          "domain": "thriveandshinemaids.com",
-          "title": "House Cleaning in Boiling Springs, SC"
+          "domain": "care.com",
+          "title": "Housekeepers Boiling Springs"
         },
         {
           "pos": 7,
-          "domain": "myhomet.com",
-          "title": "House Cleaning in Boiling Springs, South Carolina"
+          "domain": "thumbtack.com",
+          "title": "Carolina Cleaning & Staging Service"
         },
         {
           "pos": 8,
-          "domain": "milanamaid.com",
-          "title": "Move-In & Move-Out Cleaning in Boiling Springs, SC"
+          "domain": "homeadvisor.com",
+          "title": "Range Hood Clean"
         },
         {
           "pos": 9,
-          "domain": "tinacleans.com",
-          "title": "TinaCleans"
+          "domain": "care.com",
+          "title": "Cost of house cleaning in Boiling Springs"
         },
         {
           "pos": 10,
-          "domain": "homeglowcleaningservices.com",
-          "title": "House Cleaning in Boiling Springs, SC"
+          "domain": "homeadvisor.com",
+          "title": "Cleaning one time service"
         }
       ],
       "competitors": [
         {
-          "pos": 1,
-          "domain": "maidpro.com",
-          "name": "MaidPro"
+          "pos": 7,
+          "domain": "thumbtack.com",
+          "name": "Carolina Cleaning & Staging Service"
         },
         {
-          "pos": 4,
-          "domain": "gototalcarecleaning.com",
-          "name": "TotalCare"
-        },
-        {
-          "pos": 5,
-          "domain": "milanamaid.com",
-          "name": "Milana Maid"
-        },
-        {
-          "pos": 6,
-          "domain": "thriveandshinemaids.com",
-          "name": "Thrive & Shine Maids"
+          "pos": 10,
+          "domain": "homeadvisor.com",
+          "name": "S&D Cleaning / Palmetto Cleaning Pro (HomeAdvisor)"
         }
       ],
-      "tip": "Franquia (MaidPro) em 1º; TotalCare e Home Glow mostram preço inicial na página. Destacar na página de Boiling Springs preço de referência, contrato sem fidelidade e avaliações reais do Google.",
+      "tip": "Care.com domina e mostra preço médio por hora; criar na página de Boiling Springs uma faixa de preço clara e perguntas frequentes para competir com esses resultados.",
       "error": null
     },
     "marietta-sc": {
@@ -2764,14 +2744,14 @@
     "hendersonville-nc": {
       "city": "Hendersonville, NC",
       "query": "house cleaning Hendersonville NC",
-      "checkedAt": "2026-11-24T00:45:00Z",
+      "checkedAt": "2026-11-25T00:45:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Hendersonville"
+          "title": "House cleaning in Hendersonville, NC"
         },
         {
           "pos": 2,
@@ -2781,57 +2761,57 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "cleaning lady Hendersonville"
+          "title": "Cleaning lady in Hendersonville, NC"
         },
         {
           "pos": 4,
           "domain": "bbb.org",
-          "title": "House Cleaning (BBB)"
+          "title": "House Cleaning in Hendersonville"
         },
         {
           "pos": 5,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Hendersonville"
+          "title": "House cleaning Hendersonville NC"
         },
         {
           "pos": 6,
-          "domain": "homeadvisor.com",
-          "title": "House Cleaning"
+          "domain": "merrymaids.com",
+          "title": "Merry Maids Asheville / Hendersonville"
         },
         {
           "pos": 7,
-          "domain": "merrymaids.com",
-          "title": "Merry Maids Asheville/Hendersonville"
-        },
-        {
-          "pos": 8,
           "domain": "homeadvisor.com",
           "title": "Cleaning one time service"
         },
         {
+          "pos": 8,
+          "domain": "angi.com",
+          "title": "Cleaning companies in Hendersonville"
+        },
+        {
           "pos": 9,
           "domain": "angi.com",
-          "title": "Cleaning companies Hendersonville"
+          "title": "G&A Cleaning Solutions, LLC"
         },
         {
           "pos": 10,
-          "domain": "angi.com",
-          "title": "G&A Cleaning Solutions, LLC"
+          "domain": "mollymaid.com",
+          "title": "Molly Maid Asheville-Hendersonville"
         }
       ],
       "competitors": [
         {
-          "pos": 7,
+          "pos": 6,
           "domain": "merrymaids.com",
-          "name": "Merry Maids"
+          "name": "Merry Maids (Hendersonville)"
         },
         {
           "pos": 10,
-          "domain": "angi.com",
-          "name": "G&A Cleaning Solutions, LLC"
+          "domain": "mollymaid.com",
+          "name": "Molly Maid Asheville-Hendersonville"
         }
       ],
-      "tip": "Top 10 é quase só diretórios; Merry Maids e Molly Maid (franquias) atendem a região; mostrar seguro, orçamento grátis e nota do Google na página de Hendersonville.",
+      "tip": "Os primeiros resultados são diretórios e franquias (Merry Maids, Molly Maid); destacar na página de Hendersonville o orçamento grátis, o atendimento em português e avaliações reais.",
       "error": null
     }
   }
