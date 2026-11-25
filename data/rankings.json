@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-25T18:55:00Z",
+ "updatedAt": "2026-11-25T21:50:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
@@ -941,7 +941,7 @@
   "berea-sc": {
    "city": "Berea, SC",
    "query": "house cleaning Berea SC",
-   "checkedAt": "2026-11-25T00:45:00Z",
+   "checkedAt": "2026-11-25T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -958,12 +958,12 @@
     {
      "pos": 3,
      "domain": "bbb.org",
-     "title": "House Cleaning (SC)"
+     "title": "House Cleaning (BBB, SC)"
     },
     {
      "pos": 4,
      "domain": "bbb.org",
-     "title": "House Cleaning (Newberry)"
+     "title": "House Cleaning (BBB, Newberry)"
     },
     {
      "pos": 5,
@@ -972,23 +972,23 @@
     },
     {
      "pos": 6,
-     "domain": "homeadvisor.com",
-     "title": "Cleaning one time service (Berea, KY)"
+     "domain": "care.com",
+     "title": "House cleaning Saluda SC"
     },
     {
      "pos": 7,
-     "domain": "maids.com",
-     "title": "House Cleaning Services in South Carolina"
+     "domain": "homeaglow.com",
+     "title": "House Cleaning Gaston SC"
     },
     {
      "pos": 8,
-     "domain": "homeaglow.com",
-     "title": "House Cleaning in Gaston, SC"
+     "domain": "thumbtack.com",
+     "title": "Peerless Maids"
     },
     {
      "pos": 9,
-     "domain": "thumbtack.com",
-     "title": "Peerless Maids"
+     "domain": "maids.com",
+     "title": "House Cleaning Services in South Carolina"
     },
     {
      "pos": 10,
@@ -1003,30 +1003,30 @@
      "name": "A Little House Cleaning Service"
     }
    ],
-   "tip": "Quase não há empresa de limpeza local de Berea nos resultados; a página de Berea pode ganhar rápido com o nome da cidade no título, o bairro/CEP e um bloco de perguntas frequentes.",
+   "tip": "Nenhuma empresa de limpeza residencial específica de Berea nos resultados; página de Berea com serviços, preço inicial e FAQ tem espaço para ranquear.",
    "error": null
   },
   "parker-sc": {
    "city": "Parker, SC",
    "query": "house cleaning Parker SC",
-   "checkedAt": "2026-11-25T00:45:00Z",
+   "checkedAt": "2026-11-25T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "homeadvisor.com",
-     "title": "Parkers Cleaning"
+     "title": "Parker's Cleaning"
     },
     {
      "pos": 2,
      "domain": "thumbtack.com",
-     "title": "Cleaning services"
+     "title": "Cleaning services (Jasper GA)"
     },
     {
      "pos": 3,
      "domain": "thumbtack.com",
-     "title": "Sparkling Touch of SC LLC"
+     "title": "Sparkling Touch of SC"
     },
     {
      "pos": 4,
@@ -1036,12 +1036,12 @@
     {
      "pos": 5,
      "domain": "angi.com",
-     "title": "Compare Quotes House Cleaning Services"
+     "title": "Compare Quotes Cleaning Maid Services"
     },
     {
      "pos": 6,
      "domain": "angi.com",
-     "title": "House cleaning (Parker, SD)"
+     "title": "House cleaning (Parker SD)"
     },
     {
      "pos": 7,
@@ -1068,28 +1068,28 @@
     {
      "pos": 8,
      "domain": "servpro.com",
-     "name": "SERVPRO of Parker"
+     "name": "SERVPRO of Parker (restauração, não limpeza de rotina)"
     },
     {
-     "pos": 15,
+     "pos": 17,
      "domain": "maidpro.com",
      "name": "MaidPro Greer, SC"
     }
    ],
-   "tip": "Resultados fracos e misturados com outros estados; reforçar na página de Parker 'Parker, SC' no título e H1, ruas/escolas da região e a proximidade com Greer.",
+   "tip": "Resultados fracos e misturados com outros estados; destacar 'Parker, SC' no título e na descrição da página para se diferenciar.",
    "error": null
   },
   "gantt-sc": {
    "city": "Gantt, SC",
    "query": "house cleaning Gantt SC",
-   "checkedAt": "2026-11-25T00:45:00Z",
+   "checkedAt": "2026-11-25T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "thebuildermarket.com",
-     "title": "Cleaning & Maid Services in Gantt, SC"
+     "title": "Cleaning & Maid Services in Gantt SC"
     },
     {
      "pos": 2,
@@ -1103,13 +1103,13 @@
     },
     {
      "pos": 4,
-     "domain": "thumbtack.com",
-     "title": "NJSC Services"
+     "domain": "maids.com",
+     "title": "House Cleaning Services in South Carolina"
     },
     {
      "pos": 5,
-     "domain": "care.com",
-     "title": "South Carolina Housekeeping Services"
+     "domain": "angi.com",
+     "title": "Cleaning (Galivants Ferry)"
     },
     {
      "pos": 6,
@@ -1118,56 +1118,56 @@
     },
     {
      "pos": 7,
-     "domain": "maids.com",
-     "title": "House Cleaning Services in South Carolina"
-    },
-    {
-     "pos": 8,
      "domain": "angi.com",
      "title": "Cleaning (Gable)"
     },
     {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "SC Housekeeping Services"
+    },
+    {
      "pos": 9,
-     "domain": "thumbtack.com",
-     "title": "SC Preferred Cleaners"
+     "domain": "angi.com",
+     "title": "House cleaning (Gresham)"
     },
     {
      "pos": 10,
      "domain": "angi.com",
-     "title": "Cleaning (Galivants Ferry)"
+     "title": "Cleaning (Gresham)"
     }
    ],
    "competitors": [
     {
      "pos": 1,
      "domain": "thebuildermarket.com",
-     "name": "Castle Keepers of Greenville (listado em Gantt)"
+     "name": "The Builder Market (lista Castle Keepers House Cleaning)"
     }
    ],
-   "tip": "Só aparece um diretório citando Castle Keepers em Gantt; uma página de Gantt com título local claro, serviços e FAQ tem boa chance de entrar no topo.",
+   "tip": "Poucos resultados específicos de Gantt; citar bairros e a distância até Greer na página e linkar de artigos de Greenville.",
    "error": null
   },
   "roebuck-sc": {
    "city": "Roebuck, SC",
    "query": "house cleaning Roebuck SC",
-   "checkedAt": "2026-11-25T00:45:00Z",
+   "checkedAt": "2026-11-25T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "House cleaning in Roebuck, SC"
+     "title": "House cleaning Roebuck SC"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "House cleaning Roebuck"
+     "title": "House cleaning (Angi, Roebuck)"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "Compare Quotes House Cleaning Services"
+     "title": "Compare quotes Cleaning Maid Services"
     },
     {
      "pos": 4,
@@ -1177,17 +1177,17 @@
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Cleaning lady in Roebuck"
+     "title": "Cleaning lady Roebuck SC"
     },
     {
      "pos": 6,
      "domain": "angi.com",
-     "title": "Cleaning in Roebuck"
+     "title": "Cleaning (Angi, Roebuck)"
     },
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Cleaning lady (page 2)"
+     "title": "Cleaning lady Roebuck, página 2"
     },
     {
      "pos": 8,
@@ -1197,60 +1197,60 @@
     {
      "pos": 9,
      "domain": "bbb.org",
-     "title": "Janitor in Roebuck"
+     "title": "Janitor (BBB, Roebuck)"
     },
     {
      "pos": 10,
      "domain": "homeadvisor.com",
-     "title": "Window cleaning Roebuck"
+     "title": "Window Cleaning Roebuck"
     }
    ],
    "competitors": [
     {
      "pos": 2,
      "domain": "angi.com",
-     "name": "First Class Cleaners LLC (4.7 no Angi, 46 avaliações)"
+     "name": "First Class Cleaners LLC (4,70 com 46 avaliações no Angi)"
     }
    ],
-   "tip": "O topo é só diretórios (Care.com, Angi) com notas e preços; mostrar avaliações e faixa de preço na página de Roebuck e manter o perfil do Angi preenchido.",
+   "tip": "Só diretórios no topo; página de Roebuck com avaliações reais e preço inicial pode competir com Angi e Care.com.",
    "error": null
   },
   "boiling-springs-sc": {
    "city": "Boiling Springs, SC",
    "query": "house cleaning Boiling Springs SC",
-   "checkedAt": "2026-11-25T00:45:00Z",
+   "checkedAt": "2026-11-25T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "House cleaning in Boiling Springs, SC"
+     "title": "House cleaning Boiling Springs SC"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Housekeeping Boiling Springs (p2)"
+     "title": "Housekeeping Boiling Springs, página 2"
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Housekeeping Boiling Springs"
+     "title": "Housekeeping Boiling Springs SC"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Cleaning lady Boiling Springs"
+     "title": "Cleaning lady Boiling Springs SC"
     },
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Housekeeping (p3)"
+     "title": "Housekeeping Boiling Springs, página 3"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Housekeepers Boiling Springs"
+     "title": "Housekeepers Boiling Springs SC"
     },
     {
      "pos": 7,
@@ -1265,7 +1265,7 @@
     {
      "pos": 9,
      "domain": "care.com",
-     "title": "Cost of house cleaning in Boiling Springs"
+     "title": "Cost of house cleaning Boiling Springs"
     },
     {
      "pos": 10,
@@ -1277,15 +1277,10 @@
     {
      "pos": 7,
      "domain": "thumbtack.com",
-     "name": "Carolina Cleaning & Staging Service"
-    },
-    {
-     "pos": 10,
-     "domain": "homeadvisor.com",
-     "name": "S&D Cleaning / Palmetto Cleaning Pro (HomeAdvisor)"
+     "name": "Carolina Cleaning & Staging Service (18 anos, no Thumbtack)"
     }
    ],
-   "tip": "Care.com domina e mostra preço médio por hora; criar na página de Boiling Springs uma faixa de preço clara e perguntas frequentes para competir com esses resultados.",
+   "tip": "Care.com domina e mostra preço médio por hora; a página de Boiling Springs deve mostrar preço inicial e FAQ de preços.",
    "error": null
   },
   "marietta-sc": {
@@ -1707,14 +1702,14 @@
   "tryon-nc": {
    "city": "Tryon, NC",
    "query": "house cleaning Tryon NC",
-   "checkedAt": "2026-11-24T21:50:00Z",
+   "checkedAt": "2026-11-25T21:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "House cleaning (Angi, Tryon)"
+     "title": "house cleaning (Angi, Tryon)"
     },
     {
      "pos": 2,
@@ -1744,26 +1739,32 @@
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Housekeepers Tryon NC"
+     "title": "Housekeepers Tryon NC, página 3"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Housekeepers Tryon NC, página 3"
+     "title": "Cleaning lady Tryon NC, página 2"
     },
     {
      "pos": 9,
-     "domain": "care.com",
-     "title": "Cleaning lady Tryon NC, página 2"
+     "domain": "bbb.org",
+     "title": "Cleaning services (BBB, Tryon)"
     },
     {
      "pos": 10,
      "domain": "bbb.org",
-     "title": "Cleaning services (BBB, Tryon)"
+     "title": "Janitor (BBB, Tryon)"
     }
    ],
-   "competitors": [],
-   "tip": "Em Tryon o topo é só de diretórios (Angi, Care.com, BBB). Publicar o perfil no BBB e no Angi e reforçar a página de Tryon com serviços, área atendida e perguntas frequentes.",
+   "competitors": [
+    {
+     "pos": 1,
+     "domain": "angi.com",
+     "name": "Firefly Cleaning and Carpet Specialists (nota 4,56, 18 avaliações no Angi)"
+    }
+   ],
+   "tip": "Só diretórios (Angi, Care.com, BBB) aparecem; nenhuma empresa com site próprio. Uma página de Tryon com preço inicial e FAQ pode entrar no top 10 com pouca concorrência.",
    "error": null
   },
   "piedmont-sc": {
