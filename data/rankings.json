@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T03:45:00Z",
+  "updatedAt": "2026-11-25T06:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1529,18 +1529,18 @@
     "spartanburg-sc": {
       "city": "Spartanburg, SC",
       "query": "house cleaning Spartanburg SC",
-      "checkedAt": "2026-11-24T09:45:00Z",
+      "checkedAt": "2026-11-25T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Spartanburg, SC"
+          "title": "Care.com: house cleaning Spartanburg"
         },
         {
           "pos": 2,
-          "domain": "angi.com",
+          "domain": "match.angi.com",
           "title": "Angi: compare quotes, cleaning services Spartanburg"
         },
         {
@@ -1561,17 +1561,17 @@
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Spartanburg, SC"
+          "title": "Care.com: housekeeping Spartanburg (page 3)"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Spartanburg, SC (page 2)"
+          "title": "Care.com: housekeeping Spartanburg (page 2)"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Spartanburg, SC (page 3)"
+          "title": "Care.com: housekeeping Spartanburg"
         },
         {
           "pos": 9,
@@ -1580,8 +1580,8 @@
         },
         {
           "pos": 10,
-          "domain": "care.com",
-          "title": "Care.com: housekeepers Spartanburg, SC"
+          "domain": "thumbtack.com",
+          "title": "Thumbtack: Cleaning Maid Easy LLC"
         }
       ],
       "competitors": [
@@ -1591,7 +1591,7 @@
           "name": "The Cleaning Authority"
         }
       ],
-      "tip": "Só uma franquia (The Cleaning Authority) aparece com site próprio; o resto são diretórios. Na página de Spartanburg, mostrar faixa de preço, orçamento grátis e avaliações reais para competir com a franquia.",
+      "tip": "A franquia The Cleaning Authority aparece com página própria para Spartanburg. Na página de Spartanburg, destacar equipe local, orçamento grátis em casa e avaliações reais do Google.",
       "error": null
     },
     "fountain-inn-sc": {
@@ -1986,24 +1986,24 @@
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-24T09:45:00Z",
+      "checkedAt": "2026-11-25T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Saluda, NC"
+          "title": "Care.com: house cleaning Saluda"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi: house cleaning Saluda, NC"
+          "title": "Angi: house cleaning Saluda NC"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Saluda, NC"
+          "title": "Care.com: housekeepers Saluda (page 3)"
         },
         {
           "pos": 4,
@@ -2013,172 +2013,172 @@
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Saluda, NC"
+          "title": "Care.com: housekeeping Saluda"
         },
         {
           "pos": 6,
-          "domain": "angi.com",
-          "title": "Angi: compare quotes, house cleaning services"
+          "domain": "match.angi.com",
+          "title": "Angi: compare quotes, maid services Mill Spring"
         },
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor: house cleaning Saluda, NC"
+          "title": "HomeAdvisor: house cleaning Saluda NC"
         },
         {
           "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor: house cleaning Saluda NC"
+          "title": "HomeAdvisor: house cleaning Saluda NC (lista)"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady Saluda, NC"
+          "title": "Care.com: cleaning lady Saluda"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Saluda, NC (page 2)"
+          "title": "Care.com: housekeeping Saluda (page 2)"
         }
       ],
       "competitors": [
         {
           "pos": 4,
           "domain": "maidpro.com",
-          "name": "MaidPro"
+          "name": "MaidPro (escritório de Hendersonville)"
         }
       ],
-      "tip": "A MaidPro (franquia, escritório em Hendersonville) é a única empresa com site próprio. Na página de Saluda, destacar que atendemos a cidade, orçamento grátis, seguro e avaliações do Google.",
+      "tip": "MaidPro tem página própria para Saluda. Na nossa página, mostrar que atendemos Saluda com orçamento grátis, preço inicial e as avaliações do Google.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-24T09:45:00Z",
+      "checkedAt": "2026-11-25T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Columbus, NC"
+          "title": "Care.com: house cleaning Columbus NC"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi: house cleaning Columbus, NC"
+          "title": "Angi: house cleaning Columbus NC"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Columbus, NC"
+          "title": "Care.com: housekeeping Columbus NC"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Columbus, NC (page 2)"
+          "title": "Care.com: housekeeping Columbus NC (page 2)"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady Columbus, NC"
+          "title": "Care.com: cleaning lady Columbus NC"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Columbus, NC (page 3)"
+          "title": "Care.com: housekeepers Columbus NC (page 3)"
         },
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "Angi: cleaning Columbus, NC"
+          "title": "Angi: cleaning Columbus NC"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Columbus, NC"
+          "title": "Care.com: housekeepers Columbus NC"
         },
         {
           "pos": 9,
           "domain": "angi.com",
-          "title": "Angi: Helping Hands Cleaning & More"
+          "title": "Angi: Helping Hands Cleaning & More (Columbus, SC)"
         },
         {
           "pos": 10,
           "domain": "angi.com",
-          "title": "Angi: house cleaning Columbia, NC"
+          "title": "Angi: house cleaning Columbia NC"
         }
       ],
       "competitors": [
         {
-          "pos": 13,
+          "pos": 17,
           "domain": "merrymaids.com",
-          "name": "Merry Maids"
+          "name": "Merry Maids (Columbus)"
         }
       ],
-      "tip": "Quase só diretórios e a franquia Merry Maids bem abaixo; boa chance de subir. Na página de Columbus, mostrar preço inicial, perguntas frequentes e avaliações reais.",
+      "tip": "Só diretórios no topo para Columbus, NC. Reforçar a página de Columbus com preço inicial, área atendida (Polk County) e perguntas frequentes.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-24T09:45:00Z",
+      "checkedAt": "2026-11-25T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Easley, SC"
+          "title": "Care.com: house cleaning Easley"
         },
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "BBB: house cleaning Easley, SC"
+          "title": "BBB: house cleaning Easley"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Angi: house cleaning Easley, SC"
+          "title": "Angi: house cleaning Easley"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Easley, SC (page 2)"
+          "title": "Care.com: house cleaning Easley (page 2)"
         },
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "BBB: maid service Easley, SC"
+          "title": "BBB: maid service Easley"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Easley, SC"
+          "title": "Care.com: housekeeping Easley"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Easley, SC (page 2)"
+          "title": "Care.com: housekeeping Easley (page 2)"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Easley, SC (page 3)"
+          "title": "Care.com: housekeepers Easley (page 3)"
         },
         {
           "pos": 9,
           "domain": "thumbtack.com",
-          "title": "Thumbtack: 10 house cleaners in Easley"
+          "title": "Thumbtack: house cleaning Easley"
         },
         {
           "pos": 10,
           "domain": "homeadvisor.com",
-          "title": "HomeAdvisor: house cleaning Easley, SC"
+          "title": "HomeAdvisor: house cleaning Easley"
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa de limpeza com site próprio no topo, só diretórios (Care.com, BBB, Angi). Perfil no BBB e na Angi e uma página de Easley com preço inicial e nota do Google ajudam a entrar.",
+      "tip": "Topo dominado por diretórios (Care.com, BBB, Angi). Mostrar na página de Easley o preço inicial, a nota do Google e o orçamento grátis para se destacar dos perfis genéricos.",
       "error": null
     },
     "gray-court-sc": {
@@ -2381,125 +2381,131 @@
     "chesnee-sc": {
       "city": "Chesnee, SC",
       "query": "house cleaning Chesnee SC",
-      "checkedAt": "2026-11-24T06:45:00Z",
+      "checkedAt": "2026-11-25T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "Angi house cleaning Chesnee"
+          "title": "Angi: house cleaning Chesnee"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "Care.com house cleaning Chesnee"
+          "title": "Care.com: house cleaning Chesnee"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com housekeeping Chesnee"
+          "title": "Care.com: housekeeping Chesnee"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping Chesnee page 2"
+          "title": "Care.com: housekeeping Chesnee (page 2)"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com cleaning lady Chesnee"
+          "title": "Care.com: cleaning lady Chesnee"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi cleaning Chesnee"
+          "title": "Angi: cleaning Chesnee"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com housekeepers Chesnee"
+          "title": "Care.com: housekeepers Chesnee"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com housekeepers Chesnee page 3"
+          "title": "Care.com: housekeepers Chesnee (page 3)"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com move-out cleaning Chesnee"
+          "title": "Care.com: move-out cleaning Chesnee"
         },
         {
           "pos": 10,
           "domain": "angi.com",
-          "title": "Angi couch cleaning Chesnee"
+          "title": "Angi: couch cleaning services Chesnee"
         }
       ],
       "competitors": [],
-      "tip": "Só Angi e Care.com no topo; poucas empresas locais. Página de Chesnee com preço inicial e perguntas frequentes pode ocupar esse espaço.",
+      "tip": "Só diretórios no topo (Angi, Care.com), sem empresa local de limpeza com site próprio. Reforçar a página de Chesnee com preço inicial, área atendida e orçamento grátis para ocupar o espaço.",
       "error": null
     },
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
-      "checkedAt": "2026-11-24T09:45:00Z",
+      "checkedAt": "2026-11-25T06:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com: house cleaning Flat Rock, NC"
+          "title": "Care.com: house cleaning Flat Rock"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Angi: house cleaning Flat Rock, NC"
+          "title": "Angi: house cleaning Flat Rock"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Flat Rock, NC"
+          "title": "Care.com: housekeeping Flat Rock"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com: housekeeping services Flat Rock, NC"
+          "title": "Care.com: housekeeping services Flat Rock"
         },
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Flat Rock, NC (page 3)"
+          "title": "Care.com: housekeepers Flat Rock (page 3)"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com: house cleaning East Flat Rock, NC"
+          "title": "Care.com: house cleaning East Flat Rock"
         },
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Care.com: housekeeping services Flat Rock, NC (page 2)"
+          "title": "Care.com: housekeeping Flat Rock (page 2)"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Care.com: housekeeping Flat Rock, NC (page 2)"
+          "title": "Care.com: housekeeping services Flat Rock (page 2)"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Care.com: cleaning lady Flat Rock, NC"
+          "title": "Care.com: cleaning lady Flat Rock"
         },
         {
           "pos": 10,
           "domain": "care.com",
-          "title": "Care.com: housekeepers Flat Rock, NC"
+          "title": "Care.com: housekeepers Flat Rock"
         }
       ],
-      "competitors": [],
-      "tip": "Só diretórios no topo (Care.com e Angi). Na página de Flat Rock, citar Hendersonville e Tryon como vizinhas, preço inicial e perguntas frequentes.",
+      "competitors": [
+        {
+          "pos": 15,
+          "domain": "homeadvisor.com",
+          "name": "HeyMaid (atende Tryon, Flat Rock e Hendersonville)"
+        }
+      ],
+      "tip": "A Angi mostra 0 empresas bem avaliadas em Flat Rock; há espaço. Na página de Flat Rock, citar Hendersonville e Tryon, preço inicial e orçamento grátis.",
       "error": null
     },
     "williamston-sc": {

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-25T03:45:00Z",
-  "now": "Revisei os títulos e descrições de 500 artigos e as dicas de 6 cidades (Cowpens, Marietta, Landrum, Fountain Inn, Powdersville, Piedmont); 2 títulos encurtados. Restam 29 artigos sem links internos.",
+  "updatedAt": "2026-11-25T06:50:00Z",
+  "now": "Conferi os 500 artigos (títulos, descrições, links e tamanho: nada fora do padrão) e a busca de 6 cidades (Chesnee, Spartanburg, Saluda, Columbus, Easley, Flat Rock); nenhuma correção nova necessária.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -987,14 +987,14 @@
       "title": "Adicionar links internos a 29 artigos que não têm nenhum",
       "area": "links",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 3,
       "page": null,
       "why": "29 artigos (principalmente de Greer, de 14, 15 e 23/11) não têm link para as páginas /areas/ ou /services/.",
       "action": "Incluir 1-2 links para a página da cidade e do serviço correspondente no fim do HTML.",
       "foundAt": "2026-11-24",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-25",
+      "result": "Conferido de novo: todos os artigos já têm 2 ou mais links para cidade/serviço (a contagem anterior ignorava links com aspas simples). Nada a alterar."
     },
     {
       "id": "seo-links-3-posts-2026-11-24",
