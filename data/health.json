@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-26T03:50:00Z",
-  "overall": "ok",
+  "checkedAt": "2026-11-26T06:50:00Z",
+  "overall": "warning",
   "checks": [
     {
       "id": "build",
@@ -41,8 +41,8 @@
     {
       "id": "greer_queue",
       "label": "Temas de Greer",
-      "status": "ok",
-      "detail": "6 dias de temas de Greer restantes"
+      "status": "warning",
+      "detail": "Temas de Greer acabando: 6 dias restantes. Pedir novos ângulos"
     },
     {
       "id": "cities",
@@ -77,6 +77,11 @@
   ],
   "fixes": [],
   "history": [
+    {
+      "at": "2026-11-26T06:50:00Z",
+      "overall": "warning",
+      "summary": "Aviso: temas de Greer acabando; 6 cidades, 3 diretórios"
+    },
     {
       "at": "2026-11-26T03:50:00Z",
       "overall": "ok",
@@ -369,11 +374,6 @@
     },
     {
       "at": "2026-11-18T21:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-18T18:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
     }

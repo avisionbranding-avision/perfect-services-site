@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T03:50:00Z",
-  "now": "Revisei os 542 artigos (nenhum fora das regras) e renovei as dicas de 6 cidades (Cowpens, Spartanburg, Saluda, Columbus, Easley, Chesnee); nenhuma melhoria automática pendente nem nova.",
+  "updatedAt": "2026-11-26T06:50:00Z",
+  "now": "Revisei 542 artigos (títulos, descrições e links dentro das regras) e as dicas de 6 cidades (Flat Rock, Greer, Taylors, Duncan, Lyman, Woodruff); temas de Greer em 6 dias, nenhuma melhoria automática pendente.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1051,6 +1051,20 @@
       "foundAt": "2026-11-25",
       "doneAt": "2026-11-25",
       "result": "Título agora tem 59 caracteres."
+    },
+    {
+      "id": "seo-greer-temas-2026-11-26",
+      "title": "Pedir novos ângulos de temas para os artigos de Greer",
+      "area": "conteudo",
+      "owner": "voce",
+      "status": "aberta",
+      "priority": 2,
+      "page": "https://perfectservicespaintingcleaning.com/blog/greer-sc/",
+      "why": "Restam só 6 dias de temas de Greer na fila (data/status.json), abaixo do mínimo de 7.",
+      "action": "Pedir ao Claude em uma sessão novos ângulos de temas para Greer antes que a fila acabe.",
+      "foundAt": "2026-11-26",
+      "doneAt": null,
+      "result": null
     }
   ]
 }
