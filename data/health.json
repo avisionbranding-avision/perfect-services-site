@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T18:55:00Z",
+  "checkedAt": "2026-11-26T21:50:00Z",
   "overall": "warning",
   "checks": [
     {
@@ -60,7 +60,7 @@
       "id": "sitemap",
       "label": "Sitemap",
       "status": "ok",
-      "detail": "1073 páginas no sitemap, igual ao esperado"
+      "detail": "1105 páginas no sitemap, igual ao esperado"
     },
     {
       "id": "gtm",
@@ -75,10 +75,13 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [
-    "Título do artigo de Flat Rock encurtado de 72 para 52 caracteres (vai ao ar no deploy das 7h)."
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-26T21:50:00Z",
+      "overall": "warning",
+      "summary": "Só o aviso de temas de Greer acabando; site saudável"
+    },
     {
       "at": "2026-11-26T18:55:00Z",
       "overall": "warning",
@@ -373,11 +376,6 @@
       "at": "2026-11-19T12:55:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 6 cidades, 3 diretórios, 2 títulos encurtados"
-    },
-    {
-      "at": "2026-11-19T09:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades, 3 diretórios"
     }
   ]
 }

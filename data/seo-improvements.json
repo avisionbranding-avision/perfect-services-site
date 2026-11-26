@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T18:55:00Z",
-  "now": "Revisei as dicas de 6 cidades (Liberty, Berea, Parker, Gantt, Roebuck, Boiling Springs) e os checks técnicos; nenhuma melhoria automática pendente. Adicionei 1 item de cidades com só diretórios no topo.",
+  "updatedAt": "2026-11-26T21:50:00Z",
+  "now": "Revisei as dicas de 6 cidades (Tryon, Fountain Inn, Hendersonville, Landrum, Marietta, Piedmont) e os checks técnicos; nenhum item automático pendente.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1104,6 +1104,20 @@
       "page": "https://perfectservicespaintingcleaning.com/areas/liberty-sc/",
       "why": "Nessas buscas o topo é só Care.com, Angi e Thumbtack, que mostram preço/hora e nota; nenhuma empresa local com site próprio aparece.",
       "action": "Bloco com faixa de preço, orçamento grátis e avaliações reais do Google nessas páginas de cidade.",
+      "foundAt": "2026-11-26",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-marietta-sc-ga",
+      "title": "Deixar claro 'Marietta, South Carolina' na página de Marietta",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/marietta-sc/",
+      "why": "A busca por Marietta SC mostrou resultados da Marietta da Geórgia (Merry Maids, Cleaning Authority).",
+      "action": "Repetir 'Marietta, SC' e o condado no título, H1 e primeiro parágrafo da página.",
       "foundAt": "2026-11-26",
       "doneAt": null,
       "result": null
