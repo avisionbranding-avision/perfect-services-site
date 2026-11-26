@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T09:50:00Z",
-  "now": "Revisei os 542 artigos (29 com poucos links internos, nenhuma melhoria automática segura pendente) e as dicas de 6 cidades (Williamston, Reidville, Five Forks, Pauline, Gray Court, Pelzer); temas de Greer em 6 dias.",
+  "updatedAt": "2026-11-26T12:50:00Z",
+  "now": "Revisei os títulos dos 574 artigos (3 melhorias automáticas aplicadas; 1 título longo restante) e as dicas de 6 cidades (Pacolet, Wade Hampton, Wellford, Startex, Inman, Greenville); 37 artigos com poucos links internos.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1062,6 +1062,34 @@
       "page": "https://perfectservicespaintingcleaning.com/blog/greer-sc/",
       "why": "Restam só 6 dias de temas de Greer na fila (data/status.json), abaixo do mínimo de 7.",
       "action": "Pedir ao Claude em uma sessão novos ângulos de temas para Greer antes que a fila acabe.",
+      "foundAt": "2026-11-26",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-titulos-greer-zip-2026-11-26",
+      "title": "Encurtar 3 títulos acima de 65 caracteres (Greer ZIP 29650: one-time, apartment, green)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "feita",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Títulos de 69 a 72 caracteres são cortados nos resultados do Google.",
+      "action": "Títulos reescritos para 50 a 58 caracteres.",
+      "foundAt": "2026-11-26",
+      "doneAt": "2026-11-26T12:50:00Z",
+      "result": "3 títulos encurtados (50, 57 e 58 caracteres); publicação às 7h de amanhã."
+    },
+    {
+      "id": "seo-titulo-flat-rock-2026-11-26",
+      "title": "Encurtar o título do artigo 'Deep cleaning vs. regular cleaning in Flat Rock' (72 caracteres)",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "aberta",
+      "priority": 4,
+      "page": "https://perfectservicespaintingcleaning.com/blog/",
+      "why": "Título acima de 65 caracteres.",
+      "action": "Reduzir para até 60 caracteres mantendo cidade e serviço.",
       "foundAt": "2026-11-26",
       "doneAt": null,
       "result": null

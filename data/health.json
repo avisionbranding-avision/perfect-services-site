@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-26T09:50:00Z",
+  "checkedAt": "2026-11-26T12:50:00Z",
   "overall": "warning",
   "checks": [
     {
       "id": "build",
       "label": "Geração do site",
       "status": "ok",
-      "detail": "1073 páginas geradas"
+      "detail": "1105 páginas geradas"
     },
     {
       "id": "links",
@@ -24,7 +24,7 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de ontem (25/11, 32 posts) publicada"
+      "detail": "Rodada de hoje (26/11, 32 posts) publicada"
     },
     {
       "id": "daily_count",
@@ -42,7 +42,7 @@
       "id": "greer_queue",
       "label": "Temas de Greer",
       "status": "warning",
-      "detail": "Temas de Greer acabando: 6 dias restantes. Pedir novos ângulos"
+      "detail": "Temas de Greer acabando: 5 dias restantes. Pedir novos ângulos"
     },
     {
       "id": "cities",
@@ -75,8 +75,15 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Encurtados 3 títulos de artigos de Greer ZIP 29650 (de 69-72 para 50-58 caracteres)"
+  ],
   "history": [
+    {
+      "at": "2026-11-26T12:50:00Z",
+      "overall": "warning",
+      "summary": "3 títulos encurtados; só o aviso dos temas de Greer; 6 cidades, 3 diretórios"
+    },
     {
       "at": "2026-11-26T09:50:00Z",
       "overall": "warning",
@@ -371,11 +378,6 @@
       "at": "2026-11-19T03:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 3 títulos encurtados"
-    },
-    {
-      "at": "2026-11-19T00:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
     }
   ]
 }
