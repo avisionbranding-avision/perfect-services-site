@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25T10:05:23.734Z",
+ "generatedAt": "2026-11-26T10:05:33.761Z",
  "domain": "https://perfectservicespaintingcleaning.com",
  "settings": {
   "dailyPosts": 12,
@@ -8,16 +8,16 @@
   "paused": false
  },
  "totals": {
-  "urls": 1073,
+  "urls": 1105,
   "citiesLive": 43,
   "citiesTotal": 43,
   "fixedPagesLive": 531,
   "fixedPagesTotal": 531,
-  "posts": 542,
+  "posts": 574,
   "legacyPosts": 10,
-  "queueRemaining": 3158,
+  "queueRemaining": 3146,
   "articlesPerDay": 32,
-  "greerDaysLeft": 6
+  "greerDaysLeft": 5
  },
  "cities": [
   {
@@ -28,7 +28,7 @@
    "miles": 1,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 340
+   "posts": 360
   },
   {
    "name": "Taylors",
@@ -38,7 +38,7 @@
    "miles": 4,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 5
+   "posts": 6
   },
   {
    "name": "Duncan",
@@ -48,7 +48,7 @@
    "miles": 5,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 5
+   "posts": 6
   },
   {
    "name": "Lyman",
@@ -58,7 +58,7 @@
    "miles": 6,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 5
+   "posts": 6
   },
   {
    "name": "Wade Hampton",
@@ -68,7 +68,7 @@
    "miles": 6,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 5
+   "posts": 6
   },
   {
    "name": "Wellford",
@@ -378,7 +378,7 @@
    "miles": 25,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   },
   {
    "name": "Chesnee",
@@ -388,7 +388,7 @@
    "miles": 25,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   },
   {
    "name": "Flat Rock",
@@ -398,7 +398,7 @@
    "miles": 26,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   },
   {
    "name": "Williamston",
@@ -408,7 +408,7 @@
    "miles": 26,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   },
   {
    "name": "Pacolet",
@@ -418,7 +418,7 @@
    "miles": 27,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   },
   {
    "name": "Pickens",
@@ -428,7 +428,7 @@
    "miles": 27,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   },
   {
    "name": "Liberty",
@@ -438,7 +438,7 @@
    "miles": 28,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   },
   {
    "name": "Hendersonville",
@@ -448,10 +448,266 @@
    "miles": 29,
    "releaseDate": "2026-11-09",
    "live": true,
-   "posts": 4
+   "posts": 5
   }
  ],
  "recentPosts": [
+  {
+   "title": "A guide to eco-friendly house cleaning in Cowpens",
+   "slug": "a-guide-to-eco-friendly-house-cleaning-in-cowpens",
+   "url": "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-cowpens",
+   "city": "Cowpens, SC",
+   "service": "Green cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "A guide to eco-friendly house cleaning in Wade Hampton",
+   "slug": "a-guide-to-eco-friendly-house-cleaning-in-wade-hampton",
+   "url": "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-wade-hampton",
+   "city": "Wade Hampton, SC",
+   "service": "Green cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Airbnb cleaning during Upstate pollen season in Greer",
+   "slug": "airbnb-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Airbnb cleaning in Greer ZIP 29650: a host's turnover guide",
+   "slug": "airbnb-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Airbnb turnover cleaning checklist for Hendersonville hosts",
+   "slug": "airbnb-turnover-cleaning-checklist-for-hendersonville-hosts",
+   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-hendersonville-hosts",
+   "city": "Hendersonville, NC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Airbnb turnover cleaning checklist for Taylors hosts",
+   "slug": "airbnb-turnover-cleaning-checklist-for-taylors-hosts",
+   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-taylors-hosts",
+   "city": "Taylors, SC",
+   "service": "Airbnb cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Apartment cleaning checklist for Duncan renters",
+   "slug": "apartment-cleaning-checklist-for-duncan-renters",
+   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-duncan-renters",
+   "city": "Duncan, SC",
+   "service": "Apartment cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Apartment cleaning during Upstate pollen season in Greer",
+   "slug": "apartment-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Apartment cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Apartment cleaning in Greer ZIP 29650: what renters and owners should know",
+   "slug": "apartment-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Apartment cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Brazilian cleaning during Upstate pollen season in Greer",
+   "slug": "brazilian-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/brazilian-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Brazilian cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Brazilian cleaning in Greer ZIP 29650",
+   "slug": "brazilian-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/brazilian-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Brazilian cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Deep cleaning during Upstate pollen season in Greer",
+   "slug": "deep-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Deep cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Deep cleaning in Greer ZIP 29650",
+   "slug": "deep-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Deep cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Deep cleaning vs. regular cleaning in Flat Rock: what is the difference?",
+   "slug": "deep-cleaning-vs-regular-cleaning-in-flat-rock-what-is-the-difference",
+   "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-flat-rock-what-is-the-difference",
+   "city": "Flat Rock, NC",
+   "service": "Deep cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Green cleaning during Upstate pollen season in Greer",
+   "slug": "green-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/green-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Green cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Green cleaning in Greer ZIP 29650: a gentler way to keep your home clean",
+   "slug": "green-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/green-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Green cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Holiday cleaning checklist for Lyman hosts",
+   "slug": "holiday-cleaning-checklist-for-lyman-hosts",
+   "url": "https://perfectservicespaintingcleaning.com/blog/holiday-cleaning-checklist-for-lyman-hosts",
+   "city": "Lyman, SC",
+   "service": "One-time cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "House cleaning in Greer ZIP 29650",
+   "slug": "house-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/house-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "House cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "House cleaning in Greer ZIP 29651",
+   "slug": "house-cleaning-in-greer-zip-29651",
+   "url": "https://perfectservicespaintingcleaning.com/blog/house-cleaning-in-greer-zip-29651",
+   "city": "Greer, SC",
+   "service": "House cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "How much does house cleaning cost in Chesnee, SC?",
+   "slug": "how-much-does-house-cleaning-cost-in-chesnee-sc",
+   "url": "https://perfectservicespaintingcleaning.com/blog/how-much-does-house-cleaning-cost-in-chesnee-sc",
+   "city": "Chesnee, SC",
+   "service": "House cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Move-out cleaning checklist for Williamston renters",
+   "slug": "move-out-cleaning-checklist-for-williamston-renters",
+   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-checklist-for-williamston-renters",
+   "city": "Williamston, SC",
+   "service": "Move-out cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Move-out cleaning during Upstate pollen season in Greer",
+   "slug": "move-out-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Move-out cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Move-out cleaning in Greer ZIP 29650",
+   "slug": "move-out-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Move-out cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Office cleaning checklist for small businesses in Pickens",
+   "slug": "office-cleaning-checklist-for-small-businesses-in-pickens",
+   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-pickens",
+   "city": "Pickens, SC",
+   "service": "Office cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Office cleaning during Upstate pollen season in Greer",
+   "slug": "office-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Office cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Office cleaning in Greer ZIP 29650",
+   "slug": "office-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Office cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "One-time cleaning during Upstate pollen season in Greer",
+   "slug": "one-time-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/one-time-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "One-time cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "One-time cleaning in Greer ZIP 29650: when a single visit makes sense",
+   "slug": "one-time-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/one-time-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "One-time cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Post-construction cleaning during Upstate pollen season in Greer",
+   "slug": "post-construction-cleaning-during-upstate-pollen-season-in-greer",
+   "url": "https://perfectservicespaintingcleaning.com/blog/post-construction-cleaning-during-upstate-pollen-season-in-greer",
+   "city": "Greer, SC",
+   "service": "Post-construction cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "Post-construction cleaning in Greer ZIP 29650",
+   "slug": "post-construction-cleaning-in-greer-zip-29650",
+   "url": "https://perfectservicespaintingcleaning.com/blog/post-construction-cleaning-in-greer-zip-29650",
+   "city": "Greer, SC",
+   "service": "Post-construction cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "The three phases of post-construction cleaning in Pacolet",
+   "slug": "the-three-phases-of-post-construction-cleaning-in-pacolet",
+   "url": "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-pacolet",
+   "city": "Pacolet, SC",
+   "service": "Post-construction cleaning",
+   "date": "2026-11-26"
+  },
+  {
+   "title": "What is Brazilian house cleaning? A guide for Liberty homeowners",
+   "slug": "what-is-brazilian-house-cleaning-a-guide-for-liberty-homeowners",
+   "url": "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-liberty-homeowners",
+   "city": "Liberty, SC",
+   "service": "Brazilian cleaning",
+   "date": "2026-11-26"
+  },
   {
    "title": "A guide to eco-friendly house cleaning in Woodruff",
    "slug": "a-guide-to-eco-friendly-house-cleaning-in-woodruff",
@@ -515,262 +771,6 @@
    "city": "Greer, SC",
    "service": "Deep cleaning",
    "date": "2026-11-25"
-  },
-  {
-   "title": "Deep cleaning vs. regular cleaning in Tryon: what is the difference?",
-   "slug": "deep-cleaning-vs-regular-cleaning-in-tryon-what-is-the-difference",
-   "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-tryon-what-is-the-difference",
-   "city": "Tryon, NC",
-   "service": "Deep cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Green cleaning before the holidays in Greer",
-   "slug": "green-cleaning-before-the-holidays-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/green-cleaning-before-the-holidays-in-greer",
-   "city": "Greer, SC",
-   "service": "Green cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Holiday cleaning checklist for Fountain Inn hosts",
-   "slug": "holiday-cleaning-checklist-for-fountain-inn-hosts",
-   "url": "https://perfectservicespaintingcleaning.com/blog/holiday-cleaning-checklist-for-fountain-inn-hosts",
-   "city": "Fountain Inn, SC",
-   "service": "One-time cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Holiday cleaning checklist for Pelzer hosts",
-   "slug": "holiday-cleaning-checklist-for-pelzer-hosts",
-   "url": "https://perfectservicespaintingcleaning.com/blog/holiday-cleaning-checklist-for-pelzer-hosts",
-   "city": "Pelzer, SC",
-   "service": "One-time cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "House cleaning before the holidays in Greer",
-   "slug": "house-cleaning-before-the-holidays-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/house-cleaning-before-the-holidays-in-greer",
-   "city": "Greer, SC",
-   "service": "House cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "House cleaning during Upstate pollen season in Greer",
-   "slug": "house-cleaning-during-upstate-pollen-season-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/house-cleaning-during-upstate-pollen-season-in-greer",
-   "city": "Greer, SC",
-   "service": "House cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "How much does house cleaning cost in Powdersville, SC?",
-   "slug": "how-much-does-house-cleaning-cost-in-powdersville-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/how-much-does-house-cleaning-cost-in-powdersville-sc",
-   "city": "Powdersville, SC",
-   "service": "House cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Move-out cleaning before the holidays in Greer",
-   "slug": "move-out-cleaning-before-the-holidays-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-before-the-holidays-in-greer",
-   "city": "Greer, SC",
-   "service": "Move-out cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Move-out cleaning checklist for Piedmont renters",
-   "slug": "move-out-cleaning-checklist-for-piedmont-renters",
-   "url": "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-checklist-for-piedmont-renters",
-   "city": "Piedmont, SC",
-   "service": "Move-out cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Office cleaning before the holidays in Greer",
-   "slug": "office-cleaning-before-the-holidays-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-before-the-holidays-in-greer",
-   "city": "Greer, SC",
-   "service": "Office cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Office cleaning checklist for small businesses in Saluda",
-   "slug": "office-cleaning-checklist-for-small-businesses-in-saluda",
-   "url": "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-saluda",
-   "city": "Saluda, NC",
-   "service": "Office cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "One-time cleaning before the holidays in Greer",
-   "slug": "one-time-cleaning-before-the-holidays-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/one-time-cleaning-before-the-holidays-in-greer",
-   "city": "Greer, SC",
-   "service": "One-time cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Post-construction cleaning before the holidays in Greer",
-   "slug": "post-construction-cleaning-before-the-holidays-in-greer",
-   "url": "https://perfectservicespaintingcleaning.com/blog/post-construction-cleaning-before-the-holidays-in-greer",
-   "city": "Greer, SC",
-   "service": "Post-construction cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "The three phases of post-construction cleaning in Pauline",
-   "slug": "the-three-phases-of-post-construction-cleaning-in-pauline",
-   "url": "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-pauline",
-   "city": "Pauline, SC",
-   "service": "Post-construction cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "What is Brazilian house cleaning? A guide for Columbus homeowners",
-   "slug": "what-is-brazilian-house-cleaning-a-guide-for-columbus-homeowners",
-   "url": "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-columbus-homeowners",
-   "city": "Columbus, NC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter airbnb cleaning in Greer: indoor season tips",
-   "slug": "winter-airbnb-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-airbnb-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Airbnb cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter apartment cleaning in Greer: indoor season tips",
-   "slug": "winter-apartment-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-apartment-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Apartment cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter brazilian cleaning in Greer: indoor season tips",
-   "slug": "winter-brazilian-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-brazilian-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter deep cleaning in Greer: indoor season tips",
-   "slug": "winter-deep-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-deep-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Deep cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter green cleaning in Greer: indoor season tips",
-   "slug": "winter-green-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-green-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Green cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter move-out cleaning in Greer: indoor season tips",
-   "slug": "winter-move-out-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-move-out-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Move-out cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter office cleaning in Greer: indoor season tips",
-   "slug": "winter-office-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-office-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Office cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter one-time cleaning in Greer: indoor season tips",
-   "slug": "winter-one-time-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-one-time-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "One-time cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "Winter post-construction cleaning in Greer: indoor season tips",
-   "slug": "winter-post-construction-cleaning-in-greer-indoor-season-tips",
-   "url": "https://perfectservicespaintingcleaning.com/blog/winter-post-construction-cleaning-in-greer-indoor-season-tips",
-   "city": "Greer, SC",
-   "service": "Post-construction cleaning",
-   "date": "2026-11-25"
-  },
-  {
-   "title": "A guide to eco-friendly house cleaning in Simpsonville",
-   "slug": "a-guide-to-eco-friendly-house-cleaning-in-simpsonville",
-   "url": "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-simpsonville",
-   "city": "Simpsonville, SC",
-   "service": "Green cleaning",
-   "date": "2026-11-24"
-  },
-  {
-   "title": "Airbnb turnover cleaning checklist for Landrum hosts",
-   "slug": "airbnb-turnover-cleaning-checklist-for-landrum-hosts",
-   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-landrum-hosts",
-   "city": "Landrum, SC",
-   "service": "Airbnb cleaning",
-   "date": "2026-11-24"
-  },
-  {
-   "title": "Airbnb turnover cleaning checklist for Travelers Rest hosts",
-   "slug": "airbnb-turnover-cleaning-checklist-for-travelers-rest-hosts",
-   "url": "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-travelers-rest-hosts",
-   "city": "Travelers Rest, SC",
-   "service": "Airbnb cleaning",
-   "date": "2026-11-24"
-  },
-  {
-   "title": "Apartment cleaning checklist for Campobello renters",
-   "slug": "apartment-cleaning-checklist-for-campobello-renters",
-   "url": "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-campobello-renters",
-   "city": "Campobello, SC",
-   "service": "Apartment cleaning",
-   "date": "2026-11-24"
-  },
-  {
-   "title": "Deep cleaning vs. regular cleaning in Parker: the difference",
-   "slug": "deep-cleaning-vs-regular-cleaning-in-parker-what-is-the-difference",
-   "url": "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-parker-what-is-the-difference",
-   "city": "Parker, SC",
-   "service": "Deep cleaning",
-   "date": "2026-11-24"
-  },
-  {
-   "title": "Fall Airbnb cleaning in Greer, SC: leaves and holiday guests",
-   "slug": "fall-airbnb-cleaning-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/fall-airbnb-cleaning-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Airbnb cleaning",
-   "date": "2026-11-24"
-  },
-  {
-   "title": "Fall apartment cleaning in Greer, SC: a weekly plan",
-   "slug": "fall-apartment-cleaning-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/fall-apartment-cleaning-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Apartment cleaning",
-   "date": "2026-11-24"
-  },
-  {
-   "title": "Fall Brazilian cleaning in Greer, SC",
-   "slug": "fall-brazilian-cleaning-in-greer-sc",
-   "url": "https://perfectservicespaintingcleaning.com/blog/fall-brazilian-cleaning-in-greer-sc",
-   "city": "Greer, SC",
-   "service": "Brazilian cleaning",
-   "date": "2026-11-24"
   }
  ],
  "inspectQueue": [
@@ -1305,6 +1305,26 @@
   "https://perfectservicespaintingcleaning.com/blog/pickens-sc/",
   "https://perfectservicespaintingcleaning.com/blog/liberty-sc/",
   "https://perfectservicespaintingcleaning.com/blog/hendersonville-nc/",
+  "https://perfectservicespaintingcleaning.com/blog/airbnb-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/airbnb-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/brazilian-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/brazilian-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/green-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/green-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/house-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/house-cleaning-in-greer-zip-29651",
+  "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/office-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/office-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/one-time-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/one-time-cleaning-in-greer-zip-29650",
+  "https://perfectservicespaintingcleaning.com/blog/post-construction-cleaning-during-upstate-pollen-season-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/post-construction-cleaning-in-greer-zip-29650",
   "https://perfectservicespaintingcleaning.com/blog/airbnb-cleaning-before-the-holidays-in-greer",
   "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-before-the-holidays-in-greer",
   "https://perfectservicespaintingcleaning.com/blog/brazilian-cleaning-before-the-holidays-in-greer",
@@ -1635,6 +1655,18 @@
   "https://perfectservicespaintingcleaning.com/blog/pet-safe-cleaning-tips-for-greer-homes",
   "https://perfectservicespaintingcleaning.com/blog/small-space-cleaning-tips-for-greer-apartments-and-condos",
   "https://perfectservicespaintingcleaning.com/blog/what-to-expect-from-your-first-house-cleaning-in-greer",
+  "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-cowpens",
+  "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-wade-hampton",
+  "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-hendersonville-hosts",
+  "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-taylors-hosts",
+  "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-duncan-renters",
+  "https://perfectservicespaintingcleaning.com/blog/deep-cleaning-vs-regular-cleaning-in-flat-rock-what-is-the-difference",
+  "https://perfectservicespaintingcleaning.com/blog/holiday-cleaning-checklist-for-lyman-hosts",
+  "https://perfectservicespaintingcleaning.com/blog/how-much-does-house-cleaning-cost-in-chesnee-sc",
+  "https://perfectservicespaintingcleaning.com/blog/move-out-cleaning-checklist-for-williamston-renters",
+  "https://perfectservicespaintingcleaning.com/blog/office-cleaning-checklist-for-small-businesses-in-pickens",
+  "https://perfectservicespaintingcleaning.com/blog/the-three-phases-of-post-construction-cleaning-in-pacolet",
+  "https://perfectservicespaintingcleaning.com/blog/what-is-brazilian-house-cleaning-a-guide-for-liberty-homeowners",
   "https://perfectservicespaintingcleaning.com/blog/a-guide-to-eco-friendly-house-cleaning-in-woodruff",
   "https://perfectservicespaintingcleaning.com/blog/airbnb-turnover-cleaning-checklist-for-easley-hosts",
   "https://perfectservicespaintingcleaning.com/blog/apartment-cleaning-checklist-for-gray-court-renters",
@@ -1850,164 +1882,164 @@
  ],
  "nextTopics": [
   {
-   "title": "House cleaning in Greer ZIP 29650",
+   "title": "House cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "House Cleaning & Maid Service"
   },
   {
-   "title": "House cleaning in Greer ZIP 29651",
+   "title": "House cleaning for homes near SC-14 in Greer",
    "city": "Greer, SC",
    "service": "House Cleaning & Maid Service"
   },
   {
-   "title": "Deep cleaning during Upstate pollen season in Greer",
+   "title": "Deep cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Deep Cleaning"
   },
   {
-   "title": "Deep cleaning in Greer ZIP 29650",
+   "title": "Deep cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Deep Cleaning"
   },
   {
-   "title": "Move-out cleaning during Upstate pollen season in Greer",
+   "title": "Move-out cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Move-In & Move-Out Cleaning"
   },
   {
-   "title": "Move-out cleaning in Greer ZIP 29650",
+   "title": "Move-out cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Move-In & Move-Out Cleaning"
   },
   {
-   "title": "Post-construction cleaning during Upstate pollen season in Greer",
+   "title": "Post-construction cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Post-Construction Cleaning"
   },
   {
-   "title": "Post-construction cleaning in Greer ZIP 29650",
+   "title": "Post-construction cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Post-Construction Cleaning"
   },
   {
-   "title": "Office cleaning during Upstate pollen season in Greer",
+   "title": "Office cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Commercial & Office Cleaning"
   },
   {
-   "title": "Office cleaning in Greer ZIP 29650",
+   "title": "Office cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Commercial & Office Cleaning"
   },
   {
-   "title": "Brazilian cleaning during Upstate pollen season in Greer",
+   "title": "Brazilian cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Brazilian House Cleaning"
   },
   {
-   "title": "Brazilian cleaning in Greer ZIP 29650",
+   "title": "Brazilian cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Brazilian House Cleaning"
   },
   {
-   "title": "Airbnb cleaning during Upstate pollen season in Greer",
+   "title": "Airbnb cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
-   "title": "Airbnb cleaning in Greer ZIP 29650",
+   "title": "Airbnb cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
-   "title": "Apartment cleaning during Upstate pollen season in Greer",
+   "title": "Apartment cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Apartment & Condo Cleaning"
   },
   {
-   "title": "Apartment cleaning in Greer ZIP 29650",
+   "title": "Apartment cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Apartment & Condo Cleaning"
   },
   {
-   "title": "One-time cleaning during Upstate pollen season in Greer",
+   "title": "One-time cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "One-Time House Cleaning"
   },
   {
-   "title": "One-time cleaning in Greer ZIP 29650",
+   "title": "One-time cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "One-Time House Cleaning"
   },
   {
-   "title": "Green cleaning during Upstate pollen season in Greer",
+   "title": "Green cleaning in Greer ZIP 29651",
    "city": "Greer, SC",
    "service": "Eco-Friendly Green Cleaning"
   },
   {
-   "title": "Green cleaning in Greer ZIP 29650",
+   "title": "Green cleaning for homes near I-85 in Greer",
    "city": "Greer, SC",
    "service": "Eco-Friendly Green Cleaning"
   },
   {
-   "title": "A guide to eco-friendly house cleaning in Cowpens",
-   "city": "Cowpens, SC",
-   "service": "Eco-Friendly Green Cleaning"
-  },
-  {
-   "title": "How much does house cleaning cost in Chesnee, SC?",
-   "city": "Chesnee, SC",
+   "title": "How much does house cleaning cost in Wellford, SC?",
+   "city": "Wellford, SC",
    "service": "House Cleaning & Maid Service"
   },
   {
-   "title": "Deep cleaning vs. regular cleaning in Flat Rock: what is the difference?",
-   "city": "Flat Rock, NC",
+   "title": "Deep cleaning vs. regular cleaning in Startex: what is the difference?",
+   "city": "Startex, SC",
    "service": "Deep Cleaning"
   },
   {
-   "title": "Move-out cleaning checklist for Williamston renters",
-   "city": "Williamston, SC",
+   "title": "Move-out cleaning checklist for Reidville renters",
+   "city": "Reidville, SC",
    "service": "Move-In & Move-Out Cleaning"
   },
   {
-   "title": "The three phases of post-construction cleaning in Pacolet",
-   "city": "Pacolet, SC",
+   "title": "The three phases of post-construction cleaning in Five Forks",
+   "city": "Five Forks, SC",
    "service": "Post-Construction Cleaning"
   },
   {
-   "title": "Office cleaning checklist for small businesses in Pickens",
-   "city": "Pickens, SC",
+   "title": "Office cleaning checklist for small businesses in Inman",
+   "city": "Inman, SC",
    "service": "Commercial & Office Cleaning"
   },
   {
-   "title": "What is Brazilian house cleaning? A guide for Liberty homeowners",
-   "city": "Liberty, SC",
+   "title": "What is Brazilian house cleaning? A guide for Greenville homeowners",
+   "city": "Greenville, SC",
    "service": "Brazilian House Cleaning"
   },
   {
-   "title": "Airbnb turnover cleaning checklist for Hendersonville hosts",
-   "city": "Hendersonville, NC",
+   "title": "Airbnb turnover cleaning checklist for Mauldin hosts",
+   "city": "Mauldin, SC",
    "service": "Airbnb & Vacation Rental Cleaning"
   },
   {
-   "title": "Airbnb turnover cleaning checklist for Taylors hosts",
-   "city": "Taylors, SC",
-   "service": "Airbnb & Vacation Rental Cleaning"
-  },
-  {
-   "title": "Apartment cleaning checklist for Duncan renters",
-   "city": "Duncan, SC",
+   "title": "Apartment cleaning checklist for Travelers Rest renters",
+   "city": "Travelers Rest, SC",
    "service": "Apartment & Condo Cleaning"
   },
   {
-   "title": "Holiday cleaning checklist for Lyman hosts",
-   "city": "Lyman, SC",
+   "title": "Holiday cleaning checklist for Campobello hosts",
+   "city": "Campobello, SC",
    "service": "One-Time House Cleaning"
   },
   {
-   "title": "A guide to eco-friendly house cleaning in Wade Hampton",
-   "city": "Wade Hampton, SC",
+   "title": "A guide to eco-friendly house cleaning in Moore",
+   "city": "Moore, SC",
    "service": "Eco-Friendly Green Cleaning"
+  },
+  {
+   "title": "How much does house cleaning cost in Simpsonville, SC?",
+   "city": "Simpsonville, SC",
+   "service": "House Cleaning & Maid Service"
+  },
+  {
+   "title": "Deep cleaning vs. regular cleaning in Berea: what is the difference?",
+   "city": "Berea, SC",
+   "service": "Deep Cleaning"
   }
  ]
 }
