@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T12:50:00Z",
+  "updatedAt": "2026-11-26T15:50:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -831,169 +831,163 @@
     "mauldin-sc": {
       "city": "Mauldin, SC",
       "query": "house cleaning Mauldin SC",
-      "checkedAt": "2026-11-25T18:55:00Z",
+      "checkedAt": "2026-11-26T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaners in Mauldin, SC | Care.com"
+          "title": "House cleaning Mauldin (Care.com)"
         },
         {
           "pos": 2,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service in Mauldin, SC"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 3,
           "domain": "thumbtack.com",
-          "title": "13 house cleaners in Mauldin"
+          "title": "Check out 13 house cleaners in your area"
         },
         {
           "pos": 4,
           "domain": "angi.com",
-          "title": "Compare quotes from house cleaning services | Angi"
+          "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "Cleaning services in Mauldin | BBB"
+          "title": "Cleaning services in Mauldin (BBB)"
         }
       ],
       "competitors": [],
-      "tip": "Angi e Thumbtack mostram nota e número de pros no resultado; destacar na página de Mauldin a nota 5,0 do Google e a proximidade com Greer pode compensar a falta de perfis nesses diretórios.",
+      "tip": "Só diretórios no topo (Care.com, Thumbtack, Angi), sem empresa local própria; página de Mauldin com preço inicial, FAQ e avaliações pode entrar na disputa.",
       "error": null
     },
     "travelers-rest-sc": {
       "city": "Travelers Rest, SC",
       "query": "house cleaning Travelers Rest SC",
-      "checkedAt": "2026-11-25T18:55:00Z",
+      "checkedAt": "2026-11-26T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning in Travelers Rest, SC | Care.com"
+          "title": "House cleaning Travelers Rest (Care.com)"
         },
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "House cleaning in Travelers Rest | BBB"
+          "title": "House Cleaning in Travelers Rest (BBB)"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Cleaning companies in Travelers Rest | Angi"
+          "title": "Cleaning in Travelers Rest"
         },
         {
           "pos": 4,
           "domain": "homeadvisor.com",
-          "title": "House cleaning in Travelers Rest, SC"
+          "title": "house cleaning Travelers Rest SC"
         }
       ],
-      "competitors": [
-        {
-          "pos": 5,
-          "domain": "care.com",
-          "name": "Cantrell Painting and Cleaning Services, LLC"
-        }
-      ],
-      "tip": "Só diretórios e cleaners avulsos; a Perfect Services é pintura e limpeza como a Cantrell, então vale destacar na página de Travelers Rest a limpeza de mudança e a equipe com método próprio.",
+      "competitors": [],
+      "tip": "Topo dominado por Care.com, BBB, Angi e HomeAdvisor; mostrar na página de Travelers Rest nota do Google, preço inicial e serviços (limpeza profunda, mudança).",
       "error": null
     },
     "campobello-sc": {
       "city": "Campobello, SC",
       "query": "house cleaning Campobello SC",
-      "checkedAt": "2026-11-25T18:55:00Z",
+      "checkedAt": "2026-11-26T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning in Campobello, SC | Care.com"
+          "title": "House cleaning Campobello (Care.com)"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "House cleaning in Campobello | Angi"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "homeadvisor.com",
-          "title": "Cleaning one time service in Campobello, SC"
+          "title": "Cleaning one time service"
         },
         {
           "pos": 4,
           "domain": "thumbtack.com",
-          "title": "Jackie cleaning service - Campobello"
+          "title": "Jackie cleaning service"
+        },
+        {
+          "pos": 5,
+          "domain": "instaservice.com",
+          "title": "House cleaning in Campobello"
         }
       ],
       "competitors": [
         {
           "pos": 4,
           "domain": "thumbtack.com",
-          "name": "Jackie's Cleaning Service"
+          "name": "Jackie cleaning service"
         }
       ],
-      "tip": "Poucos concorrentes locais reais; uma página de Campobello com FAQ de preço e estimativa grátis tem boa chance, e o link a partir dos artigos de Greer e Landrum ajuda.",
+      "tip": "Só diretórios e prestadores individuais; destacar na página de Campobello equipe, seguro, orçamento grátis e avaliações para se diferenciar.",
       "error": null
     },
     "moore-sc": {
       "city": "Moore, SC",
       "query": "house cleaning Moore SC",
-      "checkedAt": "2026-11-25T18:55:00Z",
+      "checkedAt": "2026-11-26T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "House cleaning in Moore, SC | Angi"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
           "domain": "care.com",
-          "title": "House cleaners in Moore, SC | Care.com"
+          "title": "House cleaning Moore (Care.com)"
         },
         {
           "pos": 3,
-          "domain": "match.angi.com",
-          "title": "Compare quotes from house cleaning services"
+          "domain": "homeadvisor.com",
+          "title": "house cleaning Moore SC"
         },
         {
           "pos": 4,
-          "domain": "homeadvisor.com",
-          "title": "House cleaning in Moore, SC"
-        },
-        {
-          "pos": 5,
           "domain": "bbb.org",
-          "title": "Maid service in Moore | BBB"
+          "title": "maid service in Moore (BBB)"
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa local aparece, só diretórios; reforçar na página de Moore a distância curta de Greer e Spartanburg e um bloco de FAQ com preço.",
+      "tip": "Nenhuma empresa local de limpeza aparece; só diretórios. Página de Moore com preço inicial, FAQ e área atendida tem espaço para subir.",
       "error": null
     },
     "simpsonville-sc": {
       "city": "Simpsonville, SC",
       "query": "house cleaning Simpsonville SC",
-      "checkedAt": "2026-11-25T18:55:00Z",
+      "checkedAt": "2026-11-26T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "House cleaning in Simpsonville, SC | Care.com"
+          "title": "House cleaning Simpsonville (Care.com)"
         },
         {
           "pos": 2,
-          "domain": "match.angi.com",
-          "title": "Compare quotes from house cleaning services"
+          "domain": "angi.com",
+          "title": "Compare Quotes from House Cleaning Services"
         },
         {
           "pos": 3,
@@ -1002,13 +996,13 @@
         },
         {
           "pos": 4,
-          "domain": "care.com",
-          "title": "Housekeeping in Simpsonville | Care.com"
+          "domain": "bbb.org",
+          "title": "Cleaning Services in Simpsonville (BBB)"
         },
         {
           "pos": 5,
-          "domain": "bbb.org",
-          "title": "Cleaning services in Simpsonville | BBB"
+          "domain": "thumbtack.com",
+          "title": "Purely Cleaning Solutions"
         }
       ],
       "competitors": [
@@ -1016,9 +1010,14 @@
           "pos": 3,
           "domain": "maidpro.com",
           "name": "MaidPro Simpsonville"
+        },
+        {
+          "pos": 5,
+          "domain": "thumbtack.com",
+          "name": "Purely Cleaning Solutions"
         }
       ],
-      "tip": "MaidPro é a única empresa com site no topo; para competir, a página de Simpsonville precisa de avaliações do Google, preço inicial e garantia visíveis, e links de artigos locais.",
+      "tip": "MaidPro (franquia) é a única empresa no topo; destacar na página de Simpsonville o atendimento local, orçamento grátis e avaliações do Google.",
       "error": null
     },
     "berea-sc": {
@@ -2637,7 +2636,7 @@
     "pickens-sc": {
       "city": "Pickens, SC",
       "query": "house cleaning Pickens SC",
-      "checkedAt": "2026-11-25T15:45:00Z",
+      "checkedAt": "2026-11-26T15:50:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2654,7 +2653,7 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com Pickens"
+          "title": "Care.com house cleaning Pickens"
         },
         {
           "pos": 4,
@@ -2664,7 +2663,7 @@
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "BBB house cleaning Pickens"
+          "title": "House Cleaning in Pickens (BBB)"
         },
         {
           "pos": 6,
@@ -2674,20 +2673,15 @@
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "House cleaning Pickens SC"
+          "title": "house cleaning Pickens SC"
         },
         {
           "pos": 8,
-          "domain": "care.com",
-          "title": "Housekeeping Pickens"
-        },
-        {
-          "pos": 9,
           "domain": "thumbtack.com",
           "title": "Breathe Easy Cleaning Co."
         },
         {
-          "pos": 10,
+          "pos": 9,
           "domain": "servpro.com",
           "title": "SERVPRO of Pickens County"
         }
@@ -2699,17 +2693,17 @@
           "name": "Southern Cleaning Services Upstate LLC"
         },
         {
-          "pos": 9,
+          "pos": 8,
           "domain": "thumbtack.com",
           "name": "Breathe Easy Cleaning Co."
         },
         {
-          "pos": 10,
+          "pos": 9,
           "domain": "servpro.com",
           "name": "SERVPRO of Pickens County"
         }
       ],
-      "tip": "Só aparecem diretórios (Care.com, Angi, Thumbtack) e poucas empresas locais; uma página de Pickens com serviços, área atendida e avaliações reais do Google pode entrar no topo.",
+      "tip": "O topo é só diretórios (Care.com, Angi, Thumbtack) com preço por hora; destacar na página de Pickens faixa de preço inicial, orçamento grátis e avaliações do Google.",
       "error": null
     },
     "liberty-sc": {

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T12:50:00Z",
-  "now": "Revisei os títulos dos 574 artigos (3 melhorias automáticas aplicadas; 1 título longo restante) e as dicas de 6 cidades (Pacolet, Wade Hampton, Wellford, Startex, Inman, Greenville); 37 artigos com poucos links internos.",
+  "updatedAt": "2026-11-26T15:50:00Z",
+  "now": "Revisei os títulos e descrições dos 574 artigos (1 melhoria automática aplicada: título de Flat Rock) e as dicas de 6 cidades (Pickens, Mauldin, Travelers Rest, Campobello, Moore, Simpsonville).",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1085,14 +1085,14 @@
       "title": "Encurtar o título do artigo 'Deep cleaning vs. regular cleaning in Flat Rock' (72 caracteres)",
       "area": "conteudo",
       "owner": "auto",
-      "status": "aberta",
+      "status": "feita",
       "priority": 4,
       "page": "https://perfectservicespaintingcleaning.com/blog/",
       "why": "Título acima de 65 caracteres.",
       "action": "Reduzir para até 60 caracteres mantendo cidade e serviço.",
       "foundAt": "2026-11-26",
-      "doneAt": null,
-      "result": null
+      "doneAt": "2026-11-26",
+      "result": "Título reduzido de 72 para 52 caracteres: \"Deep cleaning vs. regular cleaning in Flat Rock, SC\"."
     }
   ]
 }
