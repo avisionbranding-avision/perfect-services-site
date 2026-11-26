@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T15:50:00Z",
-  "now": "Revisei os títulos e descrições dos 574 artigos (1 melhoria automática aplicada: título de Flat Rock) e as dicas de 6 cidades (Pickens, Mauldin, Travelers Rest, Campobello, Moore, Simpsonville).",
+  "updatedAt": "2026-11-26T18:55:00Z",
+  "now": "Revisei as dicas de 6 cidades (Liberty, Berea, Parker, Gantt, Roebuck, Boiling Springs) e os checks técnicos; nenhuma melhoria automática pendente. Adicionei 1 item de cidades com só diretórios no topo.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1093,6 +1093,20 @@
       "foundAt": "2026-11-26",
       "doneAt": "2026-11-26",
       "result": "Título reduzido de 72 para 52 caracteres: \"Deep cleaning vs. regular cleaning in Flat Rock, SC\"."
+    },
+    {
+      "id": "seo-diretorios-topo-2026-11-26",
+      "title": "Páginas de Liberty, Roebuck, Boiling Springs e Gantt: preço por visita e avaliações",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/liberty-sc/",
+      "why": "Nessas buscas o topo é só Care.com, Angi e Thumbtack, que mostram preço/hora e nota; nenhuma empresa local com site próprio aparece.",
+      "action": "Bloco com faixa de preço, orçamento grátis e avaliações reais do Google nessas páginas de cidade.",
+      "foundAt": "2026-11-26",
+      "doneAt": null,
+      "result": null
     }
   ]
 }
