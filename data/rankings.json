@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T18:50:00Z",
+ "updatedAt": "2026-11-27T21:45:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
@@ -1149,29 +1149,29 @@
   "berea-sc": {
    "city": "Berea, SC",
    "query": "house cleaning Berea SC",
-   "checkedAt": "2026-11-26T18:55:00Z",
+   "checkedAt": "2026-11-27T21:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "aaarousse.com",
-     "title": "Hoarding cleanup Berea SC"
+     "title": "Hoarding cleanup (AAA Rousse), Berea SC"
     },
     {
      "pos": 2,
      "domain": "nannylane.com",
-     "title": "Housekeeper nanny Berea SC"
+     "title": "Housekeeper-nanny in Berea, SC"
     },
     {
      "pos": 3,
      "domain": "bbb.org",
-     "title": "House Cleaning - SC"
+     "title": "House Cleaning (BBB, South Carolina)"
     },
     {
      "pos": 4,
      "domain": "bbb.org",
-     "title": "House Cleaning - Newberry"
+     "title": "House Cleaning (BBB, Newberry)"
     },
     {
      "pos": 5,
@@ -1181,28 +1181,37 @@
     {
      "pos": 6,
      "domain": "homeadvisor.com",
-     "title": "Cleaning Berea KY"
+     "title": "Cleaning one time service (Berea, KY)"
     },
     {
      "pos": 7,
      "domain": "maids.com",
      "title": "House Cleaning Services in South Carolina"
-    }
-   ],
-   "competitors": [
+    },
     {
-     "pos": 1,
+     "pos": 8,
+     "domain": "homeaglow.com",
+     "title": "House Cleaning Services in Gaston, SC"
+    },
+    {
+     "pos": 9,
+     "domain": "angi.com",
+     "title": "A Little House Cleaning Service"
+    },
+    {
+     "pos": 10,
      "domain": "thumbtack.com",
-     "name": "SC Preferred Cleaners"
+     "title": "Peerless Maids"
     }
    ],
-   "tip": "Poucos resultados específicos de Berea; ninguém de limpeza residencial local no topo. Oportunidade: reforçar a página de Berea com bairros, ruas e FAQ para ganhar essa busca.",
+   "competitors": [],
+   "tip": "Nenhuma empresa local de limpeza residencial aparece para Berea; só serviços de outra área e resultados de Berea, KY. A página de Berea pode ficar em primeiro com título 'House Cleaning in Berea, SC', área atendida, preço inicial e link para Greenville e Taylors.",
    "error": null
   },
   "parker-sc": {
    "city": "Parker, SC",
    "query": "house cleaning Parker SC",
-   "checkedAt": "2026-11-26T18:55:00Z",
+   "checkedAt": "2026-11-27T21:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -1214,12 +1223,12 @@
     {
      "pos": 2,
      "domain": "thumbtack.com",
-     "title": "Cleaning services"
+     "title": "Cleaning services (Jasper, GA)"
     },
     {
      "pos": 3,
      "domain": "thumbtack.com",
-     "title": "Sparkling Touch of SC"
+     "title": "Sparkling Touch of SC LLC"
     },
     {
      "pos": 4,
@@ -1229,17 +1238,32 @@
     {
      "pos": 5,
      "domain": "angi.com",
-     "title": "Compare Quotes - House Cleaning"
+     "title": "Compare Quotes from House Cleaning Services"
     },
     {
      "pos": 6,
      "domain": "angi.com",
-     "title": "Parker SD house cleaning"
+     "title": "house cleaning (Parker, SD)"
     },
     {
      "pos": 7,
+     "domain": "thumbtack.com",
+     "title": "Parker Cleaning Solutions LLC (NC)"
+    },
+    {
+     "pos": 8,
      "domain": "servpro.com",
      "title": "Parker Cleanup and Restoration"
+    },
+    {
+     "pos": 9,
+     "domain": "thumbtack.com",
+     "title": "SC Cleaning Services"
+    },
+    {
+     "pos": 10,
+     "domain": "care.com",
+     "title": "South Carolina Housekeeping Services"
     }
    ],
    "competitors": [
@@ -1249,25 +1273,25 @@
      "name": "Parker's Cleaning"
     },
     {
-     "pos": 2,
+     "pos": 15,
      "domain": "maidpro.com",
      "name": "MaidPro Greer, SC"
     }
    ],
-   "tip": "MaidPro Greer aparece com nota 4,8 e 161 avaliações; mostrar avaliações reais do Google e um bloco de preço/orçamento na página de Parker.",
+   "tip": "Resultados fracos e misturados (outros estados, restauração); uma página de Parker bem local, com Greer e Greenville como vizinhas, preço inicial e avaliações, tem boa chance de aparecer.",
    "error": null
   },
   "gantt-sc": {
    "city": "Gantt, SC",
    "query": "house cleaning Gantt SC",
-   "checkedAt": "2026-11-26T18:55:00Z",
+   "checkedAt": "2026-11-27T21:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "thebuildermarket.com",
-     "title": "Cleaning & Maid Services in Gantt, SC"
+     "title": "Top-Rated Cleaning & Maid Services Near You in Gantt, SC"
     },
     {
      "pos": 2,
@@ -1287,21 +1311,36 @@
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "SC Housekeeping Services"
+     "title": "South Carolina Housekeeping Services"
     },
     {
      "pos": 6,
      "domain": "angi.com",
-     "title": "Gaston house cleaning"
+     "title": "house cleaning (Gaston)"
     },
     {
      "pos": 7,
      "domain": "maids.com",
      "title": "House Cleaning Services in South Carolina"
+    },
+    {
+     "pos": 8,
+     "domain": "angi.com",
+     "title": "cleaning (Gable)"
+    },
+    {
+     "pos": 9,
+     "domain": "thumbtack.com",
+     "title": "SC Preferred Cleaners"
+    },
+    {
+     "pos": 10,
+     "domain": "angi.com",
+     "title": "cleaning (Galivants Ferry)"
     }
    ],
    "competitors": [],
-   "tip": "Nenhum concorrente local forte em Gantt; só diretórios genéricos. Uma página de Gantt com FAQ e orçamento claro pode chegar ao topo.",
+   "tip": "Nenhuma empresa de limpeza de Gantt aparece; os resultados são diretórios e outras cidades. Baixa concorrência: uma página de Gantt com título local, área atendida, preço inicial e citando Greenville e Taylors pode chegar ao topo.",
    "error": null
   },
   "roebuck-sc": {
@@ -1360,59 +1399,69 @@
   "boiling-springs-sc": {
    "city": "Boiling Springs, SC",
    "query": "house cleaning Boiling Springs SC",
-   "checkedAt": "2026-11-26T18:55:00Z",
+   "checkedAt": "2026-11-27T21:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com house cleaning Boiling Springs"
+     "title": "House cleaning Boiling Springs, SC"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Care.com housekeeping Boiling Springs"
+     "title": "Housekeeping Boiling Springs (página 2)"
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com housekeeping p2"
+     "title": "Housekeeping Boiling Springs"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Care.com cleaning lady"
+     "title": "Cleaning lady Boiling Springs"
     },
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Care.com housekeeping p3"
+     "title": "Housekeeping Boiling Springs (página 3)"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Care.com housekeepers"
+     "title": "Housekeepers Boiling Springs"
     },
     {
      "pos": 7,
      "domain": "thumbtack.com",
      "title": "Carolina Cleaning & Staging Service"
+    },
+    {
+     "pos": 8,
+     "domain": "homeadvisor.com",
+     "title": "Range Hood Clean"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "Cost of house cleaning Boiling Springs"
+    },
+    {
+     "pos": 10,
+     "domain": "homeadvisor.com",
+     "title": "Cleaning one time service"
     }
    ],
    "competitors": [
     {
-     "pos": 1,
+     "pos": 7,
      "domain": "thumbtack.com",
      "name": "Carolina Cleaning & Staging Service"
-    },
-    {
-     "pos": 2,
-     "domain": "homeadvisor.com",
-     "name": "Upstate SK Cleaning Service"
     }
    ],
-   "tip": "Care.com ocupa quase todo o topo com preço por hora (média US$17,53). Mostrar preço por visita e avaliações na página de Boiling Springs.",
+   "tip": "Care.com ocupa as primeiras posições e mostra preço médio por hora; a página de Boiling Springs deve mostrar preço inicial claro, avaliações do Google e perguntas frequentes sobre preço.",
    "error": null
   },
   "marietta-sc": {
@@ -2528,7 +2577,7 @@
   "pickens-sc": {
    "city": "Pickens, SC",
    "query": "house cleaning Pickens SC",
-   "checkedAt": "2026-11-26T15:50:00Z",
+   "checkedAt": "2026-11-27T21:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -2540,12 +2589,12 @@
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "house cleaning"
+     "title": "house cleaning (Pickens)"
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com house cleaning Pickens"
+     "title": "House cleaning Pickens"
     },
     {
      "pos": 4,
@@ -2564,18 +2613,23 @@
     },
     {
      "pos": 7,
-     "domain": "homeadvisor.com",
-     "title": "house cleaning Pickens SC"
+     "domain": "care.com",
+     "title": "Housekeeping Pickens"
     },
     {
      "pos": 8,
-     "domain": "thumbtack.com",
-     "title": "Breathe Easy Cleaning Co."
+     "domain": "homeadvisor.com",
+     "title": "House cleaning Pickens SC"
     },
     {
      "pos": 9,
-     "domain": "servpro.com",
-     "title": "SERVPRO of Pickens County"
+     "domain": "care.com",
+     "title": "Housekeeping services Pickens"
+    },
+    {
+     "pos": 10,
+     "domain": "thumbtack.com",
+     "title": "Breathe Easy Cleaning Co."
     }
    ],
    "competitors": [
@@ -2585,70 +2639,85 @@
      "name": "Southern Cleaning Services Upstate LLC"
     },
     {
-     "pos": 8,
+     "pos": 10,
      "domain": "thumbtack.com",
      "name": "Breathe Easy Cleaning Co."
     },
     {
-     "pos": 9,
+     "pos": 18,
      "domain": "servpro.com",
      "name": "SERVPRO of Pickens County"
     }
    ],
-   "tip": "O topo é só diretórios (Care.com, Angi, Thumbtack) com preço por hora; destacar na página de Pickens faixa de preço inicial, orçamento grátis e avaliações do Google.",
+   "tip": "Só diretórios (Care.com, Angi, Thumbtack, BBB) no topo, com preço médio por hora do Care.com à vista; mostrar na página de Pickens a faixa de preço inicial e as avaliações do Google, e citar Easley e Greer como cidades vizinhas atendidas.",
    "error": null
   },
   "liberty-sc": {
    "city": "Liberty, SC",
    "query": "house cleaning Liberty SC",
-   "checkedAt": "2026-11-26T18:55:00Z",
+   "checkedAt": "2026-11-27T21:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com housekeeping Liberty SC"
+     "title": "Housekeeping Liberty, SC"
     },
     {
      "pos": 2,
      "domain": "thumbtack.com",
-     "title": "CrystalClear Cleaning Co. - Liberty"
+     "title": "CrystalClear Cleaning Co."
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com housekeeping Liberty SC (p3)"
+     "title": "Housekeeping Liberty (página 3)"
     },
     {
      "pos": 4,
      "domain": "bbb.org",
-     "title": "Maid service - Liberty SC"
+     "title": "Maid service (BBB), Liberty SC"
     },
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Care.com cleaning lady Liberty SC"
+     "title": "Cleaning lady Liberty"
     },
     {
      "pos": 6,
-     "domain": "angi.com",
-     "title": "Angi cleaning Liberty SC"
+     "domain": "care.com",
+     "title": "Housekeepers Liberty"
     },
     {
      "pos": 7,
-     "domain": "servpro.com",
-     "title": "SERVPRO Liberty"
+     "domain": "angi.com",
+     "title": "Cleaning Liberty, SC"
+    },
+    {
+     "pos": 8,
+     "domain": "bbb.org",
+     "title": "Cleaning Services (BBB), Liberty"
+    },
+    {
+     "pos": 9,
+     "domain": "bbb.org",
+     "title": "Commercial Cleaning Services (BBB), Liberty"
+    },
+    {
+     "pos": 10,
+     "domain": "care.com",
+     "title": "Housekeepers Liberty (página 2)"
     }
    ],
    "competitors": [
     {
-     "pos": 1,
+     "pos": 2,
      "domain": "thumbtack.com",
      "name": "CrystalClear Cleaning Co."
     }
    ],
-   "tip": "Só diretórios (Care.com, Thumbtack, Angi, BBB) aparecem; nenhuma empresa local com site próprio. Destacar na página de Liberty preço por visita, orçamento grátis e avaliações para ocupar esse espaço.",
+   "tip": "Care.com, Thumbtack e BBB dominam; mostrar na página de Liberty preço inicial, avaliações do Google e seguro/verificação de antecedentes, que o Care.com destaca nos perfis.",
    "error": null
   },
   "hendersonville-nc": {

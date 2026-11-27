@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-27T18:50:00Z",
+ "checkedAt": "2026-11-27T21:45:00Z",
  "overall": "error",
  "checks": [
   {
@@ -24,7 +24,7 @@
    "id": "daily_run",
    "label": "Rotina diária",
    "status": "error",
-   "detail": "Sem artigos de hoje (27/11): a rotina das 7h de São Paulo não publicou até 18:50 UTC. Verificar a rotina diária"
+   "detail": "Sem artigos de hoje (27/11): a rotina das 7h de São Paulo não publicou até 21:45 UTC (último dia publicado: 26/11). Verificar a rotina diária"
   },
   {
    "id": "daily_count",
@@ -66,17 +66,24 @@
    "id": "gtm",
    "label": "Google Tag Manager",
    "status": "ok",
-   "detail": "Código do Google Tag Manager presente na home e no artigo mais novo"
+   "detail": "Google Tag Manager presente na home e nos artigos"
   },
   {
    "id": "lead_form",
    "label": "Formulário de contato",
    "status": "ok",
-   "detail": "Formulário das cidades envia para /api/lead"
+   "detail": "Formulários enviam para /api/lead no build do Cloudflare"
   }
  ],
- "fixes": [],
+ "fixes": [
+  "3 aberturas repetidas de artigos reescritas (Pacolet, Five Forks, Wade Hampton); entram no ar às 7h"
+ ],
  "history": [
+  {
+   "at": "2026-11-27T21:45:00Z",
+   "overall": "error",
+   "summary": "Rotina diária de hoje não publicou; 3 aberturas corrigidas; 6 cidades e 3 diretórios verificados"
+  },
   {
    "at": "2026-11-27T18:50:00Z",
    "overall": "error",
@@ -369,11 +376,6 @@
   },
   {
    "at": "2026-11-20T06:45:00Z",
-   "overall": "ok",
-   "summary": "Tudo certo"
-  },
-  {
-   "at": "2026-11-20T03:45:00Z",
    "overall": "ok",
    "summary": "Tudo certo"
   }

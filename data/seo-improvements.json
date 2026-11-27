@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-27T18:50:00Z",
- "now": "Revisei as buscas de 6 cidades (Wellford, Mauldin, Travelers Rest, Campobello, Moore, Simpsonville: só diretórios e MaidPro no topo), 3 diretórios (nenhum perfil novo); a rotina diária de hoje ainda não publicou.",
+ "updatedAt": "2026-11-27T21:45:00Z",
+ "now": "Revisei as buscas de 6 cidades (Pickens, Berea, Boiling Springs, Gantt, Liberty, Parker: só diretórios no topo) e 3 diretórios (nenhum perfil novo); 37 títulos e descrições e os links internos estão em ordem; 3 aberturas repetidas reescritas; a rotina diária de hoje ainda não publicou.",
  "items": [
   {
    "id": "seo-diretorios",
@@ -1149,6 +1149,48 @@
    "foundAt": "2026-11-27",
    "doneAt": null,
    "result": null
+  },
+  {
+   "id": "seo-abertura-pacolet-2026-11-27",
+   "title": "Reescrever a abertura repetida \"Drywall dust is finer than flour\" no artigo de pós-obra em Pacolet",
+   "area": "conteudo",
+   "owner": "auto",
+   "status": "feita",
+   "priority": 3,
+   "page": null,
+   "why": "Duas aberturas iguais em artigos diferentes parecem texto genérico.",
+   "action": "Reescrever a abertura repetida \"Drywall dust is finer than flour\" no artigo de pós-obra em Pacolet",
+   "foundAt": "2026-11-27",
+   "doneAt": "2026-11-27",
+   "result": "Nova abertura sobre a névoa de poeira de gesso após reforma em Pacolet"
+  },
+  {
+   "id": "seo-abertura-five-forks-2026-11-27",
+   "title": "Reescrever a abertura repetida \"Run a finger along the top of a door frame\" no artigo de Five Forks",
+   "area": "conteudo",
+   "owner": "auto",
+   "status": "feita",
+   "priority": 3,
+   "page": null,
+   "why": "Duas aberturas iguais em artigos diferentes parecem texto genérico.",
+   "action": "Reescrever a abertura repetida \"Run a finger along the top of a door frame\" no artigo de Five Forks",
+   "foundAt": "2026-11-27",
+   "doneAt": "2026-11-27",
+   "result": "Nova abertura citando Five Forks e o teste do batente da porta"
+  },
+  {
+   "id": "seo-abertura-wade-hampton-2026-11-27",
+   "title": "Reescrever a abertura repetida \"A guest checks out at 11\" no artigo Airbnb de Wade Hampton",
+   "area": "conteudo",
+   "owner": "auto",
+   "status": "feita",
+   "priority": 3,
+   "page": null,
+   "why": "Duas aberturas iguais em artigos diferentes parecem texto genérico.",
+   "action": "Reescrever a abertura repetida \"A guest checks out at 11\" no artigo Airbnb de Wade Hampton",
+   "foundAt": "2026-11-27",
+   "doneAt": "2026-11-27",
+   "result": "Nova abertura sobre as horas entre hóspedes na US-29 em Wade Hampton"
   }
  ]
 }
