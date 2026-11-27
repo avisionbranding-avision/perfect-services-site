@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-27T00:55:00Z",
+  "checkedAt": "2026-11-27T06:50:00Z",
   "overall": "warning",
   "checks": [
     {
@@ -24,7 +24,7 @@
       "id": "daily_run",
       "label": "Rotina diária",
       "status": "ok",
-      "detail": "Rodada de ontem (26/11, 32 posts) publicada"
+      "detail": "Rodada de ontem (26/11) publicada; próxima às 7h de São Paulo"
     },
     {
       "id": "daily_count",
@@ -75,8 +75,15 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [],
+  "fixes": [
+    "Artigo Airbnb para profissionais em Greer: abertura repetida reescrita"
+  ],
   "history": [
+    {
+      "at": "2026-11-27T06:50:00Z",
+      "overall": "warning",
+      "summary": "Só o aviso de temas de Greer acabando; 1 abertura de artigo corrigida"
+    },
     {
       "at": "2026-11-27T00:55:00Z",
       "overall": "warning",
@@ -371,11 +378,6 @@
       "at": "2026-11-19T18:55:00Z",
       "overall": "ok",
       "summary": "Tudo certo; 6 cidades e 3 diretórios conferidos"
-    },
-    {
-      "at": "2026-11-19T15:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades, 3 diretórios, 2 títulos encurtados"
     }
   ]
 }
