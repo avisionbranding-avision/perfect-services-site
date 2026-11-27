@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-27T06:50:00Z",
+  "checkedAt": "2026-11-27T07:55:00Z",
   "overall": "warning",
   "checks": [
     {
@@ -75,10 +75,13 @@
       "detail": "Formulário das cidades envia para /api/lead"
     }
   ],
-  "fixes": [
-    "Artigo Airbnb para profissionais em Greer: abertura repetida reescrita"
-  ],
+  "fixes": [],
   "history": [
+    {
+      "at": "2026-11-27T07:55:00Z",
+      "overall": "warning",
+      "summary": "Só o aviso de temas de Greer; 6 cidades e 3 diretórios verificados"
+    },
     {
       "at": "2026-11-27T06:50:00Z",
       "overall": "warning",
@@ -373,11 +376,6 @@
       "at": "2026-11-19T21:50:00Z",
       "overall": "ok",
       "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-19T18:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades e 3 diretórios conferidos"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T06:50:00Z",
+  "updatedAt": "2026-11-27T07:55:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -467,14 +467,14 @@
     "reidville-sc": {
       "city": "Reidville, SC",
       "query": "house cleaning Reidville SC",
-      "checkedAt": "2026-11-26T09:50:00Z",
+      "checkedAt": "2026-11-27T07:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning Reidville"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
@@ -499,17 +499,17 @@
         {
           "pos": 6,
           "domain": "instaservice.com",
-          "title": "Bedroom Cleaning Standards in Reidville"
+          "title": "Bedroom Cleaning in Reidville"
         },
         {
           "pos": 7,
           "domain": "merrymaids.com",
-          "title": "Merry Maids Spartanburg area: home cleaning"
+          "title": "Merry Maids home cleaning"
         },
         {
           "pos": 8,
           "domain": "merrymaids.com",
-          "title": "Merry Maids: maid service"
+          "title": "Merry Maids maid service"
         },
         {
           "pos": 9,
@@ -526,7 +526,7 @@
         {
           "pos": 7,
           "domain": "merrymaids.com",
-          "name": "Merry Maids (Spartanburg)"
+          "name": "Merry Maids"
         },
         {
           "pos": 10,
@@ -534,30 +534,30 @@
           "name": "MaidPro Greer"
         }
       ],
-      "tip": "Franquias (Merry Maids, MaidPro) aparecem junto de diretórios. Destacar na página de Reidville a proximidade com Greer e as opções de limpeza recorrente, como a Merry Maids mostra.",
+      "tip": "Franquias (Merry Maids, MaidPro) aparecem junto com Angi e HomeAdvisor. Destacar na página de Reidville que somos uma empresa local de Greer, com orçamento grátis.",
       "error": null
     },
     "five-forks-sc": {
       "city": "Five Forks, SC",
       "query": "house cleaning Five Forks SC",
-      "checkedAt": "2026-11-26T09:50:00Z",
+      "checkedAt": "2026-11-27T07:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning Fork SC"
+          "title": "house cleaning (Fork, SC)"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "Cleaning Fork SC"
+          "title": "cleaning (Fork, SC)"
         },
         {
           "pos": 3,
           "domain": "bbb.org",
-          "title": "Maid service Fork SC"
+          "title": "maid service (Fork)"
         },
         {
           "pos": 4,
@@ -567,22 +567,22 @@
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "House cleaning Five Points"
+          "title": "house cleaning (Five Points)"
         },
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "House cleaning Conestee"
+          "title": "house cleaning Conestee"
         },
         {
           "pos": 7,
           "domain": "angi.com",
-          "title": "House cleaning Fairforest"
+          "title": "house cleaning Fairforest"
         },
         {
           "pos": 8,
           "domain": "angi.com",
-          "title": "House cleaning Six Mile"
+          "title": "house cleaning Six Mile"
         },
         {
           "pos": 9,
@@ -596,7 +596,7 @@
         }
       ],
       "competitors": [],
-      "tip": "Nenhuma empresa local de Five Forks aparece (resultados de cidades vizinhas). Página de Five Forks com texto próprio, citando as áreas vizinhas, pode ocupar o espaço.",
+      "tip": "Busca quase sem empresas locais de Five Forks; os resultados são diretórios de cidades vizinhas. Uma página de Five Forks com bairros e cidades próximas (Simpsonville, Mauldin) pode ocupar esse espaço.",
       "error": null
     },
     "inman-sc": {
@@ -1707,14 +1707,14 @@
     "pauline-sc": {
       "city": "Pauline, SC",
       "query": "house cleaning Pauline SC",
-      "checkedAt": "2026-11-26T09:50:00Z",
+      "checkedAt": "2026-11-27T07:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning Pauline"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
@@ -1724,7 +1724,7 @@
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "Cleaning Pauline SC"
+          "title": "cleaning"
         },
         {
           "pos": 4,
@@ -1744,26 +1744,26 @@
         {
           "pos": 7,
           "domain": "care.com",
-          "title": "Housekeepers Pauline (page 0)"
+          "title": "Housekeepers Pauline SC (page 0)"
         },
         {
           "pos": 8,
           "domain": "care.com",
-          "title": "Housekeepers Pauline (page 2)"
+          "title": "Housekeepers Pauline SC (page 2)"
         },
         {
           "pos": 9,
           "domain": "care.com",
-          "title": "Housekeepers Pauline (page 3)"
+          "title": "Housekeepers Pauline SC (page 3)"
         },
         {
           "pos": 10,
           "domain": "bbb.org",
-          "title": "Janitor Pauline SC"
+          "title": "janitor Pauline"
         }
       ],
       "competitors": [],
-      "tip": "Só diretórios e BBB no topo. Reforçar na página de Pauline o orçamento grátis e a verificação de serviço, e cadastrar o perfil no BBB e Angi.",
+      "tip": "Só diretórios (Angi, Care.com, BBB) no topo. Reforçar na página de Pauline o orçamento grátis e a proximidade com Spartanburg e Greer.",
       "error": null
     },
     "saluda-nc": {
@@ -1922,24 +1922,24 @@
     "gray-court-sc": {
       "city": "Gray Court, SC",
       "query": "house cleaning Gray Court SC",
-      "checkedAt": "2026-11-26T09:50:00Z",
+      "checkedAt": "2026-11-27T07:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "bbb.org",
-          "title": "House Cleaning Gray Court SC"
+          "title": "House Cleaning, Gray Court"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning Gray Court"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Gray Court SC house cleaning"
+          "title": "House cleaning gray court sc"
         },
         {
           "pos": 4,
@@ -1949,12 +1949,12 @@
         {
           "pos": 5,
           "domain": "angi.com",
-          "title": "Cleaning Gray Court"
+          "title": "cleaning"
         },
         {
           "pos": 6,
           "domain": "bbb.org",
-          "title": "Cleaning Services Gray Court"
+          "title": "Cleaning Services"
         },
         {
           "pos": 7,
@@ -1969,22 +1969,28 @@
         {
           "pos": 9,
           "domain": "bbb.org",
-          "title": "Maid Service Gray Court"
+          "title": "Maid Service"
         },
         {
           "pos": 10,
           "domain": "bbb.org",
-          "title": "Floor Cleaning Gray Court"
+          "title": "Floor Cleaning"
         }
       ],
-      "competitors": [],
-      "tip": "BBB, Angi e Care.com dominam. Destacar limpeza de mudança (move-out) na página de Gray Court, já que a Care.com lista esse serviço, e concluir o cadastro no BBB.",
+      "competitors": [
+        {
+          "pos": 15,
+          "domain": "instaservice.com",
+          "name": "Instaservice"
+        }
+      ],
+      "tip": "BBB, Angi e Care.com dominam. Mostrar na página de Gray Court limpeza de mudança e orçamento grátis, já que o Care.com destaca move-out.",
       "error": null
     },
     "pelzer-sc": {
       "city": "Pelzer, SC",
       "query": "house cleaning Pelzer SC",
-      "checkedAt": "2026-11-26T09:50:00Z",
+      "checkedAt": "2026-11-27T07:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2001,7 +2007,7 @@
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "house cleaning Pelzer"
+          "title": "house cleaning"
         },
         {
           "pos": 4,
@@ -2125,79 +2131,69 @@
     "flat-rock-nc": {
       "city": "Flat Rock, NC",
       "query": "house cleaning Flat Rock NC",
-      "checkedAt": "2026-11-26T06:50:00Z",
+      "checkedAt": "2026-11-27T07:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
-          "domain": "angi.com",
-          "title": "Top 10 Best House cleaners in Flat Rock, NC"
+          "domain": "care.com",
+          "title": "House cleaning Flat Rock NC"
         },
         {
           "pos": 2,
-          "domain": "mollymaid.com",
-          "title": "House Cleaning Services in Flat Rock, North Carolina"
+          "domain": "angi.com",
+          "title": "house cleaning Flat Rock"
         },
         {
           "pos": 3,
-          "domain": "yellowpages.com",
-          "title": "Best 30 House Cleaning in Flat Rock, NC with Reviews"
+          "domain": "care.com",
+          "title": "Housekeeping Flat Rock NC"
         },
         {
           "pos": 4,
-          "domain": "housekeeper.com",
-          "title": "Find Cleaners, Housekeepers & Housekeeping Services in Flat Rock, North Carolina"
+          "domain": "care.com",
+          "title": "Housekeeping services Flat Rock NC"
         },
         {
           "pos": 5,
-          "domain": "mollymaid.com",
-          "title": "Apartment and Condo Cleaning Services in Flat Rock, NC"
+          "domain": "care.com",
+          "title": "Housekeepers Flat Rock NC (page 3)"
         },
         {
           "pos": 6,
-          "domain": "mollymaid.com",
-          "title": "Move-In and Move-Out Cleaning in Flat Rock"
+          "domain": "care.com",
+          "title": "House cleaning East Flat Rock NC"
         },
         {
           "pos": 7,
-          "domain": "laclean4you.com",
-          "title": "Home Cleaning Services in Flat Rock, NC"
+          "domain": "care.com",
+          "title": "Housekeeping Flat Rock NC (page 2)"
         },
         {
           "pos": 8,
-          "domain": "clarityhousewash.com",
-          "title": "Flat Rock, NC"
+          "domain": "care.com",
+          "title": "Housekeeping services Flat Rock (page 2)"
         },
         {
           "pos": 9,
-          "domain": "glowwaveservices.com",
-          "title": "House Cleaning in Flat Rock, NC"
+          "domain": "care.com",
+          "title": "Cleaning lady Flat Rock NC"
         },
         {
           "pos": 10,
-          "domain": "laclean4you.com",
-          "title": "Contact L & A Cleaning"
+          "domain": "care.com",
+          "title": "Housekeepers Flat Rock NC"
         }
       ],
       "competitors": [
         {
-          "pos": 2,
-          "domain": "mollymaid.com",
-          "name": "Molly Maid"
-        },
-        {
-          "pos": 7,
-          "domain": "laclean4you.com",
-          "name": "L&A Cleaning"
-        },
-        {
-          "pos": 9,
-          "domain": "glowwaveservices.com",
-          "name": "GlowWave"
+          "pos": 15,
+          "domain": "homeadvisor.com",
+          "name": "HeyMaid"
         }
       ],
-      "tip": "Só aparecem franquias e 2 empresas locais (L&A Cleaning, GlowWave); nenhum resultado nosso. Reforçar a página de Flat Rock com serviços, preço inicial 'orçamento grátis' e FAQ, e linkar os posts de Flat Rock a ela.",
+      "tip": "O topo é Care.com e Angi, com preço por hora visível. Mostrar o orçamento grátis e a lista de serviços na página de Flat Rock; HeyMaid aparece atendendo Tryon e Hendersonville.",
       "error": null
     },
     "williamston-sc": {
