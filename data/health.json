@@ -1,381 +1,381 @@
 {
-  "checkedAt": "2026-11-27T07:55:00Z",
-  "overall": "warning",
-  "checks": [
-    {
-      "id": "build",
-      "label": "Geração do site",
-      "status": "ok",
-      "detail": "1105 páginas geradas"
-    },
-    {
-      "id": "links",
-      "label": "Links internos",
-      "status": "ok",
-      "detail": "Nenhum link quebrado"
-    },
-    {
-      "id": "posts_json",
-      "label": "Artigos",
-      "status": "ok",
-      "detail": "Todos os artigos estão válidos"
-    },
-    {
-      "id": "daily_run",
-      "label": "Rotina diária",
-      "status": "ok",
-      "detail": "Rodada de ontem (26/11) publicada; próxima às 7h de São Paulo"
-    },
-    {
-      "id": "daily_count",
-      "label": "Quantidade de artigos",
-      "status": "ok",
-      "detail": "Aguardando a rotina das 7h (ontem: 32 artigos)"
-    },
-    {
-      "id": "gbp_posts",
-      "label": "Posts do Google Meu Negócio",
-      "status": "ok",
-      "detail": "Posts de hoje prontos"
-    },
-    {
-      "id": "greer_queue",
-      "label": "Temas de Greer",
-      "status": "warning",
-      "detail": "Temas de Greer acabando: 5 dias restantes. Pedir novos ângulos"
-    },
-    {
-      "id": "cities",
-      "label": "Cidades no ar",
-      "status": "ok",
-      "detail": "43 de 43 cidades no ar"
-    },
-    {
-      "id": "live_site",
-      "label": "Site no ar",
-      "status": "ok",
-      "detail": "Teste ao vivo feito pelo painel no navegador"
-    },
-    {
-      "id": "sitemap",
-      "label": "Sitemap",
-      "status": "ok",
-      "detail": "1105 páginas no sitemap, igual ao esperado"
-    },
-    {
-      "id": "gtm",
-      "label": "Google Tag Manager",
-      "status": "ok",
-      "detail": "Código do Google Tag Manager presente na home e no artigo mais novo"
-    },
-    {
-      "id": "lead_form",
-      "label": "Formulário de contato",
-      "status": "ok",
-      "detail": "Formulário das cidades envia para /api/lead"
-    }
-  ],
-  "fixes": [],
-  "history": [
-    {
-      "at": "2026-11-27T07:55:00Z",
-      "overall": "warning",
-      "summary": "Só o aviso de temas de Greer; 6 cidades e 3 diretórios verificados"
-    },
-    {
-      "at": "2026-11-27T06:50:00Z",
-      "overall": "warning",
-      "summary": "Só o aviso de temas de Greer acabando; 1 abertura de artigo corrigida"
-    },
-    {
-      "at": "2026-11-27T00:55:00Z",
-      "overall": "warning",
-      "summary": "Só o aviso de temas de Greer acabando; site saudável"
-    },
-    {
-      "at": "2026-11-26T21:50:00Z",
-      "overall": "warning",
-      "summary": "Só o aviso de temas de Greer acabando; site saudável"
-    },
-    {
-      "at": "2026-11-26T18:55:00Z",
-      "overall": "warning",
-      "summary": "Aviso: temas de Greer acabando (5 dias)"
-    },
-    {
-      "at": "2026-11-26T15:50:00Z",
-      "overall": "warning",
-      "summary": "Aviso: temas de Greer acabando (5 dias). 1 título corrigido."
-    },
-    {
-      "at": "2026-11-26T12:50:00Z",
-      "overall": "warning",
-      "summary": "3 títulos encurtados; só o aviso dos temas de Greer; 6 cidades, 3 diretórios"
-    },
-    {
-      "at": "2026-11-26T09:50:00Z",
-      "overall": "warning",
-      "summary": "Tudo certo, só o aviso dos temas de Greer"
-    },
-    {
-      "at": "2026-11-26T06:50:00Z",
-      "overall": "warning",
-      "summary": "Aviso: temas de Greer acabando; 6 cidades, 3 diretórios"
-    },
-    {
-      "at": "2026-11-26T03:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
-    },
-    {
-      "at": "2026-11-26T00:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-25T21:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
-    },
-    {
-      "at": "2026-11-25T18:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
-    },
-    {
-      "at": "2026-11-25T15:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-25T12:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 1 título ajustado"
-    },
-    {
-      "at": "2026-11-25T09:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 1 descrição ajustada"
-    },
-    {
-      "at": "2026-11-25T06:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-25T03:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 2 títulos encurtados"
-    },
-    {
-      "at": "2026-11-25T00:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-24T21:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 artigos com links internos"
-    },
-    {
-      "at": "2026-11-24T18:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-24T15:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 títulos encurtados"
-    },
-    {
-      "at": "2026-11-24T12:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 títulos encurtados, 6 cidades e 3 diretórios verificados"
-    },
-    {
-      "at": "2026-11-24T09:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 títulos encurtados"
-    },
-    {
-      "at": "2026-11-24T06:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-24T03:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
-    },
-    {
-      "at": "2026-11-24T00:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-23T21:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-23T18:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-23T15:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-23T12:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 títulos encurtados"
-    },
-    {
-      "at": "2026-11-23T09:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-23T06:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-23T03:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-23T00:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-22T21:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-22T18:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-22T15:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-22T12:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 4 melhorias SEO em artigos"
-    },
-    {
-      "at": "2026-11-22T09:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-22T06:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-22T03:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 3 títulos encurtados"
-    },
-    {
-      "at": "2026-11-22T00:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-21T21:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-21T18:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-21T15:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-21T12:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-21T09:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-21T06:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-21T03:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 1 melhoria automática de conteúdo"
-    },
-    {
-      "at": "2026-11-21T00:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-20T21:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-20T18:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-20T15:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-20T12:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo; 2 títulos encurtados"
-    },
-    {
-      "at": "2026-11-20T09:55:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-20T06:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-20T03:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-20T00:45:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    },
-    {
-      "at": "2026-11-19T21:50:00Z",
-      "overall": "ok",
-      "summary": "Tudo certo"
-    }
-  ]
+ "checkedAt": "2026-11-27T12:50:00Z",
+ "overall": "error",
+ "checks": [
+  {
+   "id": "build",
+   "label": "Geração do site",
+   "status": "ok",
+   "detail": "1105 páginas geradas"
+  },
+  {
+   "id": "links",
+   "label": "Links internos",
+   "status": "ok",
+   "detail": "Nenhum link quebrado"
+  },
+  {
+   "id": "posts_json",
+   "label": "Artigos",
+   "status": "ok",
+   "detail": "Todos os artigos estão válidos"
+  },
+  {
+   "id": "daily_run",
+   "label": "Rotina diária",
+   "status": "error",
+   "detail": "Sem artigos de hoje (27/11): a rotina das 7h de São Paulo não publicou até 12:50 UTC. Verificar a rotina diária"
+  },
+  {
+   "id": "daily_count",
+   "label": "Quantidade de artigos",
+   "status": "warning",
+   "detail": "Nenhum artigo novo de hoje; ontem foram 32"
+  },
+  {
+   "id": "gbp_posts",
+   "label": "Posts do Google Meu Negócio",
+   "status": "warning",
+   "detail": "Posts do Google Meu Negócio de hoje (27/11) não foram gerados"
+  },
+  {
+   "id": "greer_queue",
+   "label": "Temas de Greer",
+   "status": "warning",
+   "detail": "Temas de Greer acabando: 5 dias restantes. Pedir novos ângulos"
+  },
+  {
+   "id": "cities",
+   "label": "Cidades no ar",
+   "status": "ok",
+   "detail": "43 de 43 cidades no ar"
+  },
+  {
+   "id": "live_site",
+   "label": "Site no ar",
+   "status": "ok",
+   "detail": "Teste ao vivo feito pelo painel no navegador"
+  },
+  {
+   "id": "sitemap",
+   "label": "Sitemap",
+   "status": "ok",
+   "detail": "1105 páginas no sitemap, igual ao esperado"
+  },
+  {
+   "id": "gtm",
+   "label": "Google Tag Manager",
+   "status": "ok",
+   "detail": "Código do Google Tag Manager presente na home e no artigo mais novo"
+  },
+  {
+   "id": "lead_form",
+   "label": "Formulário de contato",
+   "status": "ok",
+   "detail": "Formulário das cidades envia para /api/lead"
+  }
+ ],
+ "fixes": [],
+ "history": [
+  {
+   "at": "2026-11-27T12:50:00Z",
+   "overall": "error",
+   "summary": "Rotina diária de hoje não rodou; 6 cidades e 3 diretórios verificados"
+  },
+  {
+   "at": "2026-11-27T07:55:00Z",
+   "overall": "warning",
+   "summary": "Só o aviso de temas de Greer; 6 cidades e 3 diretórios verificados"
+  },
+  {
+   "at": "2026-11-27T06:50:00Z",
+   "overall": "warning",
+   "summary": "Só o aviso de temas de Greer acabando; 1 abertura de artigo corrigida"
+  },
+  {
+   "at": "2026-11-27T00:55:00Z",
+   "overall": "warning",
+   "summary": "Só o aviso de temas de Greer acabando; site saudável"
+  },
+  {
+   "at": "2026-11-26T21:50:00Z",
+   "overall": "warning",
+   "summary": "Só o aviso de temas de Greer acabando; site saudável"
+  },
+  {
+   "at": "2026-11-26T18:55:00Z",
+   "overall": "warning",
+   "summary": "Aviso: temas de Greer acabando (5 dias)"
+  },
+  {
+   "at": "2026-11-26T15:50:00Z",
+   "overall": "warning",
+   "summary": "Aviso: temas de Greer acabando (5 dias). 1 título corrigido."
+  },
+  {
+   "at": "2026-11-26T12:50:00Z",
+   "overall": "warning",
+   "summary": "3 títulos encurtados; só o aviso dos temas de Greer; 6 cidades, 3 diretórios"
+  },
+  {
+   "at": "2026-11-26T09:50:00Z",
+   "overall": "warning",
+   "summary": "Tudo certo, só o aviso dos temas de Greer"
+  },
+  {
+   "at": "2026-11-26T06:50:00Z",
+   "overall": "warning",
+   "summary": "Aviso: temas de Greer acabando; 6 cidades, 3 diretórios"
+  },
+  {
+   "at": "2026-11-26T03:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
+  },
+  {
+   "at": "2026-11-26T00:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-25T21:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
+  },
+  {
+   "at": "2026-11-25T18:55:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
+  },
+  {
+   "at": "2026-11-25T15:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-25T12:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 1 título ajustado"
+  },
+  {
+   "at": "2026-11-25T09:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 1 descrição ajustada"
+  },
+  {
+   "at": "2026-11-25T06:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-25T03:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 2 títulos encurtados"
+  },
+  {
+   "at": "2026-11-25T00:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-24T21:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 3 artigos com links internos"
+  },
+  {
+   "at": "2026-11-24T18:55:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-24T15:55:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 3 títulos encurtados"
+  },
+  {
+   "at": "2026-11-24T12:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 3 títulos encurtados, 6 cidades e 3 diretórios verificados"
+  },
+  {
+   "at": "2026-11-24T09:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 3 títulos encurtados"
+  },
+  {
+   "at": "2026-11-24T06:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-24T03:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 6 cidades e 3 diretórios verificados"
+  },
+  {
+   "at": "2026-11-24T00:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-23T21:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-23T18:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-23T15:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-23T12:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 3 títulos encurtados"
+  },
+  {
+   "at": "2026-11-23T09:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-23T06:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-23T03:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-23T00:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-22T21:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-22T18:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-22T15:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-22T12:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 4 melhorias SEO em artigos"
+  },
+  {
+   "at": "2026-11-22T09:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-22T06:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-22T03:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 3 títulos encurtados"
+  },
+  {
+   "at": "2026-11-22T00:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-21T21:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-21T18:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-21T15:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-21T12:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-21T09:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-21T06:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-21T03:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 1 melhoria automática de conteúdo"
+  },
+  {
+   "at": "2026-11-21T00:55:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-20T21:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-20T18:55:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-20T15:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-20T12:50:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo; 2 títulos encurtados"
+  },
+  {
+   "at": "2026-11-20T09:55:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-20T06:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-20T03:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  },
+  {
+   "at": "2026-11-20T00:45:00Z",
+   "overall": "ok",
+   "summary": "Tudo certo"
+  }
+ ]
 }
