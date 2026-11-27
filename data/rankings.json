@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T21:50:00Z",
+  "updatedAt": "2026-11-27T00:55:00Z",
   "method": "Busca na web (aproximada, não é o Google oficial)",
   "cities": {
     "greer-sc": {
@@ -1629,7 +1629,7 @@
     "powdersville-sc": {
       "city": "Powdersville, SC",
       "query": "house cleaning Powdersville SC",
-      "checkedAt": "2026-11-26T00:50:00Z",
+      "checkedAt": "2026-11-27T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1651,37 +1651,17 @@
         {
           "pos": 4,
           "domain": "bbb.org",
-          "title": "BBB: House Cleaning Easley"
+          "title": "House cleaning (Easley)"
         },
         {
           "pos": 5,
-          "domain": "maids.com",
-          "title": "House Cleaning Services in South Carolina"
-        },
-        {
-          "pos": 6,
-          "domain": "bbb.org",
-          "title": "BBB: House Cleaning Pelzer"
-        },
-        {
-          "pos": 7,
           "domain": "thumbtack.com",
           "title": "Peerless Maids"
         },
         {
-          "pos": 8,
-          "domain": "bbb.org",
-          "title": "BBB: House Cleaning Pickens"
-        },
-        {
-          "pos": 9,
+          "pos": 6,
           "domain": "maids.com",
           "title": "House Cleaning Services in South Carolina"
-        },
-        {
-          "pos": 10,
-          "domain": "bbb.org",
-          "title": "BBB: House Cleaning Clemson"
         }
       ],
       "competitors": [
@@ -1701,7 +1681,7 @@
           "name": "SNP 365 Cleaners"
         }
       ],
-      "tip": "Aparecem pequenas empresas (JL's, Cris House Cleaning) e diretórios, sem página forte de Powdersville. Na nossa página, citar Powdersville no título, mostrar preço inicial e avaliações.",
+      "tip": "Poucas empresas locais aparecem; o topo é de diretórios e perfis pequenos sem reviews. Reforçar a página de Powdersville com preço inicial, FAQ e a nota do Google.",
       "error": null
     },
     "tryon-nc": {
@@ -1893,7 +1873,7 @@
     "saluda-nc": {
       "city": "Saluda, NC",
       "query": "house cleaning Saluda NC",
-      "checkedAt": "2026-11-26T03:50:00Z",
+      "checkedAt": "2026-11-27T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -1905,12 +1885,12 @@
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning (Angi, Saluda)"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com housekeepers page 3"
+          "title": "Care.com housekeepers"
         },
         {
           "pos": 4,
@@ -1920,70 +1900,55 @@
         {
           "pos": 5,
           "domain": "care.com",
-          "title": "Care.com housekeeping Saluda"
+          "title": "Care.com housekeeping"
         },
         {
           "pos": 6,
-          "domain": "match.angi.com",
-          "title": "Compare Quotes from House Cleaning Services"
+          "domain": "angi.com",
+          "title": "Cleaning Maid Services Mill Spring"
         },
         {
           "pos": 7,
           "domain": "homeadvisor.com",
-          "title": "House Cleaning (HomeAdvisor)"
-        },
-        {
-          "pos": 8,
-          "domain": "homeadvisor.com",
-          "title": "HomeAdvisor house cleaning Saluda"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Care.com cleaning lady Saluda"
-        },
-        {
-          "pos": 10,
-          "domain": "care.com",
-          "title": "Care.com housekeeping page 2"
+          "title": "House Cleaning Saluda"
         }
       ],
       "competitors": [
         {
           "pos": 4,
           "domain": "maidpro.com",
-          "name": "MaidPro Saluda, NC"
+          "name": "MaidPro"
         }
       ],
-      "tip": "MaidPro (franquia de Hendersonville) é a única empresa no topo; destacar na página de Saluda atendimento por equipe local, preço inicial e perguntas frequentes.",
+      "tip": "MaidPro (franquia) aparece com página própria para Saluda. Destacar na página de Saluda o que nos diferencia: equipe brasileira local, orçamento grátis e avaliações.",
       "error": null
     },
     "columbus-nc": {
       "city": "Columbus, NC",
       "query": "house cleaning Columbus NC",
-      "checkedAt": "2026-11-26T03:50:00Z",
+      "checkedAt": "2026-11-27T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "care.com",
-          "title": "Care.com house cleaning Columbus NC"
+          "title": "columbus nc"
         },
         {
           "pos": 2,
           "domain": "angi.com",
-          "title": "house cleaning (Angi, Columbus NC)"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com housekeeping page 2"
+          "title": "Care.com housekeeping"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping"
+          "title": "Care.com housekeeping (page 2)"
         },
         {
           "pos": 5,
@@ -1992,44 +1957,24 @@
         },
         {
           "pos": 6,
-          "domain": "care.com",
-          "title": "Care.com housekeepers page 3"
-        },
-        {
-          "pos": 7,
-          "domain": "angi.com",
-          "title": "Angi cleaning Columbus NC"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Care.com housekeepers"
-        },
-        {
-          "pos": 9,
-          "domain": "angi.com",
-          "title": "Helping Hands Cleaning & More (Angi)"
-        },
-        {
-          "pos": 10,
-          "domain": "angi.com",
-          "title": "house cleaning (Angi, Columbia NC)"
+          "domain": "merrymaids.com",
+          "title": "Merry Maids Columbus"
         }
       ],
       "competitors": [
         {
-          "pos": 9,
-          "domain": "angi.com",
-          "name": "Helping Hands Cleaning & More"
+          "pos": 6,
+          "domain": "merrymaids.com",
+          "name": "Merry Maids"
         }
       ],
-      "tip": "Quase só diretórios; pouca concorrência local real. Reforçar a página de Columbus com preço inicial, área atendida e nota do Google.",
+      "tip": "Resultados misturam outras cidades chamadas Columbus. Deixar claro \"Columbus, NC\" e a área atendida na página para se destacar dos diretórios.",
       "error": null
     },
     "easley-sc": {
       "city": "Easley, SC",
       "query": "house cleaning Easley SC",
-      "checkedAt": "2026-11-26T03:50:00Z",
+      "checkedAt": "2026-11-27T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
@@ -2041,57 +1986,41 @@
         {
           "pos": 2,
           "domain": "bbb.org",
-          "title": "house cleaning (BBB, Easley)"
+          "title": "house cleaning"
         },
         {
           "pos": 3,
           "domain": "angi.com",
-          "title": "house cleaning (Angi, Easley)"
+          "title": "house cleaning"
         },
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com house cleaning page 2"
+          "title": "Care.com house cleaning (page 2)"
         },
         {
           "pos": 5,
           "domain": "bbb.org",
-          "title": "BBB maid service Easley"
+          "title": "maid service"
         },
         {
           "pos": 6,
           "domain": "care.com",
-          "title": "Care.com housekeeping Easley"
+          "title": "Care.com housekeeping"
         },
         {
           "pos": 7,
-          "domain": "care.com",
-          "title": "Care.com housekeeping page 2"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Care.com housekeepers page 3"
-        },
-        {
-          "pos": 9,
           "domain": "thumbtack.com",
           "title": "Check out 10 house cleaners in your area"
         },
         {
-          "pos": 10,
+          "pos": 8,
           "domain": "homeadvisor.com",
-          "title": "house cleaning Easley (HomeAdvisor)"
+          "title": "house cleaning Easley"
         }
       ],
-      "competitors": [
-        {
-          "pos": 2,
-          "domain": "bbb.org",
-          "name": "Simply Spotless Cleaning Service LLC (BBB)"
-        }
-      ],
-      "tip": "Diretórios dominam e mostram nota e contagem de avaliações; mostrar nossa nota do Google e preço inicial na página de Easley.",
+      "competitors": [],
+      "tip": "Diretórios mostram nota e preço por hora (Care.com, Angi, Thumbtack). Na página de Easley, destacar nota do Google, preço inicial por visita e FAQ.",
       "error": null
     },
     "gray-court-sc": {
@@ -2221,14 +2150,14 @@
     "cowpens-sc": {
       "city": "Cowpens, SC",
       "query": "house cleaning Cowpens SC",
-      "checkedAt": "2026-11-26T03:50:00Z",
+      "checkedAt": "2026-11-27T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning (Angi, Cowpens)"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
@@ -2238,7 +2167,7 @@
         {
           "pos": 3,
           "domain": "care.com",
-          "title": "Care.com housekeepers Cowpens page 2"
+          "title": "Care.com housekeepers Cowpens"
         },
         {
           "pos": 4,
@@ -2253,55 +2182,24 @@
         {
           "pos": 6,
           "domain": "angi.com",
-          "title": "Angi cleaning Cowpens"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Care.com housekeeping Cowpens"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Care.com profile jennyb6458"
-        },
-        {
-          "pos": 9,
-          "domain": "angi.com",
-          "title": "No-Prints Professional Cleaning Service (Angi)"
-        },
-        {
-          "pos": 10,
-          "domain": "instaservice.com",
-          "title": "house cleaning 3 bed 2 bath"
+          "title": "cleaning"
         }
       ],
-      "competitors": [
-        {
-          "pos": 9,
-          "domain": "angi.com",
-          "name": "No-Prints Professional Cleaning Service"
-        },
-        {
-          "pos": 10,
-          "domain": "instaservice.com",
-          "name": "InstaService"
-        }
-      ],
-      "tip": "Só diretórios (Angi, Care.com) aparecem no topo; destacar na página de Cowpens preço inicial, seguro e nota do Google, o que os diretórios não mostram.",
+      "competitors": [],
+      "tip": "Só diretórios no topo (Angi e Care.com). Mostrar na página de Cowpens o preço inicial, o orçamento grátis e perguntas frequentes para competir com eles.",
       "error": null
     },
     "chesnee-sc": {
       "city": "Chesnee, SC",
       "query": "house cleaning Chesnee SC",
-      "checkedAt": "2026-11-26T03:50:00Z",
+      "checkedAt": "2026-11-27T00:55:00Z",
       "ourPosition": null,
       "ourUrl": null,
       "top": [
         {
           "pos": 1,
           "domain": "angi.com",
-          "title": "house cleaning (Angi, Chesnee)"
+          "title": "house cleaning"
         },
         {
           "pos": 2,
@@ -2316,47 +2214,16 @@
         {
           "pos": 4,
           "domain": "care.com",
-          "title": "Care.com housekeeping page 2"
-        },
-        {
-          "pos": 5,
-          "domain": "care.com",
           "title": "Care.com cleaning lady Chesnee"
         },
         {
-          "pos": 6,
+          "pos": 5,
           "domain": "angi.com",
-          "title": "Angi cleaning Chesnee"
-        },
-        {
-          "pos": 7,
-          "domain": "care.com",
-          "title": "Care.com housekeepers Chesnee"
-        },
-        {
-          "pos": 8,
-          "domain": "care.com",
-          "title": "Care.com housekeepers page 3"
-        },
-        {
-          "pos": 9,
-          "domain": "care.com",
-          "title": "Care.com move-out cleaning Chesnee"
-        },
-        {
-          "pos": 10,
-          "domain": "angi.com",
-          "title": "couch cleaning services (Angi)"
+          "title": "cleaning"
         }
       ],
-      "competitors": [
-        {
-          "pos": 1,
-          "domain": "angi.com",
-          "name": "Angi: Sunrise Cleaning Services"
-        }
-      ],
-      "tip": "Só Angi e Care.com no topo, sem empresa local forte; reforçar a página de Chesnee com preço inicial, FAQ e a distância até Greer.",
+      "competitors": [],
+      "tip": "O topo é só diretórios (Angi e Care.com); nenhuma empresa local própria aparece. Oportunidade: página de Chesnee com serviços, área atendida e orçamento grátis.",
       "error": null
     },
     "flat-rock-nc": {

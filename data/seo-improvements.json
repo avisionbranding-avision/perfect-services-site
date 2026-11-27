@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-26T21:50:00Z",
-  "now": "Revisei as dicas de 6 cidades (Tryon, Fountain Inn, Hendersonville, Landrum, Marietta, Piedmont) e os checks técnicos; nenhum item automático pendente.",
+  "updatedAt": "2026-11-27T00:55:00Z",
+  "now": "Revisei 564 artigos (títulos, descrições, links internos, frases proibidas, aberturas repetidas) e as dicas de 6 cidades; 1 abertura repetida e 1 melhoria local novas; nenhuma correção automática pendente.",
   "items": [
     {
       "id": "seo-diretorios",
@@ -1119,6 +1119,34 @@
       "why": "A busca por Marietta SC mostrou resultados da Marietta da Geórgia (Merry Maids, Cleaning Authority).",
       "action": "Repetir 'Marietta, SC' e o condado no título, H1 e primeiro parágrafo da página.",
       "foundAt": "2026-11-26",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-abertura-checkout-2026-11-27",
+      "title": "Reescrever a abertura repetida \"Checkout is at 11.\" em 2 artigos de Airbnb em Greer",
+      "area": "conteudo",
+      "owner": "auto",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/blog/airbnb-cleaning-for-busy-professionals-in-greer.html",
+      "why": "Dois artigos (busy-families e busy-professionals) começam com a mesma frase \"Checkout is at 11.\", o que parece texto repetido.",
+      "action": "Reescrever só a primeira frase do artigo busy-professionals com uma abertura própria, mantendo fatos e links.",
+      "foundAt": "2026-11-27",
+      "doneAt": null,
+      "result": null
+    },
+    {
+      "id": "seo-cidades-diretorios-2026-11-27",
+      "title": "Páginas de Chesnee, Cowpens, Easley, Powdersville, Columbus e Saluda: preço inicial, FAQ e nota do Google",
+      "area": "local",
+      "owner": "claude",
+      "status": "aberta",
+      "priority": 3,
+      "page": "https://perfectservicespaintingcleaning.com/areas/chesnee-sc/",
+      "why": "Na busca de hoje o topo dessas cidades é de diretórios (Angi, Care.com, Thumbtack); em Saluda aparece a franquia MaidPro.",
+      "action": "Bloco com preço inicial, orçamento grátis, FAQ e nota do Google nessas páginas.",
+      "foundAt": "2026-11-27",
       "doneAt": null,
       "result": null
     }
