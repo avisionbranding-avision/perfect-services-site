@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T06:50:00Z",
+ "updatedAt": "2026-11-28T09:45:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
@@ -488,34 +488,34 @@
   "reidville-sc": {
    "city": "Reidville, SC",
    "query": "house cleaning Reidville SC",
-   "checkedAt": "2026-11-27T07:55:00Z",
+   "checkedAt": "2026-11-28T09:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "house cleaning"
+     "title": "Angi: house cleaning Reidville"
     },
     {
      "pos": 2,
      "domain": "homeadvisor.com",
-     "title": "House cleaning Reidville SC"
+     "title": "HomeAdvisor: house cleaning Reidville"
     },
     {
      "pos": 3,
      "domain": "homeadvisor.com",
-     "title": "Dryer Vent Clean"
+     "title": "HomeAdvisor: Dryer Vent Clean Reidville"
     },
     {
      "pos": 4,
      "domain": "homeadvisor.com",
-     "title": "Powerwashing Reidville"
+     "title": "HomeAdvisor: powerwashing Reidville"
     },
     {
      "pos": 5,
      "domain": "homeadvisor.com",
-     "title": "Post Construction Clean up"
+     "title": "HomeAdvisor: Post Construction Clean up"
     },
     {
      "pos": 6,
@@ -525,12 +525,12 @@
     {
      "pos": 7,
      "domain": "merrymaids.com",
-     "title": "Merry Maids home cleaning"
+     "title": "Merry Maids of Spartanburg area"
     },
     {
      "pos": 8,
      "domain": "merrymaids.com",
-     "title": "Merry Maids maid service"
+     "title": "Merry Maids: maid service"
     },
     {
      "pos": 9,
@@ -545,40 +545,45 @@
    ],
    "competitors": [
     {
-     "pos": 7,
+     "pos": 1,
      "domain": "merrymaids.com",
      "name": "Merry Maids"
     },
     {
-     "pos": 10,
+     "pos": 2,
      "domain": "maidpro.com",
      "name": "MaidPro Greer"
+    },
+    {
+     "pos": 3,
+     "domain": "homeadvisor.com",
+     "name": "SC Professional Cleaning"
     }
    ],
-   "tip": "Franquias (Merry Maids, MaidPro) aparecem junto com Angi e HomeAdvisor. Destacar na página de Reidville que somos uma empresa local de Greer, com orçamento grátis.",
+   "tip": "Franquias (Merry Maids, MaidPro) e diretórios dominam; destacar na página de Reidville a proximidade com Greer, orçamento grátis e avaliações do Google.",
    "error": null
   },
   "five-forks-sc": {
    "city": "Five Forks, SC",
    "query": "house cleaning Five Forks SC",
-   "checkedAt": "2026-11-27T07:55:00Z",
+   "checkedAt": "2026-11-28T09:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "house cleaning (Fork, SC)"
+     "title": "Angi: house cleaning (Fork, SC)"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "cleaning (Fork, SC)"
+     "title": "Angi: cleaning"
     },
     {
      "pos": 3,
      "domain": "bbb.org",
-     "title": "maid service (Fork)"
+     "title": "BBB: maid service Fork SC"
     },
     {
      "pos": 4,
@@ -588,22 +593,22 @@
     {
      "pos": 5,
      "domain": "bbb.org",
-     "title": "house cleaning (Five Points)"
+     "title": "BBB: house cleaning Five Points"
     },
     {
      "pos": 6,
      "domain": "angi.com",
-     "title": "house cleaning Conestee"
+     "title": "Angi: Conestee"
     },
     {
      "pos": 7,
      "domain": "angi.com",
-     "title": "house cleaning Fairforest"
+     "title": "Angi: Fairforest"
     },
     {
      "pos": 8,
      "domain": "angi.com",
-     "title": "house cleaning Six Mile"
+     "title": "Angi: Six Mile"
     },
     {
      "pos": 9,
@@ -616,8 +621,14 @@
      "title": "House Cleaning Services in South Carolina"
     }
    ],
-   "competitors": [],
-   "tip": "Busca quase sem empresas locais de Five Forks; os resultados são diretórios de cidades vizinhas. Uma página de Five Forks com bairros e cidades próximas (Simpsonville, Mauldin) pode ocupar esse espaço.",
+   "competitors": [
+    {
+     "pos": 1,
+     "domain": "homeadvisor.com",
+     "name": "SC Professional Cleaning"
+    }
+   ],
+   "tip": "A busca não mostra empresas de limpeza específicas de Five Forks; página local clara (Five Forks perto de Greer/Simpsonville) pode ranquear com pouca disputa.",
    "error": null
   },
   "inman-sc": {
@@ -1691,63 +1702,63 @@
   "woodruff-sc": {
    "city": "Woodruff, SC",
    "query": "house cleaning Woodruff SC",
-   "checkedAt": "2026-11-27T06:50:00Z",
+   "checkedAt": "2026-11-28T09:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: House Cleaning in Woodruff, SC"
+     "title": "Care.com: house cleaning Woodruff SC"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "House cleaning - Angi Woodruff"
+     "title": "Angi: house cleaning Woodruff"
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Woodruff page 2"
+     "title": "Care.com: housekeeping Woodruff SC (pág. 2)"
     },
     {
      "pos": 4,
      "domain": "homeadvisor.com",
-     "title": "Cleaning one time service - HomeAdvisor"
+     "title": "HomeAdvisor: Cleaning one time service Woodruff"
     },
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Care.com cleaning lady Woodruff SC"
+     "title": "Care.com: cleaning lady Woodruff"
     },
     {
      "pos": 6,
-     "domain": "match.angi.com",
-     "title": "Angi rated pro"
+     "domain": "angi.com",
+     "title": "Angi: match Woodruff"
     },
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Woodruff SC"
+     "title": "Care.com: housekeeping Woodruff"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Woodruff page 3"
+     "title": "Care.com: housekeeping (pág. 3)"
     },
     {
      "pos": 9,
      "domain": "angi.com",
-     "title": "Cleaning in Woodruff - Angi"
+     "title": "Angi: cleaning Woodruff"
     },
     {
      "pos": 10,
      "domain": "homeadvisor.com",
-     "title": "Cleaning one time service - HomeAdvisor"
+     "title": "HomeAdvisor: Maid Service Woodruff"
     }
    ],
    "competitors": [],
-   "tip": "Sem concorrentes locais no topo; destacar na página de Woodruff a limpeza de uma vez só e de pós-obra, com orçamento grátis e telefone visível.",
+   "tip": "Só diretórios aparecem no topo (Care.com, Angi, HomeAdvisor) e nenhuma empresa local. Oportunidade: reforçar a página de Woodruff com preço inicial, FAQ e depoimentos; nenhuma concorrente local forte nos resultados.",
    "error": null
   },
   "powdersville-sc": {
@@ -1905,63 +1916,69 @@
   "pauline-sc": {
    "city": "Pauline, SC",
    "query": "house cleaning Pauline SC",
-   "checkedAt": "2026-11-27T07:55:00Z",
+   "checkedAt": "2026-11-28T09:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "house cleaning"
+     "title": "Angi: house cleaning Pauline"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Housekeeping Pauline SC"
+     "title": "Care.com: housekeeping Pauline"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "cleaning"
+     "title": "Angi: cleaning Pauline"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Housekeepers Pauline SC"
+     "title": "Care.com: housekeepers Pauline"
     },
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Housekeeping Pauline SC (page 2)"
+     "title": "Care.com: housekeeping (pág. 2)"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Cleaning lady Pauline SC"
+     "title": "Care.com: cleaning lady Pauline"
     },
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Housekeepers Pauline SC (page 0)"
+     "title": "Care.com: housekeepers (pág. 0)"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Housekeepers Pauline SC (page 2)"
+     "title": "Care.com: housekeepers (pág. 2)"
     },
     {
      "pos": 9,
      "domain": "care.com",
-     "title": "Housekeepers Pauline SC (page 3)"
+     "title": "Care.com: housekeepers (pág. 3)"
     },
     {
      "pos": 10,
      "domain": "bbb.org",
-     "title": "janitor Pauline"
+     "title": "BBB: janitor Pauline"
     }
    ],
-   "competitors": [],
-   "tip": "Só diretórios (Angi, Care.com, BBB) no topo. Reforçar na página de Pauline o orçamento grátis e a proximidade com Spartanburg e Greer.",
+   "competitors": [
+    {
+     "pos": 1,
+     "domain": "bbb.org",
+     "name": "Molly Maid of Greenville"
+    }
+   ],
+   "tip": "Só diretórios no topo; quase nenhuma empresa local. Reforçar a página de Pauline com serviços, FAQ e área atendida a partir de Greer.",
    "error": null
   },
   "saluda-nc": {
@@ -2165,131 +2182,147 @@
   "gray-court-sc": {
    "city": "Gray Court, SC",
    "query": "house cleaning Gray Court SC",
-   "checkedAt": "2026-11-27T07:55:00Z",
+   "checkedAt": "2026-11-28T09:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "bbb.org",
-     "title": "House Cleaning, Gray Court"
+     "title": "BBB: House Cleaning Gray Court"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "house cleaning"
+     "title": "Angi: house cleaning Gray Court"
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "House cleaning gray court sc"
+     "title": "Care.com: house cleaning Gray Court"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Cleaning lady Gray Court"
+     "title": "Care.com: cleaning lady Gray Court"
     },
     {
      "pos": 5,
      "domain": "angi.com",
-     "title": "cleaning"
+     "title": "Angi: cleaning Gray Court"
     },
     {
      "pos": 6,
      "domain": "bbb.org",
-     "title": "Cleaning Services"
+     "title": "BBB: Cleaning Services"
     },
     {
      "pos": 7,
      "domain": "bbb.org",
-     "title": "Estate Cleaning Services"
+     "title": "BBB: Estate Cleaning Services"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Move-out cleaning Gray Court"
+     "title": "Care.com: move out cleaning"
     },
     {
      "pos": 9,
      "domain": "bbb.org",
-     "title": "Maid Service"
+     "title": "BBB: Maid Service"
     },
     {
      "pos": 10,
      "domain": "bbb.org",
-     "title": "Floor Cleaning"
+     "title": "BBB: Floor Cleaning"
     }
    ],
    "competitors": [
     {
-     "pos": 15,
-     "domain": "instaservice.com",
-     "name": "Instaservice"
+     "pos": 1,
+     "domain": "care.com",
+     "name": "One Mommy And A Broom"
     }
    ],
-   "tip": "BBB, Angi e Care.com dominam. Mostrar na página de Gray Court limpeza de mudança e orçamento grátis, já que o Care.com destaca move-out.",
+   "tip": "Diretórios (BBB, Angi, Care.com) dominam. Destacar limpeza de mudança (move-out) na página de Gray Court, que aparece nas buscas.",
    "error": null
   },
   "pelzer-sc": {
    "city": "Pelzer, SC",
    "query": "house cleaning Pelzer SC",
-   "checkedAt": "2026-11-27T07:55:00Z",
+   "checkedAt": "2026-11-28T09:45:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "House cleaning Pelzer SC"
+     "title": "Care.com: house cleaning Pelzer"
     },
     {
      "pos": 2,
      "domain": "bbb.org",
-     "title": "House Cleaning Pelzer (accredited)"
+     "title": "BBB: House Cleaning accredited"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "house cleaning"
+     "title": "Angi: house cleaning Pelzer"
     },
     {
      "pos": 4,
-     "domain": "match.angi.com",
-     "title": "Compare Quotes House Cleaning"
+     "domain": "angi.com",
+     "title": "Angi match: House Cleaning"
     },
     {
      "pos": 5,
-     "domain": "match.angi.com",
-     "title": "Compare Quotes Cleaning Services"
+     "domain": "angi.com",
+     "title": "Angi match: Cleaning Services"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Housekeepers Pelzer"
+     "title": "Care.com: housekeepers Pelzer"
     },
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Cleaning lady Pelzer (page 2)"
+     "title": "Care.com: cleaning lady (pág. 2)"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Housekeepers Pelzer (page 3)"
+     "title": "Care.com: housekeepers (pág. 3)"
     },
     {
      "pos": 9,
-     "domain": "care.com",
-     "title": "Cleaning lady Pelzer"
+     "domain": "homeadvisor.com",
+     "title": "HomeAdvisor: house cleaning Pelzer"
     },
     {
      "pos": 10,
      "domain": "homeadvisor.com",
-     "title": "House cleaning Pelzer SC"
+     "title": "HomeAdvisor: Range Hood Clean"
     }
    ],
-   "competitors": [],
-   "tip": "Topo é só diretórios, e o BBB credenciado aparece em segundo. Mostrar o cadastro no BBB e o orçamento grátis na página de Pelzer.",
+   "competitors": [
+    {
+     "pos": 1,
+     "domain": "bbb.org",
+     "name": "Molly Maid of Greenville"
+    },
+    {
+     "pos": 2,
+     "domain": "bbb.org",
+     "name": "HomeMaid Professional Cleaning Services"
+    },
+    {
+     "pos": 3,
+     "domain": "homeadvisor.com",
+     "name": "SC Professional Cleaning"
+    }
+   ],
+   "tip": "Poucas empresas locais; as que aparecem mostram selo BBB e avaliações. Destacar avaliações do Google e garantia na página de Pelzer.",
    "error": null
   },
   "cowpens-sc": {
