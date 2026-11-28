@@ -1,28 +1,28 @@
 {
- "updatedAt": "2026-11-28T03:50:00Z",
+ "updatedAt": "2026-11-28T06:50:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
    "city": "Greer, SC",
    "query": "house cleaning Greer SC",
-   "checkedAt": "2026-11-27T06:50:00Z",
+   "checkedAt": "2026-11-28T06:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: House Cleaning in Greer, SC"
+     "title": "Care.com house cleaning Greer"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Care.com Greer SC page 2"
+     "title": "Care.com Greer page 2"
     },
     {
      "pos": 3,
      "domain": "angi.com",
-     "title": "House cleaning - Angi Greer"
+     "title": "house cleaning"
     },
     {
      "pos": 4,
@@ -37,22 +37,22 @@
     {
      "pos": 6,
      "domain": "angi.com",
-     "title": "An Artistic Touch Cleaning Service - Angi"
+     "title": "An Artistic Touch Cleaning Service"
     },
     {
      "pos": 7,
      "domain": "thecleaningauthority.com",
-     "title": "The Cleaning Authority Greer"
+     "title": "house cleaning Greer"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Care.com cleaning lady Greer SC"
+     "title": "Care.com cleaning lady Greer"
     },
     {
      "pos": 9,
      "domain": "bbb.org",
-     "title": "Maid service in Greer - BBB"
+     "title": "maid service Greer"
     },
     {
      "pos": 10,
@@ -70,37 +70,42 @@
      "pos": 7,
      "domain": "thecleaningauthority.com",
      "name": "The Cleaning Authority"
+    },
+    {
+     "pos": 6,
+     "domain": "angi.com",
+     "name": "An Artistic Touch Cleaning Service"
     }
    ],
-   "tip": "MaidPro aparece com nota 4.8 e 161 avaliações na descrição; mostrar a nota do Google e avaliações reais na página de Greer e linkar a página a partir dos artigos locais.",
+   "tip": "MaidPro mostra nota 4,8 com 161 avaliações e o Angi mostra 4,6; destacar as avaliações 5 estrelas do Google na página de Greer e pedir mais avaliações aos clientes.",
    "error": null
   },
   "taylors-sc": {
    "city": "Taylors, SC",
    "query": "house cleaning Taylors SC",
-   "checkedAt": "2026-11-27T06:50:00Z",
+   "checkedAt": "2026-11-28T06:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: House Cleaning in Taylors, SC"
+     "title": "Care.com house cleaning Taylors"
     },
     {
      "pos": 2,
-     "domain": "angi.com",
-     "title": "Cleaning services in Taylors - Angi"
+     "domain": "bbb.org",
+     "title": "House Cleaning Taylors"
     },
     {
      "pos": 3,
-     "domain": "bbb.org",
-     "title": "House Cleaning in Taylors - BBB"
+     "domain": "angi.com",
+     "title": "cleaning"
     },
     {
      "pos": 4,
      "domain": "angi.com",
-     "title": "House cleaning - Angi Taylors"
+     "title": "house cleaning"
     },
     {
      "pos": 5,
@@ -110,49 +115,49 @@
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Taylors SC"
+     "title": "Care.com housekeeping Taylors"
     },
     {
      "pos": 7,
      "domain": "care.com",
-     "title": "Care.com cleaning lady Taylors SC"
+     "title": "Care.com cleaning lady Taylors"
     },
     {
      "pos": 8,
      "domain": "homeadvisor.com",
-     "title": "Walls Ceilings Clean - HomeAdvisor"
+     "title": "Walls Ceilings Clean"
     },
     {
      "pos": 9,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Taylors page 2"
+     "title": "Care.com cleaning lady Taylors page 2"
     },
     {
      "pos": 10,
-     "domain": "bbb.org",
-     "title": "Cleaning services in Taylors - BBB"
+     "domain": "care.com",
+     "title": "Care.com housekeeping Taylors page 2"
     }
    ],
    "competitors": [],
-   "tip": "Nenhuma empresa local aparece, só diretórios (Care.com, Angi, BBB); há espaço para ranquear com uma página de Taylors com serviços, bairros e perguntas frequentes.",
+   "tip": "O topo é de diretórios (Care.com, BBB, Angi); poucas empresas próprias aparecem. Reforçar a página de Taylors com área atendida, estimativa grátis e avaliações.",
    "error": null
   },
   "duncan-sc": {
    "city": "Duncan, SC",
    "query": "house cleaning Duncan SC",
-   "checkedAt": "2026-11-27T06:50:00Z",
+   "checkedAt": "2026-11-28T06:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: House Cleaning in Duncan, SC"
+     "title": "Care.com house cleaning Duncan"
     },
     {
      "pos": 2,
      "domain": "angi.com",
-     "title": "House cleaning - Angi Duncan"
+     "title": "house cleaning"
     },
     {
      "pos": 3,
@@ -162,32 +167,32 @@
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Duncan SC"
+     "title": "Care.com housekeeping Duncan"
     },
     {
      "pos": 5,
      "domain": "homeadvisor.com",
-     "title": "Maid Service Duncan SC - HomeAdvisor"
+     "title": "Compare Quotes from Cleaning Services"
     },
     {
      "pos": 6,
      "domain": "bbb.org",
-     "title": "Maid service in Duncan - BBB"
+     "title": "maid service Duncan"
     },
     {
      "pos": 7,
      "domain": "angi.com",
-     "title": "Cleaning in Duncan - Angi"
+     "title": "cleaning"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Care.com cleaning lady Duncan SC"
+     "title": "Care.com cleaning lady Duncan"
     },
     {
      "pos": 9,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Duncan page 2"
+     "title": "Care.com housekeeping Duncan page 2"
     },
     {
      "pos": 10,
@@ -196,30 +201,30 @@
     }
    ],
    "competitors": [],
-   "tip": "Só diretórios no topo; a página de Duncan pode se destacar com limpeza verde e pós-obra, e com texto próprio sobre a cidade e a vizinhança de Spartanburg.",
+   "tip": "Só diretórios no topo; o HomeAdvisor mostra empresas com nota e anos de atuação. Destacar na página de Duncan avaliações reais e orçamento grátis.",
    "error": null
   },
   "lyman-sc": {
    "city": "Lyman, SC",
    "query": "house cleaning Lyman SC",
-   "checkedAt": "2026-11-27T06:50:00Z",
+   "checkedAt": "2026-11-28T06:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "angi.com",
-     "title": "House cleaning - Angi Lyman"
+     "title": "house cleaning"
     },
     {
      "pos": 2,
      "domain": "care.com",
-     "title": "Care.com: House Cleaning in Lyman, SC"
+     "title": "Care.com house cleaning Lyman"
     },
     {
      "pos": 3,
      "domain": "bbb.org",
-     "title": "House cleaning in Lyman - BBB"
+     "title": "house cleaning Lyman"
     },
     {
      "pos": 4,
@@ -234,17 +239,17 @@
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Care.com Housekeeping Lyman SC"
+     "title": "Care.com housekeeping Lyman"
     },
     {
      "pos": 7,
      "domain": "bbb.org",
-     "title": "Maid service in Lyman - BBB"
+     "title": "maid service Lyman"
     },
     {
      "pos": 8,
      "domain": "care.com",
-     "title": "Care.com cleaning lady Lyman SC"
+     "title": "Care.com cleaning lady Lyman"
     },
     {
      "pos": 9,
@@ -254,11 +259,11 @@
     {
      "pos": 10,
      "domain": "match.angi.com",
-     "title": "Post-Construction Cleaning - Angi"
+     "title": "Post-Construction Cleaning Services"
     }
    ],
    "competitors": [],
-   "tip": "Só diretórios aparecem para Lyman; criar perguntas frequentes locais na página e linkar Lyman a partir dos artigos de Greer e Duncan.",
+   "tip": "Diretórios dominam; o BBB aparece no top 3. Fazer o perfil do BBB e destacar na página de Lyman a confiança (avaliações e orçamento grátis).",
    "error": null
   },
   "wade-hampton-sc": {
@@ -1556,14 +1561,14 @@
   "spartanburg-sc": {
    "city": "Spartanburg, SC",
    "query": "house cleaning Spartanburg SC",
-   "checkedAt": "2026-11-27T06:50:00Z",
+   "checkedAt": "2026-11-28T06:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com: House Cleaning in Spartanburg, SC"
+     "title": "Care.com house cleaning Spartanburg"
     },
     {
      "pos": 2,
@@ -1573,7 +1578,7 @@
     {
      "pos": 3,
      "domain": "thumbtack.com",
-     "title": "Refreshly LLC - Thumbtack"
+     "title": "Refreshly LLC"
     },
     {
      "pos": 4,
@@ -1583,27 +1588,32 @@
     {
      "pos": 5,
      "domain": "thecleaningauthority.com",
-     "title": "House cleaning - The Cleaning Authority"
+     "title": "house cleaning Spartanburg County"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Care.com: Housekeeping in Spartanburg, SC"
+     "title": "Care.com housekeeping Spartanburg page 3"
     },
     {
      "pos": 7,
+     "domain": "care.com",
+     "title": "Care.com housekeeping Spartanburg page 2"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeeping Spartanburg"
+    },
+    {
+     "pos": 9,
      "domain": "thumbtack.com",
      "title": "A MoM's Touch Cleaning Service"
     },
     {
-     "pos": 8,
-     "domain": "homeadvisor.com",
-     "title": "House cleaning Spartanburg SC - HomeAdvisor"
-    },
-    {
-     "pos": 9,
-     "domain": "angi.com",
-     "title": "Cleaning companies in Spartanburg - Angi"
+     "pos": 10,
+     "domain": "thumbtack.com",
+     "title": "Cleaning Maid Easy LLC"
     }
    ],
    "competitors": [
@@ -1611,9 +1621,24 @@
      "pos": 4,
      "domain": "thecleaningauthority.com",
      "name": "The Cleaning Authority"
+    },
+    {
+     "pos": 3,
+     "domain": "thumbtack.com",
+     "name": "Refreshly LLC"
+    },
+    {
+     "pos": 9,
+     "domain": "thumbtack.com",
+     "name": "A MoM's Touch Cleaning Service"
+    },
+    {
+     "pos": 10,
+     "domain": "thumbtack.com",
+     "name": "Cleaning Maid Easy LLC"
     }
    ],
-   "tip": "Só diretórios e a franquia The Cleaning Authority aparecem; reforçar a página de Spartanburg com preço de partida, bairros atendidos e avaliações do Google para competir com os diretórios.",
+   "tip": "A Cleaning Authority aparece duas vezes no top 5 e o Thumbtack mostra pequenas empresas locais; criar o perfil no Thumbtack e reforçar a página de Spartanburg com estimativa grátis e avaliações.",
    "error": null
   },
   "fountain-inn-sc": {
@@ -2338,7 +2363,7 @@
   "chesnee-sc": {
    "city": "Chesnee, SC",
    "query": "house cleaning Chesnee SC",
-   "checkedAt": "2026-11-27T00:55:00Z",
+   "checkedAt": "2026-11-28T06:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -2364,12 +2389,37 @@
     },
     {
      "pos": 5,
+     "domain": "care.com",
+     "title": "Care.com housekeeping Chesnee page 2"
+    },
+    {
+     "pos": 6,
      "domain": "angi.com",
      "title": "cleaning"
+    },
+    {
+     "pos": 7,
+     "domain": "care.com",
+     "title": "Care.com housekeepers Chesnee"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeepers Chesnee page 3"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "Care.com move-out cleaning Chesnee"
+    },
+    {
+     "pos": 10,
+     "domain": "angi.com",
+     "title": "couch cleaning services"
     }
    ],
    "competitors": [],
-   "tip": "O topo é só diretórios (Angi e Care.com); nenhuma empresa local própria aparece. Oportunidade: página de Chesnee com serviços, área atendida e orçamento grátis.",
+   "tip": "O topo é só diretórios (Angi e Care.com) e nenhuma empresa local própria aparece. Oportunidade: reforçar a página de Chesnee com serviços, área atendida e orçamento grátis.",
    "error": null
   },
   "flat-rock-nc": {
