@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-11-27T21:45:00Z",
- "now": "Revisei as buscas de 6 cidades (Pickens, Berea, Boiling Springs, Gantt, Liberty, Parker: só diretórios no topo) e 3 diretórios (nenhum perfil novo); 37 títulos e descrições e os links internos estão em ordem; 3 aberturas repetidas reescritas; a rotina diária de hoje ainda não publicou.",
+ "updatedAt": "2026-11-28T00:50:00Z",
+ "now": "Revisei as buscas de 6 cidades (Roebuck, Marietta, Landrum, Fountain Inn, Tryon, Piedmont: só diretórios no topo), 3 diretórios (nenhum perfil novo) e 564 artigos (títulos, descrições, links internos e aberturas em ordem); a rotina diária não publica desde 26/11.",
  "items": [
   {
    "id": "seo-diretorios",
@@ -1191,6 +1191,20 @@
    "foundAt": "2026-11-27",
    "doneAt": "2026-11-27",
    "result": "Nova abertura sobre as horas entre hóspedes na US-29 em Wade Hampton"
+  },
+  {
+   "id": "seo-rotina-diaria-2026-11-28",
+   "title": "Rotina diária parada desde 26/11: retomar a publicação",
+   "area": "tecnico",
+   "owner": "voce",
+   "status": "aberta",
+   "priority": 1,
+   "page": "https://perfectservicespaintingcleaning.com/blog/",
+   "why": "Não há commit 'Daily articles' em 27/11 nem em 28/11; o site parou de receber os 32 artigos por dia.",
+   "action": "Conferir a rotina diária (agendamento e erros da última execução) e reiniciar.",
+   "foundAt": "2026-11-28",
+   "doneAt": null,
+   "result": null
   }
  ]
 }

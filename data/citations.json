@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-27T21:45:00Z",
+ "updatedAt": "2026-11-28T00:50:00Z",
  "kit": [
   {
    "label": "Business name (igual ao Google)",
@@ -94,7 +94,7 @@
    "match": "yelp.com",
    "status": "pending",
    "url": null,
-   "checkedAt": "2026-11-27T12:50:00Z"
+   "checkedAt": "2026-11-28T00:50:00Z"
   },
   {
    "id": "angi",
@@ -160,7 +160,7 @@
    "match": "facebook.com",
    "status": "pending",
    "url": null,
-   "checkedAt": "2026-11-27T07:55:00Z"
+   "checkedAt": "2026-11-28T00:50:00Z"
   },
   {
    "id": "bbb",
@@ -193,7 +193,7 @@
    "match": "greerchamber.com",
    "status": "pending",
    "url": null,
-   "checkedAt": "2026-11-27T07:55:00Z"
+   "checkedAt": "2026-11-28T00:50:00Z"
   }
  ]
 }
