@@ -1,5 +1,5 @@
 {
- "checkedAt": "2026-11-28T00:50:00Z",
+ "checkedAt": "2026-11-28T03:50:00Z",
  "overall": "error",
  "checks": [
   {
@@ -24,7 +24,7 @@
    "id": "daily_run",
    "label": "Rotina diária",
    "status": "error",
-   "detail": "Sem artigos de ontem (27/11) nem de hoje: o último dia publicado foi 26/11. A rotina das 7h de São Paulo não rodou 27/11. Verificar a rotina diária"
+   "detail": "Sem artigos de ontem (27/11) nem de hoje: o último dia publicado foi 26/11. A rotina das 7h de São Paulo não rodou em 27/11. Verificar a rotina diária"
   },
   {
    "id": "daily_count",
@@ -77,6 +77,11 @@
  ],
  "fixes": [],
  "history": [
+  {
+   "at": "2026-11-28T03:50:00Z",
+   "overall": "error",
+   "summary": "Rotina diária de 27/11 não rodou; demais verificações ok ou com aviso"
+  },
   {
    "at": "2026-11-28T00:50:00Z",
    "overall": "error",
@@ -371,11 +376,6 @@
    "at": "2026-11-20T12:50:00Z",
    "overall": "ok",
    "summary": "Tudo certo; 2 títulos encurtados"
-  },
-  {
-   "at": "2026-11-20T09:55:00Z",
-   "overall": "ok",
-   "summary": "Tudo certo"
   }
  ]
 }

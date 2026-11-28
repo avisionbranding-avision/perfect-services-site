@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-28T00:50:00Z",
+ "updatedAt": "2026-11-28T03:50:00Z",
  "method": "Busca na web (aproximada, não é o Google oficial)",
  "cities": {
   "greer-sc": {
@@ -1728,7 +1728,7 @@
   "powdersville-sc": {
    "city": "Powdersville, SC",
    "query": "house cleaning Powdersville SC",
-   "checkedAt": "2026-11-27T00:55:00Z",
+   "checkedAt": "2026-11-28T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -1750,37 +1750,47 @@
     {
      "pos": 4,
      "domain": "bbb.org",
-     "title": "House cleaning (Easley)"
+     "title": "House cleaning - Easley BBB"
     },
     {
      "pos": 5,
+     "domain": "maids.com",
+     "title": "House Cleaning Services in South Carolina"
+    },
+    {
+     "pos": 6,
      "domain": "thumbtack.com",
      "title": "Peerless Maids"
     },
     {
-     "pos": 6,
+     "pos": 7,
+     "domain": "bbb.org",
+     "title": "House Cleaning Pelzer BBB"
+    },
+    {
+     "pos": 8,
      "domain": "maids.com",
      "title": "House Cleaning Services in South Carolina"
+    },
+    {
+     "pos": 9,
+     "domain": "bbb.org",
+     "title": "House Cleaning Clemson BBB"
+    },
+    {
+     "pos": 10,
+     "domain": "bbb.org",
+     "title": "House Cleaning Pickens BBB"
     }
    ],
    "competitors": [
     {
-     "pos": 1,
-     "domain": "homeguide.com",
-     "name": "JL's Cleaning Service"
-    },
-    {
-     "pos": 2,
-     "domain": "thumbtack.com",
-     "name": "Cris House Cleaning"
-    },
-    {
-     "pos": 3,
-     "domain": "manta.com",
-     "name": "SNP 365 Cleaners"
+     "pos": 5,
+     "domain": "maids.com",
+     "name": "Maids.com"
     }
    ],
-   "tip": "Poucas empresas locais aparecem; o topo é de diretórios e perfis pequenos sem reviews. Reforçar a página de Powdersville com preço inicial, FAQ e a nota do Google.",
+   "tip": "Poucos resultados mencionam Powdersville de fato; deixar o nome da cidade no título, no primeiro parágrafo e citar Easley e Piedmont como vizinhas na página de Powdersville.",
    "error": null
   },
   "tryon-nc": {
@@ -1932,14 +1942,14 @@
   "saluda-nc": {
    "city": "Saluda, NC",
    "query": "house cleaning Saluda NC",
-   "checkedAt": "2026-11-27T00:55:00Z",
+   "checkedAt": "2026-11-28T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com house cleaning Saluda"
+     "title": "Care.com house cleaning Saluda NC"
     },
     {
      "pos": 2,
@@ -1949,43 +1959,58 @@
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com housekeepers"
+     "title": "Care.com housekeepers Saluda"
     },
     {
      "pos": 4,
+     "domain": "care.com",
+     "title": "Care.com housekeeping Saluda"
+    },
+    {
+     "pos": 5,
      "domain": "maidpro.com",
      "title": "MaidPro Saluda, NC"
     },
     {
-     "pos": 5,
-     "domain": "care.com",
-     "title": "Care.com housekeeping"
-    },
-    {
      "pos": 6,
      "domain": "angi.com",
-     "title": "Cleaning Maid Services Mill Spring"
+     "title": "Compare Quotes from House Cleaning Services"
     },
     {
      "pos": 7,
      "domain": "homeadvisor.com",
-     "title": "House Cleaning Saluda"
+     "title": "House Cleaning"
+    },
+    {
+     "pos": 8,
+     "domain": "homeadvisor.com",
+     "title": "house cleaning Saluda NC"
+    },
+    {
+     "pos": 9,
+     "domain": "care.com",
+     "title": "Care.com cleaning lady Saluda"
+    },
+    {
+     "pos": 10,
+     "domain": "care.com",
+     "title": "Care.com housekeeping Saluda page 2"
     }
    ],
    "competitors": [
     {
-     "pos": 4,
+     "pos": 5,
      "domain": "maidpro.com",
      "name": "MaidPro"
     }
    ],
-   "tip": "MaidPro (franquia) aparece com página própria para Saluda. Destacar na página de Saluda o que nos diferencia: equipe brasileira local, orçamento grátis e avaliações.",
+   "tip": "A MaidPro tem página própria para Saluda; a nossa página de Saluda deve destacar atendimento local, tipos de serviço e pedido de orçamento grátis logo no topo.",
    "error": null
   },
   "columbus-nc": {
    "city": "Columbus, NC",
    "query": "house cleaning Columbus NC",
-   "checkedAt": "2026-11-27T00:55:00Z",
+   "checkedAt": "2026-11-28T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -2002,45 +2027,65 @@
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com housekeeping"
+     "title": "Care.com housekeeping Columbus"
     },
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Care.com housekeeping (page 2)"
+     "title": "Care.com housekeeping Columbus page 2"
     },
     {
      "pos": 5,
      "domain": "care.com",
-     "title": "Care.com cleaning lady"
+     "title": "Care.com cleaning lady Columbus"
     },
     {
      "pos": 6,
-     "domain": "merrymaids.com",
-     "title": "Merry Maids Columbus"
+     "domain": "care.com",
+     "title": "Care.com housekeepers page 3"
+    },
+    {
+     "pos": 7,
+     "domain": "angi.com",
+     "title": "cleaning Columbus NC"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeepers Columbus"
+    },
+    {
+     "pos": 9,
+     "domain": "angi.com",
+     "title": "Helping Hands Cleaning & More"
+    },
+    {
+     "pos": 10,
+     "domain": "angi.com",
+     "title": "house cleaning Columbia NC"
     }
    ],
    "competitors": [
     {
-     "pos": 6,
+     "pos": 12,
      "domain": "merrymaids.com",
      "name": "Merry Maids"
     }
    ],
-   "tip": "Resultados misturam outras cidades chamadas Columbus. Deixar claro \"Columbus, NC\" e a área atendida na página para se destacar dos diretórios.",
+   "tip": "Os resultados são quase só diretórios e misturam outras cidades Columbus; citar Polk County e Tryon na página de Columbus NC para deixar claro o local.",
    "error": null
   },
   "easley-sc": {
    "city": "Easley, SC",
    "query": "house cleaning Easley SC",
-   "checkedAt": "2026-11-27T00:55:00Z",
+   "checkedAt": "2026-11-28T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com house cleaning Easley"
+     "title": "Care.com house cleaning Easley SC"
     },
     {
      "pos": 2,
@@ -2055,31 +2100,41 @@
     {
      "pos": 4,
      "domain": "care.com",
-     "title": "Care.com house cleaning (page 2)"
+     "title": "Care.com Easley page 2"
     },
     {
      "pos": 5,
      "domain": "bbb.org",
-     "title": "maid service"
+     "title": "Maid service BBB"
     },
     {
      "pos": 6,
      "domain": "care.com",
-     "title": "Care.com housekeeping"
+     "title": "Care.com housekeeping Easley"
     },
     {
      "pos": 7,
+     "domain": "care.com",
+     "title": "Care.com housekeeping Easley page 2"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com housekeepers Easley page 3"
+    },
+    {
+     "pos": 9,
      "domain": "thumbtack.com",
      "title": "Check out 10 house cleaners in your area"
     },
     {
-     "pos": 8,
+     "pos": 10,
      "domain": "homeadvisor.com",
-     "title": "house cleaning Easley"
+     "title": "house cleaning Easley SC"
     }
    ],
    "competitors": [],
-   "tip": "Diretórios mostram nota e preço por hora (Care.com, Angi, Thumbtack). Na página de Easley, destacar nota do Google, preço inicial por visita e FAQ.",
+   "tip": "Nenhuma empresa própria no topo, só diretórios: boa chance; mostrar avaliações do Google, faixa de preço e FAQ na página de Easley.",
    "error": null
   },
   "gray-court-sc": {
@@ -2215,7 +2270,7 @@
   "cowpens-sc": {
    "city": "Cowpens, SC",
    "query": "house cleaning Cowpens SC",
-   "checkedAt": "2026-11-27T00:55:00Z",
+   "checkedAt": "2026-11-28T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
@@ -2232,7 +2287,7 @@
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com housekeepers Cowpens"
+     "title": "Care.com housekeepers Cowpens page 2"
     },
     {
      "pos": 4,
@@ -2248,10 +2303,36 @@
      "pos": 6,
      "domain": "angi.com",
      "title": "cleaning"
+    },
+    {
+     "pos": 7,
+     "domain": "care.com",
+     "title": "Care.com housekeeping services Cowpens"
+    },
+    {
+     "pos": 8,
+     "domain": "care.com",
+     "title": "Care.com Cowpens"
+    },
+    {
+     "pos": 9,
+     "domain": "angi.com",
+     "title": "No Prints Professional Cleaning Service"
+    },
+    {
+     "pos": 10,
+     "domain": "instaservice.com",
+     "title": "house cleaning 3 bed 2 bath"
     }
    ],
-   "competitors": [],
-   "tip": "Só diretórios no topo (Angi e Care.com). Mostrar na página de Cowpens o preço inicial, o orçamento grátis e perguntas frequentes para competir com eles.",
+   "competitors": [
+    {
+     "pos": 10,
+     "domain": "instaservice.com",
+     "name": "InstaService"
+    }
+   ],
+   "tip": "Diretórios dominam e um concorrente mostra preço por tamanho de casa (3 quartos/2 banheiros); acrescentar exemplos de tamanho de casa e orçamento grátis na página de Cowpens.",
    "error": null
   },
   "chesnee-sc": {
@@ -2633,34 +2714,34 @@
   "hendersonville-nc": {
    "city": "Hendersonville, NC",
    "query": "house cleaning Hendersonville NC",
-   "checkedAt": "2026-11-26T21:50:00Z",
+   "checkedAt": "2026-11-28T03:50:00Z",
    "ourPosition": null,
    "ourUrl": null,
    "top": [
     {
      "pos": 1,
      "domain": "care.com",
-     "title": "Care.com house cleaning Hendersonville NC"
+     "title": "Care.com - house cleaning Hendersonville NC"
     },
     {
      "pos": 2,
-     "domain": "match.angi.com",
+     "domain": "angi.com",
      "title": "Compare Quotes from Cleaning Services"
     },
     {
      "pos": 3,
      "domain": "care.com",
-     "title": "Care.com cleaning lady Hendersonville"
+     "title": "Care.com - cleaning lady Hendersonville NC"
     },
     {
      "pos": 4,
      "domain": "bbb.org",
-     "title": "House Cleaning - BBB Hendersonville"
+     "title": "BBB: House Cleaning Hendersonville NC"
     },
     {
      "pos": 5,
      "domain": "homeadvisor.com",
-     "title": "house cleaning Hendersonville"
+     "title": "House cleaning Hendersonville NC"
     },
     {
      "pos": 6,
@@ -2670,7 +2751,7 @@
     {
      "pos": 7,
      "domain": "merrymaids.com",
-     "title": "Merry Maids Hendersonville"
+     "title": "Merry Maids Asheville / Hendersonville"
     },
     {
      "pos": 8,
@@ -2680,7 +2761,7 @@
     {
      "pos": 9,
      "domain": "angi.com",
-     "title": "cleaning Hendersonville"
+     "title": "Angi cleaning Hendersonville"
     },
     {
      "pos": 10,
@@ -2695,12 +2776,12 @@
      "name": "Merry Maids"
     },
     {
-     "pos": 15,
+     "pos": 14,
      "domain": "mollymaid.com",
      "name": "Molly Maid"
     }
    ],
-   "tip": "Merry Maids e Molly Maid aparecem com páginas locais e orçamento grátis. Na página de Hendersonville, destacar orçamento grátis, telefone e avaliações do Google; a cidade fica a cerca de 40 milhas de Greer, então deixar claro que é área atendida.",
+   "tip": "Só diretórios e franquias (Merry Maids, Molly Maid) aparecem; criar uma página forte para Hendersonville com cidades vizinhas, FAQ e avaliações do Google para ganhar espaço sobre os diretórios.",
    "error": null
   }
  }
